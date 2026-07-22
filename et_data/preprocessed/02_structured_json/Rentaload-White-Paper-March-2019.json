@@ -1,0 +1,308 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\12_Research_Papers\\Rentaload-White-Paper-March-2019.pdf",
+  "filename": "Rentaload-White-Paper-March-2019.pdf",
+  "category": "12_Research_Papers",
+  "parent_category": "12_Research_Papers",
+  "extracted_at": "2026-06-29T19:57:55.778397",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Load banks and Data Centre Commissioning \nTips, Field Notes & Best Practices \nWHITE PAPER \nMarch 2019 – V1.5",
+      "char_count": 108
+    },
+    {
+      "page": 2,
+      "text": "1/8 \n \n \n \n \nIntroduction \nRentaload is a Load bank services company, based in France with offices in the UK and Germany, \ncovering projects across the whole of Europe. Rentaload leverages its partners many years of \nexperience in manufacturing load banks and as a result, offers its clients rental and services solutions \nfor resistive, inductive and capacitive load banks, built and optimized specifically for datacentres. \nRentaload provide banks, accessories, and services such as set-up de-mobilization, assistance in \ncommissioning, commissioning for multiple applications all over Europe: testing diesel generators, \nacceptance testing for server rooms, dummy load, unloading, etc. \nIn this white paper we’re going to share some tips, field notes and best practices relating to the use of \nload banks in data center commissioning. This white paper will be of interest to Data Centre Managers, \nNew Build Project Managers, Commissioning Engineers, Power and Cooling Suppliers and specialist data \ncentre consultancies. \n \n \nLoad Bank & Commissioning in Data Centers Sector \nSummary \nA load bank is a device that develops an electrical load, that is then applied to an external electrical \npower source which then coverts or dissipates the power output of the source. Load banks generally \ncome equipped with protection circuits, controls and metering and ancillary devices used for their \noperation. They can be used to test AC systems, UPS, Generators and Batteries. They are considered \nto be the best way to commission, prove and verify the operation of mission critical power and cooling \nsystems. \nTheir use in the data center environment is thus essential.",
+      "char_count": 1668
+    },
+    {
+      "page": 3,
+      "text": "2/8 \n \n \nGeneral Building Tests \nAll buildings undergo commissioning or tenant checks prior to the new owners taking possession or \nnew tenants moving in, these checks ensure that all building systems (fire, security, environmentals, \nand IT systems) are working and meet the required specifications. \nIn mission critical data centers these checks are of paramount importance, and load banks are used to \nverify the operation of critical systems at 3 of the 5 stages of the total IST processes to fulfil Global \nCertification Bodies requirements for IST’s. \nLoad banks are used to verify functionality for AC and Power Systems, individually, and combined as \npart of IST. \n[TIP: IST’s can take up to 3 weeks, depending on the test schedule, ensure that you have sufficient \nbudget for testing] \nField Note: Rentaload are being retained by end user clients to test potential sites for selection \npurposes, we always ask to see the original IST test sheets and final IST report (if available) and include \nthis information back to our end user clients \n \n \nCooling Systems \nASHRAE recommend a temperature range of between 18-27°C and an allowable range of between 5-\n45° (depending on class and other conditions as specified in the ASHRAE TC9.9 documentation) \n[TIP: Always use the latest industry guidelines for design and operation and thus the IST of data centres] \nYour load bank operational ranges and placement should be able to replicate a range of temperatures, \nand to ensure the correct test parameters for efficient operation of cooling equipment, be able to \nreplicate a range of supply and return temperatures, with at least a ∆T of 15° \nLoad banks are used to test the functionality of cooling systems but problems in the validity of the tests \ncan arise depending on the test configuration. The test configuration should replicate as close as \npossible the intended full design cooling load of the data centre. \n[TIP: Conduct Cooling tests for design capacity] \nField Note: Rentaload assisted a client to realise the design capacity testing schedule prior to the \ninstallation of racks and containment systems by constructing a temporary aisle test configuration \n \n \n \n \nWhite Paper",
+      "char_count": 2196
+    },
+    {
+      "page": 4,
+      "text": "3/8 \n \n \nAir Flow Direction \nHot air rises, yes? But not necessarily true in a data centre environment, where we can find horizontal \nair streams, due to the confinement of the IT equipment in racks and the server manufacturers \ndesigning to draw air through the front of the equipment and exhaust it at the rear. \nAs a result, your load banks should be able to provide horizontal air flow, this will identify any potential \nhot spots and ensure that airflow testing with replicate real life conditions \nBest Practice: Test at different loads throughout the design, minimum loads should be 25%, 50%, 75% \nand 100%, but you can test at any increment in conjunction with your expected load and build out \nperiod. \n \nPower Systems \nA load bank test replicates real operation by applying the load in situ, with real temperatures and \nrelative humidity. The load bank only draws power (current and voltage) to test the infrastructure, and \nthen dissipates it safely as heat. \nLoad banks are thus used to simulate the IT power load, but as with temperature, this tends to only test \na fixed load, requiring multiples of test rigs, if higher than normal rack densities are required. It also \ndoesn’t replicate the varying power and heat that actual IT loads will generate. \nThat said, the use of load banks can provide good estimates of the equipment’s characteristics in \ncontrolled settings with very high accuracy \nMany organisations offer load banks of all shapes and sizes, and with varying characteristics and \noptions, for sale or rent. \nTIP: Select a LOAD BANK company that can provide a range of options that tests both temperature \nand power draw capabilities for the range of IT environments that can be experienced. \nRentaload offers rental of the first 6kW variable air flow load bank with power source converter 100% \non line A, 100% on line B or 50% or line A & 50% on line B. With 2 possible supply sources, this load \nbank makes it possible to test the changeover from a main supply channel to an emergency route or \nto share the load between 2 sources. \nWith a precision of 500W, the rack load bank is the most accurate on the market \n \nPicture of Rentaload smart racklable load banks (6 kW and 7 kW)",
+      "char_count": 2211
+    },
+    {
+      "page": 5,
+      "text": "4/8 \n \n[Tip: Using load banks with integrated ATS dual power feed capability can reduce testing time as they \ncan test A/B sides virtually simultaneously, and can be configured for 2N+1 data centre configuration \nField Note: The use of connected load banks combined with an efficient monitoring system (software \nbased) will reduce IST testing time and provide more accurate results. \nBest Practice: Use a range of load banks to test all power configurations",
+      "char_count": 458
+    },
+    {
+      "page": 6,
+      "text": "5/8 \n \nIntegrated Systems Testing \nPlanning \nIt’s never too early to start planning for your IST, and many data center construction projects adopt a \n5 stage IST process, being, factory witness testing, site acceptance testing, pre-functional testing and \nstart up, functional performance testing and then integrated systems testing. Load banks can be used \nfor the last 3 stages. \n[Tip: Get your load bank supplier engaged as early as possible to assist in the planning of the tests and \nto book equipment.] \nBest Practice: As per EN50600 3-1, it is essential that FM or DC Managers are involved in the IST. \n \nInstallation \nAs the time available for IST may be limited, it is good practice to ensure that the load banks are easy \nto deploy in all possible modes and test configurations. \nTypical scenarios for IST commissioning are prior to the installation of the racks and aisle containment \nand this can mean that the results are not an accurate representation of the original design. \nTo reduce energy costs for data center cooling, hot and cold air are often separated by enclosing \nopposing server rack rows. Without this separation the forced-air cooling units would intake a mixture \nof cooled supply air and hot exhaust air. As a result, the temperature difference over the cooler would \nbe smaller and its effective performance lower as explained by the following equation. \nIt results from the thermodynamic relationship with the physical quantities of required air volume, \nheat load to be dissipated and necessary temperature difference: \n𝑉𝐼=\n𝑄𝑜\n𝜑𝑎𝑖𝑟 ∙ 𝐶𝑝 𝑎𝑖𝑟 ∙ ∆𝑇\n \n \nConstant values are the air density φair 1.185 kg/m3 and the specific heat capacity Cp air= 1,0045 \nkj/kg/K. The dissipated heat load Qo is considered to be fixed. \nIt can be seen from the equation that if the temperature difference doubles from 10 K to 20 K, the \nrequired amount of air VI can be halved. \nSome test configurations place load banks adjacent to the cold aisle tiles to generate the hot thermal \nair streams but these fail to replicate the realistic air flow patterns caused using cold (or hot) aisles \nand/or containment. \nThe optimum way to test the final design is to replicate the hot/cold aisle configuration by the \ninstallation of a temporary aisle containment system, this allows the load banks to be positioned at \nvarious heights above the floor, which will more closely resemble an actual IT installation. \nTesting with temporary aisle containment, and with load banks with variable temperature and power \ndraws operation will better replicate real life configurations, both for initial IT equipment installation \nin the weeks following a successful commissioning, and in the future when equipment is replaced or \nexpansion takes place.",
+      "char_count": 2746
+    },
+    {
+      "page": 7,
+      "text": "6/8 \n \nSuch temporary aisle arrangements, should be prefabricated and modular, able to be installed \nwithout tools, be non-flammable, be airtight and provide the insertion of the load banks at different \nheights as required. \nField Note: Rentaload offer toolless shelves and ceilings that align with the proposed rack layouts or \ncontained systems (we will need the design drawing to ensure that the toolless shelves/ceilings are an \naccurate reflection of the proposed design). \n \n \n \n \n \n \n \nOn-site pictures of a temporary containement – Paris / July 2018 \n \nThe benefits of using toolless shelves/ceilings are a better test of the final layout and IT equipment fill, \nwe also provide temporary aisle configuration services, and Load bank IoT \n \nDrawing of toolless shelves \nValidation \nRentaload, in conjunction with our partners Ekkosense can provide design validation by analysing the \nprojected design airflow conditions which can be validated during the test. \n[Tip: Use Computational Fluid Dynamics software to design your data centre, and then validate in real \ntime using the Smart rack load bank in conjunction with CFD suppliers]",
+      "char_count": 1142
+    },
+    {
+      "page": 8,
+      "text": "7/8 \n \n \nCertification \nEvery data centre certification programme globally will use IST test results as a qualifying criterion in \ntheir assessment. \n \n \nIn Europe, EN50600 3-1, being the Information technology — Data centre facilities and infrastructures \nPart 3-1: Management and operational information standard, together with the rest of the EN50600 \nseries is rapidly becoming the only standard that is relevant for data centre design, build and operations \nacross Europe. It should also be noted that this series is also under consideration by the ISO for use \nglobally under the TS22237 series. A TS is a technical specification, and this is considered to be an \nenhanced consultation document for further debate prior to full standards classification. \nEN50600 3-1 states in Section 6, that “Handover to operations are described as phase 11 of the design \nprocess in EN 50600-1. A critical aspect of this handover is acceptance testing to ensure that the \nconstructed facility matches the original design intent. \nThere is a unique opportunity for extensive acceptance testing of the infrastructure prior to the first \nimplementation of IT and the connected starting point of productive operation of a data centre. Cross \ndomain tests can be carried out only during pre-production phase. All test results shall be documented. \nIt is strongly recommended to involve operational personnel in acceptance tests. \nDocumentation shall be provided by vendors and suppliers of infrastructure prior to start of tests. \nNo responsibility for “completed” construction areas should be undertaken by the site Operations \nManagement without the formal acceptance of the area according to defined criteria. These should \ninclude the following: \na) a full commissioning programme has been successfully completed up to and including \nIntegrated Systems Testing (IST) with all commissioning records fully updated; \n[TIP: Commissioning records should include Voltage, current, power and the delta T, the difference \nbetween incoming cold air and outgoing hot air, should be reported in an easy to exploit file, like a csv-\nfile.]",
+      "char_count": 2118
+    },
+    {
+      "page": 9,
+      "text": "8/8 \n \nField Note: Rentaload have access to independent consultants who are committee members that wrote \nand continue to amend the EN50600 series and can offer independent advice on all aspects of data \ncentre construction and operations \nb) all required training has been completed; \nc) Operations Management should not undertake any management responsibility until they have \nsatisfied themselves that the systems are working through acceptance testing and are able to be \nproperly maintained; \nd) Operations Management should have the opportunity to recruit and train staff well before live \noperations commence. Ideally the core staff should be present during commissioning; \n e) the following documentation should be made available prior to handover into live operations: \n1) up to date and accurate “As-Built” records and drawings including engineering single line diagrams; \n2) a full set of Operations and Maintenance manuals, including Standard Operating Procedures, \nMaintenance Operating Procedures, Emergency Operating Procedures, escalation procedures etc.; \n3) comprehensive commissioning records; \n4) an up to date and accurate Asset Register; \n5) a documented Planned Maintenance Schedule and a full set of maintenance records; \n6) all documentation required for compliance with statutory regulation; \n7) all documentation required for compliance with voluntary standards and certificates. \n[Tip: Advise your load bank provider that you will be seeking certification for the site and may require \nadditional commissioning documentation] \nBest Practice: All test data should satisfy the advantages of undergoing comprehensive commissioning \ntests, these include: Testing over a period of time to verify system performance as designed, without \nrisk to mission critical IT loads, to reduce critical infrastructure early equipment failure rates, the \nopportunity for maintenance and operations teams to get hands-on equipment experience, the \nopportunity to verify detailed written procedures that will govern live facility maintenance and \noperations, it will be the only opportunity to test the facility limitations and to avoid down time. \n \n \n \n \nSource directory : \n1. \nAmerican Society of Heating, Refrigerating and Air-Conditioning (ASHRAE), IST Commissioning Standards \n2. \nUptime Institute, conférence Professionnial Services Tier Certification, IST Commissioning, Novembre 2013 \n3. \nCENELEC: EN50600-3-1 \n4. \nBernd Dürr, IT-Räume und Rechenzentren planen und betreiben, 2.Auflage, 2018",
+      "char_count": 2509
+    },
+    {
+      "page": 10,
+      "text": "9/8 \n \n \n \n \nRentaload UK \n 18 Lumen Road, East Lane Business Park \nHA9 7RE Wembley, London, UK \n \nRentaload FR \n 1, chemin de chaumour \n21500 Montbard, FRANCE \n \n \nwww.rentaload.com \n \ncontact@rentaload.com",
+      "char_count": 207
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "|  |\n| --- |\n| Summary A load bank is a device that develops an electrical load, that is then applied to an external electrical power source which then coverts or dissipates the power output of the source. Load banks generally come equipped with protection circuits, controls and metering and ancillary devices used for their operation. They can be used to test AC systems, UPS, Generators and Batteries. They are considered to be the best way to commission, prove and verify the operation of mission critical power and cooling systems. Their use in the data center environment is thus essential. |",
+      "raw": [
+        [
+          ""
+        ],
+        [
+          "Summary\nA load bank is a device that develops an electrical load, that is then applied to an external electrical\npower source which then coverts or dissipates the power output of the source. Load banks generally\ncome equipped with protection circuits, controls and metering and ancillary devices used for their\noperation. They can be used to test AC systems, UPS, Generators and Batteries. They are considered\nto be the best way to commission, prove and verify the operation of mission critical power and cooling\nsystems.\nTheir use in the data center environment is thus essential."
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "table_index": 0,
+      "rows": 5,
+      "cols": 1,
+      "markdown": "| [TIP: IST’s can take up to 3 weeks, depending on the test schedule, ensure that you have sufficient |\n| --- |\n| budget for testing] |\n| Field Note: Rentaload are being retained by end user clients to test potential sites for selection |\n| purposes, we always ask to see the original IST test sheets and final IST report (if available) and include |\n| this information back to our end user clients |",
+      "raw": [
+        [
+          "[TIP: IST’s can take up to 3 weeks, depending on the test schedule, ensure that you have sufficient"
+        ],
+        [
+          "budget for testing]"
+        ],
+        [
+          "Field Note: Rentaload are being retained by end user clients to test potential sites for selection"
+        ],
+        [
+          "purposes, we always ask to see the original IST test sheets and final IST report (if available) and include"
+        ],
+        [
+          "this information back to our end user clients"
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "table_index": 1,
+      "rows": 3,
+      "cols": 1,
+      "markdown": "| [TIP: Conduct Cooling tests for design capacity] |\n| --- |\n| Field Note: Rentaload assisted a client to realise the design capacity testing schedule prior to the |\n| installation of racks and containment systems by constructing a temporary aisle test configuration |",
+      "raw": [
+        [
+          "[TIP: Conduct Cooling tests for design capacity]"
+        ],
+        [
+          "Field Note: Rentaload assisted a client to realise the design capacity testing schedule prior to the"
+        ],
+        [
+          "installation of racks and containment systems by constructing a temporary aisle test configuration"
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 1,
+      "markdown": "| Best Practice: Test at different loads throughout the design, minimum loads should be 25%, 50%, 75% |\n| --- |\n| and 100%, but you can test at any increment in conjunction with your expected load and build out |\n| period. |",
+      "raw": [
+        [
+          "Best Practice: Test at different loads throughout the design, minimum loads should be 25%, 50%, 75%"
+        ],
+        [
+          "and 100%, but you can test at any increment in conjunction with your expected load and build out"
+        ],
+        [
+          "period."
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "table_index": 1,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "| TIP: Select a LOAD BANK company that can provide a range of options that tests both temperature |\n| --- |\n| and power draw capabilities for the range of IT environments that can be experienced. |",
+      "raw": [
+        [
+          "TIP: Select a LOAD BANK company that can provide a range of options that tests both temperature"
+        ],
+        [
+          "and power draw capabilities for the range of IT environments that can be experienced."
+        ]
+      ]
+    },
+    {
+      "page": 5,
+      "table_index": 0,
+      "rows": 4,
+      "cols": 2,
+      "markdown": "| [Tip: Using load banks with integrated ATS dual power feed capability can reduce testing time as they |  |\n| --- | --- |\n| can test A/B sides virtually simultaneously, and can be configured for 2N+1 data centre configuration |  |\n| Field Note: The use of connected load banks combined with an efficient monitoring system (software |  |\n| based) will reduce IST testing time and provide more accurate results. |  |",
+      "raw": [
+        [
+          "[Tip: Using load banks with integrated ATS dual power feed capability can reduce testing time as they",
+          null
+        ],
+        [
+          "can test A/B sides virtually simultaneously, and can be configured for 2N+1 data centre configuration",
+          null
+        ],
+        [
+          "Field Note: The use of connected load banks combined with an efficient monitoring system (software",
+          ""
+        ],
+        [
+          "based) will reduce IST testing time and provide more accurate results.",
+          null
+        ]
+      ]
+    },
+    {
+      "page": 6,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 1,
+      "markdown": "| [Tip: Get your load bank supplier engaged as early as possible to assist in the planning of the tests and |\n| --- |\n| to book equipment.] |\n| Best Practice: As per EN50600 3-1, it is essential that FM or DC Managers are involved in the IST. |",
+      "raw": [
+        [
+          "[Tip: Get your load bank supplier engaged as early as possible to assist in the planning of the tests and"
+        ],
+        [
+          "to book equipment.]"
+        ],
+        [
+          "Best Practice: As per EN50600 3-1, it is essential that FM or DC Managers are involved in the IST."
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 1,
+      "markdown": "| Field Note: Rentaload offer toolless shelves and ceilings that align with the proposed rack layouts or |\n| --- |\n| contained systems (we will need the design drawing to ensure that the toolless shelves/ceilings are an |\n| accurate reflection of the proposed design). |",
+      "raw": [
+        [
+          "Field Note: Rentaload offer toolless shelves and ceilings that align with the proposed rack layouts or"
+        ],
+        [
+          "contained systems (we will need the design drawing to ensure that the toolless shelves/ceilings are an"
+        ],
+        [
+          "accurate reflection of the proposed design)."
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 1,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "| [Tip: Use Computational Fluid Dynamics software to design your data centre, and then validate in real |\n| --- |\n| time using the Smart rack load bank in conjunction with CFD suppliers] |",
+      "raw": [
+        [
+          "[Tip: Use Computational Fluid Dynamics software to design your data centre, and then validate in real"
+        ],
+        [
+          "time using the Smart rack load bank in conjunction with CFD suppliers]"
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 1,
+      "markdown": "| [TIP: Commissioning records should include Voltage, current, power and the delta T, the difference |\n| --- |\n| between incoming cold air and outgoing hot air, should be reported in an easy to exploit file, like a csv- |\n| file.] |",
+      "raw": [
+        [
+          "[TIP: Commissioning records should include Voltage, current, power and the delta T, the difference"
+        ],
+        [
+          "between incoming cold air and outgoing hot air, should be reported in an easy to exploit file, like a csv-"
+        ],
+        [
+          "file.]"
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 1,
+      "markdown": "| Field Note: Rentaload have access to independent consultants who are committee members that wrote |\n| --- |\n| and continue to amend the EN50600 series and can offer independent advice on all aspects of data |\n| centre construction and operations |",
+      "raw": [
+        [
+          "Field Note: Rentaload have access to independent consultants who are committee members that wrote"
+        ],
+        [
+          "and continue to amend the EN50600 series and can offer independent advice on all aspects of data"
+        ],
+        [
+          "centre construction and operations"
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 1,
+      "rows": 8,
+      "cols": 1,
+      "markdown": "| [Tip: Advise your load bank provider that you will be seeking certification for the site and may require |\n| --- |\n| additional commissioning documentation] |\n| Best Practice: All test data should satisfy the advantages of undergoing comprehensive commissioning |\n| tests, these include: Testing over a period of time to verify system performance as designed, without |\n| risk to mission critical IT loads, to reduce critical infrastructure early equipment failure rates, the |\n| opportunity for maintenance and operations teams to get hands-on equipment experience, the |\n| opportunity to verify detailed written procedures that will govern live facility maintenance and |\n| operations, it will be the only opportunity to test the facility limitations and to avoid down time. |",
+      "raw": [
+        [
+          "[Tip: Advise your load bank provider that you will be seeking certification for the site and may require"
+        ],
+        [
+          "additional commissioning documentation]"
+        ],
+        [
+          "Best Practice: All test data should satisfy the advantages of undergoing comprehensive commissioning"
+        ],
+        [
+          "tests, these include: Testing over a period of time to verify system performance as designed, without"
+        ],
+        [
+          "risk to mission critical IT loads, to reduce critical infrastructure early equipment failure rates, the"
+        ],
+        [
+          "opportunity for maintenance and operations teams to get hands-on equipment experience, the"
+        ],
+        [
+          "opportunity to verify detailed written procedures that will govern live facility maintenance and"
+        ],
+        [
+          "operations, it will be the only opportunity to test the facility limitations and to avoid down time."
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 10,
+    "title": "Load banks and Data Centre Commissioning Tips, Field Notes & Best Practices",
+    "author": "Herr Daniel Barth",
+    "subject": "WHITE PAPER",
+    "creator": "Microsoft® Word 2016"
+  },
+  "full_text": "Load banks and Data Centre Commissioning \nTips, Field Notes & Best Practices \nWHITE PAPER \nMarch 2019 – V1.5\n\n1/8 \n \n \n \n \nIntroduction \nRentaload is a Load bank services company, based in France with offices in the UK and Germany, \ncovering projects across the whole of Europe. Rentaload leverages its partners many years of \nexperience in manufacturing load banks and as a result, offers its clients rental and services solutions \nfor resistive, inductive and capacitive load banks, built and optimized specifically for datacentres. \nRentaload provide banks, accessories, and services such as set-up de-mobilization, assistance in \ncommissioning, commissioning for multiple applications all over Europe: testing diesel generators, \nacceptance testing for server rooms, dummy load, unloading, etc. \nIn this white paper we’re going to share some tips, field notes and best practices relating to the use of \nload banks in data center commissioning. This white paper will be of interest to Data Centre Managers, \nNew Build Project Managers, Commissioning Engineers, Power and Cooling Suppliers and specialist data \ncentre consultancies. \n \n \nLoad Bank & Commissioning in Data Centers Sector \nSummary \nA load bank is a device that develops an electrical load, that is then applied to an external electrical \npower source which then coverts or dissipates the power output of the source. Load banks generally \ncome equipped with protection circuits, controls and metering and ancillary devices used for their \noperation. They can be used to test AC systems, UPS, Generators and Batteries. They are considered \nto be the best way to commission, prove and verify the operation of mission critical power and cooling \nsystems. \nTheir use in the data center environment is thus essential.\n\n2/8 \n \n \nGeneral Building Tests \nAll buildings undergo commissioning or tenant checks prior to the new owners taking possession or \nnew tenants moving in, these checks ensure that all building systems (fire, security, environmentals, \nand IT systems) are working and meet the required specifications. \nIn mission critical data centers these checks are of paramount importance, and load banks are used to \nverify the operation of critical systems at 3 of the 5 stages of the total IST processes to fulfil Global \nCertification Bodies requirements for IST’s. \nLoad banks are used to verify functionality for AC and Power Systems, individually, and combined as \npart of IST. \n[TIP: IST’s can take up to 3 weeks, depending on the test schedule, ensure that you have sufficient \nbudget for testing] \nField Note: Rentaload are being retained by end user clients to test potential sites for selection \npurposes, we always ask to see the original IST test sheets and final IST report (if available) and include \nthis information back to our end user clients \n \n \nCooling Systems \nASHRAE recommend a temperature range of between 18-27°C and an allowable range of between 5-\n45° (depending on class and other conditions as specified in the ASHRAE TC9.9 documentation) \n[TIP: Always use the latest industry guidelines for design and operation and thus the IST of data centres] \nYour load bank operational ranges and placement should be able to replicate a range of temperatures, \nand to ensure the correct test parameters for efficient operation of cooling equipment, be able to \nreplicate a range of supply and return temperatures, with at least a ∆T of 15° \nLoad banks are used to test the functionality of cooling systems but problems in the validity of the tests \ncan arise depending on the test configuration. The test configuration should replicate as close as \npossible the intended full design cooling load of the data centre. \n[TIP: Conduct Cooling tests for design capacity] \nField Note: Rentaload assisted a client to realise the design capacity testing schedule prior to the \ninstallation of racks and containment systems by constructing a temporary aisle test configuration \n \n \n \n \nWhite Paper\n\n3/8 \n \n \nAir Flow Direction \nHot air rises, yes? But not necessarily true in a data centre environment, where we can find horizontal \nair streams, due to the confinement of the IT equipment in racks and the server manufacturers \ndesigning to draw air through the front of the equipment and exhaust it at the rear. \nAs a result, your load banks should be able to provide horizontal air flow, this will identify any potential \nhot spots and ensure that airflow testing with replicate real life conditions \nBest Practice: Test at different loads throughout the design, minimum loads should be 25%, 50%, 75% \nand 100%, but you can test at any increment in conjunction with your expected load and build out \nperiod. \n \nPower Systems \nA load bank test replicates real operation by applying the load in situ, with real temperatures and \nrelative humidity. The load bank only draws power (current and voltage) to test the infrastructure, and \nthen dissipates it safely as heat. \nLoad banks are thus used to simulate the IT power load, but as with temperature, this tends to only test \na fixed load, requiring multiples of test rigs, if higher than normal rack densities are required. It also \ndoesn’t replicate the varying power and heat that actual IT loads will generate. \nThat said, the use of load banks can provide good estimates of the equipment’s characteristics in \ncontrolled settings with very high accuracy \nMany organisations offer load banks of all shapes and sizes, and with varying characteristics and \noptions, for sale or rent. \nTIP: Select a LOAD BANK company that can provide a range of options that tests both temperature \nand power draw capabilities for the range of IT environments that can be experienced. \nRentaload offers rental of the first 6kW variable air flow load bank with power source converter 100% \non line A, 100% on line B or 50% or line A & 50% on line B. With 2 possible supply sources, this load \nbank makes it possible to test the changeover from a main supply channel to an emergency route or \nto share the load between 2 sources. \nWith a precision of 500W, the rack load bank is the most accurate on the market \n \nPicture of Rentaload smart racklable load banks (6 kW and 7 kW)\n\n4/8 \n \n[Tip: Using load banks with integrated ATS dual power feed capability can reduce testing time as they \ncan test A/B sides virtually simultaneously, and can be configured for 2N+1 data centre configuration \nField Note: The use of connected load banks combined with an efficient monitoring system (software \nbased) will reduce IST testing time and provide more accurate results. \nBest Practice: Use a range of load banks to test all power configurations\n\n5/8 \n \nIntegrated Systems Testing \nPlanning \nIt’s never too early to start planning for your IST, and many data center construction projects adopt a \n5 stage IST process, being, factory witness testing, site acceptance testing, pre-functional testing and \nstart up, functional performance testing and then integrated systems testing. Load banks can be used \nfor the last 3 stages. \n[Tip: Get your load bank supplier engaged as early as possible to assist in the planning of the tests and \nto book equipment.] \nBest Practice: As per EN50600 3-1, it is essential that FM or DC Managers are involved in the IST. \n \nInstallation \nAs the time available for IST may be limited, it is good practice to ensure that the load banks are easy \nto deploy in all possible modes and test configurations. \nTypical scenarios for IST commissioning are prior to the installation of the racks and aisle containment \nand this can mean that the results are not an accurate representation of the original design. \nTo reduce energy costs for data center cooling, hot and cold air are often separated by enclosing \nopposing server rack rows. Without this separation the forced-air cooling units would intake a mixture \nof cooled supply air and hot exhaust air. As a result, the temperature difference over the cooler would \nbe smaller and its effective performance lower as explained by the following equation. \nIt results from the thermodynamic relationship with the physical quantities of required air volume, \nheat load to be dissipated and necessary temperature difference: \n𝑉𝐼=\n𝑄𝑜\n𝜑𝑎𝑖𝑟 ∙ 𝐶𝑝 𝑎𝑖𝑟 ∙ ∆𝑇\n \n \nConstant values are the air density φair 1.185 kg/m3 and the specific heat capacity Cp air= 1,0045 \nkj/kg/K. The dissipated heat load Qo is considered to be fixed. \nIt can be seen from the equation that if the temperature difference doubles from 10 K to 20 K, the \nrequired amount of air VI can be halved. \nSome test configurations place load banks adjacent to the cold aisle tiles to generate the hot thermal \nair streams but these fail to replicate the realistic air flow patterns caused using cold (or hot) aisles \nand/or containment. \nThe optimum way to test the final design is to replicate the hot/cold aisle configuration by the \ninstallation of a temporary aisle containment system, this allows the load banks to be positioned at \nvarious heights above the floor, which will more closely resemble an actual IT installation. \nTesting with temporary aisle containment, and with load banks with variable temperature and power \ndraws operation will better replicate real life configurations, both for initial IT equipment installation \nin the weeks following a successful commissioning, and in the future when equipment is replaced or \nexpansion takes place.\n\n6/8 \n \nSuch temporary aisle arrangements, should be prefabricated and modular, able to be installed \nwithout tools, be non-flammable, be airtight and provide the insertion of the load banks at different \nheights as required. \nField Note: Rentaload offer toolless shelves and ceilings that align with the proposed rack layouts or \ncontained systems (we will need the design drawing to ensure that the toolless shelves/ceilings are an \naccurate reflection of the proposed design). \n \n \n \n \n \n \n \nOn-site pictures of a temporary containement – Paris / July 2018 \n \nThe benefits of using toolless shelves/ceilings are a better test of the final layout and IT equipment fill, \nwe also provide temporary aisle configuration services, and Load bank IoT \n \nDrawing of toolless shelves \nValidation \nRentaload, in conjunction with our partners Ekkosense can provide design validation by analysing the \nprojected design airflow conditions which can be validated during the test. \n[Tip: Use Computational Fluid Dynamics software to design your data centre, and then validate in real \ntime using the Smart rack load bank in conjunction with CFD suppliers]\n\n7/8 \n \n \nCertification \nEvery data centre certification programme globally will use IST test results as a qualifying criterion in \ntheir assessment. \n \n \nIn Europe, EN50600 3-1, being the Information technology — Data centre facilities and infrastructures \nPart 3-1: Management and operational information standard, together with the rest of the EN50600 \nseries is rapidly becoming the only standard that is relevant for data centre design, build and operations \nacross Europe. It should also be noted that this series is also under consideration by the ISO for use \nglobally under the TS22237 series. A TS is a technical specification, and this is considered to be an \nenhanced consultation document for further debate prior to full standards classification. \nEN50600 3-1 states in Section 6, that “Handover to operations are described as phase 11 of the design \nprocess in EN 50600-1. A critical aspect of this handover is acceptance testing to ensure that the \nconstructed facility matches the original design intent. \nThere is a unique opportunity for extensive acceptance testing of the infrastructure prior to the first \nimplementation of IT and the connected starting point of productive operation of a data centre. Cross \ndomain tests can be carried out only during pre-production phase. All test results shall be documented. \nIt is strongly recommended to involve operational personnel in acceptance tests. \nDocumentation shall be provided by vendors and suppliers of infrastructure prior to start of tests. \nNo responsibility for “completed” construction areas should be undertaken by the site Operations \nManagement without the formal acceptance of the area according to defined criteria. These should \ninclude the following: \na) a full commissioning programme has been successfully completed up to and including \nIntegrated Systems Testing (IST) with all commissioning records fully updated; \n[TIP: Commissioning records should include Voltage, current, power and the delta T, the difference \nbetween incoming cold air and outgoing hot air, should be reported in an easy to exploit file, like a csv-\nfile.]\n\n8/8 \n \nField Note: Rentaload have access to independent consultants who are committee members that wrote \nand continue to amend the EN50600 series and can offer independent advice on all aspects of data \ncentre construction and operations \nb) all required training has been completed; \nc) Operations Management should not undertake any management responsibility until they have \nsatisfied themselves that the systems are working through acceptance testing and are able to be \nproperly maintained; \nd) Operations Management should have the opportunity to recruit and train staff well before live \noperations commence. Ideally the core staff should be present during commissioning; \n e) the following documentation should be made available prior to handover into live operations: \n1) up to date and accurate “As-Built” records and drawings including engineering single line diagrams; \n2) a full set of Operations and Maintenance manuals, including Standard Operating Procedures, \nMaintenance Operating Procedures, Emergency Operating Procedures, escalation procedures etc.; \n3) comprehensive commissioning records; \n4) an up to date and accurate Asset Register; \n5) a documented Planned Maintenance Schedule and a full set of maintenance records; \n6) all documentation required for compliance with statutory regulation; \n7) all documentation required for compliance with voluntary standards and certificates. \n[Tip: Advise your load bank provider that you will be seeking certification for the site and may require \nadditional commissioning documentation] \nBest Practice: All test data should satisfy the advantages of undergoing comprehensive commissioning \ntests, these include: Testing over a period of time to verify system performance as designed, without \nrisk to mission critical IT loads, to reduce critical infrastructure early equipment failure rates, the \nopportunity for maintenance and operations teams to get hands-on equipment experience, the \nopportunity to verify detailed written procedures that will govern live facility maintenance and \noperations, it will be the only opportunity to test the facility limitations and to avoid down time. \n \n \n \n \nSource directory : \n1. \nAmerican Society of Heating, Refrigerating and Air-Conditioning (ASHRAE), IST Commissioning Standards \n2. \nUptime Institute, conférence Professionnial Services Tier Certification, IST Commissioning, Novembre 2013 \n3. \nCENELEC: EN50600-3-1 \n4. \nBernd Dürr, IT-Räume und Rechenzentren planen und betreiben, 2.Auflage, 2018\n\n9/8 \n \n \n \n \nRentaload UK \n 18 Lumen Road, East Lane Business Park \nHA9 7RE Wembley, London, UK \n \nRentaload FR \n 1, chemin de chaumour \n21500 Montbard, FRANCE \n \n \nwww.rentaload.com \n \ncontact@rentaload.com",
+  "errors": [],
+  "removed_noise_lines": [
+    "Load banks and Data Centre Commissioning Tips, Field Notes & Best Practices"
+  ]
+}

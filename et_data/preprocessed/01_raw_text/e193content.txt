@@ -1,0 +1,1102 @@
+PDHonline Course E193 (4 PDH)
+Overview of Uninterruptive Power
+Systems (UPS)
+
+Instructor: A. Bhatia, B.E.
+PDH Online | PDH Center
+5272 Meadow Estates Drive
+Fairfax, VA 22030-6658
+Phone: 703-988-0088
+www.PDHonline.com
+An Approved Continuing Education Provider
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+Overview of Uninteruptive Power Systems (UPS) 
+A. Bhatia, B.E. 
+ 
+Course Content 
+An UPS system is an alternate or backup source of standby power with the electric utility company being 
+the primary source. The UPS provides protection of load against line frequency variations, elimination of 
+power line noise and voltage transients, voltage regulation, and uninterruptible power for critical loads 
+during failures of normal utility source. An UPS may be needed for a variety of purposes. The main 
+applications include 
+1) Computer systems: Computers and peripherals such as printer, monitor, speaker and modem, etc. 
+2) Office: Communication systems, computer systems, machines, OA and electrical equipments, etc. 
+3) Industrial: Communication systems, computer systems, machines, instruments-equipments, 
+measuring instruments and electrical equipments, etc. 
+4) Medical: Critical life support applications such as operation theaters in hospitals, intensive care units, 
+emergency medical equipments and surgical equipments, etc. 
+5) Telecommunication: Communication equipments, microwave networks, traffic control systems and 
+satellite earth stations, police communication networks, aircraft landing systems, repeater substations, 
+telecommunication control room, etc. 
+6) Process control: Data processing and report systems of banking and stock exchange, oil & gas 
+control rooms, power stations etc. 
+7) Home: electrical equipments such as TV, stereo, radio and fan, etc., and computers and peripherals 
+8) Miscellaneous: Emergency lighting for evacuation, perimeter lighting for security, orderly shut down of 
+manufacturing or computer operations 
+The UPS can be broadly classified into two categories the rotary type and the static type. 
+STATIC UPS 
+A static UPS is a solid-state system relying solely on battery power as an emergency source. The main 
+building blocks of static UPS systems are a rectifier, inverter, and an energy storage device i.e., one or 
+more batteries. The inverter in the static UPS also includes components for power conditioning. 
+Modern static UPS systems are constructed with ratings ranging from about 220 VA to over 1 MVA. Figure 
+below shows a simple static UPS schematic.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+OPERATION 
+The static uninterruptible power supply (SUPS) basically consists of four major blocks. They are the battery 
+rectifier/charger, battery bank, inverter and the transfer switch. 
+Normal Mode Operation 
+1) The rectifier/charger receives the normal alternating current (AC) power supply, provides direct current 
+(DC) power to the inverter, and charges the battery. 
+2) The inverter converts the DC power to AC power to supply the intended loads. 
+Upset Mode Conditions 
+1) Loss of normal power- Upon loss of AC power supply or upon failure of the rectifier or when the AC 
+supply voltage sags below acceptable limits, the battery maintains the DC supply to the inverter. This 
+mode of operation continues until the system is shut down, when the battery reaches the discharged 
+state before the charger output is restored. 
+2) Restoration of power - Upon restoration of the AC supply, the rectifier output voltage is set at the 
+equalizing voltage to recharge the battery. The charger will also supply the inverter while recharging the 
+battery. At the end of the battery recharging time, the battery charger returns to the floating mode and 
+the system returns to normal operation. 
+Bypass Mode 
+1) In the event of the failure of the inverter, the static switch automatically transfers the load to an alternate 
+AC source. The bypass switch is also useful in clearing load faults downstream of the UPS. 
+2) The static UPS systems may have three bypass switching arrangements: 1) the UPS static switch; 2) 
+the UPS static switch circuit breaker and 3) the maintenance circuit breaker. 
+COMMON STATIC UPS SYSTEM CONFIGURATIONS 
+The building blocks of a static UPS system are rectifier/charger, inverter, battery, and static switch. These 
+building blocks can be assembled in many configurations as required to meet reliability and/or economic
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+considerations. However, some specific configurations have been in common use and are standardized in 
+Institute of Electrical and Electronic Engineers (IEEE) 446. The most common of these configurations are 
+1) Offline UPS or standby power systems 
+2) Online Protection UPS or line interactive UPS 
+3) Double conversion UPS (on-line) 
+1) Offline UPS or Standby UPS 
+In this type of supply, power is usually derived directly from the power line, until power fails. After power 
+failure, a battery powered inverter turns on to continue supplying power. Batteries are charged, as 
+necessary, when line power is available. This type of supply is sometimes called an "offline" UPS. 
+ 
+ 
+In the normal mode, the load is directly supplied with the utility power supply at the same time the 
+charger charges the battery. In the event of a blackout, the battery will supply power to the inverter that 
+will supply AC power to all connected loads. The transfer switch is used to switch between the utility 
+power supply and the inverter. The time required for the inverter to come on line is termed “switchover 
+time”. 
+The offline UPS or standby UPS is only designed to protect the loads from a blackout, it cannot protect 
+from the variations in voltage and electrical noise, therefore, its cost is lower than the other types. 
+Moreover, it is unsuitable to use in any places where close to generated power sources such as dams, 
+power stations and substations, etc. 
+Essential characteristics are summarized below: 
+• 
+The standby UPS does not regulate incoming power and is not recommended for networking 
+systems. Only those loads which can tolerate power line transients and harmonics can be used 
+under this configuration.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+• 
+Protect only a blackout and does no power conditioning during normal operation 
+• 
+Load sees brief interruption when switching to battery backup 
+• 
+Square wave or quasi sine wave output under backup power 
+• 
+Typically small (up to 10 kVA), single phase 
+• 
+The rectifier has to supply only the no load current to the inverter and it should maintain the battery 
+bank in a floating condition. 
+• 
+One major limitation in this configuration is that failure of the inverter leads to the loss of power to 
+the supplied loads. Another limitation is that due to the limited overload capability of the inverter 
+elements, it is not suitable for supplying loads with high inrush current requirements. 
+2) Online Protection UPS or Line Interactive UPS 
+The online protection UPS or line interactive UPS is similar to the Offline UPS but it includes the 
+stabilizer. In the normal mode, the load is directly supplied with the utility power supply through the 
+stabilizer and at the same time charges the battery. The stabilizer functions to regulate the AC voltage 
+to constant range and protects the supply from brownout, surge and spikes. In event of a blackout, the 
+battery will supply DC power to the inverter, which functions to supply AC power to all connected loads. 
+The transfer switch is used to switch between the commercial line and the inverter. 
+ 
+Essential characteristics are summarized below: 
+• 
+Suitable to use in some places where there are many variations in voltage. 
+• 
+Power passed to the load through magnetic components (inductors, transformers) 
+• 
+Inverter interacts with magnetic components to boost or buck input voltage
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+• 
+Incompatible with the sensitive electrical equipments such as medical equipments and industrial 
+instruments, etc. 
+• 
+Provides some power conditioning but frequency variations are passed to load 
+• 
+Typically 100 kVA or less, 1- or 3-phase 
+3) Double conversion (On-line) 
+In a double conversion online UPS, the load always receives the power from the inverter. The charger and 
+inverter will operate all the time. Whatever its power conditions, the UPS always supply clean power to all 
+connected loads until the storage batteries are flat or when the inverter malfunction, it will supply power 
+from the utility power supply to all connected loads. 
+An online UPS works always from a floating battery and the battery is parallely being charged when mains 
+is present so that battery doesn’t get discharged at all. When the main AC fails, the battery bank supplies 
+the current to the inverter and hence the inverter continues to feed the load. Only when the inverter or, the 
+rectifier develops some problem, the load is switched to the commercial line. 
+ 
+ 
+On-line UPS products are ideally suited to networks running mission-critical applications, which make it the 
+most widely used configuration. Essential characteristics are summarized below: 
+• 
+The input voltage is directly supplied via the UPS and there is zero switchover time. 
+• 
+Online UPS seamlessly draws power from DC storage when input voltage is lost 
+• 
+Some on-line UPS can compensate for under-voltage and over-voltage without using the battery, 
+saving battery time for use only in complete blackouts. 
+• 
+Single-phase or three-phase, ratings can exceed 1000 kVA, higher if paralleled
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+MAJOR COMPONENTS CHARACTERISTICS 
+After having seen the different configurations, the various major assemblies of the UPS can now be 
+discussed. 
+Rectifier 
+Rectifier is a device for the conversion of AC power to DC power. 
+• 
+Controlled rectifiers- In a controlled rectifier, the output DC voltage can be continuously maintained at 
+any desired level. 
+• 
+Un-controlled rectifiers- In an uncontrolled rectifier the output DC voltage (at no load) is a fixed ratio 
+of the input AC voltage. 
+Rectification is accomplished by using power semiconductor devices such as SCRs or IGBTs. These solid-
+state devices control the direction of power flow and switch on and off very rapidly allowing for the 
+conversion of power from AC to DC and DC to AC. 
+1) A power semiconductor is an electronic device consisting of two layers of silicon wafer with different 
+impurities forming a junction made by diffusion. The joining of these two wafers provides control of the 
+current flow. 
+2) The power semiconductor permits the current to flow in one direction from the anode to the cathode, 
+whenever the anode voltage is positive relative to the cathode. When the anode voltage is negative 
+relative to the cathode, the power diode blocks the flow of current from the cathode to the anode. 
+3) The power semiconductors may be either Silicon Controlled Rectifier (SCR) or transistors. The types of 
+transistors are bipolar transistors, field effect transistors (FET), and insulated gate bipolar transistors 
+(IGBT). The IGBTs are significantly more efficient and easier to control than the other power 
+semiconductors. The use of IGBTs has allowed for static UPS as large as 750 kVA without paralleling 
+units. 
+Silicon Controlled Rectifier (SCR) - SCR is a solid state device that allows for forward flow of current 
+through the device similar to a diode. The SCR differs from a diode in that the SCR will not conduct until a 
+current pulse is received at the gate. Once the SCR is conducting, it will only turn off with the current falling 
+to zero or through a reverse current being applied.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+The SCR operates in two modes: 
+1) ON-state (forward-conduction, low-impedance) - When a gate current is applied, forward conduction 
+from the Anode to the Cathode occurs and the SCR acts as a conducting diode. 
+2) OFF-state (open-circuit; almost infinite impedance) - When the magnitude of the forward current falls 
+below a holding-current threshold and no gate current is applied, forward conduction stops and the 
+SCR acts as an open circuit. 
+While turning on the SCR is very efficient, the SCRs require a commutation circuit to turn it off. The turn-off 
+time is slow in comparison to the transistors which are non latching devices. The other drawbacks to the 
+commutation circuit are that it adds more equipment to the circuit, adds audible noise to the unit, and 
+consumes power. 
+Bipolar transistors- Bipolar transistors permit current to flow through the circuit when current is applied to 
+the base. The flow of the power through the device is proportional to the current applied to the base. Unlike 
+SCRs, transistors are non-latching. Upon removing the current from the base, the circuit will be turned off. 
+This allows for much quicker switching time than the SCRs. However, bipolar transistors experience high 
+saturation losses during power conduction and require drive circuits to minimize switching losses. 
+Field Effect Transistors (FET) - FETs are turned on and off by applying voltage to the gate. This is more 
+efficient than applying current to the base as done with the bipolar transistors. The FETs however 
+experience saturation losses and require drive circuits to minimize the switching losses. Moreover, the high 
+resistance characteristics of the power conducting portion make this device inefficient and undesirable for 
+large applications. 
+Insulated Gate Bipolar Transistors (IGBT) - The IGBT combines the desirable characteristics of the 
+bipolar transistor and the FET. Voltage is applied to the base to turn the device on and off and the 
+collector/emitter has low resistance. IGBTs have a greater tolerance to temperature fluctuations than the 
+FETs. The IGBTs have the drawback of saturation losses and switching losses like all of the other 
+transistors. These must be taken into consideration in the designing of the UPS. Overall, the IGBT is more 
+efficient and easier to control than the other power semiconductors.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+Inverter 
+Inverter is a device that is responsible for converting DC power to AC power. It determines the quality of the 
+power fed to the load and generally has all protections to lake care of sudden surges in output load or the 
+under / over - voltage conditions at the input. The two most commonly employed inverter technologies in 
+UPS today are pulse width modulation (PWM) and constant voltage ferroresonant transformer. 
+Pulse Width Modulation (PWM) - In this technique, the inverter SCR pairs are switched on and off many 
+times every half cycle to provide a train of pulses of constant amplitude and different widths. By this 
+technique the output voltage wave shape can be made to closely approximate a sine wave. 
+The control of voltage and current is achieved by adjusting the pulse width as required by load changes. 
+The effects of these load changes are sensed and fed to the control logic circuitry through feedback circuits 
+comprised of voltage and current sensing devices, thus adding design complexity. The switching frequency 
+of this type of inverter is between 30 KHz and 50 KHz and due to the fast switching speeds; turning off the 
+device is crucial. 
+PWM Inverters are more sensitive to non-linear currents and often must be oversized for proper operation. 
+It has a very high efficiency and its response to power line transients is quick. But due its complex design it 
+is very costly and hence it is used only in high capacity UPS systems. 
+Ferroresonant transformer- The ferroresonant transformer basically consists of a square wave inverter 
+and a tuned output transformer that is responsible for current limiting and regulation of voltage. The 
+transformer usually has an additional small secondary compensating winding and a series low pass filter 
+connected across part of the main secondary winding. The filter presents low impedance to the lower order 
+harmonics and reduces their amplitude in the output to a low acceptable value. The compensating winding 
+voltage is added to the secondary output voltage 180° out-of-phase thus maintaining the output voltage 
+within a narrow regulation band. However, with the use of a ferroresonant transformer, the output voltage is 
+not continuously adjustable as in the PWM circuitry. Ferroresonant Inverters are uniquely compatible with 
+switching-mode power supplies and do not have to be oversized to provide proper operation. It can be 
+easily connected in parallel to many units. The main disadvantage is the large size of the transformer and 
+the low efficiency of about 70 to 75%. Normally this type is not used above 20 - 25 KVA rating. 
+The following list itemizes advantages and disadvantages of both technologies. 
+PWM Advantage 
+1) Small physical size 
+2) Low audible noise 
+3) Higher efficiency 
+4) Better transient recovery from a 0 - 100% step load change
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+5) Maintenance free batteries do not require ventilation 
+6) Large number of fixed alarm selection 
+PWM Disadvantages 
+1) More components (lower reliability thus increasing long-term cost) 
+2) Complex circuitry (frequently requires factory technician for maintenance) 
+3) Difficult to repair 
+4) Environmentally sensitive (electrical and atmospherically) 
+5) DC battery voltages are not compatible with station batteries in many cases 
+6) Input transformer is often not used (rectifies "off the line" resulting in no isolation 
+7) Monitoring and alarm functions are displayed one at the time 
+8) Limited faults clearing capability, if bypass is not available. (Typically 200-300% vs. 500%; especially 
+important when feeding branch distribution panels) 
+9) Limited reliability if environmental and maintenance conditions are not met 
+10) Multiple circuit boards 
+11) Normally use sealed maintenance free batteries, which provide limited life and are not environmentally 
+tolerant 
+12) Short design life (obsolete design life) 
+Ferroresonant Advantages 
+1) Simple proven design 
+2) Few components 
+3) Easy to maintain (can be done by plant electrician) 
+4) Rugged construction 
+5) Complete monitoring and alarm functions 
+6) Excellent fault clearing capability without bypass (500%) 
+7) Many spare parts commercially available 
+8) Environmentally tolerant 
+9) 125 and 250 VDC standard battery voltages 
+10) Reliable under all operating situations
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+11) Compatible with high crest factor non-linear loads 
+12) Design life of more than 20 years 
+Ferroresonant Disadvantages 
+1) Footprint physically larger than PWM 
+2) Higher acoustical noise 
+3) Less efficient than a PWM 
+4) Higher initial expense (first cost), but long-term cost savings related to more up time and less 
+maintenance expenses 
+Although each method may have some advantages over the other, the voltage control method is normally 
+not specified when specifying UPS systems. Either type may be used provided it meets the performance 
+requirements. For industrial applications where high reliability and ease of maintenance by plant personnel 
+is of utmost importance, the more rugged ferroresonant approach is generally favored whereas PWM are 
+more suitable for commercial computer rooms, datacenters and EDP environments. 
+Transfer Switch 
+The Static Transfer Switch (STS) selects between two or more sources of power and provides the best 
+available power to the electrical load downstream. This high speed device should be capable of switching 
+the load from one source to another with in a few milliseconds because most of the equipments can tolerate 
+only this minimum switching delay. It has some very complex sensing circuits to monitor the inverter output 
+and the commercial AC line, so that the load can be properly switched to the correct source of power at all 
+times. 
+ 
+ 
+Design and Operation 
+The basic ON-state and OFF-state properties of the SCR are used to form an intelligent switch which can 
+choose between two upstream power sources and provide the best available power to the electrical load 
+downstream. A static transfer switch consists of two pairs of SCR. Each pair is connected in back-to back
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+(anti –parallel) arrangement on preferred and an alternate side of the switch, i.e., the anode of one SCR is 
+connected to the cathode of the other. By this arrangement, each SCR in the pair can be made to conduct 
+every other half cycle. One pair of SCR is connected between the load and each of the two sources. The 
+logic circuit applies firing signals to either pair of SCR. 
+ 
+Operation 
+During normal operation, SCR associated with the preferred source are in the ON-state, while those 
+associated with the alternate source are in the OFF-state. 
+Current sensing circuits constantly monitor the states of the preferred and alternate sources and feed the 
+information to the supervisory microprocessor controller. Upon sensing the loss of the preferred source, the 
+microprocessor control instructs the gate-driven SCR on the alternate side to turn ON. The transfer from the 
+preferred to the alternate source is so fast (less than ¼ electrical cycles), that even the most sensitive 
+electrical or electronic loads are unable to determine its occurrence. 
+Since it is entirely based on solid state technology, the static transfer switch has no mechanical moving 
+parts and thus requires minimal maintenance. It has an AC-to-AC efficiency in excess of 99%, does not 
+require air-conditioning, has a small footprint and requires no batteries when used as an alternative to the 
+Uninterruptible Power Supply (UPS). 
+Batteries
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+A battery is used in a static UPS system to provide reliable emergency DC power instantaneously to the 
+inverter when the normal power fails or degrades. Several types of batteries are used such as Lead-
+Antimony, Nickel -Cadmium, Gel electrolyte, Lead acid and Lead-Calcium. Lead-Antimony requires 
+complicated charging techniques and a high level of maintenance. Nickel-Cadmium offers a high storage 
+level but a high cost. It is extremely well suited for conditions with space limitations or where the 
+temperature is very low. The Gel electrolyte battery is used mostly in smaller UPS systems. It is costlier 
+than the liquid electrolyte lead acid battery, but the main advantage is that it is scaled and maintenance 
+free. 
+The batteries may be of the high rate, medium rate, or low rate design. 
+• 
+The high rate batteries are designed to deliver a large amount of current over a short amount of 
+time of approximately 15 minutes. This is achieved by designing the batteries with thin plates. This 
+design is most common for UPS applications. 
+• 
+The medium rate batteries are designed for general use. They deliver a medium amount of current 
+over a medium amount of time of approximately 1 to 3 hours. The design consists of medium width 
+plates. This design is most common with switchgear and control applications. 
+• 
+The low rate batteries are designed for delivery of power over a long amount of time of 
+approximately 8 hours. The battery design consists of thicker plates. This design is most common 
+for applications such as emergency lighting and telecommunications. 
+Of the many available battery types, the following two basic types are generally used in static UPS systems, 
+namely, the Lead-acid and the Nickel-Cadmium (Ni-Cad) batteries. 
+Lead-Acid Batteries 
+Lead acid batteries have been the primary energy storage medium for a long time in industrial applications. 
+The Lead-Acid batteries have following characteristics: 
+1) A lead-acid battery cell consists basically of a sponge lead negative electrode, a lead dioxide positive 
+electrode, and a sulfuric acid solution as an electrolyte. At the end of the charging process, water 
+electrolysis occurs producing hydrogen at the negative electrode and oxygen at the positive electrode. 
+2) Batteries are connected to the charger such that the two voltages oppose each other i.e. positive of 
+battery is connected to positive of charger and negative to negative. 
+3) Battery current flow is the result of the difference between the battery and the charger voltages and the 
+battery's extremely low opposing resistance. The voltage of the battery rises during charging, further 
+opposing current flow.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+4) A nominal system design may utilize minimum end voltage of 1.67 to 1.75 volts per cell and a maximum 
+specific gravity of 1.215 at 77°F. A commonly used end or discharged voltage is 1.75 volts, however 
+lower end voltages are also possible. 
+• 
+A higher specific gravity may result in a battery installation needing less space, but results in 
+shorter life spans and higher cell losses and float voltages. The lower end voltages may cause 
+overstressing battery plates, shorten the life of the battery. 
+• 
+The excess energy of higher float voltages results in loss of water, cell gassing, accelerated 
+corrosion, and shorter cell life. To eliminate such actions, the charge is stopped slightly short of a 
+fully-charged condition on daily or frequent discharges. 
+5) Lead-acid batteries are susceptible to high temperature and the life of a lead-acid battery is reduced by 
+50 percent for every 15°F increase in electrolyte temperature. These are well suited for industrial 
+applications and have the long life span (20 years). 
+6) Since the charging cycle of lead –acid batteries produces hydrogen-oxygen mixture, the National fire 
+protection association (NFPA) code requires the hydrogen concentration shall not exceed 1ppm in 
+battery room. The battery room shall be exhausted @ 10 air changes per hour with twin explosion proof 
+exhaust fans. 
+Valve Regulated Lead-Acid (VRLA) Batteries 
+1) The VRLA batteries are sealed with a valve allowing venting on excessive internal pressure. These 
+cells provide a means for recombination of the internally generated oxygen and suppression of 
+hydrogen gas evolution to reduce the need for adding water. 
+2) This design does not require the maintenance of checking the specific gravity and adding electrolyte as 
+does the flooded lead-acid batteries. These batteries have a lifetime of approximately 5 to 6 years. This 
+is substantially shorter than the 20 year lifetime of the flooded lead-acid and the 25 year lifetime Ni-Cad 
+designs. 
+3) These units sometimes experience failures called “sudden death failures” where deposits form on the 
+plates causing a short. This type of failure is difficult to detect and makes this battery less reliable than 
+the flooded lead-acid design and the Ni-Cad design. 
+4) The VRLA batteries cost approximately half of the price of the flooded lead-acid batteries and one 
+fourth of the price of the Ni-Cad batteries. 
+5) These units are well suited for UPS systems providing back up to computer systems because of their 
+low maintenance costs and low emissions. For industrial applications requiring greater reliability and 
+longer life the flooded lead-acid and Ni-Cad designs are preferred. 
+Nickel – Cadmium (Ni-Cad) Batteries
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+1) The Ni-Cad battery cell consists basically of a nickel hydroxide positive electrode, a cadmium hydroxide 
+negative electrode, and a potassium hydroxide solution as an electrolyte. 
+2) The nominal voltage of a Ni-Cad cell is 1.2 volts while the open circuit voltage is 1.4 volts. The 
+electrolyte specific gravity is approximately 1.180 at a temperature of 25°C (77°F). The usual 
+recommended float voltage for UPS applications is 1.38 to 1.47 volts per cell depending upon the 
+manufacturer's recommendation. Overcharge, as such, may cause no harm to the battery although 
+there will be water loss. 
+3) Lower specific gravities are generally used in cells with larger electrolyte reserves. Higher specific 
+gravities are typically used for low-temperature applications. The specific gravity will decrease slowly 
+over the years because of evaporation and other effects, even though the surface of the electrolyte is 
+probably covered with a protective layer of oil. Renewal will be necessary, if the specific gravity 
+decreases to 1.130 to 1.160. 
+4) Ni-Cad batteries are also available in one of three designs of high, medium, or low rate power delivery. 
+The high rate batteries are the most commonly used in the application of UPS systems. 
+5) These batteries are resistant to mechanical and electrical abuse. They operate well over a wide 
+temperature range of –20°C to 50°C. Also, they can tolerate a complete discharge with little damage to 
+the capacity of the battery. 
+6) Ni-Cad batteries exhibit a longer life and a more rugged construction. However, for a similar capacity 
+rating, a Ni-Cad battery requires approximately 53 percent more cells than a lead-acid battery at the 
+same voltage and are 50% more expensive. These however a long lifetime of 25 years. 
+7) The life of a Ni-Cad battery loses approximately 15 percent of its life for every 15°F increase in 
+electrolyte temperature. 
+Battery Charger 
+A battery cannot function without a charger to provide its original and replacement energy. A well designed 
+charger will act to charge a discharged battery by maintaining the correct balance between overcharging 
+and undercharging so as not to damage the battery. Additionally, the charger must assure that battery 
+discharging is limited to the point where the cells approach exhaustion or where the voltage falls below a 
+useful level (usually about 80 percent of the batteries rated capacity). Overcharging results in increased 
+water use and over-discharging tends to raise the temperature, which may cause permanent damage, if 
+done frequently. 
+1) The battery charger provides the initial charge, replenish the local losses to maintain the battery 
+capacity, equalize the individual (lead-acid) cells state-of-charge, and recharge the battery following 
+discharge.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+2) Safety margin is provided on the charger to take care of any overload condition at the inverter output. 
+After an emergency condition, when the charger starts charging the battery bank a heavy current will be 
+drawn by the battery bank. This should be taken care by the current limiting circuit of the charger. 
+3) The rating of the battery charger depends on the load, the inverter efficiency, the current needed to 
+charge the battery bank etc. If the time required recharging the battery bank after a mains failure is to 
+be short, then the size of the charger goes up. 
+4) In static UPS systems, the battery is continually connected to the charger and the load and the battery 
+is float charged. During float charging the battery charger maintains a constant DC voltage that feeds 
+enough current through the battery cells (while supplying the continuous load) to replenish local losses 
+and to replace discharge losses taken by load pulses exceeding the charger's current rating. 
+5) Periodically the charger voltage is set at a level 10 percent higher than the floating voltage to restore 
+equal state-of-charge at the individual (lead-acid) cells. This mode of charging is called “equalizing 
+charge”. Following the battery discharge, the charger is set at this higher voltage to drive a higher 
+charging current to recharge the battery in a reasonably short time and to restore it to the fully charged 
+state. At the floating voltage level, the Ni-Cad cell cannot be charged over 85 percent of its full capacity. 
+Therefore, the equalizing voltage level is required to fully recharge the cell after successive discharges. 
+6) Chargers must maintain a sufficiently high current throughout charging so that at least 95 percent of the 
+complete storage capacity is replaced within an acceptable time period. This recharge time may range 
+from 5 to 24 times the reserve period (for a 15 minute reserve period with a 10 times recharge 
+capability the recharge period would be 1.5 hours). 
+7) Electromagnetic Interference (EMI) filler is generally included at the input of the battery charger/rectifier 
+to prevent electromagnetic interference from going to the commercial line. EMI can be generated by the 
+switching thyristors of the battery charger / rectifier. Its output is filtered by low pass filler. 
+Battery Ratings 
+Batteries are available in different voltage ratings such as 2V, 6V, 12V, etc of which 12V is the most popular 
+of all the lot. Suppose a UPS is designed with 120V DC battery voltage, it requires at least 10 numbers of 
+12V batteries to work the system. The size of each of these batteries determine the backup time available 
+after power failure. Battery capacity is measured as AH (Ampere Hour) and will vary from say 1AH to 
+300AH. Generally the bigger the battery more AH it will have. 
+Battery Sizing 
+The size of the battery bank is determined by factors such as 
+1) The load for which it should supply power 
+2) The time for which it should provide back up
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+3) The input voltage required by the inverter 
+4) The efficiency of the inverter 
+When sizing battery for the UPS systems ask the following questions: 
+1) What is the rating of the equipment/UPS say 600VA, 800VA, 10KVA......? 
+2) What is the battery capacity required measured in ampere hour (AH). For example 300AH 
+3) What is the DC Voltage requirement of the UPS? For example: 500VA may work on 12V, 1KVA may 
+work on 24V, and 5KVA may work on 120V. 
+4) What is the backup time (BT) the consumer requires? For example: 3 hours. 
+The relationship between these variables is given by equation- 
+BT in hours= DC Voltage of battery * AH of battery / VA of the equipment 
+Actually this formula is with the assumption that battery is 100% efficient which may not be the case and so 
+it will be less than what we got from formula. 
+Battery sizing examples: 
+Example#1 
+If the customer wants 400VA equipment and 3 hours backup time, what battery rating should be selected? 
+Consider 400VA equipment works on 12V. 
+Solution: 
+AH of the battery = Backup time in Hrs* VA of the equipment/ DC Voltage of battery 
+Or AH of the battery = 3 x 400/12=100 
+Therefore we will select 100 AH 12V battery. 
+Example #2: 
+A customer wants to buy 5 kVA UPS suitable for approximately 4kW load with 2.5 to 3 Hrs backup. What 
+battery rating should be selected? Consider voltage of battery to be 120V. 
+(a) Capacity of the equipment = 5kva = 5000VA 
+(b) Voltage of battery = 120V (because 5000VA UPS works on 120V battery) 
+(c) Backup time required = 2.5 to 3 Hrs 
+AH = 5000 * 2.5/120V = 12500/120 = 104 AH 
+AH = 5000*3/120V=15000/120 = 125 AH
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+Since the batteries available are 20,40,60,80,100, 120, 140AH therefore the choice would be 120AH/120V 
+battery. This will suffice the backup time requirements of approximately 2.5 to 3 hours. Since each battery is 
+12V; provide 10 Nos. of 120AH batteries to make 120AH/120V system. 
+Example #3: 
+A customer has a 400VA inverter and 100AH battery. How many hours will it run to operate a single 
+computer with 160VA rating? 
+BT = AH x Voltage/VA 
+AH of battery = 100AH, Voltage of Bat = 12V and VA connected as load = 160VA 
+BT = 100 * 12/160= 7 hours 
+Tips: 
+• 
+Always converts to Hours the backup time required for example 15 Minutes = 0.25 Hrs. 
+• 
+Always convert KVA to VA, 1 KVA = 1000VA 
+• 
+The answer from the formula is for ideal calculations, in practice the backup will be less than the 
+calculated value. 
+Discharge rate - For UPS system battery, the discharge rate should correspond to the highest inverter 
+input power required to produce rated output at minimum input DC voltage. The minimum DC voltage 
+required by the inverter is normally published by the manufacturer. In addition, it is recommended to include 
+a margin of 30 percent for the required capacity to account for load growth and battery aging. 
+Lifetime- The end of life of battery is defined as the failure of battery to be able to deliver a certain 
+percentage of rated capacity. The expected lifetime of batteries on UPS duty is usually stated in terms of 
+years of service on continuous charge. Initial capacity (unless specified as 100 percent capacity) is usually 
+in the range of 90 to 95 percent of rated capacity. This will rise to 100 percent capacity in normal service 
+after several charge-discharge cycles. IEEE 450 recommends that a battery shall be replaced when its 
+actual capacity drops to 80 percent of rated capacity. 
+Criteria for evaluating UPS battery 
+Criterion 
+For Reliable Performance and Longer Life 
+The thickness of the positive plate 
+Thicker is better for durability 
+The material used for the battery 
+posts 
+Copper inserted posts operate more efficiently and cooler, 
+and require less frequent re-torque than do lead posts 
+How the batteries are tested at 
+the plant 
+Cells should be tested together 
+Capacity at which the batteries 
+are shipped from the factory 
+Anything less than 100% makes it debatable whether 
+100% can ever be achieved 
+Tolerance to temperature above 
+77°F 
+The higher the better 
+Frequency at which a boost 
+Less frequent is better
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+charge is needed 
+Frequency at which testing is 
+required 
+Less often for short times is better 
+End of discharge voltage- Battery voltage is not constant, so if the load requires a constant power output, 
+which most UPS applications do, the current must increase as the voltage decreases. Consequently, the 
+battery is sized to supply a specific kW rate (usually the maximum inverter kW requirement without 
+recharging) for a specific period of time (usually 5 to 15 minutes) to a minimum specific end voltage and, for 
+lead-acid types, at a maximum specific gravity (measured at 77°F). The end of discharge voltage shall be 
+equal to or higher than the minimum DC input voltage required by the inverter to maintain rated 
+performance. 
+Temperature correction- Ratings are at 77°F (25°C). Therefore, to determine specific gravity, which is 
+temperature sensitive, a temperature correction factor must be applied. For both lead-acid and Ni-Cad 
+batteries, add one point (.001) to the hydrometer reading for every 3°F above 77°F and subtract one point 
+for every 3°F below 77°F. 
+Charge-Discharge Cycle Reduces the Life of a Battery- Every battery is subject to a charge-discharge 
+cycle. This considerably reduces the life of a battery. Higher the discharge, greater is the reduction in its life. 
+Batteries reach their demise soon with frequent discharges, and hence, battery-based UPS systems are 
+considered as a limited cycle service. The UPS battery warranties are determined by factors such as: 
+• 
+Duration of discharge 
+• 
+Number of instances of discharge 
+• 
+Length of time it takes the batteries to get charged 
+STATIC UPS SYSTEM RATING & SIZE SELECTION 
+In order to properly size and select a static UPS system, the load kVA, load power factor, inrush kVA or 
+current, load voltage, number of phases and frequency, and required battery protection time should be 
+determined for the load to be served. 
+Determining load kVA 
+In existing installations, the load kVA should be determined by measuring the current with all equipment 
+operating. In three-phase installations, the load current should be measured at each phase. The load kVA 
+can then be estimated as follows: 
+For single-phase loads: kVA = VI / 1000 
+Where: 
+• 
+V is the system voltage in volts 
+• 
+I is the measured current in amperes
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+For three-phase loads: kVA = 1.73 VI/1000 
+Where: 
+• 
+V is the phase-to-phase voltage in volts 
+• 
+I is the highest measured phase current in amperes 
+In cases where the load current cannot be measured or when the installation is in the planning stage, the 
+nameplate load (kVA) ratings of individual equipment should be calculated. The total load kVA is then 
+obtained by vectorially adding the individual load kVAs. Also, an approximate but conservative estimate of 
+the load kVA may be obtained by arithmetically adding the individual load kVAs. 
+Determining load kVA and Power Factor 
+In existing installations, the load power factor should be determined by actual measurements using a power 
+factor meter. In cases where actual measurements cannot be taken the kVA and power factor of the 
+individual loads should be obtained from the equipment manufacturers' data. 
+Estimating the load power factor is necessary since the kVA rating and performance parameters of most 
+static UPS system are guaranteed only at a power factor range of 0.8 lagging to unity. The static UPS 
+system kVA capacity and performance parameters are affected at other power factors. 
+Determining load inrush kVA 
+Determination of the load inrush kVA is particularly important for static UPS configurations without a static 
+transfer switch and bypass capability. In these configurations, if the load inrush kVA requirements exceed 
+the inverter capability, the inverter will reach the “current limit” mode causing the output voltage to drop. In 
+configurations with a static transfer switch and bypass capability, determining the load inrush current 
+requirements is required for proper selection of overcurrent protective devices for the transfer switch and 
+coordination with other overcurrent protective devices. The load inrush kVA or current in existing 
+installations should be determined by actual measurement using a high speed storage oscilloscope or 
+oscillograph. Since all loads are not normally started simultaneously, the inrush kVA or current 
+requirements should be determined by energizing the load with the highest inrush kVA while all other loads 
+are connected. In cases where measurements cannot be taken or when the installation is in the planning 
+stage, data on individual load inrush kVA and duration should be obtained from equipment manufacturers. 
+Load voltage, number of phases, and frequency 
+The load voltage and frequency requirements determine the UPS system output voltage and frequency. 
+Three-phase loads require a system with three-phase output regardless of the kVA rating required. 
+However, when all loads are single-phase, a system with single-phase output is preferable up to a rating of 
+75 kVA. When the single-phase loads are higher than 75 kVA, a system with three-phase output is normally
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+used. In such a case, the loads should be distributed among the three phases to minimize the phase 
+unbalance effects on the inverter. 
+TESTING 
+As static UPS is a very complex and critical system, it should be properly tested before being put into use. 
+Before bringing the system to the site it is better to test it at the factory itself. First the steady stale 
+performance of the UPS should be tested. This may be done by varying parameters such as load, line 
+voltage, frequency, temperature, humidity etc. Next dynamic performance tests should be undertaken by 
+tripping the input power line i.e. connecting or disconnecting several units in parallel. The output can also be 
+short circuited to lest the UPS systems capacity to tackle the situation. In addition, by introducing or 
+removing the by pass mode, the performance can be studied. 
+Another important category is to check the ability of a failed rectifier / inverter unit to isolate itself from the 
+overall system while the UPS is feeding a critical load. Finally, the reliability of the UPS should be tested by 
+operating it under loaded conditions for a long duration. 
+Similar tests can also be conducted at the customer’s site before connecting the actual load to the system.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+PART #2 
+ 
+ 
+ 
+ROTARY UPS SYSTEMS 
+This system consists of a synchronous motor driving a synchronous generator with a large flywheel. During 
+normal operation the motor drives the flywheel and the synchronous generator at constant speed. The 
+generator output voltage is regulated by the voltage regulator and the frequency is constant and 
+proportional to the motor power supply frequency. When input power is momentarily lost or degrades, the 
+flywheel supplies its stored energy to the generator and the frequency is maintained within the required 
+tolerance for duration depending on the flywheel inertia. The time interval for which the frequency can be 
+maintained within tolerance is proportional to the ratio of flywheel inertia to the load for a given speed. 
+To keep the system weight low, high speed is required. However, to keep the noise level low, low speed is 
+desirable. Therefore, the system is commonly operated at a speed of 1800 revolutions per minute (rpm) as 
+a trade-off. 
+Rotary UPS system configurations 
+The main building blocks of rotary UPS systems are the synchronous motor, AC generator, and flywheel. In 
+addition to the main building blocks, induction motors, eddy current clutches, batteries, DC M-Gs, and static 
+rectifier/inverters are also used in rotary UPS systems. The building blocks can be assembled in numerous 
+configurations to meet reliability and/or economic considerations. The most common rotary UPS 
+configurations are 
+1) The inertia-driven ride-through system with a synchronous motor, 
+2) Inertia-driven ride-through system with an induction motor and an eddy current clutch 
+3) The battery supported inertia system with a backup inverter 
+Inertia-driven ride-through system with a synchronous motor 
+In an inertia-drive ride through system a synchronous motor drives the generator at a constant speed 
+proportional to the power supply frequency. The ratio of the generator number of poles to the motor number 
+of poles should be the same as the ratio of the desired frequency to the power supply frequency.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+In this configuration, a synchronous motor is used to maintain a constant speed independent of the load 
+level. However, an induction motor with very low slip (typically less than 0.5 percent) may also be used. 
+With 0.5 percent slip characteristic, the generator output frequency (for a 60 Hz system) can vary from 59.7 
+Hz at rated load to near 60 Hz at no load. 
+The main limitation in this configuration is that the ride-through time is normally limited to 0.5 seconds. This 
+makes this configuration suitable only at locations where the power supply has a high reliability and long 
+term interruptions are unlikely. The newer technologies use an induction coupling system rather than the 
+flywheel, which allows for approximately 2 seconds of ride-through while the diesel generator comes on 
+line. This system is used with an asynchronous motor and a synchronous diesel generator. 
+Inertia-driven ride-through system with an induction motor and an eddy current clutch 
+This configuration consists of an induction motor which drives a flywheel and an eddy current clutch at a 
+speed essentially proportional to the supply frequency. The generator rotates at a constant speed lower 
+than the motor speed by controlling the slip of the eddy current clutch. The generator output frequency can 
+be maintained at 60 hertz ±0.25 hertz. On loss of the AC input power, the generator receives energy stored 
+in the flywheel. As the flywheel slows down, the slip of the eddy current clutch is reduced so as to maintain 
+the generator frequency at 60 Hz. The generator frequency can be maintained above 59.5 Hz for up to 15 
+seconds after loss of ac input power. This configuration is most suitable where a backup power source such 
+as a diesel generator or gas turbine is available. The rotary system can supply the loads until the backup 
+source is started and operated to supply the motor. However, the use of this configuration is becoming less 
+common and it is not available from many manufacturers. 
+ 
+Battery supported Motor Generator (M-G) set 
+The battery supported M-G system with a backup inverter is made up of a synchronous M-G set with the 
+addition of a rectifier/inverter, batteries, and a static switch. During normal operation, the synchronous 
+motor drives the synchronous generator and provides filtered power. Upon loss of the AC input power to the
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+motor, the battery supplies power to the motor through the inverter which drives the generator. The 
+batteries provide energy to the system during the transition from normal to emergency operation. During 
+normal operation, the static switch is conducting and 95 percent of the required power is supplied to the 
+motor from the AC source. The remaining 5 percent power is supplied through the rectifier/inverter while the 
+battery is float charged. The inverter is kept operational at this low power level to ensure that it remains 
+operational and can supply full power in the event of degradation or loss of the AC source. 
+Upon loss of the AC source or deviation of its frequency and/or voltage from acceptable limits required to 
+maintain the generator output, the static switch is automatically blocked and power is supplied from the 
+battery to the motor through the inverter. Upon restoration of the AC source, the static switch automatically 
+conducts and the system reverts to normal operation. This configuration provides conditioned, isolated, and 
+uninterrupted power. 
+ 
+Rotary systems with a transfer switch to a bypass source 
+Like static UPS systems, rotary systems can be provided with a transfer switch to transfer the load to an 
+alternate source upon loss of the generator output. However, unlike the static UPS inverter, it is not 
+practical or economical to synchronize the generator to the alternate source. Therefore, the transfer may 
+occur in "out-of-synch" mode and may subject the connected loads to undesirable transient over voltages. 
+Therefore, although the addition of a transfer switch can increase the availability of power supply, live 
+transfer is not recommended in rotary systems. Also, less costly electromechanical switches may be 
+adequate for this purpose. 
+Paralleling of redundant rotary systems 
+Redundant rotary systems may be connected in parallel to provide higher capacity and/or to increase the 
+reliability. However, due to the difficulty of synchronizing the generators to one another, switching the 
+individual generators for parallel operation should be performed without the loads being connected to avoid 
+subjecting sensitive equipment to high voltage transients during switching.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+ROTRAY UPS COMPONENTS CHARACTERISTICS 
+Motor and generator ratings and performance characteristics are standardized by the National Electrical 
+Manufacturers Association (NEMA) in ANSI/NEMA Publication MG-1, 1978. 
+MOTORS 
+In a rotary UPS system an AC motor is used to convert electrical energy to mechanical energy for driving an 
+AC generator and a flywheel. Both synchronous and induction motor types may be used. DC motors may 
+also be used in rotary systems with a storage battery for back-up power. In the following paragraphs, only 
+the motor characteristics relevant to rotary UPS applications are addressed. 
+Induction motors 
+Induction motors are of the squirrel cage or the wound rotor type. It is the three-phase cage motor type that 
+is used in rotary UPS applications. The relevant characteristics of a cage motor are as follows. 
+1) The motor speed is depended on the load level and essentially proportional to the power supply 
+frequency. For a motor with 5 percent slip, the speed may increase by up to 5 percent of the rated 
+speed from rated load to no load. 
+2) The speed variations are lower for low slip motors. 
+3) When energized, the motor draws a starting current as high as 6.5 times the rated current for duration 
+of 2 to 10 seconds or longer depending on the load inertia. 
+4) The induction motor power factor is approximately 0.8 lagging. 
+5) The NEMA rating structure of continuous duty induction motors is based on horsepower output, 
+maximum ambient temperature for which motor is designed, speed at full load, frequency, number of 
+phases, voltage, full load current, and lock rotor (starting) kVA. 
+Synchronous motors 
+The relevant characteristics of a three-phase synchronous motor are as follows: 
+1) The motor speed is independent of the load and is directly proportional to the power supply frequency. 
+2) The starting current and starting duration of a synchronous motor are slightly less than those of a 
+comparable induction motor. 
+3) A synchronous motor can be either self-excited or externally excited. 
+4) The synchronous motor power factor can be changed from lagging to unity or leading by adjusting the 
+field or exciting current. 
+5) The NEMA rating structure of continuous duty synchronous motors is based on horsepower output, 
+maximum ambient temperature for which motor is designed, speed at full load, frequency, number of
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+phases, voltage, full load current, field current, excitation voltage, power factor, and locked rotor 
+(starting) kVA. 
+DC motors 
+DC motors are classified according to the method of excitation used as shunt excited, series excited, and 
+compound excited. The shunt excited DC motor is the most suitable in rotary UPS applications and has the 
+following characteristics: 
+1) The motor speed is dependent on the load level. The speed may decrease by up to 5 percent of the 
+rated speed from no load to rated load. 
+2) The motor speed can be easily adjusted by varying the shunt field current through the use of a rheostat. 
+3) The motor can be operated as a generator by applying mechanical input to the shaft. 
+4) The NEMA rating structure of continuous duty DC motors is based on horsepower output at base 
+speed, maximum ambient temperature for which the motor is designed, base speed at rated load, 
+armature voltage, field voltage, armature load current at base speed, and winding type - shunt, series, 
+or compound. 
+GENERATORS 
+In the following paragraphs, only the generator characteristics relevant to rotary UPS applications will be 
+discussed. 
+Synchronous generators 
+The relevant characteristics of a three-phase synchronous generator are as follows: 
+1) The generator frequency is directly proportional to the prime mover speed. Controlling the output 
+frequency is accomplished by controlling the prime mover speed. 
+2) The output voltage can be regulated by varying the field current, i.e., excitation level. 
+3) The generator rated power factor is normally 0.8 lagging. 
+4) The generator has a limited load unbalance capability; severe unbalance can result in overheating. 
+5) The generator can supply a maximum current of 6 to 7 time’s rated RMS current for a few cycles and 3 
+to 4 times rated RMS current for a few seconds. 
+6) The output voltage harmonic content is typically less than 5 percent. 
+7) The NEMA rating structure at synchronous generators is based on kVA output, output power (kW), 
+power factor, maximum ambient temperature for which the generator is designed, speed, voltage, full 
+load current, number of phases, frequency, excitation current, and excitation voltage. 
+DC generators
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+Similar to DC motors, DC generators are classified as shunt excited, series excited, and compound excited. 
+The relevant characteristics of dc generators are as follows: 
+1) The generator output is essentially ripple free power. 
+2) The output voltage can be precisely held at any desired value from zero to rated by controlling the 
+excitation level. 
+3) The generator can be operated as a motor by applying DC power to its armature. 
+Exciters 
+Exciters are used to create the magnetic field on the generator. They can be broadly classified as static 
+and rotary. 
+1) In a static exciter all components are stationary and are mounted outside of the machine frame. The 
+synchronous machine field coils are connected to commutator rings, and brushes are used to connect 
+the field coils to the excitation power source. 
+2) In a rotary exciter, some of the components are rotating and are mounted either on the synchronous 
+machine shaft or externally. Also, in a rotary exciter a commutator ring and brushes may be required or 
+the system may be brushless. Brushless type exciters are more commonly used now due to their lower 
+maintenance requirements. 
+However, selection of the exciter type is largely up to the manufacturer to meet the performance 
+requirements. 
+FLYWHEEL 
+A flywheel is used in a rotary UPS system as an energy storage device. The flywheel is coupled to the M-G 
+shaft and supplies stored energy to drive the generator upon momentary loss of the motor output. In 
+addition, it acts to stabilize the generator frequency by maintaining the rotational speed following transient 
+frequency variations at the motor power supply or sudden load changes. 
+The flywheel inertia is selected such that the stored energy is sufficient to supply the generator while 
+operating at rated power for a duration not exceeding 0.5 second while keeping the speed from falling to 
+maintain the frequency drop to a maximum of 0.5 Hz. The flywheel inertia plus the inertia of the coupled 
+motor(s) and generator make up the total inertia of a rotary UPS system. The flywheel inertia is usually 
+more than 95 percent of the total inertia and the motor's and generator's inertias can be neglected. The 
+required flywheel inertia (WK2) can be calculated as follows. 
+ 
+Where:
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+• 
+kW = generator rated power (kW) 
+• 
+n = generator rated rotational speed (r/min) 
+The inertia constant (H) is determined based on the required ride-through time and minimum frequency as 
+follows. 
+ 
+Where: 
+• 
+t = required ride-through time (s) 
+• 
+Fmin = minimum frequency required at the end of the ride-through time (Hz) 
+• 
+fr = generator rated frequency (Hz) 
+Theoretically, a flywheel can be selected to provide any ride-through time. However, practical and 
+economical considerations limit the ride-through time to around 0.5 second. High flywheel inertia causes a 
+long motor starting time. During the starting time, the motor's high starting current can cause unacceptable 
+or excessive motor heating. Also, due to the flywheel's heavy weight and the long starting time, special 
+bearings and lubrication methods may be required. 
+Advantages and disadvantages of rotary UPS systems 
+The rotary UPS system has both advantages and disadvantages that should be considered at the time of 
+selection. 
+Rotary advantages 
+1) The rotary system has low output impedance, which makes it able to supply higher fault currents to 
+operate a circuit breaker during fault conditions. They provide total isolation of sensitive loads from 
+power supply system transients. Its output voltage is less susceptible to harmonic distortion as may be 
+caused by non-linear loads. 
+2) They provide disturbance free uninterrupted power. 
+3) Systems without storage batteries have a low initial cost. Efficiency is higher than comparable static 
+UPS systems. 
+4) The rotary UPS systems have higher tolerance to adverse environments. 
+5) They do not cause power supply system voltage distortion. High ratings, e.g., above 1000 kVA can be 
+built in the rotary UPS design. 
+6) A rotary system has a lower number of components than a comparable static system and hence has a 
+lower failure rate.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+Rotary Disadvantages 
+While there are several advantages to the rotary UPS, it does have some short comings. Some of them are 
+that 
+1) They operate at high sound levels unless equipped with special silencing enclosures. 
+2) They require more maintenance and long repair times. 
+3) They require special foundations. 
+4) Their installation is more complex. 
+5) They do not easily lend themselves to future expansion, paralleling, or reconfiguration. 
+6) Their performance requirements and configurations are not commonly standardized. Fewer 
+manufacturers produce rotary UPS systems as compared to static UPS systems. 
+7) The rotary UPS has a short backup time and requires either a battery or backup diesel generator for 
+longer backup power. 
+ROTARY UPS SYSTEM SELECTION CRITERIA 
+Selection of a rotary UPS system should be in accordance with certain criteria. The system output voltage 
+and frequency shall be as required by the loads. The output should preferably be three-phase except for 
+small systems (5 kVA and smaller) where single-phase systems may be used. 
+The system rated kVA at the specific site shall be equal to the load kVA plus a 10 to 15 percent margin. The 
+system shall be capable of supplying the load inrush demand without voltage and frequency deviations 
+beyond the required tolerances. 
+1) Rotary units are mainly designed for large applications, 125kVA or higher and are generally applied in 
+industrial use. Some reasons for selecting a rotary UPS over a static UPS are to provide higher 
+efficiency, superior fault clearing capability, capability of supplying currents for high inrush loads, and 
+isolation from harmonic distortion generated by non-linear loads in the line. 
+2) In order to properly size and select a rotary UPS system, the load kVA, load power factor, inrush kVA 
+or current, load voltage, number of phases and frequency, required battery protection time (if battery 
+supported UPS), maximum permissible frequency deviation (if inertia-driven UPS), and required ride-
+through time (if inertia ride through UPS) should be determined. The maximum permissible frequency 
+deviation and required ride through time is required for sizing the flywheel inertia. The maximum 
+permissible frequency deviation should be the maximum deviation tolerated by the most sensitive load. 
+Balance all information can be determined in the same manner as described in case of static UPS 
+systems. 
+3) The inertia-driven ride-through configuration should be considered at sites where the power distribution 
+system has a high reliability and long duration interruptions are not frequently experienced.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+4) The battery supported inertia configuration should be considered at sites with frequent long duration 
+power interruptions. The battery protection time shall not be less than one minute and shall not exceed 
+the maximum time the load can be operated with the loss of the environmental support equipment. 
+Rotary UPS systems are typically outdated now days due to rapid advances made in the field of electronics; 
+the static UPS system has become very popular since it has no moving parts. They are more costly for 
+small capacities but become competitive with static units around 300kVA. Rotary units provide complete 
+electrical isolation where the static UPS is limited by the static switch.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+PART # 3 
+ 
+ 
+SELECTING AN UPS 
+The process for selecting an UPS consists of eight steps. These steps are: 
+1) Determining the need for an UPS 
+2) Determining the purpose(s) of the UPS 
+3) Determining the power requirements 
+4) Selecting the type of UPS 
+5) Determining if the safety of the selected UPS is acceptable 
+6) Determining if the availability of the selected UPS is acceptable 
+7) Determining if the selected UPS is maintainable, and 
+8) Determining if the selected UPS is affordable 
+The last four steps may require repeating if the UPS does not meet all of the requirements. This process 
+does not and cannot provide a “cookbook solution.” Each facility has unique requirements for emergency 
+and standby power. These requirements include the reliability of the prime power source, the nature of the 
+work done, local and state regulations governing emergency power, etc. The process does not give a single 
+solution that is applicable to all cases. It is hoped, however, that it provides the framework for selecting an 
+UPS for any facility and illustrates the many factors that go into the decision process in making the UPS 
+selection. 
+Determine need 
+Determining the need for an UPS is mainly a matter of evaluating the way in which a facility is used, as well 
+as knowing whether local, state, or federal laws mandate the incorporation of an UPS. 
+Determine the purpose 
+An UPS may be needed for a variety of purposes such as lighting, startup power, transportation, 
+mechanical utility systems, heating, refrigeration, production, fire protection, space conditioning, data 
+processing, communication, life support, or signal circuits. Some facilities need an UPS for more than one 
+purpose. It is important to determine the acceptable delay between loss of primary power and availability of 
+UPS power, the length of time that emergency or backup power is required, and the criticality of the load 
+that the UPS must bear. 
+Applications such as hospital life support and safety, aircraft tracking and landing, and certain production 
+process controls and data processing cannot tolerate any loss of power, no matter how short the period of 
+time, without loss of life or revenue. Other applications like refrigeration, heating, and cooling may tolerate 
+loss of power for several minutes (or longer) without any adverse effects. For data processing equipment, it
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+may be necessary to maintain power until the equipment can be shut down in an orderly manner. All of 
+these factors play into the sizing of the UPS and the selection of the type of the UPS. 
+Determine the power requirements 
+After determining the specific purpose(s) for an UPS, the next step is to determine the facility power 
+requirements. This task is often laborious but is essential because it sets the stage for the remainder of the 
+selection process. Undefined power requirements, or oversight of any initial conditions, could result in the 
+selection of a system that is not capable of meeting the needs of the facility, costly budget overruns, and 
+delays in completing the project. 
+Once the power requirements are defined by adding all critical loads, the next step is to determine how 
+much (if any) to oversize the unit. Over sizing serves two purposes. First, it provides the capability to 
+efficiently and effectively handle surges in power requirements due to peak demands caused by starting 
+machinery, switching power supplies, etc. Secondly, it provides for growth. A general rule of thumb in over 
+sizing is to increase the initial power requirement by 30 percent. 
+Select the Type of UPS 
+Selecting a particular type and configuration of an UPS depends on many factors that must be considered 
+and weighted according to a facility’s particular requirements. These factors include the purpose of the 
+UPS, the required power, cost, safety, environmental, availability, and maintenance. 
+Determine safety 
+It must be determined, if the safety of the selected UPS is acceptable. The UPS may have safety issues 
+such as hydrogen accumulation from batteries, or noise pollution from solid-state equipment or rotating 
+equipment. Safety problems associated with lead-acid batteries include spills of sulfuric acid, potential 
+explosions from the generation of hydrogen and oxygen, and the generation of toxic gasses such as arsine 
+(AsH3) and stibine (SbH3). All of these problems can be satisfactorily handled with the proper safety 
+precautions. National Fire Protection Association (NFPA) 70, National Electrical Code (NEC), provides 
+guidance on battery room ventilation. Wearing face shields and plastic/rubber aprons and gloves when 
+handling acid is recommended to avoid chemical burns from sulfuric acid. Precautions must be routinely 
+practiced to prevent explosions from ignition of the flammable gas mixture of hydrogen and oxygen formed 
+during overcharge of lead-acid cells. The gas mixture is explosive when hydrogen in air exceeds 4 percent 
+by volume. A standard practice is to set warning devices to alarm at 20 to 25 percent of this lower 
+explosive level. Hydrogen accumulation is usually not a problem, if good air circulation around a battery is 
+present. If relatively large batteries are confined in a small room, an exhaust fan(s) should be used to 
+constantly vent the room or should start automatically when hydrogen accumulation exceeds 20 percent of 
+the lower explosive limit. Finally, the materials used in the battery container should be fire retardant. These 
+issues may be addressed through proper precautions or may require a selection of a different UPS. 
+Determine availability
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+In managing a facility, the availability of equipment and systems is of the utmost concern. Simply stated, 
+availability is the amount of time a piece of equipment is available to perform its function divided by the total 
+time the equipment is needed. It is also defined as “uptime” divided by “total time.” Thus, if an air 
+conditioner is required 12 hours each day, the availability would be 90 percent if it is out of commission an 
+average of 1.2 hours each day. Normally, the required availability for UPS is 98 percent. It should be noted 
+that the many critical facilities require a reliability level of 99.9999 percent. The availability of an UPS may 
+be improved by using different configurations to provide redundancy. 
+Availability is a function of reliability and maintainability. The inherent or designed-in availability is usually 
+expressed as follows. 
+ 
+Where: 
+!" Ai is inherent availability 
+!" MTBF is mean time between failure (a measure of reliability) 
+!" MTTR is mean time to repair (a measure of maintainability) 
+Reliability is the probability that the item will perform as intended for a specified period of time, under a 
+stated set of conditions. It can be expressed in terms of the number of failures in a given time (the failure 
+rate), or as the time between failures (for repairable items), or time to failure (for “one-shot” or non-
+repairable items. 
+Maintainability is defined as the relative ease and economy of time and resources with which an item can 
+be retained in, or restored to, a specific condition. It can be expressed as the probability that an item can be 
+restored to operational condition in a stated time, the number of repairs that can be made in a specific time 
+(repair rate). From the equation for Ai, it is obvious that availability can be increased by increasing MTBF or 
+reducing MTTR. For example, assume the MTBF and the MTTR of a single UPS unit are 500 hours and 20 
+hours, respectively. The inherent availability of a single unit configuration would be: 
+ 
+The inherent availability of a two-unit configuration where only one unit is required would be: 
+Ai = A1 + A2 – (A1 x A2) =0.999 
+The inherent availability of a two-unit configuration where both units are required would be: 
+Ai = A1 x A2 = 0.925 
+The availability could be increased by increasing the reliability or reducing the MTTR. The reliability could 
+be increased by selecting a more reliable unit, derating the unit (i.e., use a unit capable of providing more
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+power than needed - when used, it will be operating below its capacity thereby reducing stresses), or use 
+redundancy. MTTR could be decreased by selecting an inherently more maintainable system or perhaps by 
+improving diagnostics, training, or procedures. 
+Determine maintainability 
+Maintenance of the unit is important in assuring the unit’s availability. If the unit is not properly cared for, the 
+unit will be more likely to fail. Therefore, it is necessary that the maintenance be performed as required. If 
+the skills and resources required for the maintenance of the unit are not available, it may be necessary to 
+select a unit requiring less maintenance. 
+Determine if affordable 
+The selected UPS must be affordable. While this is the most limiting factor in the selection process, cost 
+cannot be identified without knowing the other parameters. For an UPS, the total cost includes the purchase 
+price, installation cost, operating and support costs, and disposal costs. To give you the costing idea, 
+consider the following: 
+• 
+The cost of any needed auxiliary equipment such as manual bypass switches, cabling and support 
+hardware must also be considered. 
+• 
+More sophisticated systems having automatic monitoring, switching, and control functions requiring 
+additional components, adding to the complexity and cost of the system(s). 
+• 
+If the UPS is operated under adverse conditions, availability will suffer. Specific precautions must be 
+taken for dirty, hot, cold, corrosive, explosive, tropical and other adverse conditions. 
+• 
+Additional air conditioning might be required for the UPS (or for the facility due to heat loads from the 
+UPS). Rotary units may require additional or special ventilation equipment to purge toxic fumes from 
+working areas. 
+• 
+Floor units (usually static UPS for computer system backup) may require strengthening of the floor to 
+support their weight. 
+• 
+Large UPS may require the construction of a separate building to house the unit. 
+• 
+A rotary UPS or engine generator used in a cold climate will probably require thermostatically controlled 
+lubricating oil, coolant heaters, and radiator louvers. 
+• 
+Operating and support costs include cost of fuel, maintenance, replacement parts, and taxes. 
+• 
+Disposal may simply consist of dismantling the UPS and selling the parts to a recycling company or 
+dumping it at an approved refuse site. For example, disposal of lead-acid batteries must be performed 
+according to all federal, state, and local regulations.
+
+www.PDHcenter.com PDH Course E193 www.PDHonline.org 
+
+• 
+In disposing of spent batteries, the facility manager must ensure that batteries meet all radioactive 
+contamination requirements for uncontrolled release. 
+A variety of UPS types and configurations can be selected. The costs can vary widely depending on the 
+specific type and configuration selected. It is impractical to provide an all-inclusive cost comparison of all 
+possible combinations of types and configurations. If the above criteria are not met, another UPS system 
+must be selected and these steps re-evaluated.

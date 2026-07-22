@@ -1,0 +1,573 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\14_Unclassified\\1709616080.pdf",
+  "filename": "1709616080.pdf",
+  "category": "14_Unclassified",
+  "parent_category": "14_Unclassified",
+  "extracted_at": "2026-06-29T19:58:00.499602",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Appendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 1/3 \n \nACCEPTANCE TEST PROCEDURE FOR 10 KVA ONLINE UPS \n1. Supply, Installation and Commissioning of 10 KVA online UPS at ADRDE will be done by \nvendor /Supplier. \n2. After installation & commissioning, visual and technical inspection including load test will be \ncarried out as specified below by rep ADRDE \nS.No \nATP Method \n1. \nLoad test \n2. \nBy Function test \n3. \nData sheet \n4. \nAC 3-phase 300V- 450V, sine \nwave, 50hz \nBy Function test/Data sheet \n5. \nAC Single phase 230+/- 1%, sine \nwave, 50 hz \nBy Function test/Data sheet \n6. \nBy certificate \n7. \nBatteries provided with \nUPS \nShall be provided along with \nBattery \nBy visual inspection \n8. \nSMF VRLA Conforming to \nJISC:8702, stationary lead acid \nBatteries conforming to IS \n:13369:1992 latest \n9. \nBy function test \n10. \nBy function test/data sheet \n11. \nBy physical inspection \n12. \nBy certificate \n13. \nInbuilt isolation \ntransformer \nBy visual inspection \n14. \n>=90% with inbuilt isolation \ntransformer \nBy data sheet \n15. \nPower Factor load \nsupported \nBy data sheet \n16. \n20% overload for minimum 10 \nminute \nBy function test/data sheet \n17. \nTotal harmonic distortion \nTHD \nBy data sheet \n18. \nCrest factor on fill non liner load is \nnot less than 3:1 \ntransit repose time < 20 \nmilliseconds , \nBy data sheet/certificates",
+      "char_count": 1353
+    },
+    {
+      "page": 2,
+      "text": "Appendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 2/3 \n \nUPS input power factor better than \n0.95 \n19. \ncabling 6 meter(3 meter input and \noutput up to 3 meter ) \nBy visual/Physical inspection \n20. \n-Under voltage/Over voltage at \nbattery terminal, \n- Short circuit & overload at UPS \noutput terminal, - Over temperature \nprotection \nBy Function test/visual/ \nPhysical inspection \n21. \nInput voltage, output voltage, input \ncurrent, \noutput \ncurrent, \ninput \nfrequency, output frequency, input \npower factor, battery voltage and \ncurrent. \nBy \nFunction \ntest/visual/ \nPhysical inspection \n22. \nIndicator for main presence, \nbattery charging, low battery with \naudible alarm, output overload with \nBy Function test/visual/ \nPhysical inspection \n23. \nType of design / \nconstruction \nBy visual/ Physical inspection \n24. \nminimum 1.2 mm thickness of MS \nsheet duty power coated \nBy visual/ Physical inspection \n25. \nDegree of protection of \nUPS \n26. \nBy Function test/visual/ \nPhysical inspection \n27. \nOther constructional \nfeatures \nMain ON/OFF MCB, battery \nON/OFF MCB , Battery fuse, \ninverter reset push button, static by \npass, manual by pass, expandable \nrack facility, \nBy Function test/visual/ \nPhysical inspection \n28. \n29. \n30. \n31. \nType test report as per govt lab/ \nNABL accredited lab",
+      "char_count": 1308
+    },
+    {
+      "page": 3,
+      "text": "Appendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 3/3 \n \n32. \n33. \nVendor \nshall \nprovide \nenvironmental test report from \nNABL accredited lab for UPS and \nall certificates mentioned in these \nspecifications \nBy physical verification \n34. \nYes \nBy certificate/Data sheet \n35. \nBy certificate/Data sheet \n3. Battery test report and BIS, CRS/ ROHS certificate will be verified by ADRDE Rep.",
+      "char_count": 401
+    },
+    {
+      "page": 4,
+      "text": "TECHNICAL SPECIFICATION FOR 10 KVA ONLINE UPS \n \nS. No \n1. \n2. \n3. \n4. \nAC 3-phase 300V- 450V, sine wave, 50hz \n5. \nAC Single phase 230+/- 1%, sine wave, 50 hz \n6. \n7. \nBattery provided with UPS \nShall be provided along with Battery \n8. \nSMF VRLA Conforming to JISC:8702, stationary \nlead acid Batteries conforming to IS :13369:1992 \nlatest \n9. \n10. \n11. \n12. \n13. \nInstallation and commissioning \nShall be done by vendor at ADRDE \n14. \nPreventive maintenance & services \nShall be provided Quarterly and as & when \nrequired during warranty period \n15. \nInbuilt isolation transformer \n16. \n>=90% with inbuilt isolation transformer \n17. \nPower Factor load supported \n18. \n20% overload for minimum 10 minute \n19. \nTotal harmonic distortion THD \n20. \nCrest factor on fill non liner load is not less than \n3:1 \ntransit repose time < 20 milliseconds , \nUPS input power factor better than 0.95 \n21. \ncabling 6 meter(3 meter input and output up to 3 \nmeter ) \n22. \n- Under voltage/Over voltage at battery terminal,",
+      "char_count": 1006
+    },
+    {
+      "page": 5,
+      "text": "- Short circuit & overload at UPS output terminal, \n- Over temperature protection \n23. \nInput voltage, output voltage, input current, \noutput current, input frequency, output frequency, \ninput power factor, battery voltage and current. \n24. \nIndicator for main presence, battery charging, low \nbattery with audible alarm, output overload with \n25. \nType of design / construction \n26. \nminimum 1.2 mm thickness of MS sheet duty \npower coated \n27. \nDegree of protection of UPS \n28. \n29. \nOther constructional features \nMain ON/OFF MCB, battery ON/OFF MCB , \nBattery fuse, inverter reset push button, static by \npass, manual by pass, expandable rack facility, \n30. \n31. \n32. \n33. \nType test report as per govt lab/ NABL \naccredited lab \n34. \n35. \nVendor shall provide environmental test report \nfrom NABL accredited lab for UPS and all \ncertificates mentioned in these specifications \n36. \nYes \n37.",
+      "char_count": 895
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "table_index": 0,
+      "rows": 19,
+      "cols": 4,
+      "markdown": "| S.No | Parameters/attribute | Value/Range | ATP Method |\n| --- | --- | --- | --- |\n| 1. | Rating in KVA | 10 KVA | Load test |\n| 2. | Type of UPS | Online UPS | By Function test |\n| 3. | Switching Technology | IGBT-PWM | Data sheet |\n| 4. | Input Voltage | AC 3-phase 300V- 450V, sine wave, 50hz | By Function test/Data sheet |\n| 5. | Output Voltage | AC Single phase 230+/- 1%, sine wave, 50 hz | By Function test/Data sheet |\n| 6. | Warranty for UPS | 3 Year on site | By certificate |\n| 7. | Batteries provided with UPS | Shall be provided along with Battery | By visual inspection |\n| 8. | Type of Battery | SMF VRLA Conforming to JISC:8702, stationary lead acid Batteries conforming to IS :13369:1992 latest | By certificate/data sheet |\n| 9. | Backup time | 120 minute or more | By function test |\n| 10. | Battery capacity | 65 AH or more | By function test/data sheet |\n| 11. | Number of Batteries | 40 or as per backup requirements | By physical inspection |\n| 12. | Warranty of battery | 2 year or more | By certificate |\n| 13. | Inbuilt isolation transformer | Shall be integrated with UPS | By visual inspection |\n| 14. | Overall Efficiency % | >=90% with inbuilt isolation transformer | By data sheet |\n| 15. | Power Factor load supported | 0.8 or better | By data sheet |\n| 16. | Overload limit | 20% overload for minimum 10 minute | By function test/data sheet |\n| 17. | Total harmonic distortion THD | 3 % Maximum @ 100 % liner load | By data sheet |\n| 18. | Other functional feature | Crest factor on fill non liner load is not less than 3:1 Noise level <70dB, APFC >/= 0.92 , transit repose time < 20 milliseconds , | By data sheet/certificates |",
+      "raw": [
+        [
+          "S.No",
+          "Parameters/attribute",
+          "Value/Range",
+          "ATP Method"
+        ],
+        [
+          "1.",
+          "Rating in KVA",
+          "10 KVA",
+          "Load test"
+        ],
+        [
+          "2.",
+          "Type of UPS",
+          "Online UPS",
+          "By Function test"
+        ],
+        [
+          "3.",
+          "Switching Technology",
+          "IGBT-PWM",
+          "Data sheet"
+        ],
+        [
+          "4.",
+          "Input Voltage",
+          "AC 3-phase 300V- 450V, sine\nwave, 50hz",
+          "By Function test/Data sheet"
+        ],
+        [
+          "5.",
+          "Output Voltage",
+          "AC Single phase 230+/- 1%, sine\nwave, 50 hz",
+          "By Function test/Data sheet"
+        ],
+        [
+          "6.",
+          "Warranty for UPS",
+          "3 Year on site",
+          "By certificate"
+        ],
+        [
+          "7.",
+          "Batteries provided with\nUPS",
+          "Shall be provided along with\nBattery",
+          "By visual inspection"
+        ],
+        [
+          "8.",
+          "Type of Battery",
+          "SMF VRLA Conforming to\nJISC:8702, stationary lead acid\nBatteries conforming to IS\n:13369:1992 latest",
+          "By certificate/data sheet"
+        ],
+        [
+          "9.",
+          "Backup time",
+          "120 minute or more",
+          "By function test"
+        ],
+        [
+          "10.",
+          "Battery capacity",
+          "65 AH or more",
+          "By function test/data sheet"
+        ],
+        [
+          "11.",
+          "Number of Batteries",
+          "40 or as per backup requirements",
+          "By physical inspection"
+        ],
+        [
+          "12.",
+          "Warranty of battery",
+          "2 year or more",
+          "By certificate"
+        ],
+        [
+          "13.",
+          "Inbuilt isolation\ntransformer",
+          "Shall be integrated with UPS",
+          "By visual inspection"
+        ],
+        [
+          "14.",
+          "Overall Efficiency %",
+          ">=90% with inbuilt isolation\ntransformer",
+          "By data sheet"
+        ],
+        [
+          "15.",
+          "Power Factor load\nsupported",
+          "0.8 or better",
+          "By data sheet"
+        ],
+        [
+          "16.",
+          "Overload limit",
+          "20% overload for minimum 10\nminute",
+          "By function test/data sheet"
+        ],
+        [
+          "17.",
+          "Total harmonic distortion\nTHD",
+          "3 % Maximum @ 100 % liner load",
+          "By data sheet"
+        ],
+        [
+          "18.",
+          "Other functional feature",
+          "Crest factor on fill non liner load is\nnot less than 3:1\nNoise level <70dB,\nAPFC >/= 0.92 ,\ntransit repose time < 20\nmilliseconds ,",
+          "By data sheet/certificates"
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "table_index": 0,
+      "rows": 14,
+      "cols": 4,
+      "markdown": "|  |  | UPS input power factor better than 0.95 |  |\n| --- | --- | --- | --- |\n| 19. | Accessories | Rack of batteries, cabling 6 meter(3 meter input and output up to 3 meter ) paralleling kit for synchronizing | By visual/Physical inspection |\n| 20. | Protection | -Under voltage/Over voltage at battery terminal, - Under voltage/Over voltage , - Short circuit & overload at UPS output terminal, - Over temperature protection | By Function test/visual/ Physical inspection |\n| 21. | Metering | Input voltage, output voltage, input current, output current, input frequency, output frequency, input power factor, battery voltage and current. | By Function test/visual/ Physical inspection |\n| 22. | Alarm and indicators | Indicator for main presence, battery charging, low battery with audible alarm, output overload with audible alarm, alarm for low battery | By Function test/visual/ Physical inspection |\n| 23. | Type of design / construction | Floor standing | By visual/ Physical inspection |\n| 24. | Enclosure | minimum 1.2 mm thickness of MS sheet duty power coated | By visual/ Physical inspection |\n| 25. | Degree of protection of UPS | IP21 | By certificate/data sheet |\n| 26. | DC bus voltage ( in volts ) | 240 DC volt | By Function test/visual/ Physical inspection |\n| 27. | Other constructional features | Main ON/OFF MCB, battery ON/OFF MCB , Battery fuse, inverter reset push button, static by pass, manual by pass, expandable rack facility, | By Function test/visual/ Physical inspection |\n| 28. | Operating temperature | 0 0C To 50 0C | By certificate/data sheet |\n| 29. | Relative humidity | 95% (non condensing at 40 0C) | By certificate/data sheet |\n| 30. | Environmental test report | IS:9000, damp heat test | By certificate/data sheet |\n| 31. | Battery test report | Type test report as per govt lab/ NABL accredited lab | By certificate/test report |",
+      "raw": [
+        [
+          "",
+          "",
+          "UPS input power factor better than\n0.95",
+          ""
+        ],
+        [
+          "19.",
+          "Accessories",
+          "Rack of batteries,\ncabling 6 meter(3 meter input and\noutput up to 3 meter )\nparalleling kit for synchronizing",
+          "By visual/Physical inspection"
+        ],
+        [
+          "20.",
+          "Protection",
+          "-Under voltage/Over voltage at\nbattery terminal,\n- Under voltage/Over voltage ,\n- Short circuit & overload at UPS\noutput terminal, - Over temperature\nprotection",
+          "By Function test/visual/\nPhysical inspection"
+        ],
+        [
+          "21.",
+          "Metering",
+          "Input voltage, output voltage, input\ncurrent, output current, input\nfrequency, output frequency, input\npower factor, battery voltage and\ncurrent.",
+          "By Function test/visual/\nPhysical inspection"
+        ],
+        [
+          "22.",
+          "Alarm and indicators",
+          "Indicator for main presence,\nbattery charging, low battery with\naudible alarm, output overload with\naudible alarm, alarm for low battery",
+          "By Function test/visual/\nPhysical inspection"
+        ],
+        [
+          "23.",
+          "Type of design /\nconstruction",
+          "Floor standing",
+          "By visual/ Physical inspection"
+        ],
+        [
+          "24.",
+          "Enclosure",
+          "minimum 1.2 mm thickness of MS\nsheet duty power coated",
+          "By visual/ Physical inspection"
+        ],
+        [
+          "25.",
+          "Degree of protection of\nUPS",
+          "IP21",
+          "By certificate/data sheet"
+        ],
+        [
+          "26.",
+          "DC bus voltage ( in volts )",
+          "240 DC volt",
+          "By Function test/visual/\nPhysical inspection"
+        ],
+        [
+          "27.",
+          "Other constructional\nfeatures",
+          "Main ON/OFF MCB, battery\nON/OFF MCB , Battery fuse,\ninverter reset push button, static by\npass, manual by pass, expandable\nrack facility,",
+          "By Function test/visual/\nPhysical inspection"
+        ],
+        [
+          "28.",
+          "Operating temperature",
+          "0 0C To 50 0C",
+          "By certificate/data sheet"
+        ],
+        [
+          "29.",
+          "Relative humidity",
+          "95% (non condensing at 40 0C)",
+          "By certificate/data sheet"
+        ],
+        [
+          "30.",
+          "Environmental test report",
+          "IS:9000, damp heat test",
+          "By certificate/data sheet"
+        ],
+        [
+          "31.",
+          "Battery test report",
+          "Type test report as per govt lab/\nNABL accredited lab",
+          "By certificate/test report"
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "table_index": 0,
+      "rows": 4,
+      "cols": 4,
+      "markdown": "| 32. | Other requirements | UPS shall be ROHS Compliance | By certificate/test report |\n| --- | --- | --- | --- |\n| 33. | Report and Certification | Vendor shall provide environmental test report from NABL accredited lab for UPS and all certificates mentioned in these specifications | By physical verification |\n| 34. | Make in India | Yes | By certificate/Data sheet |\n| 35. | BIS CRS certification | Shall be provided by vendor | By certificate/Data sheet |",
+      "raw": [
+        [
+          "32.",
+          "Other requirements",
+          "UPS shall be ROHS Compliance",
+          "By certificate/test report"
+        ],
+        [
+          "33.",
+          "Report and Certification",
+          "Vendor shall provide\nenvironmental test report from\nNABL accredited lab for UPS and\nall certificates mentioned in these\nspecifications",
+          "By physical verification"
+        ],
+        [
+          "34.",
+          "Make in India",
+          "Yes",
+          "By certificate/Data sheet"
+        ],
+        [
+          "35.",
+          "BIS CRS certification",
+          "Shall be provided by vendor",
+          "By certificate/Data sheet"
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "table_index": 0,
+      "rows": 23,
+      "cols": 3,
+      "markdown": "| S. No | Parameters/attribute | Value/Range |\n| --- | --- | --- |\n| 1. | Rating in KVA | 10 KVA |\n| 2. | Type of UPS | Online UPS |\n| 3. | Switching Technology | IGBT-PWM |\n| 4. | Input Voltage | AC 3-phase 300V- 450V, sine wave, 50hz |\n| 5. | Output Voltage | AC Single phase 230+/- 1%, sine wave, 50 hz |\n| 6. | Warranty for UPS | 3 Year on site |\n| 7. | Battery provided with UPS | Shall be provided along with Battery |\n| 8. | Type of Battery | SMF VRLA Conforming to JISC:8702, stationary lead acid Batteries conforming to IS :13369:1992 latest |\n| 9. | Backup time | 120 minute or more |\n| 10. | Battery capacity | 65 AH or more |\n| 11. | Number of Batteries | 40 or as per backup requirements |\n| 12. | Warranty of battery | 2 year or more |\n| 13. | Installation and commissioning | Shall be done by vendor at ADRDE |\n| 14. | Preventive maintenance & services | Shall be provided Quarterly and as & when required during warranty period |\n| 15. | Inbuilt isolation transformer | Shall be integrated with UPS |\n| 16. | Overall Efficiency % | >=90% with inbuilt isolation transformer |\n| 17. | Power Factor load supported | 0.8 or better |\n| 18. | Overload limit | 20% overload for minimum 10 minute |\n| 19. | Total harmonic distortion THD | 3 % Maximum @ 100 % liner load |\n| 20. | Other functional feature | Crest factor on fill non liner load is not less than 3:1 Noise level <70dB, APFC >/= 0.92 , transit repose time < 20 milliseconds , UPS input power factor better than 0.95 |\n| 21. | Accessories | Rack of batteries, cabling 6 meter(3 meter input and output up to 3 meter ) paralleling kit for synchronizing |\n| 22. | Protection | - Under voltage/Over voltage at battery terminal, - Under voltage/Over voltage , |",
+      "raw": [
+        [
+          "S. No",
+          "Parameters/attribute",
+          "Value/Range"
+        ],
+        [
+          "1.",
+          "Rating in KVA",
+          "10 KVA"
+        ],
+        [
+          "2.",
+          "Type of UPS",
+          "Online UPS"
+        ],
+        [
+          "3.",
+          "Switching Technology",
+          "IGBT-PWM"
+        ],
+        [
+          "4.",
+          "Input Voltage",
+          "AC 3-phase 300V- 450V, sine wave, 50hz"
+        ],
+        [
+          "5.",
+          "Output Voltage",
+          "AC Single phase 230+/- 1%, sine wave, 50 hz"
+        ],
+        [
+          "6.",
+          "Warranty for UPS",
+          "3 Year on site"
+        ],
+        [
+          "7.",
+          "Battery provided with UPS",
+          "Shall be provided along with Battery"
+        ],
+        [
+          "8.",
+          "Type of Battery",
+          "SMF VRLA Conforming to JISC:8702, stationary\nlead acid Batteries conforming to IS :13369:1992\nlatest"
+        ],
+        [
+          "9.",
+          "Backup time",
+          "120 minute or more"
+        ],
+        [
+          "10.",
+          "Battery capacity",
+          "65 AH or more"
+        ],
+        [
+          "11.",
+          "Number of Batteries",
+          "40 or as per backup requirements"
+        ],
+        [
+          "12.",
+          "Warranty of battery",
+          "2 year or more"
+        ],
+        [
+          "13.",
+          "Installation and commissioning",
+          "Shall be done by vendor at ADRDE"
+        ],
+        [
+          "14.",
+          "Preventive maintenance & services",
+          "Shall be provided Quarterly and as & when\nrequired during warranty period"
+        ],
+        [
+          "15.",
+          "Inbuilt isolation transformer",
+          "Shall be integrated with UPS"
+        ],
+        [
+          "16.",
+          "Overall Efficiency %",
+          ">=90% with inbuilt isolation transformer"
+        ],
+        [
+          "17.",
+          "Power Factor load supported",
+          "0.8 or better"
+        ],
+        [
+          "18.",
+          "Overload limit",
+          "20% overload for minimum 10 minute"
+        ],
+        [
+          "19.",
+          "Total harmonic distortion THD",
+          "3 % Maximum @ 100 % liner load"
+        ],
+        [
+          "20.",
+          "Other functional feature",
+          "Crest factor on fill non liner load is not less than\n3:1\nNoise level <70dB,\nAPFC >/= 0.92 ,\ntransit repose time < 20 milliseconds ,\nUPS input power factor better than 0.95"
+        ],
+        [
+          "21.",
+          "Accessories",
+          "Rack of batteries,\ncabling 6 meter(3 meter input and output up to 3\nmeter )\nparalleling kit for synchronizing"
+        ],
+        [
+          "22.",
+          "Protection",
+          "- Under voltage/Over voltage at battery terminal,\n- Under voltage/Over voltage ,"
+        ]
+      ]
+    },
+    {
+      "page": 5,
+      "table_index": 0,
+      "rows": 16,
+      "cols": 3,
+      "markdown": "|  |  | - Short circuit & overload at UPS output terminal, - Over temperature protection |\n| --- | --- | --- |\n| 23. | Metering | Input voltage, output voltage, input current, output current, input frequency, output frequency, input power factor, battery voltage and current. |\n| 24. | Alarm and indicators | Indicator for main presence, battery charging, low battery with audible alarm, output overload with audible alarm, alarm for low battery |\n| 25. | Type of design / construction | Floor standing |\n| 26. | Enclosure | minimum 1.2 mm thickness of MS sheet duty power coated |\n| 27. | Degree of protection of UPS | IP21 |\n| 28. | DC bus voltage ( in volts ) | 240 DC volt |\n| 29. | Other constructional features | Main ON/OFF MCB, battery ON/OFF MCB , Battery fuse, inverter reset push button, static by pass, manual by pass, expandable rack facility, |\n| 30. | Operating temperature | 0 0C To 50 0C |\n| 31. | Relative humidity | 95% (non condensing at 40 0C) |\n| 32. | Environmental test report | IS:9000, damp heat test |\n| 33. | Battery test report | Type test report as per govt lab/ NABL accredited lab |\n| 34. | Other requirements | UPS shall be ROHS Compliance |\n| 35. | Report and Certification | Vendor shall provide environmental test report from NABL accredited lab for UPS and all certificates mentioned in these specifications |\n| 36. | Make in India | Yes |\n| 37. | BIS CRS certification | Shall be provided by vendor |",
+      "raw": [
+        [
+          "",
+          "",
+          "- Short circuit & overload at UPS output terminal,\n- Over temperature protection"
+        ],
+        [
+          "23.",
+          "Metering",
+          "Input voltage, output voltage, input current,\noutput current, input frequency, output frequency,\ninput power factor, battery voltage and current."
+        ],
+        [
+          "24.",
+          "Alarm and indicators",
+          "Indicator for main presence, battery charging, low\nbattery with audible alarm, output overload with\naudible alarm, alarm for low battery"
+        ],
+        [
+          "25.",
+          "Type of design / construction",
+          "Floor standing"
+        ],
+        [
+          "26.",
+          "Enclosure",
+          "minimum 1.2 mm thickness of MS sheet duty\npower coated"
+        ],
+        [
+          "27.",
+          "Degree of protection of UPS",
+          "IP21"
+        ],
+        [
+          "28.",
+          "DC bus voltage ( in volts )",
+          "240 DC volt"
+        ],
+        [
+          "29.",
+          "Other constructional features",
+          "Main ON/OFF MCB, battery ON/OFF MCB ,\nBattery fuse, inverter reset push button, static by\npass, manual by pass, expandable rack facility,"
+        ],
+        [
+          "30.",
+          "Operating temperature",
+          "0 0C To 50 0C"
+        ],
+        [
+          "31.",
+          "Relative humidity",
+          "95% (non condensing at 40 0C)"
+        ],
+        [
+          "32.",
+          "Environmental test report",
+          "IS:9000, damp heat test"
+        ],
+        [
+          "33.",
+          "Battery test report",
+          "Type test report as per govt lab/ NABL\naccredited lab"
+        ],
+        [
+          "34.",
+          "Other requirements",
+          "UPS shall be ROHS Compliance"
+        ],
+        [
+          "35.",
+          "Report and Certification",
+          "Vendor shall provide environmental test report\nfrom NABL accredited lab for UPS and all\ncertificates mentioned in these specifications"
+        ],
+        [
+          "36.",
+          "Make in India",
+          "Yes"
+        ],
+        [
+          "37.",
+          "BIS CRS certification",
+          "Shall be provided by vendor"
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 5,
+    "title": "",
+    "author": "",
+    "subject": "",
+    "creator": ""
+  },
+  "full_text": "Appendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 1/3 \n \nACCEPTANCE TEST PROCEDURE FOR 10 KVA ONLINE UPS \n1. Supply, Installation and Commissioning of 10 KVA online UPS at ADRDE will be done by \nvendor /Supplier. \n2. After installation & commissioning, visual and technical inspection including load test will be \ncarried out as specified below by rep ADRDE \nS.No \nATP Method \n1. \nLoad test \n2. \nBy Function test \n3. \nData sheet \n4. \nAC 3-phase 300V- 450V, sine \nwave, 50hz \nBy Function test/Data sheet \n5. \nAC Single phase 230+/- 1%, sine \nwave, 50 hz \nBy Function test/Data sheet \n6. \nBy certificate \n7. \nBatteries provided with \nUPS \nShall be provided along with \nBattery \nBy visual inspection \n8. \nSMF VRLA Conforming to \nJISC:8702, stationary lead acid \nBatteries conforming to IS \n:13369:1992 latest \n9. \nBy function test \n10. \nBy function test/data sheet \n11. \nBy physical inspection \n12. \nBy certificate \n13. \nInbuilt isolation \ntransformer \nBy visual inspection \n14. \n>=90% with inbuilt isolation \ntransformer \nBy data sheet \n15. \nPower Factor load \nsupported \nBy data sheet \n16. \n20% overload for minimum 10 \nminute \nBy function test/data sheet \n17. \nTotal harmonic distortion \nTHD \nBy data sheet \n18. \nCrest factor on fill non liner load is \nnot less than 3:1 \ntransit repose time < 20 \nmilliseconds , \nBy data sheet/certificates\n\nAppendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 2/3 \n \nUPS input power factor better than \n0.95 \n19. \ncabling 6 meter(3 meter input and \noutput up to 3 meter ) \nBy visual/Physical inspection \n20. \n-Under voltage/Over voltage at \nbattery terminal, \n- Short circuit & overload at UPS \noutput terminal, - Over temperature \nprotection \nBy Function test/visual/ \nPhysical inspection \n21. \nInput voltage, output voltage, input \ncurrent, \noutput \ncurrent, \ninput \nfrequency, output frequency, input \npower factor, battery voltage and \ncurrent. \nBy \nFunction \ntest/visual/ \nPhysical inspection \n22. \nIndicator for main presence, \nbattery charging, low battery with \naudible alarm, output overload with \nBy Function test/visual/ \nPhysical inspection \n23. \nType of design / \nconstruction \nBy visual/ Physical inspection \n24. \nminimum 1.2 mm thickness of MS \nsheet duty power coated \nBy visual/ Physical inspection \n25. \nDegree of protection of \nUPS \n26. \nBy Function test/visual/ \nPhysical inspection \n27. \nOther constructional \nfeatures \nMain ON/OFF MCB, battery \nON/OFF MCB , Battery fuse, \ninverter reset push button, static by \npass, manual by pass, expandable \nrack facility, \nBy Function test/visual/ \nPhysical inspection \n28. \n29. \n30. \n31. \nType test report as per govt lab/ \nNABL accredited lab\n\nAppendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 3/3 \n \n32. \n33. \nVendor \nshall \nprovide \nenvironmental test report from \nNABL accredited lab for UPS and \nall certificates mentioned in these \nspecifications \nBy physical verification \n34. \nYes \nBy certificate/Data sheet \n35. \nBy certificate/Data sheet \n3. Battery test report and BIS, CRS/ ROHS certificate will be verified by ADRDE Rep.\n\nTECHNICAL SPECIFICATION FOR 10 KVA ONLINE UPS \n \nS. No \n1. \n2. \n3. \n4. \nAC 3-phase 300V- 450V, sine wave, 50hz \n5. \nAC Single phase 230+/- 1%, sine wave, 50 hz \n6. \n7. \nBattery provided with UPS \nShall be provided along with Battery \n8. \nSMF VRLA Conforming to JISC:8702, stationary \nlead acid Batteries conforming to IS :13369:1992 \nlatest \n9. \n10. \n11. \n12. \n13. \nInstallation and commissioning \nShall be done by vendor at ADRDE \n14. \nPreventive maintenance & services \nShall be provided Quarterly and as & when \nrequired during warranty period \n15. \nInbuilt isolation transformer \n16. \n>=90% with inbuilt isolation transformer \n17. \nPower Factor load supported \n18. \n20% overload for minimum 10 minute \n19. \nTotal harmonic distortion THD \n20. \nCrest factor on fill non liner load is not less than \n3:1 \ntransit repose time < 20 milliseconds , \nUPS input power factor better than 0.95 \n21. \ncabling 6 meter(3 meter input and output up to 3 \nmeter ) \n22. \n- Under voltage/Over voltage at battery terminal,\n\n- Short circuit & overload at UPS output terminal, \n- Over temperature protection \n23. \nInput voltage, output voltage, input current, \noutput current, input frequency, output frequency, \ninput power factor, battery voltage and current. \n24. \nIndicator for main presence, battery charging, low \nbattery with audible alarm, output overload with \n25. \nType of design / construction \n26. \nminimum 1.2 mm thickness of MS sheet duty \npower coated \n27. \nDegree of protection of UPS \n28. \n29. \nOther constructional features \nMain ON/OFF MCB, battery ON/OFF MCB , \nBattery fuse, inverter reset push button, static by \npass, manual by pass, expandable rack facility, \n30. \n31. \n32. \n33. \nType test report as per govt lab/ NABL \naccredited lab \n34. \n35. \nVendor shall provide environmental test report \nfrom NABL accredited lab for UPS and all \ncertificates mentioned in these specifications \n36. \nYes \n37.",
+  "errors": [],
+  "removed_noise_lines": [
+    "(Binnami Singh)",
+    "(Hari Karan Dwivedi)",
+    "- Under voltage/Over voltage ,",
+    "0 0C  To 50 0C",
+    "0.8 or better",
+    "10 KVA",
+    "120 minute or more",
+    "2 year or more",
+    "240 DC volt",
+    "3 % Maximum @ 100 % liner load",
+    "3 Year on site",
+    "40 or as per backup requirements",
+    "65 AH or more",
+    "95% (non condensing at 40 0C)",
+    "APFC >/= 0.92 ,",
+    "Accessories",
+    "Alarm and indicators",
+    "Appendix ‘B' to Demand   No - 24041008                                  Dated:   02 FEB  2024",
+    "BIS CRS certification",
+    "Backup time",
+    "Battery capacity",
+    "Battery test report",
+    "By certificate/data sheet",
+    "By certificate/test report",
+    "DC bus voltage ( in volts )",
+    "Enclosure",
+    "Environmental test report",
+    "Floor standing",
+    "G.D.(PARA 17)",
+    "IGBT-PWM",
+    "IP21",
+    "IS:9000, damp heat test",
+    "Initiating Officer",
+    "Input Voltage",
+    "Make in India",
+    "Metering",
+    "Noise level <70dB,",
+    "Number of Batteries",
+    "Online UPS",
+    "Operating temperature",
+    "Other functional feature",
+    "Other requirements",
+    "Output Voltage",
+    "Overall Efficiency %",
+    "Overload limit",
+    "Parameters/attribute",
+    "Protection",
+    "Rack of batteries,",
+    "Rating in KVA",
+    "Relative humidity",
+    "Report and Certification",
+    "Sc   ‘F’",
+    "Shall be integrated with UPS",
+    "Shall be provided by vendor",
+    "Switching Technology",
+    "TO ‘B’",
+    "Type of Battery",
+    "Type of UPS",
+    "UPS shall be ROHS Compliance",
+    "Value/Range",
+    "Warranty for UPS",
+    "Warranty of battery",
+    "audible alarm, alarm for low battery",
+    "paralleling kit for synchronizing"
+  ]
+}

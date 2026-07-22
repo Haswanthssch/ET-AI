@@ -1,0 +1,157 @@
+This topic provides a reference for the Project Center RFI activity center. 
+Purpose 
+The RFI activity center enables you to effectively log and track RFIs through their approval process. 
+Audience 
+Architects, engineers, construction professionals, and owners. 
+Key Features 
+• 
+Streamline RFI management. 
+• 
+Manage construction-related project information. 
+• 
+Capture and connect interrelated contract management work processes. 
+Received RFI Workflow 
+The following workflow options are available for tracking received RFIs in the project. Not all steps have to 
+be used. 
+ 
+To log a received RFI from email 
+You can log a received RFI directly from an email message. 
+1. Highlight the email, select the dropdown arrow by File in Project and then select File As. 
+ 
+2. In the Select Project dialog box, double-click on the corresponding project to select it.
+
+3. In the File As dialog box, select the New Item radio button and RFI from the Project Item Type 
+list to log a new RFI. Complete the information in the Log a Received RFI dialog box as needed and 
+select OK. 
+To log a received RFI from Info Exchange 
+External users can be given access to your Info Exchange site so they can send you RFIs directly from the 
+site. 
+See the Project Team Overview for more information on granting external users 
+access to Info Exchange. 
+1. You will receive an email notification that an RFI was sent to you through Info Exchange. Follow the 
+link in the email to the RFIs activity center. 
+2. Select Receive Pending RFI from the Tasks panel. 
+ 
+3. Complete the information in the Log a Received RFI dialog box as needed and select OK. 
+ 
+To log a received RFI from the RFI activity center 
+You can also log a received RFI directly through the activity center. This is how you log documents 
+received in hard copy or messages received via phone or fax. 
+Download or scan files needed before logging the RFI. 
+1. In the RFIs activity center, select New RFI > Log Received RFI from the Tasks panel. 
+ 
+2. Complete the information in the Log a Received RFI dialog box as needed. 
+3. Use the Description of Contents tab to track physical samples and items.
+
+4. You can add scanned files or files downloaded from another site to the Received Files tab. 
+ 
+ 
+To forward an RFI for review 
+RFIs can be forwarded for review to multiple internal and external reviewers. 
+1. In the RFIs activity center, highlight the RFI and select Forward for Review from the Tasks panel. 
+ 
+2. Select any files to send to the reviewers in the Select Files to Forward for Review dialog box and 
+select OK. 
+Internal reviewers will see all associated files when they view the RFI through the RFI 
+activity center so forwarding files may not be necessary. 
+3. Complete the information in the Forward RFI for Review dialog box as needed. 
+If you choose to send via email, Newforma prepares a notification email. Look for the 
+Microsoft Outlook icon flashing in the Windows toolbar indicating the email is ready to 
+send. 
+To record a reviewer response in the RFI activity center 
+Reviewers' responses can be recorded in the RFI activity center from email or from a response sent 
+through Info Exchange. 
+1. In the RFIs activity center, highlight the RFI and select Record Reviewer Response from the Tasks 
+panel.
+
+2. Record your comments in the Response box on the Response tab. 
+ 
+3. Add any files to the Associated Files tab. 
+ 
+4. Select Record Response to save your changes. 
+To record a reviewer response from email 
+When a reviewer responds to an RFI via email, you can record the response directly from Outlook. 
+1. In Outlook, highlight the email you want to log as a reviewer response, then select the drop-down 
+arrow for the File in Project button in the Project Center Add-In for Microsoft Outlook toolbar. 
+Select File As from the drop-down menu. 
+ 
+2. In the Select Project dialog box, double-click on the corresponding project to select it. 
+3. In the File As dialog box, select Reviewer Response and select RFI as the Project Item Type to 
+pick from the list of expected RFIs in the Choose Project Item dialog box. Complete the 
+information in the Record Reviewer Response for RFI dialog box as needed.
+
+To record a reviewer response from Info Exchange 
+Reviewers can respond to an RFI through Info Exchange. You will receive an email notifying you of the 
+sent response. 
+1. In the RFIs activity center, select Pending Incoming from the category drop-down list. Highlight the 
+appropriate RFI and select Receive Pending Review Response in the Tasks panel. 
+ 
+2. Complete the information in the Record Reviewer Response for RFI dialog box as needed. 
+ 
+To respond and close 
+Use this option to track your response to the RFI and close it within Newforma. 
+1. In the RFIs activity center, highlight the RFI and select Close > Respond and Close from the Tasks 
+panel. 
+ 
+2. In the Select Files to Send dialog box, select any files you want to send with the response. Any 
+files included in a reviewer response are selected by default. Select OK.
+
+3. Complete the information in the Respond to RFI and Close dialog box. You can use the response 
+widget to copy a full summary of the RFI activity or just a summary of the reviewer responses in the 
+Response field. 
+ 
+4. Click Create to close the RFI and create the response.
+
+Initiate RFI Workflow 
+The following workflow options are available for tracking RFIs that you initiate for the project. Not all steps 
+have to be used. 
+ 
+ 
+To create an RFI from the RFIs activity center 
+You can log and track RFIs you create directly through the activity center. 
+1. In the RFIs activity center, select New RFI > Create RFI. 
+ 
+2. Enter any information as needed in the Create RFI dialog box. Use the Question tab for the content 
+of your question and the Supporting Documents tab for any files. 
+ 
+3. Click OK to create the RFI. 
+The new RFI is listed in a Draft state until it is forwarded or closed.
+
+To close an RFI 
+After sending the RFI for review and recording the reviewer's response as needed, you can log the answer 
+and close the RFI in Newforma. 
+1. In the RFI activity center, highlight the RFI and select Close > Close from the Tasks panel. 
+ 
+2. Complete the information in the Close RFI dialog box. You can use the response widget to copy a 
+full summary of the RFI activity or just a summary of the reviewer responses in the Response field. 
+ 
+3. Select OK to close the RFI. 
+ 
+To send and close an RFI 
+Use this option to track your response to the RFI and close it within Newforma. 
+1. In the RFIs activity center, highlight the submittal and select Close > Respond and Close from the 
+Tasks panel.
+
+2. In the Select Files to Send dialog box, select any files you want to send with the response. Any 
+files included in a reviewer response are selected by default. Click OK. 
+ 
+3. Complete the information in the Respond to RFI and Close dialog box. You can use the response 
+widget to copy a full summary of the RFI activity or just a summary of the reviewer responses in the 
+Response field. 
+ 
+4. Click Create to close the RFI and create the response.
+
+To view RFIs on Info Exchange 
+Internal and external users can see the RFIs log on Info Exchange. By default, external users only see 
+items in the workflow that they sent or received. 
+1. Log into the Info Exchange website and select the project, then select View > Contract 
+Management > RFIs. 
+ 
+ 
+2. You can use the RFIs category dropdown list to filter the list of RFIs by status.
+
+3. You can view the workflow for any RFI. 
+ 
+ 
+4. When you need to access the data in different formats you can export to a variety of file formats from 
+the website.

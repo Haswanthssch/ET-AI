@@ -1,0 +1,594 @@
+2/22/2013 
+
+Best Practices, Benefits and 
+Economics of Load Testing 
+ 
+IEEE PES Silicon Valley Chapter - February 20, 2013 
+Mark Siira 
+ComRent International
+
+Agenda 
+Introduction 
+– Overview of Load Bank Testing 
+Benefits and Economics of Load Testing 
+Industry Trends 
+– IEEE Standards for Interconnection 
+– FERC Small Generator Interconnection 
+Innovations in Load Testing 
+Lessons Learned 
+
+2/22/2013
+
+Overview of Load Bank 
+Testing 
+
+2/22/2013
+
+Overview of Load Bank Testing 
+Load testing is done at multiple locations within a 
+data center 
+Load 
+Testing 
+Load 
+Testing 
+Load 
+Testing 
+Load 
+Testing
+
+Overview of Load Bank Testing 
+The load testing goal in critical facilities is to 
+balance the electrical and thermal loads 
+– We have to check the electrical systems functionality 
+AND the HVAC system’s performance in keeping the 
+center cool. 
+– Every component and connections are tested in advance 
+Load Banks: Generating Success
+
+Overview of Load Bank Testing 
+•Performs as system designer intended 
+Commissioning tests 
+ensure equipment is rated, 
+specified and installed 
+properly 
+•Allows failure prediction to occur during the test, and 
+not during an unintended outage 
+Regular load testing 
+ensures proper operation 
+of equipment 
+•System test calibration ensures operation at all levels 
+•Future standards may recommend actual load testing 
+to ensure performance and safety 
+Over time, as systems 
+become more complex 
+•Load Testing Ensures validation or verification of 
+corrective actions to failures in the facility 
+•Electric power system 
+Corrective Action 
+Validation
+
+Benefits and Economics 
+of Load Testing 
+
+2/22/2013
+
+What to Test - Facility Uptime Tiers 
+Tier I – Basic 
+Non-Redundant 
+No redundancy 
+Susceptible to 
+Equipment 
+configurations 
+minimum required for 
+equipment to operate 
+Operation errors or 
+failures will cause an 
+interruption in service 
+Tier II – Basic 
+Redundant 
+Limited backup and 
+redundancy 
+Susceptible to 
+disruptions from 
+planned and 
+unplanned activities 
+May contain limited 
+critical functions that 
+can be shut down 
+properly without 
+adverse effects on 
+business 
+UPS and/or generator 
+backup may be 
+installed for parts of 
+the building 
+Failures may cause a 
+disruption in facility 
+service 
+Tier III – 
+Concurrently 
+Maintainable 
+Full single system 
+backup and 
+redundancy (N + I) 
+Planned preventative and 
+programmable 
+maintenance activities, 
+repairs, testing, etc. can 
+be conducted without 
+interruption of service 
+Errors in operation or 
+spontaneous failures of 
+infrastructure may cause 
+disruption of power to the 
+loads 
+Tier IV – Fault 
+Tolerant and 
+Failure Tolerant 
+Facility functions 
+cannot tolerate any 
+downtime 
+No single points of 
+failure, and multiple 
+system backup with 
+automated recovery 
+(2N) 
+Capable of 
+withstanding one or 
+more component 
+failures, errors, or 
+other events without 
+disrupting power to 
+the load 
+Full load can be 
+supported on one path 
+without disruption while 
+maintenance/testing is 
+performed on the other 
+2/22/2013
+
+Benefits of Load Bank Testing 
+Data Center power system is a critical investment in 
+total system reliability aimed at reducing business 
+risk 
+ 
+ 
+ 
+2/22/2013 
+Risk Types 
+Capital Project 
+Risk 
+Operational 
+Risk 
+Random 
+Failure Risk 
+Risk 
+Assessment 
+Identification 
+Analysis 
+Evaluation 
+Risk 
+Treatment 
+Monitoring 
+and Review 
+Continuous 
+Improvement 
+Source: ISO/FDIS 31000:2009(E), 
+pages VII and 9. 
+Need to have data 
+to support these 
+steps
+
+Benefits of Load Bank Testing in Critical 
+Power Systems 
+Reduce Risk, Improved Reliability 
+– Probability and frequency of failures (MTBF) 
+Improved Availability 
+– Availability is defined as the percentage of time that a system is 
+available to perform its function(s)
+
+Benefits of Load Bank Testing in Critical 
+Power Systems 
+Validation of System Performance to Specification 
+– Systems need to perform at rated power with underlying 
+assumptions 
+§ Power Factor 
+§ Altitude and climate 
+Lower Maintenance Costs 
+– Running an engine with minimal load causes residual fuel buildup. 
+§ Decreases the efficiency of the engine and reduces the useful life of critical parts. 
+– As a system evolves with updated software, firmware and 
+replacement hardware 
+§ Systems need to be periodically calibrated 
+Reduced Business Risk 
+– Damage to Reputation 
+– Brand Impact
+
+Benefits of Load Bank Testing in Critical 
+Power Systems 
+Reduced Business Risk 
+60% of Data Center Failures Could be 
+Prevented/Deferred through load testing.
+
+Benefits of Load Bank Testing in Critical 
+Power Systems (Cont’d) 
+Uncover Random Failure Problems not diagnosed by sub system 
+Generato
+r Start 
+Generator 
+calibration for 
+altitude and 
+temperature 
+Low cranking 
+amps 
+ATS 
+Return to 
+Normal Time 
+Delay 
+Faulty time 
+delay relay 
+Circuit 
+Breaker 
+Faulty Trip 
+due to inrush 
+Ground Fault 
+Relay sensor 
+imbalance 
+UPS 
+UPS Switches 
+to battery 
+power when 
+Gens. Run 
+Out of 
+tolerance 
+battery string 
+Communi
+-cations 
+Time delay 
+and control 
+options need 
+tweaking 
+Upgraded 
+control firmware 
+incompatibility
+
+Benefits of Load Bank Testing in Critical 
+Power Systems (Cont’d) 
+A well run full load test can Reduce Project Costs 
+– Faster setup, testing and takedown 
+§ Reduced overall time for commissioning test (days) 
+§ Reduced load bank setup time (hours) 
+§ Less checking and reworking of connections by Installer Faster set 
+up of downstream tests with buss track adapters and rack 
+mounted load banks 
+§ Less changeover when switching tests to multiple service providers 
+Reduced labor from stakeholders involved in 
+commissioning 
+– Generator, UPS Mfr. 
+– General Contractor, Electrical Contractor 
+– Consulting Engineer 
+– Facilities Owner/Manager
+
+Benefits of Load Bank Testing in Utility 
+Substations (Cont’d) 
+Substations on new circuits or that are great 
+distance from active feeders can benefit from load 
+bank testing during commissioning 
+– Energize circuit with sufficient current to allow CT’s to test 
+protective relay settings and operation 
+– Also test communication systems 
+Utility ratemaking process can allow this expense 
+to be capitalized 
+
+2/22/2013
+
+Industry Trends 
+
+2/22/2013
+
+Industry Trends 
+Distributed Energy Resource Interconnection 
+SCC 21 
+Coordination
+
+Industry Trends 
+Distributed Energy Resource Interconnection 
+Standards 
+IEEE 1547-2003 Standard for Interconnecting Distributed 
+Resources to the EPS 
+– Today, IEEE1547-2003 Restricts Voltage, Frequency Regulation or Power 
+Factor Correction at the PCC 
+– Wording added to allow Voltage, Frequency Regulation (by injecting 
+reactive Power) and Power Factor Correction in collaboration with EPS 
+operator. If disputes arise, a full load test may be required to resolve 
+technical differences. 
+P1547.5 Interconnection of Electric Power Sources Greater than 
+10MVA to the Power Transmission Grid (Wind Farms) 
+– IEEE1547.5 was withdrawn by IEEE in 2011 due to lack of Progress. 
+IEEE wants to reinitiate this due to continued problems encountered 
+when commissioning these systems. 
+– Objective will be to reinstate this WG and institute the common practice 
+for commissioning wind farms. 
+Key: 
+•
+Current Situation 
+•
+Probable 2013 Activity
+
+Industry Trends 
+Distributed Energy Resource Interconnection 
+“Small” Generator Project Approval Rules 
+FERC Proposed Reforms for Small Generator Interconnection 
+[Docket No. RM13-2-000] 
+1.
+Allow customers to request a pre-application report to evaluate 
+opportunity. No review exists today. 
+2.
+Revise 2 MW threshold for participation in the Fast Track Process 
+(FTP) increased to a limit of 5 MW 
+3.
+Revise the customer options supplemental review for projects 
+that fail FTP criteria. No feedback or follow-up allowed. 
+4.
+FERC’s pro forma Small Generator Interconnection Procedures 
+(SGIP) revised to allow customers an opportunity to provide 
+written comments on the upgrades that are necessary for the 
+interconnection (transmission provider has total say) 
+ 
+ 
+Key: 
+•
+Current Situation 
+•
+Probable 2013 Activity
+
+Industry Trends 
+Smart Grid Interoperability of DR with EPS 
+Smart Grid Interoperability 
+IEEE P2030.2 - Guide for the Interoperability of 
+Energy Storage Systems 
+–First standard using the IEEE 2030 Smart Grid 
+Interoperability model. I am Working Group 
+Chair 
+–Writing Committees Engaged to produce a ballot 
+able draft by end of 2013. 
+Key: 
+•
+Current Situation 
+•
+Probable 2013 Activity
+
+Industry Trends 
+Smart Grid Interoperability of DR with 
+EPS 
+IEEE 2030-2011 - Guide for Smart Grid 
+Interoperability 
+– More commonality and completeness in communications 
+and information technology requirements 
+
+Power Systems 
+• Logical representation 
+of Electric Power 
+System 
+Communication 
+Technology 
+• Networks 
+available to 
+move data 
+Information 
+Technology 
+• Data Characteristics 
+and Data Flows 
+Common 
+Domains 
+Customer 
+Distribution Network 
+Transmission Network 
+Bulk Generation 
+Utility Operations & 
+Control 
+Service Providers 
+Markets
+
+Industry Trends 
+Special Standards 
+Special Cases 
+–UL Standards Technical Panel 1741 (Inverters 
+and Converters) 
+§ Type Testing Standard for Inverters and Converters 
+§ Revision due in 2013 
+–UL Standards Technical Panel - UL 6171 – 
+Standard for Wind Turbine Converters and 
+Interconnection Systems Equipment (Startup in 
+late 2013) 
+§ No standards exist today. 
+§ Clarity on interconnection and load testing requirements. 
+Key: 
+•
+Current Situation 
+•
+Probable 2013 Activity
+
+Load Testing Best 
+Practices 
+
+2/22/2013
+
+Load testing at commissioning and maintenance 
+intervals reduce the incidence of catastrophic 
+failures. 
+Load Testing Best Practices
+
+Arc Flash Explosion 
+Circuit Breaker 
+Bus Bar 
+Load Testing Best Practices 
+Facility Damage
+
+Load Testing Best Practices 
+Data Center Integration Testing 
+– THE PROBLEM: 
+§ Data center testing occurs months before servers are installed 
+§ Owners need to ensure the complex systems operate as 
+intended. 
+2/22/2013
+
+Load Testing Best Practices 
+Power System 
+Generator Individual 
+Generators in Parallel 
+Automatic Transfer Switch 
+UPS Modules 
+Power Distribution Units 
+(PDU’s) 
+Remote Power Panel 
+(RPP’s) 
+Overhead or under floor 
+distribution or Bus System 
+In Rack Power Strips 
+IR inspection at all points
+
+Load Testing Best Practices 
+HVAC 
+Heating Ventilation Air 
+Conditioning 
+Chillers 
+Cooling Towers 
+CRAC Units Computer Room Air 
+Conditioners 
+Humidity controllers 
+Economizers (outside air 
+blending)
+
+Load Testing Best Practices 
+IST Integrated Systems Test 
+ 
+– Combines all HVAC and 
+Power Systems and applies 
+load to the data center as 
+a whole. 
+– As the load banks produce 
+electrical load, it is 
+discharged as heat. The 
+cooling system is tested, 
+Tuned and Balanced. 
+– System failure modes are 
+explored and documented.
+
+Load Testing Best Practices 
+Critical Facility Power Quality 
+– THE PROBLEM 
+§ Power Quality Measurement requires costly, 
+equipment that takes a high level of training to 
+interpret results. 
+§ Equipment suppliers pointing fingers when 
+problem occurs
+
+Load Testing Best Practices 
+Power Quality Measurement 
+– Technology can provide 
+comprehensive results with little test 
+time 
+Harmonics 
+Recovery Time 
+Power Quality Test Report
+
+Load Testing Best Practices 
+Medium Voltage Feeds and Emergency Generators 
+– THE PROBLEM 
+§ Many data centers use Medium Voltage Utility Feeds and 
+employ Medium Voltage Emergency Generators 
+§ Load Testing with low voltage load banks results in 
+complicated connections, space constraints and sloppy job site 
+appearance. 
+ 
+2/22/2013
+
+Load Testing Best Practices 
+CR922A 5MW MV Load Bank: Transportable 
+medium voltage load bank 
+• No Transformer 
+• CAPACITY: 
+5MW @13,800 VAC 4MW @ 4,160 VAC 
+• Easy set up 
+• Linkable for larger loads 
+• Reduces time & labor cost 
+2/22/2013
+
+Load Testing Best Practices 
+High Voltage Substations 
+– THE PROBLEM 
+§ Little scheduling flexibility when commissioning substation 
+§ Highly constrained resources that set up and test 
+communications and protection systems make project 
+management difficult 
+ 
+2/22/2013
+
+Load Testing Best Practices 
+Substation Pre-Commissioning 
+– Bring in partial load 
+sufficient to energize 
+CT’s to test communications 
+protective relays 
+ 
+2/22/2013
+
+Recent ComRent Projects: 
+Chevron Oil Field – 3 each 3MW Solar gas turbines 
+ 
+Provided: 9 MW’s Resistive / Reactive .8PF at 12470 volts
+
+Load Testing Best Practices 
+SCE Wind Hub Substation 
+ 
+Serving renewable energy Solar and Wind Farms in Southern California- R
+Provided :26 MW’s of MV load (@13.8kv) Load Banks, Switch Gear and op
+
+Load Testing Best Practices 
+Copper Mine, Kingman, AZ 
+50MW GE Natural Gas Turbine Generator 
+Provided: 42MW’s of MV load (@13.8kv ), transformers, 
+switchgear, cables.
+
+Load Testing Best Practices 
+Critical Facility Load Testing and Commissioning 
+– THE PROBLEM 
+–
+Load testing can take several days at a site and requires 
+skilled labor to be available to control load and load steps 
+–
+Often the sites are considered unsafe while load is being 
+energized
+
+Load Testing Best Practices 
+Wi-Fi / Enhanced Communications: 
+IP addressable load banks 
+Manage all load banks via a 
+single mobile device 
+–
+In the rack 
+–
+In the aisle 
+–
+In the room 
+Reduces Test Time 
+Reduced labor cost 
+ 
+Android Smartphone Interface 
+Application 
+Customized MS Windows GUI
+
+Lessons Learned 
+
+2/22/2013
+
+2/22/2013 
+
+Lessons Learned 
+Load testing is a critical and beneficial aspect of 
+building commissioning and maintenance. 
+Innovations can make testing safer and faster 
+Bottom line is effective power system 
+commissioning and testing saves you project 
+costs and reduces operating expense

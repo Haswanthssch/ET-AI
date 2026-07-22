@@ -1,0 +1,2698 @@
+TESTING AND COMMISSIONING PROCEDURE 
+ 
+ 
+FOR 
+ 
+ 
+EMERGENCY GENERATOR INSTALLATION 
+ 
+ 
+IN 
+ 
+ 
+GOVERNMENT BUILDINGS 
+ 
+ 
+OF 
+ 
+ 
+THE HONG KONG SPECIAL ADMINISTRATIVE REGION 
+ 
+ 
+2012 EDITION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ARCHITECTURAL SERVICES DEPARTMENT 
+THE GOVERNMENT OF THE HONG KONG SPECIAL ADMINISTRATIVE REGION
+
+PREFACE 
+ 
+ 
+ 
+This Testing and Commissioning (T&C) Procedure aims to lay down the minimum 
+testing and commissioning requirements to be carried out on Emergency Generator 
+Installation in Government Buildings of the Hong Kong Special Administrative Region 
+(HKSAR). Such requirements are applicable to both new installations upon completion and 
+existing ones after major alteration. 
+ 
+ The present edition was developed based on its 2007 edition by the Mechanical 
+Installation Specialist Support Group that was established under the Building Services 
+Branch Technical Information and Research & Development Committee of the 
+Architectural Services Department (ArchSD). This T&C Procedure had incorporated the 
+latest changes in corrigendum no. GSEE01-2012 for the 2012 edition of the General 
+Specification for Electrical Installation. 
+ 
+ 
+With the benefit of information technology, electronic version of this new edition is 
+to be viewed on and free for download from the ArchSD Internet homepage. As part of the 
+Government’s efforts to limit paper consumption, hard copies of this T&C Procedure will 
+not be put up for sale. 
+ 
+ 
+The ArchSD welcomes comments on content of this T&C Procedure at any time 
+since the updating of this T&C Procedure is a continuous process to tie in with technological 
+advances.
+
+DISCLAIMER 
+ 
+ 
+ 
+This T&C Procedure is solely compiled for use on Emergency Generator Installation 
+carried out for or on behalf of the ArchSD in Government buildings of the HKSAR. 
+ 
+ 
+There are no representations, either expressed or implied, as to the suitability of this 
+T&C Procedure for purposes other than that stated above. The material contained in this 
+T&C Procedure may not be pertinent or fully cover the extent of the installation in 
+non-government buildings. Users who choose to adopt this T&C Procedure for their works 
+are responsible for making their own assessments and judgement of all information 
+contained herein. The ArchSD does not accept any liability and responsibility for any special 
+indirect or consequential loss or damage whatsoever arising out of or in connection with the 
+use of this T&C Procedure or reliance placed on it.
+
+Table of Contents 
+
+GE_TCP 
+2012 Edition 
+ 
+ 
+ 
+TABLE OF CONTENTS 
+ 
+ 
+ 
+Page 
+ 
+ 
+ 
+1. 
+Introduction 
+
+2. 
+Objectives of the T&C works 
+
+3. 
+Scope of the T&C Works 
+2 - 3 
+ 
+ 
+ 
+ 
+3.1 
+Tests and Inspections during Construction 
+ 
+ 
+3.2 
+Functional Performance Tests 
+ 
+ 
+3.3 
+Commissioning and Statutory Inspections 
+ 
+ 
+3.4 
+Documentation and Deliverables 
+ 
+ 
+ 
+ 
+ 
+4. 
+T&C Procedures 
+4 - 5 
+ 
+ 
+ 
+ 
+ 
+4.1 
+Tests and Inspections during Construction 
+ 
+ 
+ 
+4.1.1 
+Emergency Generator 
+ 
+ 
+ 
+4.1.2 
+Control Cubicle 
+ 
+ 
+ 
+4.1.3 
+Underground/ Daily Service Fuel Tank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2 
+Functional Performance Tests 
+ 
+ 
+ 
+4.2.1 
+Emergency Generator 
+ 
+ 
+ 
+4.2.2 
+Control Cubicle 
+ 
+ 
+ 
+4.2.3 
+Underground/ Daily Service Fuel Tank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.3 
+Commissioning and Statutory Inspections 
+ 
+ 
+ 
+4.3.1 
+Emergency Generator 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Annex 
+ 
+ 
+ 
+ 
+ 
+ 
+Annex I 
+Testing and Commissioning Progress Chart for 
+Emergency Generator Installation 
+ 
+ 
+ 
+ 
+Testing 
+and 
+Commissioning 
+Certificate 
+for 
+Emergency Generator Installation 
+ 
+ 
+ 
+ 
+Annex III 
+List of Calibrated Instrument Necessary for the T&C 
+Works
+
+GE_TCP 
+2012 Edition 
+ 
+Testing and Commissioning Procedure for 
+Emergency Generator Installation 
+ 
+1. 
+Introduction 
+ 
+ 
+ 
+The procedures stated in this T&C Procedure cover the activities in preliminary tests 
+and inspections, functional performance tests and the commissioning of newly 
+completed Installations and existing ones after major alteration. They are so 
+compiled to facilitate the work of Project Building Services Engineer (PBSE) / 
+Project Electrical and Mechanical Engineer (PEME) and Project Building Services 
+Inspector (PBSI) / Project Electrical and Mechanical Inspector (PEMI), who are 
+appointed as the Architect’s Representatives, in the following aspects with respect to 
+testing and commissioning (T&C):- 
+ 
+ 
+ 
+(i) 
+to vet and approve the T&C procedures proposed and submitted by the 
+contractor for the Emergency Generator Installation (GE Contractor); 
+ 
+ 
+(ii) 
+to witness those T&C procedures as specified; and 
+ 
+ 
+(iii) 
+to accept the T&C certificates and other supporting data. 
+ 
+ 
+ 
+ 
+ 
+ 
+The GE Contractor shall carry out the T&C works as detailed in this document. 
+Supplementary T&C plans may be proposed by the GE Contractor as appropriate and 
+agreed by PBSE/PEME, e.g. for special equipment supplied and/or installed by the 
+GE Contractor. 
+ 
+The administrative requirements for T&C works are in general as specified in the 
+General Specification for Electrical Installation 2012 Edition and all current 
+corrigenda/amendments thereto published before the date of first tender invitation for 
+the Contract issued by the ArchSD (the General Specification) issued by the 
+Architectural Services Department. 
+ 
+All words and expressions shall have the meaning as assigned to them under the 
+General Specification unless otherwise specified herein. 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Objectives of the T&C works 
+ 
+ 
+ 
+The objectives of the T&C works are:- 
+ 
+ 
+ 
+(i) 
+to verify proper functioning of the equipment/system after installation; 
+ 
+ 
+(ii) 
+to verify that the performance of the installed equipment/systems meet 
+with the specified design intent through a series of tests and adjustments; 
+and 
+ 
+ 
+(iii) 
+to capture and record performance data of the whole Installation as the 
+baseline for future operation and maintenance. 
+ 
+ 
+ 
+ 
+ 
+ 
+For the avoidance of doubt, depending on the specific demands of individual 
+Installation, the PBSE/PEME may require additional or substitute T&C works in 
+regard to any elements in the Installation other than those indicated in this T&C 
+Procedure.
+
+GE_TCP 
+2012 Edition 
+ 
+ 
+3. 
+Scope of the T&C Works 
+ 
+ 
+ 
+3.1 Tests and Inspections during Construction 
+ 
+ 
+ 
+ 
+ 
+ 
+The purpose of these tests is to ensure that all components and systems are in a 
+satisfactory and safe condition before start up. Preliminary adjustment and setting of 
+equipment at this stage shall also be carried out at the same time to pave way for the 
+coming functional performance tests. 
+ 
+Before carrying out any test, the GE Contractor shall ensure that the Emergency 
+Generator Installation (Installations) complies with all relevant statutory 
+requirements and regulations. The T&C works shall also comply with all site safety 
+regulatory requirements currently in force. In particular, the GE Contractor shall note 
+the following:- 
+ 
+ 
+ 
+ 
+ 
+ 
+(i) 
+Electricity Ordinance (Cap. 406), and its subsidiary legislation; 
+ 
+ 
+(ii) 
+Code of Practice for the Electricity (Wiring) Regulations published by the 
+EMSD; 
+ 
+ 
+(iii) 
+IEC 60364 “Electrical Installations of Building”; 
+ 
+ 
+(iv) 
+Occupational Safety and Health Ordinance (Cap. 509), and other 
+subsidiary legislation made under the Ordinance; 
+ 
+ 
+(v) 
+Factories and Industrial Undertakings Ordinance (Cap. 59), and other 
+subsidiary legislation made under the Ordinance, including but not limited 
+to Construction Site (Safety) Regulations; 
+ 
+ 
+(vi) 
+Electricity supply rules of the relevant power supply companies; 
+ 
+ 
+(vii) 
+Fire Services Ordinance(Cap. 95), and its subsidiary legislation; 
+ 
+ 
+(viii) 
+Gas Safety Ordinance (Cap. 51), and its subsidiary legislation; and 
+ 
+ 
+(ix) 
+Air Pollution Control Ordinance (Cap. 311), and its subsidiary legislation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.2 Functional Performance Tests 
+ 
+ 
+ 
+ 
+ 
+ 
+The purpose of functional performance tests is to demonstrate that the installations 
+can meet the functional and performance requirements as specified in the General 
+Specification and/or Particular Specification. Functional performance tests should 
+proceed from the testing of individual components to the testing of different systems 
+in the Installations. 
+ 
+The GE Contractor may have to make temporary modifications as the tests proceed. 
+The specific tests required and the order of tests will vary depending on the type and 
+size of systems, number of systems, sequence of construction, interface with other 
+installations, relationship with the building elements and other specific requirements 
+as indicated in the General Specification and/or Particular Specification. The testing 
+of systems may have to be carried out in stages depending on the progress of work or 
+as proposed by the GE Contractor. 
+ 
+Part of the tests may be required to be carried out in suppliers’ premises in accordance 
+with the provisions in the General Specification and/or Particular Specification. 
+ 
+Any performance deficiencies revealed during the functional performance tests must 
+be evaluated to determine the cause. After completion of the necessary corrective
+
+GE_TCP 
+2012 Edition 
+ 
+measures, the GE Contractor shall repeat the tests. 
+ 
+If any test cannot be completed because of circumstances that are beyond the control 
+of the GE Contractor, it shall be properly documented and reported to the 
+PBSE/PEME, who shall then liaise with the relevant parties to resolve the situation. 
+The GE Contractor shall resume his testing work immediately upon the attainment of 
+a suitable testing environment. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.3 Commissioning and Statutory Inspections 
+ 
+ 
+ 
+ 
+ 
+ 
+Commissioning is the advancement of the Installations from the stage of static 
+completion to full working conditions and to meet the performance requirements as 
+specified in the General/Particular Specification. This will include setting into 
+operation and regulation of the Installations. Fine-tuning of the commissioned system 
+shall be done by the GE Contractor to match system performance to the actual needs 
+of the building occupier more closely. 
+ 
+Where necessary, after the proper testing and commissioning of the Installations, the 
+GE Contractor shall notify the appropriate authority as specified in General 
+Specification and/or Particular Specification, through the PBSE/PEME of the 
+completion of the Installations and its readiness for final inspection. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.4 Documentation and Deliverables 
+ 
+ 
+ 
+ 
+ 
+ 
+The GE Contractor shall submit his proposed T&C procedures together with the 
+Testing and Commissioning Progress Chart shown in Annex I to PBSE/PEME for 
+approval. 
+ 
+All inspection and T&C results shall be recorded in the data record forms shown in 
+Part 3 and 4 of Annex II. 
+ 
+Data recorded in other formats may also acceptable subject to prior approval of the 
+PBSE/PEME. Upon completion of all the required T&C works, the GE Contractor’s 
+project engineer shall complete and sign a testing and commissioning certificate as 
+shown in Part 1 and 2 of Annex II to the effect that the agreed T&C works have been 
+duly carried out. 
+ 
+A functional performance test report covering all measured data, data sheets, and a 
+comprehensive summary describing the operation of the system at the time of the 
+functional performance tests shall be prepared and submitted to the PBSE/PEME. 
+Deviations in performance from the General Specification and/or Particular 
+Specification or the design intent should be recorded, with a description and analysis 
+included. 
+ 
+Where required in the General Specification and/or Particular Specification, the GE 
+Contractor shall conduct a final evaluation of the performance of the Installations, the 
+results of which shall be included in the commissioning report.
+
+GE_TCP 
+2012 Edition 
+ 
+ 
+4. 
+T&C Procedures 
+ 
+ 
+ 
+ 
+ 
+4.1 Tests and Inspections during Construction 
+ 
+ 
+ 
+ 
+ 
+ 
+Certain tests will be carried out on different systems of the Installation during 
+construction to ensure their suitability for operating at the design conditions. 
+Certificates of such tests have to be issued together with certificates of any work tests. 
+ 
+(N.B. The following tests should be conducted in accordance with the procedures as 
+specified by the manufacturers. The testing procedures, instruments and records 
+should be submitted by the GE Contractor for approval of PBSE/PEME.) 
+ 
+ 
+ 
+ 
+ 
+Relevant Clauses 
+In Annex II 
+ 
+4.1.1 
+Emergency Generator 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+Visual inspection on engine, alternator, radiator, 
+and various systems of the generating set 
+N.A. 
+ 
+ 
+(b) 
+Full operating test 
+ 
+ 
+ 
+(c) 
+Control function test 
+ 
+ 
+ 
+(d) 
+Circuit & engine protection tests 
+ 
+ 
+ 
+(e) 
+Fuel consumption test 
+ 
+ 
+ 
+(f) 
+Step load acceptance test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1.2 
+Control Cubicle 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+Visual inspection on control panel 
+N.A. 
+ 
+ 
+(b) 
+Performance tests on individual components 
+ 
+ 
+ 
+(c) 
+Electrical resistance test (Ductor test) 
+ 
+ 
+ 
+(d) 
+Temperature rise test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1.3 
+Underground/ Daily Services Fuel Tank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+Visual inspection on welding surfaces and 
+primer coating 
+Clause 3.1 
+ 
+ 
+(b) 
+Hydraulic test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2 Functional Performance Tests 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2.1 
+Emergency Generator 
+ 
+ 
+ 
+ 
+ 
+ 
+(N.B. 
+The tests marked with “*” below should be performed 
+either under section 4.2.1 or 4.3.1 subject to the approval 
+of PBSE/PEME) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+Pre-commissioning 
+inspection 
+on 
+various 
+components / systems 
+Clause 3.3, 
+3.4.1,3.4.2, 
+4.1.4 & 4.1.5 
+ 
+ 
+(b) 
+Control function test* 
+ 
+ 
+(c) 
+Dummy load test* 
+ 
+ 
+ 
+(d) 
+Battery charger output test* 
+ 
+ 
+ 
+(e) 
+Step load acceptance test*
+
+GE_TCP 
+2012 Edition 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2.2 
+Control Cubicle 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+Pre-commissioning 
+inspection 
+on 
+various 
+components / systems 
+Clause 3.4.3 
+ 
+ 
+(b) 
+Performance tests of individual components 
+such as voltmeter, ammeter, frequency meter, 
+wattmeter, indicating lamps, buttons and 
+switches 
+ 
+ 
+ 
+(c) 
+Circuit protection & load transfer tests 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2.3 
+Underground/Daily Services Fuel Tank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+Pre-commissioning 
+inspection 
+on 
+the 
+construction, welding, painting and components 
+of tank & pipework 
+Clause 3.2 
+ 
+ 
+(b) 
+Hydraulic test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.3 Commissioning and Statutory Inspections 
+ 
+ 
+ 
+ 
+ 
+ 
+(N.B. 
+The tests marked with “*” below should be performed 
+either under section 4.2.1 or 4.3.1 subject to the approval 
+of PBSE/PEME) 
+ 
+ 
+ 
+ 
+ 
+ 
+4.3.1 
+Emergency Generator 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(a) 
+Insulation test 
+Clause 3.5, 
+ 
+ 
+(b) 
+Control function test* 
+4.1.3 to 4.1.7 
+ 
+ 
+(c) 
+Dummy load test* 
+ 
+ 
+ 
+(d) 
+Earthing protection test 
+ 
+ 
+ 
+(e) 
+Battery charger output test* 
+ 
+ 
+ 
+(f) 
+Step-load acceptance test* 
+ 
+ 
+ 
+(g) 
+Noise level measurement
+
+Annex I 
+
+PBS/SR.031(2012) 
+ 
+ 
+Annex I 
+Testing and Commissioning Progress Chart 
+“Emergency Generator Installation” 
+ 
+Contract No.: ____________________________________________________________________ 
+ 
+Contract Title: ___________________________________________________________________ 
+ 
+Name of Contractor/Sub-contractor: _________________________________________________ 
+ 
+Contract Period: / /20 to / /20 * Revised/Actual Completion Date : / /20 
+ 
+ 
+ 
+Testing and Commissioning Progress Chart for Emergency Generator Installation (Rev. 
+)(1) 
+ 
+Dates (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Remark 
+ 
+Activities 
+Reference S A S A S A S A S A S A S A S A 
+ 
+ 
+to 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Visual Inspections 
+3.1, 
+3.2&3.3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+U/G Fuel Oil Tank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Services Tank 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pipeworks 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Generator Set 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Battery 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cooling System 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Exhaust System 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submission of 
+Record of Test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. 
+Pre-commissioning 
+Inspection 
+3.4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submission of 
+Record of Test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3. 
+Insulation 
+Resistance Test 
+3.5 & 
+4.1.3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submission of 
+Record of Test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4. 
+Control Functional 
+Test 
+3.5 & 
+4.1.4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submission of 
+Record of Test
+
+Annex I 
+
+PBS/SR.031(2012) 
+ 
+ 
+Testing and Commissioning Progress Chart 
+“Emergency Generator Installation” 
+ 
+ 
+ 
+Testing and Commissioning Progress Chart for Emergency Generator Installation (Rev. 
+)(1) 
+ 
+Dates (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Remark 
+Activities 
+Reference S A S A S A S A S A S A S A S A 
+ 
+to 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5. Dummy Load Test 
+3.5 & 
+4.1.5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submission of 
+Record of Test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6. Earth Protection 
+Test 
+3.5 & 
+4.1.6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submission of 
+Record of Test 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7. 
+Submission of T&C 
+Certificate 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Notes : 
+* Delete if not applicable 
+(1) Insert revision no. 
+(2) Insert additional columns as necessary 
+S - schedule % completion 
+A - actual % completion
+
+Issue Date:- 8 August 2012 
+
+Revision Date: - 
+ 
+ 
+Testing and Commissioning Certificate 
+on 
+Emergency Generator Installation 
+ 
+Part 1 : Details of Project 
+1.1 Project title (with location) : 
+ 
+1.2 
+* P.W.P. / Project No. : 
+ 
+1.3 
+*Contract/Sub-contract/Quotation No. : 
+ 
+1.4 
+* Contractor/Sub-contractor : 
+ 
+1.5 
+* PBSE/PEME : 
+ 
+1.6 
+* PBSI/PEMI : 
+ 
+ 
+Part 2: Declaration 
+2.1 
+I certify that the Emergency Generator Installation as specified in the 
+Contract/Sub-contract/Quotation at the above location has been inspected, tested 
+and commissioned in accordance with this T&C Procedure and/or any other 
+procedures as agreed between the PBSE/PEME and the Emergency Generator (GE) 
+Contractor. The results are satisfactory in the aspects as mentioned in Part 3 and/or 
+as recorded in Part 4 of this Certificate, except as indicated in the COMMENTS 
+items. 
+ 
+2.2 I also certify that site tests have been performed in accordance with the 
+requirements set out in Parts 3 & 4 of this T&C Procedure and that the results are 
+satisfactory. A record of the tests has been prepared and submitted to the 
+PBSE/PEME. 
+ 
+Name of GE Contractor’s Representative: 
+ 
+____________________________________________ 
+ 
+Signature: 
+ 
+__________________________________________ 
+Designation / Post of GE Contractor’s Representative: 
+ 
+____________________________________________ 
+ 
+Date signed: 
+ 
+__________________________________________ 
+Name and Stamp of GE Contractor: 
+ 
+____________________________________________ 
+ 
+Telephone No.: 
+ 
+__________________________________________ 
+Notes: 
+1. “T&C Procedure” refers to the Testing &Commissioning Procedure for Emergency Generator Installation. 
+2. The GE Contractor’s Representative signing this Certificate must be a person or representative authorized by the 
+GE Contractor. 
+* Delete if not applicable
+
+Part 3: Items Inspected and Tested 
+ 
+ 
+Item tested/ 
+checked by 
+GE Contractor 
+Items witnessed by 
+PBSE/PEME/ 
+PBSI/PEMI 
+ 
+ 
+ 
+ 
+3.1 
+Underground tank 
+ 
+ 
+ 
+3.1.1 
+The welding has been examined and the effectiveness of the welding and 
+standard of workmanship is satisfactory. 
+ 
+*Yes/No 
+*Yes/No 
+3.1.2 
+The metal surface has been properly prepared in accordance with the 
+specification. 
+ 
+*Yes/No 
+*Yes/No 
+3.1.3 
+The manufacturer’s application procedure for the primer has been followed and 
+the type of primer, the number of coatings are in accordance with the 
+specification. 
+ 
+*Yes/No 
+*Yes/No 
+ 
+3.1.4 
+The underground tank has been subjected to hydraulic test to a pressure as 
+specified and the results are satisfactory. 
+ 
+*Yes/No 
+*Yes/No 
+ 
+ 
+ 
+ 
+3.2 
+Daily service fuel tank 
+ 
+ 
+ 
+3.2.1 
+The daily service fuel tank has been fabricated and welded in accordance with the 
+specifications and drawings. 
+ 
+*Yes/No 
+*Yes/No 
+3.2.2 
+The pipework & socket connections (for filling, overflow, drainage, return and 
+vent) have been properly installed at the fuel tank in accordance with the 
+specifications and drawings. 
+ 
+*Yes/No 
+*Yes/No 
+3.2.3 
+One quick closing valve has been installed properly with all necessary linkage for 
+operation from outside the building. 
+ 
+*Yes/No 
+*Yes/No 
+3.2.4 
+The fuel tank has been fitted with an approved content gauge unit and level 
+sensing equipment. 
+ 
+*Yes/No 
+*Yes/No 
+3.2.5 
+The fuel tank has been subjected to hydraulic test to a pressure as specified and 
+the results are satisfactory. 
+ 
+*Yes/No 
+*Yes/No
+
+Item tested/ 
+checked by 
+GE Contractor 
+Items witnessed by 
+PBSE/PEME/ 
+PBSI/PEMI 
+3.3 
+Visual inspection 
+ 
+ 
+ 
+3.3.1 
+The Generating Set has been properly fixed on a common steel section base 
+frame. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.2 
+Protection screen has been provided on all moving parts. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.3 
+Protection guard has been provided on hot exhaust. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.4 
+The fresh-water-cooled radiator has been properly fixed and there is no water 
+leakage. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.5 
+The radiator cooling fins and water tank are in good condition and properly fixed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.6 
+The water circulation pump with thermostatically controlled temperature 
+regulator has been properly fixed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.7 
+The engine mounted instrument panel has been fixed properly and c/w 
+lubrication oil temp. and cooling temp. gauges, tachometer and hour meter. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.8 
+The lubrication oil system with replaceable element types filter has been properly 
+fixed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.9 
+The fuel oil system c/w filter, fuel transfer pumps has been properly installed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.10 
+The fuel control solenoid c/w emergency shut off valve has been provided and 
+properly installed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.11 
+The tubular exhaust silencer has been properly installed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.12 
+For remote radiator, if applicable, c/w break tank booster pump, heat exchanger 
+etc. has been properly installed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.13 
+The enclosure to the alternator satisfy IP21 or as specified. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.14 
+Anti-condensate heater for the alternator has been provided and proper fixed. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.15 
+Where specified, facilities for generation at 380/220V have been provided. 
+ 
+*Yes/No 
+*Yes/No 
+3.3.16 
+Starting batteries have been provided and properly installed. 
+ 
+*Yes/No 
+*Yes/No
+
+Item tested/ 
+checked by 
+GE Contractor 
+Items witnessed by 
+PBSE/PEME/ 
+PBSI/PEMI 
+3.4 
+Pre-commissioning inspection 
+ 
+ 
+ 
+3.4.1 
+Diesel engine 
+ 
+ 
+ 
+3.4.1.1 
+Radiator water is at right level. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.1.2 
+Lubrication oil is at right level and with replaceable filter. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.1.3 
+The engine exhaust has been properly fixed and covered with asbestos-fee 
+insulation. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.1.4 
+The engine anti-vibration mounting is effective. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.1.5 
+Proper replaceable air filter has been installed. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.1.6 
+Effective and adequate earth bonding have been provided for the engine and 
+alternator. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.2 
+Alternator 
+ 
+ 
+ 
+3.4.2.1 
+Batteries electrolyte is at right level. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.2.2 
+Batteries output voltage is as specified. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.2.3 
+The alternator output terminal is at correct phase sequence. 
+ 
+*Yes/No 
+*Yes/No
+
+Item tested/ 
+checked by 
+GE Contractor 
+Items witnessed by 
+PBSE/PEME/ 
+PBSI/PEMI 
+3.4.3 
+Control cubicle 
+ 
+ 
+ 
+3.4.3.1 
+Permanent Chinese/English labels have been provided for all accessories. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.3.2 
+All control wirings are fitted with ferrules. 
+ 
+*Yes/No 
+*Yes/No 
+3.4.3.3 
+The following devices are provided in the control cubicle: 
+ 
+ 
+ 
+ a) Voltmeter & selector switch 
+ 
+*Yes/No 
+*Yes/No 
+ b) Ammeter & selector switch 
+ 
+*Yes/No 
+*Yes/No 
+ c) Frequency meter 
+ 
+*Yes/No 
+*Yes/No 
+ d) Wattmeter 
+ 
+*Yes/No 
+*Yes/No 
+ e) Auto/off/manual selector switch 
+ 
+*Yes/No 
+*Yes/No 
+ f) Start/stop push button 
+ 
+*Yes/No 
+*Yes/No 
+ g) “Simulate main failure” key switch 
+ 
+*Yes/No 
+*Yes/No 
+ h) “On-off” switch for generator anti-condensation element 
+ 
+*Yes/No 
+*Yes/No 
+ i) 
+Automatic 2 rate battery charging equipment c/w charging rate ammeter 
+ 
+*Yes/No 
+*Yes/No 
+3.4.3.4 
+Indicating lamp & reset button for: 
+ 
+ 
+ 
+ a) Engine fault 
+ 
+*Yes/No 
+*Yes/No 
+ b) Failure to start 
+ 
+*Yes/No 
+*Yes/No 
+ c) Generator supply available 
+ 
+*Yes/No 
+*Yes/No
+
+Item tested/ 
+checked by 
+GE Contractor 
+Items witnessed by 
+PBSE/PEME/ 
+PBSI/PEMI 
+3.4.3.5 
+Indication lamp for: 
+ 
+ 
+ 
+ a) Mains available 
+ 
+*Yes/No 
+*Yes/No 
+ b) Generator on load 
+ 
+*Yes/No 
+*Yes/No 
+ c) Load supplied from mains 
+ 
+*Yes/No 
+*Yes/No 
+ d) 7.5-hour fuel capacity 
+ 
+*Yes/No 
+*Yes/No 
+ e) 6.5-hour fuel capacity 
+ 
+*Yes/No 
+*Yes/No 
+ f) Low battery voltage 
+ 
+*Yes/No 
+*Yes/No 
+3.4.3.6 
+Generator output under voltage & over voltage protection devices 
+ 
+*Yes/No 
+*Yes/No 
+3.4.3.7 
+Approved type 4-pole withdraw-able air circuit breaker or 4 pole MCCB c/w 
+overload & short cot. Protection 
+ 
+*Yes/No 
+*Yes/No 
+ 
+ 
+ 
+ 
+3.4.3.8 
+Mechanically & electrically interlocked 4-pole contactor for automatic load 
+transfer & 4-pole manual by-pass 
+ 
+*Yes/No 
+*Yes/No 
+3.5 
+A full testing has been carried out and the results of the following tests have been 
+recorded and submitted to ArchSD. 
+ 
+ 
+ 
+ a) Insulation test 
+ 
+*Yes/No 
+*Yes/No 
+ b) Control functions test 
+ 
+*Yes/No 
+*Yes/No 
+ c) Dummy load test 
+ 
+*Yes/No 
+*Yes/No 
+ d) Earthing protection test 
+ 
+*Yes/No 
+*Yes/No 
+ e) Battery charger output test 
+ 
+*Yes/No 
+*Yes/No 
+ f) Step-load acceptance test 
+ 
+*Yes/No 
+*Yes/No 
+ 
+ 
+ 
+3.6 
+Comment 
+ 
+*Yes/No 
+*Yes/No
+
+Part 4: Test Record attached to the Test Certificate 
+ 
+4.1 
+Emergency Generator Installation 
+ 
+4.1.1 
+Equipment Details 
+ 
+ 
+ 
+(i) Generating Set 
+ 
+ 
+1. 
+Manufacturer 
+ 
+2. 
+Model 
+ 
+3. 
+Net prime rating (MCR) (kW) 
+ 
+ 
+ 
+(ii) Diesel Engine 
+ 
+ 
+ 
+1. 
+Make 
+ 
+ 
+2. 
+Model 
+ 
+ 
+3. 
+Serial No. 
+ 
+ 
+4. 
+Rated power (kW) 
+ 
+ 
+5. 
+Speed (rpm) 
+ 
+ 
+6. 
+Governor 
+ 
+ 
+7. 
+Turbocharger (type/model) 
+ 
+ 
+ 
+(iii) Alternator 
+ 
+ 
+ 
+1. Make 
+ 
+ 
+2. Model 
+ 
+ 
+3. Serial No. 
+ 
+ 
+4. Rated kVA 
+ 
+ 
+5. Voltage (V) / Full load current (A) 
+ 
+ 
+6. Phase / Rated p.f. 
+ 
+ 
+7. Insulation class 
+ 
+ 
+(iv) Starting Battery 
+ 
+ 
+ 
+1. Manufacturer 
+ 
+ 
+2. Make/Model No. 
+ 
+ 
+3. No. of battery / Voltage (V) 
+ 
+ 
+4. Ampere hour 
+ 
+ 
+5. Starting time (sec) 
+ 
+ 
+(v) Lifting Hoist 
+ 
+ 
+ 
+1. Manufacturer 
+ 
+ 
+2. Make / Model No. 
+ 
+ 
+3. Safe working load (kg) 
+ 
+ 
+4. Lifting height (m) 
+ 
+ 
+5. Test Certificate *Yes/No
+
+(vi) Other Accessories 
+ 
+ 
+ 
+ 1. Name plate of manual bypass switch 
+2. Name plate of auto-changeover switch 
+ 
+4.1.2 
+Type of Control 
+ 
+ 
+Starting 
+ 
+ 
+*Automatic/Manual 
+ 
+ 
+Loading Transfer to Generating Set 
+*Automatic/Manual 
+ 
+ 
+Stopping 
+ 
+ 
+*Automatic/Manual 
+ 
+ 
+Load Transfer to Mains 
+*Automatic/Manual 
+ 
+4.1.3 
+Insulation Resistance Test (Temporarily open alternator star point) 
+ 
+ 
+1. 
+Brown phase (L1) to earth 
+Megaohm 
+ 
+ 
+ 
+ 
+2. 
+Black phase (L2) to earth 
+Megaohm 
+ 
+ 
+ 
+ 
+3. 
+Grey phase (L3) to earth 
+Megaohm 
+ 
+ 
+ 
+ 
+4. 
+Brown phase (L1) to Black phase (L2) 
+Megaohm 
+ 
+ 
+ 
+ 
+5. 
+Black phase (L2) to Grey phase (L3) 
+Megaohm 
+ 
+ 
+ 
+ 
+6. 
+Grey phase (L3) to Brown phase (L1) 
+Megaohm
+
+4.1.4 
+Control Function Test 
+Function Test 
+Setting 
+Remarks 
+1. Starting 
+Manual 
+ 
+ 
+ 
+ 
+Simulate Mains 
+Failure 
+Test 1* 
+ 
+ 
+ 
+ 
+Test 2** 
+ 
+ 
+ 
+ 
+Delay Start Timer 
+ 
+ 
+ 
+ 
+Delay Repeat Start 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Stopping 
+Manual 
+ 
+ 
+ 
+ 
+Resumption of Mains *** 
+ 
+ 
+ 
+ 
+Delay Stop Timer **** 
+ 
+ 
+ 
+3. Engine 
+Protection 
+Overload Trip (MCCB) 
+ 
+ 
+ 
+Engine 
+Overspeed 
+HL 
+ 
+ 
+ 
+LL 
+ 
+ 
+ 
+Low Lub-oil 
+HL 
+ 
+ 
+ 
+Pressure (kPa) 
+LL 
+ 
+ 
+ 
+High 
+Water 
+Temp. (oC) 
+HL 
+ 
+ 
+ 
+LL 
+ 
+ 
+ 
+Under Voltage Trip 
+ 
+ 
+ 
+Overvoltage Trip 
+ 
+ 
+ 
+Under Frequency (Hz) 
+ 
+ 
+ 
+4. Others 
+Response Time from Mains 
+Failure to Changeover (Sec) 
+ 
+ 
+ 
+Battery 3 Attempt Start 
+ 
+ 
+ 
+Quick closing Mechanism 
+ 
+ 
+ 
+Governor Function 
+ 
+ 
+ 
+Voltage Regulator (346V - 
+380V) 
+ 
+ 
+ 
+Auto-starting of Vent. Fan 
+ 
+ 
+ 
+Manual Override Facilities 
+ 
+ 
+ 
+Phase Sequence of Alternator 
+Output 
+ 
+ 
+ 
+Frequency Setting 
+ 
+ 
+ 
+Step-load Acceptance Test 
+ 
+ 
+ 
+Notes : * 
+Refer to function test on capability to start and transfer load to Generating Set automatically. 
+ 
+ 
+** 
+Refer to function test on capability to start but without load transfer if mains resume 
+ 
+ 
+ 
+during engine starting. 
+ 
+ 
+*** 
+Refer to function test on capability to automatic transfer load back to mains automatically 
+ 
+ 
+ 
+after a preset time delay and immediately back to generator if mains fails within the above 
+ 
+ 
+ 
+time delay period. 
+ 
+ 
+**** Refer to function test on capability to cool engine for a preset period after load is transferred to mains.
+
+4.1.5 Dummy Load Test 
+(Parameters to be recorded at 15 min interval during the whole dummy load test period) 
+ 
+ 
+ 
+4.1.6 Earthing Protection Test 
+ 
+ 
+ 
+Measured Earthing Resistance 
+ 
+ 
+Earthing Relay 
+ 
+Current Setting 
+ 
+ 
+ 
+Make 
+ 
+ __________________ 
+ 
+Time Setting 
+ 
+ 
+Model 
+ __________________ 
+ 
+Function Test 
+ 
+Serial No. 
+ 
+ __________________ 
+ 
+ 
+Rated Current 
+ __________________ 
+ 
+ 
+ 
+Time from start 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Duration (HR) 
+(minimum) 
+1/2 
+1/2 
+
+
+
+1/2 
+Duration (HR) (actual) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Frequency (Hz) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Current 
+L1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Amp) 
+L2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+L3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Voltage 
+L1-L2/ 
+L1-N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(Volt) 
+L2-L3/ 
+L2-N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+L3-L1/ 
+L3-N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dummy 
+kW 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load 
+% Full 
+Load 
+0% 
+25% 
+50% 
+75% 
+100% 
+110% 
+Engine Speed (RPM) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cooling Water Temp. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Engine Oil Temp. (oC) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Engine Oil Pressure (kPa) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fuel Consumption (L) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Engine Room Temp. (OC)
+
+4.1.7 Noise Level Measurement 
+ 
+Location 
+Mean Sound Level (dBA) 
+Background 
+ 
+ 
+Inside Generator Room 
+(1m from Generator Set) 
+ 
+Outside Generator Room 
+(1m from Radiator Exhaust) 
+ 
+Outside Generator Room 
+(1m from Door) 
+ 
+Outside Generator Room 
+(1m from Louvre) 
+ 
+Outside Generator Room 
+(1m from flue discharge if possible) 
+ 
+Outside Generator Room 
+(at the nearest Noise Sensitive Receiver) 
+ 
+ 
+ 
+4.1.8 Comment
+
+Annex III 
+Issue Date:- 8 August 2012 
+
+Annex III 
+List of Calibrated Instrument Necessary 
+for the T&C Works 
+ 
+ 
+ 
+Performance Specification 
+ 
+ 
+Accuracy 
+ 
+Maximum period 
+ 
+between calibrations 
+Tachometer 30-5000 rpm 
+ 
++1% 
+ 
+1 year 
+Multi-tester (AVO) 
+ 0-1000V 
+ 0-10A 
+ 0-W 
+ 
++1% 
+ 
+1 year 
+Clamp on ammeter 0-1000A 
+ 
++1% 
+ 
+1 year 
+Insulation tester 500V-1000V 
+ 
++1% 
+ 
+1 year 
+Pressure Gauge 0-100kPa 
+0-1000kPa 
++2% 
+1 year 
+Sound meter 0-120 dbA 
+ 
++2% 
+ 
+1 year 
+Other necessary testing equipment 
+ 
++2% 
+ 
+1 year 
+ 
+ 
+Notes: Apart from the testing equipment above, the GE Contractor shall provide additional calibrated equipment 
+in accordance to the recommendations by the manufacturers to facilitate the inspection, testing and 
+commissioning of Emergency Generator. All equipment shall be calibrated by laboratories accredited by the 
+Hong Kong Laboratory Accreditation Scheme (HOKLAS) or other laboratory accreditation schemes as approved 
+by the PBSE/PEME.

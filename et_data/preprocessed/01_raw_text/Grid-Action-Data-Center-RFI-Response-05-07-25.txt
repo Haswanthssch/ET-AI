@@ -1,0 +1,99 @@
+May 7, 2025 
+ 
+Organization: Grid Action 
+Contact: Christina Hayes 
+Address: 10 G Street, NE, Suite 440, Washington, D.C. 20002 
+Phone: 503-507-5143 
+Email: christina.hayes@gridaction.org 
+ 
+Re: Data Center RFI Response 
+ 
+Thank you for the opportunity to submit our comments in response to the Department of 
+Energy’s “Request for Information on Artificial Intelligence Infrastructure on DOE Lands.” 
+ 
+Grid Action is a coalition of diverse stakeholders that advocate for policies to build out the 
+interstate high-capacity electric power network. Our members include investor-owned utilities, 
+merchant transmission developers, energy generators, corporate customers, equipment 
+manufacturers, labor advocates and non-governmental organizations from across the political 
+spectrum. Collectively, we represent an industry working towards modernizing the U.S. electric 
+grid that could unlock up to $7.8 trillion in investment, create more than 6 million new jobs, and 
+save American consumers over $100 billion, reducing household electricity bills by more than 
+$300 a year.1 
+ 
+Our comments will focus on Category 4 of the RFI related to Offsite Energy and Transmission 
+Capacity.2 
+ 
+Category 4: Offsite Energy and Transmission Capacity 
+Grid Action applauds the Department’s interest in exploring whether it can leverage DOE land 
+assets to support the growing demand for artificial intelligence (AI) infrastructure, which is both 
+a national security and economic imperative. As part of that process, we encourage the 
+Department to approach potential co-location on DOE land in a way that avoids the risk of cost-
+shifting between customers on the grid. Additionally, while co-located arrangements may offer 
+expedited in-service dates for a limited number of projects in the near term, they do so at a cost. 
+Co-locating customers and generation does not allow for the reliability and resiliency of access 
+to the broader grid with abundant sources of generation. To scale the AI industry, these new 
+customers should be part of the grid that serves all customers and also be included in needed 
+transmission buildout guided by comprehensive regional and interregional planning processes 
+and accelerated by streamlined permitting reform. 
+ 
+1 Clack et al, “Consumer, Employment, and Environmental Benefits of Electricity Transmission Expansion in the 
+Eastern U.S.”, ACEG, October 2020. 
+2 While Grid Action’s positions are developed through broad stakeholder engagement, these comments do not 
+necessarily represent the views of every individual Grid Action supporter.
+
+I. Avoid Cost-Shifting Between Customers on the Grid 
+ 
+To maximize reliability and affordability, Grid Action wholeheartedly supports tying co-located 
+AI data centers to the grid. At the same time, any co-located load arrangements must be 
+thoroughly evaluated to ensure that cost-shifting, particularly of transmission system and 
+ancillary services costs, does not occur. Proposed co-located load arrangements do not always 
+function as completely islanded micro grids and may still rely on services such as frequency 
+regulation, voltage support, and black start capability. These services should be paid for by all 
+who benefit from them. 
+If co-located loads avoid their share of system costs while relying on that system in emergencies, 
+or even just for stability, such reliance would undermine cost causation principles and unfairly 
+shift costs of the grid onto other customers. DOE should work to ensure that grid-connected 
+configurations of co-located AI facilities on federal lands properly account for these services. 
+ 
+II. Transmission Buildout Is the Durable, Cost-Effective, Long-Term Solution 
+It's important to recognize that the perceived attractiveness of co-location in today’s marketplace 
+is in large measure a function of our nation’s transmission policy having historically failed to 
+plan ahead and build out a grid capable of meeting the nation’s evolving electricity needs. In 
+order to avoid repeating the same mistake, that must change. Specific policy improvements in 
+siting and permitting and cost recovery for large transmission lines would expedite development 
+and be sure that the grid was nimble and able to meet rapidly emerging loads. While co-located 
+arrangements can offer flexibility and speed for a limited number of near-term facilities, they are 
+not a substitute for the robust, regionally coordinated transmission system that will ultimately be 
+necessary to reliably and cost-effectively serve growing AI data center loads at scale. 
+In the long run, reliance on co-located configurations alone risks creating a case-by-case 
+patchwork of co-located projects that is more expensive than would otherwise be required and 
+may undermine the effectiveness and efficiency of the broader grid. For context, it is worth 
+noting that only 7% of existing data centers have on-site generation beyond backup diesel, 
+underscoring that co-located generation has historically not been the preferred practice and 
+cannot replace the need for integrated grid planning.3 
+By contrast, transmission expansion to serve AI data center growth through comprehensive 
+regional and interregional processes offers a more durable and cost-effective path forward. Well- 
+planned transmission investments enable the pooling of diverse generation and load resources, 
+reduce congestion and market inefficiencies, and minimize the need for localized infrastructure 
+duplication. They also lower overall system costs by spreading fixed investment over a broader 
+customer base, and they support competitive wholesale markets by allowing generation to reach 
+load centers efficiently. Transmission buildout should be the principal long-term strategy for 
+serving rising load from AI data centers. 
+ 
+3 Wood Mackenzie, Uncertainty Dominates the 2025 US Power Outlook (Apr. 4, 2024), 
+https://www.woodmac.com/news/uncertainty-dominates-the-2025-us-power-outlook/.
+
+III. CONCLUSION 
+Although co-location on DOE property can play an important role in addressing AI-driven load 
+growth in the near term, transmission buildout through regional and interregional transmission 
+planning is critical to ensuring a reliable and affordable grid capable of meeting increasing 
+demand from the AI industry over the long term. Accordingly, DOE should ensure that co-
+located load arrangements contribute fairly to the transmission system on which they rely and 
+fully utilize the Coordinated Interagency Transmission Authorizations and Permits (CITAP) 
+program and other authorities to streamline permitting and accelerate buildout of the 
+transmission needed to power the AI industry at scale and ensure America’s energy dominance 
+in the 21st century. 
+Thank you for the opportunity to comment on the Department’s “Request for Information on 
+Artificial Intelligence Infrastructure on DOE Lands.” Please don’t hesitate to reach out to 
+Christina Hayes at christina.hayes@gridaction.org or Bill Parsons at bill.parsons@gridaction.org 
+with any further questions you may have. We appreciate your consideration of our views.

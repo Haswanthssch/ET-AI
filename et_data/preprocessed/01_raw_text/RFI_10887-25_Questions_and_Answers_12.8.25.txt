@@ -1,0 +1,296 @@
+RFI 10887-25 
+ 
+Questions and Answers 
+ 
+ Enterprise Data Management Solution 
+ 
+The purpose of this document is to provide questions and answers regarding this RFI. The following 
+Q&As are current as of 12/8/2025: 
+ 
+Q1: Can companies from Outside USA apply for this? (from India or Canada) 
+A1: There is no limitation, however we will expect any partner to comply with our 
+Information, Privacy, and Security Agreement (IPSA) section 5.c: 
+ Use, Storage, or Access to, City Data. C. Unless specifically authorized in writing by City, 
+Consultant shall not (i) access, store, process, transmit, or create City Data at locations 
+outside the fifty (50) United States of America; (ii) permit viewing access to City Data by 
+Consultant or any of its agents (including any subconsultants) or any other person outside 
+the fifty (50) United States of America through any screen sharing technology such as 
+Remote Desktop Protocol or VMware Remote Console (“VMRC” ), or other current or future 
+protocols designed to provide similar functionality; or (iii) provide City Data received from, 
+created, or received by Vendor on behalf of City to any employee or agent, including a 
+subconsultant, if such employee, agent, or subconsultant receives, processes, or 
+otherwise has access to such City Data outside of the fifty (50) United States of America. 
+The prohibitions set forth in this Section 5.c apply not only to Consultant’s data center 
+locations and personnel primarily involved with providing the contracted Services, but 
+equally to any and all data centers and personnel used for resilience or redundancy, 
+backups, log storage, after-hours support, and any downstream partners that may access, 
+store, process, transmit, or create City Data. 
+Q2: Do we need to attend meetings in person, or can they be held remotely? 
+A2: We don’t anticipate requiring on-site meetings 
+Q3: 3. Can we perform the tasks (related to RFP) outside USA? (from India or Canada) 
+A3: Please note this solicitation is not an RFP, this is RFI – Request for Information.
+
+This RFI is issued for information gathering purposes only. The City does not intend to award a 
+contract at the end of this process. New RFP will be issued sometime in the feature when the City 
+is ready to award. 
+This is covered under the IPSA section 5.c: 
+ Use, Storage, or Access to, City Data. C. Unless specifically authorized in writing by 
+City, Consultant shall not (i) access, store, process, transmit, or create City Data at locations 
+outside the fifty (50) United States of America; (ii) permit viewing access to City Data by Consultant 
+or any of its agents (including any subconsultants) or any other person outside the fifty (50) United 
+States of America through any screen sharing technology such as Remote Desktop Protocol or 
+VMware Remote Console (“VMRC” ), or other current or future protocols designed to provide 
+similar functionality; or (iii) provide City Data received from, created, or received by Vendor on 
+behalf of City to any employee or agent, including a subconsultant, if such employee, agent, or 
+subconsultant receives, processes, or otherwise has access to such City Data outside of the fifty 
+(50) United States of America. The prohibitions set forth in this Section 5.c apply not only to 
+Consultant’s data center locations and personnel primarily involved with providing the contracted 
+Services, but equally to any and all data centers and personnel used for resilience or redundancy, 
+backups, log storage, after-hours support, and any downstream partners that may access, store, 
+process, transmit, or create City Data 
+Q4: Can we submit the proposals via email? 
+A4: No. Please refer to submittal instructions on the solicitation page. 
+Q5: From the responses the City receives from this RFI, does the City intend to issue a final 
+RFP or is it the intent to work off these RFI responses to narrow down the vendors and then 
+select one of the respondents? 
+A5: Based on information received City will issue an RFP and invite all respondents of this 
+RFI to submit proposals. 
+Q6: Can the City share if they have been working with any vendors and their specific 
+products/solutions to help determine the City’s needs for this solution? 
+A6: This is the beginning of the effort to understand solution options and no specific 
+products/vendors have been evaluated at this point. All discussions have been internal to 
+the City. 
+Q7: With the holidays and many people out on vacations this week and next, to provide our 
+best response from our technical and bid teams, could the response due date be extended 
+out 1 week?
+
+A7: Yes, we can extend the close date to December 17. 
+Q8: For terms & conditions in this response, is it the City's intent to choose a vendor based on 
+their response and then review and agree to the SLAs and legal terms & conditions? 
+A8: Yes, our process to determine production SLA’s and agree to terms and conditions will 
+happen during final selections and not as part of this RFI effort. 
+Q9: Are you required to use GCC (Government Cloud) or can you use commercial? 
+A9: We are in GCC so we want solutions that work in GCC. Long term we are considering 
+moving to Commercial Cloud. But for now, we require GCC even though we know there are 
+limitations. 
+Q10: What are the top three business problems or pain points the City expects this platform to 
+solve within the first 12–18 months? 
+A10: 1) Collection of disparate data from multiple sources into a common repository in 
+order to better utilize the data we have, 2) create a platform for future data collection, 3) 
+create a process/template for data collection in the future so that new sources can be 
+added to existing stores 
+Q11: How mature is the City’s current data governance framework, and what gaps in 
+metadata, ownership, or lifecycle management are driving this initiative? 
+A11: The City’s data governance framework is emerging but not yet mature. We have 
+policies, roles, and standards in draft, but gaps in consistent metadata, clear data 
+ownership, and lifecycle management—especially for data that lives outside enterprise 
+systems—are driving the need for a more structured and scalable solution. 
+Q12: For integrations with systems such as EnerGov, Dynamics 365, UKG, and ESRI, does the 
+City anticipate real-time data exchange, scheduled syncs, or API-level orchestration? 
+A12: The City primarily anticipates scheduled syncs for integrations with EnerGov, 
+Dynamics 365, UKG, and ESRI. While real-time exchange is not a core requirement, we do 
+expect reliable, repeatable API-level integration patterns that support our enterprise data 
+lake and reporting workflows. 
+Q13: What level of departmental autonomy does the City envision—will departments build 
+their own forms/workflows, or will configuration be managed centrally by IT?
+
+A13: We envision a hybrid model: departments should have the autonomy to build simple 
+forms and workflows, but within a centrally governed framework. TIS will manage the 
+platform configuration, standards, and data structures to ensure quality, security, and 
+alignment with our data lake and Power BI processes 
+Q14: What challenges has the City encountered with Power BI that the new platform should 
+specifically address (e.g., data refresh delays, access control, accuracy, dataset ownership)? 
+A14: Power BI itself is not the issue—our challenges arise when data isn’t stored in an 
+enterprise system. Today, many datasets live in personal drives, OneDrive, SharePoint, or 
+ad-hoc spreadsheets, which creates accuracy, access, and refresh risks. We need a 
+platform that centralizes and manages this non-enterprise data so it can flow into our 
+governed data lake and be reported through our existing enterprise Power BI framework 
+Q15: How does the City plan to measure success for this project? Are there specific adoption, 
+performance, or governance outcomes that would define a successful implementation? 
+A15: We will consider the project successful when departments consistently use the 
+platform instead of personal files, data is centrally managed with clear ownership and 
+metadata, and reporting becomes more accurate and timelier. Strong adoption, 
+streamlined workflows, and alignment with our enterprise data governance standards are 
+key indicators of success. 
+Q16: Is participation in this RFI required to participate in the future RFP? 
+A16: No, the RFI is not a prerequisite for any future RFP. 
+Q17: Could the City extend the RFI submission deadline? 
+ 
+A17: We will extend the RFI to 12/31/2025 
+Q18: Could the firms provide commercial references? 
+A18: Yes 
+Q19: Should response be submitted as a single PDF? 
+A19: Yes 
+Q20: Is there any page limit for the response? 
+A20: No
+
+Q21: Are references from ongoing contracts accepted? 
+ 
+A21: Yes 
+Q22: Please clarify what information vendors should add in the section Questions for the 
+City—issues requiring clarification to tailor their response? 
+A22: This section is optional; this is a space for questions to help tailor feature RFP. 
+Q23: In case firms are submitting confidential information in the response, is it required to 
+provide a redacted version? 
+ 
+Q23 No. Please refer to Public Disclosure Notice, page 4 of the RFI 
+Q24: Should bidders include ‘Questions for the City’ in the RFI response itself, or only submit 
+them during the pre-submission Q&A window? 
+ 
+A24: Either way is fine. 
+Q25: Could the City please share the anticipated timeline for issuing the formal RFP following 
+this RFI process? 
+A25: We do not currently have a timeline for the formal RFP 
+Q26: Does the City have a preferred pricing template or format for presenting rate cards and 
+deliverables-based fees at this RFI stage? 
+A26: No preference 
+Q27: Given the limited scope details, would you prefer pricing as ranges for roles and 
+milestones, or single-point estimates? 
+A27: Ranges are fine 
+Q28: Is it acceptable to include explicit pricing assumptions (e.g., estimated number of 
+integrations, datasets, and phases) in the pricing section of the RFI response? 
+A28: Yes 
+Q29: Are there GCC specific licensing or connector costs bidders should reflect in the pricing, 
+or will the City handle those under existing agreements?
+
+A29: Please include any licensing and connectors needed for solution and associated costs 
+in a separate line item. 
+Q30: As IPSA §5.c prohibits any access or viewing of City Data outside the fifty (50) United 
+States, should bidders assume that all project resources must be U.S.-based? 
+A30: The City has the ability to approve offshore resources if required by the project 
+Q31: Would City like a deliverables-based fee table (fixed fees per milestone) alongside 
+hourly/T&M rates, or is either format acceptable at the RFI stage? 
+A31: Either is acceptable – if using hourly/T&M rates please provide estimated hours 
+Q32: Can the City provide an inventory or estimate of the number of existing data repositories 
+(e.g., Excel files, Access databases, SharePoint lists, departmental systems)? 
+A32: 50+ 
+Q33: Does the City have established data governance policies, stewards, metadata 
+standards, or data ownership models that the platform must support or enforce? 
+A33: We are currently developing data governance policies and standards and will share as 
+part of the project. 
+Q34: Does the City maintain a centralized data catalog or metadata inventory today? 
+A34: No – it is on our roadmap. Looking at MS Purview 
+Q35: Does the City have defined data ownership for existing datasets? 
+A35: No – it is on our roadmap 
+Q36: What is the City’s current cloud strategy: Microsoft Azure, hybrid cloud, or fully on-prem 
+legacy systems? 
+A36: We are hybrid with both onsite and SAAS applications 
+Q37: Are there any restrictions on SaaS tools beyond data residency requirements? 
+A37: No other restrictions 
+ 
+Q38: Is the city preferring a COTS solution or a Custom One?
+
+A38: Slight preference to COTS although we are open to custom applications if the support 
+model is outlined as part of the proposal 
+Q39: Approximately how many users are expected to create forms, build workflows, or design 
+applications? 
+A39: 20+ 
+Q40: How many users will require mobile-first access for field operations? 
+A40: 50+ 
+Q41: Has the City had past challenges with the adoption of new technology tools? 
+A41: Nothing notable 
+Q42: Will the City require audit trails at the field level, record level, or application level? 
+A42: Depends on application – to be safe all three may be required. 
+Q43: Do departments primarily need linear approval workflows or multi-branch logic with 
+escalations? 
+A43: Primarily linear but sometimes multi-branch. 
+Q44: Does the City require automated document generation (letters, reports, permits, etc.)? 
+A44: Possibly 
+Q45: What is the City’s current Power BI usage model: self-service BI, centralized 
+dashboards, departmental reports? 
+A45: Primarily centralized, however moving to a federated model. 
+Q46: Are APIs available for the listed systems (EnerGov, D365, UKG, Esri, etc.), and are there 
+any known integration limitations? 
+A46: We currently have DWH for these systems and the connectivity would be through 
+them. 
+Q47: Are there legacy on-prem systems that do not support modern integration standards?
+
+A47: No 
+Q48: Does the City expect a one-time migration of existing datasets, or ongoing 
+import/synchronization? 
+A48: Preferred both – one time migration of existing datasets that can then be depreciated 
+and possible ongoing imports from others 
+Q49: What level of complexity does the City anticipate for forms simple data capture, multi-
+step forms, conditional logic, dynamic lookups, or cross-department routing? 
+A49: Everything listed. 
+Q50: Will forms require advanced features such as file uploads, barcode scanning, 
+geolocation, or photo capture? 
+A50: Everything listed. 
+Q51: For field staff, what workflow actions should be possible via mobile approval, data entry, 
+and offline submissions? 
+A51: Everything listed. 
+Q52: Has a SAAS platform been selected? 
+A52: Not yet - this project may inform that decision 
+Q53: Is there a migration involved, or net new processes expected to be created with existing 
+data? 
+A53: Both 
+Q54: Should there be a training component included in the project plan? 
+A54: Yes 
+Q55: Are there any existing power bi reports or other reports that need to be ported over into 
+the solution 
+A55: No 
+Q56: Are there existing Power BI capacities already provisioned and or PPU licenses
+
+A56: Yes 
+Q57: What is the estimated volume of data for the project? 
+Q57: 50+ datasets < 500GB 
+Q58: How many source systems are in scope for the project, is it more than the 4 listed? 
+A58: 50+ datasets. Datasets listed in the RFI were illustrative, not exhaustive 
+Q59: What type of data sources need to be considered (where is Excel and Access databases 
+sourcing their data) 
+A59: Excel, Access and SharePoint are the system of record for the datasets 
+Q60: What are the data retention needs? 
+A60: Data retention will be required - may be different per data set based on applicable 
+regulations 
+Q61: Are you using Azure Entra ID for user permission access today? 
+A61: Yes 
+Q62: How many users are expected to be on the platform? 
+A62: 200 
+Q63: Is there a desire to have a development and production and UAT environment? 
+A63: Yes, we would need a full stack solution 
+Q64: Do you have an urgency to move from an existing code base/ system? 
+ 
+A64: No, although we would like an efficient approach to migration 
+Q65: What is used today for source control? Is there a preference for alternatives? 
+A65: No current prescribed system - open to all recommendations 
+Q66: Is there opportunity for resource collaboration? Eg is there an expectation to work with 
+employees on the solution?
+
+A66: Yes, this will be a collaborative project with Technology and other City Department 
+resources. 
+Q67: What source systems are currently in play for real time reporting? 
+A67: We are looking for a tool for storing our data and then allowing PowerBI to connect 
+natively 
+Q68: Are any streaming service configured, such as Event Grid, Event Hub, Azure service bus? 
+A68: No 
+Q69: Are you considering power apps for this or a different tool, or Power automate? 
+A69: We are looking for recommendations 
+Q70: Is there an existing strategy in place or are you creating a new one? 
+A70: This project will work within the parameters of the City data strategy but will be a new 
+component 
+Q71: Is the intention to land the unstructured data into a centralized repo, such as SharePoint, 
+Lakehouse? 
+A71: We are looking for recommendations 
+Q72: What type of collaboration is expected? 
+A72: We expect teams to discuss and understand requirements, constraints, and 
+recommendations 
+Q73: What types of events may trigger a notification? Please provide examples 
+A73: Examples include approvals and rule exceptions 
+Q74: Do you have a need for data masking for sensitive data? 
+A74: Potentially 
+Q75: Are these sources expected to make up a data enterprise warehouse?
+
+A75: We already have DWH for our enterprise systems - this source is expected to work in 
+conjunction with that data warehouse 
+Q76: Would this be a 1-time project or ad hoc process? 
+A76: One time to migrate data with ongoing compliance for new data sources. 
+Q77: What formats are desired? 
+A77: Excel, CSV 
+Q78: What is the expectation for sharing, emails, SharePoint? 
+A78: Standard Microsoft Office applications 
+Q79: Can you define data volume? 
+A79: 50+ datasets < 500GB 
+Q80: Can the turnaround times be shared for DR? 
+A80: We will share as part of the project initiation 
+Q81: What sources will fall under HIPPA and CJIS standards? What is currently being done? 
+A81: We will identify as part of the project

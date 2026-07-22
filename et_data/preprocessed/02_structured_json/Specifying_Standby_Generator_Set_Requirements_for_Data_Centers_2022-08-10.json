@@ -1,0 +1,326 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\02_Equipment_Specifications\\Generator\\Specifying Standby Generator Set Requirements for Data Centers 2022-08-10.pdf",
+  "filename": "Specifying Standby Generator Set Requirements for Data Centers 2022-08-10.pdf",
+  "category": "Generator",
+  "parent_category": "02_Equipment_Specifications",
+  "extracted_at": "2026-06-29T19:56:56.708661",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Specifying \nStandby \nGenerator Set \nRequirements for \nData Centers\nPowerHour webinar series for consulting engineers\nExperts you trust. Excellence you count on.\n08/10/22 Noon Eastern / 9 AM Pacific",
+      "char_count": 197
+    },
+    {
+      "page": 2,
+      "text": "Cummins PowerHour webinar series is designed to help our engineer partners to…\nKeep up to date on products, technology, and codes and standards development\nInteract with Cummins experts and gain access to ongoing technical support \nParticipate at your convenience, live or on-demand\nEarn Professional Development Hours (PDH)\nWelcome!\nTechnical tips:\n\nAudio is available through teleconference or Zoom application.\n\nAttendees are in “listen only” mode throughout the event.\n\nUse the Zoom Q&A Panel to submit questions, comments, and feedback \nthroughout the event. Time is allotted at the end of the PowerHour to address \nQ&A.\n\nIf the audio connection is lost, disconnected or experiences intermittent \nconnectivity issues, please check your audio connection through the \"Join \nAudio\" or \"Audio Connectivity\" button at the bottom left of the Zoom application.\n\nReport technical issues using the Zoom Q&A Panel.",
+      "char_count": 918
+    },
+    {
+      "page": 3,
+      "text": "Q&A Button: \n• For technical questions on today’s topic\n• Ask at anytime\n• Not all questions may get answered but we’ll do our best!\nChat Button:\n•\nFor general PowerHour or Zoom questions\nAsking a Question:",
+      "char_count": 206
+    },
+    {
+      "page": 4,
+      "text": "Meet your panelists\nCummins instructor and panelists:\nCummins facilitator:\nMark Taylor\nTechnical Marketing Advisor\nCummins Inc.\nChad Hale \nTechnical Marketing \nSpecialist \nCummins Inc.\nEarnest Glaser\nSenior Sales Application \nEngineer\nCummins Inc.\nAndrew Panning\nEngineering Technical \nSpecialist\nCummins Inc.",
+      "char_count": 309
+    },
+    {
+      "page": 5,
+      "text": "Disclaimer\nThe views and opinions expressed in this \ncourse shall not be considered the official \nposition of any regulatory organization and \nshall not be considered to be, nor be relied \nupon as, a Formal Interpretation. \nParticipants are encouraged to refer to the \nentire text of all referenced documents. In \naddition, when it doubt, reach out to the \nAuthority Having Jurisdiction.",
+      "char_count": 387
+    },
+    {
+      "page": 6,
+      "text": "Course Objectives\nData Center Design Challenges: Specifying Standby Generator Set Requirements\nData centers are unique, not only in their design for utmost reliability and cost-effectiveness, but also in \ntheir load profiles. Data center loads can pose unique challenges that may significantly differ from their \n“traditional” industrial or commercial standby counterparts. Differences may include power factor, non-\nlinear loads leading to harmonic voltage distortion, and load acceptance of active power. This PowerHour \nis here to help by exploring some of the load characteristics that are unique to data centers, and provide \nsome generator set specification advice to help you mitigate some of those challenges. \nAfter completing this course, participants will be able to:\n•\nIdentify safe alternator operating zones on an alternator reactive capability chart to ensure proper \noperating conditions on the generator \n•\nRecognize how a generator accepts different loads typical to data center applications and define \nspecification requirements and operating sequences for each type\n•\nRecognize the tradeoffs in properly specifying an alternator for data center applications",
+      "char_count": 1178
+    },
+    {
+      "page": 7,
+      "text": "What are some examples of data \ncenter power system design challenges \nyou have encountered?",
+      "char_count": 92
+    },
+    {
+      "page": 8,
+      "text": "Recap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nRating\nLoad \nProfile\nMax \nAnnual \nRun \nHours\nEmergency \nStandby \nPower\nVariable\n\nPrime \nRated \nPower\nVariable\nUnlimited\nLimited \nTime Prime\nConstant\n\nContinuous \nOperating \nPower\nConstant\nUnlimited\nData \nCentre \nPower\nVariable \nOR \nConstant \nUnlimited",
+      "char_count": 351
+    },
+    {
+      "page": 9,
+      "text": "Recap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads",
+      "char_count": 196
+    },
+    {
+      "page": 10,
+      "text": "Recap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads\nGenerator Set Sizing Software\n•\nFundamentals of inputting loads\n•\nHow to use Cummins GenSize",
+      "char_count": 289
+    },
+    {
+      "page": 11,
+      "text": "Recap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads\nGenerator Set Sizing Software\n•\nFundamentals of inputting loads\n•\nHow to use Cummins GenSize\nEmissions and Air Permitting of Generator Sets\n•\nMeeting EPA and Local requirements\n•\nOverview of emissions constituents, data sheets",
+      "char_count": 423
+    },
+    {
+      "page": 12,
+      "text": "Recap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads\nGenerator Set Sizing Software\n•\nFundamentals of inputting loads\n•\nHow to use Cummins GenSize\nEmissions and Air Permitting of Generator Sets\n•\nMeeting EPA and Local requirements\n•\nOverview of emissions constituents, data sheets\nPowerHour Recordings\n•\nGenerator Set Ratings for Data Centers and Other \nApplications\n•\nConsiderations for Generator Set Selection\n•\nIntroduction to GenSize\n•\nAdvanced: Transient Performance and Motor Loads\n•\nEmissions and Air Permitting of Generator Sets\nRelated \nContent",
+      "char_count": 696
+    },
+    {
+      "page": 13,
+      "text": "Data Center Loads\nUPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics",
+      "char_count": 313
+    },
+    {
+      "page": 14,
+      "text": "UPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics\nData Center Loads\nLeading Power Factor Loads",
+      "char_count": 340
+    },
+    {
+      "page": 15,
+      "text": "kW(Active Power)\nkVAR (reactive power)\nɸ\nLeading Power Factor Loads\nImportance of Power Factor\nInductive Loads\n•\nResists change to \ncurrent\n•\nCurrent lags voltage\n•\nE.g. Motors\nCapacitive Loads\n•\nCharge/release energy\n•\nCurrent leads voltage\n•\nE.g. Power factor \ncorrection (Capacitor) \nbanks\nLagging VAR\nLeading VAR",
+      "char_count": 316
+    },
+    {
+      "page": 16,
+      "text": "kW(Active Power)\nkVAR (reactive power)\nɸ\nLeading Power Factor Loads\nImportance of Power Factor\nInductive Loads\n•\nResists change to \ncurrent\n•\nCurrent lags voltage\n•\nE.g. Motors\nCapacitive Loads\n•\nCharge/release energy\n•\nCurrent leads voltage\n•\nE.g. Power factor \ncorrection (Capacitor) \nbanks",
+      "char_count": 292
+    },
+    {
+      "page": 17,
+      "text": "Generator Set Rating: 3000 kW \n(3750 kVA @ 0.8 pf lagging)\nAlternator Rating: 4142 kVA\nLeading VAR capability ~ 0.3 pu\n0.3 * 4142 = 1242 kVAR\nLeading VAR capability = .33 pu\nbased on genset rating\n(1242 / 3750 = .33)\nLeading Power Factor Loads\nExample Exercise",
+      "char_count": 260
+    },
+    {
+      "page": 18,
+      "text": "Generator Set Rating: 3000 kW\n(3750 kVA @ 0.8 pf lagging)\nAlternator rating: 4464 kVA\nLeading VAR capability ~ 0.35 pu\n0.35 * 4464 = 1562 kVAR\nLeading VAR capability = 0.41 pu\nbased on genset rating\n(1562 / 3750 = .41)\nLeading Power Factor Loads\nExample Exercise\nLower Xd",
+      "char_count": 271
+    },
+    {
+      "page": 19,
+      "text": "Leading Power Factor Loads\nKey Takeaways \nKey parameter is leading VAR, not PF\n\nSet reverse VAR protection \naccordingly\nLow kW, high leading VAR is a risk\n\nAvoid operation in this region\n\nDisconnect PF correction or filter \ncaps\n\nSelect “Gen mode” if UPS supports\nRecommendation: If your loads are operating at \nlow-leading or lagging power factors, request a \ncapability curve to ensure your alternator is operating \nwithin its safe limits.",
+      "char_count": 445
+    },
+    {
+      "page": 20,
+      "text": "Concept Check\nWhich of the following statements is true:\na) A generator set’s leading VAR capability can be determined from the \nalternator operating chart.\nb) Generator sets can operate at any power factor as long as there are \npower factor correction capacitors in the system.\nc) Generator sets can not operate at leading PF of less than .95.\nd) Generator sets can produce full rated output at any lagging power \nfactor.",
+      "char_count": 422
+    },
+    {
+      "page": 21,
+      "text": "Concept Check\nWhich of the following statements is true:\na) A generator set’s leading VAR capability can be determined from the \nalternator operating chart.\nb) Generator sets can operate at any power factor as long as there are \npower factor correction capacitors in the system.\nc) Generator sets can not operate at leading PF of less than .95.\nd) Generator sets can produce full rated output at any lagging power \nfactor.",
+      "char_count": 422
+    },
+    {
+      "page": 22,
+      "text": "Data Center Loads\nConstant Power Loads\nUPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics",
+      "char_count": 334
+    },
+    {
+      "page": 23,
+      "text": "Constant Power Loads\nUPS with Walk-In Function\nServer Switched Mode Power \nSupplies are active loads\nDraw constant power\nAs voltage drops current is increased\nV/Hz doesn’t help\nUPS with walk-in allows gen to take \non 100% active power load step\nAllows batteries to take the load \ninitially and then ramp on to the gen\nStatic Bypass Switch\nRectifier\nInverter\nBattery",
+      "char_count": 369
+    },
+    {
+      "page": 24,
+      "text": "Constant Power Load Acceptance\n1. UPS senses voltage and \nfrequency excursion\n2. Transfers load to battery\n3. Genset voltage and \nfrequency recover and \nstabilize\n4. UPS ramps load on to \ngenset\nVoltage\nFrequency\nPower on genset\n1 2",
+      "char_count": 232
+    },
+    {
+      "page": 25,
+      "text": "Constant Power Loads\nUnity PF Transients\nTransient performance is typically documented at 0.8 PF\nAcceptance testing is typically done with resistive load banks (1.0 PF)\nResistive loads often result in worse voltage transients than inductive loads\nTesting at 0.8 PF\nInductance creates a lag in kW load \nhitting the engine\nGovernor response limits frequency dip\nV/Hz voltage roll off is reduced\n1.0 PF\n100% Load\n0.8 PF",
+      "char_count": 422
+    },
+    {
+      "page": 26,
+      "text": "Constant Power Loads\nTransient Spec Recommendation\nConsider actual operating sequence\nUnder what scenario will a 100% load acceptance be required?\nWill this only occur in the event of a failover to a reserve gen?\nWould a UPS walk-in function be more appropriate than a 100% load \nacceptance requirement?\nSpecify realistic acceptance test\nSpec Note Generator set manufacturer shall provide documentation from the \nmanufacturer’s sizing software demonstrating compliance with specified transient limits.",
+      "char_count": 506
+    },
+    {
+      "page": 27,
+      "text": "Data Center Loads\nHarmonic Distortion\nUPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics",
+      "char_count": 333
+    },
+    {
+      "page": 28,
+      "text": "Harmonics and Non-Linear Loads\nA load in which the relationship between \ncurrent and voltage is directly proportional.\nLoad is switched on a sub-cyclic basis resulting in \ncurrent that no longer conforms to the sinusoidal voltage.\n+\n-\nMotor Starters\nUPS\nVFDs\nBattery Chargers",
+      "char_count": 275
+    },
+    {
+      "page": 29,
+      "text": "Harmonic Distortion\n6 Pulse\nCurrent Waveform\nI-THD = 29%\nVoltage Waveform\nGenset X”d = 12%, SCR = 8\nVoltage Waveform\nTransformer, SCR = 100\nV-THD = 2.8%\nV-THD = 34%\nSwitching current on a \nsub-cyclic basis results \nin a distorted current \nwaveform\nThe source (generator or \nutility transformer) \ninduces current harmonic \ndistortion on to the \nvoltage waveform\nInduced voltage \nharmonic distortion is \nproportional to source \nimpedance (inversely \nproportional to short \ncircuit ratio)\nSupply Type",
+      "char_count": 497
+    },
+    {
+      "page": 30,
+      "text": "Harmonic Distortion\n18 Pulse\nI-THD = 7.9%\nV-THD = 17%\nV-THD = 1.4%\nSwitching circuit and the source impedance \nboth affect voltage harmonic distortion\n6 Pulse\nCurrent Waveform\nI-THD = 29%\nVoltage Waveform\nGenset X”d = 12%, SCR = 8\nVoltage Waveform\nTransformer, SCR = 100\nV-THD = 2.8%\nV-THD = 34%\nSupply Type",
+      "char_count": 307
+    },
+    {
+      "page": 31,
+      "text": "Power System Harmonics\nKey Takeaways\nHarmonic Voltage Distortion is a function of load \ngenerated current distortion and the source \nimpedence\nFor a generator set source impedence is the \nsubtransient reactance X”d\nHarmonic distortion will be worse when \nrunning on a generator than on the utility\nHarmonic distortion does not impact performance \nof alternators with separate excitation system\nUse generator sizing software to select generator \nset that will keep harmonic distortion within \nacceptable limits\nThis results in an optimally sized alternator\nVTHD = X * ITHD \nSpec Note Generator set manufacturer shall provide documentation from the manufacturer’s \nsizing software demonstrating compliance with specified harmonic distortion limits.",
+      "char_count": 752
+    },
+    {
+      "page": 32,
+      "text": "Concept Check\nWhich of the following statements is false:\na) The higher the Short Circuit Ratio, the lower the harmonics.\nb) Generator Sets and Utility handle harmonics very similarly.\nc) The lower the subtransient reactance (X”d), the lower the harmonics.\nd) An 18 pulse rectifier induces less THDI% than a 6 pulse rectifier.",
+      "char_count": 326
+    },
+    {
+      "page": 33,
+      "text": "Concept Check\nWhich of the following statements is false:\na) The higher the Short Circuit Ratio, the lower the harmonics\nb) Generator Sets and Utility handle harmonics very similarly\nc) The lower the subtransient reactance (X”d), the lower the harmonics\nd) An 18 pulse rectifier induces less THDI% than a 6 pulse rectifier",
+      "char_count": 322
+    },
+    {
+      "page": 34,
+      "text": "Temperature Rise\nVoltage Class\n< 10 kV\n> 10 kV\nInsulation Class\nH\nF\nTotal Temperature\n180 C\n160 C\nNominal Temp Rise\n125 C\n105 C\nNominal Ambient Temp\n40 C\n40 C\nHot Spot Allowance\n15 C\n15 C\n4464 kVA is maximum load for 180 °C \ninsulation class\n125 °C rise \n+ 40 °C ambient \n+ 15 °C hot spot variation \n= 180 °C insulation limit\nSpec Note Specify alternator temperature rise based on insulation class and ambient \nconditions.",
+      "char_count": 422
+    },
+    {
+      "page": 35,
+      "text": "Alternator Winding Type\nEasier to cool\nEasier manufacturing process\nUsually better waveform quality\nLess copper and steel to reach short circuit \nand motor starting capabilities\nBetter for MV and HV applications\nMore difficult to manufacture\nGreater mechanical strength\nGreater dielectric strength\nRandom/Wire Wound\nForm/Bar Wound\nSpec Note Specify generator performance criteria, not manufacturing method.",
+      "char_count": 414
+    },
+    {
+      "page": 36,
+      "text": "Specification Example\nSpecification Requirement:\nAlternator maximum subtransient reactance shall \nnot be greater than 12%.\nShould an oversized alternator be selected?\nAn oversized alternator may have…\n\nBetter harmonic performance\n\nGreater leading VAR capability\n\nLower subtransient reactance\nAn oversized alternator may also have…\n\nHigher fault current\n\nSlower start time\n\nand may be more expensive!\nReactances at genset rating (3750 kVA)\nSynchronous = 2.4 pu\nSubtransient = .126 pu",
+      "char_count": 488
+    },
+    {
+      "page": 37,
+      "text": "Course Summary\nSpecifying Standby Generator Set Requirements for Data Centers\nIdentify safe alternator operating zones on an alternator reactive capability chart to ensure proper operating \nconditions on the generator \nRecognize the differences in generator load acceptance of active power, unity power factor and conventional \nlagging power factor loads and define specification requirements and operating sequences for each type\nDescribe the impact of non-linear loads on harmonics\nRecognize the tradeoffs in properly specifying an alternator for data center applications\nRecommendations\nDefine the generator’s leading VAR requirements and identify the generator’s leading VAR capabilities. Specify \nalternator and operating sequences accordingly\nConsider UPS walk-in function rather than oversizing generator set for full load acceptance\nSpecify transient requirements and acceptance test requirements that are representative of actual usage\nUse generator set sizing software to evaluate harmonic requirements",
+      "char_count": 1019
+    },
+    {
+      "page": 38,
+      "text": "Additional Resources\nCummins White Papers\nData Center Continuous (DCC) Ratings: A Comparison of DCC \nRatings, ISO Definitions and Uptime Requirements (Nov 2019)\nUnderstanding ISO 8528-1 Generator Set Ratings (Nov 2019)\nTransient Performance of Generating Sets\nSpecifying and Validating Motor Starting Capability\nCummins On-Demand Webinars\nGenerator Set Ratings for Data Centers and Other Applications\nCommon Failure Modes of Data Center Back Up Power Systems\nUsing Fuel Cells to Address Energy Growth and Sustainability \nChallenges in Data Centers\nAdvanced Generator Set Sizing Software: Transient Performance \nand Motor Load",
+      "char_count": 633
+    },
+    {
+      "page": 39,
+      "text": "Q & A\nMark Taylor\nTechnical Marketing Advisor\nCummins Inc.\nChad Hale \nTechnical Marketing \nSpecialist \nCummins Inc.\nEarnest Glaser\nSenior Sales Application \nEngineer\nCummins Inc.\nAndrew Panning\nEngineering Technical \nSpecialist\nCummins Inc.",
+      "char_count": 240
+    },
+    {
+      "page": 40,
+      "text": "First Email (ASAP)\n1 Professional Development \nHour (PDH) Certificate\nFollowing This Event…\nPlease engage with our \nexit survey!\nSecond Email (3-5 Business Days)\nVideo Recording\nCopy of slide deck\nPower Suite\nPower Suite is where to find past \nPowerHours, Application Manuals, \nSizing Tools, Data Sheets, and \nmore!\nPlease contact us if you have any questions related to the \nPowerHour webinar (PowerGenChannel@cummins.com)",
+      "char_count": 423
+    },
+    {
+      "page": 41,
+      "text": "Cummins White Papers\nClick here to subscribe!\nMore From Cummins!\nCummins On-Demand Webinars\nClick here for our full webinar \nlibrary!\nClick here to subscribe!\nBrightest Bulbs Podcast\nClick here to hear about the latest \ninnovations in energy and power!\nNew Transfer Switch Product\nYour Strongest Link to Reliable \nPower is Now Here! Learn more \nabout the PowerCommand® \nX-Series Transfer Switch here!\nUpcoming Live PowerHour:\n09/27/2022 – Considerations for Generator Set Selection",
+      "char_count": 481
+    },
+    {
+      "page": 42,
+      "text": "",
+      "char_count": 0
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 3,
+      "markdown": "|  |  |  |\n| --- | --- | --- |\n|  |  |  |\n|  |  |  |",
+      "raw": [
+        [
+          null,
+          "",
+          ""
+        ],
+        [
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "| Leading Power Factor Loads Key Takeaways Key parameter is leading VAR, not PF ▪ Set reverse VAR protection accordingly Low kW, high leading VAR is a risk ▪ Avoid operation in this region ▪ Disconnect PF correction or filter caps ▪ Select “Gen mode” if UPS supports Recommendation: If your loads are operating at low-leading or lagging power factors, request a capability curve to ensure your alternator is operating within its safe limits. 19 |\n| --- |\n| Recommendation: If your loads are operating at low-leading or lagging power factors, request a capability curve to ensure your alternator is operating within its safe limits. |",
+      "raw": [
+        [
+          "Leading Power Factor Loads\nKey Takeaways\nKey parameter is leading VAR, not PF\n▪ Set reverse VAR protection\naccordingly\nLow kW, high leading VAR is a risk\n▪ Avoid operation in this region\n▪ Disconnect PF correction or filter\ncaps\n▪ Select “Gen mode” if UPS supports\nRecommendation: If your loads are operating at\nlow-leading or lagging power factors, request a\ncapability curve to ensure your alternator is operating\nwithin its safe limits.\n19"
+        ],
+        [
+          "Recommendation: If your loads are operating at\nlow-leading or lagging power factors, request a\ncapability curve to ensure your alternator is operating\nwithin its safe limits."
+        ]
+      ]
+    },
+    {
+      "page": 34,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 3,
+      "markdown": "| Voltage Class | < 10 kV | > 10 kV |\n| --- | --- | --- |\n| Insulation Class | H | F |\n| Total Temperature | 180 C | 160 C |\n| Nominal Temp Rise | 125 C | 105 C |\n| Nominal Ambient Temp | 40 C | 40 C |\n| Hot Spot Allowance | 15 C | 15 C |",
+      "raw": [
+        [
+          "Voltage Class",
+          "< 10 kV",
+          "> 10 kV"
+        ],
+        [
+          "Insulation Class",
+          "H",
+          "F"
+        ],
+        [
+          "Total Temperature",
+          "180 C",
+          "160 C"
+        ],
+        [
+          "Nominal Temp Rise",
+          "125 C",
+          "105 C"
+        ],
+        [
+          "Nominal Ambient Temp",
+          "40 C",
+          "40 C"
+        ],
+        [
+          "Hot Spot Allowance",
+          "15 C",
+          "15 C"
+        ]
+      ]
+    },
+    {
+      "page": 40,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 2,
+      "markdown": "|  |  |\n| --- | --- |\n|  |  |",
+      "raw": [
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          null
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 42,
+    "title": "PowerPoint Presentation",
+    "author": "Gary C Salemme",
+    "subject": "",
+    "creator": "Microsoft® PowerPoint® for Microsoft 365"
+  },
+  "full_text": "Specifying \nStandby \nGenerator Set \nRequirements for \nData Centers\nPowerHour webinar series for consulting engineers\nExperts you trust. Excellence you count on.\n08/10/22 Noon Eastern / 9 AM Pacific\n\nCummins PowerHour webinar series is designed to help our engineer partners to…\nKeep up to date on products, technology, and codes and standards development\nInteract with Cummins experts and gain access to ongoing technical support \nParticipate at your convenience, live or on-demand\nEarn Professional Development Hours (PDH)\nWelcome!\nTechnical tips:\n\nAudio is available through teleconference or Zoom application.\n\nAttendees are in “listen only” mode throughout the event.\n\nUse the Zoom Q&A Panel to submit questions, comments, and feedback \nthroughout the event. Time is allotted at the end of the PowerHour to address \nQ&A.\n\nIf the audio connection is lost, disconnected or experiences intermittent \nconnectivity issues, please check your audio connection through the \"Join \nAudio\" or \"Audio Connectivity\" button at the bottom left of the Zoom application.\n\nReport technical issues using the Zoom Q&A Panel.\n\nQ&A Button: \n• For technical questions on today’s topic\n• Ask at anytime\n• Not all questions may get answered but we’ll do our best!\nChat Button:\n•\nFor general PowerHour or Zoom questions\nAsking a Question:\n\nMeet your panelists\nCummins instructor and panelists:\nCummins facilitator:\nMark Taylor\nTechnical Marketing Advisor\nCummins Inc.\nChad Hale \nTechnical Marketing \nSpecialist \nCummins Inc.\nEarnest Glaser\nSenior Sales Application \nEngineer\nCummins Inc.\nAndrew Panning\nEngineering Technical \nSpecialist\nCummins Inc.\n\nDisclaimer\nThe views and opinions expressed in this \ncourse shall not be considered the official \nposition of any regulatory organization and \nshall not be considered to be, nor be relied \nupon as, a Formal Interpretation. \nParticipants are encouraged to refer to the \nentire text of all referenced documents. In \naddition, when it doubt, reach out to the \nAuthority Having Jurisdiction.\n\nCourse Objectives\nData Center Design Challenges: Specifying Standby Generator Set Requirements\nData centers are unique, not only in their design for utmost reliability and cost-effectiveness, but also in \ntheir load profiles. Data center loads can pose unique challenges that may significantly differ from their \n“traditional” industrial or commercial standby counterparts. Differences may include power factor, non-\nlinear loads leading to harmonic voltage distortion, and load acceptance of active power. This PowerHour \nis here to help by exploring some of the load characteristics that are unique to data centers, and provide \nsome generator set specification advice to help you mitigate some of those challenges. \nAfter completing this course, participants will be able to:\n•\nIdentify safe alternator operating zones on an alternator reactive capability chart to ensure proper \noperating conditions on the generator \n•\nRecognize how a generator accepts different loads typical to data center applications and define \nspecification requirements and operating sequences for each type\n•\nRecognize the tradeoffs in properly specifying an alternator for data center applications\n\nWhat are some examples of data \ncenter power system design challenges \nyou have encountered?\n\nRecap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nRating\nLoad \nProfile\nMax \nAnnual \nRun \nHours\nEmergency \nStandby \nPower\nVariable\n\nPrime \nRated \nPower\nVariable\nUnlimited\nLimited \nTime Prime\nConstant\n\nContinuous \nOperating \nPower\nConstant\nUnlimited\nData \nCentre \nPower\nVariable \nOR \nConstant \nUnlimited\n\nRecap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads\n\nRecap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads\nGenerator Set Sizing Software\n•\nFundamentals of inputting loads\n•\nHow to use Cummins GenSize\n\nRecap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads\nGenerator Set Sizing Software\n•\nFundamentals of inputting loads\n•\nHow to use Cummins GenSize\nEmissions and Air Permitting of Generator Sets\n•\nMeeting EPA and Local requirements\n•\nOverview of emissions constituents, data sheets\n\nRecap the Basics\nGenerator Set Ratings \n•\nISO 8528 ratings overview\n•\nUptime Institute requirements\nConsiderations for Generator Set Selection\n•\nAltitude and temperature derate\n•\nOverview of loads\nGenerator Set Sizing Software\n•\nFundamentals of inputting loads\n•\nHow to use Cummins GenSize\nEmissions and Air Permitting of Generator Sets\n•\nMeeting EPA and Local requirements\n•\nOverview of emissions constituents, data sheets\nPowerHour Recordings\n•\nGenerator Set Ratings for Data Centers and Other \nApplications\n•\nConsiderations for Generator Set Selection\n•\nIntroduction to GenSize\n•\nAdvanced: Transient Performance and Motor Loads\n•\nEmissions and Air Permitting of Generator Sets\nRelated \nContent\n\nData Center Loads\nUPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics\n\nUPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics\nData Center Loads\nLeading Power Factor Loads\n\nkW(Active Power)\nkVAR (reactive power)\nɸ\nLeading Power Factor Loads\nImportance of Power Factor\nInductive Loads\n•\nResists change to \ncurrent\n•\nCurrent lags voltage\n•\nE.g. Motors\nCapacitive Loads\n•\nCharge/release energy\n•\nCurrent leads voltage\n•\nE.g. Power factor \ncorrection (Capacitor) \nbanks\nLagging VAR\nLeading VAR\n\nkW(Active Power)\nkVAR (reactive power)\nɸ\nLeading Power Factor Loads\nImportance of Power Factor\nInductive Loads\n•\nResists change to \ncurrent\n•\nCurrent lags voltage\n•\nE.g. Motors\nCapacitive Loads\n•\nCharge/release energy\n•\nCurrent leads voltage\n•\nE.g. Power factor \ncorrection (Capacitor) \nbanks\n\nGenerator Set Rating: 3000 kW \n(3750 kVA @ 0.8 pf lagging)\nAlternator Rating: 4142 kVA\nLeading VAR capability ~ 0.3 pu\n0.3 * 4142 = 1242 kVAR\nLeading VAR capability = .33 pu\nbased on genset rating\n(1242 / 3750 = .33)\nLeading Power Factor Loads\nExample Exercise\n\nGenerator Set Rating: 3000 kW\n(3750 kVA @ 0.8 pf lagging)\nAlternator rating: 4464 kVA\nLeading VAR capability ~ 0.35 pu\n0.35 * 4464 = 1562 kVAR\nLeading VAR capability = 0.41 pu\nbased on genset rating\n(1562 / 3750 = .41)\nLeading Power Factor Loads\nExample Exercise\nLower Xd\n\nLeading Power Factor Loads\nKey Takeaways \nKey parameter is leading VAR, not PF\n\nSet reverse VAR protection \naccordingly\nLow kW, high leading VAR is a risk\n\nAvoid operation in this region\n\nDisconnect PF correction or filter \ncaps\n\nSelect “Gen mode” if UPS supports\nRecommendation: If your loads are operating at \nlow-leading or lagging power factors, request a \ncapability curve to ensure your alternator is operating \nwithin its safe limits.\n\nConcept Check\nWhich of the following statements is true:\na) A generator set’s leading VAR capability can be determined from the \nalternator operating chart.\nb) Generator sets can operate at any power factor as long as there are \npower factor correction capacitors in the system.\nc) Generator sets can not operate at leading PF of less than .95.\nd) Generator sets can produce full rated output at any lagging power \nfactor.\n\nConcept Check\nWhich of the following statements is true:\na) A generator set’s leading VAR capability can be determined from the \nalternator operating chart.\nb) Generator sets can operate at any power factor as long as there are \npower factor correction capacitors in the system.\nc) Generator sets can not operate at leading PF of less than .95.\nd) Generator sets can produce full rated output at any lagging power \nfactor.\n\nData Center Loads\nConstant Power Loads\nUPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics\n\nConstant Power Loads\nUPS with Walk-In Function\nServer Switched Mode Power \nSupplies are active loads\nDraw constant power\nAs voltage drops current is increased\nV/Hz doesn’t help\nUPS with walk-in allows gen to take \non 100% active power load step\nAllows batteries to take the load \ninitially and then ramp on to the gen\nStatic Bypass Switch\nRectifier\nInverter\nBattery\n\nConstant Power Load Acceptance\n1. UPS senses voltage and \nfrequency excursion\n2. Transfers load to battery\n3. Genset voltage and \nfrequency recover and \nstabilize\n4. UPS ramps load on to \ngenset\nVoltage\nFrequency\nPower on genset\n1 2\n\nConstant Power Loads\nUnity PF Transients\nTransient performance is typically documented at 0.8 PF\nAcceptance testing is typically done with resistive load banks (1.0 PF)\nResistive loads often result in worse voltage transients than inductive loads\nTesting at 0.8 PF\nInductance creates a lag in kW load \nhitting the engine\nGovernor response limits frequency dip\nV/Hz voltage roll off is reduced\n1.0 PF\n100% Load\n0.8 PF\n\nConstant Power Loads\nTransient Spec Recommendation\nConsider actual operating sequence\nUnder what scenario will a 100% load acceptance be required?\nWill this only occur in the event of a failover to a reserve gen?\nWould a UPS walk-in function be more appropriate than a 100% load \nacceptance requirement?\nSpecify realistic acceptance test\nSpec Note Generator set manufacturer shall provide documentation from the \nmanufacturer’s sizing software demonstrating compliance with specified transient limits.\n\nData Center Loads\nHarmonic Distortion\nUPS:\nRectifiers - Harmonics\nCapacitive Filters – Leading PF\nTransformer:\nInductor – Lagging PF\nVariable Frequency \nDrive:\nRectifiers – Harmonics Chillers & Fan Motors:\nInductive – Lagging PF\nMotor Starters:\nSolid State - Harmonics\nIT Load:\nSMPS – Leading PF,\nConstant Power\nRectifiers –Harmonics\n\nHarmonics and Non-Linear Loads\nA load in which the relationship between \ncurrent and voltage is directly proportional.\nLoad is switched on a sub-cyclic basis resulting in \ncurrent that no longer conforms to the sinusoidal voltage.\n+\n-\nMotor Starters\nUPS\nVFDs\nBattery Chargers\n\nHarmonic Distortion\n6 Pulse\nCurrent Waveform\nI-THD = 29%\nVoltage Waveform\nGenset X”d = 12%, SCR = 8\nVoltage Waveform\nTransformer, SCR = 100\nV-THD = 2.8%\nV-THD = 34%\nSwitching current on a \nsub-cyclic basis results \nin a distorted current \nwaveform\nThe source (generator or \nutility transformer) \ninduces current harmonic \ndistortion on to the \nvoltage waveform\nInduced voltage \nharmonic distortion is \nproportional to source \nimpedance (inversely \nproportional to short \ncircuit ratio)\nSupply Type\n\nHarmonic Distortion\n18 Pulse\nI-THD = 7.9%\nV-THD = 17%\nV-THD = 1.4%\nSwitching circuit and the source impedance \nboth affect voltage harmonic distortion\n6 Pulse\nCurrent Waveform\nI-THD = 29%\nVoltage Waveform\nGenset X”d = 12%, SCR = 8\nVoltage Waveform\nTransformer, SCR = 100\nV-THD = 2.8%\nV-THD = 34%\nSupply Type\n\nPower System Harmonics\nKey Takeaways\nHarmonic Voltage Distortion is a function of load \ngenerated current distortion and the source \nimpedence\nFor a generator set source impedence is the \nsubtransient reactance X”d\nHarmonic distortion will be worse when \nrunning on a generator than on the utility\nHarmonic distortion does not impact performance \nof alternators with separate excitation system\nUse generator sizing software to select generator \nset that will keep harmonic distortion within \nacceptable limits\nThis results in an optimally sized alternator\nVTHD = X * ITHD \nSpec Note Generator set manufacturer shall provide documentation from the manufacturer’s \nsizing software demonstrating compliance with specified harmonic distortion limits.\n\nConcept Check\nWhich of the following statements is false:\na) The higher the Short Circuit Ratio, the lower the harmonics.\nb) Generator Sets and Utility handle harmonics very similarly.\nc) The lower the subtransient reactance (X”d), the lower the harmonics.\nd) An 18 pulse rectifier induces less THDI% than a 6 pulse rectifier.\n\nConcept Check\nWhich of the following statements is false:\na) The higher the Short Circuit Ratio, the lower the harmonics\nb) Generator Sets and Utility handle harmonics very similarly\nc) The lower the subtransient reactance (X”d), the lower the harmonics\nd) An 18 pulse rectifier induces less THDI% than a 6 pulse rectifier\n\nTemperature Rise\nVoltage Class\n< 10 kV\n> 10 kV\nInsulation Class\nH\nF\nTotal Temperature\n180 C\n160 C\nNominal Temp Rise\n125 C\n105 C\nNominal Ambient Temp\n40 C\n40 C\nHot Spot Allowance\n15 C\n15 C\n4464 kVA is maximum load for 180 °C \ninsulation class\n125 °C rise \n+ 40 °C ambient \n+ 15 °C hot spot variation \n= 180 °C insulation limit\nSpec Note Specify alternator temperature rise based on insulation class and ambient \nconditions.\n\nAlternator Winding Type\nEasier to cool\nEasier manufacturing process\nUsually better waveform quality\nLess copper and steel to reach short circuit \nand motor starting capabilities\nBetter for MV and HV applications\nMore difficult to manufacture\nGreater mechanical strength\nGreater dielectric strength\nRandom/Wire Wound\nForm/Bar Wound\nSpec Note Specify generator performance criteria, not manufacturing method.\n\nSpecification Example\nSpecification Requirement:\nAlternator maximum subtransient reactance shall \nnot be greater than 12%.\nShould an oversized alternator be selected?\nAn oversized alternator may have…\n\nBetter harmonic performance\n\nGreater leading VAR capability\n\nLower subtransient reactance\nAn oversized alternator may also have…\n\nHigher fault current\n\nSlower start time\n\nand may be more expensive!\nReactances at genset rating (3750 kVA)\nSynchronous = 2.4 pu\nSubtransient = .126 pu\n\nCourse Summary\nSpecifying Standby Generator Set Requirements for Data Centers\nIdentify safe alternator operating zones on an alternator reactive capability chart to ensure proper operating \nconditions on the generator \nRecognize the differences in generator load acceptance of active power, unity power factor and conventional \nlagging power factor loads and define specification requirements and operating sequences for each type\nDescribe the impact of non-linear loads on harmonics\nRecognize the tradeoffs in properly specifying an alternator for data center applications\nRecommendations\nDefine the generator’s leading VAR requirements and identify the generator’s leading VAR capabilities. Specify \nalternator and operating sequences accordingly\nConsider UPS walk-in function rather than oversizing generator set for full load acceptance\nSpecify transient requirements and acceptance test requirements that are representative of actual usage\nUse generator set sizing software to evaluate harmonic requirements\n\nAdditional Resources\nCummins White Papers\nData Center Continuous (DCC) Ratings: A Comparison of DCC \nRatings, ISO Definitions and Uptime Requirements (Nov 2019)\nUnderstanding ISO 8528-1 Generator Set Ratings (Nov 2019)\nTransient Performance of Generating Sets\nSpecifying and Validating Motor Starting Capability\nCummins On-Demand Webinars\nGenerator Set Ratings for Data Centers and Other Applications\nCommon Failure Modes of Data Center Back Up Power Systems\nUsing Fuel Cells to Address Energy Growth and Sustainability \nChallenges in Data Centers\nAdvanced Generator Set Sizing Software: Transient Performance \nand Motor Load\n\nQ & A\nMark Taylor\nTechnical Marketing Advisor\nCummins Inc.\nChad Hale \nTechnical Marketing \nSpecialist \nCummins Inc.\nEarnest Glaser\nSenior Sales Application \nEngineer\nCummins Inc.\nAndrew Panning\nEngineering Technical \nSpecialist\nCummins Inc.\n\nFirst Email (ASAP)\n1 Professional Development \nHour (PDH) Certificate\nFollowing This Event…\nPlease engage with our \nexit survey!\nSecond Email (3-5 Business Days)\nVideo Recording\nCopy of slide deck\nPower Suite\nPower Suite is where to find past \nPowerHours, Application Manuals, \nSizing Tools, Data Sheets, and \nmore!\nPlease contact us if you have any questions related to the \nPowerHour webinar (PowerGenChannel@cummins.com)\n\nCummins White Papers\nClick here to subscribe!\nMore From Cummins!\nCummins On-Demand Webinars\nClick here for our full webinar \nlibrary!\nClick here to subscribe!\nBrightest Bulbs Podcast\nClick here to hear about the latest \ninnovations in energy and power!\nNew Transfer Switch Product\nYour Strongest Link to Reliable \nPower is Now Here! Learn more \nabout the PowerCommand® \nX-Series Transfer Switch here!\nUpcoming Live PowerHour:\n09/27/2022 – Considerations for Generator Set Selection",
+  "errors": [],
+  "removed_noise_lines": []
+}

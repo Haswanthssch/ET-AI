@@ -1,0 +1,355 @@
+— 
+Technical Note 178 
+Automatic transfer switch technology & drives 
+ATS impact on drive operation 
+ 
+The following technical note will assist with understanding the different automatic transfer switch types, technology, 
+and how the operation of an automatic transfer switch may impact the operation of a variable frequency drive. 
+Concepts discussed will apply to a wide range of HVACR applications and identify considerations for both the sequence 
+of operation for the ATS as well as the programming of a ACH580-01 series drive. While the ACH580 is used as an 
+example, many of the concepts are universal to other ABB and non-ABB drives. This document will focus on automatic 
+transfer switch technology and operation. 
+ 
+This technical note is intended for an audience that has experience working with VFDs and motors in HVACR 
+applications and as a supplement to the existing ACH580 firmware manuals. It is not intended to replace any installation 
+manual, design criteria, or sequencing for the ATS. 
+ 
+Topics to be covered: 
+1. 
+Introduction of ATS technology 
+How they work 
+Switching types and scenarios 
+Commissioning and maintenance considerations for the ATS 
+2. 
+How a drive works 
+What happens when we lose power 
+3. 
+Application Impact 
+ATS types, testing vs real world conditions 
+4. 
+Actions to take with the drive 
+a. 
+Faults 
+b. 
+Questions to ask the site 
+c. 
+Understanding the existing setup 
+d. 
+Fault handling with a drive 
+ 
+When and why ATS are used? 
+Transfer switch technology is used in data centers, hospitals, factories, and a wide range of commercial and 
+noncommercial facilities that require continuous or near continuous operation. This will typically consist of a primary 
+utility to uninterruptable power supply (UPS) or generator transfer (and back). In more rare instances this may be a 
+switch from primary utility power to a backup utility power (and back). 
+ 
+ATS are applied to a variety of applications but are typically defined into four categories according to the National 
+Electric Code. In NFPA 70 this includes article 700 emergency systems, article 701 legally required systems, article 708 
+critical operation power systems, and article 702 optional standby systems.
+
+Figure 1 below illustrates a typical critical power system that has a utility supply that will transition via the ATS to the 
+backup generator (genset) when needed. These sources provide power to the drives that are running fans and pumps in 
+the system. 
+ 
+ 
+ 
+Figure 1 Example of a typical critical power system 
+ 
+Introduction of ATS types, technology, and equipment 
+Throughout this document both automatic transfer switches and static transfer switches will be referred to as “ATS.” 
+The difference between these two types of switching technology is that static transfer switches use power electronics 
+(SCR’s) for the switching process, while automatic transfer switches use other hardware such as contactors, switches, 
+or circuit breakers. Both technologies will be generalized under an ATS reference based on this technical note’s focus on 
+how the transfer type and sequence might impact variable frequency drive operation. 
+ 
+Transition types and scenarios 
+There are three transition types supported by ATS operation. These include open, open delayed, and closed transitions. 
+Each transition type has its own requirements that must be met before the transfer takes place. Before reviewing the 
+three transition types in detail, the transfer scenarios should be acknowledged. The first scenario is a traditional power 
+loss event which would be unplanned, such as loss of primary power during a storm. For the unplanned power loss event 
+scenario, if the backup source is a generator, no matter what ATS transition method is used, there is a delay in time for 
+the generator to come online before the ATS can begin a transition process. As a result, the transition process from 
+primary source to generator, will look different than the process from generator back to utility (once the primary source 
+is available) which would be a planned transition with both sources available. The second scenario is a routine test 
+between two sources. In these cases, both sources are available. The time of transition will be dependent on both the 
+transfer criteria being satisfied, the transfer type, and the type of secondary power source. 
+ 
+Open transfer 
+In the North American market, the most common type of transfer is an open transfer. This transfer consists of a break-
+before-make switch that contains two positions without a stable off position. The transfer between two live power 
+sources occurs only when they are synchronized (voltage, frequency, and phase angle). This means the transfer switch 
+must be equipped with in-phase monitoring. This transfer consists of a rapid contact transfer time usually less than 
+50 milliseconds between the two available power sources. The transfer will not occur if both sources of power are 
+available but unable to meet the synchronization characteristics of both voltage and phase angle. Usually, these 
+transfers are used for loads that are not sensitive to power interruptions lasting up to 50 milliseconds or have a 
+downstream UPS that supports this power interruption period for equipment.
+
+Figure 2 below illustrates an open transfer between primary to backup power, then the transition back to the primary 
+source. 
+ 
+Figure 2 Standard open transition
+
+Open Delayed Transfer 
+A delayed transition is the most popular transfer type in the IEC market (European). It has a stable off position between 
+sources and operation is independent of electrical synchronization between the two power sources. A mechanical or 
+electrical interlock is required to prevent contacts from overlapping. The time delay in the off position prevents high 
+current and high torque transients from occurring in the case of inductive loads such as direct on-line pumping 
+applications or a manufacturing process. The duration of these transfers will be in seconds. 
+ 
+Figure 3 below illustrates the delayed open transition from primary, to an off position to a backup source, then the 
+transition back from the backup power to an off position, then to the primary source. 
+ 
+ 
+ 
+Figure 3 Delayed open transition
+
+Closed transfer 
+A closed transition is designed to have no power interruption when transferring between two live sources. This consists 
+of a make-before-break switch, which has a transfer between live sources that occurs only when they are in sync 
+(voltage, frequency, phase angle). Many utilities require closed transitions to comply with interconnect requirements, 
+such as NEC Article 705, which provides guidance on how to connect additional power sources to existing wiring to 
+allow them to operate in parallel with the primary source. The aim of these interconnect requirements is to preserve the 
+power quality and protect the utility. Closed transitions can produce higher fault currents. In this transition the 
+controller checks the synchronization between the two sources. When both sources are synchronized, a contactor closes 
+connecting both power sources together. The overlap period during which both sources are simultaneously connected 
+(paralleled) usually lasts no more than 100 milliseconds to comply with these interconnect requirements. 
+ 
+Figure 4 illustrates a closed transition example with a generator as the back-up source, in a traditional power loss 
+scenario (unplanned). The primary utility power source is lost, the generator starts up and comes online and the 
+transition occurs. The transition from generator to utility then follows the closed transition. 
+ 
+ 
+Figure 4 Closed transition
+
+Open vs. Closed transition 
+Both a standard open transition transfer scheme as well as a closed transfer scheme require synchronization. The 
+difference between the two schemes is in the power contacts for closed versus open transition. The switch contacts 
+require time to open and close, so, in addition to the time required for the switch to find the synchronization point, 
+there is a time where the switch contacts are in motion. While switching, there is a small power interruption for open 
+transition ATS which may be up to 50 milliseconds or 3 cycles. The closed transition switch has temporarily, concurrently 
+closed contacts that prevent any interruption in supply to the load when transferring between power sources. 
+ 
+Familiar challenges with ATS implementation and operation 
+To avoid issues with the operation of downstream equipment like variable frequency drives, ATS implementation should 
+have a clear sequence of operation identified and should include input from the design team, owner, and equipment 
+vendors to discuss all the features of the system. The sequence of operation should be the basis for establishing a 
+detailed functional performance test. The commissioning and testing procedures should consider all dependent 
+systems under all conditions to make sure that the generator system works when the ATS is activated under real world 
+conditions. A training should be provided to ensure that the operators understand the process and interface of the 
+equipment, as well as how to evaluate and maintain the system. 
+ 
+Implementation of an ATS can be challenging based on gathering all the information needed regarding the design, 
+operational needs, as well as understanding all the equipment required to manage the transition. Some of the common 
+mistakes in the implementation of an ATS are: 
+• 
+The commissioning agent not having all the equipment settings provided by the design engineer or owner 
+• 
+Implementing neutral bonding and grounding 
+• 
+Lacking a clear sequence of operation 
+• 
+Overcurrent device settings not being accurate 
+• 
+Interface issues and/or lack of training regarding the different equipment in the system 
+• 
+Accurate coordination of testing and validation of the system 
+• 
+Lack of understanding of the needs of the equipment downstream of the ATS sequence 
+After correct implementation, maintenance of the ATS and system needs to be considered. Damaged wires, bad 
+solenoids, controller issues, and grounding voltage quality can impact the ATS ability to operate and regular 
+preventative maintenance should be performed. 
+ 
+Reference: 
+Commissioning best practices: Electrical — Top 10 deficiencies and challenges | Consulting - Specifying Engineer 
+(csemag.com) 
+ 
+How a drive works 
+A variable frequency drive, downstream of the primary or secondary source of power and ATS, takes the AC power 
+supplied by a transformer or generator, converts that AC power to DC, stores the power in the DC bus capacitors. Then 
+uses insulated gate bipolar transistors to take that DC voltage and recreate an AC waveform for a motor using pulse 
+width modulation. 
+ 
+Drives have a feature, undervoltage control, also commonly referred to as power loss ride-through. This feature 
+leverages the power storage capability in the DC bus capacitors, along with inertia in the motor and application. If the 
+drive’s DC bus voltage gets too low, the drive will intentionally slow down the motor, allowing the motor to act like a 
+generator and feed power back into the DC bus. The drive’s power loss ride-through leverages the application’s inertia, 
+to use the motor itself as a power source, to maintain operation during very brief power outages. 
+ 
+What happens to a drive during a power loss 
+In the event of a loss of power, a variable frequency drive will attempt to continue to operate, by using the energy stored 
+in the DC bus capacitors. The power loss ride-through function tries to keep the drive powered and in control of the 
+motor. Applications with high inertia, such as a fan, have a much longer ride-through ability than a low inertia 
+application, such as a pump. For example, the ride-through of a pump may only be 20 ms, while the ride-through of a fan 
+is often measured in seconds. 
+ 
+In situations where an ATS is switching between two active power sources, drives on higher inertia applications often 
+completely keep control of the motor throughout the operation of the ATS, especially with open and closed ATS 
+transitions. Drives on low inertia pump applications may lose control of the motor during a ATS operation unless a 
+closed transition is used.
+
+The alternative situation is when a there is the unexpected loss of the primary power source and there is a delay in time 
+for the secondary (typically a generator) source to come online. In these situations, from the drive’s perspective, the 
+type of ATS is less critical. The main time-based variable is the delay for the generator to come online. The key question 
+is whether the drive will be able to power loss ride-through until the generator comes online, thus allowing the ATS to 
+provide generator power to the drive. The drive will not be able to keep control of low inertia applications, but some 
+high inertia (more power loss ride-through ability) may still allow the drive to stay in control of the motor. 
+ 
+Drives are designed to recover from both short-term and long-term power loss conditions. In the case of a pump 
+application, the drive losing control of the pump may result in the pump stopping very quickly. In the case of a fan 
+application, the fan may still be rotating. In both pump and fan applications, once power is restored to the drive, the 
+drive will ramp the motor back to setpoint. 
+ 
+Controls and peripheral devices also play a role in how a drive responds during a power loss. The previously covered 
+power loss ride-through and associated sequences of how the drive responds, all assume the drive is being told to run 
+the motor, and the motor is connected to the drive. While these may appear as obvious assumptions, in practicality this 
+is not always the case. From a control’s aspect, there may be interposing relays that may remove a start/run, enable, or 
+safety signal from the drive. A brief loss of power may result in the control relay opening, thus signaling the drive to 
+stop. There may also be peripheral devices such as an output contactor. If the power supply source for the contactor 
+does not ride-through the power loss, then the contactor will open, and the drive is no longer connected to the motor. If 
+the drive is told to no longer run or the drive is no longer connected to the motor, then the drive’s power loss ride-
+through feature cannot function. 
+ 
+Drive faults 
+In rare cases, a drive may fault as part of a ATS event. These drive faults may include undervoltage, overvoltage 
+overcurrent, earth fault, or overcurrent. These faults may not be related to the ATS transition itself. The drive may fault 
+because of a related event (i.e., lighting strike that preceded a loss of utility power) or application response (i.e., pump, 
+fan) related. 
+• 
+Undervoltage 
+o 
+This fault is unlikely to occur on an HVACR drive that has been configured to automatically reset after 
+a power loss. Troubleshooting may be as simple as reviewing and correcting parameter settings. 
+• 
+Overvoltage 
+o 
+This fault is most likely to occur when there is a high voltage event that occurs on the input side of the 
+drive. This could be voltage transients caused by lightning strikes, other equipment failing, switching 
+of power factor correction capacitors, or even a problem with the ATS operation itself inducing a 
+voltage transient onto the network. A common solution is to have the drive configured to 
+automatically restart after an overvoltage fault. However, if there is a problem within the electrical 
+system that is going to cause repeated overvoltage transients, then those root causes should be 
+identified and eliminated. Failure to eliminate the root cause may lead to premature failure of 
+electrical equipment, such as drives. 
+• 
+ Earth fault 
+o 
+If a drive experiences a nuisance earth (ground) fault as part of troubleshooting, the first item to 
+understand from the drive vendor is how the drive senses for an earth fault. Drives like the ACH580 
+that use (3) internal current transducers to sense earth faults and are less likely to experience nuisance 
+faults than other drive designs that can be susceptible to being “tricked” into believing there is an 
+earth fault due to a transient on the incoming line. 
+o 
+Another item to look for is if there are any contactors between the drive and motor. A short power loss 
+or ATS transition can result in an output contactor chattering and causing the drive to fault. 
+• 
+Overcurrent 
+o 
+An overcurrent fault is often caused by something on the output side of the drive. Like the above 
+example, an output contactor chattering, or opening and closing while the drive is powering the 
+motor, can cause an overcurrent fault. 
+o 
+When power is restored, the drive could fault on an overcurrent fault when it tries to start the motor 
+and ramp it back to setpoint. The most common situation is a multiple motor application and having 
+motors still in the process of coasting to a stop while rotating at different speeds from each other. 
+The drive may not be able to accomplish the flying start if the motor speeds are too far out of sync, 
+and an overcurrent fault may occur. In a case like the multiple motor application, the drive’s start 
+method could be adjusted.
+
+As with most advanced electronic equipment, drives can experience nuisance problems when there are brief power 
+outages or power quality issues. This technical note covered the undervoltage, overvoltage, earth fault, and overcurrent 
+faults in more detail as they are the most likely to occur. But there could be other fault types beyond those four types. 
+Understanding the circumstances surrounding the moment of drive fault is key to troubleshooting a fault. Appreciating 
+ATS functionality helps identify how long the drive and overall system was without power. The following sections 
+provide additional fact-finding guidance and solutions that can assist in troubleshooting drive faults associated with an 
+ATS transfer. 
+ 
+Questions to ask the site: 
+• 
+What is the transfer type, order of operation, speed of transfer and process of bringing the drives online? 
+Clarify if issue happens on a utility to utility, utility to gen, or gen to utility transfer. 
+• 
+Use software tools such as Drive Composer for the ACH580 to gather support packages available from the 
+drives that have had issues to get specifics of the faults. 
+• 
+Understand the timeline on these issues. When did they start? Was there a change to the sequence or test 
+sequence? 
+• 
+Are there past issues with the site? 
+• 
+What is the expected operation of the drives during the ATS transition (continues motor control, not fault but 
+can motor can stop running)? 
+ 
+When the transfer takes place, it may impact the run command for the drives. If we remove the run command, we need 
+to ensure that it returns when power returns. Consider how that run command is being provided to the drives. 
+• 
+How are the drives being controlled? 
+o 
+Start/stop into DI1 and a safety into DI4? 
+o 
+Are there interposing relays? 
+▪ 
+Do signals ride-through the transfer event (UPS) or do they drop out? 
+Evaluate the packaging of the drive hardware and how that may be impacted by the transfer process. 
+• 
+Is this a drive by itself, or a redundant drive, or a drive and bypass package? 
+o 
+Are any devices on the output side of the drive, like a contactor? 
+ 
+Understanding the existing setup 
+The answers to these questions will allow for a better understanding of the magnitude of an issue and help in 
+determining the root cause of the nuisance fault condition. Issues that appear to be power quality or ATS related should 
+have an oscilloscope measurement taken at the input of a drive during the transition. Document the break-to-make time 
+when the transfer switch operates. The oscilloscope should be capable of and programmed to record events in the 
+microsecond range. 
+ 
+Drive specific considerations based on expectation of operation 
+• 
+Establish expectations and needs for the drive operation in the event of a transfer 
+• 
+Evaluate the ride through time compared to transition time 
+• 
+Understand the status, run command, and safeties 
+• 
+Take oscilloscope measurements on the input of the drive 
+• 
+Understand the fault reset parameters in the drive 
+ 
+If conditions exist in the ATS that cannot be addressed, or in the stability of power onsite, an ACH580 drive can be 
+configured to automatically reset if an overvoltage, undervoltage, or overcurrent fault occurs. While this does not 
+address the root cause problem, it will allow the drive to reset and operate after the transition. This can be configured in 
+group 31 Fault functions. 
+ 
+Figure 5 illustrates the bits available in parameter 31.12 Fault reset that can be selected to Autoreset. 
+ 
+Parameter 
+Bit 
+Description 
+31.12 
+
+Overcurrent 
+
+Overvoltage 
+
+Undervoltage 
+Figure 5 Parameter 31.12 fault reset example
+
+Other important parameters to configure are 31.14 Number of trails, which defines the maximum number of automatic 
+resets that the drive is allowed to attempt within the time specified by 31.15 Total trails time. The reset attempts will be 
+made at intervals defined by 31.16 Delay time. 
+ 
+Another action that can be taken is to disable “undervoltage control” in parameter 30.31. This will allow for the drive to 
+power down faster. The drive will release the motor to come to a stop and restart when power returns, rather than 
+attempting to ride through the power disruption. While extremely rare, this adjustment may also eliminate an 
+overvoltage fault or overcurrent fault that occurred when the drive was trying to maintain operation of a motor in an 
+undervoltage condition. 
+ 
+Summary 
+Documenting and understanding the detail of the transfer switch type, sequence of operation, as well as understanding 
+the impact of the ATS on downstream equipment, will lead to a successful transition between power sources. If issues 
+arise due to the transfer process or external factors, evaluate these characteristics along with the requirements of the 
+equipment downstream of the transition. Understand the status, run command, and safeties for the drives. Advanced 
+troubleshooting may require oscilloscope measurements on the input of the drive during the transition. Then evaluate 
+what needs to be addressed. If necessary, configure the fault reset parameters in the drive. Keep in mind that 
+application related issues (i.e., fan array with motors coasting at different speeds) may result in a fault during an ATS 
+transfer, thus troubleshooting shall begin at the system level and be narrowed down from there. Reach out to the local 
+ABB Drive Specialist if there are questions.

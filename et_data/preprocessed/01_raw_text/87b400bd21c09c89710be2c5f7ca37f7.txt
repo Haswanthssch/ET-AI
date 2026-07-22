@@ -1,0 +1,5606 @@
+We reserve the right to modify the contents of this document without notice.
+Contents
+
+INSTALLATION
+
+1.1
+Mechanical Installation
+
+1.2
+Weight and Dimensions UPS (10/60kVA)
+
+1.3
+Weight and Dimensions UPS (80/120kVA)
+
+1.4
+Weight and Dimensions UPS (160/250kVA)
+
+1.5
+Room Size for UPS (10/250kVA)
+
+1.5.1
+UPS Dimensions
+
+1.5.2
+Transformer Cubicle Dimensions
+
+1.5.3
+Battery Cubicle Dimensions
+
+1.6
+Electrical Installation
+
+1.6.1
+UPS with Common Input for Rectifier and
+Bypass
+
+1.6.2
+UPS with Separate Inputs for Rectifier and
+Bypass
+
+1.6.3
+Terminal for UPS (10/30kVA)
+
+1.6.4
+Terminal for UPS (10/30kVA) with Emergency
+Line Separated
+
+1.6.5
+Terminals for UPS (40/60kVA)
+
+1.6.6
+Terminals for UPS (80/120kVA)
+
+1.6.7
+Terminal for UPS (160/200kVA)
+
+1.6.8
+Terminal for UPS (250kVA)
+
+1.7
+Installation of Additional Optional Cabinet
+
+1.7.1
+UPS with Input and Output Transformers/
+Autotransformers for Voltage Adaption
+
+1.7.2
+UPS with Isolation Transformer of the
+Bypass Supply
+
+1.7.3
+UPS with THD filters
+
+1.7.4
+UPS with 12-pulse charger/rectifier
+
+1.7.5
+UPS with 12-pulse charger / rectifier and
+galvanic isolation of the input supply.
+
+1.7.6
+UPS with 12-pulse charger/rectifier &
+THD Filters
+
+1.7.7
+UPS with 12-pulse charger / rectifier and
+galvanic isolation of the input supply &
+THD Filters.
+
+1.8
+Installation of an External Maintenance
+Bypass
+
+1.10
+Remote Emergency Power off
+
+1.10.1 EPO with SFP Panel
+
+1.11
+Diesel - Generator Operation
+
+1.12
+Common Alarm Contacts
+
+1.12.1 Common Alarm Contacts for SFP Panel
+
+1.13
+Remote Reset
+
+1.14
+Installation of Hot-Standby Systems
+
+1.14.1 Installation of the Interconnection Cable
+
+1.15
+Installation of Parallel Systems
+
+1.15.1 Installation of the Interconnection Cables
+
+1.16
+Battery Installation
+
+1.16.1 Installation of Internal batteries
+UPS (10-30kVA)
+
+1.16.2 Installation of External Batteries
+
+1.16.3 BC4S Battery Cabinet
+
+1.16.4 BC4L External Battery Cabinet Installation
+
+1.16.5 BC4D External Battery Cabinet Installation
+
+1.16.5.1 BC4D-2x32 External Battery Cabinet
+ Installation
+
+1.16.6 BC4H Battery Cabinet Installation
+
+1.16.7 BC4HD Battery Cabinet Installation
+
+1.16.7.1 BC4HD-2x32 Battery Cabinet Installation
+
+1.17
+Connection between UPS and Additional Battery
+Cabinets
+
+
+INITIAL START UP
+
+2.1
+Initial Start Up Procedure
+
+
+ADDITIONAL START-UP PROCED.
+FOR MULTI-UNIT SYSTEMS
+
+3.1
+Start-Up Procedure for Hot -standby
+Systems
+
+3.2
+Start-Up Procedure for Parallel Systems
+
+Figures
+FIG. 1.7.1
+UPS connection diagram, with input and
+output transformers to adapt the UPS to the
+on-site voltage.
+
+FIG. 1.7.2
+UPS connection diagram, with bypass input
+transformer to isolate the neutral
+
+FIG. 1.7.3
+UPS connection diagram, with THD filters20
+FIG. 1.7.4
+Installation of 12-pulse units without gal-
+vanic isolation
+
+FIG. 1.7.5
+Installation of 12-pulse units with galvanic
+isolation
+
+FIG. 1.7.6
+Installation of 12-pulse units without gal-
+vanic isolation & THD Filters
+
+FIG. 1.7.7
+Installation of 12-pulse units with galvanic
+isolation & THD Filters
+
+FIG. 1.8.1
+MB3 2 switches (10/250kVA)
+
+FIG.1.8.3
+External Maintenance Bypass Switch
+(2 position)
+
+[Revision E JSD404902 - 05-02-03]
+
+FIG. 1.8.5
+MB3 3 switches (10/250kVA)
+
+FIG. 1.8.4
+External Maintenance Bypass Switch 3
+position (10/250kVA)
+
+FIG. 1.9.1
+AS400 connection Cable for Powermon 27
+FIG. 1.9.2
+AS400 connection Cable for
+CheckUpsPlus
+
+FIG. 1.9.3
+CPNET Board-10 Pole Terminal
+
+FIG. 1.10.1
+Connection of Remote EPO with
+N.C. contact
+
+FIG. 1.10.2
+Connection of Remote EPO with
+N.O. contact
+
+FIG. 1.10.3
+Connection of Remote EPO with
+N.O./N.C. contacts
+
+FIG. 1.10.4
+Connection of Remote Emergency
+Power Off Input and battery breakers
+trip circuit
+
+FIG. 1.11.1
+Connection for Diesel Generator
+Operation (connector M4) - synchronisation
+disable.
+
+FIG. 1.11.2
+Connection for Diesel Generator Operation
+(connector M8) - second level current
+limitation
+FIG. 1.12.1
+Connection of Remote Common Alarm
+
+FIG. 1.13.1
+Connection of Remote Reset
+
+FIG. 1.14.1
+Interconnection of hot-standby units with
+integrated maintenance bypasses and
+separate bypass terminals.
+
+FIG. 1.14.2
+Interconnection of hot-standby units with
+external maintenance bypass and separate
+bypass terminals.
+
+FIG. 1.14.3
+Interconnection of control BUS cable for
+hot-standby units
+
+FIG. 1.15.1
+Interconnection of parallel units with
+integrated maintenance bypasses and
+separate bypass terminals.
+
+FIG. 1.15.2
+Interconnection of parallel units with
+common maintenance bypass and separate
+bypass terminals.
+
+FIG. 1.15.3
+Location of connectors on the IBYBP-CP
+pcb.
+
+FIG. 1.15.4
+Interconnection of control BUS cables
+between parallel units
+
+FIG. 1.16.1
+Internal Battery connections
+
+FIG. 1.16.2
+Internal Battery connections
+
+FIG. 1.16.3
+BC4S battery layout
+
+FIG. 1.16.4
+BC4S internal electrical connections
+
+FIG. 1.16.5
+BC4L battery layout
+
+FIG. 1.16.6
+BC4L internal electrical connections
+
+FIG. 1.16.7
+BC4D battery layout
+
+FIG. 1.16.8
+BC4D internal electrical connections
+
+FIG. 1.16.7.1 BC4D 2x32 battery layout
+
+FIG. 1.16.8.1 BC4D 2x32 internal electrical
+connections
+
+FIG. 1.16.9
+BC4H Battery layout
+
+FIG. 1.16.10 BC4H internal electrical connections
+
+FIG. 1.16.11 BC4HD Battery layout
+
+FIG. 1.16.12 BC4HD internal electrical connections
+
+FIG. 1.16.12.1 BC4HD 2X32 internal electrical
+ connections
+
+FIG. 1.17.1
+UPS with additional battery cabinet
+
+Tables
+TAB. 1.5.1
+UPS Dimensions
+
+TAB. 1.5.2
+Transformer cubicle dimensions
+
+TAB. 1.5.3
+External transformer cubicle
+
+TAB. 1.5.4
+Battery cubicle dimensions
+
+TAB. 1.6.1
+UPS input cables and fuses for UPS with
+common input for rectifier and bypass
+
+TAB. 1.6.2
+UPS output cables and fuses for UPS with
+common input for rectifier and bypass
+
+TAB. 1.6.4
+UPS input cables for UPS with separate
+inputs for rectifier and bypass
+
+TAB. 1.6.5
+UPS input fuses for UPS with separate
+inputs for rectifier and bypass
+
+TAB. 1.6.6
+UPS output cables and fuses for UPS with
+separate inputs
+
+TAB. 1.10.1 Nominal Rating of contacts for the input
+breaker trip circuit.
+
+TAB. 1.12.1 Nominal Rating of contacts for the common
+alarm.
+
+TAB. 1.16.2.1List of battery types used within each battery
+cabinet
+
+TAB. 2.1
+Battery charging current limitation
+
+INSTALLATION
+1.1
+Mechanical Installation
+Equipment Delivery and Storage
+After delivery, check equipment for any damage that may have
+occurred during shipment. On the packaging a tiltwatch and a
+shockwatch indicator are applied; if any of them is red it indicates
+bad handling. The shipper and your agency must be notified in
+writing about damages due to shipment, including a detailed de-
+scription of visual defects. If you do not wish to install the equipment
+immediately, please observe the following storage recommenda-
+tions:
+• Store equipment in a vertical position in a well conditioned room,
+protected against humidity. Do not store the equipment in close
+proximity to frequently used passageways and keep it away
+from movable parts.
+• If the UPS system is already unpacked, please ensure storage
+in a clean environment protected from dust and away from heat
+sources.
+Handling the UPS System
+The UPS can be simply lifted and moved by means of a lifting truck
+or a fork lifter for 80-250kVA units. For 10-60kVA units, remove the
+front side and rear side base sheets and attach two angle irons with
+8MA bolts to the right front and rear side of the UPS. The UPS can
+now be moved with a lifting fork. Remove the angle irons when the
+UPS is set in the correct position.
+Caution: Secure equipment from being knocked over
+Setting Up
+The UPS system should be installed in a dry, clean and lockable
+room. Provisions have to be made to remove heat created by the
+system. Under all installation conditions, the unrestricted flow of
+cooling air must be assured.
+
+FIG. 1.1.1 Moving the UPS (10-60kVA)
+FIG. 1.1.2 Moving the UPS (80-120kVA)
+FIG. 1.1.3 Moving the UPS (160-250kVA)
+
+1.2
+Weight and Dimensions UPS (10/60kVA)
+S
+P
+U
+g
+n
+it
+a
+R
+t
+h
+g
+i
+e
+W
+y
+r
+e
+tt
+a
+b
+t
+u
+o
+h
+ti
+w
+]
+g
+k
+[
+d
+a
+o
+L
+c
+it
+a
+t
+S
+y
+r
+e
+tt
+a
+b
+t
+u
+o
+h
+ti
+w
+m
+/
+g
+k
+[
+2]
+t
+h
+g
+i
+e
+W
+y
+r
+e
+tt
+a
+b
+h
+ti
+w
+]
+g
+k
+[
+d
+a
+o
+L
+c
+it
+a
+t
+S
+y
+r
+e
+tt
+a
+b
+h
+ti
+w
+m
+/
+g
+k
+[
+2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+-
+
+
+
+
+
+
+
+
+
+-
+-
+1= Front view
+2= Side view
+3= Rear view
+4= Holes for floor fixing- Base plant
+5 = Auxiliary power supply for 10-30kVA (inside the unit)
+6 = Auxiliary power supply for 40-60kVA (inside the unit)
+
+1.3
+Weight and Dimensions UPS (80/120kVA)
+S
+P
+U
+g
+n
+it
+a
+R
+t
+h
+g
+i
+e
+W
+]
+g
+k
+[
+d
+a
+o
+L
+c
+it
+a
+t
+S
+m
+/
+g
+k
+[
+2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1= Front view
+2= Side view
+3= Rear view
+4= Holes for floor fixing - Base plant
+5= Auxiliary power supply (inside the unit)
+
+1.4
+Weight and Dimensions
+UPS (160/250kVA)
+S
+P
+U
+g
+n
+it
+a
+R
+t
+h
+g
+i
+e
+W
+]
+g
+k
+[
+d
+a
+o
+L
+c
+it
+a
+t
+S
+m
+/
+g
+k
+[
+2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1= Front view
+2= Side view
+3= Rear view
+4= Fan on 160-200kVA
+5= Holes for floor fixing - Base Plant
+6= Auxiliary power supply (inside the unit)
+
+1.5
+ Room Size for UPS (10/250kVA)
+When locating the UPS system make sure that ventilation and
+space requirements are met. There should be a Xmm clearance on
+the rear side of the UPS (see note below) and 500mm on top of the
+UPS. See the dimensions of the UPS, battery cabinets and trans-
+former cubicles in tables 1.5.1, 1.5.2 and 1.5.3.
+Note:
+X=300mm for fan working in 40/200kVA
+X=0mm for fan working in 10/30kVA and 250kVA (close to the wall)
+X=600mm for easy maintenance (40/250kVA)
+UPS
+BC
+TC
+W
+W
+W
+air outlet
+BC = Battery Cabinet
+TC = Transformer cabinet (optional)
+1.5.1
+UPS Dimensions
+S
+P
+U
+s
+n
+o
+i
+s
+n
+e
+m
+i
+D
+S
+P
+U
+)
+A
+V
+k
+
+
+/
+
+
+(
+S
+P
+U
+)
+A
+V
+k
+
+
+
+/
+
+
+(
+S
+P
+U
+)
+A
+V
+k
+
+
+
+/
+
+
+
+(
+t
+h
+g
+i
+e
+H
+
+
+
+
+
+
+
+
+
+
+
+
+h
+t
+d
+i
+W
+
+
+
+
+
+
+
+
+
+
+h
+t
+p
+e
+D
+
+
+
+
+
+
+
+
+
+Tab. 1.5.1 UPS Dimensions
+
+1.5.2
+Transformer Cubicle Dimensions
+There are three type of transformer cubicle AC001, AC002 and
+AC003, they are used for the external option units f.e. units with 12
+pulse chargers with or without galvanic separation, for THD filters,
+isolation transformer etc..(see tab. 1.5.3).
+s
+n
+o
+i
+s
+n
+e
+m
+i
+D
+e
+l
+c
+i
+b
+u
+C
+r
+e
+m
+r
+o
+f
+s
+n
+a
+r
+T
+
+
+
+C
+A
+
+
+
+C
+A
+
+
+
+C
+A
+t
+h
+g
+i
+e
+H
+
+
+
+
+
+
+
+
+
+
+
+
+h
+t
+d
+i
+W
+
+
+
+
+
+
+
+
+
+h
+t
+p
+e
+D
+
+
+
+
+
+
+
+
+
+Tab. 1.5.2 Transformer cubicle dimensions
+el
+ci
+b
+u
+C
+r
+e
+m
+r
+o
+f
+s
+n
+a
+r
+T
+l
+a
+n
+r
+e
+t
+x
+E
+s
+n
+o
+it
+p
+O
+l
+a
+n
+r
+e
+t
+x
+E
+A
+V
+k
+
+
+-
+
+
+A
+V
+k
+
+
+1/
+
+
+A
+V
+K
+
+
+
+A
+V
+k
+
+
+
+-
+
+
+
+e
+p
+y
+T
+y
+tit
+n
+a
+u
+Q
+e
+p
+y
+T
+y
+tit
+n
+a
+u
+Q
+e
+p
+y
+T
+y
+tit
+n
+a
+u
+Q
+e
+p
+y
+T
+y
+tit
+n
+a
+u
+Q
+n
+oit
+a
+r
+a
+p
+e
+S
+cin
+a
+vla
+G
+hti
+w
+e
+slu
+P
+
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+n
+oit
+a
+r
+a
+p
+e
+S
+cin
+a
+vla
+G
+tu
+o
+hti
+w
+e
+slu
+P
+
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+cin
+o
+m
+r
+a
+H
+V
+r
+etli
+F
+D
+H
+T
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+r
+e
+m
+r
+ofs
+n
+a
+r
+T
+n
+oit
+alo
+sI
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+V
+
+
+2/
+
+
+
+r
+e
+m
+r
+ofs
+n
+a
+rt
+otu
+A
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+.
+m
+r
+a
+H
+III
+X
+&
+I
+X
+D
+H
+T
+&
+.
+S
+.
+G
+hti
+w
+e
+slu
+P
+
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+.
+m
+r
+a
+H
+III
+X
+&
+I
+X
+D
+H
+T
+&
+.
+S
+.
+G
+tu
+o
+hti
+w
+e
+slu
+P
+
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+
+
+
+C
+A
+
+Tab. 1.5.3 External transformer cubicle
+1.5.3
+Battery Cubicle Dimensions
+In the following table are described the dimensions of each optional
+battery cabinet, for further details refer to the section 1.16.
+e
+l
+c
+i
+b
+u
+C
+y
+r
+e
+tt
+a
+B
+s
+n
+o
+i
+s
+n
+e
+m
+i
+D
+S
+P
+U
+r
+o
+F
+)
+A
+V
+k
+
+
+
+/
+
+
+(
+S
+P
+U
+r
+o
+F
+)
+A
+V
+k
+
+
+
+/
+
+
+
+(
+S
+
+C
+B
+L
+
+C
+B
+D
+
+C
+B
+H
+
+C
+B
+D
+H
+
+C
+B
+t
+h
+g
+i
+e
+H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h
+t
+d
+i
+W
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h
+t
+p
+e
+D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tab. 1.5.4 Battery cubicle dimensions
+
+1.6
+Electrical Installation
+This equipment must be installed by qualified service person-
+nel.
+Switch off IRP, IRE, IUG, IBY circuit breakers to completely isolate
+the equipment.
+Earth leakage protection: this device has a high leakage current
+towards protective earthing. The maximum earth leakage current is
+300 mA. When setting the threshold of the earth leakage circuit
+breaker installed upstream from this equipment, consider this
+amount of current and that due to the loads.
+High leakage current - it is essential to connect the protective
+earth before connecting the power supply.
+All primary power switches installed remotely from the UPS area
+must be fitted with the following label: "Isolate uninterruptible
+power supply (UPS) before working on this circuit".
+General
+All electrical connections must be made in accordance with local
+standards and all input terminals (1-L1, 1-L2, 1-L3 and, if existing,
+4-L1, 4-L2, 4-L3) must be protected by external fuses. The tables
+give recommended values for fuse sizes and cable cross-sections.
+These may vary, depending on local standards. They are valid for
+voltages 380/220 V, 400/230 V and 415/240 V. Ensure clockwise
+connection of conductors L1, L2 and L3 at input and output termi-
+nals.
+If possible, install battery cables separately from other power cables
+in order to avoid possible RF interference. Before wiring, open all
+system switches (IRP, IRE, IBY, IUG) and the battery switch.
+Warning: The external battery cabinet must be equipped with an
+overcurrent protection device depending on the battery short-circuit
+current and battery voltage.
+Warning: The electrical installation must provide overcurrent
+protection for the input cables to the UPS.
+
+1.6.1
+UPS with Common Input for Rectifier and Bypass
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: Customer supplied input fuses - see table 1.6.1
+Note: Standard configuration for 10-120kVA UPS.
+
+Input Cables / Fuses
+g
+n
+it
+a
+R
+S
+P
+U
+]
+A
+V
+k
+[
+s
+e
+l
+b
+a
+c
+t
+u
+p
+n
+I
+]²
+m
+m
+[
+s
+e
+s
+u
+f
+t
+u
+p
+n
+I
+]
+A
+[
+e
+l
+b
+a
+c
+h
+tr
+a
+e
+]²
+m
+m
+[
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+TAB.1.6.1 UPS input cables and fuses for UPS with common input for rectifier and bypass
+Output / Battery Cables and
+Max. Current Ratings for Battery Overcurr. protection
+g
+n
+it
+a
+R
+S
+P
+U
+]
+A
+V
+k
+[
+y
+r
+e
+tt
+a
+B
+s
+e
+l
+b
+a
+c
+]²
+m
+m
+[
+s
+e
+l
+b
+a
+c
+t
+u
+p
+t
+u
+O
+]²
+m
+m
+[
+t
+u
+p
+n
+i
+.v
+n
+i
+.
+x
+a
+M
+)
+V
+
+
+
+=
+c
+d
+V
+(
+t
+n
+e
+rr
+u
+c
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+TAB.1.6.2 UPS output cables and fuses for UPS with common input for rectifier and bypass
+
+1.6.2
+UPS with Separate Inputs for Rectifier and Bypass
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: Customer supplied rectifier input fuses - see table 1.6.5
+(***) Note: Customer supplied bypass input fuses - see table 1.6.5
+Note: Standard configuration for 160-250kVA UPS
+
+Input Cables
+g
+n
+it
+a
+R
+S
+P
+U
+]
+A
+V
+k
+[
+s
+e
+l
+b
+a
+c
+.t
+c
+e
+R
+]²
+m
+m
+[
+s
+e
+l
+b
+a
+c
+s
+s
+a
+p
+y
+B
+]²
+m
+m
+[
+e
+l
+b
+a
+c
+h
+tr
+a
+E
+]²
+m
+m
+[
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+TAB. 1.6.4 UPS input cables for UPS with separate inputs for rectifier and bypass
+Input Fuses
+g
+n
+it
+a
+R
+S
+P
+U
+]
+A
+V
+k
+[
+s
+e
+s
+u
+F
+.t
+c
+e
+R
+]
+A
+[
+s
+e
+s
+u
+F
+s
+s
+a
+p
+y
+B
+]
+A
+[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TAB. 1.6.5 UPS input fuses for UPS with separate inputs for rectifier and bypass
+
+Output / Battery Cables
+g
+n
+it
+a
+R
+S
+P
+U
+]
+A
+V
+k
+[
+y
+r
+e
+tt
+a
+B
+s
+e
+l
+b
+a
+c
+]²
+m
+m
+[
+s
+e
+l
+b
+a
+c
+t
+u
+p
+t
+u
+O
+]²
+m
+m
+[
+t
+u
+p
+n
+i
+.v
+n
+i
+.
+x
+a
+M
+)
+V
+
+
+
+=
+c
+d
+V
+(
+t
+n
+e
+rr
+u
+c
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+x
+
+
+
+
+TAB. 1.6.6 UPS output cables and fuses for UPS with separate inputs
+
+1.6.3 Terminal for UPS (10/30kVA)
+Terminal for UPS 10-30kVA
+1.6.4 Terminal for UPS (10/30kVA) with Emergency Line Separated
+(optional)
+Terminal for UPS 10-30kVA with Emergency Line Separated
+
+1.6.5 Terminals for UPS (40/60kVA)
+Terminals for UPS (40/60kVA)
+C4
+C1
+C3
+C2
+To auxiliary contact
+of battery circuit breaker
+To shunt trip
+of battery circuit breaker
+PARTICULAR 1
+C3
+C1C2
+C4
+Particular 1
++B -B
+UPS Output
+5-L1
+5-L2
+5-N
+5-L3
+1-L2
+UPS Input
+1-L1
+1-L3
+1-N
+Battery connection
+terminal 35mm^2
+Screws M8
+Screws M10
+1.6.6 Terminals for UPS (80/120kVA)
+5-L1
+5-L2
+5-L3
+5-N
++B
+-B
+C1C2C3C4
+1-L2
+1-N
+1-L1
+1-L3
+Terminals for UPS (80/120kVA)
+UPS Input
+UPS Output
+Battery connections
+Particular 1
+C4
+C1
+C3
+C2
+To auxiliary contact
+of battery circuit breaker
+To shunt trip
+of battery circuit breaker
+PARTICULAR 1
+Screws M8
+Screws M10
+Screws M12
+
+1.6.7 Terminal for UPS (160/200kVA)
+1L1
+1L2
+1L3
+4L1
+4L2
+4L3
+4N
+5L1
+5L2
+5L3
+5N
++B
+-B
+IRP
+C1 C2 C3 C4
+C1 C2 C3 C4
+Rectifier Input
+Bypass Input
+UPS Output
+Battery Connection
+Particular 1
+To shunt trip
+of battery circuit breaker
+To auxiliary contact
+of battery circuit breaker
+Protective earth copper bar
+All screws M12
+1.6.8 Terminal for UPS (250kVA)
+1L1
+1L2
+1L3
+5L1
+5L2
+5L3
+5N
+4L1
+4L2
+4L3
+4N
++B
+-B
+IRP
+C1 C2 C3 C4
+Rectifier Input
+UPS Output
+Bypass Input
+of battery circuit breaker
+To auxiliary contact
+of battery circuit breaker
+Protective earth copper bar
+Battery Connection
+All screws are M12
+
+1.7
+Installation of Additional Optional Cabi-
+net
+1.7.1
+UPS with Input and Output Transformers/
+Autotransformers for Voltage Adaption
+IUG
+IRP
+IRE
+IBY
+B+
+B-
+1-L1
+1-L3
+1-L2
+1-N
+5-N
+5-L3
+5-L1
+5-L2
+SSI
+SSB
+AC001/AC002/
+Ac003 (**)
+IB(*)
+AC001/AC002/
+Ac003 (**)
+FIG. 1.7.1 UPS connection diagram, with input and output transformers to adapt the UPS to the on-site voltage.
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: For UPS (10/120kVA) the transformers are located inside 1 external cabinet,
+ for UPS (160/250kVA) the transformers are located inside 2 external cabinets
+1.7.2
+UPS with Isolation Transformer of the Bypass Supply
+R S T N PE
+R
+S
+T
+U
+v
+w
+N
+FIG. 1.7.2 UPS connection diagram, with bypass input transformer to isolate the neutral
+ line (4-N may be connected to the earth or left disconnected.)
+(*) Note: Internal Battery only for 10-30kVA units
+Note: The cables from the secondary winding transformer to the input
+terminals 4-L1,4-L2,4-L3,4-N, must be provided by the customer.
+Note: The secondary voltage phase shifted of 30° with respect to the
+primary voltage
+This transformer ensure input/output galvanic isolation
+
+1.7.3 UPS with THD filters
+
+
+FIG. 1.7.3 UPS connection diagram, with THD filters
+1= THD filter contactor supply voltage (230Vac)
+2= 3 pole MATE-N-LOK connector for THD filter contactor supply voltage (230Vac)
+(*) Note: Internal Battery only for 10-30kVA units
+
+1.7.4
+UPS with 12-pulse charger/rectifier
+FIG. 1.7.4 Installation of 12-pulse units without galvanic isolation
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: In the units 160 & 250kVA this choke is located inside the UPS cabinet
+1.7.5
+UPS with 12-pulse charger / rectifier and galvanic isola-
+tion of the input supply.
+FIG. 1.7.5 Installation of 12-pulse units with galvanic isolation
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: In the units 160 & 250kVA this choke is located inside the UPS cabinet
+
+1.7.6
+UPS with 12-pulse charger/rectifier & THD Filters
+IB(*)
+B+
+B-
+2-L3
+2-L2
+2-L1
+3S-L1
+3S-L2
+3S-L3
+IUG
+IRE
+IBY
+5-N
+5-L3
+5-L1
+5-L2
+SSI
+SSB
+1-L3
+1-L2
+1-L1
+IRP
+Mains
+L1 L2 L3 N
+R S T N
+PE
+D
+Y
+R
+S
+T
+U
+V
+W
+4-L3
+4-L2
+4-L1
+4-N
+(**)
+AC001/AC002/AC003
+N
+FIG. 1.7.6 Installation of 12-pulse units without galvanic isolation & THD Filters
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: In the units 160 & 250kVA this choke is located inside the UPS cabinet.
+1.7.7
+UPS with 12-pulse charger / rectifier and galvanic isola-
+tion of the input supply & THD Filters.
+IB(*)
+B+
+B-
+2-L3
+2-L2
+2-L1
+3D-L1
+3D-L2
+3D-L3
+IUG
+IRE
+IBY
+5-N
+5-L3
+5-L1
+5-L2
+SSI
+SSB
+3S-L1
+3S-L2
+3S-L3
+1-L3
+1-L2
+4-N
+1-L1
+IRP
+D
+R
+S
+T
+U1
+V1
+W1
+DO
+U
+V
+W
+Y
+Mains
+L1 L2 L3 N
+R S T N
+PE
+4-L3
+4-L2
+4-L1
+AC001/AC0027AC003
+N
+(**)
+FIG. 1.7.7 Installation of 12-pulse units with galvanic isolation & THD Filters
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: In the units 160 & 250kVA this choke is located inside the UPS cabinet.
+
+1.8
+Installation of an External Maintenance
+Bypass
+An External Maintenance Bypass is used to provide a separate
+bypass line external to the UPS cabinet to supply the load when
+servicing the UPS. To allow transfer of the load to the bypass line
+without interruption a single Make-Before-Break (MBB) switch is
+used.
+When an external maintenance bypass is installed, a normally
+open, voltage free contact must be available. This contact must be
+connected to the connector M4, Pin1 and Pin 2 at the top left hand
+corner of the mother board for the inverter/bypass electronics.
+There are 10 type of Maintenance Bypass Cabinet:
+MB3 2 switches: 80kVA, 250kVA, 400kVA, 500kVA, 800kVA
+MB3 3 switches: 80kVA, 250kVA, 400kVA, 500kVA, 800kVA
+If the standard no-break wall-mounted maintenance bypass switch
+is used (optional) in the MB3 cabinet, a normally open contact is
+provided.
+2 Switches Maintenance Bypass
+The two switches of the Maintenance Bypass consists of two
+internally interconnected 4 poles switches which provide a make-
+before-break commutation from/to the UPS output and the external
+bypass supply by manually switching a single key-interlocked
+switch. An interlock is provided to prevent an erroneous switching
+of the maintenance bypass if the inverter supply is still connected
+to the UPS system output. The three positions are labelled "I" for
+normal, "II" for bypassed and "I + II" when both switches are
+closed. When switching to the maintenance bypass, the switch
+must be switched all the way to position "II".
+
+FIG. 1.8.1 MB3 2 switches (10/250kVA)
+Bypass 2 Switches (*)
+L
+H
+P
+F
+φ D
+Fx
+M
+Fy
+R
+Weight
+(Kg)
+125A
+80kVA
+
+
+
+
+
+
+
+
+
+18,4
+400A
+250kVA
+
+
+
+
+
+
+
+
+
+30,5
+630A
+400kVA
+
+
+
+
+
+
+
+
+
+37,7
+800A
+500kVA
+
+
+
+
+
+
+
+
+
+73,5
+1250A
+800kVA
+
+
+
+
+
+
+
+
+
+80,6
+ 
+(*) The power rating is referred to 400Vac
+N
+Bypass Input
+(directly from bypass
+line mains supply)
+UPS SystemOutput
+(from UPS Module(s))
+To Load
+Position II
+Position I
+IBYBP-CP
+FIG.1.8.3 External Maintenance Bypass Switch (2 position)
+
+3 Switches Maintenance Bypass The three switches of the Maintenance Bypass consists of three
+internally interconnected 4 poles switches which provide a make-
+before-break commutation from / to the UPS output and the external
+bypass supply with a single manual operation of the key-interlocked
+switch. In the third position (II) the UPS is isolated from the mains
+supply. Again an interlock is provided to prevent an erroneous
+switching of the maintenance bypass if the inverter supply is still
+connected to the UPS system output. The three positions are la-
+belled "I" for normal, "II" for isolated and "I + II" when both switched
+are closed. To isolate the UPS system, the switch must be switched
+all the way to position "II".
+ FIG. 1.8.5 MB3 3 switches (10/250kVA)
+Bypass 3 Switches (*)
+L
+H
+P
+F
+φ D
+Fx
+M
+Fy
+N
+Weight
+(Kg)
+125A
+80kVA
+
+
+
+
+
+
+
+
+
+19,3
+400A
+250kVA
+
+
+
+
+
+
+
+
+
+42,4
+630A
+400kVA
+
+
+
+
+
+
+
+
+
+39,6
+800A
+500kVA
+
+
+
+
+
+
+
+
+
+87,0
+1250A
+800kVA
+
+
+
+
+
+
+
+
+
+98,1
+(*) The power rating is referred to 400Vac
+
+Bypass Input
+(directly from bypass
+line mains supply)
+UPS SystemOutput
+(from UPS Module(s))
+UPS SystemInput
+(to UPS Module(s))
+To Load
+IBYBP-CP
+Position I
+Position II
+Position I
+M4
+FIG.1.8.4 External Maintenance Bypass Switch 3 position (10/250kVA)
+Note1: For Hot-Stand-by or parallel systems, it is sufficient to
+ feed one contact into one unit only; however, they may be
+ connected in parallel at M4 (of IBYBP-CP) Pin1 and Pin 2 for
+ all units. In this case, separate terminals may be provided
+ within the MB3 cabinet (see FIG. 1.9.2 and 1.10.2)
+Note2: The cable used must be a twisted pair, with a total shield.
+ This shield must be grounded at one end (the cabinet of the
+ UPS may be used).
+
+1.10 Remote Emergency Power off
+A Remote Emergency Power Off push button may be connected to
+the system. A normally closed contact must be connected to pin 5
+and 6 of the M4 terminal in the inverter motherboard IBYBP-CP
+(See FIG. 1.10.1. and FIG. 1.10.2.)
+
+
+M4
+IBYBP - CP
+
+
+
+
+M4
+Remote 
+Emergency 
+Power off 
+Push-Button
+IBYBP
+CP
+FIG. 1.10.1 Connection of Remote EPO with N.C. contact FIG. 1.10.2 Connection of Remote EPO with N.O. contact
+Note 1: The cable used must be a twisted pair, with a total shield.
+This shield must be grounded at one end (the cabinet of the UPS
+may be used).
+Note 2: For Hot-Stand-by or parallel systems, it is sufficient to feed
+one contact into one unit only, however they may be connected in
+parallel at M4 (of IBYBP-CP) Pin5 and Pin 6 for all units (N/O) only
+or series for (N/C).
+Note 3: The remote EPO function when activated will switch off all
+inverters in the system and the UPS output. The rectifiers will
+remain on, charging the battery. If it is necessary to isolate all
+supply from the UPS, separate contacts must be provided in order
+to trip external input and battery circuit breakers.
+Note 4: The N.C. contact can only be used for IBYBP-CP
+motherboards in rev. 0A and following.
+1.10.1 EPO with SFP Panel
+EPO can be activated with a normally closed or normally open
+contact on the SFP panel, as well. See the following figure.
+SFP/CPU
+M6
+
+
+
+
+Remote EPO N.O. contact
+Remote EPO N.C. contact
+FIG. 1.10.3 Connection of Remote EPO with N.O./N.C. contacts
+Note: If using N.C. contact JP1 must be open
+Two relay contacts can be used to trip the battery circuit breaker or
+an additional external circuit breaker
+
+1 2 3 6 4 5
+M4
+SFP/CPU
+to
+ C3
+to
+ C4
+To trip the battery 
+circuit breaker
+Contact 
+available to 
+trip an input 
+circuit breaker
+FIG. 1.10.4 Connection of Remote Emergency Power Off - Input and battery
+breakers trip circuit.
+s
+t
+c
+a
+t
+n
+o
+C
+f
+o
+g
+n
+it
+a
+R
+l
+a
+n
+i
+m
+o
+N
+c
+a
+V
+
+
+
+≅
+A
+
+,
+
+A
+V
+
+
+
+c
+a
+V
+
+
+
+≅
+A
+
+A
+V
+
+
+
+TAB. 1.10.1 Nominal Rating of contacts for the input breaker trip circuit.
+
+1.11 Diesel - Generator Operation
+During diesel generator operation, if the frequency of the diesel-
+generator, with the UPS and connected load is unstable, it is advis-
+able to disconnect the synchronisation of the inverter. This is
+achieved with a normally-open, voltage-free contact (which closes
+during diesel-generator operation) and is connected to the connec-
+tor M4 Pin 7 and Pin 8 as follows:
+
+
+M4
+contact closes 
+during Diesel 
+generator 
+operation
+IBYBP-CP
+FIG. 1.11.1 Connection for Diesel Generator Operation (connector M4) - synchroni-
+sation disable.
+Note1: For Hot-Standby or parallel systems, it is sufficient to feed one
+contact into one unit only, however they may be connected in
+parallel at M4 Pin7 and Pin 8 for all units
+If it is necessary to reduce the current supplied by the diesel-
+generator, then a second voltage-free contact (again normally open)
+is required and must be connected to the connector M8, Pin 1 and
+Pin 2 on the rectifier electronic mother board (RBPHC16) see
+FIG.1.11.2
+
+
+M8
+contact closes 
+during Diesel 
+generator 
+operation
+RBPHC16
+FIG. 1.11.2 Connection for Diesel Generator Operation (connector M8) - second
+level current limitation.
+Note 1: The cable used in both cases must be a twisted pair, with a
+total shield.This shield must be grounded at one end (the cabinet of
+the UPS may be used).
+Note 2: The cable for current limitation must be connected to all units
+ for parallel or hot-standby units, using separate voltage-free
+contacts.
+
+1.12 Common Alarm Contacts
+As a standard feature, contacts are provided for a remote common
+alarm. The connector is located on the control p.c.b for the front
+operating panel "SFP/CPU" (for SFP panel) or "NCP/CPU" (for
+DMP/NCP panel), located inside the front door of the UPS.
+1.12.1 Common Alarm Contacts for SFP Panel
+ 1 3 2 6 5 4
+M5
+SFP/CPU
+FIG. 1.12.1 Connection of Remote Common Alarm
+s
+t
+c
+a
+t
+n
+o
+C
+f
+o
+g
+n
+it
+a
+R
+l
+a
+n
+i
+m
+o
+N
+c
+a
+V
+
+
+
+≅
+A
+
+,
+
+A
+V
+
+
+
+c
+a
+V
+
+
+
+≅
+A
+
+A
+V
+
+
+
+TAB. 1.12.1 Nominal Rating of contacts for the common alarm.
+Note 1: As an option a pcb CP-NET is available, providing more
+contacts, compatible with most common configurations (eg AS400,
+Novell etc.)
+A Remote panel may also be purchased with identical functions to
+the front operating panel.
+Note 2: To achieve a single common alarm for parallel or hot-standby
+units, the contacts of each unit may be interconnected in parallel
+(normally - open) or series (normally - closed).
+1.13 Remote Reset
+The UPS system may be reset remotely with the connection of
+contacts ( a push-button) to the terminal M4 of the IBYBP-CP
+motherboard as shown:
+
+
+M4
+Remote Reset 
+Push-Button
+IBYBP - CP
+FIG.1.13.1 Connection of Remote Reset
+Note: The cable used must be a twisted pair, with a total shield.
+This shield must be grounded at one end (the cabinet of the
+UPS may be used).
+
+1.14 Installation of Hot-Standby Systems
+For hot-standby systems the units must be connected together as
+shown in the FIG. 1.14.1 or FIG. 1.14.2
+Note: The installation for each unit must be performed in accord-
+ance to the installation of single units as described in the previous
+sections. Additionally, the outputs must be connected in parallel as
+shown in FIG. 1.14.1 or in FIG.1.14.2
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+L1 L2 L3 N
+L1 L2 L3 N
+R S T N
+L1
+L2
+L3
+N
+L
+O
+A
+D
+FIG. 1.14.1 Interconnection of hot-standby units with integrated maintenance bypasses and separate bypass terminals.
+(*) Note: Internal Battery only for 10-30kVA units
+Note: If an external output switch is added for each unit, it must
+include two auxiliary contacts connected as the IUG auxiliary con-
+tacts are connected inside each unit. Open every external output
+switch after opening the relative internal IUG and close it before
+closing IUG.
+
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+
+
+M4
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+
+
+M4
+L1 L2 L3 N
+R S T N
+
+
+M1
+M2
+
+
+8-N
+8-L3
+8-L2
+8-L1
+MB3
+6-N
+6-L3
+6-L1
+6-L2
+7-L1
+7-L2
+7-L3
+N
+(**)
+FIG. 1.14.2 Interconnection of hot-standby units with external maintenance bypass and separate bypass terminals.
+(*) Note: Internal Battery only for 10-30kVA units
+(**) Note: This cable must be a twisted pair, with a total shield (refer. to
+section 1.8)
+(***) Note: The internal maintenance bypass (IBY) may or may not be
+ installed in this configuration
+
+1.14.1 Installation of the Interconnection Cable
+The supplied cable must be connected between the units within the
+system. This must be connected to either of the connectors CN12
+or CN13 on the mother-board of the Inverter/Bypass electronics
+(IBYBP-CP) and the other end of the cable is connected to either
+CN12 or CN13 on the mother-board of the Inverter/Bypass electron-
+ics (IBYBP-CP) of the other unit(s).
+Note: If the unit is to be added to one already installed stand-alone
+unit which has not been previously tested in a hot-standby configu-
+ration, the supports and mounting screws to mount the cable to the
+p.c.b are supplied with the cable. They must be mounted at both
+sides of the selected connector in order to fix the cable securely to
+the connector with the supplied screws.
+IBYBP-CP
+IBYBP-CP
+CN10
+CN12
+CN11
+CN13
+CN10
+CN12
+CN11
+CN13
+FIG. 1.14.3 Interconnection of control BUS cable for hot-standby units
+
+1.15 Installation of Parallel Systems
+Up to a total of 8 units may be installed together in the one parallel
+system.
+Note: The installation for each unit must be performed in accordance
+to the installation of single units as described in the previous sec-
+tions. Additionally to this, the outputs must be connected in parallel
+as shown in FIG. 1.15.1 or in FIG.1.15.2
+ Care must be taken with the installation of the bypass line and in
+particular, that the cables from the point of common coupling of the
+input supply to the terminals 1-L1, 1-L2, 1-L3 (or 4-L1, 4-L2, 4-L3, 4-
+N if an optional separate bypass input is installed), are of equal
+length. Likewise, the output cables from the output terminals (5-L1, 5-
+L2, 5-L3, 5-N) to the point of common coupling on the load side must
+be of equal length.
+Note: If an external output switch is added for each unit, it must
+include two auxiliary contacts connected as the IUG auxiliary con-
+tacts are connected inside each unit. Open every external output
+switch after opening the relative internal IUG and close it before
+closing IUG
+
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+L1 L2 L3 N
+L1 L2 L3 N
+L1
+L2
+L3
+N
+L
+O
+A
+D
+FIG. 1.15.1 Interconnection of parallel units with integrated maintenance bypasses and separate bypass terminals.
+
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+
+
+M4
+(**)
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+
+
+M4
+(**)
+
+
+M2
+IB (*)
+SSB
+IRP
+IRE
+IBY
+B+
+B-
+5-N
+5-L3
+5-L1
+5-L2
+1-L1
+1-L3
+1-L2
+IUG
+4-L3
+4-L1
+4-L2
+4-N
+SSI
+RECT.
+INV.
+
+
+M4
+(**)
+
+
+Mn
+L1 L2 L3 N
+R S T
+N
+
+
+M1
+8-N
+8-L3
+8-L2
+8-L1
+6-N
+6-L3
+6-L1
+6-L2
+7-N
+7-L3
+7-L1
+7-L2
+FIG. 1.15.2 Interconnection of parallel units with common maintenance bypass and separate bypass terminals.
+(*) Note: The internal maintenance bypass may or may not be installed in this configuration.
+(**) Note: This cable must be twisted pair, total shield (refer to section 1.8)
+
+1.15.1 Installation of the Interconnection Cables
+There are two interconnection cables supplied with the units for
+each additional unit to the first unit. These cables must be con-
+nected between the units as shown in FIG. 1.15.4 One cable is
+connected to either CN12 or CN13 (the other end being connected
+to the corresponding connector of another unit), and the other cable
+is connected to either of CN10 or CN11, again with the other end
+connected to the corresponding connector of another unit. In this
+way, all units will be interconnected by two cables in a BUS-Com-
+munication system (Daisy-chain connection).
+Note: If the unit is to be added to one already installed stand-alone
+unit which has not been previously tested in a parallel configuration,
+the supports and mounting screws to mount the cable to the p.c.b
+are supplied with the cables. They must be mounted at both sides of
+the selected connectors in order to fix the cables securely to the
+connectors with the supplied screws.
+IPS/500 ICP
+ICT/2
+IPR
+IF/PS-S
+PS/PA
+PS/PP
+PSPA1
+Diagn
+By Pass
+on
+RS232
+PS/PA
+PS/PP
+PSPA1
++15
+- 15
+CPHC 16-S
+IF/PS-S
+IF/PS-R
+CPHC 16-S
+CPHC 16-R
+Diagn
+Reset
+Vmax
+IBYBP-CP
+RS232
+CN11
+CN10
+CN12
+CN13
+M4
+FIG. 1.15.3 Location of connectors on the IBYBP-CP pcb.
+IBYBP-CP
+IBYBP-CP
+IBYBP-CP
+From last 
+UNIT
+(optional)
+To next 
+UNIT
+CN10
+CN12
+CN11
+CN13
+CN10
+CN12
+CN11
+CN13
+CN10
+CN12
+CN11
+CN13
+FIG. 1.15.4 Interconnection of control BUS cables between parallel units
+
+1.16 Battery Installation
+Battery Installation must be in accordance with local safety
+standards.
+General
+The batteries are charged. The installation should only be made by
+appropriately qualified personnel. The screw connections between
+the batteries should be tightened with a torque wrench (max. 7 Nm).
+1.16.1 Installation of Internal batteries UPS (10-30kVA)
+ Internal Battery (24Ah) Installation
+• Place five battery blocks on the tray of the first level.
+• Place nine battery blocks on the trays of the second, third and
+fourth level.
+• Interconnect the blocks in series (see FIG.1.16.1 for YUASA NP
+battery type or FIG.1.16.2 for YUASA NPI battery type)
+Warning: after assembly there is a voltage of 67,5 V on the first
+level, and 121,5 V on the second, third and fourth levels.
+UPS rear view
+Warning: Open IB switch before connecting the cables
+1° LEVEL
+2° LEVEL
+3° LEVEL
+4° LEVEL
+
+Internal Electrical Connections for YUASA NP Battery Type
+Cable (1) n° 3; L = 280 mm; diameter 16 mm2
+Cable (2) n° 8; L = 420 mm; diameter 16 mm2
+Cable (3) n° 4; L = 490 mm; diameter 16 mm2
+Cable (4) n° 2; L = 650 mm; diameter 16 mm2
+Support (CA1) n° 4; See Fig. CA1
+Support (CA2) n° 9; See Fig. CA2
+FIG. 1.16.1 Internal Battery connections
+(YUASA NP battery type).
+Copper bars for battery connection
+Two copper plates diam. 0,5 mm. are used.
+
+Internal Electrical Connections for YUASA NPI Battery Type
+Cable (1) n° 3; L = 280 mm; diameter 16 mm2
+Cable (2) n° 8; L = 420 mm; diameter 16 mm2
+Cable (3) n° 4; L = 490 mm; diameter 16 mm2
+Cable (4) n° 2; L = 650 mm; diameter 16 mm2
+Support (CA3) n° 4; See Fig. CA3
+Support (CA4) n° 9; See Fig. CA4
+FIG. 1.16.2 Internal Battery connections
+(YUASA NPI battery type).
+Copper bars for battery connection
+Two copper plates diam. 0,5 mm. are used.
+
+1.16.2 Installation of External Batteries
+There are ten preferred types of external battery cabinets to be used
+for this UPS.
+• BC4S/125 small, same height of 10-120kVA (125A breaker)
+• BC4S/250 small, same height of 10-120kVA (250A breaker)
+• BC4L/125 large, same height of 10-120kVA (125A breaker)
+• BC4L/250 large, same height of 10-120kVA (250A breaker)
+• BC4L/400 large, same height of 10-120kVA (400A breaker)
+• BC4D-2x32/125 double, same height of 10-120kVA (125A breaker)
+• BC4D-2x32/250 double, same height of 10-120kVA (250A breaker)
+• BC4D-2x32/400 double, same height of 10-120kVA (400A breaker)
+• BC4H/400 small, height for >120kVA (400A breaker)
+• BC4HD/400 single for 6V blocks, height for >120kVA (400A
+breaker)
+• BC4HD-2x32/400 double, height for >120kVA (400A breaker)
+Table 1.16.2.1 gives the detailed indication on the types of batteries
+used within each battery cabinet.
+G
+F
+M
+M
+A
+I
+F
+s
+r
+a
+e
+y
+
+P
+N
+A
+S
+A
+U
+Y
+s
+r
+a
+e
+y
+
+S
+P
+U
+S
+L
+O
+R
+T
+N
+O
+C
+N
+O
+S
+N
+H
+O
+J
+s
+r
+a
+e
+y
+
+
+
+
+
+/
+S
+
+C
+B
+
+
+
+/
+S
+
+C
+B
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+
+
+
+/
+L
+
+C
+B
+
+
+
+/
+L
+
+C
+B
+
+
+
+/
+L
+
+C
+B
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+
+-
+
+
+x
+
+
+
+
+x
+
+-
+
+
+
+/
+D
+
+C
+B
+
+
+x
+
+-
+
+
+
+/
+D
+
+C
+B
+
+
+x
+
+-
+
+
+
+/
+D
+
+C
+B
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+
+-
+
+
+x
+
+
+
+
+
+/
+H
+
+C
+B
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+-
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+
+-
+
+
+x
+
+
+
+
+x
+
+-
+
+
+
+/
+D
+H
+
+C
+B
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+x
+
+
+V
+
+
+-
+h
+A
+
+
+
+
+
+
+-
+
+
+x
+
+
+
+
+
+/
+D
+H
+
+C
+B
+V
+
+-
+h
+A
+
+
+
+
+
+
+-
+
+x
+
+
+TAB. 1.16.2.1: List of battery types used within each battery cabinet
+
+1.16.3
+BC4S Battery Cabinet (32Monobloks 12V)
+The following battery cubicle have been designed to house a range
+of different batteries to suit the customers' autonomy requirement.
+BC4S Dimendions:
+Height
+1470 mm
+ Weight of Empty Cubicle 150kg
+Width
+640 mm
+Depth
+840 mm
+To assemble the battery cabinet:
+• Place eight battery blocks on the trays of the first, second, third
+and fourth level.
+• Interconnect the blocks in series (block 1 / negative pole ==>
+block 2 / positive pole, according to the diagram on next page).
+FIG. 1.16.3 BC4S battery layout
+
+Important: Open the IB battery switch before connecting the
+cables.
+Warning: after assembly there is a voltage of 96V on each level.
+• Insert the trays into the battery cabinet.
+• Place the trays with the batteries on the corresponding levels in
+the UPS.
+• Connect the battery blocks of the various levels to the IB battery
+switch, and the IB to the terminals, as shown in fig. 1.16.4
+Ensure appropriate ventilation of the battery room according to the
+standard EN50091-1, to prevent the risk of an explosion.
+FIG. 1.16.4 BC4S internal electrical connections
+
+1.16.4 BC4L External Battery Cabinet Installation
+(32Monobloks 12V)
+BC4L Dimendions:
+Height
+1470 mm
+ Weight of Empty Cubicle 200kg
+Width
+1040 mm
+Depth
+840 mm
+To assemble the battery cabinet:
+• Place ten battery blocks on the trays of the first, second and
+third level.
+• Place two battery blocks on the tray of the fourth level.
+• Interconnect the blocks in series (block 1 / negative pole ==>
+block 2 / positive pole, according to the diagram on next page)
+FIG. 1.16.5 BC4L battery layout
+
+Warning: after assembly there is a voltage of 120V on the first,
+second and third level and 24V on fourth level.
+• Insert the trays into the battery cabinet.
+Important: Open the IB battery switch before connecting the
+cables.
+• Place the trays with the batteries on the corresponding levels in
+the UPS.
+• Connect the battery blocks of the various levels to the IB battery
+switch, and the IB to the terminals, as shown in fig. 1.16.6
+Ensure appropriate ventilation of the battery room according to the
+standard EN50091-1, to prevent the risk of an explosion.
+FIG. 1.16.6 BC4L internal electrical connections
+
+1.16.5 BC4D External Battery Cabinet Installation
+(64 Monobloks 6V)
+BC4D Dimendions:
+Height
+1470 mm
+ Weight of Empty Cubicle 380kg
+Width
+2040 mm
+Depth
+840 mm
+To assemble the battery cabinets:
+• Place ten battery blocks on the trays of the first, second and
+third level.
+• Place two battery blocks on the tray of the fourth level.
+• Interconnect the blocks in series (block 1 / negative pole ==>
+block 2 / positive pole, according to the diagram on next page)
+FIG. 1.16.7 BC4D battery layout
+
+Warning: after assembly there is a voltage of 60V on the first,
+second and third level and 12V on fourth level of the left and right
+tier.
+• Insert the trays into the battery cabinets.
+Important: Open the IB battery switch before connecting the
+cables.
+• Place the trays with the batteries on the corresponding levels in
+the UPS.
+• Connect the battery blocks of the various levels to the IB battery
+switch, and the IB to the terminals, as shown in fig. 1.16.8
+Ensure appropriate ventilation of the battery room according to the
+standard EN50091-1, to prevent the risk of an explosion.
+FIG. 1.16.8 BC4D internal electrical connections
+
+1.16.5.1
+BC4D-2x32 External Battery Cabinet Installation
+(64 Monobloks 2x32 12V)
+BC4D Dimendions:
+Height
+1470 mm
+ Weight of Empty Cubicle 380kg
+Width
+2040 mm
+Depth
+840 mm
+To assemble the battery cabinets:
+• Place ten battery blocks on the trays of the first, second and
+third level.
+• Place two battery blocks on the tray of the fourth level.
+• Interconnect the blocks in series for both strings (block 1 /
+negative pole ==> block 2 / positive pole, according to the
+diagram on next page) and then connect the strings in parallel,
+according to the diagram.
+FIG. 1.16.7.1 BC4D 2x32 battery layout
+
+Warning: after assembly there is a voltage of 120V on the first,
+second and third level and 24V on fourth level of the left and right
+tiers.
+• Insert the trays into the battery cabinets.
+Important: Open the IB battery switch before connecting the
+cables.
+• Place the trays with the batteries on the corresponding levels in
+the UPS.
+• Connect the battery blocks of the various levels to the IB battery
+switch, and the IB to the terminals, as shown in fig. 1.16.8.1
+Ensure appropriate ventilation of the battery room according to the
+standard EN50091-1, to prevent the risk of an explosion.
+FIG. 1.16.8.1 BC4D 2x32 internal electrical connections
+
+1.16.6 BC4H Battery Cabinet Installation (32 Monobloks 12V)
+BC4H Dimensions:
+Height
+1825 mm
+ Weight of Empty Cubicle 210kg
+Width
+818 mm
+Depth
+925 mm
+To assemble the battery cabinet:
+Important: Open the IB battery switch before connecting the
+cables.
+• Remove the screws that fix the trays.
+• Extract the trays of the battery cabinet.
+• Place eight battery blocks on the trays of the first, second, third
+and fourth level.
+• Interconnect the blocks in series (block 1 / negative pole ==>
+block 2 / positive pole, according to the diagram on next page).
+FIG. 1.16.9 BC4H Battery layout
+
+Warning: after assembly there is a voltage of 96V on each level.
+• Insert the trays and fix them with the screws.
+• Connect the battery blocks of the various levels to the IB battery
+switch, and the IB to the terminals, as shown in fig. 1.16.10.
+Ensure appropriate ventilation of the battery room according to the
+standard EN50091-1, to prevent the risk of an explosion.
+FIG. 1.16.10 BC4H internal electrical connections
+
+1.16.7 BC4HD Battery Cabinet Installation (64 Monobloks 6V)
+BC4HD Dimendions:
+Height
+1825 mm
+ Weight of Empty Cubicle 376kg
+Width
+1596 mm
+Depth
+925 mm
+To assemble the battery cabinet:
+Important: Open the IB battery switch before connecting the
+cables.
+• Remove the screws that fix the trays.
+• Extract the trays of the battery cabinet.
+• Place eight battery blocks on the left and right trays of the first,
+second, third and fourth level.
+• Interconnect the blocks in series (block 1 / negative pole ==>
+block 2 / positive pole, according to the diagram on next page).
+Warning: The nominal voltage of the monoblocks must be 6V (in
+fact 64x6=384V (nominal voltage)
+FIG. 1.16.11 BC4HD Battery layout
+
+Warning: after assembly there is a voltage of 48V on each level of
+left and right tiers.
+• Insert the trays into the battery cabinet and fix them with the
+screws.
+• Connect the battery blocks of the various levels to the IB battery
+switch, and the IB to the terminals, as shown in fig. 1.16.12.
+Ensure appropriate ventilation of the battery room according to the
+standard EN50091-1, to prevent the risk of an explosion.
+FIG. 1.16.12 BC4HD internal electrical connections
+
+1.16.7.1
+BC4HD-2x32 Battery Cabinet Installation
+(64 Monobloks 2x32 12V)
+See the battery layout and dimension of BC4HD battery cabinet
+Important: Open the IB battery switch before connecting the
+cables.
+• Remove the screws that fix the trays.
+• Extract the trays of the battery cabinet.
+• Place eight battery blocks on the left and right trays of the first,
+second, third and fourth level (see fig. 1.16.11 on previous
+page).
+• Interconnect the blocks in series for both strings (block 1 /
+negative pole ==> block 2 / positive pole and than connect the
+strings in parallel according to the diagram below.
+Warning: after assembly there is a voltage of 96V on each level of
+the left and right tiers.
+• Insert the trays into the battery cabinet and fix them with the
+screws.
+• Connect the battery blocks of the various levels to the IB battery
+switch, and the IB to the terminals, as shown in fig. 1.16.12.1.
+Ensure appropriate ventilation of the battery room according to the
+standard EN50091-1, to prevent the risk of an explosion.
+FIG. 1.16.12.1 BC4HD 2X32 internal electrical connections
+
+1.17
+Connection between UPS and Additional
+Battery Cabinets
+- B
+- B
+- B
++ B
++ B
+C1 C2 C3 C4
+C1 C2 C3 C4
+C1 C2 C3 C4
+IB
+-B +B
+- -
+- -
+- -
+
+N
+IB
+-B +B
+- -
+- -
+- -
++ B
+FIG. 1.17.1 UPS with additional battery cabinet
+For the standard battery cabinet, the terminals C1, C2, C3 and C4
+are connected to the corresponding terminals in the UPS cabinet as
+in FIG. 1.17.1.
+If a battery is installed without standard cabinet(s), then a voltage-
+free auxiliary contact (normally closed) should be provided, along
+with a dc shunt trip circuit, for the battery circuit breaker / fuse
+switch. The auxiliary contact is connected to the terminals C1 and
+C2. The shunt trip circuit is connected in series with C3 and C4 and
+the appropriate number of batteries in order to achieve the rated
+shunt trip coil voltage.
+
+2.1
+Initial Start Up Procedure
+General
+With the Start Up procedure the correct installation of the UPS
+according to the previous section is checked. It must be carried out
+by specialised personnel.
+Safety precautions according to the appropriate local safety stand-
+ards must be applied.
+Should problems arise during the Start Up Procedure, call for
+service assistance.
+Preparation
+For carrying out the Start Up Procedure, a 3 1/2 digit voltmeter with
+1% accuracy, an AC/DC clip-on ammeter and a small screwdriver
+for potentiometers are needed.
+The installation of the UPS must have been carried out according to
+the previous section.
+• Check that the ventilation system of the UPS room is ready to
+operate.
+• Check that all switches IRP, IRE, IUG, IBY, IB are open and the
+load is off.
+Check that the connectors on the backpanel control boards
+IBYBP-CP and RBPHC16 are completely inserted before start-
+ing unit.
+Particular care should be given to green type connectors (pitch
+5,04mm.)
+A: Rectifier Power Supply Check
+• Switch on the external mains supply to the UPS.
+• Check that the supply voltage at terminals 1-L1, 1-L2, 1-L3 is
+within ±10% of the UPS rated voltage.
+• Close IRP.
+?
+Does the display on the CPHC16 -R pcb for the rectifier give the
+indication "P"?
+yes
+The phase rotation at the input is incorrect.
+• Open IRP, switch off the external mains supply and exchange
+any two of the cables at input terminals 1-L1, 1-L2, 1-L3.
+• Return to A.
+no
+The rectifier input voltage is o.k. and the rectifier will automatically
+start to operate.
+• Wait until the Front Panel is illuminated
+• Push the button PB2 on the top of ICP board
+The inverter will start and after approximately 10s the green
+led "INV ok" will be lit permanently.
+• Press the push-button PB3 on the bottom of ICP card:
+after a few seconds the three green leds on the SS/FY card will
+be lit.
+NOTE: If the battery switch indication is not on then the connections to C1 and C2
+in the battery cabinet are not correct. Refer to the section "Installation".
+2 Initial Start-Up
+
+• On the SS/FY pcb, measure the voltage at the Inverter R,
+Inverter S, Inverter T screws with respect to the neutral terminal
+5-N.
+?
+Does this voltage correspond to the desired voltage?
+no
+• Adjust the voltage to the desired value individually for each
+phase using P3, P4 and P5 on the ICT-2 pcb.
+NOTE: If the inverter output voltage is changed, the value at
+TP1 (adjusted with P1) on the ICP pcb should be checked. (6V
+corresponds to nominal voltage). Note also that for parallel
+systems, if the voltage is changed here, the current sharing will
+also be affected. Therefore, change the voltage settings ONLY IF
+ABSOLUTELY NECESSARY. Small variations of the voltage will not
+affect the system performance. The UPS is already pre-cali-
+brated in the factory with nominal load.
+yes
+• Continue with C
+C: Inverter free-run frequency check
+• Insert a pin d=2mm in the red test point S1 on the ICP pcb. The
+red LED LD3 on the ICP pcb must be lit permanently. The
+inverter frequency is now free-running without the internal
+oscillator.
+• On the SS/FY pcb, measure the inverter frequency on the
+Inverter R, S or T screws with respect to neutral.
+• Check that the frequency is set at the required value (50/60 Hz
++/- 0,1 Hz). It can be adjusted with P1 on the ICT-2 pcb. Re-
+move the pin from S1. The inverter now synchronises with the
+internal oscillator.
+D: Battery Installation Check
+• Make sure that the batteries have been installed according to
+the instructions for installation.
+With an external battery cabinet BC4S:
+• Measure the battery voltage in the battery cabinet at the battery
+switch between cables:
++1 (+) and 3 (-) nominal +192
+4 (+) and -6 (-) nominal +192
+With an external battery cabinet BC4L:
+• Measure the battery voltage in the battery cabinet at the battery
+switch between cables:
++6 (-) and 4 (-) nominal +240
+3 (+) and -1 (-) nomminal +144
+With an external battery cabinet BC4D:
+• Measure the battery voltage in the battery cabinet at the battery
+switch between cables:
+- +1D (+) and -5D (-) nominal +192
+- +1S (+) and -5S(-) nominal +192
+With an external battery cabinet BC4D-2x32:
+• Measure the battery voltage in the battery cabinet at the battery
+switch between cables:
+- +1D (+) and -5D (-) nominal +384
+- +1S (+) and -5S(-) nominal +384
+2 Initial Start-Up
+
+2 Initial Start-Up
+With an external battery cabinet BC4H:
+• Measure the battery voltage in the battery cabinet at the battery
+switch between cables:
++1 (+) and 3 (-) nominal +192
+ 4 (+) and -6 (-) nominal +192
+With an external battery cabinet BC4HD:
+• Measure the battery voltage in the battery cabinet at the battery
+switch between cables:
++1S (+) and -5S (-) nominal +192
++1D (+) and -5D (-) nominal +192
+With an external battery cabinet BC4HD-2x32:
+• Measure the battery voltage in the battery cabinet at the battery
+switch between cables:
++1D (+) and -5D (-) nominal +384
++1S (+) and -5S (-) nominal +384
+?
+Does this voltage have positive polarity?
+no
+• Open IRP, wait for 5-10 minutes, and then reconnect the
+battery cables at the terminals which lead to the switch(es)
+where the wrong polarity was detected.
+• Return to D.
+yes
+• Check the voltage between the battery terminals B+ and B-.
+The value of this voltage should already be set according to the
+amount of batteries installed and it must be between 380Vdc and
+420Vdc.
+• Close battery switch IB.
+The alarm "battery switch open" stops.
+E: Bypass Power Supply Check
+• If your unit has separate supplies for rectifier and bypass (termi-
+nals 4-L1, 4-L2, 4-L3, 4-N), switch on the external supply for the
+bypass. Check that the bypass supply voltage at terminals 4-L1,
+4-L2, 4-L3, 4-N is within ±10% of the nominal input voltage.
+If there are no separate input terminals then the bypass input is
+the same as that checked previously for the rectifier input.
+• Close IUG.
+• Close IRE.
+?
+Does the display on the CPHC16 -S pcb for the bypass give the
+indication "P"?
+yes
+• Open IRE and exchange any two of the cables at the bypass
+input terminals 4-L1, 4-L2, 4-L3.
+• Return to E.
+no
+• Are the status LEDs (green) for the bypass line on the operating
+panel continuously on?
+no:
+Check that the mains frequency is in tolerance.
+
+OK?
+yes:
+Is the pcb CPHC16 -S for the bypass
+correctly functioning? The display should be
+rotating clockwise.
+no:
+Call for service assistance.
+yes:
+Check the input supply again. Check
+that it is in accordance with the UPS
+rating label.
+no:
+The mains frequency must be within
+tolerance in order for the bypass to be
+available
+yes:
+Continue with F.
+F: Synchronisation Check
+• Check that the green LED LD1 on the ICT-2 pcb is lit perma-
+nently and there is no "S" indication on the bypass electronics.
+• On the SS/FY pcb, measure the voltage between the screws
+Bypass R and Inverter R. Then repeat for the other two phases.
+?
+Are the voltages < 25Vac?
+no
+• If the voltage is continuously fluctuating from 0 to 400V there is
+a synchronisation problem. Switch off IRE and call for service
+assistance.
+If the voltage is slightly higher but relatively constant and the
+default values have been re-entered using the serial interface on
+the CPHC16 -S p.c.b., then the synchronisation may need to be
+readjusted. This can be easily confirmed by comparing the two
+sinewaves for a possible phase difference.
+Are the two waveforms phase-shifted?
+yes:
+The synchronisation must be readjusted using the serial
+interface of the CPHC16 -S pcb and the PSRS232 and a
+portable computer.
+no:
+The difference is probably due to distortion of the mains
+voltage (the inverter voltage is an almost perfect
+sinewave)
+Continue with G
+yes:
+Continue with G
+G: Static Switch Commutation Check
+• COMMUTATION TO THE BYPASS
+Press the push-button on the CPHC16 pcb for the bypass. The
+SSB static switch will switch on and SSI will switch off, as
+indicated on the front panel and on the SS/FY pcb (red LEDs).
+• COMMUTATION TO INVERTER
+2 Initial Start-Up
+
+Press the pushbutton PB3 at the bottom of the ICP pcb. The
+static switch SSI will switch on and the SSB will switch off, as
+indicated on the front panel and the SS/FY pcb (green LEDs).
+Commutations to/from the bypass and inverter may also be
+performed using the Test Menu of the Smart Front Panel.
+H: Battery Charging Current Limitation
+ Check
+• Connect the load and open IRP.
+The load is now supplied only by the batteries.
+• Discharge the batteries for about 2 minutes at nominal UPS load
+or longer if the connected load is smaller than nominal UPS load
+• Close IRP again.
+• After 30 seconds, measure the battery voltage.
+?
+Is the battery voltage lower than the set floating charge voltage?
+no
+The rectifier is not yet in battery current limitation. In order to check
+the battery current limitation you must discharge the batteries for a
+longer period.
+• Return to H.
+yes
+The battery current limitation can now be checked according to the
+battery installed. Standard setting is 10% of the battery capacity.
+• Measure the battery recharging current with a dc clip-on amme-
+ter.
+?
+Is this approximately 10% of the battery Ah capacity?
+yes
+GOTO I
+no
+Check the settings of the dipswitch S1 on the CPHC16 -R pcb for
+the rectifier according to following table. If the requested value is not
+included in the following table the battery charging current may be
+adjusted using the RS232 connector on the CPHC16-R pcb and a
+portable computer. This must be performed by first discharging the
+battery by switching the IRP off, connecting the PC and adjusting
+the charging current. The battery must remain connected
+throughout the procedure.
+2 Initial Start-Up
+
+Battery Charging Current Limitation:
+Valid for:
+EPROM R_12p.bin V.2.0 or later (UPS size 10-120kVA)
+EPROM ERC.bin V.1.0 or later (UPS size 160-250kVA)
+
+
+
+
+S
+)
+A
+(
+N
+O
+I
+T
+A
+T
+I
+M
+I
+L
+T
+N
+E
+R
+R
+U
+C
+G
+N
+I
+G
+R
+A
+H
+C
+Y
+R
+E
+T
+T
+A
+B
+n
+o
+it
+a
+r
+u
+g
+if
+n
+o
+c
+p
+i
+D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p
+i
+D
+
+p
+i
+D
+
+p
+i
+D
+
+.
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F
+F
+O
+F
+F
+O
+F
+F
+O
+
+
+.
+
+
+
+.
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+F
+F
+O
+F
+F
+O
+N
+O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F
+F
+O
+N
+O
+F
+F
+O
+
+.
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F
+F
+O
+N
+O
+N
+O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+O
+F
+F
+O
+F
+F
+O
+
+.
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+O
+F
+F
+O
+N
+O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+O
+N
+O
+F
+F
+O
+*
+M
+O
+T
+S
+U
+C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+O
+N
+O
+N
+O
+TAB. 2.1 Battery charging current limitation
+(*) Note: Maximum value on custom mode.
+Warning:
+Do not change the settings of the dipswitches from 1 to 5; this
+impair proper operation of the system
+•
+Return to H.
+I: Date & Time Setting
+•
+Clear alarm memory
+Enter the alarm memory, a stack of the last 100 alarms, by pressing
+F2 followed by F4 from the "4) Alarms" Menu. The entire alarms
+memory must be deleted by pressing F3 followed by the F1 keys.
+•
+Date and clock adjustment
+Enter the "7) Test" Menu (PW 8031) and select "7) clock", then
+each item (DD-MM-YYYY, hh:mm:ss) can be selected with the
+cursor keys "<" and ">". The values can be adjusted using the "up"
+or "down" keys. To store the adjustment, press the "ENTER" key,
+otherwise the date and time remain unchanged.
+END
+THE START-UP PROCEDURE FOR A STAND-ALONE UNIT HAS BEEN SUCCESS-
+FULLY COMPLETED NOW.
+2 Initial Start-Up
+
+ADDITIONAL START-UP PROCED. FOR
+MULTI-UNIT SYSTEMS
+3.1
+Start-Up Procedure for Hot -standby Sys-
+tems
+Repeat the procedure of section 2 for the second unit in the system
+(with the first unit off).
+Ensure that the interconnecting BUS cable is connected according
+to section 1.15.1 and FIG 1.15.4.
+J
+• Switch off the inverter at the second unit with PB2 at the top of
+the ICP pcb. The unit will transfer to the bypass supply.
+• Switch on IRP of the first unit.
+• Ensure that the IUG switch of this unit is off.
+• Switch on IRE of the first unit.
+After approx. 10 seconds the display will flash with a "U" indication
+and the SSB static bypass switch will be closed.
+• Measure across the IUG output switch from input to output of
+each phase.
+?
+Is this voltage less than 2V a.c for all three phases?
+no
+The output power interconnections are incorrect and must be
+reconnected correctly. Switch off both units and the mains
+supply and recheck the connections. Return to J
+yes
+Continue
+• Close the IUG of the first unit. The two static bypasses (SSB)
+are now connected in parallel.
+• Close the battery switch of the first unit.
+• Start the unit by pressing "START" on the front operating panel.
+When the inverter is synchronised, the unit will transfer the
+inverter to the output (SSI closes and both SSB switches switch
+off).
+• Press "START" on the operating panel of the second unit.
+The inverter will start and become ready (check that the green LED
+LD6 on the ICP pcb is illuminated) but the SSI static switch will not
+close.
+ • Check the commutation of the inverters by pressing PB2 at the
+top of the ICP pcb on the unit currently with the SSI closed.
+• Restart the inverters (with PB2 on ICP or with "START").
+3 Additional Start-Up Proced. for Multi-Unit Systems
+
+Clear alarm memory
+Enter the alarm memory, a stack of the last 100 alarms, by pressing
+F2 followed by F4 from the "4) Alarms" Menu. The entire alarms
+memory must be deleted by pressing F3 followed by the F1 key.
+Repeat for all the units.
+Date and clock adjustment
+Enter the "9) Test" Menu (PW 8031) and select "7) clock", then
+each item (DD-MM-YYYY, hh:mm:ss) can be selected with the
+cursor keys "<" and ">". The values can be adjusted using the "up"
+or "down" keys. To store the adjustment, press the "ENTER" key,
+otherwise the date and time remain unchanged.
+Repeat for all the units.
+THE SYSTEM IS NOW IN NORMAL OPERATION AND THE HOT-STANDBY START-UP
+HAS BEEN SUCCESSFULLY COMPLETED.
+Note: If an external output switch is added for each unit, it must
+include two auxiliary contacts connected as the IUG auxiliary con-
+tacts are connected inside each unit. Open every external output
+switch after opening the relative internal IUG and close it before
+closing IUG
+3 Additional Start-Up Proced. for Multi-Unit Systems
+
+3 Additional Start-Up Proced. for Multi-Unit Systems
+3.2
+Start-Up Procedure for Parallel Systems
+Repeat the procedure of section 2 individually for all units in the
+system, with the other units off.
+Note: If the BUS cables were connected before the start-up of each
+unit individually, it is possible that erroneous alarms are displayed or
+the EPO command is activated. This condition is not possible if the
+interconnecting cables are disconnected.
+Connect the BUS cables according to section 1.15.1 and FIG
+1.15.4.
+• Open IRP, IRE, IB and IUG of the last unit checked with the
+procedure in section 2.
+K
+• Ensure that no load is connected to the system output.
+• Ensure that all IUG switches are open.
+• Switch on the IRE switches of all units. Wait until all units give a
+flashing "U" indication on the display of the CPHC16-S pcb.
+• Close IRP of all the units and press RESET on all the units.
+• When the front operating panel is initialised on all units (after 3
+beeps), close the battery switches of the respective units.
+• Close the IUG of unit 1. At each unit in turn:
+Measure across the IUG output switch of the next unit from input to
+output of each phase.
+?
+Is this voltage less than 2V.a.c for all three phases for every unit?
+no
+The output power interconnections are incorrect and must be
+reconnected correctly. Switch off all units and the mains supply
+and recheck the connections.
+Return to K
+yes
+• Close the IUG of this unit and proceed with the following unit
+until all IUG are closed.
+• The static bypasses (SSB) will now be connected in parallel for
+all units.
+• Press the "START" push-button on any one unit. The inverter
+will start and when synchronised to the bypass supply, transfer
+to the system output and all static bypass switches (SSB) will
+open.
+• Press the "START" push-button on each successive unit in the
+system, each time checking that the SSI closes on the unit and
+that the system operates in parallel operation.
+• Commutations to the bypass/inverter supplies may be checked
+by pressing the pushbutton on the CPH16 -S pcb and PB3 at
+the bottom of the ICP pcb.
+• Apply a load to the UPS system and check for correct sharing of
+the load currents on each phase. If stand-alone units have been
+converted for parallel operation, the current sharing needs to be
+checked and is best performed with a load as close as possible
+
+3 Additional Start-Up Proced. for Multi-Unit Systems
+to the nominal load. Measure the currents at the output of each
+module on phase T. If this current varies by more than ± 1% for
+this module, fine adjustment can be made with P1 on the IPR
+pcb.
+Check the currents at the output of each module on phase S.
+These currents must be balanced to within ± 1% by finely adjusting
+the inverter voltage of phase S (P4 on ICT-2). i.e. If the module is
+supplying more current than the system average, the inverter
+voltage of this module must be reduced slightly. Repeat for phase R
+currents by finely adjusting the R phase inverter voltage of this
+module with P3 on the ICT-2 pcb until the currents on the phase R
+of all modules are equal to within ± 1%.
+Clear alarm memory
+Enter the alarm memory, a stack of the last 100 alarms, by pressing
+F2 followed by F4 from the "4) Alarms" Menu. The entire alarms
+memory must be deleted by pressing F3 followed by F1 key.
+Repeat for all the units.
+Date and clock adjustment
+Enter the "9) Test" Menu (PW 8031) and select "7) clock", then
+each item (DD-MM-YYYY, hh:mm:ss) can be selected with the
+cursor keys "<" and ">". The values can be adjusted using the "up"
+or "down" keys. To store the adjustment, press the "ENTER" key,
+otherwise the date and time remain unchanged.
+Repeat for all the units.
+•
+THE SYSTEM START-UP HAS NOW BEEN SUCCESSFULLY COMPLETED.
+Note: If an external output switch is added for each unit, it must
+include two auxiliary contacts connected as the IUG auxiliary con-
+tacts are connected inside each unit. Open every external output
+switch after opening the relative internal IUG and close it before
+closing IUG

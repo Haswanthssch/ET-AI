@@ -1,0 +1,177 @@
+{
+  "source_file": "eaton-93t-ups-commissioning-instructions-en-us.txt",
+  "original_filename": "eaton-93t-ups-commissioning-instructions-en-us.pdf",
+  "original_source_path": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\03_Commissioning\\UPS\\eaton-93t-ups-commissioning-instructions-en-us.pdf",
+  "title": "93T 15-80kW",
+  "document_type": "Commissioning_Procedure",
+  "category": "Commissioning/UPS",
+  "page_count": 46,
+  "section_count": 3,
+  "total_steps": 0,
+  "pass_fail_gate_count": 0,
+  "table_count": 5,
+  "sections": [
+    {
+      "heading": "Preamble",
+      "body": "Safety\n\nSafety\n•\n\nSafety\n•\n•\n•\n•\n•\n\nSafety\n•\n•\n•\n•\n•\n\nSafety\n•\n•\n•\n•\n\nSafety\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n\nSafety\n•\n✓\n✓\n✓\n✓\n✓\n\nSafety\n•\n✓\n✓\n✓\n✓\n✓\n✓\n✓\n\nSafety\n•\n•\n•\n•\n•\n•\n•\n\nSafety\n•\n•\n•\n•\n•\n•\n•\n\nSafety\n•\n•\n•\n•\n•\n•\n•\n•\n•\n\nSafety\n\nSafety\n\nSafety\n\nSafety\n•\n•\n•\n•\n•\n•\n\n93T 15-80kW\n\nUPS Structural Overview\n\nUPS Clearance\n\nMechanical inspection during commissioning phase\n✓\n✓\n✓\n✓\n✓\n\nUnpacking and installation\n•\n\nBattery breakers. \nSeparate for each \nstring.\n•\nAfter the cables are \ninstalled, keep all feed \nbreakers open, including \nthe input breaker, bypass \nbreaker, and neutral and \nbattery breakers.\nUnpacking and installation\n\nUnpacking and installation\n•\nIf the unit contains internal \nbatteries, use a known-good DMM \nto make sure that power is not \npresent in the cable terminals. \n•\nThere is a separate battery \nbreaker for each string in the \ninternal battery cabinet.\n\nExternal batteries\n•\n\n•\nRemove the side cover\nUnpacking and installation\n\nUnpacking and installation\nMeasure and ensure there is no short circuit in the input connection \nterminals. \nKeep the input breaker open.\nMeasure and ensure there is no short circuit in the output connection \nterminal.\n\nMake sure that the UPS input \nand bypass breakers (in case \nof dual input) are open.\nClose the feed breaker(s) to \napply utility and bypass power \nto the unit. (external breakers \nfrom facility)\nMeasure the voltage at input \nconnection terminals:\nMeasure the voltages phase-\nto-phase, phase-to-neutral, and \nphase-to-ground.\nMake sure that the voltages \nare within the acceptable limits.\nMake sure that there is less \nthan 5 VAC from neutral-to-\nground.\nUse a phase rotation meter (or \nsimilar) to make sure that the \nphase rotation is correct.\nClose the UPS input and \nbypass switches. Close all \nbattery breakers.\n\n•\nRe-install the side cover\n\n•\n•\n•\n•\n\n•\n•\n\n•\n•\n•\n→",
+      "steps": []
+    },
+    {
+      "heading": "061 Configuration Error 16512",
+      "body": "Active events – Log screen\n\nActive events – configuration error\nError code 16512. \n• Battery cells per string \nneed to be configured.\no See the next slide\n• Setup required. Needs to \nbe cleared. \no See the next slide",
+      "steps": []
+    },
+    {
+      "heading": "061 Configuration Error 16512",
+      "body": "Display\n•\n•\n•\n\nDisplay\n•\n•\n•\no\n•\n•\n\nReference\nDescription\nAmount of \nbatteries per \nstring\nAmount of cells \nper string\n93T15KMBSBI\n93T 15kVA IB \n1x36x9Ah\n\n\n93T20KMBSBI\n93T 20kVA IB \n2x32x7Ah\n\n\n93T30KMBSBI\n93T 30kVA IB \n2x36x9Ah\n\n\n93T40KMBSBI\n93T 40kVA IB \n3x32x9Ah\n\n\n93T60KMBSBI\n93T 60kVA IB \n4x40x9Ah\n\n\n93T80KMBSBI\n93T 80kVA IB \n5x40x9Ah\n\nDisplay\n•\n\nDisplay – Required setup\n•\n•\n•\n•\n\n\nDisplay\n•\n\nDisplay – Optional setup\n•\n•\n•\n•\n\n•\n\n•\n\nElectrical inspection\n•\no\n→\no\n→\no\n→\no\n→\n→\no\n\nStarting the UPS\n\nStarting the UPS\n•\n•\n•\n•\n\nEaton.com",
+      "steps": []
+    }
+  ],
+  "tables": [
+    {
+      "page": 16,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "| 93T 15-80kW |\n| --- |\n| © 2023 Eaton. All rights reserved.. 16 |",
+      "raw": [
+        [
+          "93T 15-80kW"
+        ],
+        [
+          "© 2023 Eaton. All rights reserved.. 16"
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "|  |\n| --- |\n| © 2023 Eaton. All rights reserved.. |",
+      "raw": [
+        [
+          ""
+        ],
+        [
+          "© 2023 Eaton. All rights reserved.."
+        ]
+      ]
+    },
+    {
+      "page": 30,
+      "table_index": 0,
+      "rows": 7,
+      "cols": 3,
+      "markdown": "| Make sure and bypas of dual i | that the UP s breakers ( nput) are o | S input in case pen. |\n| --- | --- | --- |\n|  |  |  |\n| Close the apply utility to the unit. fro | feed breake and bypas (external br m facility) | r(s) to s power eakers |\n|  |  |  |\n| Measure t connec | he voltage a tion termin | t input als: |\n|  |  |  |\n| Use a phas similar) to phase ro | e rotation m make sure t tation is cor | eter (or hat the rect. |",
+      "raw": [
+        [
+          "Make sure\nand bypas\nof dual i",
+          "that the UP\ns breakers (\nnput) are o",
+          "S input\nin case\npen."
+        ],
+        [
+          null,
+          "",
+          null
+        ],
+        [
+          "Close the\napply utility\nto the unit.\nfro",
+          "feed breake\nand bypas\n(external br\nm facility)",
+          "r(s) to\ns power\neakers"
+        ],
+        [
+          null,
+          "",
+          null
+        ],
+        [
+          "Measure t\nconnec",
+          "he voltage a\ntion termin",
+          "t input\nals:"
+        ],
+        [
+          null,
+          "",
+          null
+        ],
+        [
+          "Use a phas\nsimilar) to\nphase ro",
+          "e rotation m\nmake sure t\ntation is cor",
+          "eter (or\nhat the\nrect."
+        ]
+      ]
+    },
+    {
+      "page": 37,
+      "table_index": 0,
+      "rows": 7,
+      "cols": 4,
+      "markdown": "| Reference | Description | Amount of batteries per string | Amountof cells per string |\n| --- | --- | --- | --- |\n| 93T15KMBSBI | 93T 15kVA IB 1x36x9Ah | 36 | 00216 |\n| 93T20KMBSBI | 93T 20kVA IB 2x32x7Ah | 32 | 00192 |\n| 93T30KMBSBI | 93T 30kVA IB 2x36x9Ah | 36 | 00216 |\n| 93T40KMBSBI | 93T 40kVA IB 3x32x9Ah | 32 | 00192 |\n| 93T60KMBSBI | 93T 60kVA IB 4x40x9Ah | 40 | 00240 |\n| 93T80KMBSBI | 93T 80kVA IB 5x40x9Ah | 40 | 00240 |",
+      "raw": [
+        [
+          "Reference",
+          "Description",
+          "Amount of\nbatteries per\nstring",
+          "Amountof cells\nper string"
+        ],
+        [
+          "93T15KMBSBI",
+          "93T 15kVA IB\n1x36x9Ah",
+          "36",
+          "00216"
+        ],
+        [
+          "93T20KMBSBI",
+          "93T 20kVA IB\n2x32x7Ah",
+          "32",
+          "00192"
+        ],
+        [
+          "93T30KMBSBI",
+          "93T 30kVA IB\n2x36x9Ah",
+          "36",
+          "00216"
+        ],
+        [
+          "93T40KMBSBI",
+          "93T 40kVA IB\n3x32x9Ah",
+          "32",
+          "00192"
+        ],
+        [
+          "93T60KMBSBI",
+          "93T 60kVA IB\n4x40x9Ah",
+          "40",
+          "00240"
+        ],
+        [
+          "93T80KMBSBI",
+          "93T 80kVA IB\n5x40x9Ah",
+          "40",
+          "00240"
+        ]
+      ]
+    },
+    {
+      "page": 37,
+      "table_index": 1,
+      "rows": 2,
+      "cols": 2,
+      "markdown": "| Amount | of cells |\n| --- | --- |\n| per strin |  |",
+      "raw": [
+        [
+          "Amount",
+          "of cells"
+        ],
+        [
+          "per strin",
+          null
+        ]
+      ]
+    }
+  ],
+  "structured_at": "2026-06-29T20:11:58.477197",
+  "extraction_method": "regex sectioning + step-pattern + pass/fail keyword classification",
+  "extraction_notes": "Auto-extracted. For production use, manually review and validate pass/fail gates and step ordering against the source PDF."
+}

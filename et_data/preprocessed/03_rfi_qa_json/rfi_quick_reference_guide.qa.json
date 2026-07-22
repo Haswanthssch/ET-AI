@@ -1,0 +1,127 @@
+{
+  "source_file": "rfi_quick_reference_guide.txt",
+  "original_filename": "rfi_quick_reference_guide.pdf",
+  "original_source_path": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\04_Project_Communications\\RFIs\\rfi_quick_reference_guide.pdf",
+  "rfi_id": "activity",
+  "title": "This topic provides a reference for the Project Center RFI activity center.",
+  "document_type": "RFI",
+  "document_subtype": "narrative_document",
+  "category": "Project_Communications/RFIs",
+  "page_count": 11,
+  "char_count": 7656,
+  "qa_pair_count": 0,
+  "qa_pairs": [],
+  "section_count": 27,
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "This topic provides a reference for the Project Center RFI activity center. Purpose The RFI activity center enables you to effectively log and track RFIs through their approval process. Audience Architects, engineers, construction professionals, and owners. Key Features • Streamline RFI management. • Manage construction-related project information. • Capture and connect interrelated contract management work processes. Received RFI Workflow The following workflow options are available for tracking received RFIs in the project. Not all steps have to be used. To log a received RFI from email You can log a received RFI directly from an email message."
+    },
+    {
+      "heading": "3. In the File As dialog box, select the New Item radio button and RFI from the Project Item Type",
+      "body": "list to log a new RFI. Complete the information in the Log a Received RFI dialog box as needed and select OK. To log a received RFI from Info Exchange External users can be given access to your Info Exchange site so they can send you RFIs directly from the site. See the Project Team Overview for more information on granting external users access to Info Exchange."
+    },
+    {
+      "heading": "1. You will receive an email notification that an RFI was sent to you through Info Exchange. Follow the",
+      "body": "link in the email to the RFIs activity center."
+    },
+    {
+      "heading": "3. Complete the information in the Log a Received RFI dialog box as needed and select OK.",
+      "body": "To log a received RFI from the RFI activity center You can also log a received RFI directly through the activity center. This is how you log documents received in hard copy or messages received via phone or fax. Download or scan files needed before logging the RFI."
+    },
+    {
+      "heading": "4. You can add scanned files or files downloaded from another site to the Received Files tab.",
+      "body": "To forward an RFI for review RFIs can be forwarded for review to multiple internal and external reviewers."
+    },
+    {
+      "heading": "2. Select any files to send to the reviewers in the Select Files to Forward for Review dialog box and",
+      "body": "select OK. Internal reviewers will see all associated files when they view the RFI through the RFI activity center so forwarding files may not be necessary."
+    },
+    {
+      "heading": "3. Complete the information in the Forward RFI for Review dialog box as needed.",
+      "body": "If you choose to send via email, Newforma prepares a notification email. Look for the Microsoft Outlook icon flashing in the Windows toolbar indicating the email is ready to send. To record a reviewer response in the RFI activity center Reviewers' responses can be recorded in the RFI activity center from email or from a response sent through Info Exchange."
+    },
+    {
+      "heading": "1. In the RFIs activity center, highlight the RFI and select Record Reviewer Response from the Tasks",
+      "body": "panel."
+    },
+    {
+      "heading": "4. Select Record Response to save your changes.",
+      "body": "To record a reviewer response from email When a reviewer responds to an RFI via email, you can record the response directly from Outlook."
+    },
+    {
+      "heading": "1. In Outlook, highlight the email you want to log as a reviewer response, then select the drop-down",
+      "body": "arrow for the File in Project button in the Project Center Add-In for Microsoft Outlook toolbar. Select File As from the drop-down menu."
+    },
+    {
+      "heading": "3. In the File As dialog box, select Reviewer Response and select RFI as the Project Item Type to",
+      "body": "pick from the list of expected RFIs in the Choose Project Item dialog box. Complete the information in the Record Reviewer Response for RFI dialog box as needed. To record a reviewer response from Info Exchange Reviewers can respond to an RFI through Info Exchange. You will receive an email notifying you of the sent response."
+    },
+    {
+      "heading": "1. In the RFIs activity center, select Pending Incoming from the category drop-down list. Highlight the",
+      "body": "appropriate RFI and select Receive Pending Review Response in the Tasks panel."
+    },
+    {
+      "heading": "2. Complete the information in the Record Reviewer Response for RFI dialog box as needed.",
+      "body": "To respond and close Use this option to track your response to the RFI and close it within Newforma."
+    },
+    {
+      "heading": "1. In the RFIs activity center, highlight the RFI and select Close > Respond and Close from the Tasks",
+      "body": "panel."
+    },
+    {
+      "heading": "2. In the Select Files to Send dialog box, select any files you want to send with the response. Any",
+      "body": "files included in a reviewer response are selected by default. Select OK."
+    },
+    {
+      "heading": "3. Complete the information in the Respond to RFI and Close dialog box. You can use the response",
+      "body": "widget to copy a full summary of the RFI activity or just a summary of the reviewer responses in the Response field."
+    },
+    {
+      "heading": "4. Click Create to close the RFI and create the response.",
+      "body": "Initiate RFI Workflow The following workflow options are available for tracking RFIs that you initiate for the project. Not all steps have to be used. To create an RFI from the RFIs activity center You can log and track RFIs you create directly through the activity center."
+    },
+    {
+      "heading": "2. Enter any information as needed in the Create RFI dialog box. Use the Question tab for the content",
+      "body": "of your question and the Supporting Documents tab for any files."
+    },
+    {
+      "heading": "3. Click OK to create the RFI.",
+      "body": "The new RFI is listed in a Draft state until it is forwarded or closed. To close an RFI After sending the RFI for review and recording the reviewer's response as needed, you can log the answer and close the RFI in Newforma."
+    },
+    {
+      "heading": "2. Complete the information in the Close RFI dialog box. You can use the response widget to copy a",
+      "body": "full summary of the RFI activity or just a summary of the reviewer responses in the Response field."
+    },
+    {
+      "heading": "3. Select OK to close the RFI.",
+      "body": "To send and close an RFI Use this option to track your response to the RFI and close it within Newforma."
+    },
+    {
+      "heading": "1. In the RFIs activity center, highlight the submittal and select Close > Respond and Close from the",
+      "body": "Tasks panel."
+    },
+    {
+      "heading": "2. In the Select Files to Send dialog box, select any files you want to send with the response. Any",
+      "body": "files included in a reviewer response are selected by default. Click OK."
+    },
+    {
+      "heading": "3. Complete the information in the Respond to RFI and Close dialog box. You can use the response",
+      "body": "widget to copy a full summary of the RFI activity or just a summary of the reviewer responses in the Response field."
+    },
+    {
+      "heading": "4. Click Create to close the RFI and create the response.",
+      "body": "To view RFIs on Info Exchange Internal and external users can see the RFIs log on Info Exchange. By default, external users only see items in the workflow that they sent or received."
+    },
+    {
+      "heading": "1. Log into the Info Exchange website and select the project, then select View > Contract",
+      "body": "Management > RFIs."
+    },
+    {
+      "heading": "4. When you need to access the data in different formats you can export to a variety of file formats from",
+      "body": "the website."
+    }
+  ],
+  "structured_at": "2026-06-29T20:03:15.198494",
+  "extraction_method": "regex Q#/A# pattern matching + heading-based sectioning"
+}

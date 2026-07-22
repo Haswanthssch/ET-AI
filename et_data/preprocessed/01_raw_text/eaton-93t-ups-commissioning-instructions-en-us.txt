@@ -1,0 +1,302 @@
+Safety
+
+Safety
+•
+
+Safety
+•
+•
+•
+•
+•
+
+Safety
+•
+•
+•
+•
+•
+
+Safety
+•
+•
+•
+•
+
+Safety
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Safety
+•
+✓
+✓
+✓
+✓
+✓
+
+Safety
+•
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+
+Safety
+•
+•
+•
+•
+•
+•
+•
+
+Safety
+•
+•
+•
+•
+•
+•
+•
+
+Safety
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Safety
+
+Safety
+
+Safety
+
+Safety
+•
+•
+•
+•
+•
+•
+
+93T 15-80kW
+
+UPS Structural Overview
+
+UPS Clearance
+
+Mechanical inspection during commissioning phase
+✓
+✓
+✓
+✓
+✓
+
+Unpacking and installation
+•
+
+Battery breakers. 
+Separate for each 
+string.
+•
+After the cables are 
+installed, keep all feed 
+breakers open, including 
+the input breaker, bypass 
+breaker, and neutral and 
+battery breakers.
+Unpacking and installation
+
+Unpacking and installation
+•
+If the unit contains internal 
+batteries, use a known-good DMM 
+to make sure that power is not 
+present in the cable terminals. 
+•
+There is a separate battery 
+breaker for each string in the 
+internal battery cabinet.
+
+External batteries
+•
+
+•
+Remove the side cover
+Unpacking and installation
+
+Unpacking and installation
+Measure and ensure there is no short circuit in the input connection 
+terminals. 
+Keep the input breaker open.
+Measure and ensure there is no short circuit in the output connection 
+terminal.
+
+Make sure that the UPS input 
+and bypass breakers (in case 
+of dual input) are open.
+Close the feed breaker(s) to 
+apply utility and bypass power 
+to the unit. (external breakers 
+from facility)
+Measure the voltage at input 
+connection terminals:
+Measure the voltages phase-
+to-phase, phase-to-neutral, and 
+phase-to-ground.
+Make sure that the voltages 
+are within the acceptable limits.
+Make sure that there is less 
+than 5 VAC from neutral-to-
+ground.
+Use a phase rotation meter (or 
+similar) to make sure that the 
+phase rotation is correct.
+Close the UPS input and 
+bypass switches. Close all 
+battery breakers.
+
+•
+Re-install the side cover
+
+•
+•
+•
+•
+
+•
+•
+
+•
+•
+•
+→
+087 Battery Switchgear Open
+061 Configuration Error 16512
+Active events – Log screen
+
+Active events – configuration error
+Error code 16512. 
+• Battery cells per string 
+need to be configured.
+o See the next slide
+• Setup required. Needs to 
+be cleared. 
+o See the next slide
+087 Battery Switchgear Open
+061 Configuration Error 16512
+
+Display
+•
+•
+•
+
+Display
+•
+•
+•
+o
+•
+•
+
+Reference
+Description
+Amount of 
+batteries per 
+string
+Amount of cells 
+per string
+93T15KMBSBI
+93T 15kVA IB 
+1x36x9Ah
+
+
+93T20KMBSBI
+93T 20kVA IB 
+2x32x7Ah
+
+
+93T30KMBSBI
+93T 30kVA IB 
+2x36x9Ah
+
+
+93T40KMBSBI
+93T 40kVA IB 
+3x32x9Ah
+
+
+93T60KMBSBI
+93T 60kVA IB 
+4x40x9Ah
+
+
+93T80KMBSBI
+93T 80kVA IB 
+5x40x9Ah
+
+Display
+•
+
+Display – Required setup
+•
+•
+•
+•
+
+
+Display
+•
+
+Display – Optional setup
+•
+•
+•
+•
+
+•
+
+•
+
+Electrical inspection
+•
+o
+→
+o
+→
+o
+→
+o
+→
+→
+o
+
+Starting the UPS
+
+Starting the UPS
+•
+•
+•
+•
+
+Eaton.com

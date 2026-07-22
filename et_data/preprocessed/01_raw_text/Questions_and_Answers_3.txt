@@ -1,0 +1,205 @@
+RFI 10650-19 
+ 
+Questions and Answers 
+ 
+Criminal Case Management System (Prosecution) 
+ 
+ 
+The purpose of this document is to provide questions and answers regarding this RFP. The following Q&As 
+are current as of 6/28/2019: 
+ 
+Q1. While working through the RFI, pricing was requested. I didn't see the number of users for the City 
+Attorney's Office. Pricing is based on the number of FTE in the office. Can you tell me what that 
+number is? 
+A1. The prosecution staff at the City of Redmond consists of five (5) people. However, that does not 
+include anyone from our Technology Info Services (TIS) department who would also need access to 
+help maintain the system going forward. 
+ 
+Q2. What the is the estimated cost? 
+ 
+A2. That number is to be provided by the vendor. 
+ 
+Q3. Has the Department allocated funding yet? If so, through which source (budget, CIP, state/federal 
+grant etc.)? 
+A3. The purpose of the RFI is to establish budgetary numbers. And the source of funding is not defined. 
+ 
+Q4. Would it be possible to name the three greatest challenges the Department is having with the 
+current solution? 
+A4. There is no current “solution.” The prosecutor’s office does not have an electronic case 
+management system. 
+ 
+Q5. Can the Department elaborate on any additional drivers behind this acquisition that may not be 
+addressed in the RFI? 
+A5. There are no additional drivers besides those already stated. 
+ 
+Q6. Which operating platform does the Department currently use? / Is desired? 
+A6. The operating platform is to be provided by vendor. 
+ 
+Q7. Does the Department anticipate any professional or consulting services may be needed to 
+accomplish this effort? (i.e. project planning/oversight, PM, QA, IV&V, staff augmentation, 
+implementation services etc.)? 
+A7. No, this will be kept in house and vendor specific. 
+ 
+Q8. May companies from outside the USA (e.g. India or Canada) submit responses? 
+A8. Any company is free to submit responses to this RFI, although the City is likely to favor more 
+local/domestic vendors.
+
+Q9. Can we submit the proposals via email? 
+ 
+A9. The City considers a complete response to include a printed copy and emailed copy. 
+ 
+Q10. How many users are outside the City that need access to system information, if applicable? 
+ 
+A10. Zero. 
+ 
+Q11. How many IT staff will need administrative access to the system? 
+ 
+A11. This is dependent on the solution vendor’s recommendation and the solution itself. 
+ 
+Q12. Does the City own and use Dynamics365 (CRM) today? 
+A12. The City is moving from DynamicsAX to D365 for Finance and Operations. The City does not use 
+D365 CRM. 
+ 
+Q13. Does the County want the system to be hosted on premise at the City or hosted in the “Cloud” by 
+the Vendor? 
+ 
+A13. The County is not involved in this decision. 
+ 
+Q14. Does the City prefer a phased implementation or a single cut over approach? 
+A14. Whichever approach the vendor can support with training. We want our system running as soon 
+as possible once approved. 
+ 
+Q15. How many users would need training? 
+ 
+A15. See answer to #1 
+ 
+Q16. Does the City have trainers, or do you require the Vendor to administer all end user training? 
+ 
+A16. Vendor. 
+ 
+Q17. How many identified integrations/interfaces need to be included in the project? 
+ 
+A17. Not known at this time. 
+ 
+Q18. Can we submit the proposals via email? Is there data from an existing system or systems that 
+need to be migrated to the new system? Please provide the following information for both the 
+interfaces and data migration databases if applicable: The database type, Number of tables to be 
+integrated, Volume of data to be integrated, Frequency of the integration, File or format 
+ 
+A18. Hard copy files. 
+ 
+Q19. How many users are expected for the application? Can you provide a breakdown of roles within 
+this user base? (i.e. attorney, clerical staff, victim advocates, etc.) 
+ 
+A19. 3 attorneys, 2 staff, IT representative 
+ 
+Q20. Can you provide the number of systems that you expect to be integrated with the case 
+management application on top of the Spillman & Laserfiche systems? 
+ 
+A20. 0-1
+
+Q21. Do you have any ancillary “stand-alone” databases that will require a migration of information 
+into the new case management system? 
+ 
+A21. No 
+ 
+Q22. Do you have a preferred deployment option? Cloud vs On-Premise? 
+A22. The City is open to both options. 
+ 
+Q23. Do you have internal trainers to be taught to support a “train-the-trainer” methodology, or would 
+you like to have the Vendor provide end user training for all users? 
+ 
+A23. Vendor 
+ 
+Q24. What is the budget for this project? 
+ 
+A24. Budget still being determined based on RFI’s. 
+ 
+Q25. Will all questions and answers from all vendors be shared? 
+ 
+A25. No. 
+ 
+Q26. Does the scope of the project include integration with Laserfiche? If so, will Laserfiche be used 
+for both document management and records retention? 
+A26. The police department intends to transition to Laserfiche for records management and document 
+management. Our hope is that our new case management system can integrate with Spillman 
+(supported by Laserfiche) in order to pull documents/discovery from it as needed for our case files. 
+ 
+Q27. Item 11 on page 2 of the RFI document states “Includes redaction functionality with limited 
+automated redactions”. Will you provide an example of limited automated redactions? 
+A27. We interpret limited automated redactions as having the ability to set features as to what will be 
+redacted in reports and the ability to edit or change default preferences. Some cases require we redact 
+all victim information while some requires we leave witness information available. We need information 
+on what automations the case management system allows for redactions in criminal discovery. 
+ 
+Q28. Item 13 on page 2 states “Executes paperless disclosure of case evidence including audio and 
+video files to defense attorneys.” What is an example of a typical workflow to execute paperless 
+disclosure? 
+A28. We do not currently have a workflow for paperless disclosure. Most discovery is photo-copied, 
+printed and provided to defense in court. We do occasionally scan and email discovery when 
+requested, otherwise it is copied and mailed out. We anticipate a typical workflow to executive 
+paperless disclosure with a case management system would stem from pulling the discovery generated 
+by police from Spillman (supported by Laserfiche) into the case management system, and then sending 
+from the case management system to defense, once appropriately compiled and redacted. 
+ 
+Q29. Will the software be installed on premise or in a cloud environment? 
+ 
+A29. Likely installed on-premise as a virtual server in VMware ESXi 6.7u1. 
+ 
+Q30. Will preference be given to browser-based applications? 
+ 
+A30. From a TIS perspective, not necessarily.
+
+Q31. Are solutions that utilize VDI technology (Citrix, RDP, VMware View) acceptable? 
+A31. Acceptable perhaps, but not ideal. At this time, we don’t currently have a fully-functioning VDI 
+infrastructure and standard in place to plug into, so a VDI solution would initially be higher-overhead, 
+from a TIS perspective. 
+ 
+Q32. Will any users be accessing the system via VPN? If yes, please provide technical requirements. 
+A32. We currently utilize Microsoft Direct Access and / or Cisco AnyConnect. Microsoft Direct Access is 
+only capable of reaching internal resources that utilize IPv6, but Cisco AnyConnect works with IPv4. 
+ 
+Q33. If planning on migrating data to the new system what sample data, record layouts, schema, etc. is 
+available for analysis? 
+ 
+A33. Not known at this time. 
+ 
+Q34. What is the desired timeframe for implementation? 
+ 
+A34. Once approved and purchased, 3-6 months 
+ 
+Q35. Will any consultant be assisting with product selection or implementation? If a consultant is 
+involved, please identify them. If assisting with the implementation, what systems have they had 
+experience with in the past? 
+A35. We do not have consultants working on the implementation. We will require assistance from the 
+vendor to train and implement. We will be working with our internal TIS group, contact Jonny Chambers 
+on technical and functional requirements. 
+ 
+Q36. Does the scope of the project include integration with an accounting system? If so, provide 
+functional and technical requirements? 
+ 
+A36. No. 
+ 
+Q37. Does the scope of the project include integration with Microsoft Exchange/Outlook? If so, what 
+version of Exchange/Outlook? 
+A37. Yes – we currently utilize a hybrid Exchange deployment. All user mailboxes live in Exchange 
+Online. We also have an on-premise Exchange 2013 hybrid server to sync AD account email properties 
+between on-prem active directory and Exchange Online, and to also facilitate SMTP relay for on-
+premise mail-enabled applications. Outlook client is Outlook 2016 32-bit version 16.x.xxxxx.xxxxx. 
+ 
+Q38. Does the scope of the project include integration with Spillman Records Management? If so, what 
+are the functional and technical requirements? 
+ 
+A38. Yes - for functional requirements see answers to general questions. 
+ 
+Q39. What other systems will be integrated into the new case management system? For each provide 
+functional and technical requirements. 
+A39. Unknown - however, we hope to interact with the case management system and e-filing system 
+that King County is implementing for their criminal cases, but that has not been finalized to-date. We 
+anticipate a future request for upgrade or integration and request any general guidance on process, 
+capability, general costs for such request.
+
+Q40. Does the scope of the project include file room/records management to track physical paper-
+based files? 
+ 
+A40. No.

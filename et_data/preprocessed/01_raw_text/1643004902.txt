@@ -1,0 +1,685 @@
+Technical Specifications 
+For 
+Auto Transfer Switch (ATS), 
+Phase Sequence Corrector (PSC) 
+& 
+AC Distribution Board (ACDB) 
+At 
+National Load Despatch Centre (NLDC), 
+ Katwaria Sarai, New Delhi
+
+Contents 
+
+Introduction………………………………………………………………………… 
+
+
+Intent of the project………………………………………………………………… 
+
+2.1 
+Auto Transfer Switch………………………………………………………………. 
+
+2.2 
+Phase Sequence Corrector………………………………………………………….. 
+
+2.3 
+AC Distribution Board Requirements…………………………………………….... 
+
+2.3.1 Output ACDB………………………………………………………………………. 
+
+2.3.2 Enclosures/Panels…………………………………………………………………… 
+
+
+Inspection and Testing…………………………………………………………….... 
+
+3.1. 
+Factory Test……………………………………………………………………….... 
+
+3.2. 
+Field Performance Test……………………………………………………………... 
+
+
+Documentation……………………………………………………………………… 
+
+
+Bid evaluation or Price……………………………………………………………… 
+
+5.1. 
+Work Schedule……………………………………………………………………… 
+
+5.2. 
+Defect Liability Period (Warranty)………………………………………………… 
+
+5.3. 
+Payment Terms…………………………………………………………………….. 
+
+5.4. 
+Penalty Clause……………………………………………………………………… 
+
+5.5. 
+Cancellation of Contract in Full or Part……………………………………………. 
+
+
+General Requirements……………………………………………………………… 
+
+
+Survey of site……………………………………………………………………….. 
+
+Annexure - I………………………………………………………………………………… 
+
+Annexure-II…………………………………………………………………………………. 
+
+Annexure-III………………………………………………………………………………… 12 
+Figure………………………………………………………………………………………..
+
+1. Introduction 
+The proposed AC Distribution Boards (ACDB) Panel, Automatic Transfer Switch (ATS) Panel, 
+Phase Sequence Corrector (PSC) and other equipment envisaged under this contract shall be 
+supplied, commissioned, maintained etc. at National Load Despatch Centre (NLDC), B-9, 
+Qutab Institutional Area, Katwaria Sarai, New Delhi and shall be used to connect 2x 40 kVA 
+UPS system and 250 A Raw Power from LT Panel to facilitate power supply for NLDC POSOCO 
+premises. 
+2. Intent of the project 
+The intent of this Project is as follows:– 
+ 
+• Testing, Supply, Installation of new proposed ACDB’s, ATS and PSC and associated 
+equipment as per the specification and BoQ attached at Annexure-I and Annexure-II 
+respectively. 
+• Warranty of all the systems supplied under this contract for 01 year. 
+• Extended warranty of the supplied system for further 01 year. 
+2.1. Automatic Transfer Switch 
+The Contractor shall provide two no’s of Automatic Transfer Switch (ATS) of 160 A and 250 A 
+as per the technical specification specified under this contract. ATS Panel of 160 A and 250 A 
+shall be fed through dual incoming supply from LT panel. ATS Panel should be wall mounted. 
+ATS shall distribute power to the Phase Sequence Corrector equipment and provide 
+protection against failures on feeder circuits. The scope for ATS includes supply, testing, 
+installation, wiring, cabling, and commissioning of all associated hardware’s under this 
+contract. The contractor shall supply and install MCCBs, connecting joints/cables and all 
+associated items of adequate ratings for ATS Panel of 160 A and 250 A for providing input to 
+the 150 A Phase Sequence Corrector (PSC) and 250 A Phase Sequence Corrector respectively 
+(as per Annexure-I). ATS Panel should have manual change over provision so that in case of 
+fault in ATS Panel, power supply may be manually bypassed and interruption may be avoided. 
+The contractor shall extend safety earth connections from ATS panel to nearest earth grid 
+/riser or earth pit using either suitably sized Copper cable or through 50 X 6 sq. mm GI strips. 
+2.2. Phase Sequence Corrector 
+The Contractor shall provide two no’s of Phase Sequence Corrector (PSC) Panel of 250 A and 
+one Phase Sequence Corrector (PSC) Panel of 150 A as per the technical specification specified 
+under this contract. PSC Panel of 150 A and 250 A shall be fed through incoming supply from 
+ATS panel of 160 A and 250 A respectively. PSC Panel should be wall mounted. PSC Panel of 
+150 A shall be connected with appropriate size of copper cable from 160 A ATS. PSC Panel of 
+250 A shall be connected with appropriate size of copper cable from 250 A ATS. 250 A PSC 
+Panel shall distribute power with appropriate size of flexible copper cable to the 250 A ACDB 
+Output Panel. 150 A PSC Panel shall distribute power with appropriate size of copper cable to 
+the terminal of 2x40 KVA UPS system. The scope for PSC includes supply, testing, installation,
+
+wiring, cabling, and commissioning of all associated hardware’s under this contract. The 
+contractor shall supply and install MCCBs/contactor, Surge protection devices etc. and all 
+associated items of adequate ratings for providing input to the 2x40 KVA UPS and 250 A 
+Output ACDB (as per Annexure-I). 
+The contractor shall extend safety earth connections from PSC panel to nearest earth grid 
+/riser or earth pit using either suitably sized Copper cable or through 50 X 6 sq. mm GI strips. 
+ 
+2.3. AC Distribution Board Requirements 
+The Contractor shall provide two no’s of AC power distribution boards (ACDBs) of 250 A and 
+150 A as per the technical specification specified under this contract. The distribution boards 
+shall distribute power to the Employer/ Owner equipment and provide protection against 
+failures on feeder circuits. The scope for distribution boards includes supply, testing, 
+installation, wiring, cabling, and commissioning of all associated hardware’s under this 
+contract. The contractor shall supply and install MCCBs, MCBs, Surge protection devices etc. 
+and all associated items of adequate ratings for ACDB (as per Annexure-I). 
+A conceptual configuration showing the components and arrangements of ‘ATS’, ‘PSC’ and 
+‘Output ACDB’ is shown in figure-1 and figure-2. The size and characteristics of each MCCB, 
+MCB & Surge Protection Devices (SPDs), Automatic Transfer Switch (ATS) and Phase Sequence 
+Corrector shall be determined and provided as specified under Annexure-I. The quantity of 
+ATS, PSC, MCCBs, MCBs, Surge Protection Devices (SPDs), cables etc. shall be supplied as per 
+Annexure-II. The MCCBs conforming to IEC-60947-2 and IS 13947-2/IEC 60947-2 shall be of 
+four (04) Pole type of requisite rating. All the MCCBs shall provide over-current, short circuit 
+protection and coordinate with associated breakers in upstream & downstream such that 
+faults are cleared reliably with discrimination. 
+The contractor shall extend safety earth connections from ATS, PSC & Output ACDB panel to 
+nearest earth grid /riser or earth pit using either suitably sized copper cable or through 50 X 
+6 sq. mm GI strips. 
+ 
+2.3.1. Output ACDB 
+The Contractor shall provide Output ACDB panel of 250 A rating and 150 A rating for further 
+distribution of power to the different equipment. The rating shall be of minimum as stated in 
+Annexure-I, Hardware Requirements. This distribution board shall be suitable for free-
+standing or wall mounted type which shall be finalised after the site survey by the contractor 
+after the award of contract. In this ACDB, total number of MCCBs and MCBs shall be provided 
+as per the BoQ. 
+One number of 4-pole Bus Coupler MCCB of requisite rating for each ACDB Panel shall be 
+provided which shall be kept in normally closed (NC) condition when both UPS are running in 
+parallel. This MCCB shall have suitable locking mechanism to avoid inadvertent opening while 
+UPS are running in parallel.
+
+250 A ACDB Output Panel shall be connected with 250 A ATS Panel with one 70 sq.mm. 4 Core 
+Flexible cable and other 185 sq.mm. aluminium armoured cable. 70 sq.mm., 4 Core Flexible 
+Copper cable shall be supplied and laid at the site as per BoQ. 
+150 A ACDB Output Panel shall be connected with 160 A ATS Panel with suitable two 
+25sq.mm. flexible copper cable. 25 sq.mm., 4 Core Flexible Copper cable shall be supplied and 
+laid at the site as per BoQ. 
+All the MCBs supplied under the project shall be of Curve C current characteristics to have 
+faster fault clearing time and shall conform to IEC-60898 and IS 8828. 
+Output feeders shall have indicating lamps for each phase & both section of bus charged 
+indication. Two no’s of digital Voltmeter with selector switch for all phases on section of each 
+bus shall be provided. 
+2.3.2. Enclosures/Panels 
+The equipment of ACDB shall be physically mounted either in a free standing or in a wall 
+mounted enclosure/panel as finalized after the site survey by the contractor after the award 
+of contract. Approval must be taken for the size of the ACDB, ATS and PSC panels after the 
+site survey by the contractor after the award of contract. The MCCB and sub-assemblies shall 
+be easily replaceable and maintainable. Cable entry shall be from the bottom/top of the 
+enclosures (to be finalized after the site survey by the contractor after the award of contract). 
+The Contractor shall state the type, size, and weight of all enclosures and indicate the 
+proposed manner of installation. The applicable degree of protection of enclosures shall be 
+at least IP54. Each ACDB and equipment within ACDB enclosures shall be clearly labelled to 
+identify the enclosure/equipment. 
+3. Inspection and Testing 
+All equipment supplied under the project shall be factory tested before despatch to site as 
+per requirement specified under this section. General inspection & testing requirements are 
+as follows: 
+3.1. Factory Test 
+A factory test shall be conducted on all the offered equipment which shall include, but not be 
+limited to the following, appropriate to the equipment being tested: 
+a) Verification of all functional characteristics and requirements specified 
+b) Inspection and verification of all construction, wiring, labelling, documentation and 
+completeness of the hardware. 
+Before the start of factory testing, the Contractor shall verify that all changes applicable to 
+the equipment have been implemented. As a part of the factory tests, unstructured testing 
+shall be performed to allow Employer/ Owner representatives to verify proper operation of 
+the equipment under conditions not specifically tested in the above structured performance 
+test. A minimum of 8 hours of the factory test period shall be reserved for unstructured 
+testing. The Contractor's test representative shall be present and the Contractor's technical
+
+staff members shall be available for consultation with Employer/ Owner personnel during 
+unstructured test periods. All special test facilities used during the structured performance 
+test shall be made available for Employer/ Owner’s use during unstructured testing. In 
+addition to above, a list of factory tests specified at the end of the respective sections of this 
+equipment shall also be performed. 
+3.2. Field Performance Test 
+After the equipment has been installed at site, the Contractor shall start up and check the 
+performance of the equipment at field location. All hardware shall be aligned and adjusted, 
+interfaces to all inputs and outputs installed, operation verified, and all test readings recorded 
+in accordance with the Contractor's recommended procedures. The field performance test 
+shall exhibit all functions of the equipment and duplicate factory test. All variances must be 
+corrected prior to the start of the field performance test. 
+Contractor shall submit the procedure for Factory and Site test and take approval from the 
+Owner. 
+ 
+4. Documentation 
+Contractor shall visit the site before submission of any documents. After the discussion and 
+visit of site only contractor shall submit the drawing of panels for approval from the owner. 
+Drawing shall also indicate the arrangements of all the equipment envisaged under each 
+panels. Data requirement sheets (DRS) for equipment and preferred make are enclosed at 
+Annexure-I and Annexure-III respectively, however, it shall be finalised in consultation with 
+owner before start of work. These will be duly filled and complied by the bidder & details 
+thereof submitted along with the bid. 
+5. Bid evaluation or Price 
+a) List of equipment are mentioned in BoQ, however, if it has been felt that some additional 
+items shall be required to meet the entire scope of work, same may be intimated while 
+submitting bidding documents with price. After the award of LoA, if any additional items 
+are required, Owner shall not pay any amount on that head. 
+b) The Contractor shall quote for the Supply, Commissioning, Warranty, extended warranty 
+and Taxes charges separately. 
+5.1. Work Schedule 
+Two (02) month from date of issuance of Letter of Award for supply, testing and 
+commissioning of proposed system. 
+5.2. Defect Liability Period (Warranty) 
+The defect liability period is for 12 months, the period shall commence after issuance of TOC 
+by the Engineer-in-charge or his/her authorized representative. During this period the vendor 
+shall be responsible for any repairs or replacement of any defective part and shall rectify the 
+installation free-of-cost to the owner.
+
+Contractor shall provide separate price for extended warranty, initially it is envisaged for one 
+year (after the completion of defect liability period) whereas is desired owner reserves the 
+right to extend it for further 3 years at same price and terms & condition. 
+5.3. Payment Terms 
+a) For Supply, Testing and Commissioning: 90% payment shall be made after successful 
+commissioning and testing of the system and after verification by Engineer-in-charge. 
+b) For Warranty: 10% payment shall be released after lapse of defect liability period and 
+after verification by Engineer-in-charge. 
+c) Extended Warranty: Payment shall be released on six monthly basis and after the lapse 
+of defined period. 
+d) Tax shall be deducted at source as per the statutory laws. 
+ 
+ 
+5.4. Penalty Clause 
+System shall be supplied, tested and commissioned within two (02) month of acceptance of 
+Letter of Award (LoA). Delay thereafter shall be considered to levy penalty as specified under 
+the contract. 
+5.5. Cancellation of Contract in Full or Part 
+If vendor fails to deliver the services as per the scope of the work detailed in this LoA, due to 
+any lapse from the vendor side, POSOCO reserves the right to cancel the order (including 
+extended warranty period) within one month of notice. In the case of termination / 
+cancellation of the order, the vendor shall not be entitled to recover from POSOCO any 
+amount by way of damages, loss or otherwise. However, in case of cancellation of contract 
+during extended warranty, pro-rata amount will be released. 
+6. General Requirements 
+The Contractor is encouraged to offer standard products and designs. However, the 
+Contractor must conform to the requirements and provide any special or additional 
+equipment/s or software necessary to meet the requirements stated in the specification. 
+The employer reserves the right of execution of works within the stipulated quantity variation 
+of 20% provision other than those indicated in the annexures at the same rates, terms and 
+conditions. The Bidder's proposal shall address all functional and performance requirements 
+within this specification and shall include sufficient information and supporting 
+documentation in order to determine compliance with this specification without further 
+necessity for enquiries. 
+An analysis of the functional and performance requirements of this specification and/or site 
+surveys, design, and engineering may lead the Contractor to conclude that additional items 
+and services are required that are not specifically mentioned in this specification. The
+
+Contractor shall be responsible for providing at no added cost to the Employer, such materials 
+and services shall be considered to be within the scope of the contract. 
+The bidders are advised to visit site (at their own expense), prior to the submission of 
+proposal, and make surveys and assessments as deemed necessary for proposal submission. 
+The successful bidder (Contractor) is required to visit sites. The site visits/routes shall include 
+all necessary surveys to allow the contractor to perform the design and implementation 
+functions. The Contractor shall inform their site survey schedule to the Employer/Owner well 
+in advance. 
+Successful bidder shall visit the site where this equipment shall be supplied, commissioned 
+and maintained. 
+ 
+ 
+7. Survey of site 
+The contractor shall conduct a survey of the NLDC premises and identify the readiness of site 
+with respect to access, installation, requirement of conduits and raceways, identification of 
+routes for laying cables, finalizing the layout and placement of the ACDB, ATS and PSC 
+verifying special requirements with respect to earthing and air-conditioning. After the survey 
+of site size of panels (however, it is desired that all the components shall be considered as 
+copper based in order to reduce the size of panels due to space constraints), cable entry etc 
+shall be decided and accordingly drawing shall be submitted by the contractor.
+
+Annexure - I 
+Hardware Specifications 
+a) ATS (Automatic Transfer Switch) 
+ 
+S. 
+No. Description 
+Minimum Required Features 
+Bidder 
+Compliance 
+1. Ampere 
+Capacity 
+250 A, 4P ATS & 160 A, 4P ATS 
+ 
+2. Miscellaneous 
+1. Phase Indicating Lights set R-Y-B-22.5 mm dia; 
+LED Type. 
+2. Phase Indicating Lights in Incoming and Output 
+of ATS 
+3. Indicating Lights for On/Off/Trip 
+4. Manual Change Over Provision 
+5. 6A SP Control MCB 10 KA C-Curve 
+6. Voltameter-96x96 mm.sq., CL-1 Analog, 0-500V 
+7. Voltameter Selector Switch 3P+Off; 6A 
+ 
+ 
+b) Phase Sequence Corrector 
+S. 
+No. Description 
+Minimum Required Features 
+Bidder 
+Compliance 
+1. Ampere 
+Capacity 
+250 A & 150 A , 3P 
+ 
+2. Applicable 
+standards 
+IEC 60947-2 
+ 
+3. Miscellaneous 
+1. Spreader Terminals, Auxiliary Contact, LED 
+indicator for Power ON, Power Terminal 
+Blocks (as per requirements) etc. 
+2. Phase Indicating Lights set R-Y-B- 22.5 mm 
+dia; LED Type 
+ 
+ 
+c) MCCB: Bus Coupler and Outgoing Feeders 
+ 
+S. 
+No. Description 
+Minimum Required Features 
+Bidder 
+Compliance 
+1. Applicable 
+standards 
+IEC 60947-2 
+ 
+2. Characteristics 
+250 A, 4P, 25 kA with adjustable thermal O/L (80-
+100 & fixed O/L & S/C release) + Door Interlocked 
+ 
+3. Ampere 
+Capacity 
+250 A ,4P 
+ 
+4. Miscellaneous 
+Rotary Handle, Spreader Terminals, Auxiliary 
+Contact, LED indicator for Power ON, Power 
+Terminal Blocks (as per requirements) etc.
+
+d) MCCB: Incoming Feeders 
+ 
+ 
+S. No. Description 
+Minimum Required Features 
+Bidder 
+Compliance 
+1. 
+Applicable 
+standards 
+IEC 60947-2 
+ 
+2. 
+Characteristics 
+100 A,250 A, 4P, 25 kA with adjustable thermal 
+O/L (80-100 & fixed O/L & S/C release) + Door 
+Interlocked 
+ 
+3. 
+Indication 
+Lamps: 
+1. Phase Indicating Lights set R-Y-B-22.5 mm dia; 
+LED Type: 230 V AC. 
+2. Indicating Lights for On/Off/Trip: 220 V AC. 
+3. 6A SP Control MCB 10 KA C-Curve 
+ 
+4. 
+Ampere 
+Capacity 
+250 A, 4P ; 100 A ,4P 
+ 
+5. 
+Voltmeter 
+1. Voltameter-96x96 mm.sq., CL-1 Analog, 0-
+500V 
+2. Voltameter Selector Switch 3P+Off; 6A 
+ 
+6. 
+Miscellaneous 
+Rotary Handle, Spreader Terminals, Auxiliary 
+Contact, Surge Protection Device for class B&C, 
+Power Terminal Blocks (as per requirements) etc. 
+ 
+ 
+ 
+e) MCB: 
+ 
+ 
+S. No. Description of 
+the Features 
+Minimum Required Features 
+Bidder 
+Compliance 
+1. 
+Applicable 
+standards 
+IEC 60947-2 
+ 
+2. 
+Characteristics 
+32A-DP, 63A-4P, 4-pole, 10 kA, ‘C’ Curve 
+ 
+3. 
+Ampere 
+Capacity 
+32 A, 63 A 
+ 
+4. 
+Miscellaneous 
+Power Terminal Blocks (as per requirements)
+
+f) Main Bus Bars: 
+ 
+ 
+Sl. 
+No. 
+Description of 
+the Features 
+Minimum Required Features 
+Bidder 
+Compliance 
+1. 
+Material Size: 
+ 
+Copper: 
+Phase-1x40x6 or Eq. Cross Section 
+Neutral-1x40x6 or Eq. Cross Section 
+ 
+2. 
+Sleeve 
+Heat shrinkable Black PVC sleeve with color 
+coding ar regular interval for phase and neutral 
+ 
+3. 
+Earth Busbar 
+1x25x3 Cu 
+ 
+ 
+ 
+g) Copper Cable: 
+ 
+ 
+Sl. 
+No. 
+Description of 
+the Features 
+Minimum Required Features 
+Bidder 
+Compliance 
+1. 
+Material Type 
+and Size: 
+ 
+Copper: 4 Core Flexible Cables upto 1.1kv grade 
+as per IS:694 
+Sizes :25 and 70 sq. mm 
+ 
+2. 
+Options 
+- Stranded / annealed Copper 
+Insulation-HFFR Insulated industrial cables 
+1100V 
+ 
+ 
+h) Panels (ATS, Phase Sequence Corrector, Input and Output)
+
+Sl. 
+No. 
+Description of the Features 
+Minimum Required Features 
+Bidder 
+Complia
+nce 
+1. 
+Type of Product 
+Indoor, Floor/Wall Mounting, Cubicle 
+Fixed Type, Double Front 
+ 
+2. 
+Supply voltage 
+415 +/- 10%, 3-phase 4-wire, 50 Hz +/- 5% 
+3. 
+The thickness of the 
+structural frames and load 
+bearing members 
+For load bearing 2 mm and others 1.6 
+mm 
+ 
+4. 
+Degree of Protection as per 
+IS:13947 for enclosure only 
+IP-54 
+ 
+5. 
+Fabrication: 
+a. Enclosure frame 
+b. Doors 
+c. Front Side, partition 
+d. Gland Plate 
+e. Base Channel 
+ 
+a. 2 mm CRCA sheet steel 
+b. 1.6 mm CRCA sheet steel 
+c. 1.6 mm CRCA sheet steel 
+d. 3 mm sheet steel 
+e. 2.5 mm CRCA Base Frame (ISMC-75 
+Black) 
+ 
+6. 
+Cable Entry 
+Bottom/Top 
+ 
+7. 
+Paint/Construction: 
+a. Pre-treatment 
+b. Paint Type 
+c. Paint Shade (Exterior and 
+Interior) 
+d. Wiring 
+e. Short Circuit Level 
+ 
+a. 9 tank process 
+b. Powder Coated 
+c. RAL 7032 Smoke Grey, as per if 5 & 
+coated with Peelable Compound finish. 
+d. 1100 V grade PVC insulated wire of 1.5 
+Sq.mm for control and 2.5 sq. mm for 
+CT circuit. 
+e. 20 kA/ 1 sec. 
+ 
+8. 
+Min. Clearance between (for 
+Horizontal and Vertical bus 
+bar) 
+1. Phase to phase: 25 mm 
+2. Phase to neutral: 25 mm 
+3. Phase to Earth: 25 mm 
+4. Neutral to Earth: 25 mm 
+ 
+9. 
+Incoming/Outgoing feeders 
+As per SLD 
+ 
+10. 
+Applicable standards 
+IS 8623 (Part-I) 1993 
+ 
+11. 
+Name plate 
+It shall be non-rusting metal or 3 ply 
+lamicoid with white engraved lettering on 
+black back ground 
+ 
+12. 
+Others 
+1. Partition between compartment & 
+cable alley shall be non-metallic part. 
+2. All metallic case like relays, instruments 
+& other equipment shall be connected 
+to earth with 2.5 sq.mm Cu Wire, Green 
+Colour. 
+3. SMC support shall be 450 mm between 
+centre to centre.
+
+Annexure-II 
+Bill of Quantity (BoQ) 
+List of items, quantities and services assessed for Project 
+S. No. 
+Description 
+Quantity 
+Supply (including 
+1. 
+Automatic Transfer Switch (ATS) Panel (160A) 
+01 set 
+2. 
+Automatic Transfer Switch (ATS) Panel (250A) 
+01 set 
+3. 
+Phase Sequence Corrector Panel (150 A) 
+01 set 
+4. 
+Phase Sequence Corrector Panel (250 A) 
+02 set 
+5. 
+Outgoing ACDB Panel 
+(including 2 nos. incomer MCCB of 250 A and 1 
+nos. bus coupler MCCB of 250 A, outgoing 12 nos. 
+MCB of 63 A and 18 nos. MCB of 32 A) 
+01 set 
+6. 
+Outgoing ACDB Panel 
+(including 2 nos. incomer MCCB of 150 A and 1 
+nos. bus coupler MCCB of 150 A, outgoing 8 nos. 
+MCB of 63 A and 6 nos. MCB of 32 A) 
+01 set 
+7. 
+25 Sq.mm , 4 Core , Flexible Copper Cable 
+90 metre 
+8. 
+70 Sq.mm , 4 Core , Flexible Copper Cable 
+140 metre 
+Extended Warranty 
+9. 
+One (01) year Warranty Period 
+ 
+Transportation 
+10. 
+Transportation of equipment 
+ 
+Installation and commissioning 
+11. 
+Installation and commissioning (including internal 
+wiring, etc.) 
+ 
+Note: 
+a) In above mentioned bill of quantity (BoQ), quantity mentioned with unit “Set” includes 
+all the corresponding items mentioned under hardware specification (annexure-I). No 
+additional cost on that head shall be reimbursed by owner. 
+b) Costs of all internal wiring within the panel are also inclusive under above quoted price. 
+No additional cost on that head shall be reimbursed by owner. 
+c) Initially extended warranty envisaged is for one year, however, owner reserves the 
+right to extend it for further 3 years at same price and terms & condition.
+
+Annexure-III 
+List of Preferred Make 
+Sl. 
+No. 
+Description 
+Preferred Make 
+1. Automatic Transfer Switch (ATS) Schneider/Havells/Siemens/General Electric (GE) 
+2. Phase Sequence Corrector 
+Schneider/Havells/Siemens/Indokopp/C&S/MDS/C&S/G
+E/L&T 
+3. MCB 
+Schneider/Havells/Indokopp/C&S/MDS/C&S/GE/L&T 
+4. MCCB 
+Schneider/C&S/GE/ L&T 
+5. MCCB (for LT Panels) 
+Schneider Electric 
+6. Surge Protection Devices 
+Schneider/Phoenix/JVM-Bradley/Batterman 
+7. Indicating Lights LED 
+Schneider/ C&S/Vaishno/Esbee/Teknic 
+8. Voltameter 
+AE/Rishabh 
+9. Voltameter selector switch 
+Switron/Salzer/Kaycee 
+10. Rotary Handle 
+Schneider 
+11. Spreader Terminals 
+FTC/L&T 
+12. Auxiliary Contact 
+Schneider 
+13. Power Terminal Blocks 
+Elmex/Connectwell/Phoenix 
+14. Cables 
+Reputed manufacturer
+
+Figure 
+ 
+ 
+Figure 1: - Raw Power Supply Arrangement
+
+Figure 2: - UPS Power Supply Arrangement

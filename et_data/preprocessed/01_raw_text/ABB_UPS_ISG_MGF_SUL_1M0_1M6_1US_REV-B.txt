@@ -1,0 +1,3998 @@
+— 
+UPS INSTALLATION GUIDE 
+MegaFlex 
+1000 to 1600 kW UL S1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+— 
+MegaFlex 
+1000 to 1600 kW UL S1
+
+2/54 
+ 
+ 
+ 
+Model 
+MegaFlex 1000 – 1100 – 1200 – 1500 – 1600 kW UL S1 
+Issued by 
+ABB Product Document Department – Quartino - CH 
+Approved by 
+ABB R&D Department – Riazzino - CH 
+Date of issue 
+04/15/2021 
+File name 
+ABB_UPS_ISG_MGF_SUL_1M0_1M6_1US_REV-B 
+Revision 
+REV-B 
+Document number 
+4NWD005508 
+Article number 
+4NWP106806R0001 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Up-dating 
+ 
+ 
+Revision 
+Concern 
+Date 
+REV-B 
+UPS cabinet floor fixing points 
+04/15/2021 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Copyright © 2021 by ABB Power Protection SA 
+ 
+All rights reserved. 
+The information contained in this publication is intended solely for the purposes indicated. 
+The present publication and any other documentation supplied with the UPS system is not to be reproduced, 
+either in part or in its entirety, without the prior written consent of ABB. 
+The illustrations and plans describing the equipment are intended as general reference only and are not 
+necessarily complete in every detail. 
+The content of this publication may be subject to modification without prior notice.
+
+3/54 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dear Customer, 
+ 
+We thank you for selecting our products and are pleased 
+to count you amongst our very valued customers at ABB. 
+ 
+We trust that the use of the MegaFlex 1000 to 1600 
+Uninterruptible Power Supply System, developed and 
+produced to the highest standards of quality, will give 
+you complete satisfaction. 
+ 
+Please read carefully the Installation Guide, which 
+contains all the necessary information and describes all 
+you need to know about the installation of the UPS. 
+Thank you for choosing ABB! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Start-up and commissioning! 
+An ABB Global Services Field Engineer must perform start-up and commissioning of the UPS. 
+Please contact ABB Service Center at least two weeks prior to schedule start-up and 
+commissioning at 1-800-292-3739. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Distributed in the USA by 
+ 
+ABB Service Center 
+ 
+ 
+ABB Power Protection SA 
+ 
+Via Luserte Sud 9 
+ 
+CH – 6572 Quartino 
+ 
+Switzerland 
+ 
+ABB 
+ 
+Smart Power - Power Protection 
+ 
+5900 Eastport Blvd. 
+Richmond, VA 23231-4453 
+ 
+Phone: 1-800-292-3739 
+ 
+http://new.abb.com/ups 
+ 
+ 
+ 
+To get important information on all 
+equipment 
+warranties, 
+please 
+contact the ABB Service Center or 
+request service follow-up or by 
+scanning the QR code. 
+http://new.abb.com/ups/service-ups
+
+4/54 
+ 
+ 
+ 
+Preface 
+ 
+ 
+Congratulations on your choice of a MegaFlex 1000 to 1600 Uninterruptible Power Supply (UPS). 
+It will keep you away from any trouble due to unexpected power problems. 
+This Installation Guide describes how to prepare the installation site, and it provides weight and dimensions 
+and procedures for moving, installing and connecting the UPS. 
+Please refer to the accompanying User Manual, which describes the function of the UPS module, the purpose 
+and location of the switches, the meaning of the system events related to the front panel indication and 
+provides procedures for starting and stopping the equipment. 
+ 
+While every care has been taken to ensure the completeness and accuracy of this manual, ABB assumes no 
+responsibility or liability for any losses or damages resulting from the use of the information contained in this 
+document. 
+ 
+MegaFlex 1000 to 1600 is a Category C3 UPS Product (according to IEC 62040-2). 
+This is a product for commercial and industrial application in the second environment − 
+installation restrictions or additional measures may be needed to prevent disturbances. 
+We recommend that this manual be kept next to the UPS for future references. 
+If any problems are encountered with the procedures contained in this manual, please contact your ABB 
+Service Center before you proceed. 
+This document shall not be copied or reproduced without the permission of ABB. 
+Due to technical improvements, some of the information contained in this manual may be changed without 
+notice. 
+Safety instructions 
+Carefully read the safety instructions contained on the following page before the installation, start-up and 
+maintenance of the UPS, options and Battery. 
+Pay attention to the rectangular boxes included in the text: 
+They contain important information and warning concerning electrical connections and personnel safety. 
+ 
+Parallel System secured with “RPA – Redundant Parallel Architecture” 
+When included in the text, this symbol refers to operation needed only for the RPA 
+Parallel System.
+
+5/54 
+ 
+ 
+ 
+Table of content 
+Page 
+ 
+1 Safety rules .................................................................................................................................................................... 6 
+1.1 
+Safety symbols and warnings ....................................................................................................................................................... 8 
+1.2 
+Cyber security ................................................................................................................................................................................... 9 
+2 Layout ........................................................................................................................................................................... 10 
+2.1 
+Layout MegaFlex 1000 to 1600................................................................................................................................................... 10 
+3 Environment ................................................................................................................................................................. 12 
+3.1 
+Recycling instructions .................................................................................................................................................................. 12 
+4 Installation ................................................................................................................................................................... 13 
+4.1 Transport ......................................................................................................................................................................................... 13 
+4.1.1 
+Dimensions and weights MegaFlex 1000 to 1600 ................................................................................................................ 14 
+4.2 Delivery............................................................................................................................................................................................. 15 
+4.3 Storage ............................................................................................................................................................................................ 15 
+4.3.1 
+Storage of the UPS ...................................................................................................................................................................... 15 
+4.3.2 
+Storage of Battery ....................................................................................................................................................................... 15 
+4.4 Place of installation ....................................................................................................................................................................... 16 
+4.4.1 
+UPS location .................................................................................................................................................................................. 16 
+4.4.2 Later commissioning .................................................................................................................................................................. 16 
+4.4.3 Altitude .......................................................................................................................................................................................... 16 
+4.4.4 Positioning of the UPS ............................................................................................................................................................... 16 
+4.4.5 Standing floor................................................................................................................................................................................ 17 
+4.4.6 Battery location............................................................................................................................................................................ 19 
+4.5 Ventilation and cooling ............................................................................................................................................................... 20 
+4.6 Unpacking ....................................................................................................................................................................................... 21 
+4.7 Inter cabinet connections ............................................................................................................................................................ 23 
+4.7.1 
+Cabinets positioning and interconnection for electrical safety grounding ................................................................... 24 
+4.7.2 
+Bus bars interconnection ........................................................................................................................................................... 25 
+4.7.3 
+Control cables interconnection ................................................................................................................................................ 26 
+4.7.4 
+Lower closures with air inlet grids assembling .................................................................................................................... 27 
+4.8 Electrical wiring .............................................................................................................................................................................. 28 
+4.8.1 
+Utility input connection.............................................................................................................................................................. 28 
+4.8.2 
+Input/output over current protection and wire sizing ....................................................................................................... 29 
+4.8.3 Battery connection ...................................................................................................................................................................... 29 
+4.8.4 Input grounding systems........................................................................................................................................................... 29 
+4.8.5 Data for Input/Output and Battery over current protection and wire sizing ................................................................ 30 
+4.8.6 Installation requirements .......................................................................................................................................................... 32 
+4.9 Wiring connection ......................................................................................................................................................................... 33 
+4.9.1 
+MegaFlex 1000 to 1600 - Power connection with Common Input Utility ....................................................................... 35 
+4.9.2 
+MegaFlex 1000 to 1600 - Power connection with Dual Input Utility ................................................................................ 36 
+4.9.3 
+Use of MegaFlex 1000 to 1600 in eBoost™ Operation Mode ............................................................................................ 37 
+4.9.4 Use of MegaFlex 1000 to 1600 as Frequency Converter ..................................................................................................... 38 
+4.10 RPA Parallel System connection ................................................................................................................................................. 39 
+4.10.1 Power wiring of Parallel Units ................................................................................................................................................... 39 
+4.10.2 Parallel Control Bus connection ............................................................................................................................................... 40 
+4.10.3 Control Bus cable location ......................................................................................................................................................... 42 
+4.11 XA terminal Block .......................................................................................................................................................................... 44 
+4.11.1 XA Terminal block - UVR Command Contact ......................................................................................................................... 44 
+4.11.2 XA Terminal block – Q1 Auxiliary Contact ............................................................................................................................... 44 
+4.11.3 XA Terminal block – 24 Vdc Power Supply .............................................................................................................................. 44 
+4.11.4 “EPO - Emergency Power OFF” command connection ........................................................................................................ 45 
+5 Connectivity interface ................................................................................................................................................ 47 
+5.1 Serial port J35µP - RS232 (Sub D, Female 9 pin) .................................................................................................................... 48 
+5.2 Customer interface board .......................................................................................................................................................... 49 
+5.2.1 
+Connector J1 – RJ45 8P8C .......................................................................................................................................................... 50 
+5.2.2 
+X1 terminal block - Output signals on voltage-free contacts ............................................................................................ 50 
+5.2.3 
+X1 terminal block - Programmable input free contacts ...................................................................................................... 50 
+5.2.4 
+X2 terminal block – “EPO - Emergency Power Off” ............................................................................................................... 51 
+5.2.5 
+X1 terminal block - Gen Set Signaling (GEN ON) ................................................................................................................... 51 
+5.2.6 
+X1 terminal block - AUX External Maintenance Bypass ....................................................................................................... 52 
+5.2.7 
+X1 terminal block – eBoost control signal .............................................................................................................................. 52 
+6 Notes ............................................................................................................................................................................. 53 
+6.1 Notes Form ..................................................................................................................................................................................... 53
+
+6/54 
+
+Safety rules 
+Save these instructions! 
+ 
+This manual contains important instructions for models MegaFlex 1000 to 1600 that should be followed during 
+installation and maintenance of the UPS and Battery. 
+ 
+General 
+ 
+- 
+Move the UPS in an upright position in its original package to the final destination room. 
+To lift the cabinets, use a forklift or lifting belts with spreader bars. 
+- 
+Check for sufficient floor and elevator loading capacity. 
+- 
+Check the integrity of the UPS equipment carefully. 
+If you notice visible damage, do not install or start the UPS. 
+Contact your ABB Service Center immediately. 
+- 
+WARNING! RISK OF ELECTRICAL SHOCK! 
+Do not remove covers, there are no user serviceable parts inside. 
+- 
+After switching off takes 5 minutes for the DC capacitors to discharge because a lethally high voltage remains 
+at the terminals of the electrolytic capacitors. 
+- 
+UPS’s and Battery system require a 12 months periodic maintenance to operate reliably and safely. 
+This should be performed by qualified service personnel. The UPS contains its own energy source (Battery). 
+- 
+The field-wiring outlets may be electrically live, even when the UPS is disconnected from the Utility. 
+- 
+Dangerous voltages may be present during Battery operation. 
+- 
+The Battery must be disconnected during maintenance or service work. 
+- 
+This UPS contains potentially hazardous voltages. 
+- 
+Be aware that the Inverter can restart automatically after the Utility voltage is restored. 
+- 
+End user must follow applicable regional occupational safety codes/regulations during installation, operation 
+and equipment maintenance. This may require additional field marking or labelling defining appropriate level 
+of PPE (Personal Protection Equipment) to reduce the risk of Arc-flash related injuries. 
+Contact our ABB Service Center for product specific information. 
+ 
+Installation 
+ 
+- 
+This UPS must be installed and connected only by trained personnel. 
+- 
+Verify accurately during Commissioning and Maintenance of the UPS, for the following: 
+Damaged components, squeezed wires and cables, or not correctly inserted plugs. 
+- 
+After removing the sidewalls of the UPS, make sure that all earth connections when reassembling, are correctly 
+reattached. 
+- 
+This UPS is intended for use in a controlled indoor environment free of conductive contaminants and 
+protected against animals intrusion. 
+- 
+WARNING! HIGH LEAKAGE CURRENT TO GROUND: 
+Ground connection is essential before connecting to AC input! 
+- 
+Switching OFF the Unit does not isolate the UPS from the Utility. 
+- 
+Do not install the UPS in an excessively humid environment or near water. 
+- 
+Avoid spilling liquids on or dropping any foreign object into the UPS. 
+- 
+The Unit must be placed in a sufficiently ventilated area; the ambient temperature should not exceed 104°F 
+(40°C). 
+- 
+Optimal Battery life is obtained if the ambient temperature does not exceed 77°F (25°C). 
+- 
+It is important that air can move freely around and through the Unit. Do not block the air vents. 
+- 
+Avoid locations in direct sunlight or near heat sources. 
+ 
+Storage 
+ 
+- 
+Store the UPS in a dry location; storage temperature must be within -13°F (-25°C) to 131°F (+55°C). 
+- 
+The optimal temperature for Battery storage is 68°F (20°C) to 77°F (25°C) and shall never exceed the range -4°F 
+(-20°C) to 104°F (40°C). 
+- 
+If the Unit is stored for a period exceeding 3 months, the Battery must be recharged periodically (time 
+depending on storage temperature). 
+ 
+Battery 
+ 
+- 
+The Battery-voltage is dangerous for person’s safety. 
+- 
+When replacing the Battery, use the same number, voltage (V) and capacity (Ah). 
+- 
+Proper disposal or recycling of the Battery is required. 
+Refer to your local codes for disposal requirements. 
+- 
+Never dispose of Battery in a fire: they may explode. 
+- 
+Do not open or mutilate Battery: their contents (electrolyte) may be extremely toxic. 
+If exposed to electrolyte, wash immediately with plenty of water. 
+- 
+Avoid charging in a sealed container. 
+- 
+Never short-circuit the Batteries. 
+When working with Batteries, remove watches, rings or other metal objects and only use insulated tools. 
+- 
+In case of air shipment, the cables +/- going to the Battery fuses/terminals shall be disconnected and isolated.
+
+7/54 
+ 
+ 
+ 
+Safety instructions when working with Battery 
+ 
+ 
+Danger! 
+External Battery must be installed and connected to the UPS by Qualified Service Personnel. 
+Installation Personnel must read this entire section before handling the UPS and Battery. 
+ 
+Full voltage and current are always present at the Battery terminals. 
+The Battery used in this system can provide dangerous voltages, extremely high currents and a risk of electric 
+shock. 
+If the terminals are shorted together or to ground they may cause severe injury. 
+You must be extremely careful to avoid electric shock and burns caused by contacting Battery terminals or 
+shorting terminals during Battery installation. 
+Do not touch uninsulated Battery terminals. 
+ 
+A qualified service person, who is familiar with Battery systems and required precautions, must install and service 
+the Battery. 
+The installation must conform to national and local codes. 
+Keep unauthorized personnel away from the Battery. 
+ 
+The qualified service person must take these precautions: 
+
+Wear protective clothing, such as rubber gloves and boots and protective eye wear. 
+Battery contain caustic acids and toxic materials and can rupture or leak if mistreated. 
+Remove rings and metal wristwatches or other metal objects and jewellery. 
+Do not carry metal objects in your pockets where the objects can fall into the Battery cabinet. 
+High energy through conductive materials could cause severe burns. 
+
+Tools must have insulated handles and must be insulated so that they will not short Battery terminals. 
+Do not allow a tool to short between individual or separate Battery terminals or to the cabinet or rack. 
+Do not lay tools or metal parts on top of the Battery and do not lay them where they could fall onto the 
+Battery or into the cabinet. 
+
+Disconnect charging source prior to connecting or disconnecting Battery terminals. 
+Install the Battery as shown on the drawing provided with the Battery. 
+When connecting cables, never allow a cable to short across a Battery’s terminals, the string of Battery, or to 
+the cabinet or rack. 
+
+Align the cables on the Battery terminals so that the cable lug will not contact any part of the cabinet or rack, 
+even if the Battery is moved. 
+Keep the cable away from any sharp metal edges. 
+
+Install the Battery cables in such a way that the UPS or Battery cabinet doors cannot pinch them. 
+
+Do not connect the Battery terminal to Ground. 
+If any Battery terminal is inadvertently grounded, remove the source of the ground. 
+Contacting any part of a grounded Battery can cause a risk of electric shock. 
+
+Determine if Battery is inadvertently grounded. If inadvertently grounded, remove source from ground. 
+Contact with any part of a grounded Battery can result in electrical shock. 
+The likelihood of such shock can be reduced if such grounds are removed during installation and 
+maintenance. 
+
+To reduce the risk of fire or electric shock, install the Battery in a temperature and humidity controlled 
+indoor area, free of contaminants. 
+
+Battery system chassis ground (earth) must be connected to the UPS chassis ground (earth). 
+If you use conduits, this ground conductor must be routed in the same conduit as the Battery conductors. 
+
+Where conductors may be exposed to physical damage, protect the conductors in accordance with all 
+applicable codes. 
+
+If you are replacing the Battery or repairing Battery connections, shut OFF the UPS and remove the Battery 
+fuses.
+
+8/54 
+ 
+ 
+ 
+1.1 Safety symbols and warnings 
+Safety warnings 
+ 
+The text of this manual contains some warnings to avoid risk to the persons and to avoid damages to the UPS 
+system and the supplied critical loads. 
+ 
+The non-observance of the warnings reminding hazardous situations could result in human injury and equipment 
+damages. 
+ 
+Please pay attention to the meaning of the following warnings and symbols. 
+ 
+ 
+ 
+Throughout this manual the following symbols are defined: 
+ 
+ 
+ 
+Warning, if instruction is not followed injury or serious equipment damage may occur! 
+ 
+ 
+ 
+ 
+Caution, internal parts have dangerous voltage present. 
+Risk of electric shock! 
+ 
+ 
+ 
+PE (Earth) – GND (Ground) 
+Protective Grounding terminal: 
+A terminal which must be connected to earth ground prior to making any other connection to 
+the equipment. 
+ 
+ 
+A terminal to which or from which an alternating (sine wave) current or voltage may be applied 
+or supplied. 
+ 
+ 
+A terminal to which or from which a direct current or voltage may be applied or supplied. 
+ 
+ 
+This symbol indicated the word “phase”. 
+ 
+ 
+This symbol indicates the principal ON/OFF switch in the on position. 
+ 
+ 
+This symbol indicates the principal ON/OFF switch in the off position.
+
+9/54 
+ 
+ 
+ 
+1.2 Cyber security 
+ 
+ 
+ 
+UPS must be protected in a Security Restricted Area. 
+ 
+ 
+UPS must be installed in a location/room with mechanical lock. 
+ 
+ 
+Limit access to authorized personnel only and it shall stay under Authorized Personnel Operator to 
+manage the accesses. 
+ 
+ 
+The UPS products are designed to be connected and to communicate information and data via a 
+network interface through the optional SNMP card, which should be connected to a secure network. 
+It is customer sole responsibility to provide and continuously ensure a secure connection between 
+the product and customer network or any other network and to establish and maintain appropriate 
+measures (such as but not limited to the installation of firewalls, application of authentication 
+measures, encryption of data, installation of antivirus programs, etc.) to protect the UPS product, 
+the network, its system and interfaces against any kind of security breaches, unauthorized access, 
+interference, intrusion, leakage and/or theft of data or information. 
+ 
+ 
+ABB Ltd and its affiliates are not liable for damages and/or losses related to such security 
+breaches, unauthorized access, interference, intrusion, leakage and/or theft of data or information. 
+Although ABB provides functionality testing on the products and updates that we release, you 
+should institute your own testing program for any product updates or other major system updates 
+(to include but not limited to code changes, configuration file changes, third party software 
+updates or patches, hardware change out, etc.) to ensure that the security measures that you have 
+implemented have not been compromised and system functionality in your environment is as 
+expected.
+
+10/54 
+
+Layout 
+2.1 Layout MegaFlex 1000 to 1600 
+ 
+Fig. 2.1-1 MegaFlex 1000 to 1600 - General view 
+Fig. 2.1-3 Control Panel 
+Fig. 2.1-4 Connectivity Rack
+ 
+ 
+Fig. 2.1-2 MegaFlex 1000 to 1600 - General view with open doors 
+ 
+ 
+MGF_UL_1000-1600_UPS_ABB_02
+SNMP
+CI
+J35DSP
+1 2
+MGF_UL_1000-1600_Connectivity interface_01
+EPO
+EPO
++ -
+Q1
+UVR
+J35µP
+XA
+MGF_UL_1000-1600_S1_UPS_04
+1 2
+XA
+RPA
+J35P
+SNMP
+CR
+CI
+J35DSP
+EP O
+E P O
++ -
+Q 1
+U VR
+
+11/54 
+ 
+ 
+ 
+ 
+Fig. 2.1-5 MegaFlex 1000 to 1600 - General view without protection panels 
+
+Opening for top cable entry (please remove the plate before drilling any holes) 
+
+Opening for bottom cable entry (please remove the plate before drilling any holes) 
+
+Bus bars for Utility input connection 
+
+Bus bars for Load output connection 
+
+Bus bars for External Battery connection 
+CI 
+Customer Interface Board (see Fig. 2.1-4) 
+CR 
+Connectivity Rack 
+J35DSP Serial port RS232 (only for ABB Service Center) 
+J35µP 
+Serial port RS232 for IMV protocol 
+RPA 
+RPA board (Redundant Parallel Architecture) for Parallel System (option - see Fig. 2.1-2) 
+SNMP 
+3-ph SNMP/WEB plug-in adapter (option - see Fig. 2.1-4) 
+XA 
+Terminal block (see Section 4.11) 
+ 
+ 
+ 
+Caution! 
+Convenience test terminals are available for ABB Service Technician only. 
+Unauthorized access to test terminals exposes to electric shock hazard risk and increases risk of 
+UPS failure. 
+ 
+MGF_UL_1000-1600_UPS_ABB_05
+
+12/54 
+
+Environment 
+ 
+3.1 Recycling instructions 
+ 
+This product has been designed to respect the environment, using materials and components 
+respecting eco-design rules. 
+It does not contain CFCs (Carbon Fluor Clorid) or HCFCs (Halogen Carbon Fluor Clorid). 
+ 
+ 
+ 
+ 
+ 
+ 
+Packing material recycling! 
+ABB, in compliance with environment protection, uses only environmentally friendly material at 
+the end of its service life, must be recovered conforming to the local applicable regulations. 
+UPS packing materials must be recycled in compliance with all applicable regulations. 
+ 
+ 
+ 
+ 
+ 
+ 
+Recycling at the end of service life! 
+ABB, in compliance with environment protection recommends to the User that the UPS 
+equipment, at the end of its service life, must be recovered conforming to the local applicable 
+regulations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Battery disposal! 
+Leads contained in the Batteries is a dangerous substance for the environment, therefore it 
+must be correctly recycled by specialized companies.
+
+13/54 
+
+Installation 
+4.1 Transport 
+The UPS is packaged on a pallet suitable for handling with a forklift. 
+The UPS must be moved in upright position. 
+Do not tilt cabinets more than +/- 10° during handling. 
+Move the UPS in its original package to the final destination site. 
+Do not stack other packages on top: This could damage the UPS. 
+ 
+ 
+Forklift 
+ 
+ 
+Fig. 4.1-1 Position of the forklift when moving the unpacked UPS 
+Forklift 
+The UPS must be lifted with a forklift in upright 
+position. 
+ 
+Take note of the Center of Gravity marked on the 
+package. 
+ 
+Warning! 
+ 
+Check for sufficient floor and elevator loading 
+capacity. 
+ 
+Transport UPS only in upright position. 
+ 
+Do not stack other package on top of the UPS. 
+Crane 
+ 
+Fig. 4.1-2 Position of the carrying belts when moving the unpacked UPS 
+Crane 
+ 
+If the UPS has to be lifted by crane, use suitable 
+carrying belts taking note of the Center of Gravity 
+marked on the package. 
+ 
+Take all necessary precautions to avoid damage 
+to the cabinet while hoisting the UPS. 
+ 
+ 
+ 
+Warning! 
+When loading / unloading and when moving 
+the UPS, it is forbidden: 
+ 
+ 
+When loading / unloading and when moving 
+the UPS, pay attention to:
+
+14/54 
+ 
+ 
+ 
+4.1.1 Dimensions and weights MegaFlex 1000 to 1600 
+ 
+Fig. 4.1.1-1 MegaFlex 1000 to 1600 – UPS dimensions 
+ 
+Dimensions (W x D x H): 
+129.92 x 39.37 x 86.62 inches / 3300 x 1000* x 2200 mm 
+ 
+*) 
+For seismic installations allow additional 3” (76 mm) spacing at rear of the 
+UPS to accommodate anchoring when placing against the wall! 
+ 
+ 
+ 
+ 
+Weight: 
+MegaFlex 1000 – 1100 – 1200 
+UPS complete: 
+9150 lbs 
+4150 kg 
+Power Section cabinet: 
+4564 lbs 
+2070 kg 
+In/Out Section cabinet: 
+4586 lbs 
+2080 kg 
+ 
+ 
+ 
+ 
+ 
+MegaFlex 1500 & 1600 
+ 
+ 
+ 
+UPS complete: 
+10274 lbs 
+4660 kg 
+ 
+Power Section cabinet: 
+5424 lbs 
+2460 kg 
+ 
+In/Out Section cabinet: 
+4850 lbs 
+2200 kg 
+ 
+ 
+ 
+ 
+Floor loading (UPS complete): 
+MegaFlex 1000 – 1100 – 1200 
+MegaFlex 1500 & 1600 
+ 
+265 lbs/sq.ft / 1294 kg/m2 
+315 lbs/sq.ft / 1538 kg/m2 
+ 
+ 
+ 
+The weight of each single piece is marked outside the package! 
+ 
+ 
+MGF_UL_1000-1600_S1_UPS dimensions_01
+62.99"
+1600 mm
+86.62"
+2200mm
+129.92"
+3300mm
+66.93"
+1700 mm
+Power Section cabinet
+In/Out Section cabinet
+39.37"
+1000mm
+
+15/54 
+ 
+ 
+ 
+4.2 Delivery 
+When delivered, inspect the package integrity and the physical conditions of the cabinets carefully. 
+ 
+In case of any damage sustained during transport, immediately inform the carrier and contact your local ABB 
+Service Center. 
+ 
+A detailed report of the damage is necessary for any insurance claim. 
+ 
+ 
+ 
+A damaged UPS must never be installed or connected to Utility or Battery! 
+ 
+ 
+ 
+ 
+4.3 Storage 
+4.3.1 Storage of the UPS 
+The equipment is carefully packed for transport and storage so that it is in a 
+perfect condition when eventually installed. 
+ 
+ 
+Never leave an UPS outside the building and do not store the UPS one on top of 
+the other. 
+ 
+It is advisable to store the UPS in its original package in a dry, dust-free room, away from chemical substances, 
+and with a temperature range not exceeding -13°F (-25°C) to 131°F (55°C). 
+In case the Battery is included please refer to Section 4.3.2. 
+ 
+Some important functions of the UPS, such as the customized functions, are defined by parameters stored in a 
+RAM memory. 
+A small backup Battery located on the Control Unit board supplies the RAM. 
+If the storage time of the UPS exceeds 1 year, these functions should be verified by an authorized Service Center 
+before putting the UPS into operation. 
+ 
+ 
+ 
+4.3.2 Storage of Battery 
+When the delivery includes a maintenance free Battery, keep in mind that they are subject to self-discharge and 
+therefore you must recharge the Battery. 
+ 
+The storage time without Battery recharge depends on the temperature of the storage site. 
+ 
+The optimal room temperature for Battery storage is 68°F (20°C) to 77°F (25°C) and shall never exceed the range 
+-4°F (-20°C) to 104°F (40°C). 
+ 
+ 
+Recharge stored maintenance free Battery every: 
+6 months when the storage temperature is 68°F (20°C) 
+3 months when the storage temperature is 86°F (30°C) 
+2 months when the storage temperature is 95°F (35°C)
+
+16/54 
+ 
+ 
+ 
+4.4 Place of installation 
+4.4.1 UPS location 
+ 
+UPS installation and connection must be performed only by an ABB Service Technician! 
+If optional cabinets and accessories are included with the UPS, please refer to those accompanying 
+manuals for installation and operating instructions. 
+The UPS is intended for use in electrical rooms. 
+Do not locate or stock easily flammable materials in the same room as the UPS. 
+ 
+It is important to have a clean, dust-free environment provided with proper ventilation and air-conditioning to 
+keep the ambient temperature within the specified operating range. 
+ 
+The recommended air inlet temperature is from 68°F (20°C) to 77°F (25°C) (max. 104°F / 40°C). 
+Refer to Section 4.5. 
+ 
+Check for sufficient floor load capacity before installing the UPS and the Battery. 
+Refer to Section 4.1.1. 
+ 
+For Battery installation follow the local codes and the recommendation of the Battery supplier. 
+ 
+ 
+Operation at temperatures higher than 77°F (25°C) will reduce Battery life. 
+Potential consequences are explained in the User Manual to Section 9.1.4: read and understand 
+them. 
+ 
+The MegaFlex 1000 to 1600 UPS can radiate radio frequency energy. 
+Although some RFI (Radio Frequency Interference) filtering is inherent to the UPS there is no guarantee that the 
+UPS will not influence sensitive devices such as cameras and monitors that are positioned close by. 
+If interference is expected, the UPS should be moved away from the sensitive equipment. 
+ 
+4.4.2 Later commissioning 
+It’s not recommended to unpack UPS until commissioning can be performed. In any case, care must be taken to 
+prevent foreign object to fall into UPS openings (e.g. debris due to construction works or fasteners). Do not 
+perform construction work over the UPS cabinet. 
+ 
+4.4.3 Altitude 
+Maximum altitude of installation without derating is 3300 ft (1000 m). 
+ 
+4.4.4 Positioning of the UPS 
+ 
+Fig. 4.4.4-1 MegaFlex 1000 to 1600 – Positioning of the UPS 
+The rear panel of the UPS may be mounted flush to a wall or 
+other structure. 
+ 
+Clearance around the front of the unit should be sufficient 
+to enable free passage of personnel with the doors fully 
+open, and to allow sufficient airflow to the door vents. 
+Check Section 110-26(A) of the NEC code for specific 
+requirements. 
+ 
+To guarantee proper cooling air exhaust, the mandatory 
+minimum clearance between ceiling and top of the UPS is 
+18” (460 mm). 
+ 
+A single-phase power outlet (120Vac) should be provided 
+near the UPS for connection of power tools, test 
+equipment or connectivity devices. 
+This outlet must be grounded. 
+ 
+ 
+Min.
+18" / 460mm
+MGF_UL_1000-1600_S1_UPS disposition_01
+
+17/54 
+ 
+ 
+ 
+4.4.5 Standing floor 
+Make sure standing floor (especially in case of raised floor) has sufficient weight loading capability to tolerate the 
+UPS and extra weight that might occur from time to time. 
+The UPS must be installed on concrete or another non-combustible surface. 
+ 
+ 
+ 
+MegaFlex 1000 to 1600 Opening for input and output cable connections 
+ 
+ 
+Fig. 4.4.5-1 MegaFlex 1000 to 1600 – Opening on top of the cabinet for input and output cables connections 
+ 
+ 
+ 
+ 
+ 
+Fig. 4.4.5-2 MegaFlex 1000 to 1600 – Opening on bottom of the cabinet for input & output cables connections 
+ 
+ 
+MegaFlex 1000 to 1600 openings are provided on the top (*) and the bottom (*) of the UPS cabinet for the 
+connection of input and output cables. 
+Pay attention to the position of these openings, when choosing the placement of the UPS. 
+These openings are covered with a protective plate. 
+*) Please remove the plate before drilling any holes (see Fig. 4.9-2). 
+ 
+ 
+ 
+MGF_UL_1000-1600_S1_UPS view top_01US
+Frontal side
+Power Section cabinet
+In/Out Section cabinet
+35.63 " / 905 mm
+39.37 " / 1000 mm
+107.44" / 2729mm
+129.92 " / 3300 mm
+1.26 " / 32 mm
+21.22 " / 539 mm
+1.04 "
+26.5 mm
+2.70 "
+68.5 mm
+Opening on top
+for input & output
+cables connections
+Opening on top
+for input & output
+cables connections
+MGF_UL_1000-1600_S1_UPS view bottom_01US
+Frontal side
+Power Section cabinet
+In/Out Section cabinet
+33.15 " / 842 mm
+39.37 " / 1000 mm
+108.11 " / 2746mm
+129.92 " / 3300 mm
+1.97 " / 50 mm
+19.84 " / 504 mm
+2.72 "
+69 mm
+3.50 "
+89 mm
+Opening on bottom
+for input & output
+cables connections
+
+18/54 
+ 
+ 
+ 
+ 
+Fixing of the UPS cabinet MegaFlex 1000 to 1600 on the floor 
+ 
+The UPS cabinet is free standing and normally does not require to be bolted to the floor. 
+The UPS cabinet can be fixed however to the floor by bolting it with the supporting blocks to the floor. 
+ 
+Fig. 4.4.5.3 MegaFlex 1000 to 1600 – Fixing of the UPS cabinet on the floor 
+ 
+ 
+Fig. 4.4.5.4 MegaFlex 1000 to 1600 – UPS cabinet floor fixing points 
+ 
+ 
+ 
+MGF_UL_1000-1600_S1_UPS fixing_01a
+A
+Detail A
+Ø 0.55" / 14mm
+Detail holes
+Frontal side
+Power Section cabinet
+9.60"
+244mm
+23.78"
+604mm
+4.17"
+106mm
+5.35"
+136mm
+10.51"
+267mm
+7.36"
+187mm
+15.98"
+403mm
+16.81"
+427mm
+15.24"
+387mm
+0.49"
+12.5mm
+4.17"
+106mm
+129.92" / 3300mm
+5.35"
+136mm
+5.35"
+136mm
+5.35"
+136mm
+16.73" / 425mm
+3.35"
+85mm
+16.73" / 425mm
+2.56"
+65mm
+39.37" / 1000mm
+3.35"
+85mm
+33.46" / 850mm
+39.37" / 1000mm
+1.69"
+43mm
+2.56"
+65mm
+0.98"
+25mm
+14.37" / 365mm
+29.13" / 740mm
+14.37" / 365mm
+5.00" / 127mm
+19.72" / 501mm
+21.30" / 541mm
+18.50" / 470mm
+129.92" / 3300mm
+2.36" / 60mm
+0.49"
+12.5mm
+2.58"
+65.5mm
+2.58"
+65.5mm
+2.09"
+53mm
+2.09"
+53mm
+Seismic installations
+(option)
+In/Out Section cabinet
+
+19/54 
+ 
+ 
+ 
+ 
+ 
+Fig. 4.4.5-5 MegaFlex 1000 to 1600 – RPA Parallel System disposition 
+ 
+ 
+In case of Parallel System, try to place the UPS modules in sequence of their numbers (marked 
+on the packing). 
+ 
+If the units are positioned “side by side”, the side panels must be mounted on all units. 
+ 
+Remove the side air inlet grids on the intermediate units to run the control bus cable 
+connections. 
+ 
+ 
+ 
+ 
+4.4.6 Battery location 
+Batteries require a well-ventilated room with controlled temperature to obtain reliable operation. 
+ 
+The Battery can be installed immediately adjacent to the UPS (left or right side) or remotely from the UPS. 
+If the Battery is installed remotely from the UPS, a wall mounted DC disconnect device must be installed within 
+line-of-site to both the UPS and the Battery. 
+ 
+The optimal room temperature for Battery storage is 68°F (20°C) to 77°F (25°C) and shall never exceed the range -
+4°F (-20°C) to 104°F (40°C). 
+ 
+The life of valve-regulated Battery will be reduced by 50% for each additional 18°F (10°C) that the Battery ambient 
+temperature is above 77°F (25°C). 
+ 
+The Battery System associated with larger UPS is usually either rack mounted or installed in multiple Battery 
+Cabinets. 
+ 
+Installation and assembly must be made according to the local standards and Battery System manufacturer‘s 
+recommendations. 
+ 
+The Battery Circuit Breaker must be mounted as near as possible to the Battery. 
+ 
+ 
+Warning! 
+Battery installation and connection must be performed by Qualified Personnel only. 
+Read all safety instructions before proceeding with the installation (see Chapter 1). 
+Battery discharging and/or charging activities may cause the emission of hydrogen gas; therefore, 
+the room requires proper ventilation and fresh air. 
+Comply with the UL1778-CSAC22.2no170.3 UPS safety standard, ANSI/IEEE P1184 Guide for 
+Batteries for Uninterruptible Power Supply Systems and applicable codes and governmental 
+regulations. 
+ 
+ 
+MGF_UL_1000-1600_S1_RPA disposition_ABB_01US
+UPS 1
+UPS
+3 - 4 - 5 - 6
+UPS 2
+
+20/54 
+ 
+ 
+ 
+4.5 Ventilation and cooling 
+ 
+Fig. 4.5-1 Installation on plain floor 
+Fig. 4.5-2 Installation on raised floor 
+ 
+ 
+The heat produced by the UPS is transferred to the environment by its ventilation. 
+ 
+Air inlets for UPS ventilation are located on the front of the UPS, while air outlets are on top of the cabinet. 
+ 
+A suitable ventilation or cooling system must be installed to extract the heat from the UPS room. 
+ 
+ 
+Do not put anything on the top of the cabinet. 
+18” (460mm) of air clearance from the top must be left free of any object for a sufficient exhausted 
+air exchange, proper cooling, service access and safety. 
+ 
+Air filtering systems could be required when the UPS operates in a dirty environment. 
+ 
+In order to prevent overheating of the UPS, the available air intake flow rate must exceed the total air exhaust 
+flow rate requirement of the UPS system. 
+Contact your ABB Service Center for appropriate solutions. 
+ 
+The below table indicates the heat dissipation at full Load at PF = 1 and charged Battery, up to 3280 ft (1000 m) 
+altitude, for cooling air 77°F (25°C) to 86°F (30°C). 
+ 
+UPS model 
+Losses 
+Cooling air flow 
+VFI 
+eBoost™ (option) 
+VFI 
+PF = 1 
+PF = 1 
+PF = 1 
+MegaFlex 1000 
+145914 BTU/hr 
+42753 kW 
+55495 BTU/hr 
+16260 kW 
+7339 CFM 
+12469 m3/h 
+MegaFlex 1100 
+156427 BTU/hr 
+45833 kW 
+57171 BTU/hr 
+16751 kW 
+7868 CFM 
+13368 m3/h 
+MegaFlex 1200 
+166209 BTU/hr 
+48699 kW 
+58152 BTU/hr 
+17039 kW 
+8360 CFM 
+14204 m3/h 
+MegaFlex 1500 
+202223 BTU/hr 
+59252 kW 
+62179 BTU/hr 
+18219 kW 
+10172 CFM 
+17283 m3/h 
+MegaFlex 1600 
+209810 BTU/hr 
+61475 kW 
+60736 BTU/hr 
+17796 kW 
+10553 CFM 
+17930 m3/h 
+ 
+Even when eBoost™ Operating Mode option is available, the ventilation and cooling system shall be 
+rated as for operation in VFI mode. 
+ 
+ 
+ Air Intake
+MGF_UL_1000-1600_S1_UPS ventilation_Plain floor_01US
+ Air Extraction
+Cables
+MGF_UL_1000-1600_S1_UPS ventilation_Raised floor_01US
+ Air Extraction
+ Air Intake
+
+21/54 
+ 
+ 
+ 
+4.6 Unpacking 
+Move the equipment in it’s original packing, carton box or wooden case, until the place of installation and remove 
+the packing and the transport sockets only just before installing the UPS. 
+ 
+Be aware of the heavy weight of the UPS, pay attention when moving the UPS cabinet. 
+ 
+White color 
+= 
+without any anomaly 
+Red color 
+= 
+anomaly evidence 
+ 
+The package of the MegaFlex 1000 to 1600 is equipped with 
+ShockWatch (indicator for shock) and TiltWatch (indicator for 
+overthrow) on the outside. 
+ 
+These devices indicate an eventual shock or overthrow during 
+transport. 
+Fig. 4.6-1 ShockWatch device 
+ 
+ 
+Whenever these devices show a possible anomaly, the 
+UPS shall not be commissioned before consulting an 
+ABB Service Centre. 
+ 
+Fig. 4.6-2 TiltWatch device 
+ 
+ 
+ 
+Be aware of the heavy weight of the UPS, pay attention when moving the UPS cabinet. 
+Take care not to damage the UPS when moving by forklift. 
+A damaged UPS must never be installed or connected to Utility or Battery! 
+In case of any damage sustained during the transport, immediately inform the shipping agent! 
+A detailed report of the damage is necessary for any indemnity claim. 
+ 
+Included in the delivery you can find the following parts: 
+• An accessory bag. 
+• Lower closures with air inlet grids, which must be mounted on the bottom of the cabinet UPS with the screws 
+included. 
+• Bus bars interconnection “Power Section cabinet” and “In/Out Module cabinet” with the screws included. 
+• Junction metal to connect “Power Section cabinet” and “In/Out Module cabinet” with the screws included. 
+• Control Bus cables for inter-connecting the UPS modules (only for the RPA Parallel System). 
+• The documentation includes the “Installation Guide & User Manual” and the “UPS Safety Rules”. 
+ 
+ 
+Packing material recycling 
+ABB, in compliance with environment protection, use only environmentally friendly material. 
+UPS packing materials must be recycled in compliance with all applicable regulations.
+
+22/54 
+ 
+ 
+ 
+Anti-humidity & corrosion devices 
+ 
+ 
+Fig. 4.6-3 MegaFlex 1000 to 1600 
+Location of the “Anti-Humidity & Corrosion devices” 
+The package of the MegaFlex 1000 to 1600 includes 
+“Anti-Humidity & Corrosion devices” against the 
+formation of humidity and corrosion during the 
+transportation and the storage of the UPS. 
+ 
+“Anti-Humidity & Corrosion devices” components for 
+any cabinet (“Power Section cabinet” and “In/Out 
+Module cabinet”): 
+A 
+Humidity indicator 
+B 
+Desiccant bag (9 pcs.) 
+C 
+VCI foil base 
+D 
+PE stretch foil 
+ 
+ 
+Warning! 
+It’s mandatory to remove the “Anti-
+Humidity & Corrosion devices” during 
+the unpacking of the UPS! 
+ 
+Humidity indicator 
+Before removing the devices “C - VCI foil 
+base” & “D - PE stretch foil”, check the 
+status of the “A - Humidity indicator”. 
+10% to 70%: 
+The UPS can be commissioned. 
+80%: 
+The UPS shall not be commissioned. 
+Please contact your ABB Service Centre. 
+ 
+ 
+ 
+ 
+Protective foil 
+ 
+ 
+Fig. 4.6-4 MegaFlex 1000 to 1600 - “Power Section cabinet” 
+Location of the “Protective Foil” 
+MegaFlex 1000 to 1600 is provided with a “Protective 
+Foil”, on the roof and door/front panels, to prevent 
+material from falling into UPS. 
+ 
+Warning! 
+It’s 
+mandatory 
+to 
+remove 
+the 
+“Protective Foil” but only just before 
+the first start-up of the UPS as 
+indicated in the appropriate label! 
+The removal of the "Protective Foil" 
+should be performed only by an ABB 
+Service Technician! 
+ 
+Packing material recycling! 
+ABB, in compliance with environment 
+protection, uses only environmentally 
+friendly material. 
+UPS packing materials must be recycled 
+in 
+compliance 
+with 
+all 
+applicable 
+regulations. 
+ 
+ 
+MGF_UL_1000-1600_S1_UPS Anti-Humidity_01US
+B
+2x
+DESICCANT
+B
+HUMIDITY INDICATOR
+20 %
+30 %
+40 %
+50 %
+60 %
+70 %
+80 %
+A
+A
+A
+D
+In/Out Section
+cabinet
+D
+Power Section
+cabinet
+C
+B
+B
+B
+B
+B
+B
+2x
+B
+B
+C
+B
+B
+B
+B
+2x
+B
+2x
+PROTECTIVE
+FOIL
+to remove
+as indicated
+in the label
+MGF_UL_1000-1600_S1_UPS Protective foil_01US
+PROTECTIVE FOIL
+to remove
+as indicated
+in the label
+
+23/54 
+ 
+ 
+ 
+4.7 Inter cabinet connections 
+ 
+The “Power Section cabinet” and “In/Out Section cabinet” must be installed on levelled floor. 
+Be aware of the heavy weight of the UPS cabinets, pay attention when moving the UPS cabinet. 
+Take care not to damage the UPS cabinets when moving by forklift. 
+ 
+MegaFlex 1000 to 1600 Preparation for interconnection of UPS cabinets 
+ 
+MegaFlex 1000 to 1600 is delivered split into two cabinets, “Power Section cabinet” and “In/Out Section 
+cabinet” (cabinet with Control Panel). 
+ 
+Align them together with the “In/Out Section cabinet” on the right side (cabinet with Control Panel). 
+Pay attention, that no loose cables are trapped when pushing the cabinets together. 
+ 
+For “Power Section cabinet” proceed in the following way: 
+- 
+Remove the front protection panels “A and B”. 
+- 
+Remove the top panel “C”. 
+ 
+For “In/Out Section cabinet” proceed in the following way: 
+- 
+Open the doors “D”. 
+- 
+Open the Electronic Module “E”. 
+- 
+Remove the front protection panels “F”. 
+- 
+Remove the top panel “G”. 
+ 
+ 
+Fig. 4.7-1 MegaFlex 1000 to 1600 – Cabinets positioning and interconnection 
+ 
+Once the 2 cabinets have been positioned and the various operations described in Fig. 4.7 have been carried out, 
+you can proceed to the various interconnections described in Section 4.7.1, 4.7.2, 4.7.3 and 4.7.4. 
+ 
+ 
+Performed all the interconnection procedures, describe in Section 4.7.1, 4.7.2, 4.7.3 and 4.7.4, you 
+must reassemble all the protections previously removed. 
+ 
+ 
+Power Section cabinet
+In/Out Section cabinet
+MGF_UL_1000-1600_S1_UPS cabinets_01US
+A
+B
+F
+C
+G
+E
+D
+D
+Bus bars interconnection
+(see Section 4.7.2)
+Junction metal
+ connection cabinets
+(see Section 4.7.1)
+Control cables connection
+(see Section 4.7.3)
+Lower closures
+ with air inlet grids
+see Section 4.7.4)
+Lower closures
+ with air inlet grids
+see Section 4.7.4)
+Module not available in the
+MegaFlex 1000 - 1100 - 1200
+
+24/54 
+ 
+ 
+ 
+4.7.1 Cabinets positioning and interconnection for electrical safety grounding 
+ 
+The “Power Section cabinet” and “In/Out Section cabinet” must be installed on levelled floor. 
+Mechanical interconnection is essential to ensure the electrical safety grounding of the “Power 
+Section cabinet”. Failure in grounding generates risks of electric shock. 
+ 
+ 
+Fig. 4.7.1-1 MegaFlex 1000 to 1600 – Cabinets positioning and interconnection for electrical safety grounding 
+ 
+ 
+In/Out Section cabinet
+MGF_UL_1000-1600_S1_UPS cabinets_Junction_01US
+Junction metal
+18 Bolt
+M5x12
+Bolt torque:
+22 Lb-in / 2.5 N-m
+Power Section cabinet
+Module not available in the
+MegaFlex 1000 - 1100 - 1200
+
+25/54 
+ 
+ 
+ 
+4.7.2 Bus bars interconnection 
+ 
+All the bus bars interconnection must be performed only by an ABB Service Technician! 
+ 
+MegaFlex 1000 to 1600 - Bus bars interconnection 
+ 
+Fig. 4.7.2-1 MegaFlex 1000 to 1600 – Bus bars interconnection 
+ 
+ 
+Torque Specifications 
+ 
+Bolt size (mm): M8 
+Bolt torque: 195 Lb-in / 22 N-m 
+ 
+ 
+Connection 
+Description of connection 
+Bus bars interconnection 
+L1 Inverter 
+Interconnection L1 Inverter 
+2 Bus bar 80/5 x 397 mm 
+L2 Inverter 
+Interconnection L2 Inverter 
+2 Bus bar 80/5 x 397 mm 
+L3 Inverter 
+Interconnection L3 Inverter 
+2 Bus bar 80/5 x 397 mm 
+L1 Rectifier 
+Interconnection L1 Rectifier 
+2 Bus bar 80/5 x 310 mm 
+L2 Rectifier 
+Interconnection L2 Rectifier 
+2 Bus bar 80/5 x 310 mm 
+L3 Rectifier 
+Interconnection L3 Rectifier 
+2 Bus bar 80/5 x 310 mm 
+ 
+ 
+ 
+Battery + 
+Interconnection Battery + 
+Bus bar 60/5 x 292 mm (1 for every module, total 4) 
+Battery - 
+Interconnection Battery +- 
+Bus bar 60/5 x 292 mm (1 for every module, total 4) 
+ 
+ 
+ 
+Detail showing bus bars interconnection
+Rectifier and Inverter bus bars
+Pre fixed nut M8
+M8 flat washer
+M8 spring washer
+Bolt M8x35
+2 bus bars (removable)
+2 bus bar (fixed)
+In/Out Section cabinet
+Power Section cabinet
+MGF_UL_1000-1600_S1_UPS cabinets_Bus bars_01US
+Inverter bus bars
+(2x 80/5x397 mm)
+Rectifier bus bars (2x 80/5x310 mm)
+L3
+L2
+L1
+L1
+L2
+L3
+Battery bus bars
+(60/5x292 mm)
+-
++
+Detail showing
+bus bars interconnection
+Battery bus bars
+Pre fixed Nut M8
+M8 flat washer
+M8 spring washer
+Bolt M8x35
+Bus bar (removable)
+Bus bar (fixed)
+Module not available in the
+MegaFlex 1000 - 1100 - 1200
+These 2 bus bar of this module
+not to be mounted in the
+MegaFlex 1000 - 1100 - 1200
+
+26/54 
+ 
+ 
+ 
+4.7.3 Control cables interconnection 
+ 
+All the cables interconnection must be performed only by an ABB Service Technician! 
+ 
+MegaFlex 1000 to 1600 - Control cables interconnection 
+ 
+ 
+Fig. 4.7.3-1 MegaFlex 1000 to 1600 – Control cables interconnection 
+ 
+ 
+Connection 
+From (already connected) 
+Connecting to 
+XD – HAN Connector male (46 p.) 
+“In/Out Section” cabinet 
+“Power Section” cabinet - HD Connector 
+ 
+Fig. 4.7.3-2 Connection HAN connector 
+All these connections must be performed only by an ABB Service 
+Technician! 
+ 
+Proper dressing needs to be done for each cable assembly in order to reduce 
+the stress. 
+ 
+All the cables must be sufficiently (at least 4"/10cm) away from all live parts. 
+ 
+Cable binders used to support the wiring must not be overly tightened. 
+6x – Connector 4 wires 
+“In/Out Section” cabinet 
+“Power Section” cabinet / Board “P25 - IM0323” 
+J1 - J2 - J3 - J8 - J9 - J10 
+6x – Connector 26 poles 
+“Power Section” cabinet/ 
+Module C 
+“In/Out Section” cabinet / Connectors “XG” 
+J16 - J17 - J18 - J19 - J20 - J21 
+2x – Connector J45 
+“In/Out Section” cabinet 
+ 
+“Power Section” cabinet / Board “P25 - IM0323” 
+J1_CAN and J2_CAN 
+ 
+ 
+ 
+In/Out Section cabinet
+Power Section cabinet
+MGF_UL_1000-1600_S1_UPS cabinets_Cables_01a_US
+J18
+J18pm
+J19
+J19pm
+J21
+J21pm
+J17
+J17pm
+J20
+J20pm
+J16
+J16pm
+MH1
+MH6
+MH5
+MH8
+MH3
+MH2
+J2_CAN
+J1_CAN
+J1_CANpm
+J2_CANpm
+TO EL
+FROM PM
+FROM EL
+TO PM
+BARCODE
+IM0323 - 8600268459P
+J1
+J1pm
+J2
+J2pm
+J3
+J3pm
+J8
+J8pm
+J9
+J9pm
+J10
+J10pm
+MH4
+MH7
+XD
+(46 poles)
+Board
+P25 - IM0323
+Connectors Interface
+Connector XD
+(46 poles)
+J20
+J17
+J21
+J18
+J19
+J16
+J1_CANpm J2_CANpm
+Connector J45
+2x / 1_CAN & J2_CAN
+Connector 4 wires
+6x / J1 - J2 - J3 - J8 - J9 - J10
+Board P25 - IM0323 - Connectors Interface
+Module not available in the
+MegaFlex 1000 - 1100 - 1200
+XG
+(6x - 26 poles)
+6x - connector 26 poles
+J16 - J17 - J18 - J19 - J20 - J21
+J17
+J20
+J18
+J21
+J16
+J19
+C
+
+27/54 
+ 
+ 
+ 
+4.7.4 Lower closures with air inlet grids assembling 
+UPS is delivered with lower closures with air inlet grids to be installed on the bottom of the UPS cabinet, over 
+standing feet. 
+ 
+ 
+ 
+ 
+Warning! 
+Such covers compete UPS enclosure and are essential to ensure compliance protection level against 
+access IP2X. 
+Failure to install them exposes to risk of electric shock. 
+ 
+ 
+ 
+ 
+Fig. 4.7.4-1 MegaFlex 1000 to 1600 – Lower closures with air inlet grids assembling 
+ 
+ 
+ 
+Installation sequence of the lower covers with air grids of the UPS cabinet: 
+- 
+Assembling the 2 lateral lower covers “1a and 1b”. 
+- 
+Assembling the 2 rear lower covers “2a and 2b”. 
+Note! In case the UPS in located against the wall, the 2 rear covers “2a and 2b” must be assembled before 
+moving the UPS cabinet. 
+- 
+Assembling the 2 front lower covers “3a and 4b” 
+ 
+ 
+ 
+MGF_UL_1000-1600_S1_UPS cabinets_Air grids_01US
+7 Bolt M5x12
+Nut M5
+2a
+2b
+1b
+1a
+3a
+3b
+**
+**
+** *
+*
+*
+4 Bolt M5x30
+**
+*
+
+28/54 
+ 
+ 
+ 
+4.8 Electrical wiring 
+ 
+Warning! 
+UPS installation and connection must be performed only by an ABB Service Technician! 
+Refer to the “Safety prescriptions - Installation” described on Chapter 1. 
+It is the responsibility of the installation technician to ensure that all local and national electric 
+codes are adhered to. 
+ 
+4.8.1 Utility input connection 
+ 
+Ensure that the AC and DC external isolators are OFF and locked out to prevent their inadvertent 
+operation. 
+Do not apply power to the equipment prior to the commissioning by an ABB Service Technician. 
+Before any other input connection, connect and check the grounding wire. 
+ 
+The UPS has available input terminations for the Rectifier and Bypass. 
+The unit may be powered from a Common Input source or Dual Input sources if desired. 
+ 
+Dual Input Utility Configuration Rectifier & Bypass 
+ 
+ 
+Fig. 4.8.1-1 Dual Input Utility Rectifier & Bypass 
+The Bypass and Rectifier use different 
+power sources (CB1 and CB2 inputs). 
+ 
+In this case, when the Rectifier-input 
+breakers 
+are 
+opened, 
+the 
+Automatic 
+Bypass 
+is 
+supplied 
+by 
+the 
+other 
+connection. 
+ 
+ 
+Always verify that the received UPS is as per the configuration ordered. 
+While installing UPS dual source, the interconnection links BR1, BR2 and BR3 must be removed. 
+See Fig. 4.9.2-3 & Fig. 4.9.4-3. 
+ 
+ 
+Common Input Utility Rectifier & Bypass 
+ 
+ 
+Fig. 4.8.1-2 Common Input Utility Rectifier & Bypass 
+The same power source is to be used for 
+both Bypass supply and Rectifier input 
+(input CB3). 
+ 
+Bear in mind that when the Utility breakers 
+are opened there is a supply failure to the 
+Rectifier as well as to the Automatic 
+Bypass. 
+ 
+ 
+In this case, the interconnection links BR1, BR2 and BR3 on the input bus bars must remain 
+connected.
+
+29/54 
+ 
+ 
+ 
+4.8.2 Input/output over current protection and wire sizing 
+Wiring must be sized according to UPS power rating. 
+Sizing of Circuit Breakers and cables for Input Utility, Output Load and Battery must meet the requirements of 
+local and national electrical code and any other local regulation that may apply. 
+ 
+Utility Voltage, Frequency, Short Circuit Current, Load Voltage, Frequency, Current and Battery data (cells 
+number, floating voltage, autonomy) must be within UPS rating. This must be verified prior installation. 
+ 
+Avoid running the input cables in parallel with the output cables to prevent them from noise induction. 
+ 
+The connection of the Battery to the UPS must be protected with breakers or similar devices according to 
+technical specifications and in accordance with local standards. 
+ 
+Power cables must run into dedicated conduits. Signal and RPA cables shall not share routing with power cables. 
+ 
+ 
+If you use ELCB breaker (Earth Limiting Circuit Breaker) to protect the input connections, consider 
+the high leakage current generated by the noise suppression capacitors. 
+ 
+If these ELCB breakers are strictly necessary, we suggest using the largest type suitable for non-
+linear current and for delayed operations. 
+ 
+To ensure the Circuit Selectivity in case of Short- Circuit in the Load equipment, special care must be taken in 
+choosing the Circuit Breaker ratings installed in the output distribution circuits. 
+ 
+Due to the relatively low short-circuit capability of the UPS Inverter, a short-circuit in the Load will cause an 
+immediate transfer to Utility. 
+The largest breaker in the output distribution should be at least 1.6 time smaller than breaker supplying Bypass 
+line. 
+ 
+If Circuit Selectivity is required while the Load is fed from the Inverter (Bypass Utility not available), the Largest 
+Circuit Breaker should be rated at no more than 20% of the UPS Output Current Rating. 
+ 
+ 
+The delivery and installation of breakers and input/output connections of the UPS are at the 
+customer’s expense, unless agreed otherwise. 
+ 
+ 
+4.8.3 Battery connection 
+Remote Battery cabinet is external and not provided with UPS. 
+ 
+Battery poles must be insulated from ground (floating). Center-tapping is not allowed. 
+ 
+Battery cabinet’s ground must be connected to UPS ground. 
+ 
+UPS internal protections can cope short circuit fault currents from 8 kA to 100 kA. 
+Make sure Battery overall short circuit capacity falls into this range. 
+ 
+ 
+4.8.4 Input grounding systems 
+Megaflex 1000 to 1600 UL UPS is compatible with the following grounding systems: 
+480V, 3-phase, 3-wire grounded or 480V, 3-phase, 3-wire ungrounded and 480V, 3-phase, 3-wire ungrounded high 
+resistance ground. Equipment connected to UPS shall meet the grounding system intended. 
+ 
+As defined by NFPA 70 Article 250, grounding detectors and cautionary marking shall be provided to operate in 
+ungrounded systems. 
+ 
+Under no circumstances neutral bonding shall be pulled to UPS: only phase-to-phase balanced loads are allowed. 
+ 
+When UPS operates in VFI mode, grounding on the AC input is delivered to the AC output circuit (non-separately 
+derived system). During temporary Battery operation, the output is always ungrounded.
+
+30/54 
+ 
+ 
+ 
+4.8.5 Data for Input/Output and Battery over current protection and wire sizing 
+ 
+Please read the safety precautions at the front of this guide carefully, and thoroughly review the 
+Battery manufacturers installation and maintenance manual before connecting the Batteries to the 
+UPS. 
+Disconnect devices on DC input and AC output are required and are not provided inside the UPS. 
+They shall be part of the building installation. 
+ 
+ 
+ 
+ 
+ 
+Fig. 4.8.5-1 Dual Input Utility Rectifier & Bypass 
+Fig. 4.8.5-2 Common Input Utility Rectifier & Bypass 
+ 
+ 
+ 
+ 
+ 
+The AC values below are current ratings per phase. 
+These maximum and nominal ratings should be considered when choosing the appropriate AC over current
+protection device. 
+DC current rating is the nominal Battery discharge current with 1.8 V/cell (see Fig. 4.8.4-1 & Fig. 4.8.4.2). 
+Wiring shall not be sized for more than 2.0 Vdc/cell. 
+ 
+UPS rating 
+AC Input Rectifier 
+AC Input Bypass 
+AC Input 
+DC Input 
+CB1 
+CB2 
+CB3 
+CB4 
+Nom. 
+Max. 
+Nom. 
+Max. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MegaFlex 1000 
+1260 A 
+1386 A 
+1202 A 
+1260 A 
+1386 A 
+2388 A 
+MegaFlex 1100 
+1385 A 
+1510 A 
+1323 A 
+1385 A 
+1510 A 
+2626 A 
+MegaFlex 1200 
+1510 A 
+1638 A 
+1443 A 
+1510 A 
+1638 A 
+2865 A 
+MegaFlex 1500 
+1890 A 
+2058 A 
+1805 A 
+1890 A 
+2058 A 
+3582 A 
+MegaFlex 1600 
+2015 A 
+2185 A 
+1925 A 
+2015 A 
+2185 A 
+3820 A
+
+31/54 
+ 
+ 
+ 
+ 
+ 
+Fig. 4.8.5-3 Dual Input Utility Rectifier & Bypass 
+Fig. 4.8.5-4 Common Input Utility Rectifier & Bypass 
+ 
+ 
+Size of Branch Circuit Over Current Protection: 
+Every power line must be singularly protected by UL 489 overcurrent protective devices (provided by others) 
+according to the ampacity table below. 
+Non-standard Circuit Breakers shall be restricted to access, in accordance with NEC 240.6(c). 
+Maximum input short circuit current at CB1 and CB2 is 100 kArms. 
+ 
+ 
+UPS rating 
+CB1 - AC Input Rectifier 
+CB2 - AC Input Bypass 
+CB3 - AC Input 
+CB4 - DC Input 
+100% Rated 
+100% Rated 
+100% Rated 
+100% Rated 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MegaFlex 1000 
+1400 A 
+1400 A 
+1400 A 
+3000 A 
+MegaFlex 1100 
+1600 A 
+1400 A 
+1600 A 
+3000 A 
+MegaFlex 1200 
+2000 A 
+1600 A 
+2000 A 
+3000 A 
+MegaFlex 1500 
+2500 A 
+2000 A 
+2500 A 
+4000 A 
+MegaFlex 1600 
+2500 A 
+2000 A 
+2500 A 
+4000 A 
+ 
+ 
+ 
+Wiring! 
+Wire sizing according to NEC for 167°F (75°C) copper or aluminum wire at 104°F (40°C). 
+ 
+Wiring requirements: 
+Rectifier AC input/Bypass AC input / AC 
+output ports. 
+3-phase, 3-wire plus ground (each conduit shall 
+contain one cable per circuit’s phase and one 
+ground cable). 
+DC Input. 
+2 poles (positive and negative) plus ground 
+(each conduit shall contain one positive, one 
+negative and one ground cable). 
+ 
+ 
+Maximum recommended cable size (type THWN/THHN copper, 167°F/75°C) * per phase/pole and ground
+conductors. 
+Each conduit shall terminate its ground conductor to UPS ground bus bar. Wires shall be rated 600V. 
+Conduits (provided by others) must be installed between UPS and the power source. 
+ 
+ 
+UPS rating 
+AC Input Rectifier (C) 
+AC Input Bypass (B) 
+AC Output (D) 
+DC Input (K) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MegaFlex 1000 
+6x500 + AWG 4/0 
+6x500 kcmil + AWG 4/0 
+6x500 kcmil + AWG 4/0 
+8x600 + 250 kcmil 
+MegaFlex 1100 
+8x500 kcmil + AWG 4/0 6x500 kcmil + AWG 4/0 
+8x500 kcmil + AWG 4/0 
+8x600 + 250 kcmil 
+MegaFlex 1200 
+8x500 + 250 kcmil 
+8x500 kcmil + AWG 4/0 
+8x500 kcmil + AWG 4/0 
+8x600 + 250 kcmil 
+MegaFlex 1500 
+MegaFlex 1600 
+10x500 + 350 kcmil 
+8x500 + 250 kcmil 
+8x500 + 250 kcmil 
+14x600 + 250 kcmil
+ 
+ 
+*) for AA-8000 Aluminum cables contact ABB Service Center. 
+ 
+ 
+Recommended two-hole cable lugs: 
+Cable Size 
+T&B Copper / Two holes 
+T&B Aluminum / Two holes 
+500 kcmil 
+TnB 54223 
+- 
+750 kcmil 
+- 
+TnB 60278NT
+
+32/54 
+ 
+ 
+ 
+4.8.6 Installation requirements 
+Typical examples for the connection of the MegaFlex 1000 to 1600. 
+ 
+ 
+Under no circumstance’s low impedance or high impedance bonding shall be introduce inside UPS 
+cabinet, between internal mid-point and ground. 
+ 
+Single UPS 
+with Common Input Utility 
+for Rectifier & Bypass 
+ 
+Single UPS 
+with Dual Input Utility 
+for Rectifier & Bypass 
+ 
+UPS Parallel System 
+with Common Input Utility 
+for Rectifier & Bypass 
+ 
+UPS Parallel System 
+with Dual Input Utility 
+for Rectifier & Bypass
+
+33/54 
+ 
+ 
+ 
+4.9 Wiring connection 
+ 
+UPS installation and connection must be performed only by an ABB Service Technician! 
+Refer to the “Safety prescriptions - Installation” described on Chapter 1. 
+In case of UPS equipped with options or customized parts not covered by this manual, please 
+consult the appropriate technical documentation before proceeding with electrical connections. 
+ 
+Carefully read the following recommendations before proceeding: 
+• Ensure that the AC and DC external isolators are Off and prevent their inadvertent operation. 
+• Do not close any external isolators prior to the commissioning of the equipment. 
+• The input/output cables must be connected in clockwise phase rotation for both Bypass and Rectifier Input 
+Bars if separate, taking care to avoid risk of short circuit between different poles. 
+• The grounding connection of the electrical system must be in accordance with local regulations. 
+• In case of additional cabinets containing Batteries, Input/Output Transformers, etc., their ground terminals 
+must be connected to the UPS main ground terminal. 
+• Once the power cables have been connected, re-install the internal safety shields and close the cabinets by re-
+installing all external panels. 
+ 
+MegaFlex 1000 to 1600 Access to the bus bars for the cable connections 
+ 
+Fig. 4.9-1 MegaFlex 1000 to 1600 - Access to connection bus bars 
+ 
+ 
+ 
+ 
+For UPS correct operation, the 
+input 
+mains 
+phase 
+rotation 
+must be clock-wise. 
+ 
+To access Input, Output and Battery 
+connections proceed as follows: 
+- 
+Remove the front protection panel “A”. 
+- 
+Top cable entry: remove the plate “B”. 
+- 
+Bottom cable entry: remove the plate 
+“C”. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Drill the cover plate “B and/or C” appropriate holes for cable conduits entry. See Fig. 4.9-2. 
+The holes must be drilled with the cover plate “B and/or C” removed from the UPS to avoid metal 
+dust falling in the connection bars area. 
+ 
+Warning! 
+Panel “A, B and C” should never be removed or replaced with power applied to the UPS. 
+These panels are in close proximity to 480V live buss bars. 
+Always disconnect the Rectifier, Bypass, Load and Battery sources from the UPS before removing 
+or replacing these panels. If not serious injury or death could occur! 
+ 
+ 
+!
+Please remove
+the plates (B and C) before
+drilling any wholes
+Bottom entry cables
+Utility input, Load output
+and Battery
+MGF_UL_1000-1600_S1_UPS connection_01US
+C
+B
+Top entry cables Utility input,
+Load output and Battery
+A
+
+34/54 
+ 
+ 
+ 
+Cable conduits entry 
+ 
+MegaFlex 1000 to 1600 openings are provided on the top and the bottom of the UPS cabinet for the connection 
+of input and output cables. 
+Pay attention to the position of these openings, when choosing the placement of the UPS. 
+These openings are covered with a protective plate (A and B) which need to be prepared with appropriate cable 
+conduits. 
+ 
+ 
+ 
+Fig. 4.9-2 MegaFlex 1000 to 1600 – Cable conduits entry 
+ 
+ 
+ 
+ 
+Drill the cover plate “B and/or C” appropriate holes for cable conduits entry. See Fig. 4.9-2. 
+The holes must be drilled with the cover plate “B and/or C” removed from the UPS to avoid metal 
+dust falling in the connection bars area. 
+Top entry cables: the conduits must be of metal! 
+Bottom entry cables: the conduit can be of plastic! 
+ 
+ 
+ 
+!
+Please remove
+the plates (B and C) before
+drilling any wholes
+Bottom entry cables
+Utility input, Load output
+and Battery
+MGF_UL_1000-1600_S1_UPS connection_Conduits_01US
+C
+B
+Top entry cables Utility input,
+Load output and Battery
+3-1/2" conduit
+must be of metal
+for the top entry
+4" conduit
+must be of metal
+for the top entry
+4" conduit
+locknut
+3-1/2" conduit locknut
+*) (Bigger conduit diameters 4" + Bigger conduit diameter 3-1/2") / 2 has to be less than this dimension
+Conduit 4"
+Conduit 3-1/2"
+4" conduit
+locknut
+4" conduit
+it can be of plastic
+for the bottom entry
+3-1/2" conduit
+locknut
+3-1/2" conduit
+it can be of plastic
+for the bottom entry
+
+35/54 
+ 
+ 
+ 
+4.9.1 MegaFlex 1000 to 1600 - Power connection with Common Input Utility 
+Fig. 4.9.1-1 MegaFlex 1000 to 1600 - Power connection Common Input Utility 
+ 
+ 
+Power connection cables are connected to bus bars using M10 x 40 bolts (supplied with UPS). 
+The bolts of the connection cables must be tightened with a torque wrench at 355 Lb-in - 40 Nm. 
+ 
+ 
+Common Input Utility - Rectifier / Bypass 
+ 
+L1-1 
+Rectifier + Bypass Phase A (L1) 
+L3-1 
+Rectifier + Bypass Phase C (L3)
+L2-1 
+Rectifier + Bypass Phase B (L2) 
+PE 
+Ground 
+ 
+ 
+ 
+ 
+The interconnection links BR1, BR2 and BR3 must remain connected (see Fig. 4.9.1-1). 
+ 
+ 
+Output Load 
+ 
+L1 
+Load phase A (L1) 
+L2 
+Load phase B (L2) 
+L3 
+Load phase C (L3)
+N 
+Neutral 
+PE 
+Ground 
+ 
+ 
+External Battery connection 
+ 
++ 
+Positive pole of the Battery 
+ 
+UPS paralleled on the same Battery 
+This configuration is not possible for UPS RPA Parallel System. 
+ 
+Before closing the “External Battery Breaker”, verify for correct 
+polarity of the Battery connection. 
+Do not close the “External Battery Breaker” before the 
+commissioning! 
+- 
+Negative pole of the Battery 
+PE 
+External Battery Ground 
+ 
+ 
+ 
+ 
+To meet standards concerning electromagnetic compliance, the connection between the UPS 
+and external Battery must be done by using a shielded cable or suitable shielded (steel) 
+conduit! 
+ 
+ 
+BR1
+Interconnections links
+BR1, BR2 and BR3
+must remain connected
+L3-1
+
+Rectifier
+Utility
+MGF_UL_1000-1600_S1_UPS connection common_01US
+!
+PE
+PE
+BR2
+BR3
+L2-1
+L1-1
+Battery +
+Battery -
+L1
+L2
+L3
+*
+Load
+*
+*
+Bus bar
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Nut M10
+Two-hole cable lug
+Flat washer M10
+Bolt M10x40
+Bottom
+connection
+Top
+connection
+Bus bar
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Nut M10
+Two-hole cable lug
+Flat washer M10
+Bolt M10x40
+**
+Bus bar
+Pre fixed nut M10
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Bottom
+connection
+Top
+connection
+Bus bar
+Pre fixed nut M10
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Bolt M10x40
+Bolt M10x40
+Bottom entry cables
+Top entry cables
+**
+**
+**
+**
+Typical installation using
+common NEMA two hole lugs
+(see Section 4.85)
+
+36/54 
+ 
+ 
+ 
+4.9.2 MegaFlex 1000 to 1600 - Power connection with Dual Input Utility 
+Fig. 4.9.2-1 MegaFlex 1000 to 1600 - Power connection with Dual Input Utility 
+ 
+ 
+Power connection cables are connected to bus bars using M10 x 40 bolts (supplied with UPS). 
+The bolts of the connection cables must be tightened with a torque wrench at 355 Lb-in - 40 Nm. 
+ 
+ 
+Dual Input Utility - Rectifier / Bypass 
+ 
+L1-1 
+Rectifier phase A (L1) 
+L1-2 
+Bypass phase A (L1) 
+L2-1 
+Rectifier phase B (L2) 
+L2-2 
+Bypass phase B (L2)
+L3-1 
+Rectifier phase C (L3) 
+L3-2 
+Bypass phase C (L3)
+PE 
+Ground 
+ 
+ 
+ 
+The interconnection links BR1, BR2 and BR3 on the input bus bars must be removed (see Fig. 4.9.2-1). 
+ 
+ 
+Output Load 
+ 
+L1 
+Load phase A (L1) 
+L2 
+Load phase B (L2) 
+L3 
+Load phase C (L3)
+PE 
+Ground 
+ 
+ 
+ 
+ 
+External Battery connection 
+ 
++ 
+Positive pole of the Battery 
+ 
+UPS paralleled on the same Battery 
+This configuration is not possible for UPS RPA Parallel System. 
+ 
+Before closing the “External Battery Breaker”, verify for correct 
+polarity of the Battery connection. 
+Do not close the “External Battery Breaker” before the 
+commissioning! 
+- 
+Negative pole of the Battery 
+PE 
+External Battery Ground 
+ 
+ 
+ 
+ 
+To meet standards concerning electromagnetic compliance, the connection between the UPS 
+and external Battery must be done by using a shielded cable or suitable shielded (steel) 
+conduit! 
+ 
+ 
+BR1
+Interconnections links
+BR1, BR2 and BR3
+must be removed
+L3-1
+1 - Rectifier
+ Utility
+MGF_UL_1000-1600_S1_UPS connection separate_01US
+!
+PE
+PE
+BR2
+BR3
+L2-1
+L1-1
+Battery +
+Battery -
+L1
+L2
+L3
+*
+Load
+*
+Top entry cables
+**
+**
+**
+**
+*
+2 - Bypass Utility
+L3-2
+Bottom entry cables
+BR1
+BR2
+BR3
+L2-2
+L1-2
+*
+Bus bar
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Nut M10
+Two-hole cable lug
+Flat washer M10
+Bolt M10x40
+Bottom
+connection
+Top
+connection
+Bus bar
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Nut M10
+Two-hole cable lug
+Flat washer M10
+Bolt M10x40
+**
+Bus bar
+Pre fixed nut M10
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Bottom
+connection
+Top
+connection
+Bus bar
+Pre fixed nut M10
+Two-hole cable lug
+Flat washer M10
+Spring washer M10
+Bolt M10x40
+Bolt M10x40
+Typical installation using
+common NEMA two hole lugs
+(see Section 4.85)
+
+37/54 
+ 
+ 
+ 
+4.9.3 Use of MegaFlex 1000 to 1600 in eBoost™ Operation Mode 
+ 
+For systems intended to be operated in eBoost™ Operation Mode, the installation shall be 
+protected with suitable surge protection devices (SPDs) on the AC bus feeding the UPSs. 
+ 
+Please contact your ABB Service Centre for more information. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In eBoostTM Operation Mode the Inverter output filter is placed in parallel with the Load and 
+combined with the Load current it contributes to the UPS input characteristic. 
+ 
+As the Inverter output filter exhibits a predominantly capacitive characteristic, it may provide 
+some degree of reactive power compensation when combined with lagging power factor loads. 
+ 
+Conversely, depending on the load type and level, the UPS input characteristic may exhibit a leading 
+power factor in eBoostTM Operation Mode. 
+ 
+Please contact your ABB Service Centre for more information. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+If an emergency generator set supplies the UPS in case of Utility Failure and the system is intended 
+to be operated in eBoost™ Operation Mode, eBoost operation shall be prevented during generator 
+operation. 
+ 
+This can be accomplished by either installing a “GENERATOR ON” signal (refer to Section 5.2.5) or 
+an “eBoost CONTROL” signal (refer to Section 5.2.7). 
+ 
+Please contact your ABB Service Centre for more information.
+
+38/54 
+ 
+ 
+ 
+4.9.4 Use of MegaFlex 1000 to 1600 as Frequency Converter 
+ 
+Permanently running the UPS without Bypass supply requires a change of internal wiring to be 
+performed by an ABB Service Technician only. 
+ 
+ 
+When the MegaFlex 1000 to 1600 is utilized for different Output Frequency compared to the Input Frequency, 
+the Automatic Bypass is disabled, therefore the Load cannot be transferred to Utility in case of overload, short 
+circuit, or Inverter failure. 
+ 
+ 
+In situations where the UPS needs to be powered down for maintenance purposes, the critical Load must also be 
+powered down during this time. 
+ 
+ 
+When the set-up parameters of the UPS are set for frequency converter, the eBoost™ Operation Mode is 
+automatically disabled. 
+ 
+ 
+Fig. 4.9.4-1 MegaFlex 1000 to 1600 - Interconnection links BR1, BR2 and BR3 
+ 
+ 
+In order to avoid improper operation, only the Rectifier Utility input should be powered (L1-1, L2-1 and L3-1 / Fig. 
+4.9.1-1), therefore the interconnection links BR1, BR2 and BR3, on the input bus bars, must be removed. 
+See pictures above and Fig. 4.9.4-1. 
+ 
+ 
+Special care must be taken in choosing the fuse ratings installed in the output distribution (max. 20% of the 
+UPS rated current). 
+Avoid high inrush current due to transformer magnetization or motor starting. 
+ 
+ 
+ 
+Only an ABB Service Technician may change a unit from Frequency Converter into a normal UPS 
+(with Bypass) or a normal UPS to a Frequency Converter (with Bypass). 
+BR1
+Interconnections links
+BR1, BR2 and BR3
+must be removed
+L3-1
+1 - Rectifier Utility
+MGF_UL_1000-1600_S1_UPS BR1-2-3_01US
+!
+BR2
+BR3
+L2-1
+L1-1
+Battery +
+Battery -
+L1
+L2
+L3
+Load
+2 - Bypass Utility
+L3-2
+BR1
+BR2
+BR3
+L2-2
+L1-2
+
+39/54 
+ 
+ 
+ 
+ 
+ 
+4.10 RPA Parallel System connection 
+ 
+Warning! 
+This operation must be performed only by an ABB Service Technician before the initial start-up 
+(ensure that the UPS installation is completely powered down). 
+Use Class 2 method for RPA cables. 
+ 
+ 
+4.10.1 Power wiring of Parallel Units 
+To guarantee good Load sharing between the units of a Parallel System, we recommend that the cable length 
+from the input distribution board (5) to the output distribution board (9) is equal for each unit (a+b = c+d = e+f = 
+g+h = i+l = m+n = o+p = q+r). 
+Tolerance: +/-20%. 
+ 
+The AC input power of the Bypass must be the same for all units of the Parallel System - no phase shift allowed 
+between units. 
+ 
+ 
+ 
+It is strongly recommended that no Transformers, Automatic Circuit Breakers should be inserted 
+between the unit’s output and the Load common bus bars. 
+However, it is recommended that a disconnection or isolation switch is installed in order to totally 
+isolate a unit if needed. 
+ 
+ 
+Verify that power wiring and control wiring run in separate conduits or cable trays. 
+The power wiring requires two separate conduits: one for input and one for output cables. 
+ 
+ 
+ 
+Fig. 4.10.1-1 Power wiring of RPA Parallel System 
+
+= Rectifier 
+
+= Inverter 
+
+= Automatic Bypass 
+
+= Input Utility Distribution 
+
+= Unit Output Load 
+
+= Battery Circuit Breaker 
+
+= External Battery 
+
+= Common bus bar and 
+Output Load Distribution 
+ = UPS number 1 
+ = UPS number 2 
+ = UPS number 3 
+ = UPS number 4 
+ = UPS number 5 
+ = UPS number 6
+
+40/54 
+ 
+ 
+ 
+4.10.2 Parallel Control Bus connection 
+In case of Parallel System, the communication between the units takes place through the Control Bus Cables. 
+ 
+ 
+Each Parallel Unit contains the two boards “P13/P14 – IM0222 – Bus Interface Board” (mounted on top of the 
+board “P12 – IM0196 – RPA Board”) on which four connectors J1A - J2A and J1B - J2B are allocated. 
+All the parallel units are connected to the same control bus. 
+ 
+This connection allows: 
+• 
+The microprocessors of each unit to communicate with each other. 
+• 
+The oscillators of each unit to be locked together. 
+• 
+The regulation loops to compare the output current of each unit in order to equally share the Load current. 
+ 
+ 
+For increased reliability, this connection is made with redundant cables. 
+In this way, communication is maintained between units in case one of the control cables should fail or be 
+accidentally damaged or disconnected. 
+ 
+The standard length of the control bus cable between two parallel units is 40 ft / 12m. 
+The maximal overall length of bus connection, between the first and the last unit, should not exceed 295 ft / 90m. 
+Verify that control wiring run in an individual separate steel conduit. 
+ 
+ 
+ 
+Under no circumstance should the control bus cable connecting J1A - J2A (1/2/3/4/5) and J1B - J2B 
+(1/2/3/4/5) be connected or disconnected after the system has been powered ON. 
+ 
+ 
+ 
+Fig. 4.10.2-1 RPA System - Control bus connection 
+ 
+ 
+It is important to place the units in sequence of their assigned number. 
+A unit number from 1 to 6 is defined by the setting of parameters and displayed on the panel (1 to 6). 
+This number is also marked inside and outside the packaging. 
+ 
+ 
+J2
+J1
+J2
+J1
+B
+A
+J1A/1
+J1B/1
+J2
+J1
+J2
+J1
+J1A/1
+J1B/2÷5
+J1B/1
+J1A/2÷5
+J1A/1 + J1B/1
+J2
+J1
+J2
+J1
+J1B/5
+J1A/5 + J1B/5
+J1A/5
+UPS 1
+UPS 2/3/4/5
+UPS 6
+MGF_UL_1000-1600_S1_RPA-IM0222_01US
+B
+A
+B
+A
+
+41/54 
+ 
+ 
+ 
+ 
+Fig. 4.10.2-2 Bus connection on first and last units 
+ 
+ 
+Final units, first and 
+last, of an RPA Parallel 
+System. 
+On the two boards P13/P14 – 
+IM0222 – Bus Interface Board, of 
+the first and last units of a Parallel 
+System, 
+the 
+switches 
+SW1-
+1/2/3/4/5/6 must be in position 
+ON (see Fig. 4.10.2-2). 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 4.10.2-3 Bus connection on intermediate units 
+ 
+ 
+Intermediate units of 
+an 
+RPA 
+Parallel 
+System. 
+On the two boards P13/P14 – 
+IM0222 – Bus Interface Board, of 
+the intermediate units of a Parallel 
+System, 
+the 
+switches 
+SW1-
+1/2/3/4/5/6 must be in position 
+OFF (see Fig.4.10.2-3). 
+ 
+ 
+ 
+J2
+J1
+J2
+J1
+B
+A
+J1A/1
+J1B/1
+1 2 3
+SW1
+4 5 6
+ON
+MGF_UL_1000-1600_S1_RPA-IM0222_02
+J2
+J1
+J2
+J1
+B
+A
+J1A/1
+J1B/2÷5
+J1B/1
+J1A/2÷5
+1 2 3 4 5 6
+ON
+SW1
+MGF_UL_1000-1600_S1_RPA-IM0222_03
+
+42/54 
+ 
+ 
+ 
+4.10.3 Control Bus cable location 
+ 
+Warning! 
+This installation must be performed and verified by an ABB Service Technician before the initial 
+start-up. 
+Ensure that the ups installation is completely powered down. 
+Keep SELV cables separated from high voltage cables. 
+ 
+ 
+Fig.4.10.3-1 MegaFlex 1000 to 1600 - View electronic module on intermediate unit 
+Access to the Control Bus connection 
+ 
+ 
+The 
+communication 
+bus 
+cable 
+connectors are placed on the two boards 
+“P13/P14 – IM0222 – Bus Interface 
+Board”. 
+See Fig. 4.10.3-1. 
+ 
+ 
+Fig. 4.10.3-2 View electronic module on intermediate unit 
+Control bus cables connection 
+ 
+ 
+• Plug the cables J1A – J2A (1/2/3/4/5) and J1B – J2B 
+(1/2/3/4/5) on the connectors J1A – J2A and J1B – J2B 
+placed on the two boards “P13/P14 – IM0222 – Bus 
+Interface Board”. 
+ 
+• Fix the communication bus cables J1A – J2A (1/2/3/4/5) 
+and J1B – J2B (1/2/3/4/5) with the provided cable clamps 
+“A”. 
+ 
+ 
+MGF_UL_1000-1600_S1_RPA connection_01
+1 2
+E PO
+E PO
++ -
+Q 1
+UVR
+MGF_UL_1000-1600_S1_RPA connection_02
+J2
+J1
+J2
+J1
+B
+A
+J1B/2÷5
+J1A/1
+J1A/2÷5
+J1B/1
+EPO
+EPO
+-
++
+Q1
+UVR
+
+43/54 
+ 
+ 
+ 
+ 
+Fig. 4.10.3-3 MegaFlex 1000 to 1600 - Control Bus cable routing and connection 
+ 
+ 
+Control bus cables routing 
+Place and fix the cables J1A – J2A (1/2/3/4/5) and J1B – J2B (1/2/3/4/5) inside the UPS cabinets in the position 
+illustrated in the drawing Fig. 4.10.3-3. 
+ 
+ 
+ 
+Pay attention when cabling and routing the communication bus cables J1A – J2A (1/2/3/4/5) and 
+J1B – J2B (1/2/3/4/5) inside the UPS cabinet. 
+In case one unit must be removed from the Parallel System, the communication bus cables must be 
+taken out the UPS cabinet without disconnecting them from the two boards “P13/P14 – IM0222 – 
+Bus Interface Board”. 
+ 
+ 
+For reliability reasons, the cables J1A – J2A (1/2/3/4/5) and J1B – J2B (1/2/3/4/5) connecting the units should 
+be run in separated protected conduits (as indicated in Fig. 4.10.3-3) separated from the power cables. 
+It is important that the cable J1A – J2A (1/2/3/4/5) must be the same length as cable J1B – J2B (1/2/3/4/5). 
+ 
+ 
+ 
+Warning! 
+Connection and commissioning of an additional UPS to an existing Parallel System must be 
+performed only by an ABB Service Technician. 
+ 
+ 
+J1B/2÷5
+J1A/2÷5
+1 2
+J2
+J1
+J2
+J1
+B
+A
+J1A/1
+J1B/1
+UPS 1
+MGF_UL_1000-1600_S1_RPA connection_03US
+1 2
+J2
+J1
+J2
+J1
+B
+A
+J1B/1
+J1A/2÷5
+UPS 2/3/4/5
+UPS
+3, 4, 5, 6
+J1B/2÷5
+J1A/1
+UPS 2
+J1B/1
+J1A/1
+UPS 1
++ -
+Q1
+UVR
++ -
+Q1
+UVR
+
+44/54 
+ 
+ 
+ 
+4.11 XA terminal Block 
+ 
+Warning! 
+The connection on the XA terminal block must be performed only by an ABB Service Technician 
+when the UPS is completely powered down! 
+ 
+Keep SELV cables separated from high voltage cables! 
+ 
+ 
+Fig. 4.11-1 XA terminal block 
+XA terminal block 
+ 
+ 
+MegaFlex 1000 to 1600 is provided of a 
+XA terminal block that allow connection 
+for various function described in the 
+section below. 
+ 
+Max. rating XA terminals: AWG 14 
+(2.5mm2). 
+ 
+4.11.1 XA Terminal block - UVR Command Contact 
+ 
+Fig. 4.11.1-1 XA terminal block – UVR Command Contact 
+UVR (Under Voltage Release) Command Contact 
+ 
+24Vdc Command Contact for the Remote Control of the 
+external Battery Breaker (option). 
+ 
+4.11.2 XA Terminal block – Q1 Auxiliary Contact 
+ 
+Fig. 4.11.2-1 XA terminal block – Q1 Auxiliary Contact 
+Q1 Auxiliary Contact 
+ 
+Auxiliary Contact for “Q1 – External UPS Output Circuit 
+Breaker” status recognition. 
+The dedicated Auxiliary Contact to be connected to the UPS is 
+required! 
+ 
+4.11.3 XA Terminal block – 24 Vdc Power Supply 
+ 
+Fig. 4.11.3-1 XA terminal block – 24 Vdc Power Supply 
+24 Vdc Power Supply 
+ 
+Additional 24 VDC auxiliary Power Supply (option). 
+ 
++ 
+24 Vdc terminal + (positive) 
+ 
+- 
+24 Vdc terminal - (negative) 
+ 
+ 
+MGF_UL_1000-1600_S1_UPS XA_01
+1 2
+EPO
+EPO
++ -
+Q1
+K3
+EPO
+EPO
++ -
+Q1
+UVR
+XA
+MGF_UL_1000-1600_XA-UVR_01
+EPO
+EPO
++ -
+Q1
+UVR
+MGF_UL_1000-1600_XA-Q1_01
+EPO
+EPO
++ -
+Q1
+UVR
+MGF_UL_1000-1600_XA-24Vdc_01
+EPO
+EPO
++ -
+Q1
+UVR
+
+45/54 
+ 
+ 
+ 
+4.11.4 “EPO - Emergency Power OFF” command connection 
+ 
+Warning! 
+The connection of an emergency button EPO (Emergency Power Off) must be performed only by an 
+ABB Service Technician when the UPS is completely powered down! 
+ 
+The reliability of the system depends on this contact NC (Normally Closed)! 
+ 
+ 
+An Emergency button (Normally Closed voltage-free contact) can be connected on terminals XA / EPO-1, EPO-2. 
+Max. rating XA terminals: AWG 14 (2.5mm2). 
+ 
+Fig. 4.11.4-1 XA terminal block for EPO command connection 
+ 
+ 
+When opened, this contact causes the 
+immediate opening of the Contactors K3, 
+K6 and K7 as well as the shut-down of 
+Rectifier, Inverter and Static-Switch. 
+ 
+This procedure could imply a Load shut-down. 
+Keep SELV cables separated from high voltage cables. 
+ 
+ 
+ 
+In a Parallel System a separate NC (Normally Closed) contact must be connected individually 
+to each unit. 
+ 
+ 
+ 
+Fig. 4.11.4-2 XA “EPO - Emergency Power Off” – RPA Parallel System connection schematics 
+ 
+ 
+MGF_UL_1000-1600_S1_Connectivity rack_XA_01
+Customer Interface
+XA
+1 2
+
+12 13 14 15 16 17 18 19 20
+21 22
+
+
+
+
+
+
+
+
+10 11
+EPO
+EPO
++ -
+Q1
+UVR
+MGF_UL_1000-1600_XA-EPO_01
+EPO
+EPO
++ -
+Q1
+UVR
+XA
+-+
+EPO
+EPO
+Q1 UVR
+MGF_UL_1000-1600_S1_UPS_02
+1 2
++ -
+Q1
+UVR
+XA
+-+
+EPO
+EPO
+Q1 UVR
+1 2
++ -
+Q1
+UVR
+XA
+-+
+EPO
+EPO
+Q1 UVR
+1 2
++ -
+Q1
+UVR
+EPO
+
+46/54 
+ 
+ 
+ 
+ 
+To operationalize this function, in case that the UPS was provided with one or more cards 
+“Customer Interface” (max. 3 - see Chapter 5), there must be on each card the following: 
+- Remove the cable short-circuiting terminals X2 / 1, 2 (see Fig. 4.11.4-3). 
+- Remove the Jumper JP2 (see Fig. 4.11.4-3). 
+ 
+ 
+ 
+Fig. 4.11.4-3 X2 terminal block and Jumper JP2 on the “Customer Interface” board 
+ 
+ 
+ 
+ 
+ 
+When the “EPO - Emergency Power Off” has been activated, the system must be restored as follows: 
+ 
+ 
+• Realize the push-button “EPO - Emergency Power Off” (contact on XA / EPO-1, EPO-2 is closed again). 
+ 
+ 
+• Perform the “Inverter OFF” command from the screen: 
+Commands 1 / Inverter / OFF. 
+(see User Manual to Section 6.5). 
+ 
+ 
+ 
+ 
+ 
+In case of a Parallel System perform the “Inverter OFF” command from the screen “Commands 
+1 / Inverter / OFF” of each unit connected on the Parallel Bus and having its output switch “Q1 - 
+UPS Output - External, supplied by others” closed. 
+ 
+ 
+MGF_UL_1000-1600_S1_Connectivity rack_X2-EPO_01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X2
+SNMP card
+Customer interface
+
+
+
+
+21 22
+
+10 11
+
+17 18
+
+
+
+
+
+
+
+
+
+
+
+
+X1
+X2
+J1
+MGF_UL_1000-1600_S1_Customer interface-JP2_01
+IM0171
+CUSTOMER INTERFACE
+JP2
+X1
+X2
+J1
+JP2
+CUSTOMER INTERFACE
+
+47/54 
+
+Connectivity interface 
+ 
+Fig. 5-1 MegaFlex 1000 to 1600 - Connectivity rack and Serial port J35µP – RS232 / J35DSP – RS232 
+ 
+MegaFlex 1000 to 1600 has the following equipment’s: 
+ 
+Serial Port J35µP - RS232 (see Section 5.1). 
+ 
+Serial Port J35DSP - RS232 (only for ABB Service Center). 
+ 
+Customer Interface board (see Section 5.2). 
+ 
+Connectivity rack ready for the installation of four connectivity boards. 
+ 
+XA terminal block (see Section 4.11). 
+ 
+Possible connectivity configurations with MegaFlex 1000 to 1600 
+ 
+ 
+Fig. 5-2 Connectivity Slots 
+For a Single UPS it’s possible to install the following 
+connectivity boards: 
+- max. 3 “Customer Interface” boards; 
+- max. 2 “3-ph SNMP/WEB Plug-in Adapter” boards. 
+ 
+For a Parallel System (max. 6 UPS) it’s possible to install 
+the following connectivity boards: 
+- max. 3 “Customer Interface” boards for each UPS; 
+- max. 2 “3-ph SNMP/WEB Plug-in Adapter” boards for 
+RPA Parallel System. 
+ 
+ 
+The installation of any option board must be performed only by an ABB Service Technician. 
+Prior to the installation, connection and cabling of any option board the UPS must be completely 
+powered down and all the power sources that will be connected to the option board must be de-
+energized. 
+Option board shall be connected only to Safety Extra Low Voltage circuits (SELV for IEC-UL-
+CSA60950-1): voltage up to 30Vac / 42.4Vpk or 60Vdc maximum and galvanically separated from 
+AC Mains supply. 
+Keep SELV cables separated from high voltage cables. 
+Connectivity
+rack
+MGF_UL_1000-1600_Connectivity rack_01
+1 2
+EPO
+EPO
++ -
+Q1
+UVR
+SNMP
+Customer
+Interface
+J35DSP
+1 2
+EPO
+EPO
++ -
+Q1
+UVR
+J35µP
+XA
+J35DSP - RS232
+XA
+J35µP - RS232
+Connectivity rack
+MGF_UL_1000-1600_S1_Connectivity rack_01
+SNMP card
+J3
+J2
+J5
+J4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer interface
+
+48/54 
+ 
+ 
+ 
+5.1 Serial port J35µP - RS232 (Sub D, Female 9 pin) 
+ 
+Fig. 5.1-1 MegaFlex 1000 to 1600 - Serial Port J35µP – RS232 
+Serial Port J35µP - RS232 for 
+IMV protocol 
+ 
+Total remote management of 
+the system using software 
+iUPSGuard, Data Protection 
+or ABB Service Software for 
+system 
+protection 
+and 
+management 
+of 
+the 
+UPS 
+systems.14 
+ 
+ 
+Connection of a serial printer 
+ 
+From the display panel it is possible to 
+select printing of measurements, alarms 
+and parameters (see Section 6.4 – 
+SETUP / PRINTER). 
+Fig. 5.1-2 Serial port J35µP connection to PC with RS232 1:1 cable DB9m – DB9f 
+ 
+ 
+ 
+The serial port J35µP - RS232 is enabled on all the units of the RPA Parallel System. 
+ 
+ 
+ 
+Fig. 5.1-3 Connector J1 – RJ45 8P8C 
+ 
+ 
+ 
+The serial port J35µP - 
+RS232 is enabled also in 
+case 
+the 
+J1- 
+RJ45 
+connector of the “P4 - 
+Customer Interface” (see 
+Section 5.2.1) is already 
+connected. 
+ 
+ 
+ 
+ 
+MGF_UL_1000-1600_S1_UPS connectivity_J35_01
+1 2
++ -
+Q 1
+U VR
+J35µP - RS232
+J35µP - RS232
+MGF_UL_1000-1600_S1_Connectivity rack_J1-RJ45_01
+SNMP card
+J1-RJ45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer interface
+
+49/54 
+ 
+ 
+ 
+5.2 Customer interface board 
+ 
+ 
+Fig. 5.2-1 Customer Interface Board 
+J1 connector– RJ45 8P8C (see Section 5.2.1) 
+ 
+Pin 5: TX (out) 
+Pin 6: RX (in) 
+Pin 4: GND 
+ 
+ 
+X1 terminal block – Output signals on voltage free contacts (see Section 9.2.2) 
+ 
+X1 / 1, 2, 3 
+NO, C, NC 
+MAINS FAILURE 
+(def. Parameter RL=1) 
+X1 / 4, 5, 6 
+NO, C, NC 
+LOAD ON INVERTER 
+(def. Parameter RL=3) 
+X1 / 7, 8, 9 
+NO, C, NC 
+STOP OPERATION 
+(def. Parameter RL=5) 
+X1 / 12, 13, 14 
+NO, C, NC 
+LOAD ON MAINS 
+(def. Parameter RL=2) 
+X1 / 15, 16, 17 
+NO, C, NC 
+GENERAL ALARM 
+(def. Parameter RL=4) 
+X1 / 18, 19, 20 
+NO, C, NC 
+BUZZER (acoustic alarm) 
+(def. Parameter RL=6) 
+ 
+ 
+The programmable signals on X1 will be disabled with “Q1 - UPS Output 
+- External, supplied by others” open, with the exception of the signals 
+for “16 - MANUAL BYPASS ON” and “26 – EMERGENCY OFF (EPO)”. 
+ 
+ 
+X1 terminal block – Input contacts (see Section 5.2.3) 
+ 
+X1 / 10, 21 
+NO 
+Programmable 
+X1 / 11, 22 
+NO 
+Programmable / GENERATOR ON 
+ 
+ 
+X2 terminal block –EPO -Emergency Power Off connection (see Section 5.2.4) 
+ 
+X2 / 1, 2 
+NC 
+EPO (Emergency Power Off) 
+ 
+If an emergency button EPO (Emergency Power Off) is installed, the use of 
+the XA terminals is mandatory, see Section 4.10. 
+ 
+ 
+NO = Normally Open 
+C = Common 
+NC = Normally Closed 
+ 
+ 
+Output signals on voltage-free contacts 
+Programmable functions on input contacts 
+ 
+ 
+On terminals X1, 6 of the following 27 signals can be selected 
+from the display, entering with the appropriate “Service Code”. 
+Some UPS functions can be activated with 
+parameters when an external Normally Open 
+(NO) contact is closed on: 
+X1/10, 21 or X1/11, 22 
+Selectable 
+functions 
+by 
+changing 
+parameters (“Service Code” required) are: 
+0 - NO FUNCTION 
+1 - INVERTER ON 
+2 - INVERTER OFF 
+3 – PRINT ALL 
+4 - STATUS RELAY 
+5 - GENERATOR ON 
+6 - EXTERNAL BYPASS 
+7 - BATTERY FUSES OR EXTERNAL K3 
+(See Alarm 4104 - Battery Fuses) 
+8 – eBoost CONTROL 
+ 
+Voltage free contacts: 
+Max. 24Vac / 1A or 60Vdc / 0,5A 
+IEC-UL-CSA 60950-1 (SELV circuit) 
+Min. Signal Level: 5Vdc / 5mA 
+ 0- NO SIGNAL 
+ 1- BUZZER 
+ 2- GENERAL ALARM 
+ 3- LOAD ON MAINS 
+ 4- STOP OPERATION 
+ 5- LOAD ON INVERTER 
+ 6- MAINS FAILURE 
+ 7- DC OVERVOLTAGE 
+ 8- LOW BATTERY 
+ 9- OVERLOAD 
+10- OVERTEMPERATURE 
+11- INVERTER-BYPASS NOT SYNCHR. 
+12- BYPASS LOCKED 
+13- BYPASS MAINS FAILURE 
+14- RECTIFIER MAINS FAILURE 
+15- BATTERY DISCHARGE 
+16- MANUAL BYPASS ON 
+17- RECTIFIER ON 
+18- INVERTER ON 
+19- BOOST CHARGE 
+20- BATTERY EARTH FAULT 
+21- BATTERY FAULT 
+22- RELAY INPUT 1 
+23- RELAY INPUT 2 
+24- RELAY OUTPUT ON 
+25- RELAY OUTPUT OFF 
+26- EMERGENCY OFF (EPO) 
+27- eBoost MODE 
+
+
+
+
+21 22
+
+10 11
+
+17 18
+
+
+
+
+
+
+
+
+
+
+
+
+X1
+X2
+J1
+MGF_UL_1000-1600_S1_Customer interface_01
+
+50/54 
+ 
+ 
+ 
+5.2.1 Connector J1 – RJ45 8P8C 
+ 
+Fig. 5.2.1-1 Connector J1 – RJ45 8P8C 
+Total remote management of the system using software 
+iUPSGuard, Data Protection or Service Software for system 
+protection and management of the UPS systems. 
+ 
+ 
+Fig. 5.2.1-2 RJ45 –RS232 adaptation cable 
+MegaFlex 1000 to 1600 is supplied with an 
+adaptation cable for a serial port RS232 / sub 
+DB9 connection. 
+ 
+ 
+Fig. 5.2.1-3 Connector J1 to PC with RJ45 –RS232 adaptation cable 
+The connector J1 – RJ45 is enabled on all the 
+units of the Parallel System. 
+ 
+ 
+ 
+5.2.2 X1 terminal block - Output signals on voltage-free contacts 
+The Customer Interface board provides 6 voltage free relay contacts giving some UPS critical alarms and 
+operation mode. 
+These signals are available on terminal blocks X1. Max. rating terminals: AWG 18 (1mm2). 
+ 
+The meaning of the alarms on the free contacts in standard configuration (default) is the following: 
+ 
+ 
+X1 / 1, 2, 3 
+(NO, C, NC) 
+MAINS FAILURE 
+(def. Parameter RL=1) 
+X1 / 4, 5, 6 
+(NO, C, NC) 
+LOAD ON INVERTER 
+(def. Parameter RL=3) 
+X1 / 7, 8, 9 
+(NO, C, NC) 
+STOP OPERATION 
+(def. Parameter RL=5) 
+X1 / 12, 13, 14 
+(NO, C, NC) 
+LOAD ON MAINS 
+(def. Parameter RL=2) 
+X1 / 15, 16, 17 
+(NO, C, NC) 
+GENERAL ALARM 
+(def. Parameter RL=4) 
+X1 / 18, 19, 20 
+(NO, C, NC) 
+BUZZER (ACOUSTIC ALARM) 
+(def. Parameter RL=6) 
+ 
+ 
+In case different alarms or operating status are required, they can be configured on the same terminals via 
+software from the Control Panel. 
+The configuration can be changed in parameters mode by an ABB Service Technician using the appropriate 
+“Service Code”. 
+ 
+ 
+The programmable signals on X1 will be disabled with “Q1 - UPS Output - External, supplied by 
+others” open, with the exception of the signals for “16 - MANUAL BYPASS ON” and “26 – 
+EMERGENCY ON (EPO)”! 
+ 
+ 
+5.2.3 X1 terminal block - Programmable input free contacts 
+Some programmable UPS functions (indicated in Section 9.2), can be activated by closing an external contact, if 
+connected, on: 
+ 
+X1 / 10, 21 
+User Input 1 (default = Not used) 
+ 
+X1 / 11, 22 
+User Input 2 (default = GENERATOR ON) 
+ 
+MGF_UL_1000-1600_S1_Connectivity rack_J1-RJ45_01
+SNMP card
+J1-RJ45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer interface
+
+
+
+
+
+
+
+
+
+MGF_UL_1000-1600_S1_CNT_Cable RJ45-RS232_01
+
+
+J1 - RJ45
+RS232
+
+51/54 
+ 
+ 
+ 
+5.2.4 X2 terminal block – “EPO - Emergency Power Off” 
+ 
+If an emergency button EPO (Emergency Power Off) is installed, the use of the XA terminals is 
+mandatory (see Section 4.11.4). 
+ 
+ 
+ 
+Fig. 5.2.4-1 X2 terminals in the Customer Interface 
+ 
+Fig. 5.2.4-2 Jumper JP2 on the Customer Interface 
+ 
+ 
+ 
+To activate the connection of an emergency button “EPO - Emergency Power Off” on the terminals 
+XA / EPO-1, EPO-2, performed on each card “P4 – Customer Interface” the following operation: 
+- 
+Remove the cable short-circuiting terminals X2 / 1, 2 (see Fig. 5.2-4-1). 
+- 
+Remove the Jumper JP2 (see Fig. 5.2-4-2). 
+ 
+ 
+ 
+ 
+ 
+5.2.5 X1 terminal block - Gen Set Signaling (GEN ON) 
+If an emergency generator set supplies the UPS in case of Utility Failure and the generator is considerably 
+unstable in frequency, it should be suitable to install the signal “GENERATOR ON” on X1 / 11, 22. 
+See Fig. 5.2-1 / X1. 
+ 
+Since the Parameter for of the reading of the Generator function is “Service Code” protected, call the nearest ABB 
+Service Centre for it's activation. 
+ 
+When this contact closes, it changes certain (programmable) functions such as: 
+• Enabling or disabling of synchronization and consequently the Load transfer to generator. 
+• Reduction or elimination or delay of Battery recharging during the generator operation. 
+ 
+Additionally, when the “GENERATOR ON” input contact is closed, the UPS will inhibit eBoost™ Operation Mode 
+and revert to double-conversion operation. 
+ 
+It is advised to contact your ABB Service Center for further details. 
+ 
+ 
+ 
+In a Parallel System a separate NO (Normally Open) contact must be connected to each 
+individual unit. 
+ 
+ 
+MGF_UL_1000-1600_S1_Connectivity rack_X2-EPO_01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X2
+SNMP card
+Customer interface
+
+
+
+
+21 22
+
+10 11
+
+17 18
+
+
+
+
+
+
+
+
+
+
+
+
+X1
+X2
+J1
+MGF_UL_1000-1600_S1_Customer interface-JP2_01
+IM0171
+CUSTOMER INTERFACE
+JP2
+X1
+X2
+J1
+JP2
+CUSTOMER INTERFACE
+
+52/54 
+ 
+ 
+ 
+5.2.6 X1 terminal block - AUX External Maintenance Bypass 
+If the UPS system is equipped with an external Maintenance Bypass Switch, it is possible to connect a NO 
+(Normally Open) voltage-free aux. contact from the External Bypass Switch to the programmable input X1 / 10, 
+21, making the UPS operate as if the internal switch “Q2 – Bypass Manual” (if provided by customer) has closed. 
+ 
+This function can be activated by changing a dedicated parameter (“Service Code” required). 
+ 
+When this NO (Normally Open) contact closes, the output Inverter Contactor K7 it is automatically opened and the 
+Load transfer back to Inverter will be inhibited. 
+ 
+ 
+ 
+In a Parallel System, the input on the Customer Interface of each unit must be connected to a 
+separate AUX contact of the External Maintenance Bypass Switch. 
+ 
+ 
+ 
+ 
+ 
+5.2.7 X1 terminal block – eBoost control signal 
+The UPS operation in either eBoost operating mode can be controlled via a NO (Normally Open) contact by installing 
+the “eBoost” signal, routed to the programmable function contacts (see Section 5.2.3). 
+ 
+When this contact closes, eBoost operation mode is inhibited. 
+The Parameter for the activation of such function is “Service Code” protected. 
+ Contact your ABB Service Center for its activation. 
+ 
+This function is particularly useful for controlling eBoost operation following critical conditions on either the load 
+side or the input utility, including generator operation when the “GENERATOR ON” signal has not been installed. 
+ 
+ 
+ 
+When using the “eBoost control” function on the programmable user relays of the Customer 
+Interface X1 terminals in a Parallel System, a separate NO (Normally Open) contact must be 
+connected to each individual unit.
+
+53/54 
+
+Notes 
+ 
+6.1 Notes Form 
+It is recommended to note in this section Notes, with date and short description all the operations performed on 
+the UPS, as: maintenance, components replacement, abnormal situations, etc. 
+ 
+Date 
+Description 
+Done by
+
+https://library.abb.com 
+ 
+— 
+ABB Power Protection SA 
+Via Luserte Sud 9 
+6572 Quartino 
+Switzerland 
+ 
+abb.com/ups 
+ 
+© Copyright 2020 ABB. All rights reserved 
+Specifications subject to change without notice

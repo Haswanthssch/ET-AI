@@ -1,0 +1,1175 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\12_Research_Papers\\SERBCA-Tech-Summit-2019.pdf",
+  "filename": "SERBCA-Tech-Summit-2019.pdf",
+  "category": "12_Research_Papers",
+  "parent_category": "12_Research_Papers",
+  "extracted_at": "2026-06-29T19:57:56.668776",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Event Sponsored By:\n“Data Center Commissioning and \nIntegrated Systems Testing”\n9th Annual SERBCA Technical Summit\nPresented by: Craig A. Hawkins, CCP",
+      "char_count": 150
+    },
+    {
+      "page": 2,
+      "text": "| AGENDA\nIntegrated Systems Testing\nIST: Definition, Purpose & Goals\nIST Process; Planning, Writing and Reviewing\nImplementing the IST\nIST Challenges\nThose IST “Ah-ha” moments\nDataCenter Cx – New Construction\nPerceived change in Cx focus\nImportance of Facilities Staff in Design Development & Reviews\nSite Observations & Functional Testing\nPlanning and implementing the IST\nDataCenter Cx – Existing Building\nExisting Documentation Search \nSite walks, Investigations & Analysis\nFIM Implementation\nComponent & Systems Testing\nPlanning and implementing the IST\nWrap-Up Comments & Questions",
+      "char_count": 586
+    },
+    {
+      "page": 3,
+      "text": "Did you \nknow….",
+      "char_count": 15
+    },
+    {
+      "page": 4,
+      "text": "This is NOT what we want!",
+      "char_count": 25
+    },
+    {
+      "page": 5,
+      "text": "INTEGRATED SYSTEMS TESTING\nIST Overview\no Definition\no Purpose\no Goals\no IST versus FPT\no Pre-Planning\no Planning\no Creating IST Documents\no Getting Approval for IST\nAKA: “Pull The Plug” Test",
+      "char_count": 191
+    },
+    {
+      "page": 6,
+      "text": "SERBCA 24/7 CONFERENCE 2019 WORKSHOP 6\nDefinitions of IST:\no\nIntegrated Systems Test (Loss of Power Test) is the simulated (controlled) loss of \nutility power and the verification of anticipated correct systems performance of all \nbuilding systems under that loss of normal power, as well as the verification of those \nsystems automatic return to designed function upon restoration of normal power.\no\nAn IST Program (Regularly scheduled repeats of the IST) will ensure continuous \nassurance of the facilities reliability.\nDefining \nIntegrated \nSystems Testing",
+      "char_count": 559
+    },
+    {
+      "page": 7,
+      "text": "Purpose and \nGoals of \nIntegrated \nSystems \nTesting \nPurposes of an IST:\no\nBridges gaps between electrical inspections, generator load bank testing, and routine \ngenerator testing. \no\nVerifies that all powered equipment and systems have been tested under load, with \npower cut as close to the main utility feed as safety and best practices allow.\no\nIdentifies issues occurring at all powered systems while on emergency power as well \nas any issues upon return to normal power.\no\nVerification of automatic control under all emergency conditions without human \nintervention or assistance.",
+      "char_count": 586
+    },
+    {
+      "page": 8,
+      "text": "Defining \nIntegrated \nSystems \nTesting \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 8\nGoals of an IST:\no\nVerifies all intended system responses and conditions, including staff response.\no\nVerifies that emergency contacts and emergency response team is accessible and \nready (to handle any unintended system or occupant responses).\no\nAs a final step, includes corrective actions and a MOP response plan that includes \nsignage, instructions and feedback from the IST test.\no\nProven confidence in systems reliability under all conditions, manned or not.\no\nVerification of all automatic emergency call-out procedures.\nPurpose and \nGoals of \nIntegrated \nSystems \nTesting",
+      "char_count": 658
+    },
+    {
+      "page": 9,
+      "text": "Purpose and \nGoals of \nIntegrated \nSystems \nTesting \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 9\nObject Under Test\no FPT: Single pieces of equipment or dependent pieces of a sub-system.\no IST: All building systems and all pieces of MEP equipment all at once.\nTest Procedure\no FPT: Simplified test steps to verify mostly control or functionality of each piece of \nequipment, individually, under all modes of operation. Basically; Verification of BMS \n“control” and individual performance of each piece of equipment. Repeatable.\no IST: Complex step-by-step process with checks and an “Exit Plan” at each step. \nWritten as an MOP. Repeatable.\nTest Participants\no FPT: Usually just BMS contractor and CxP, with aid of installing contractors, often \nO&M Staff (if available).\no IST: A large, organized, focused troop of 3rd party individuals who understand all \noperational aspects of the entire facility and it’s functioning MEP systems.\nCondition of Facility at Time of Test\no FPT: Unfinished, under construction\no IST: Facility completed, all construction completed.\nFunctional \nPerformance \nTesting \nVersus\nIntegrated \nSystems Testing",
+      "char_count": 1128
+    },
+    {
+      "page": 10,
+      "text": "Integrated \nSystems Test\nPre-Planning \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 10\nPrepare for the Planning Sessions:\no\nPut your IST Planning Team together, which should include:\no\nO&M Staff Members (at a minimum, the Chief Operating Engineer, but better with \nall operators).\no\nEngineers of Record (Mech & Elec)\no\nKey member of GC Team, usually the MEP Coordinator. \no\nKey equipment vendor reps, usually Generator, UPS & Switchgear.\no\nCreate a “Planning Plan” that describes, in detail, the planning process, purpose, \ngoals, IST planning meeting schedule, timeline with critical milestones and a Roles & \nResponsibilities matrix. KEEP IN MIND; MOST, IF NOT ALL, OF THE IST TEAM \nMEMBERS HAVE NEVER BEEN THOUGH AN IST. THEY ARE COUNTING ON YOU TO \nLEAD THEM. IN THEIR MIND, THIS IS “YOUR” TEST.\no\nSchedule at least 4 IST planning meetings, usually 2 weeks apart, to allow team \nmembers to complete their IST planning assignments AND manage their normal \nworkloads. Agree on dates and times AND DO NOT MOVE THEM! \no\nPrepare yourself to lead the meetings. You are in charge of the flow, so be in the \nknow (about everything IST!)\no\nGather all info needed for a Systems Manual BEFORE the IST Planning Meetings. This \nis a huge change from the “normal NCCx Process” Build the Systems Manual from \nthe design documents prior to start of construction. It will change, but having a \nDRAFT version will be of tremendous help in planning the IST.",
+      "char_count": 1434
+    },
+    {
+      "page": 11,
+      "text": "Integrated \nSystems Test \nPlanning\n#1 \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 11\nPlan, plan and more planning:\no\nStart with a detailed, quality Systems Manual to understand how building systems \nfunction and are related/dependent on each other.\no\nClarify procedure for safely interrupting utility service connections at switchgear.\no\nConfirm all transfer timings via FPT’s. Document, document, document.\no\nWhen testing UPS batteries under individual FPT’s pay particular attention to battery \ndraw-down duration under load. When planning OST, do not run UPS batteries down \nmore than 60%. If gen start, sync and transfer takes longer than 60% timing, stop test \nand re-evaluate.\no\nConsider creating a detailed flow-chart as a planning tool to capture expected reaction to \neach step and to help illustrate fast, safe, exit plans for each and every step. At a \nminimum, create a Memo of Understanding that outlines goals what is to be tested. \nOnce approved, roll into MOP type test form\nand….",
+      "char_count": 990
+    },
+    {
+      "page": 12,
+      "text": "SERBCA 24/7 CONFERENCE 2019 WORKSHOP 12\nPlan, plan and more planning:\no\nIST’s are written in a format of an Method Of Procedure (MOP) where there is one \nAND ONLY one action per step, with clear indication of acceptable action (Pass/Fail) \nfor each step and a clearly thought out, and agreed upon “Exit Procedure” for each \nstep for when something comes wrong (and it will).\no\nInclude all Pre-Test Tasks as a checkoff list, verified by 2 independent parties.\no\nConsider making the IST a condition of successful turnover, include language \nsupporting the IST in EVERY project contract and include allotted time on GC’s Master \nBuild Schedule (including allowance for IST “Issues”).\no\nSecure load banks if facility has no load (yet).\no\nVerify amount of stored fuel and have procedures for procuring more in place.\nand….\nIntegrated \nSystems Test \nPlanning\n#2",
+      "char_count": 855
+    },
+    {
+      "page": 13,
+      "text": "SERBCA 24/7 CONFERENCE 2019 WORKSHOP 13\nPlan, plan and more planning:\no\nCreate an “IST Team Organizational Chart” so that everyone on the team knows \ntheir roles and responsibilities, and everyone else’s too.\no\nSenior CxP is the IST Team Leader. The CxP alone directs the action and has \nultimate “Go/No-Go” authority.\no\nFellow CxP’s and O&M Staff carry out step-by-step actions, project engineers are \nwitnesses and contractors are “runners” as need be, equipment vendors are on \nstandby for informational support as necessary.\no\nMake it clear from the very beginning, and reiterate as necessary, the IST must be \nrun from start to finish without interruption to be considered a success. Any \nfailure of any step, no matter how small or seemingly insignificant, requires the \nIST to stop, the exit plan at that step initiated and utility power restored until \nrepairs are made and then the IST starts over AT THE BEGINNING.\nand….\nIntegrated \nSystems Test \nPlanning\n#3",
+      "char_count": 968
+    },
+    {
+      "page": 14,
+      "text": "SERBCA 24/7 CONFERENCE 2019 WORKSHOP 14\nPlan, plan and more planning:\no\nPlan not only the actual IST but also the Assigned Witness Plan:\no\nWho is assigned each observation zone.\no\nWhat they are expected to see at each step (usually nothing at most zones).\no\nWhat their Radio Number is (usually same as Zone Number).\no\nWho is their backup in case they cannot be at the scheduled test date and time.\no\nIf the zone is large enough, consider adding at least one or two “runners” to assist.\no\nSelect witnesses according to their level/area of expertise and make sure they all \nunderstand the critical nature of the IST. Ensure they know how to properly use \nthe radios and are able to remain calm and quiet throughout the test. In most \ncases, most witnesses will have little to nothing to report after each test step, \nwhich means they need to stay sharp for hours of inactivity.\no\nConsider a “dress rehearsal” at least 2 days prior to the scheduled IST to do a radio \ncheck with the actual witnesses assigned.\nIntegrated \nSystems Test \nPlanning\n#4",
+      "char_count": 1044
+    },
+    {
+      "page": 15,
+      "text": "Writing an \nIntegrated \nSystems Test \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\no\nWriting an IST \no\nWriting an IST Procedure is a little like writing out a cooking recipe; you start \nwith a list of ingredients, then move into the actual preparations steps, then \n“serving” instructions.\no\nIST Deliverables (List of Ingredients):\no\nIST Goal & Task Overview (for team approval)\no\nIST Flow Diagram (for IST Script Planning)\no\nIST Communications Plan (for team approval)\no\nIST Pre-Test Checklist (for 1-week look ahead)\no\nIST Test-Day Checklist (for day before)\no\nIST Script (for test day use)\no\nIST Corrective Action List (Post IST)\no\nIST Final Report (Post IST)",
+      "char_count": 655
+    },
+    {
+      "page": 16,
+      "text": "Creating \nIntegrated \nSystems \nTest\nDocuments \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\no\nIST Flow Diagram:\no\nFor planning only\no\nElectronic whiteboarding\no\nA method to graphically illustrate the “flow” of the test\no\nAllows for capturing ideas for safe test stoppage (exit plan)\no\nIST Communications Plan:\no\nCommunications Overview\no\nEquipment to be used\no\nAcceptable communications procedures\no\nUnacceptable communications methods (list of “No-No’s”)\no\nBack-Up plans (for when Mr. Murphy shows up)\no\nSingle Command Authority (Hint: CxP)\no\nSignature lines for approval by ALL IST Team Members",
+      "char_count": 589
+    },
+    {
+      "page": 17,
+      "text": "Creating \nIntegrated \nSystems \nTest\nDocuments \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\no\nIST Script:\no\nWritten as a “Method Of Procedure” where each step includes:\no\nTiming of Step\no\nTime period (hour/minute) of when test step should occur (WHEN)\no\nDuration of time to complete step including all-call\no\nAction of Step\no\nDescription of actual test step (WHAT)\no\nTeam Member Assignments\no\nTeam Member to initiate test step & Team Members who report on \nreaction (WHO)\no\nAnticipated Reaction to Step\no\n“Correct” automatic reaction of system(s) to test step (SYSTEM \nRESPONSE)\no\nSafe “Step-Stoppage” procedure\no\n“SAFE STOP – EXIT PLAN)",
+      "char_count": 630
+    },
+    {
+      "page": 18,
+      "text": "SERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\nCreating \nIntegrated \nSystems \nTest\nDocuments \no\nIST Pre-Test Checklist (up to a week ahead of IST)\no\nChecklist of things that must be in place prior to IST, including:\no\nVerification of Generator Fuel level\no\nVerification of all FPT’s completed\no\nVerification of all Issues resolved\no\nSign-off by all IST Team Members of IST Procedure Script\no\nSign-off by IST Team members of their specific IST Equipment responsibilities\no\nIST Test-Day Checklist (day before):\no\nLast minute check of all IST Team Member’s readiness for IST\no\nLast minute Pre-Test Check-In arrangements (time, location)\no\nVerification of radios (quantity, full-battery charge)\no\nVerification of Comm-Check (radio coverage, channel strength)\no\nVerification of back-up representatives in case of last-minute personnel “issues”\no\nVerification of “Notice to Test” to local FD, local utility, security firm, all on-site \npersonnel.\no\nT-Minus 24 site verification",
+      "char_count": 962
+    },
+    {
+      "page": 19,
+      "text": "SERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\nCreating \nIntegrated \nSystems \nTest\nDocuments \no\nIST Corrective Action List:\no\nFormal name for “IST Only Issues Log”\no\nIST Final Report:\no\nSummary of IST disposition (Pass/Fail)\no\nSummary of all IST activities (History)\no\nCopies of all IST Deliverables\no\nList of recommendations for future (repeat of IST, more training, etc.)",
+      "char_count": 364
+    },
+    {
+      "page": 20,
+      "text": "Reviewing and \napproving an \nIntegrated \nSystems Test \nprocedure\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 20\nReviewing the IST Plan\no\nPrior to implementation of the IST, the IST Procedure MUST be unanimously\napproved by all Team Members and the Owner (Reps).\no\nEven though the Team met (several times) to generate the IST Procedure, each IST \nTeam Member should be given time to review the procedure with their own “in-\nhouse” teams.\no\nIncluded with the actual IST Procedure, attached to the front, should be a “Cover \nSheet” that outlines:\no Purpose and goals of the IST.\no List of IST Planning Members, including space for their wet-ink initials approving \nthe final version.\no Timeline for the test.\no The IST Communications Plan.\no The Pre-IST Checklist.\no List of all required equipment for IST and who is responsible for each item.\no\nThe critical nature of the IST mandates that time for review and approval is just as, if \nnot more so, important as all the planning. Review and approval sets the IST into \nfinal motion and everyone involved must be “on-board” with the Final IST Procedure.",
+      "char_count": 1092
+    },
+    {
+      "page": 21,
+      "text": "DATA CENTER Cx –\nNEW CONSTRUCTION\nDCCx – New Construction Overview\no Change in Focus\no Involving O&M Staff Early\no Site Observations & Functional Testing\no Planning and Implementing the IST",
+      "char_count": 189
+    },
+    {
+      "page": 22,
+      "text": "NCCx for Data \nCenters\nA slight change \nin focus\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 22\n1.\nReliability (Uptime) trumps all.\n2.\n“Creature Comfort” not really an issue.\n3.\nFocus on understanding, documenting and getting FULL TEAM approval on \nthe “Critical Path” (what’s on emergency generator load).\n4.\nPay attention to how redundant (+1) equipment operates:\na. Off, on standby?\nb. On, sharing load?\n5.\nProtocols? PM’s? How organized are they? What will they use in the \nfuture (SOP)?\n….Pro’s & Con’s?",
+      "char_count": 501
+    },
+    {
+      "page": 23,
+      "text": "NCCx for Data \nCenters\nA different kind \nof Cx Design \nReview\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 23\n1.\nFocus on power, normal and emergency\n2.\nFocus on redundancies\n3.\nStart with a Systems Manual (normally at the end)\n4.\nInclude Facilities and IT Teams in Design Development and Design \nReviews\n5.\nIdentify “Single Points of Failure”\n6.\nFocus: “It’s all about Uptime”.",
+      "char_count": 370
+    },
+    {
+      "page": 24,
+      "text": "NCCx Design \nReviews\nGeneral Notes\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 24\nWhy NCCx Design Reviews? \nJust because it can be drawn, doesn’t mean it can be built!",
+      "char_count": 160
+    },
+    {
+      "page": 25,
+      "text": "NCCx Design \nReviews\nData Centers\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 25\nDesign Reviews specific to Data Centers\na. Electrical System\ni. Single points of failure\nii. Documented Critical Path\niii. UPS (Duration without Generator)\nb. Generators & Emergency Fuel System\ni. Size of generator\nii. Types of fuel\niii. Location, location, location\niv. Fuel Storage & Delivery\nc. Mechanical-HVAC\ni. White Space operating temperature\nii. Hot Aisle/Cold Aisle containment\niii. UFAD\niv. Rack Coolers\nv. CRAC Units\nvi. +1",
+      "char_count": 509
+    },
+    {
+      "page": 26,
+      "text": "NCCx for Data \nCenters\nManaging Cx \nIssues as a \nTeam\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 26\n1.\nReview and solve each Cx noted issue as a team (Owner, O&M Staff, \nIT, GC & CxP at a minimum).\n….Why is this “Team Concept” critical for DC’s?",
+      "char_count": 239
+    },
+    {
+      "page": 27,
+      "text": "NCCx for Data \nCenters\nFunctional \nPerformance \nTesting\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 27\n1.\nStart on smallest component level and work up through sub-systems \nthen systems.\n2.\nWe all try to resolve all Cx Issues on every project, but there are \nusually a few that linger past Occupancy date, however…….. When \ncommissioning a DC (or any other Mission Critical facility) ALL ISSUES \nMUST BE RESOLVED BEFORE THE IST!!! And if Occupancy is dependent \non the IST being finished prior to Move-In, then solve issues ASAP, do \nnot let the team put them off (typical).",
+      "char_count": 567
+    },
+    {
+      "page": 28,
+      "text": "NCCx for Data \nCenters\nFacilities Staff \nTraining\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 28\n1.\nStart with a Training Plan months ahead of the actual training sessions\n2.\nFocus on the quality and experience of the trainers\n3.\nSpend time reviewing documentation (As-Builts, Systems Manual, \nO&M’s)\n4.\nHelp facilitate PM if necessary\n5.\nVerify training effectiveness at the end of each session\n6.\nDevelop a transitional phase program (training wheels) for the first year",
+      "char_count": 465
+    },
+    {
+      "page": 29,
+      "text": "NCCx for Data \nCenters\nFinish with the \nIST\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 29\n1.\nSchedule IST immediately following Training\n2.\nUse the IST as a final verification of Operator Training (dry run on \nhandling emergency operation)",
+      "char_count": 233
+    },
+    {
+      "page": 30,
+      "text": "DATA CENTER Cx –\nEXISTING BUILDINGS\nEBCx – Existing Building Overview\no Existing Documentation Search\no Involving O&M Staff in CFR\no Site Walks, Investigating, & Data Analysis\no Implementing FIM’s\no Planning and Implementing the IST",
+      "char_count": 232
+    },
+    {
+      "page": 31,
+      "text": "SERBCA 24/7 CONFERENCE 2019 WORKSHOP 31\n1.\nAlways, ALWAYS, remember “You are the visitor, the alien in their foreign land”. You work \naround their schedules, you respect their “rules”. Be non-obtrusive and respectful at all times \nto everyone.\n2.\nWhen you meet with the Owner, before you walk the facility, ask how you should respond \nwhen the occupants ask “What are you doing and why?” (and they will ask!) Work out an \nacceptable response BEFORE you start the inspection.\n3.\nWhen walking the facility and talking to people, always ask permission first (“Excuse me, can I \nask you a quick questions…?”) and be ready when they say “No, sorry, I’m too busy”. Keep the \nconversations with them as brief as possible. THEY HAVE WORK TO DO (and so do you).\n4.\nDO NOT EVER voice a critical opinion. You might round a corner and want to blurt out “WTF \nwere they thinking!?!” but don’t!\n5.\nSpecifically ask the Owner and IT Lead about their 1 year, 5 year and 10 year plans. \nExpansions, changes to racks, changes to servers, etc. Get to know their current operation \nAND their future plans.\n6.\nAsk first if photography is allowed within the white space. Many CoLo’s don’t allow \nphotography of their tenants cages.\nEBCx for Data \nCenters\nWorking in a \ncompleted and \noperating \nfacility",
+      "char_count": 1281
+    },
+    {
+      "page": 32,
+      "text": "EBCx for Data \nCenters\nUnderstanding \nthe facilities \noperation….\n….and \noperators!\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 32\n1.\nAs with any EBCx Project, start with creating a CFR, however, with operating DC’s, get the \nOwner together with key members of the O&M Staff and interview both together to establish \nhow the facility “really” operates.\n2.\nIn the first meeting with the Owner, ask how they want to see the FIM’s list (ROM, Certified \nEstimates, etc.??)\n3.\nDuring the CFR interview, try to get an idea of where the trouble spots are (and if you can, \nwhy are there trouble spots).\n4.\nRemember…everyone has their own personal agenda, so take everything you hear with a \ngrain of salt. Listen, then verify.\n5.\nS. O. A. P. \n6.\nOnce you finish with the CFR and start your investigation, don’t forget that you are \ninvestigating the facility, the MEP Systems AND the Operators:\na.\nWhat is their level of expertise?\nb.\nHow do they document maintenance?\nc.\nWhat is the condition of their tools and working spaces?\nd.\nWhat is their working relationship with the Owner?\ne.\nDo they employ “band-aid” quick fixes or do they try to do the right thing?\n7.\nA common FIM is “O&M Staff need more training” so don’t be shocked, you’ll see.\n….What’s S O A P?",
+      "char_count": 1248
+    },
+    {
+      "page": 33,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\n…be ready for \nanything….\n…..especially \nthe Good, the \nBad and the \nUgly!\n…..or worse than ugly)….\n……yep, it’s out there, \n….waiting for you!\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 33\n1.\nStart at Central Plant and then walk distribution systems.\n2.\nAs you are walking through a facility, use almost(**) all your senses:\na.\nLook\nb.\nListen\nc.\nSmell\nd.\nTouch\n3.\nKeep in mind; you are in an operating DC, sometimes 10 – 15 years old, so you will run into \nspaces so cold you can hang meat inside. Many older IT teams still think “the colder, the \nbetter”. Be nice! They know not what they should!\n4.\nTry to visualize airflow and once you understand the flow, go verify it.\n5.\nQ=The #1 Key to doing a High Quality Site Investigation of an operating facility? \nA=Always ask “WHY?” Why is that doing that? Why isn’t that working? Why? Why?\n……and once you ask “Why” be ready for the answer……be ready for anything!\n(** Just don’t go around licking air handlers and CRAC units!)",
+      "char_count": 1011
+    },
+    {
+      "page": 34,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 34\nWhen you ask the \nFacilities Director of a 5 \nyear old datacenter \n“Can you show me \nyour “Central Plant?” \nand he walks you up to \nthe roof and this is \nwhat you see……\nyou know it’s going to \nbe a good day!",
+      "char_count": 325
+    },
+    {
+      "page": 35,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 35\nWhen you are walking around the rooftop air-cooled chillers and ask \nthe Facilities Director “What’s with the Jobboxes and the storage sheds \nup here?” and he shows you his “Cleaning Sheds” and tells you about \nthe “Service Parts & Tools Jobboxes”…………\nyou know it’s going to be a good day!\n….and the built-in \nequipment \nlift…that’s just a \nbonus!",
+      "char_count": 465
+    },
+    {
+      "page": 36,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 36\nWhen you ask the Facilities \nDirector of a 7 year old \ndatacenter “How does your \nCHW System work?” and \ninstead of pulling out an As-\nBuilt, a Systems Manual or \neven showing you the CD’s \nFlow Diagram…….\nhe goes to the whiteboard \nand starts drawing…….\nyou know it’s going to be a \nlong day!",
+      "char_count": 411
+    },
+    {
+      "page": 37,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 37\nWhen you ask the Facilities Director of a 7 year old datacenter “How‘s your UFAD working for you”…..he then \nasks “What’s UFAD?” and then you pull tiles and find a “rats nest”…….\nyou know it’s going to be a long day!",
+      "char_count": 334
+    },
+    {
+      "page": 38,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 38\nWhen you ask “What’s your biggest issue with the mechanical system?” and the O&M Staff all say “We just \ncan’t seem to hold pressure in our UFAD system”…………\nYou walk the white space and see this (all in one facility).",
+      "char_count": 335
+    },
+    {
+      "page": 39,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 39\nThe O&M Staff just couldn’t figure out why the airflow in this room was “less than what they expected”. The just \ncouldn’t figure it out.\nMaybe if you didn’t put the floor vents under a desk……. \nor cover another with a desktop PC tower……. \nI don’t know, just a suggestion……..",
+      "char_count": 393
+    },
+    {
+      "page": 40,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 40\nSo, let’s just put \nfloor diffusers \nanywhere we want \nthem, regardless of \nthe fact that the \nclosest racks are 10 \nfeet away!\nThis is one of my favorite DC photos. \nA little hard to see, but look just \nbehind the CRAC unit (on the right), on \nthe floor.\n….What’s the issue here?",
+      "char_count": 398
+    },
+    {
+      "page": 41,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\n…..the WTF?\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 41\n….wooden ductwork? Really?\n….So that’s where \nthat noise was \ncoming from!\nFirst, they leave a note and walk away (what was more important?), secondly, they discovered these issues on \nDecember 10, 2010 (see stickers in photo) and we found this on our walkthrough on May 5, 2011……\n5 months of ignored service/maintenance. Wish I could say this was unusual, but it isn’t.",
+      "char_count": 500
+    },
+    {
+      "page": 42,
+      "text": "EBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\n……..OMG!!\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 42\nThey couldn’t figure out why they couldn’t hold the \nUFAD pressure and why their chiller was working so \nhard.\nI found 4 holes through the outside wall, under the \nraised floor, \n…………all 10” wide x 15” tall!\nAs I was walking through the white space of a 4 year \nold Data Center in Dallas, I kept hearing a “popping” \nsound.\nI started pulling tiles and found thousands of crickets \ncoming into the raised floor from cracks in the \nexterior walls! Crickets in a DC!",
+      "char_count": 591
+    },
+    {
+      "page": 43,
+      "text": "EBCx for Data \nCenters\nInvestigation \nData Analysis\n&\nFIM Report\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 43\n1.\nAsk for help if you need it to:\na. Calculate operational costs\nb. Calculate energy savings\nc.\nEstimate demo and implementation costs\nKnow your limitations and “stay in your swim lanes”. Find an Energy Engineer to \nhelp with operational and savings costs, partner with a good GC or Estimating Firm \nfor implementation estimates. \nHeads Up!! Remember (at the beginning) when you asked the Owner how he \nwanted to see the FIM’s (ROM, Guesstimates, Certified, etc.?) Well, here is where \nit becomes important….present the FIM’s and costs AS THEY REQUESTED!",
+      "char_count": 660
+    },
+    {
+      "page": 44,
+      "text": "EBCx for Data \nCenters\nImplementing \nFIM’s\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 44\nOnce the FIM’s have been selected by the Owner, the implementation “looks \nlike” a normal NCCx effort:\na. Design & Design Reviews\nb. Submittal Reviews\nc. Site Observation & Issue Management\nd. Start-up & TAB Review\ne. Functional Testing\nf. Training & Systems Manual\nExcept it isn’t a “normal NCCx effort”…….. \n….Why isn’t it a normal NCCx effort?",
+      "char_count": 429
+    },
+    {
+      "page": 45,
+      "text": "EBCx for Data \nCenters\nFunctional \nPerformance \nTesting \n& \nTrending\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 45\n1.\nFunctionally test all new equipment, same as you would test under a NCCx \ncontract.\n2.\nFunctionally test all systems that were modified (not just the modifications \nthemselves). Understand that the further you go “back” into a system, the \ngreater the risk for operational issues with equipment/systems you \nconnected to (discuss w/Owner…..negotiate).\n3.\nBe very careful testing in an operating facility. Coordinate, communicate, \nand be ready to shut the test down at any point if there is an issue that will \neffect facility operations.\n4.\nTrends (history) are usually more informational that the FPT’s (snapshot). \nAlways setup trending (of multiple, related equipment/systems) to start at \nsame time, record same snapshot (every 5 minutes, every 15 minutes, etc.) \nand always ALWAYS trend outdoor air temperature.",
+      "char_count": 929
+    },
+    {
+      "page": 46,
+      "text": "EBCx for Data \nCenters\nFacilities Staff \nTraining\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 46\n1.\nStart with a Training Plan months ahead of the actual training sessions\n2.\nFocus on the quality and experience of the trainers during planning\n3.\nFocus on training needs of the O&M Staff\n4.\nTrain on all new equipment, modifications to existing AND overall \noperation of the facility (remember why you were asked here to begin \nwith)\n5.\nSpend time reviewing documentation (As-Builts, Systems Manual, O&M’s)\n6.\nHelp facilitate PM if necessary\n7.\nVerify training effectiveness at the end of each session\n8.\nDevelop a transitional phase program (training wheels) for the first year",
+      "char_count": 670
+    },
+    {
+      "page": 47,
+      "text": "EBCx for Data \nCenters\nFinish with an \nIST\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 47\n1.\nSchedule IST immediately following Training\n2.\nUse the IST as a final verification of Operator Training (dry run on handling \nemergency operation)\n3.\nBe very aware of resistance to “cut” utility power in an operating facility. \nWork the issue and don’t back-down on the necessity of an IST",
+      "char_count": 375
+    },
+    {
+      "page": 48,
+      "text": "Thank You\nCraig A. Hawkins, CCP\nBCA University Sr. Trainer\nCommissioning Project Director, McKinstry, Seattle, WA\n(206) 963-3081\ncraigh@mckinstry.com\nTHE FINISH LINE! WRAP-UP COMMENTS\n& QUESTIONS",
+      "char_count": 195
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "|  |  |  |\n| --- | --- | --- |\n| “Data Center Commissioning and Integrated Systems Testing” 9th Annual SERBCA Technical Summit Event Sponsored By: Presented by: Craig A. Hawkins, CCP |  |  |",
+      "raw": [
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "“Data Center Commissioning and\nIntegrated Systems Testing”\n9th Annual SERBCA Technical Summit\nEvent Sponsored By:\nPresented by: Craig A. Hawkins, CCP",
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| | AGENDA Integrated Systems Testing IST: Definition, Purpose & Goals IST Process; Planning, Writing and Reviewing Implementing the IST IST Challenges Those IST “Ah-ha” moments DataCenter Cx – New Construction Perceived change in Cx focus Importance of Facilities Staff in Design Development & Reviews Site Observations & Functional Testing Planning and implementing the IST DataCenter Cx – Existing Building Existing Documentation Search Site walks, Investigations & Analysis FIM Implementation Component & Systems Testing Planning and implementing the IST Wrap-Up Comments & Questions |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "| AGENDA\nIntegrated Systems Testing\nIST: Definition, Purpose & Goals\nIST Process; Planning, Writing and Reviewing\nImplementing the IST\nIST Challenges\nThose IST “Ah-ha” moments\nDataCenter Cx – New Construction\nPerceived change in Cx focus\nImportance of Facilities Staff in Design Development & Reviews\nSite Observations & Functional Testing\nPlanning and implementing the IST\nDataCenter Cx – Existing Building\nExisting Documentation Search\nSite walks, Investigations & Analysis\nFIM Implementation\nComponent & Systems Testing\nPlanning and implementing the IST\nWrap-Up Comments & Questions",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 4,
+      "markdown": "| Did y know | ou …. |  |  |\n| --- | --- | --- | --- |\n|  |  |  |  |",
+      "raw": [
+        [
+          "Did y\nknow",
+          "ou\n….",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| This is NOT what we want! |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "This is NOT what we want!",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 5,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| INTEGRATED SYSTEMS TESTING IST Overview o Definition o Purpose o Goals o IST versus FPT o Pre-Planning o Planning o Creating IST Documents AKA: “Pull The Plug” Test o Getting Approval for IST |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "INTEGRATED SYSTEMS TESTING\nIST Overview\no Definition\no Purpose\no Goals\no IST versus FPT\no Pre-Planning\no Planning\no Creating IST Documents AKA: “Pull The Plug” Test\no Getting Approval for IST",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 6,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Definitions of IST: o Integrated Systems Test (Loss of Power Test) is the simulated (controlled) loss of Defining utility power and the verification of anticipated correct systems performance of all building systems under that loss of normal power, as well as the verification of those Integrated systems automatic return to designed function upon restoration of normal power. Systems Testing o An IST Program (Regularly scheduled repeats of the IST) will ensure continuous assurance of the facilities reliability. 6 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Definitions of IST:\no Integrated Systems Test (Loss of Power Test) is the simulated (controlled) loss of\nDefining utility power and the verification of anticipated correct systems performance of all\nbuilding systems under that loss of normal power, as well as the verification of those\nIntegrated\nsystems automatic return to designed function upon restoration of normal power.\nSystems Testing\no An IST Program (Regularly scheduled repeats of the IST) will ensure continuous\nassurance of the facilities reliability.\n6\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Purposes of an IST: o Bridges gaps between electrical inspections, generator load bank testing, and routine Purpose and generator testing. Goals of o Verifies that all powered equipment and systems have been tested under load, with Integrated power cut as close to the main utility feed as safety and best practices allow. Systems o Identifies issues occurring at all powered systems while on emergency power as well as any issues upon return to normal power. Testing o Verification of automatic control under all emergency conditions without human intervention or assistance. |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Purposes of an IST:\no Bridges gaps between electrical inspections, generator load bank testing, and routine\nPurpose and\ngenerator testing.\nGoals of\no Verifies that all powered equipment and systems have been tested under load, with\nIntegrated power cut as close to the main utility feed as safety and best practices allow.\nSystems o Identifies issues occurring at all powered systems while on emergency power as well\nas any issues upon return to normal power.\nTesting\no Verification of automatic control under all emergency conditions without human\nintervention or assistance.",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Goals of an IST: o Verifies all intended system responses and conditions, including staff response. Purpose and Defining o Verifies that emergency contacts and emergency response team is accessible and Goals of ready (to handle any unintended system or occupant responses). Integrated Integrated o As a final step, includes corrective actions and a MOP response plan that includes Systems Systems signage, instructions and feedback from the IST test. Testing Testing o Proven confidence in systems reliability under all conditions, manned or not. o Verification of all automatic emergency call-out procedures. 8 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Goals of an IST:\no Verifies all intended system responses and conditions, including staff response.\nPurpose and\nDefining\no Verifies that emergency contacts and emergency response team is accessible and\nGoals of\nready (to handle any unintended system or occupant responses).\nIntegrated\nIntegrated\no As a final step, includes corrective actions and a MOP response plan that includes\nSystems\nSystems\nsignage, instructions and feedback from the IST test.\nTesting\nTesting o Proven confidence in systems reliability under all conditions, manned or not.\no Verification of all automatic emergency call-out procedures.\n8\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Object Under Test o FPT: Single pieces of equipment or dependent pieces of a sub-system. o IST: All building systems and all pieces of MEP equipment all at once. Functional Test Procedure Performance o FPT: Simplified test steps to verify mostly control or functionality of each piece of Testing equipment, individually, under all modes of operation. Basically; Verification of BMS Purpose and “control” and individual performance of each piece of equipment. Repeatable. Goals of o IST: Complex step-by-step process with checks and an “Exit Plan” at each step. Written as an MOP. Repeatable. VersIunstegrated Test Participants Systems o FPT: Usually just BMS contractor and CxP, with aid of installing contractors, often Testing Integrated O&M Staff (if available). o IST: A large, organized, focused troop of 3rd party individuals who understand all Systems Testing operational aspects of the entire facility and it’s functioning MEP systems. Condition of Facility at Time of Test o FPT: Unfinished, under construction o IST: Facility completed, all construction completed. 9 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Object Under Test\no FPT: Single pieces of equipment or dependent pieces of a sub-system.\no IST: All building systems and all pieces of MEP equipment all at once.\nFunctional\nTest Procedure\nPerformance\no FPT: Simplified test steps to verify mostly control or functionality of each piece of\nTesting equipment, individually, under all modes of operation. Basically; Verification of BMS\nPurpose and\n“control” and individual performance of each piece of equipment. Repeatable.\nGoals of\no IST: Complex step-by-step process with checks and an “Exit Plan” at each step.\nWritten as an MOP. Repeatable.\nVersIunstegrated\nTest Participants\nSystems\no FPT: Usually just BMS contractor and CxP, with aid of installing contractors, often\nTesting\nIntegrated O&M Staff (if available).\no IST: A large, organized, focused troop of 3rd party individuals who understand all\nSystems Testing\noperational aspects of the entire facility and it’s functioning MEP systems.\nCondition of Facility at Time of Test\no FPT: Unfinished, under construction\no IST: Facility completed, all construction completed.\n9\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Prepare for the Planning Sessions: o Put your IST Planning Team together, which should include: o O&M Staff Members (at a minimum, the Chief Operating Engineer, but better with all operators). o Engineers of Record (Mech & Elec) o Key member of GC Team, usually the MEP Coordinator. o Key equipment vendor reps, usually Generator, UPS & Switchgear. Integrated o Create a “Planning Plan” that describes, in detail, the planning process, purpose, Systems Test goals, IST planning meeting schedule, timeline with critical milestones and a Roles & Responsibilities matrix. KEEP IN MIND; MOST, IF NOT ALL, OF THE IST TEAM MEMBERS HAVE NEVER BEEN THOUGH AN IST. THEY ARE COUNTING ON YOU TO LEAD THEM. IN THEIR MIND, THIS IS “YOUR” TEST. Pre-Planning o Schedule at least 4 IST planning meetings, usually 2 weeks apart, to allow team members to complete their IST planning assignments AND manage their normal workloads. Agree on dates and times AND DO NOT MOVE THEM! o Prepare yourself to lead the meetings. You are in charge of the flow, so be in the know (about everything IST!) o Gather all info needed for a Systems Manual BEFORE the IST Planning Meetings. This is a huge change from the “normal NCCx Process” Build the Systems Manual from the design documents prior to start of construction. It will change, but having a DRAFT version will be of tremendous help in planning the IST. 10 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Prepare for the Planning Sessions:\no Put your IST Planning Team together, which should include:\no O&M Staff Members (at a minimum, the Chief Operating Engineer, but better with\nall operators).\no Engineers of Record (Mech & Elec)\no Key member of GC Team, usually the MEP Coordinator.\no Key equipment vendor reps, usually Generator, UPS & Switchgear.\nIntegrated\no Create a “Planning Plan” that describes, in detail, the planning process, purpose,\nSystems Test\ngoals, IST planning meeting schedule, timeline with critical milestones and a Roles &\nResponsibilities matrix. KEEP IN MIND; MOST, IF NOT ALL, OF THE IST TEAM\nMEMBERS HAVE NEVER BEEN THOUGH AN IST. THEY ARE COUNTING ON YOU TO\nLEAD THEM. IN THEIR MIND, THIS IS “YOUR” TEST.\nPre-Planning\no Schedule at least 4 IST planning meetings, usually 2 weeks apart, to allow team\nmembers to complete their IST planning assignments AND manage their normal\nworkloads. Agree on dates and times AND DO NOT MOVE THEM!\no Prepare yourself to lead the meetings. You are in charge of the flow, so be in the\nknow (about everything IST!)\no Gather all info needed for a Systems Manual BEFORE the IST Planning Meetings. This\nis a huge change from the “normal NCCx Process” Build the Systems Manual from\nthe design documents prior to start of construction. It will change, but having a\nDRAFT version will be of tremendous help in planning the IST.\n10\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Plan, plan and more planning: o Start with a detailed, quality Systems Manual to understand how building systems function and are related/dependent on each other. Integrated o Clarify procedure for safely interrupting utility service connections at switchgear. Systems Test o Confirm all transfer timings via FPT’s. Document, document, document. o When testing UPS batteries under individual FPT’s pay particular attention to battery Planning draw-down duration under load. When planning OST, do not run UPS batteries down more than 60%. If gen start, sync and transfer takes longer than 60% timing, stop test #1 and re-evaluate. o Consider creating a detailed flow-chart as a planning tool to capture expected reaction to each step and to help illustrate fast, safe, exit plans for each and every step. At a minimum, create a Memo of Understanding that outlines goals what is to be tested. Once approved, roll into MOP type test form and…. 11 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Plan, plan and more planning:\no Start with a detailed, quality Systems Manual to understand how building systems\nfunction and are related/dependent on each other.\nIntegrated\no Clarify procedure for safely interrupting utility service connections at switchgear.\nSystems Test\no Confirm all transfer timings via FPT’s. Document, document, document.\no When testing UPS batteries under individual FPT’s pay particular attention to battery\nPlanning\ndraw-down duration under load. When planning OST, do not run UPS batteries down\nmore than 60%. If gen start, sync and transfer takes longer than 60% timing, stop test\n#1\nand re-evaluate.\no Consider creating a detailed flow-chart as a planning tool to capture expected reaction to\neach step and to help illustrate fast, safe, exit plans for each and every step. At a\nminimum, create a Memo of Understanding that outlines goals what is to be tested.\nOnce approved, roll into MOP type test form\nand….\n11\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Plan, plan and more planning: o IST’s are written in a format of an Method Of Procedure (MOP) where there is one AND ONLY one action per step, with clear indication of acceptable action (Pass/Fail) Integrated for each step and a clearly thought out, and agreed upon “Exit Procedure” for each Systems Test step for when something comes wrong (and it will). o Include all Pre-Test Tasks as a checkoff list, verified by 2 independent parties. Planning o Consider making the IST a condition of successful turnover, include language supporting the IST in EVERY project contract and include allotted time on GC’s Master #2 Build Schedule (including allowance for IST “Issues”). o Secure load banks if facility has no load (yet). o Verify amount of stored fuel and have procedures for procuring more in place. and…. 12 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Plan, plan and more planning:\no IST’s are written in a format of an Method Of Procedure (MOP) where there is one\nAND ONLY one action per step, with clear indication of acceptable action (Pass/Fail)\nIntegrated\nfor each step and a clearly thought out, and agreed upon “Exit Procedure” for each\nSystems Test\nstep for when something comes wrong (and it will).\no Include all Pre-Test Tasks as a checkoff list, verified by 2 independent parties.\nPlanning o Consider making the IST a condition of successful turnover, include language\nsupporting the IST in EVERY project contract and include allotted time on GC’s Master\n#2\nBuild Schedule (including allowance for IST “Issues”).\no Secure load banks if facility has no load (yet).\no Verify amount of stored fuel and have procedures for procuring more in place.\nand….\n12\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Plan, plan and more planning: o Create an “IST Team Organizational Chart” so that everyone on the team knows their roles and responsibilities, and everyone else’s too. Integrated o Senior CxP is the IST Team Leader. The CxP alone directs the action and has Systems Test ultimate “Go/No-Go” authority. o Fellow CxP’s and O&M Staff carry out step-by-step actions, project engineers are witnesses and contractors are “runners” as need be, equipment vendors are on Planning standby for informational support as necessary. #3 o Make it clear from the very beginning, and reiterate as necessary, the IST must be run from start to finish without interruption to be considered a success. Any failure of any step, no matter how small or seemingly insignificant, requires the IST to stop, the exit plan at that step initiated and utility power restored until repairs are made and then the IST starts over AT THE BEGINNING. and…. 13 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Plan, plan and more planning:\no Create an “IST Team Organizational Chart” so that everyone on the team knows\ntheir roles and responsibilities, and everyone else’s too.\nIntegrated\no Senior CxP is the IST Team Leader. The CxP alone directs the action and has\nSystems Test\nultimate “Go/No-Go” authority.\no Fellow CxP’s and O&M Staff carry out step-by-step actions, project engineers are\nwitnesses and contractors are “runners” as need be, equipment vendors are on\nPlanning\nstandby for informational support as necessary.\n#3\no Make it clear from the very beginning, and reiterate as necessary, the IST must be\nrun from start to finish without interruption to be considered a success. Any\nfailure of any step, no matter how small or seemingly insignificant, requires the\nIST to stop, the exit plan at that step initiated and utility power restored until\nrepairs are made and then the IST starts over AT THE BEGINNING.\nand….\n13\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Plan, plan and more planning: o Plan not only the actual IST but also the Assigned Witness Plan: o Who is assigned each observation zone. Integrated o What they are expected to see at each step (usually nothing at most zones). Systems Test o What their Radio Number is (usually same as Zone Number). o Who is their backup in case they cannot be at the scheduled test date and time. o If the zone is large enough, consider adding at least one or two “runners” to assist. Planning o Select witnesses according to their level/area of expertise and make sure they all #4 understand the critical nature of the IST. Ensure they know how to properly use the radios and are able to remain calm and quiet throughout the test. In most cases, most witnesses will have little to nothing to report after each test step, which means they need to stay sharp for hours of inactivity. o Consider a “dress rehearsal” at least 2 days prior to the scheduled IST to do a radio check with the actual witnesses assigned. 14 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Plan, plan and more planning:\no Plan not only the actual IST but also the Assigned Witness Plan:\no Who is assigned each observation zone.\nIntegrated\no What they are expected to see at each step (usually nothing at most zones).\nSystems Test\no What their Radio Number is (usually same as Zone Number).\no Who is their backup in case they cannot be at the scheduled test date and time.\no If the zone is large enough, consider adding at least one or two “runners” to assist.\nPlanning\no Select witnesses according to their level/area of expertise and make sure they all\n#4 understand the critical nature of the IST. Ensure they know how to properly use\nthe radios and are able to remain calm and quiet throughout the test. In most\ncases, most witnesses will have little to nothing to report after each test step,\nwhich means they need to stay sharp for hours of inactivity.\no Consider a “dress rehearsal” at least 2 days prior to the scheduled IST to do a radio\ncheck with the actual witnesses assigned.\n14\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| o Writing an IST o Writing an IST Procedure is a little like writing out a cooking recipe; you start with a list of ingredients, then move into the actual preparations steps, then “serving” instructions. o IST Deliverables (List of Ingredients): o IST Goal & Task Overview (for team approval) Writing an o IST Flow Diagram (for IST Script Planning) o IST Communications Plan (for team approval) Integrated Systems Test o IST Pre-Test Checklist (for 1-week look ahead) o IST Test-Day Checklist (for day before) o IST Script (for test day use) o IST Corrective Action List (Post IST) o IST Final Report (Post IST) SERBCA 24/7 CONFERENCE 2019 WORKSHOP 15 |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "o Writing an IST\no Writing an IST Procedure is a little like writing out a cooking recipe; you start\nwith a list of ingredients, then move into the actual preparations steps, then\n“serving” instructions.\no IST Deliverables (List of Ingredients):\no IST Goal & Task Overview (for team approval)\nWriting an o IST Flow Diagram (for IST Script Planning)\no IST Communications Plan (for team approval)\nIntegrated\nSystems Test\no IST Pre-Test Checklist (for 1-week look ahead)\no IST Test-Day Checklist (for day before)\no IST Script (for test day use)\no IST Corrective Action List (Post IST)\no IST Final Report (Post IST)\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 15",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| o IST Flow Diagram: o For planning only o Electronic whiteboarding o A method to graphically illustrate the “flow” of the test o Allows for capturing ideas for safe test stoppage (exit plan) Creating Integrated o IST Communications Plan: o Communications Overview Systems o Equipment to be used Test o Acceptable communications procedures Documents o Unacceptable communications methods (list of “No-No’s”) o Back-Up plans (for when Mr. Murphy shows up) o Single Command Authority (Hint: CxP) o Signature lines for approval by ALL IST Team Members SERBCA 24/7 CONFERENCE 2019 WORKSHOP 16 |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "o IST Flow Diagram:\no For planning only\no Electronic whiteboarding\no A method to graphically illustrate the “flow” of the test\no Allows for capturing ideas for safe test stoppage (exit plan)\nCreating\nIntegrated o IST Communications Plan:\no Communications Overview\nSystems\no Equipment to be used\nTest\no Acceptable communications procedures\nDocuments o Unacceptable communications methods (list of “No-No’s”)\no Back-Up plans (for when Mr. Murphy shows up)\no Single Command Authority (Hint: CxP)\no Signature lines for approval by ALL IST Team Members\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 16",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| o IST Script: o Written as a “Method Of Procedure” where each step includes: o Timing of Step o Time period (hour/minute) of when test step should occur (WHEN) o Duration of time to complete step including all-call Creating o Action of Step o Description of actual test step (WHAT) Integrated o Team Member Assignments Systems o Team Member to initiate test step & Team Members who report on Test reaction (WHO) o Anticipated Reaction to Step Documents o “Correct” automatic reaction of system(s) to test step (SYSTEM RESPONSE) o Safe “Step-Stoppage” procedure o “SAFE STOP – EXIT PLAN) SERBCA 24/7 CONFERENCE 2019 WORKSHOP 17 |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "o IST Script:\no Written as a “Method Of Procedure” where each step includes:\no Timing of Step\no Time period (hour/minute) of when test step should occur (WHEN)\no Duration of time to complete step including all-call\nCreating o Action of Step\no Description of actual test step (WHAT)\nIntegrated\no Team Member Assignments\nSystems\no Team Member to initiate test step & Team Members who report on\nTest reaction (WHO)\no Anticipated Reaction to Step\nDocuments\no “Correct” automatic reaction of system(s) to test step (SYSTEM\nRESPONSE)\no Safe “Step-Stoppage” procedure\no “SAFE STOP – EXIT PLAN)\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 17",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| o IST Pre-Test Checklist (up to a week ahead of IST) o Checklist of things that must be in place prior to IST, including: o Verification of Generator Fuel level o Verification of all FPT’s completed o Verification of all Issues resolved Creating o Sign-off by all IST Team Members of IST Procedure Script Integrated o Sign-off by IST Team members of their specific IST Equipment responsibilities Systems o IST Test-Day Checklist (day before): Test o Last minute check of all IST Team Member’s readiness for IST Documents o Last minute Pre-Test Check-In arrangements (time, location) o Verification of radios (quantity, full-battery charge) o Verification of Comm-Check (radio coverage, channel strength) o Verification of back-up representatives in case of last-minute personnel “issues” o Verification of “Notice to Test” to local FD, local utility, security firm, all on-site personnel. o T-Minus 24 site verification SERBCA 24/7 CONFERENCE 2019 WORKSHOP 18 |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "o IST Pre-Test Checklist (up to a week ahead of IST)\no Checklist of things that must be in place prior to IST, including:\no Verification of Generator Fuel level\no Verification of all FPT’s completed\no Verification of all Issues resolved\nCreating o Sign-off by all IST Team Members of IST Procedure Script\nIntegrated o Sign-off by IST Team members of their specific IST Equipment responsibilities\nSystems\no IST Test-Day Checklist (day before):\nTest\no Last minute check of all IST Team Member’s readiness for IST\nDocuments o Last minute Pre-Test Check-In arrangements (time, location)\no Verification of radios (quantity, full-battery charge)\no Verification of Comm-Check (radio coverage, channel strength)\no Verification of back-up representatives in case of last-minute personnel “issues”\no Verification of “Notice to Test” to local FD, local utility, security firm, all on-site\npersonnel.\no T-Minus 24 site verification\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 18",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| o IST Corrective Action List: Creating o Formal name for “IST Only Issues Log” Integrated o IST Final Report: Systems o Summary of IST disposition (Pass/Fail) Test o Summary of all IST activities (History) o Copies of all IST Deliverables Documents o List of recommendations for future (repeat of IST, more training, etc.) SERBCA 24/7 CONFERENCE 2019 WORKSHOP 19 |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "o IST Corrective Action List:\nCreating o Formal name for “IST Only Issues Log”\nIntegrated\no IST Final Report:\nSystems\no Summary of IST disposition (Pass/Fail)\nTest\no Summary of all IST activities (History)\no Copies of all IST Deliverables\nDocuments\no List of recommendations for future (repeat of IST, more training, etc.)\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 19",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Reviewing the IST Plan o Prior to implementation of the IST, the IST Procedure MUST be unanimously approved by all Team Members and the Owner (Reps). o Even though the Team met (several times) to generate the IST Procedure, each IST Team Member should be given time to review the procedure with their own “in- house” teams. Reviewing and o Included with the actual IST Procedure, attached to the front, should be a “Cover approving an Sheet” that outlines: Integrated o Purpose and goals of the IST. o List of IST Planning Members, including space for their wet-ink initials approving Systems Test the final version. procedure o Timeline for the test. o The IST Communications Plan. o The Pre-IST Checklist. o List of all required equipment for IST and who is responsible for each item. o The critical nature of the IST mandates that time for review and approval is just as, if not more so, important as all the planning. Review and approval sets the IST into final motion and everyone involved must be “on-board” with the Final IST Procedure. 20 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Reviewing the IST Plan\no Prior to implementation of the IST, the IST Procedure MUST be unanimously\napproved by all Team Members and the Owner (Reps).\no Even though the Team met (several times) to generate the IST Procedure, each IST\nTeam Member should be given time to review the procedure with their own “in-\nhouse” teams.\nReviewing and\no Included with the actual IST Procedure, attached to the front, should be a “Cover\napproving an Sheet” that outlines:\nIntegrated o Purpose and goals of the IST.\no List of IST Planning Members, including space for their wet-ink initials approving\nSystems Test\nthe final version.\nprocedure\no Timeline for the test.\no The IST Communications Plan.\no The Pre-IST Checklist.\no List of all required equipment for IST and who is responsible for each item.\no The critical nature of the IST mandates that time for review and approval is just as, if\nnot more so, important as all the planning. Review and approval sets the IST into\nfinal motion and everyone involved must be “on-board” with the Final IST Procedure.\n20\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| DATA CENTER Cx – NEW CONSTRUCTION DCCx – New Construction Overview o Change in Focus o Involving O&M Staff Early o Site Observations & Functional Testing o Planning and Implementing the IST |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "DATA CENTER Cx –\nNEW CONSTRUCTION\nDCCx – New Construction Overview\no Change in Focus\no Involving O&M Staff Early\no Site Observations & Functional Testing\no Planning and Implementing the IST",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 22,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| 1. Reliability (Uptime) trumps all. 2. “Creature Comfort” not really an issue. NCCx for Data 3. Focus on understanding, documenting and getting FULL TEAM approval on Centers the “Critical Path” (what’s on emergency generator load). 4. Pay attention to how redundant (+1) equipment operates: A slight change a. Off, on standby? in focus b. On, sharing load? ….Pro’s & Con’s? 5. Protocols? PM’s? How organized are they? What will they use in the future (SOP)? 22 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "1. Reliability (Uptime) trumps all.\n2. “Creature Comfort” not really an issue.\nNCCx for Data\n3. Focus on understanding, documenting and getting FULL TEAM approval on\nCenters\nthe “Critical Path” (what’s on emergency generator load).\n4. Pay attention to how redundant (+1) equipment operates:\nA slight change\na. Off, on standby?\nin focus\nb. On, sharing load? ….Pro’s & Con’s?\n5. Protocols? PM’s? How organized are they? What will they use in the\nfuture (SOP)?\n22\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 23,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| NCCx for Data 1. Focus on power, normal and emergency Centers 2. Focus on redundancies 3. Start with a Systems Manual (normally at the end) A different kind 4. Include Facilities and IT Teams in Design Development and Design of Cx Design Reviews Review 5. Identify “Single Points of Failure” 6. Focus: “It’s all about Uptime”. 23 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "NCCx for Data\n1. Focus on power, normal and emergency\nCenters\n2. Focus on redundancies\n3. Start with a Systems Manual (normally at the end)\nA different kind\n4. Include Facilities and IT Teams in Design Development and Design\nof Cx Design\nReviews\nReview\n5. Identify “Single Points of Failure”\n6. Focus: “It’s all about Uptime”.\n23\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 24,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Why NCCx Design Reviews? Just because it can be drawn, doesn’t mean it can be built! NCCx Design Reviews General Notes 24 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Why NCCx Design Reviews?\nJust because it can be drawn, doesn’t mean it can be built!\nNCCx Design\nReviews\nGeneral Notes\n24\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 25,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Design Reviews specific to Data Centers a. Electrical System i. Single points of failure ii. Documented Critical Path iii. UPS (Duration without Generator) NCCx Design b. Generators & Emergency Fuel System Reviews i. Size of generator ii. Types of fuel iii. Location, location, location iv. Fuel Storage & Delivery Data Centers c. Mechanical-HVAC i. White Space operating temperature ii. Hot Aisle/Cold Aisle containment iii. UFAD iv. Rack Coolers v. CRAC Units vi. +1 25 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Design Reviews specific to Data Centers\na. Electrical System\ni. Single points of failure\nii. Documented Critical Path\niii. UPS (Duration without Generator)\nNCCx Design\nb. Generators & Emergency Fuel System\nReviews i. Size of generator\nii. Types of fuel\niii. Location, location, location\niv. Fuel Storage & Delivery\nData Centers\nc. Mechanical-HVAC\ni. White Space operating temperature\nii. Hot Aisle/Cold Aisle containment\niii. UFAD\niv. Rack Coolers\nv. CRAC Units\nvi. +1\n25\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 26,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| NCCx for Data Centers 1. Review and solve each Cx noted issue as a team (Owner, O&M Staff, Managing Cx IT, GC & CxP at a minimum). Issues as a Team ….Why is this “Team Concept” critical for DC’s? 26 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "NCCx for Data\nCenters\n1. Review and solve each Cx noted issue as a team (Owner, O&M Staff,\nManaging Cx\nIT, GC & CxP at a minimum).\nIssues as a\nTeam\n….Why is this “Team Concept” critical for DC’s?\n26\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 27,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| NCCx for Data 1. Start on smallest component level and work up through sub-systems Centers then systems. 2. We all try to resolve all Cx Issues on every project, but there are usually a few that linger past Occupancy date, however…….. When Functional commissioning a DC (or any other Mission Critical facility) ALL ISSUES Performance MUST BE RESOLVED BEFORE THE IST!!! And if Occupancy is dependent Testing on the IST being finished prior to Move-In, then solve issues ASAP, do not let the team put them off (typical). 27 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "NCCx for Data\n1. Start on smallest component level and work up through sub-systems\nCenters\nthen systems.\n2. We all try to resolve all Cx Issues on every project, but there are\nusually a few that linger past Occupancy date, however…….. When\nFunctional\ncommissioning a DC (or any other Mission Critical facility) ALL ISSUES\nPerformance\nMUST BE RESOLVED BEFORE THE IST!!! And if Occupancy is dependent\nTesting\non the IST being finished prior to Move-In, then solve issues ASAP, do\nnot let the team put them off (typical).\n27\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 28,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| 1. Start with a Training Plan months ahead of the actual training sessions NCCx for Data 2. Focus on the quality and experience of the trainers Centers 3. Spend time reviewing documentation (As-Builts, Systems Manual, O&M’s) Facilities Staff 4. Help facilitate PM if necessary Training 5. Verify training effectiveness at the end of each session 6. Develop a transitional phase program (training wheels) for the first year 28 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "1. Start with a Training Plan months ahead of the actual training sessions\nNCCx for Data\n2. Focus on the quality and experience of the trainers\nCenters\n3. Spend time reviewing documentation (As-Builts, Systems Manual,\nO&M’s)\nFacilities Staff\n4. Help facilitate PM if necessary\nTraining\n5. Verify training effectiveness at the end of each session\n6. Develop a transitional phase program (training wheels) for the first year\n28\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 29,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| NCCx for Data Centers 1. Schedule IST immediately following Training 2. Use the IST as a final verification of Operator Training (dry run on Finish with the handling emergency operation) IST 29 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "NCCx for Data\nCenters\n1. Schedule IST immediately following Training\n2. Use the IST as a final verification of Operator Training (dry run on\nFinish with the\nhandling emergency operation)\nIST\n29\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 30,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| DATA CENTER Cx – EXISTING BUILDINGS EBCx – Existing Building Overview o Existing Documentation Search o Involving O&M Staff in CFR o Site Walks, Investigating, & Data Analysis o Implementing FIM’s o Planning and Implementing the IST |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "DATA CENTER Cx –\nEXISTING BUILDINGS\nEBCx – Existing Building Overview\no Existing Documentation Search\no Involving O&M Staff in CFR\no Site Walks, Investigating, & Data Analysis\no Implementing FIM’s\no Planning and Implementing the IST",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 31,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| 1. Always, ALWAYS, remember “You are the visitor, the alien in their foreign land”. You work around their schedules, you respect their “rules”. Be non-obtrusive and respectful at all times to everyone. EBCx for Data 2. When you meet with the Owner, before you walk the facility, ask how you should respond Centers when the occupants ask “What are you doing and why?” (and they will ask!) Work out an acceptable response BEFORE you start the inspection. 3. When walking the facility and talking to people, always ask permission first (“Excuse me, can I Working in a ask you a quick questions…?”) and be ready when they say “No, sorry, I’m too busy”. Keep the completed and conversations with them as brief as possible. THEY HAVE WORK TO DO (and so do you). operating 4. DO NOT EVER voice a critical opinion. You might round a corner and want to blurt out “WTF facility were they thinking!?!” but don’t! 5. Specifically ask the Owner and IT Lead about their 1 year, 5 year and 10 year plans. Expansions, changes to racks, changes to servers, etc. Get to know their current operation AND their future plans. 6. Ask first if photography is allowed within the white space. Many CoLo’s don’t allow photography of their tenants cages. 31 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "1. Always, ALWAYS, remember “You are the visitor, the alien in their foreign land”. You work\naround their schedules, you respect their “rules”. Be non-obtrusive and respectful at all times\nto everyone.\nEBCx for Data\n2. When you meet with the Owner, before you walk the facility, ask how you should respond\nCenters\nwhen the occupants ask “What are you doing and why?” (and they will ask!) Work out an\nacceptable response BEFORE you start the inspection.\n3. When walking the facility and talking to people, always ask permission first (“Excuse me, can I\nWorking in a\nask you a quick questions…?”) and be ready when they say “No, sorry, I’m too busy”. Keep the\ncompleted and\nconversations with them as brief as possible. THEY HAVE WORK TO DO (and so do you).\noperating\n4. DO NOT EVER voice a critical opinion. You might round a corner and want to blurt out “WTF\nfacility were they thinking!?!” but don’t!\n5. Specifically ask the Owner and IT Lead about their 1 year, 5 year and 10 year plans.\nExpansions, changes to racks, changes to servers, etc. Get to know their current operation\nAND their future plans.\n6. Ask first if photography is allowed within the white space. Many CoLo’s don’t allow\nphotography of their tenants cages.\n31\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 32,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| 1. As with any EBCx Project, start with creating a CFR, however, with operating DC’s, get the Owner together with key members of the O&M Staff and interview both together to establish EBCx for Data how the facility “really” operates. Centers 2. In the first meeting with the Owner, ask how they want to see the FIM’s list (ROM, Certified Estimates, etc.??) 3. During the CFR interview, try to get an idea of where the trouble spots are (and if you can, why are there trouble spots). Understanding 4. Remember…everyone has their own personal agenda, so take everything you hear with a the facilities grain of salt. Listen, then verify. operation…. 5. S. O. A. P. ….What’s S O A P? 6. Once you finish with the CFR and start your investigation, don’t forget that you are investigating the facility, the MEP Systems AND the Operators: ….and a. What is their level of expertise? operators! b. How do they document maintenance? c. What is the condition of their tools and working spaces? d. What is their working relationship with the Owner? e. Do they employ “band-aid” quick fixes or do they try to do the right thing? 7. A common FIM is “O&M Staff need more training” so don’t be shocked, you’ll see. 32 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "1. As with any EBCx Project, start with creating a CFR, however, with operating DC’s, get the\nOwner together with key members of the O&M Staff and interview both together to establish\nEBCx for Data\nhow the facility “really” operates.\nCenters 2. In the first meeting with the Owner, ask how they want to see the FIM’s list (ROM, Certified\nEstimates, etc.??)\n3. During the CFR interview, try to get an idea of where the trouble spots are (and if you can,\nwhy are there trouble spots).\nUnderstanding\n4. Remember…everyone has their own personal agenda, so take everything you hear with a\nthe facilities\ngrain of salt. Listen, then verify.\noperation….\n5. S. O. A. P.\n….What’s S O A P?\n6. Once you finish with the CFR and start your investigation, don’t forget that you are\ninvestigating the facility, the MEP Systems AND the Operators:\n….and\na. What is their level of expertise?\noperators!\nb. How do they document maintenance?\nc. What is the condition of their tools and working spaces?\nd. What is their working relationship with the Owner?\ne. Do they employ “band-aid” quick fixes or do they try to do the right thing?\n7. A common FIM is “O&M Staff need more training” so don’t be shocked, you’ll see.\n32\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 33,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| 1. Start at Central Plant and then walk distribution systems. EBCx for Data Centers 2. As you are walking through a facility, use almost(**) all your senses: a. Look b. Listen Investigation c. Smell Phase d. Touch (** Just don’t go around licking air handlers and CRAC units!) …be ready for anything…. 3. Keep in mind; you are in an operating DC, sometimes 10 – 15 years old, so you will run into spaces so cold you can hang meat inside. Many older IT teams still think “the colder, the better”. Be nice! They know not what they should! …..especially 4. Try to visualize airflow and once you understand the flow, go verify it. the Good, the 5. Q=The #1 Key to doing a High Quality Site Investigation of an operating facility? Bad and the A=Always ask “WHY?” Why is that doing that? Why isn’t that working? Why? Why? Ugly! ……and once you ask “Why” be ready for the answer……be ready for anything! …..or worse than ugly)…. ……yep, it’s out there, ….waiting for you! 33 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "1. Start at Central Plant and then walk distribution systems.\nEBCx for Data\nCenters 2. As you are walking through a facility, use almost(**) all your senses:\na. Look\nb. Listen\nInvestigation\nc. Smell\nPhase\nd. Touch\n(** Just don’t go around licking air handlers and CRAC units!)\n…be ready for\nanything…. 3. Keep in mind; you are in an operating DC, sometimes 10 – 15 years old, so you will run into\nspaces so cold you can hang meat inside. Many older IT teams still think “the colder, the\nbetter”. Be nice! They know not what they should!\n…..especially\n4. Try to visualize airflow and once you understand the flow, go verify it.\nthe Good, the\n5. Q=The #1 Key to doing a High Quality Site Investigation of an operating facility?\nBad and the\nA=Always ask “WHY?” Why is that doing that? Why isn’t that working? Why? Why?\nUgly!\n……and once you ask “Why” be ready for the answer……be ready for anything!\n…..or worse than ugly)….\n……yep, it’s out there,\n….waiting for you!\n33\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 34,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers Investigation When you ask the Facilities Director of a 5 Phase year old datacenter “Can you show me your “Central Plant?” and he walks you up to The Good, the roof and this is what you see…… the Bad, you know it’s going to the Ugly…….. be a good day! 34 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters\nInvestigation\nWhen you ask the\nFacilities Director of a 5\nPhase\nyear old datacenter\n“Can you show me\nyour “Central Plant?”\nand he walks you up to\nThe Good,\nthe roof and this is\nwhat you see……\nthe Bad,\nyou know it’s going to\nthe Ugly……..\nbe a good day!\n34\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 35,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers Investigation Phase The Good, When you are walking around the rooftop air-cooled chillers and ask the Bad, the Facilities Director “What’s with the Jobboxes and the storage sheds up here?” and he shows you his “Cleaning Sheds” and tells you about the Ugly…….. the “Service Parts & Tools Jobboxes”………… you know it’s going to be a good day! ….and the built-in equipment lift…that’s just a bonus! 35 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters\nInvestigation\nPhase\nThe Good,\nWhen you are walking around the rooftop air-cooled chillers and ask\nthe Bad, the Facilities Director “What’s with the Jobboxes and the storage sheds\nup here?” and he shows you his “Cleaning Sheds” and tells you about\nthe Ugly…….. the “Service Parts & Tools Jobboxes”…………\nyou know it’s going to be a good day!\n….and the built-in\nequipment\nlift…that’s just a\nbonus!\n35\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 36,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers When you ask the Facilities Director of a 7 year old datacenter “How does your Investigation CHW System work?” and instead of pulling out an As- Phase Built, a Systems Manual or even showing you the CD’s Flow Diagram……. The Good, he goes to the whiteboard and starts drawing……. the Bad, you know it’s going to be a the Ugly…….. long day! 36 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters\nWhen you ask the Facilities\nDirector of a 7 year old\ndatacenter “How does your\nInvestigation\nCHW System work?” and\ninstead of pulling out an As-\nPhase\nBuilt, a Systems Manual or\neven showing you the CD’s\nFlow Diagram…….\nThe Good,\nhe goes to the whiteboard\nand starts drawing…….\nthe Bad,\nyou know it’s going to be a\nthe Ugly……..\nlong day!\n36\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 37,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers Investigation Phase The Good, the Bad, the Ugly…….. When you ask the Facilities Director of a 7 year old datacenter “How‘s your UFAD working for you”…..he then asks “What’s UFAD?” and then you pull tiles and find a “rats nest”……. you know it’s going to be a long day! 37 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters\nInvestigation\nPhase\nThe Good,\nthe Bad,\nthe Ugly……..\nWhen you ask the Facilities Director of a 7 year old datacenter “How‘s your UFAD working for you”…..he then\nasks “What’s UFAD?” and then you pull tiles and find a “rats nest”…….\nyou know it’s going to be a long day!\n37\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 38,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers Investigation Phase The Good, the Bad, the Ugly…….. When you ask “What’s your biggest issue with the mechanical system?” and the O&M Staff all say “We just can’t seem to hold pressure in our UFAD system”………… You walk the white space and see this (all in one facility). 38 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters\nInvestigation\nPhase\nThe Good,\nthe Bad,\nthe Ugly…….. When you ask “What’s your biggest issue with the mechanical system?” and the O&M Staff all say “We just\ncan’t seem to hold pressure in our UFAD system”…………\nYou walk the white space and see this (all in one facility).\n38\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 39,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers Investigation Phase The Good, the Bad, the Ugly…….. The O&M Staff just couldn’t figure out why the airflow in this room was “less than what they expected”. The just couldn’t figure it out. Maybe if you didn’t put the floor vents under a desk……. or cover another with a desktop PC tower……. I don’t know, just a suggestion…….. 39 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters\nInvestigation\nPhase\nThe Good,\nthe Bad,\nthe Ugly……..\nThe O&M Staff just couldn’t figure out why the airflow in this room was “less than what they expected”. The just\ncouldn’t figure it out.\nMaybe if you didn’t put the floor vents under a desk…….\nor cover another with a desktop PC tower…….\nI don’t know, just a suggestion……..\n39\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 40,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers Investigation Phase This is one of my favorite DC photos. So, let’s just put A little hard to see, but look just floor diffusers behind the CRAC unit (on the right), on The Good, anywhere we want the floor. them, regardless of the Bad, the fact that the ….What’s the issue here? closest racks are 10 the Ugly…….. feet away! 40 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters\nInvestigation\nPhase\nThis is one of my favorite DC photos.\nSo, let’s just put\nA little hard to see, but look just\nfloor diffusers\nbehind the CRAC unit (on the right), on\nThe Good, anywhere we want\nthe floor.\nthem, regardless of\nthe Bad, the fact that the\n….What’s the issue here?\nclosest racks are 10\nthe Ugly…….. feet away!\n40\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 41,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers ….So that’s where that noise was coming from! Investigation Phase ….wooden ductwork? Really? The Good, the Bad, the Ugly…….. …..the WTF? First, they leave a note and walk away (what was more important?), secondly, they discovered these issues on December 10, 2010 (see stickers in photo) and we found this on our walkthrough on May 5, 2011…… 5 months of ignored service/maintenance. Wish I could say this was unusual, but it isn’t. 41 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters ….So that’s where\nthat noise was\ncoming from!\nInvestigation\nPhase\n….wooden ductwork? Really?\nThe Good,\nthe Bad,\nthe Ugly……..\n…..the WTF?\nFirst, they leave a note and walk away (what was more important?), secondly, they discovered these issues on\nDecember 10, 2010 (see stickers in photo) and we found this on our walkthrough on May 5, 2011……\n5 months of ignored service/maintenance. Wish I could say this was unusual, but it isn’t.\n41\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 42,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| They couldn’t figure out why they couldn’t hold the UFAD pressure and why their chiller was working so EBCx for Data hard. Centers I found 4 holes through the outside wall, under the raised floor, …………all 10” wide x 15” tall! Investigation Phase The Good, the Bad, the Ugly…….. As I was walking through the white space of a 4 year ……..OMG!! old Data Center in Dallas, I kept hearing a “popping” sound. I started pulling tiles and found thousands of crickets coming into the raised floor from cracks in the exterior walls! Crickets in a DC! 42 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "They couldn’t figure out why they couldn’t hold the\nUFAD pressure and why their chiller was working so\nEBCx for Data\nhard.\nCenters\nI found 4 holes through the outside wall, under the\nraised floor,\n…………all 10” wide x 15” tall!\nInvestigation\nPhase\nThe Good,\nthe Bad,\nthe Ugly……..\nAs I was walking through the white space of a 4 year\n……..OMG!!\nold Data Center in Dallas, I kept hearing a “popping”\nsound.\nI started pulling tiles and found thousands of crickets\ncoming into the raised floor from cracks in the\nexterior walls! Crickets in a DC!\n42\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 43,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data 1. Ask for help if you need it to: Centers a. Calculate operational costs b. Calculate energy savings c. Estimate demo and implementation costs Investigation Data Analysis Know your limitations and “stay in your swim lanes”. Find an Energy Engineer to & help with operational and savings costs, partner with a good GC or Estimating Firm for implementation estimates. FIM Report Heads Up!! Remember (at the beginning) when you asked the Owner how he wanted to see the FIM’s (ROM, Guesstimates, Certified, etc.?) Well, here is where it becomes important….present the FIM’s and costs AS THEY REQUESTED! 43 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\n1. Ask for help if you need it to:\nCenters\na. Calculate operational costs\nb. Calculate energy savings\nc. Estimate demo and implementation costs\nInvestigation\nData Analysis\nKnow your limitations and “stay in your swim lanes”. Find an Energy Engineer to\n& help with operational and savings costs, partner with a good GC or Estimating Firm\nfor implementation estimates.\nFIM Report\nHeads Up!! Remember (at the beginning) when you asked the Owner how he\nwanted to see the FIM’s (ROM, Guesstimates, Certified, etc.?) Well, here is where\nit becomes important….present the FIM’s and costs AS THEY REQUESTED!\n43\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 44,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Once the FIM’s have been selected by the Owner, the implementation “looks EBCx for Data like” a normal NCCx effort: Centers a. Design & Design Reviews b. Submittal Reviews c. Site Observation & Issue Management Implementing d. Start-up & TAB Review FIM’s e. Functional Testing f. Training & Systems Manual Except it isn’t a “normal NCCx effort”…….. ….Why isn’t it a normal NCCx effort? 44 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Once the FIM’s have been selected by the Owner, the implementation “looks\nEBCx for Data like” a normal NCCx effort:\nCenters a. Design & Design Reviews\nb. Submittal Reviews\nc. Site Observation & Issue Management\nImplementing\nd. Start-up & TAB Review\nFIM’s\ne. Functional Testing\nf. Training & Systems Manual\nExcept it isn’t a “normal NCCx effort”……..\n….Why isn’t it a normal NCCx effort?\n44\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 45,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| 1. Functionally test all new equipment, same as you would test under a NCCx EBCx for Data contract. Centers 2. Functionally test all systems that were modified (not just the modifications themselves). Understand that the further you go “back” into a system, the greater the risk for operational issues with equipment/systems you Functional connected to (discuss w/Owner…..negotiate). Performance 3. Be very careful testing in an operating facility. Coordinate, communicate, Testing and be ready to shut the test down at any point if there is an issue that will effect facility operations. & 4. Trends (history) are usually more informational that the FPT’s (snapshot). Trending Always setup trending (of multiple, related equipment/systems) to start at same time, record same snapshot (every 5 minutes, every 15 minutes, etc.) and always ALWAYS trend outdoor air temperature. 45 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "1. Functionally test all new equipment, same as you would test under a NCCx\nEBCx for Data contract.\nCenters\n2. Functionally test all systems that were modified (not just the modifications\nthemselves). Understand that the further you go “back” into a system, the\ngreater the risk for operational issues with equipment/systems you\nFunctional\nconnected to (discuss w/Owner…..negotiate).\nPerformance\n3. Be very careful testing in an operating facility. Coordinate, communicate,\nTesting\nand be ready to shut the test down at any point if there is an issue that will\neffect facility operations.\n&\n4. Trends (history) are usually more informational that the FPT’s (snapshot).\nTrending\nAlways setup trending (of multiple, related equipment/systems) to start at\nsame time, record same snapshot (every 5 minutes, every 15 minutes, etc.)\nand always ALWAYS trend outdoor air temperature.\n45\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 46,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| 1. Start with a Training Plan months ahead of the actual training sessions 2. Focus on the quality and experience of the trainers during planning EBCx for Data 3. Focus on training needs of the O&M Staff Centers 4. Train on all new equipment, modifications to existing AND overall operation of the facility (remember why you were asked here to begin with) Facilities Staff Training 5. Spend time reviewing documentation (As-Builts, Systems Manual, O&M’s) 6. Help facilitate PM if necessary 7. Verify training effectiveness at the end of each session 8. Develop a transitional phase program (training wheels) for the first year 46 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "1. Start with a Training Plan months ahead of the actual training sessions\n2. Focus on the quality and experience of the trainers during planning\nEBCx for Data\n3. Focus on training needs of the O&M Staff\nCenters\n4. Train on all new equipment, modifications to existing AND overall\noperation of the facility (remember why you were asked here to begin\nwith)\nFacilities Staff\nTraining 5. Spend time reviewing documentation (As-Builts, Systems Manual, O&M’s)\n6. Help facilitate PM if necessary\n7. Verify training effectiveness at the end of each session\n8. Develop a transitional phase program (training wheels) for the first year\n46\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 47,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| EBCx for Data Centers 1. Schedule IST immediately following Training 2. Use the IST as a final verification of Operator Training (dry run on handling emergency operation) Finish with an IST 3. Be very aware of resistance to “cut” utility power in an operating facility. Work the issue and don’t back-down on the necessity of an IST 47 SERBCA 24/7 CONFERENCE 2019 WORKSHOP |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "EBCx for Data\nCenters 1. Schedule IST immediately following Training\n2. Use the IST as a final verification of Operator Training (dry run on handling\nemergency operation)\nFinish with an\nIST 3. Be very aware of resistance to “cut” utility power in an operating facility.\nWork the issue and don’t back-down on the necessity of an IST\n47\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 48,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| THE FINISH LINE! WRAP-UP COMMENTS & QUESTIONS Thank You Craig A. Hawkins, CCP BCA University Sr. Trainer Commissioning Project Director, McKinstry, Seattle, WA (206) 963-3081 craigh@mckinstry.com |  |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "THE FINISH LINE! WRAP-UP COMMENTS\n& QUESTIONS\nThank You\nCraig A. Hawkins, CCP\nBCA University Sr. Trainer\nCommissioning Project Director, McKinstry, Seattle, WA\n(206) 963-3081\ncraigh@mckinstry.com",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 48,
+    "title": "“Data Center Commissioning and Integrated Systems Testing”",
+    "author": "Craig Hawkins",
+    "subject": "",
+    "creator": "Microsoft® PowerPoint® 2016"
+  },
+  "full_text": "Event Sponsored By:\n“Data Center Commissioning and \nIntegrated Systems Testing”\n9th Annual SERBCA Technical Summit\nPresented by: Craig A. Hawkins, CCP\n\n| AGENDA\nIntegrated Systems Testing\nIST: Definition, Purpose & Goals\nIST Process; Planning, Writing and Reviewing\nImplementing the IST\nIST Challenges\nThose IST “Ah-ha” moments\nDataCenter Cx – New Construction\nPerceived change in Cx focus\nImportance of Facilities Staff in Design Development & Reviews\nSite Observations & Functional Testing\nPlanning and implementing the IST\nDataCenter Cx – Existing Building\nExisting Documentation Search \nSite walks, Investigations & Analysis\nFIM Implementation\nComponent & Systems Testing\nPlanning and implementing the IST\nWrap-Up Comments & Questions\n\nDid you \nknow….\n\nThis is NOT what we want!\n\nINTEGRATED SYSTEMS TESTING\nIST Overview\no Definition\no Purpose\no Goals\no IST versus FPT\no Pre-Planning\no Planning\no Creating IST Documents\no Getting Approval for IST\nAKA: “Pull The Plug” Test\n\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 6\nDefinitions of IST:\no\nIntegrated Systems Test (Loss of Power Test) is the simulated (controlled) loss of \nutility power and the verification of anticipated correct systems performance of all \nbuilding systems under that loss of normal power, as well as the verification of those \nsystems automatic return to designed function upon restoration of normal power.\no\nAn IST Program (Regularly scheduled repeats of the IST) will ensure continuous \nassurance of the facilities reliability.\nDefining \nIntegrated \nSystems Testing\n\nPurpose and \nGoals of \nIntegrated \nSystems \nTesting \nPurposes of an IST:\no\nBridges gaps between electrical inspections, generator load bank testing, and routine \ngenerator testing. \no\nVerifies that all powered equipment and systems have been tested under load, with \npower cut as close to the main utility feed as safety and best practices allow.\no\nIdentifies issues occurring at all powered systems while on emergency power as well \nas any issues upon return to normal power.\no\nVerification of automatic control under all emergency conditions without human \nintervention or assistance.\n\nDefining \nIntegrated \nSystems \nTesting \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 8\nGoals of an IST:\no\nVerifies all intended system responses and conditions, including staff response.\no\nVerifies that emergency contacts and emergency response team is accessible and \nready (to handle any unintended system or occupant responses).\no\nAs a final step, includes corrective actions and a MOP response plan that includes \nsignage, instructions and feedback from the IST test.\no\nProven confidence in systems reliability under all conditions, manned or not.\no\nVerification of all automatic emergency call-out procedures.\nPurpose and \nGoals of \nIntegrated \nSystems \nTesting\n\nPurpose and \nGoals of \nIntegrated \nSystems \nTesting \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 9\nObject Under Test\no FPT: Single pieces of equipment or dependent pieces of a sub-system.\no IST: All building systems and all pieces of MEP equipment all at once.\nTest Procedure\no FPT: Simplified test steps to verify mostly control or functionality of each piece of \nequipment, individually, under all modes of operation. Basically; Verification of BMS \n“control” and individual performance of each piece of equipment. Repeatable.\no IST: Complex step-by-step process with checks and an “Exit Plan” at each step. \nWritten as an MOP. Repeatable.\nTest Participants\no FPT: Usually just BMS contractor and CxP, with aid of installing contractors, often \nO&M Staff (if available).\no IST: A large, organized, focused troop of 3rd party individuals who understand all \noperational aspects of the entire facility and it’s functioning MEP systems.\nCondition of Facility at Time of Test\no FPT: Unfinished, under construction\no IST: Facility completed, all construction completed.\nFunctional \nPerformance \nTesting \nVersus\nIntegrated \nSystems Testing\n\nIntegrated \nSystems Test\nPre-Planning \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 10\nPrepare for the Planning Sessions:\no\nPut your IST Planning Team together, which should include:\no\nO&M Staff Members (at a minimum, the Chief Operating Engineer, but better with \nall operators).\no\nEngineers of Record (Mech & Elec)\no\nKey member of GC Team, usually the MEP Coordinator. \no\nKey equipment vendor reps, usually Generator, UPS & Switchgear.\no\nCreate a “Planning Plan” that describes, in detail, the planning process, purpose, \ngoals, IST planning meeting schedule, timeline with critical milestones and a Roles & \nResponsibilities matrix. KEEP IN MIND; MOST, IF NOT ALL, OF THE IST TEAM \nMEMBERS HAVE NEVER BEEN THOUGH AN IST. THEY ARE COUNTING ON YOU TO \nLEAD THEM. IN THEIR MIND, THIS IS “YOUR” TEST.\no\nSchedule at least 4 IST planning meetings, usually 2 weeks apart, to allow team \nmembers to complete their IST planning assignments AND manage their normal \nworkloads. Agree on dates and times AND DO NOT MOVE THEM! \no\nPrepare yourself to lead the meetings. You are in charge of the flow, so be in the \nknow (about everything IST!)\no\nGather all info needed for a Systems Manual BEFORE the IST Planning Meetings. This \nis a huge change from the “normal NCCx Process” Build the Systems Manual from \nthe design documents prior to start of construction. It will change, but having a \nDRAFT version will be of tremendous help in planning the IST.\n\nIntegrated \nSystems Test \nPlanning\n#1 \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 11\nPlan, plan and more planning:\no\nStart with a detailed, quality Systems Manual to understand how building systems \nfunction and are related/dependent on each other.\no\nClarify procedure for safely interrupting utility service connections at switchgear.\no\nConfirm all transfer timings via FPT’s. Document, document, document.\no\nWhen testing UPS batteries under individual FPT’s pay particular attention to battery \ndraw-down duration under load. When planning OST, do not run UPS batteries down \nmore than 60%. If gen start, sync and transfer takes longer than 60% timing, stop test \nand re-evaluate.\no\nConsider creating a detailed flow-chart as a planning tool to capture expected reaction to \neach step and to help illustrate fast, safe, exit plans for each and every step. At a \nminimum, create a Memo of Understanding that outlines goals what is to be tested. \nOnce approved, roll into MOP type test form\nand….\n\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 12\nPlan, plan and more planning:\no\nIST’s are written in a format of an Method Of Procedure (MOP) where there is one \nAND ONLY one action per step, with clear indication of acceptable action (Pass/Fail) \nfor each step and a clearly thought out, and agreed upon “Exit Procedure” for each \nstep for when something comes wrong (and it will).\no\nInclude all Pre-Test Tasks as a checkoff list, verified by 2 independent parties.\no\nConsider making the IST a condition of successful turnover, include language \nsupporting the IST in EVERY project contract and include allotted time on GC’s Master \nBuild Schedule (including allowance for IST “Issues”).\no\nSecure load banks if facility has no load (yet).\no\nVerify amount of stored fuel and have procedures for procuring more in place.\nand….\nIntegrated \nSystems Test \nPlanning\n#2\n\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 13\nPlan, plan and more planning:\no\nCreate an “IST Team Organizational Chart” so that everyone on the team knows \ntheir roles and responsibilities, and everyone else’s too.\no\nSenior CxP is the IST Team Leader. The CxP alone directs the action and has \nultimate “Go/No-Go” authority.\no\nFellow CxP’s and O&M Staff carry out step-by-step actions, project engineers are \nwitnesses and contractors are “runners” as need be, equipment vendors are on \nstandby for informational support as necessary.\no\nMake it clear from the very beginning, and reiterate as necessary, the IST must be \nrun from start to finish without interruption to be considered a success. Any \nfailure of any step, no matter how small or seemingly insignificant, requires the \nIST to stop, the exit plan at that step initiated and utility power restored until \nrepairs are made and then the IST starts over AT THE BEGINNING.\nand….\nIntegrated \nSystems Test \nPlanning\n#3\n\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 14\nPlan, plan and more planning:\no\nPlan not only the actual IST but also the Assigned Witness Plan:\no\nWho is assigned each observation zone.\no\nWhat they are expected to see at each step (usually nothing at most zones).\no\nWhat their Radio Number is (usually same as Zone Number).\no\nWho is their backup in case they cannot be at the scheduled test date and time.\no\nIf the zone is large enough, consider adding at least one or two “runners” to assist.\no\nSelect witnesses according to their level/area of expertise and make sure they all \nunderstand the critical nature of the IST. Ensure they know how to properly use \nthe radios and are able to remain calm and quiet throughout the test. In most \ncases, most witnesses will have little to nothing to report after each test step, \nwhich means they need to stay sharp for hours of inactivity.\no\nConsider a “dress rehearsal” at least 2 days prior to the scheduled IST to do a radio \ncheck with the actual witnesses assigned.\nIntegrated \nSystems Test \nPlanning\n#4\n\nWriting an \nIntegrated \nSystems Test \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\no\nWriting an IST \no\nWriting an IST Procedure is a little like writing out a cooking recipe; you start \nwith a list of ingredients, then move into the actual preparations steps, then \n“serving” instructions.\no\nIST Deliverables (List of Ingredients):\no\nIST Goal & Task Overview (for team approval)\no\nIST Flow Diagram (for IST Script Planning)\no\nIST Communications Plan (for team approval)\no\nIST Pre-Test Checklist (for 1-week look ahead)\no\nIST Test-Day Checklist (for day before)\no\nIST Script (for test day use)\no\nIST Corrective Action List (Post IST)\no\nIST Final Report (Post IST)\n\nCreating \nIntegrated \nSystems \nTest\nDocuments \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\no\nIST Flow Diagram:\no\nFor planning only\no\nElectronic whiteboarding\no\nA method to graphically illustrate the “flow” of the test\no\nAllows for capturing ideas for safe test stoppage (exit plan)\no\nIST Communications Plan:\no\nCommunications Overview\no\nEquipment to be used\no\nAcceptable communications procedures\no\nUnacceptable communications methods (list of “No-No’s”)\no\nBack-Up plans (for when Mr. Murphy shows up)\no\nSingle Command Authority (Hint: CxP)\no\nSignature lines for approval by ALL IST Team Members\n\nCreating \nIntegrated \nSystems \nTest\nDocuments \nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\no\nIST Script:\no\nWritten as a “Method Of Procedure” where each step includes:\no\nTiming of Step\no\nTime period (hour/minute) of when test step should occur (WHEN)\no\nDuration of time to complete step including all-call\no\nAction of Step\no\nDescription of actual test step (WHAT)\no\nTeam Member Assignments\no\nTeam Member to initiate test step & Team Members who report on \nreaction (WHO)\no\nAnticipated Reaction to Step\no\n“Correct” automatic reaction of system(s) to test step (SYSTEM \nRESPONSE)\no\nSafe “Step-Stoppage” procedure\no\n“SAFE STOP – EXIT PLAN)\n\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\nCreating \nIntegrated \nSystems \nTest\nDocuments \no\nIST Pre-Test Checklist (up to a week ahead of IST)\no\nChecklist of things that must be in place prior to IST, including:\no\nVerification of Generator Fuel level\no\nVerification of all FPT’s completed\no\nVerification of all Issues resolved\no\nSign-off by all IST Team Members of IST Procedure Script\no\nSign-off by IST Team members of their specific IST Equipment responsibilities\no\nIST Test-Day Checklist (day before):\no\nLast minute check of all IST Team Member’s readiness for IST\no\nLast minute Pre-Test Check-In arrangements (time, location)\no\nVerification of radios (quantity, full-battery charge)\no\nVerification of Comm-Check (radio coverage, channel strength)\no\nVerification of back-up representatives in case of last-minute personnel “issues”\no\nVerification of “Notice to Test” to local FD, local utility, security firm, all on-site \npersonnel.\no\nT-Minus 24 site verification\n\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP\n\nCreating \nIntegrated \nSystems \nTest\nDocuments \no\nIST Corrective Action List:\no\nFormal name for “IST Only Issues Log”\no\nIST Final Report:\no\nSummary of IST disposition (Pass/Fail)\no\nSummary of all IST activities (History)\no\nCopies of all IST Deliverables\no\nList of recommendations for future (repeat of IST, more training, etc.)\n\nReviewing and \napproving an \nIntegrated \nSystems Test \nprocedure\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 20\nReviewing the IST Plan\no\nPrior to implementation of the IST, the IST Procedure MUST be unanimously\napproved by all Team Members and the Owner (Reps).\no\nEven though the Team met (several times) to generate the IST Procedure, each IST \nTeam Member should be given time to review the procedure with their own “in-\nhouse” teams.\no\nIncluded with the actual IST Procedure, attached to the front, should be a “Cover \nSheet” that outlines:\no Purpose and goals of the IST.\no List of IST Planning Members, including space for their wet-ink initials approving \nthe final version.\no Timeline for the test.\no The IST Communications Plan.\no The Pre-IST Checklist.\no List of all required equipment for IST and who is responsible for each item.\no\nThe critical nature of the IST mandates that time for review and approval is just as, if \nnot more so, important as all the planning. Review and approval sets the IST into \nfinal motion and everyone involved must be “on-board” with the Final IST Procedure.\n\nDATA CENTER Cx –\nNEW CONSTRUCTION\nDCCx – New Construction Overview\no Change in Focus\no Involving O&M Staff Early\no Site Observations & Functional Testing\no Planning and Implementing the IST\n\nNCCx for Data \nCenters\nA slight change \nin focus\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 22\n1.\nReliability (Uptime) trumps all.\n2.\n“Creature Comfort” not really an issue.\n3.\nFocus on understanding, documenting and getting FULL TEAM approval on \nthe “Critical Path” (what’s on emergency generator load).\n4.\nPay attention to how redundant (+1) equipment operates:\na. Off, on standby?\nb. On, sharing load?\n5.\nProtocols? PM’s? How organized are they? What will they use in the \nfuture (SOP)?\n….Pro’s & Con’s?\n\nNCCx for Data \nCenters\nA different kind \nof Cx Design \nReview\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 23\n1.\nFocus on power, normal and emergency\n2.\nFocus on redundancies\n3.\nStart with a Systems Manual (normally at the end)\n4.\nInclude Facilities and IT Teams in Design Development and Design \nReviews\n5.\nIdentify “Single Points of Failure”\n6.\nFocus: “It’s all about Uptime”.\n\nNCCx Design \nReviews\nGeneral Notes\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 24\nWhy NCCx Design Reviews? \nJust because it can be drawn, doesn’t mean it can be built!\n\nNCCx Design \nReviews\nData Centers\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 25\nDesign Reviews specific to Data Centers\na. Electrical System\ni. Single points of failure\nii. Documented Critical Path\niii. UPS (Duration without Generator)\nb. Generators & Emergency Fuel System\ni. Size of generator\nii. Types of fuel\niii. Location, location, location\niv. Fuel Storage & Delivery\nc. Mechanical-HVAC\ni. White Space operating temperature\nii. Hot Aisle/Cold Aisle containment\niii. UFAD\niv. Rack Coolers\nv. CRAC Units\nvi. +1\n\nNCCx for Data \nCenters\nManaging Cx \nIssues as a \nTeam\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 26\n1.\nReview and solve each Cx noted issue as a team (Owner, O&M Staff, \nIT, GC & CxP at a minimum).\n….Why is this “Team Concept” critical for DC’s?\n\nNCCx for Data \nCenters\nFunctional \nPerformance \nTesting\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 27\n1.\nStart on smallest component level and work up through sub-systems \nthen systems.\n2.\nWe all try to resolve all Cx Issues on every project, but there are \nusually a few that linger past Occupancy date, however…….. When \ncommissioning a DC (or any other Mission Critical facility) ALL ISSUES \nMUST BE RESOLVED BEFORE THE IST!!! And if Occupancy is dependent \non the IST being finished prior to Move-In, then solve issues ASAP, do \nnot let the team put them off (typical).\n\nNCCx for Data \nCenters\nFacilities Staff \nTraining\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 28\n1.\nStart with a Training Plan months ahead of the actual training sessions\n2.\nFocus on the quality and experience of the trainers\n3.\nSpend time reviewing documentation (As-Builts, Systems Manual, \nO&M’s)\n4.\nHelp facilitate PM if necessary\n5.\nVerify training effectiveness at the end of each session\n6.\nDevelop a transitional phase program (training wheels) for the first year\n\nNCCx for Data \nCenters\nFinish with the \nIST\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 29\n1.\nSchedule IST immediately following Training\n2.\nUse the IST as a final verification of Operator Training (dry run on \nhandling emergency operation)\n\nDATA CENTER Cx –\nEXISTING BUILDINGS\nEBCx – Existing Building Overview\no Existing Documentation Search\no Involving O&M Staff in CFR\no Site Walks, Investigating, & Data Analysis\no Implementing FIM’s\no Planning and Implementing the IST\n\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 31\n1.\nAlways, ALWAYS, remember “You are the visitor, the alien in their foreign land”. You work \naround their schedules, you respect their “rules”. Be non-obtrusive and respectful at all times \nto everyone.\n2.\nWhen you meet with the Owner, before you walk the facility, ask how you should respond \nwhen the occupants ask “What are you doing and why?” (and they will ask!) Work out an \nacceptable response BEFORE you start the inspection.\n3.\nWhen walking the facility and talking to people, always ask permission first (“Excuse me, can I \nask you a quick questions…?”) and be ready when they say “No, sorry, I’m too busy”. Keep the \nconversations with them as brief as possible. THEY HAVE WORK TO DO (and so do you).\n4.\nDO NOT EVER voice a critical opinion. You might round a corner and want to blurt out “WTF \nwere they thinking!?!” but don’t!\n5.\nSpecifically ask the Owner and IT Lead about their 1 year, 5 year and 10 year plans. \nExpansions, changes to racks, changes to servers, etc. Get to know their current operation \nAND their future plans.\n6.\nAsk first if photography is allowed within the white space. Many CoLo’s don’t allow \nphotography of their tenants cages.\nEBCx for Data \nCenters\nWorking in a \ncompleted and \noperating \nfacility\n\nEBCx for Data \nCenters\nUnderstanding \nthe facilities \noperation….\n….and \noperators!\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 32\n1.\nAs with any EBCx Project, start with creating a CFR, however, with operating DC’s, get the \nOwner together with key members of the O&M Staff and interview both together to establish \nhow the facility “really” operates.\n2.\nIn the first meeting with the Owner, ask how they want to see the FIM’s list (ROM, Certified \nEstimates, etc.??)\n3.\nDuring the CFR interview, try to get an idea of where the trouble spots are (and if you can, \nwhy are there trouble spots).\n4.\nRemember…everyone has their own personal agenda, so take everything you hear with a \ngrain of salt. Listen, then verify.\n5.\nS. O. A. P. \n6.\nOnce you finish with the CFR and start your investigation, don’t forget that you are \ninvestigating the facility, the MEP Systems AND the Operators:\na.\nWhat is their level of expertise?\nb.\nHow do they document maintenance?\nc.\nWhat is the condition of their tools and working spaces?\nd.\nWhat is their working relationship with the Owner?\ne.\nDo they employ “band-aid” quick fixes or do they try to do the right thing?\n7.\nA common FIM is “O&M Staff need more training” so don’t be shocked, you’ll see.\n….What’s S O A P?\n\nEBCx for Data \nCenters\nInvestigation \nPhase\n…be ready for \nanything….\n…..especially \nthe Good, the \nBad and the \nUgly!\n…..or worse than ugly)….\n……yep, it’s out there, \n….waiting for you!\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 33\n1.\nStart at Central Plant and then walk distribution systems.\n2.\nAs you are walking through a facility, use almost(**) all your senses:\na.\nLook\nb.\nListen\nc.\nSmell\nd.\nTouch\n3.\nKeep in mind; you are in an operating DC, sometimes 10 – 15 years old, so you will run into \nspaces so cold you can hang meat inside. Many older IT teams still think “the colder, the \nbetter”. Be nice! They know not what they should!\n4.\nTry to visualize airflow and once you understand the flow, go verify it.\n5.\nQ=The #1 Key to doing a High Quality Site Investigation of an operating facility? \nA=Always ask “WHY?” Why is that doing that? Why isn’t that working? Why? Why?\n……and once you ask “Why” be ready for the answer……be ready for anything!\n(** Just don’t go around licking air handlers and CRAC units!)\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 34\nWhen you ask the \nFacilities Director of a 5 \nyear old datacenter \n“Can you show me \nyour “Central Plant?” \nand he walks you up to \nthe roof and this is \nwhat you see……\nyou know it’s going to \nbe a good day!\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 35\nWhen you are walking around the rooftop air-cooled chillers and ask \nthe Facilities Director “What’s with the Jobboxes and the storage sheds \nup here?” and he shows you his “Cleaning Sheds” and tells you about \nthe “Service Parts & Tools Jobboxes”…………\nyou know it’s going to be a good day!\n….and the built-in \nequipment \nlift…that’s just a \nbonus!\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 36\nWhen you ask the Facilities \nDirector of a 7 year old \ndatacenter “How does your \nCHW System work?” and \ninstead of pulling out an As-\nBuilt, a Systems Manual or \neven showing you the CD’s \nFlow Diagram…….\nhe goes to the whiteboard \nand starts drawing…….\nyou know it’s going to be a \nlong day!\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 37\nWhen you ask the Facilities Director of a 7 year old datacenter “How‘s your UFAD working for you”…..he then \nasks “What’s UFAD?” and then you pull tiles and find a “rats nest”…….\nyou know it’s going to be a long day!\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 38\nWhen you ask “What’s your biggest issue with the mechanical system?” and the O&M Staff all say “We just \ncan’t seem to hold pressure in our UFAD system”…………\nYou walk the white space and see this (all in one facility).\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 39\nThe O&M Staff just couldn’t figure out why the airflow in this room was “less than what they expected”. The just \ncouldn’t figure it out.\nMaybe if you didn’t put the floor vents under a desk……. \nor cover another with a desktop PC tower……. \nI don’t know, just a suggestion……..\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 40\nSo, let’s just put \nfloor diffusers \nanywhere we want \nthem, regardless of \nthe fact that the \nclosest racks are 10 \nfeet away!\nThis is one of my favorite DC photos. \nA little hard to see, but look just \nbehind the CRAC unit (on the right), on \nthe floor.\n….What’s the issue here?\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\n…..the WTF?\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 41\n….wooden ductwork? Really?\n….So that’s where \nthat noise was \ncoming from!\nFirst, they leave a note and walk away (what was more important?), secondly, they discovered these issues on \nDecember 10, 2010 (see stickers in photo) and we found this on our walkthrough on May 5, 2011……\n5 months of ignored service/maintenance. Wish I could say this was unusual, but it isn’t.\n\nEBCx for Data \nCenters\nInvestigation \nPhase\nThe Good, \nthe Bad, \nthe Ugly……..\n……..OMG!!\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 42\nThey couldn’t figure out why they couldn’t hold the \nUFAD pressure and why their chiller was working so \nhard.\nI found 4 holes through the outside wall, under the \nraised floor, \n…………all 10” wide x 15” tall!\nAs I was walking through the white space of a 4 year \nold Data Center in Dallas, I kept hearing a “popping” \nsound.\nI started pulling tiles and found thousands of crickets \ncoming into the raised floor from cracks in the \nexterior walls! Crickets in a DC!\n\nEBCx for Data \nCenters\nInvestigation \nData Analysis\n&\nFIM Report\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 43\n1.\nAsk for help if you need it to:\na. Calculate operational costs\nb. Calculate energy savings\nc.\nEstimate demo and implementation costs\nKnow your limitations and “stay in your swim lanes”. Find an Energy Engineer to \nhelp with operational and savings costs, partner with a good GC or Estimating Firm \nfor implementation estimates. \nHeads Up!! Remember (at the beginning) when you asked the Owner how he \nwanted to see the FIM’s (ROM, Guesstimates, Certified, etc.?) Well, here is where \nit becomes important….present the FIM’s and costs AS THEY REQUESTED!\n\nEBCx for Data \nCenters\nImplementing \nFIM’s\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 44\nOnce the FIM’s have been selected by the Owner, the implementation “looks \nlike” a normal NCCx effort:\na. Design & Design Reviews\nb. Submittal Reviews\nc. Site Observation & Issue Management\nd. Start-up & TAB Review\ne. Functional Testing\nf. Training & Systems Manual\nExcept it isn’t a “normal NCCx effort”…….. \n….Why isn’t it a normal NCCx effort?\n\nEBCx for Data \nCenters\nFunctional \nPerformance \nTesting \n& \nTrending\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 45\n1.\nFunctionally test all new equipment, same as you would test under a NCCx \ncontract.\n2.\nFunctionally test all systems that were modified (not just the modifications \nthemselves). Understand that the further you go “back” into a system, the \ngreater the risk for operational issues with equipment/systems you \nconnected to (discuss w/Owner…..negotiate).\n3.\nBe very careful testing in an operating facility. Coordinate, communicate, \nand be ready to shut the test down at any point if there is an issue that will \neffect facility operations.\n4.\nTrends (history) are usually more informational that the FPT’s (snapshot). \nAlways setup trending (of multiple, related equipment/systems) to start at \nsame time, record same snapshot (every 5 minutes, every 15 minutes, etc.) \nand always ALWAYS trend outdoor air temperature.\n\nEBCx for Data \nCenters\nFacilities Staff \nTraining\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 46\n1.\nStart with a Training Plan months ahead of the actual training sessions\n2.\nFocus on the quality and experience of the trainers during planning\n3.\nFocus on training needs of the O&M Staff\n4.\nTrain on all new equipment, modifications to existing AND overall \noperation of the facility (remember why you were asked here to begin \nwith)\n5.\nSpend time reviewing documentation (As-Builts, Systems Manual, O&M’s)\n6.\nHelp facilitate PM if necessary\n7.\nVerify training effectiveness at the end of each session\n8.\nDevelop a transitional phase program (training wheels) for the first year\n\nEBCx for Data \nCenters\nFinish with an \nIST\nSERBCA 24/7 CONFERENCE 2019 WORKSHOP 47\n1.\nSchedule IST immediately following Training\n2.\nUse the IST as a final verification of Operator Training (dry run on handling \nemergency operation)\n3.\nBe very aware of resistance to “cut” utility power in an operating facility. \nWork the issue and don’t back-down on the necessity of an IST\n\nThank You\nCraig A. Hawkins, CCP\nBCA University Sr. Trainer\nCommissioning Project Director, McKinstry, Seattle, WA\n(206) 963-3081\ncraigh@mckinstry.com\nTHE FINISH LINE! WRAP-UP COMMENTS\n& QUESTIONS",
+  "errors": [],
+  "removed_noise_lines": []
+}

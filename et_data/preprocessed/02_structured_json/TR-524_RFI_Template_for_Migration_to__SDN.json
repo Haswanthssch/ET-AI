@@ -1,0 +1,948 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\04_Project_Communications\\RFIs\\TR-524_RFI_Template_for_Migration_to__SDN.pdf",
+  "filename": "TR-524_RFI_Template_for_Migration_to__SDN.pdf",
+  "category": "RFIs",
+  "parent_category": "04_Project_Communications",
+  "extracted_at": "2026-06-29T19:57:46.456633",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Request for Information (RFI)\nTemplate for Migration to\nSoftware Defined Networking\n(SDN)\nVersion 1.0\nFebruary 9, 2016\nONF TR-524",
+      "char_count": 129
+    },
+    {
+      "page": 2,
+      "text": "ONF Document Type: Technical Recommendation \nONF Document Name: Request for Information (RFI) Template for Migration to Software Defined Networking (SDN) \nDisclaimer \nTHIS SPECIFICATION IS PROVIDED “AS IS” WITH NO WARRANTIES \nWHATSOEVER, INCLUDING ANY WARRANTY OF MERCHANTABILITY, \nNONINFRINGEMENT, FITNESS FOR ANY PARTICULAR PURPOSE, OR \nANY WARRANTY OTHERWISE ARISING OUT OF ANY PROPOSAL, \nSPECIFICATION OR SAMPLE. \nAny marks and brands contained herein are the property of their respective owners. \nOpen Networking Foundation \n2275 E. Bayshore Road, Suite 103, Palo Alto, CA 94303 \nwww.opennetworking.org \n©2016 Open Networking Foundation. All rights reserved. \nOpen Networking Foundation, the ONF symbol, and OpenFlow are registered trademarks of the \nOpen Networking Foundation, in the United States and/or in other countries. All other brands, \nproducts, or service names are or may be trademarks or service marks of, and are used to identify, \nproducts or services of their respective owners.",
+      "char_count": 999
+    },
+    {
+      "page": 3,
+      "text": "Table of Contents \n1. Introduction ............................................................................................................................................ 4 \n1.1 RFI Template Development Objective ........................................................................................... 4 \n1.2 Intended Audience and Updates .................................................................................................... 4 \n1.3 Terminology ................................................................................................................................... 5 \n2. Architecture for SDN Migration ............................................................................................................ 7 \n3. Operator Type and Identity Information .............................................................................................. 9 \n4. Considerations for Gathering Information ........................................................................................ 11 \n4.1 General Migration Requirements ................................................................................................. 11 \n4.2 SDN Migration Solution Requirements ........................................................................................ 13 \n4.3 SDN Migration Device and Function Requirements ..................................................................... 13 \n4.3.1 Common Set of Requirements .......................................................................................... 13 \n4.3.2 Industry/Service Specific Requirements ............................................................................ 16 \n5. Conclusions ......................................................................................................................................... 18 \n6. Acknowledgements ............................................................................................................................. 19 \n7. Revision History ................................................................................................................................... 19 \n8. References ............................................................................................................................................ 20 \nAppendix A: SDN Migration Prototyping Results ................................................................................. 21 \nContributors ............................................................................................................................................. 24",
+      "char_count": 2585
+    },
+    {
+      "page": 4,
+      "text": "1 1. Introduction \n1.1 RFI Template Development Objective \nA request for information (RFI) is a standard business process whose purpose is to collect \nwritten information about the capabilities of various suppliers, vendors, or providers. Normally it \nfollows a format that can be used for comparative purposes, and is usually a preliminary activity \nin an acquisition or deployment process. The objective of this document is to offer a generic \nRequest for Information (RFI) template for the Operators and Service Providers who are at the \nearly stage of use case [1] based migration from a traditional network to a Software Defined \nNetwork (SDN [2, 3]). \nThis document also attempts to describe the challenges that the network operators must address \nfor migration from a traditional network to an SDN based architecture. The migrated network \nmay contain both traditional and SDN based networking elements in order to facilitate multi-\nphase migration to full SDN based system. \n1.2 Intended Audience and Updates \nThis RFI template is intended to serve as a guideline for network services operators who are \nconsidering gathering information on migrating to SDN based network architectures, in \nparticular when OpenFlow is used as the protocol for the interface between separated control and \ndata planes. \nSince SDN capabilities of interest may be different for various network segments and the \nrespective operators, the first section of this RFI allows the operators to describe their interest to \nthe vendors and provide information about their existing operations and architecture. \nThis allows the solution providers and vendors to be more precise in answering the questions \nrelated to their equipment capabilities. \nIt is expected this document will be updated frequently as the requirements and use cases evolve.",
+      "char_count": 1825
+    },
+    {
+      "page": 5,
+      "text": "1.3 Terminology \nThe terminology used in this document is based on those in the Architecture documents [3]. \nAPI: Application Programming Interface – an Interface that can be directly called by software. \nApplication-Controller Plane Interface (A-CPI) / North-Bound Interface (NBI): An Interface \nPermitting SDN Clients to interact with the network via SDN Controllers. \n(SDN) Controller Plane: The architectural plane (layer) performing logically centralized control \nand management of physical and virtual network elements/resources. \nData-Controller Plane Interface (D-CPI)/ South-Bound Interface (SBI): An Interface through \nwhich a real or virtual NE can be controlled / configured / managed (e.g. OF-Config / \nNetconf), monitored (e.g. SNMP or sFlow), or have its forwarding behavior influenced \nby an external entity (e.g. by an SDN Controller via OF-Switch). \nDomain: A set of Network resources that is controlled in some sense by a specific entity: an \nadministrative domain is administered by the entity, a business domain is owned by the \nentity, etc. (Although not the norm, multiple entities can in some cases jointly control a \ndomain.) \nInterface: A mechanism to permit software / hardware entities to interact, either within a \nprocessor / element (API) or between processors (RPC Interface / Protocol Interface). \nInter-SDN-Controller Interface: An interface permitting SDN Controllers to interact, either \nwithin the same administrative domain (intra-domain) or between administrative domains \n(inter-domain). \nIP / IPv4 / IPv6: Internet Protocol / IP version 4 / IP version 6. \nMPLS / MPLS-TP: Multi-Protocol Label Switching / MPLS Transport Profile. \nNetwork Element (NE): An instance of network resources that is managed as a unit. The \ninstance terminates/originates traffic and/or process traffic for forwarding the traffic \nflows. Examples include an OpenFlow switch, a web server, an L2 switch, an L3 router, a \nfirewall, a load balancer, etc. \nNetwork Function (NF) / Network Service (NS): A specific data plane traffic-processing \nfunction (or set of functions) performed by the network, e.g. load balancing, network \naccess control, content caching, etc. Some use the term Network Service for a set of \nassociated individual Network Functions. \nNFV: Network Functions Virtualization.1 \n1 ETSI/ISG NFV, http://www.etsi.org/technologies-clusters/technologies/nfv",
+      "char_count": 2388
+    },
+    {
+      "page": 6,
+      "text": "OF-Config Protocol: An ONF protocol that addresses the interface between an SDN Controller \nand a physical network element (physical switch). \nOF-Switch Protocol (formerly known as OpenFlow Protocol): An ONF protocol that addresses \nthe interface between an SDN Controller and a logical switch. Together with the OF-\nConfig Protocol, this represents an instance of a Data-Controller Plane Interface \n(Southbound Interface). \nOTN: Optical Transport Network. \nProtocol Interface (PI): An Interface implemented as a (network) protocol. \nSDN: Software Defined Networking. \nSDN Controlled: Controlled using SDN mechanisms (e.g. OF-Switch / OF-Config, with network \nresources being controlled by the logically centralized SDN Controller). \nSDN Controller: A software/hardware system performing logically centralized control and \nmanagement of network elements and offering network services to zero or more tenants \nor apps. The SDN controller may be physically implemented on a single platform, or it \nmay be physically distributed. \nSDO: Standards Development Organization. \nSNMP: Simple Network Management Protocol. \nTraditionally Controlled: Controlled using non-SDN mechanisms (typically using a distributed \ncontrol plane protocol like OSPF / STP, implemented on fully-distributed network \ncontrollers. \nTunnel: A tunnel transparently conveys client traffic (i.e., traffic using the tunnel) from an \norigination point to a termination point over an underlay network. \nVNF: Virtual Network Function.",
+      "char_count": 1497
+    },
+    {
+      "page": 7,
+      "text": "2 Architecture for SDN Migration \nA simple high-level SDN architecture is as shown in Figure 1a. \nFigure 1a: High-Level SDN Architecture \n(Source:https://www.opennetworking.org/images/stories/downloads/sdn-resources/white-\npapers/wp-sdn-newnorm.pdf ) \nAnother more generic, high-level SDN architecture is as shown in Figure 1b.",
+      "char_count": 327
+    },
+    {
+      "page": 8,
+      "text": "Figure 1b: High-Level SDN Architecture with Management Plane \n(Source: https://www.opennetworking.org/images/stories/downloads/sdn-resources/technical-\nreports/TR_SDN-ARCH-Overview-1.1-11112014.02.pdf ) \nThe above diagram shows a more detailed SDN architecture where it is possible to support \nintegration with a traditional (legacy) network via the operations support system (OSS) and \nmanagement plane elements.",
+      "char_count": 413
+    },
+    {
+      "page": 9,
+      "text": "Table-1 has high-level requirements for migration to SDN based network. The degree to which \nthese requirements need to be addressed may vary depending on the type of operator and the \nservices. \nTable-1: General Architecture Requirements for Migration to SDN \nRequirement \nNumber \nRequirement Description \nComments \nReq-Arch-01 \nSeparation of control and forwarding; apps and service may remain \na part of control domain initially \nReq-Arch-02 \nVirtualization, on if and as needed basis \nReq-Arch-03 \nLogical centralization of all of the controls; different controllers may \nmanage different network sections and domains including \ncontrolling the security of the physical and virtual devices \nReq-Arch-04 \nAutomation of provisioning and management \nReq-Arch-05 \nOrchestration and brokering of resources management. This may \nbe driven by application and service requirements \nReq-Arch-06 \nStability and survivability of the network and services \nReq-Arch-07 \nSupport of the SDN migration plan, seamlessly \nReg-Arch-08 \nSecurity Framework for Services and Controller Access \n3 Operator Type and Identity Information \nFlexibility of the SDN architecture allows any and all types of Operators and Service Providers \nto use, integrate with, and deploy both physical and virtual infrastructure based networked \nservices. It is very helpful for solution and equipment suppliers to know the type and identity of \nthe Operator in order to satisfactorily answer the requirements related queries. \nTable-2 focuses on operator type and identity related information (following page).",
+      "char_count": 1573
+    },
+    {
+      "page": 10,
+      "text": "Table-2: Operator Type and Identity Related Information \nOp Type \nIdentity No. \n Description \nComments \nOp-Type-01 \nOperator Type: \na.\nTraditional wireline or wireless or both types of operators\nb.\nData Center Operators to support content distribution,\nmobile audio/video/data services, analytics, storage and\nrecovery services, etc.\nc.\nEnterprise (both virtual and infrastructure based) Service\nProviders \nd.\nISPs, CSPs, and others (XSPs)\ne.\nVirtual operator (MVNO)\nf.\nCampus Networks (University, Hospital/Healthcare,\nFinance etc. networks)\ng.\nCloud Services Provider\nh.\nOthers (please be specific)\nOp-Type-02 \nExisting Network Architecture (migration candidate): \na.\nCPE devices\nb.\nAccess network\nc.\nEdge Network\nd.\nTransit Networks\ne.\nCore Network\nf.\nInterconnection networks\ng.\nSpecial Purpose Networks (e.g., GENI, I-2 regional\nnetworks, etc.)\nh.\nOthers (please be specific)\nOp-Type-03 \nIdentification of Migration Paradigms and Points \na.\nSoftware based Migration\nb.\nHardware up-date/-grade based Migration\nc.\nOther options, … … …\nOp-Type-04 \nUse of virtualization during/after Migration \na.\nTimeline for introducing virtualization\nb.\nRole of virtualization during/after Migration\nc.\nType of virtualization and orchestration infrastructure\nd.\nOthers …\nOp-Type-05 \nSite or PoP Requirements and Architecture, as/if applicable \na.\nInitial Phase\nb.\nTarget with timeline (3 year, 5 year, etc.)\nc.\nIntermediate Phases",
+      "char_count": 1418
+    },
+    {
+      "page": 11,
+      "text": "Op-Type-06 \nTesting and Certifications requirements for new equipment in \nthe network (self-testing or third-party facility for testing) \nOp-Type-07 \nSDN Controller being used or in plans, if known or if there is any \npreference of Open Source or others \nOp-Type-08 \nSoftware Stack to be used with on top of OpenFlow enabled \ncontroller/nodes, if known or if there is any preference \nOp-Type-09 \nTraining and (ONF) certification requirements for the migration \nteam \nOp-Type-10 \nAny requirements to integrate with existing Security Framework \nand Infrastructure \n4 Considerations for Gathering Information \nOnce an Operator selects a high-level SDN Architecture, both general and specific (to network \nand services) requirements must be satisfied before committing to any deployment phase. \n4.1 General Migration Requirements \nIn order to maintain the same level of service quality and user experience, the Operator may need \nto satisfy the following (Table-3) general migration requirements. \nTable-3: General Requirements for Migration to SDN \nRequirement \nNumber \nRequirement Description \nComments \nReq-Gen-01 \nContinued Interoperability: Interoperability between the existing \nnetworking infrastructure and the new SND infrastructure \nguarantees seamless service experience \nReq-Gen-02 \nDesired Level of Scalability: Initial deployment may need to be \nscaled for certain segments of the network; as the SDN capable \nelements are introduced throughout many segments of the \nnetwork, the scalability of the control plane elements will be \nrequired, and both hierarchical and peered sub-controllers may \nneed to be supported \nThe scalability of the value-added networking/service functions \nand forwarding elements may need a combination of both virtual \nand physical devices",
+      "char_count": 1776
+    },
+    {
+      "page": 12,
+      "text": "Req-Gen-03 \nDesired Level of Security: Deployment of SDN elements must \nnot impact the security policy of network operation; the \nprinciples and practices for securing SDN can be found in the \nONF Security WG documents \n(https://www.opennetworking.org/technical-\ncommunities/areas/services) \nDifferent levels of authentication and authorization are likely to \nbe needed for control, data, management, and operations planes \nEvent Logging and monitoring will be needed for audits and \nverification \nReq-Gen04 \nDesired Level of Resiliency and Fault Tolerance: In order to \nmaintain a desired level of resilient and fault-tolerant operations, \ndeployment of any or all components of SDN architecture must \nhandle errors, transient conditions, and component/element \nfailures gracefully \nHandling of Errors: The elements of SDN architecture must \nhandle the error scenarios and conditions gracefully without \nimpacting any other interface and network/service functions. Any \npropagation of error throughout other network functions \n/components must also be prevented or must be kept contained \nwithin a pre-specified (logical) boundary \nHandling of Transient Conditions: During any single- or multi-\nphase deployment of SDN architecture, both controller and \nforwarding elements must handle the transition phases gracefully. \nSome platforms may offer testing and verification of \nconfiguration of control and forwarding entities during the \ntransition (from legacy to SDN) period before committing any \nservice to SDN based operation \nSupporting High Availability: The SDN architecture is expected \nto offer a higher level of reliability and availability of services. \nThis must be maintained by incorporating appropriate 1:1 or 1:N \nlevel of redundancy in the critical elements — be it in the control, \ndata, or management plane \nReq-Gen-05 \nUnified Management and Monitoring: During initial deployment \nof SDN components, many adjunct configuration, bootstrapping, \nand in-/out-band control of network/service functions may be \nneeded in order to address the migration, repair and maintenance \nof network monitoring and operations management",
+      "char_count": 2139
+    },
+    {
+      "page": 13,
+      "text": "4.2 SDN Migration Solution Requirements \nTable-4 lists SDN migration requirements from a Solution perspective. \nTable-4: General SDN Migration Solution Requirements \nRequirement \nNumber \nRequirement Description \nComments \nReq-Soln-01 \nSDN domain solution prototyping (e.g., proof-of-concept) \nrequirements \nReq-Soln-02 \nSDN domain solution roll-out (test, verify, commit, roll-/fall-\nback) requirements \nReq-Soln-03 \nSDN domain solution scale in/out requirements \nReq-Soln-04 \nRequirements to support SDN domain solution, service and \ndevice/function health monitoring \nReq-Soln-05 \nRequirements to support SDN domain solution stability and its \nassessment \nReq-Soln-06 \nRequirements to support SDN domain solution reliability/ \nsurvivability and its assessment \nReq-Soln-07 \nRequirements to support SDN domain solution’s seamless \ninterworking with legacy for delivering uniform quality of user \nexperience \n4.3 4.3 SDN Migration Device and Function Requirements \n4.3.1 \n4.3.1 Common Set of Requirements \nThe common set of requirements for SDN migration includes the requirements for elements \n(devices and functions) in each of the horizontal (as shown in Fig.1) and vertical (management",
+      "char_count": 1189
+    },
+    {
+      "page": 14,
+      "text": "and orchestration, as shown in Fig.1b) planes of the architecture. These requirements are as \ndiscussed in Table-5 below. \nTable-5: SDN Migration Device and Function Common Requirements \nRequirement \nNumber \nRequirement Description \nComments \nReq-Cmn-01 \nSDN Forwarding and switching plane device and function \nrequirements including South-bound interface (SBI) \nrequirements \nReq-Cmn-02 \nSDN Controller functions and server (host) requirements \nincluding North-, South-, East- and West-bound interfaces \nrequirements. East- and West-bound interfaces support \ninteraction with management domain (see Fig.1b) and user \ndomains, as depicted in Fig.1 (page 40) of the ZTE \nCommunications Magazine \n(http://wwwen.zte.com.cn/endata/magazine/ztecommunications/\n2013/4/) \nReq-Cmn-03 \nSDN application and service plane device and function \nrequirements including South-bound interface (SBI) \nrequirements \nReq-Cmn-04 \nSDN device/function configuration control and management \ninterface and host requirements \nReq-Cmn-05 \nSDN device/function interworking (with legacy network \ndevice/function) interface and capability requirements \nReq-Cmn-06 \nTrusted Boot and Attestation requirements \nReq-Cmn-07 \nTrust boundary establishment requirements \nReq-Cmn-08 \nAuthentication and Authorization requirements",
+      "char_count": 1291
+    },
+    {
+      "page": 15,
+      "text": "Req-Cmn-09 \nEncryption requirements \n \n \nReq-Cmn-10 \nAudits and verification requirements \n \n \nReq-Cmn-11 \nGeneral security requirements; the principles and practices for \nsecuring SDN can be found in the ONF Security WG documents \n(https://www.opennetworking.org/technical-\ncommunities/areas/services) \n \nReq-Cmn-12 \nNetwork (layer-2 and layer-3) overlay, underlay and tunneling \n(over and across IP, MPLS, GMPLS, Optical, Ethernet) \nmanagement requirements \n \n \nReq-Cmn-13 \nSDN domain address management requirements \n \n \nReq-Cmn-14 \nSDN domain resources management and migration requirements \n \n \nReq-Cmn-15 \nRequirements to support SDN domain interworking with legacy \ncontrol, forwarding and management devices and functions \n \n \nReq-Cmn-16 \nRequirements to support SDN domain redundancy and fall-back \n(to legacy and/or other SDN domain)",
+      "char_count": 843
+    },
+    {
+      "page": 16,
+      "text": "4.3.2 \nIndustry/Service Specific Requirements \nThe service specific set of requirements for SDN migration includes the requirements for \nsupporting networking and value-added services specific to certain sectors. \nThese sectors include SDN based access/edge, aggregation and transport (one and multi-admin \ndomains) networking, data center networking and enterprise/campus networking. \nThe requirements are as discussed in Table-6 below. \nTable-6: Service Specific SDN Migration Requirements \nRequirement \nNumber \nRequirement Description \nComments \nReq-Srvc-01 \nSDN based Edge/Access and Aggregation Networking: \na. Edge and aggregation switch for quality of service (QoS) \naware routing \nb. VLAN support with bandwidth protection capability \nc. QnQ support \nd. Group Table support \ne. MPLS support \nf. IPv6 support \ng. Auxiliary control channel support \nh. Multiple Table and Tenancy support \ni. Line rate switching support \nj. Latency for new rules setup \nk. Max packet punt rate support \nl. Version(s) of OpenFlow specs. supported \nm. OpenSource controller and switch support (with test \nresults) \n \n \nReq-Srvc-02 \nSDN based Transport (One Admin) Networking: \na. Network function instantiation, management, and control \nfor wide area bandwidth and traffic management \nb. Multilevel provisioning by transport-type, e.g., IP, \nMPLS, MPLS-TP, GMPLS, wavelength, etc.",
+      "char_count": 1366
+    },
+    {
+      "page": 17,
+      "text": "Req-Srvc-03 \na. SDN based Transport (Multi-Admin) Networking: \nb. Network function instantiation, management, control, \nand orchestration for wide area bandwidth and traffic \nmanagement over multiple admin domains \nc. Multilevel provisioning of bandwidth by transport type \n(IP, MPLS, MPLS-TP, GMPLS, optical) over multiple \nadmin domains \nd. Provisioning and management of bandwidth and value-\nadded advanced services (NAT, PAT, firewall, service \nchain, etc.) for retailing and wholesaling \ne. Operation and service management in federated or \nhierarchical modes over multiple admin domains \n \n \nReq-Srvc-04 \nIntra-Data-Center-SDN: \na. Automated provisioning and mobility management of \nvirtual machines for seamless service management \nb. Seamless integration with virtual storage for on-demand \nfile capacity management \nc. Client-specific security and tunnel management \nd. Service-specific security and tunnel management \ne. On-demand service acceleration management \nf. Virtual and physical domain compute, storage and \nnetworking resources lifecycle management \ng. Generic resources sanity and regulatory management \n \n \nReq-Srvc-05 \nSDN for Data-Center-Interconnection: \na. Automated provisioning and control of bandwidth for \nseamless traffic management services \nb. Seamless support of interconnection among multi-\ndomain (private, public, hybrid) virtualized resources \nc. Multi-domain tunneling and centralized control",
+      "char_count": 1431
+    },
+    {
+      "page": 18,
+      "text": "Req-Srvc-06 \nSDN based Enterprise/Campus: \na. Automated provisioning and control of convergence \nservices \nb. Policy based design and management (enforcement) of \nconverged services \nc. Automated provisioning and management of network \n(bandwidth, quality-of-service, security, etc.) and service \n(DNS, DHCP, etc.) resources \nd. User and application/service profile based resource \nmanagement \n \n \n \n \n \n \n5 Conclusions \nThe document presents a high-level RFI template for migration to SDN-based network \narchitecture. \nIt is expected to be equally helpful to both network and service providers who are considering \nmigration to SDN architecture using physical or virtual or hybrid (physical and virtual) network \nelements /functions. In many ways, an RFI process can be a signal to a group of vendors that the \nacquisition and deployment for new technologies like SDN will follow a proven and deliberative \npath. The solicitor of information will not be swayed by mass advertising or the claims of one \nparticular sales representative, but rather will be guided by a careful investigation of the \ncomprehensive data across an entire spectrum of providers. Rather than signal that the inquirer is \nnot educated about the technology, are well-crafted RFI signals that this particular customer will \nnot be swayed by either the first or last marketing campaign (s)he has heard. It further signals \nthat this organization is going to move with measure steps on a path of innovation, and wants \nassurance by potential providers—in writing—that vendor claims can be substantiated. This \nprocess will signal to all parties—internal and external to the deploying organization—that those \nwho direct the RFI are competent, deliberate, and careful with the resources of the company, and \nare on their way toward innovation that is borne of good decision-making. \nIn the case of a nascent technology like SDN, the hyperbole and claims made in the initial phases \nof product development and release can be difficult to separate from the realities about what \nimprovements can be reasonably expected from SDN. A well-crafted RFI can help separate the \nwheat from the chaff and give greater confidence to those making their first steps in an SDN \ndeployment.",
+      "char_count": 2245
+    },
+    {
+      "page": 19,
+      "text": "6 Acknowledgements \nWe gratefully acknowledge the contributions of reviewers of earlier versions of this document. \n7 Revision History \nDate \nRev \nDescription \nEditor \n08April-2015 \n0.1a \nInitial release to the Migration Working Group \nB. Khasnabish \n14April-2015 \n0.1b \nAdded structure, split out Operator/Vendor \nrequirements; common/service specific \nrequirements. Added requirements \nE. Salahuddin \n06May-2015 \n0.1c \nAdded architecture diagrams and some more \nrequirements \nE. Salahauddin \n13-May-2015 \n0.1d \nUpdates and revision \nB. Khasnabish \n19-May-2015 \n0.1e \nAdded template, architectures, and tables for \ndifferent sections \nB. Khasnabish \n20-May-2015 \n0.1f \nUpdates and revision \nE. Salahauddin \n21-May-2015 \n0.1g \nEdits, updates and revision \nB. Khasnabish \n02-June-2015 \n0.1h \nEdits and updates \nE. Salahuddin \n03-June-2015 \n0.1i \nMinor updates after review with the team \nE. Salahuddin \n03-June-2015 \n0.1j \nAdded contents to Appendix-A \nG. Reffet and N. \nKumar \n13-July-2015 \n0.1k \nEdits and updates \nE. Ganon \n15-July-2015 \n0.1l \nEdits, updates and revision \nB. Khasnabish \n15-July-2015 \n0.1m \nUpdates during WG review \nB. Khasnabish \n05-Aug-2015 \n0.1n \nUpdates to address the comments from Dacheng \nB. Khasnabish \n12-Aug-2015 \n0.1o \nUpdates based on Beth’s comments \nB. Khasnabish \n15-Oct2015 \n0.1p \nEdits and updates \nB. Khasnabish",
+      "char_count": 1349
+    },
+    {
+      "page": 20,
+      "text": "8 References \n1. ONF Migration Use Cases and Methods \nhttps://www.opennetworking.org/images/stories/downloads/sdn-resources/use-\ncases/Migration-WG-Use-Cases.pdf \n2. Software-Defined Networking (SDN) Definition \nhttps://www.opennetworking.org/sdn-resources/sdn-definition \n3. SDN Architecture Overview v1.1: \nhttps://www.opennetworking.org/images/stories/downloads/sdn-resources/technical-\nreports/TR_SDN-ARCH-Overview-1.1-11112014.02.pdf",
+      "char_count": 438
+    },
+    {
+      "page": 21,
+      "text": "9 Appendix A: SDN Migration Prototyping Results \nBased on a deployment use case provided by NTT, the ONF Migration Working Group designed \nseveral methods to migrate from a legacy BGP based network edge to OpenFlow-based “SDN-\nized” network edge with seamless interworking. \nThe different methods are described in the following documents: SDN Migration Prototype & \nDemo Proposals (onf2014.308.12). \nA first prototype was created to demonstrate that it is possible to migrate easily to an SDNized \nnetwork. \nThe initial network is composed of two CE (CE1 – CE2) at each extremity of the network, two \nPE (PE1 – PE2) which are connected by a P Router and a Route Reflector, as shown below. \nIn term of connection, there is an eBGP link between the CE and the PE (CE1 to PE1 and CE2 to \nPE2). The PE1 is connected to the Route Reflector using a MP-BGP link and it is a similar \nconnection to connect PE2. \nIn this legacy topology, the control plane and data plane are duplicated in all network elements. \nThat means if CE2 pings CE1, the data goes to CE2 to PE2, forwarded to P Router, forwarded to \nPE1, forwarded to CE1. \nThe goal of this prototype is to migrate to a hybrid network using SDN. \nAccording to the schema below, the PE2 router will be replaced by an OpenVSwitch, and an \nSDN controller OpenDaylight and a Route Controller will be added on this SDN migration \ntopology.",
+      "char_count": 1382
+    },
+    {
+      "page": 22,
+      "text": "Thanks to this topology, the data plane is on the OpenVSwitch but the control plane is now on \nthe SDN controller. With the same example, when CE2 pings CE1, the packet goes to CE2 to the \nOVS PE2 that has been programmed by OpenDayLight the packet is automatically forwarded to \nthe P router, forwarded to PE1, forwarded to CE1. The data plane is similar to the legacy \nnetwork, but the control plane of one element is now centralized in the SDN controller. \nBased on the SDN topology, the CE2 device’s interface is not yet configured, the CE1 is not able \nto ping CE2: \nThe network is now configured on CE2: \n \nThe application has now reflected that the network that has been added:",
+      "char_count": 684
+    },
+    {
+      "page": 23,
+      "text": "On the OpenVSwitch a new table has been added \n \nCE1 is now able to ping CE2 \n \nOn the same way, if the interface on CE2 is removed \n \nCE1 is no longer able to ping \n \nThe application detects this change",
+      "char_count": 203
+    },
+    {
+      "page": 24,
+      "text": "And the OpenVSwitch is reconfigured, the flow is removed \n \n \n10 Contributors \nBhumip Khasnabish (ZTE) — Editor \nDacheng Zhang (Alibaba) \nEdna Ganon (MRV) \nEsa Salahuddin (Cisco) \nGuillaume Reffet (Ubiqube) \nHakki Cankaya(Fujitsu) \nMarty Ma (Tencent) \nNaresh Kumar (Criterion)",
+      "char_count": 276
+    }
+  ],
+  "tables": [
+    {
+      "page": 9,
+      "table_index": 0,
+      "rows": 10,
+      "cols": 5,
+      "markdown": "|  | Requirement |  | Requirement Description | Comments |\n| --- | --- | --- | --- | --- |\n|  | Number |  |  |  |\n| Req-Arch-01 |  |  | Separation of control and forwarding; apps and service may remain a part of control domain initially |  |\n| Req-Arch-02 |  |  | Virtualization, on if and as needed basis |  |\n| Req-Arch-03 |  |  | Logical centralization of all of the controls; different controllers may manage different network sections and domains including controlling the security of the physical and virtual devices |  |\n| Req-Arch-04 |  |  | Automation of provisioning and management |  |\n| Req-Arch-05 |  |  | Orchestration and brokering of resources management. This may be driven by application and service requirements |  |\n| Req-Arch-06 |  |  | Stability and survivability of the network and services |  |\n| Req-Arch-07 |  |  | Support of the SDN migration plan, seamlessly |  |\n| Reg-Arch-08 |  |  | Security Framework for Services and Controller Access |  |",
+      "raw": [
+        [
+          "",
+          "Requirement",
+          "",
+          "Requirement Description",
+          "Comments"
+        ],
+        [
+          null,
+          "Number",
+          null,
+          null,
+          null
+        ],
+        [
+          "Req-Arch-01",
+          null,
+          null,
+          "Separation of control and forwarding; apps and service may remain\na part of control domain initially",
+          ""
+        ],
+        [
+          "Req-Arch-02",
+          null,
+          null,
+          "Virtualization, on if and as needed basis",
+          ""
+        ],
+        [
+          "Req-Arch-03",
+          null,
+          null,
+          "Logical centralization of all of the controls; different controllers may\nmanage different network sections and domains including\ncontrolling the security of the physical and virtual devices",
+          ""
+        ],
+        [
+          "Req-Arch-04",
+          null,
+          null,
+          "Automation of provisioning and management",
+          ""
+        ],
+        [
+          "Req-Arch-05",
+          null,
+          null,
+          "Orchestration and brokering of resources management. This may\nbe driven by application and service requirements",
+          ""
+        ],
+        [
+          "Req-Arch-06",
+          null,
+          null,
+          "Stability and survivability of the network and services",
+          ""
+        ],
+        [
+          "Req-Arch-07",
+          null,
+          null,
+          "Support of the SDN migration plan, seamlessly",
+          ""
+        ],
+        [
+          "Reg-Arch-08",
+          null,
+          null,
+          "Security Framework for Services and Controller Access",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "table_index": 0,
+      "rows": 7,
+      "cols": 5,
+      "markdown": "|  | Op Type |  | Description | Comments |\n| --- | --- | --- | --- | --- |\n|  | Identity No. |  |  |  |\n| Op-Type-01 |  |  | Operator Type: a. Traditional wireline or wireless or both types of operators b. Data Center Operators to support content distribution, mobile audio/video/data services, analytics, storage and recovery services, etc. c. Enterprise (both virtual and infrastructure based) Service Providers d. ISPs, CSPs, and others (XSPs) e. Virtual operator (MVNO) f. Campus Networks (University, Hospital/Healthcare, Finance etc. networks) g. Cloud Services Provider h. Others (please be specific) |  |\n| Op-Type-02 |  |  | Existing Network Architecture (migration candidate): a. CPE devices b. Access network c. Edge Network d. Transit Networks e. Core Network f. Interconnection networks g. Special Purpose Networks (e.g., GENI, I-2 regional networks, etc.) h. Others (please be specific) |  |\n| Op-Type-03 |  |  | Identification of Migration Paradigms and Points a. Software based Migration b. Hardware up-date/-grade based Migration c. Other options, … … … |  |\n| Op-Type-04 |  |  | Use of virtualization during/after Migration a. Timeline for introducing virtualization b. Role of virtualization during/after Migration c. Type of virtualization and orchestration infrastructure d. Others … |  |\n| Op-Type-05 |  |  | Site or PoP Requirements and Architecture, as/if applicable a. Initial Phase b. Target with timeline (3 year, 5 year, etc.) c. Intermediate Phases |  |",
+      "raw": [
+        [
+          "",
+          "Op Type",
+          "",
+          "Description",
+          "Comments"
+        ],
+        [
+          null,
+          "Identity No.",
+          null,
+          null,
+          null
+        ],
+        [
+          "Op-Type-01",
+          null,
+          null,
+          "Operator Type:\na. Traditional wireline or wireless or both types of operators\nb. Data Center Operators to support content distribution,\nmobile audio/video/data services, analytics, storage and\nrecovery services, etc.\nc. Enterprise (both virtual and infrastructure based) Service\nProviders\nd. ISPs, CSPs, and others (XSPs)\ne. Virtual operator (MVNO)\nf. Campus Networks (University, Hospital/Healthcare,\nFinance etc. networks)\ng. Cloud Services Provider\nh. Others (please be specific)",
+          ""
+        ],
+        [
+          "Op-Type-02",
+          null,
+          null,
+          "Existing Network Architecture (migration candidate):\na. CPE devices\nb. Access network\nc. Edge Network\nd. Transit Networks\ne. Core Network\nf. Interconnection networks\ng. Special Purpose Networks (e.g., GENI, I-2 regional\nnetworks, etc.)\nh. Others (please be specific)",
+          ""
+        ],
+        [
+          "Op-Type-03",
+          null,
+          null,
+          "Identification of Migration Paradigms and Points\na. Software based Migration\nb. Hardware up-date/-grade based Migration\nc. Other options, … … …",
+          ""
+        ],
+        [
+          "Op-Type-04",
+          null,
+          null,
+          "Use of virtualization during/after Migration\na. Timeline for introducing virtualization\nb. Role of virtualization during/after Migration\nc. Type of virtualization and orchestration infrastructure\nd. Others …",
+          ""
+        ],
+        [
+          "Op-Type-05",
+          null,
+          null,
+          "Site or PoP Requirements and Architecture, as/if applicable\na. Initial Phase\nb. Target with timeline (3 year, 5 year, etc.)\nc. Intermediate Phases",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 0,
+      "rows": 5,
+      "cols": 3,
+      "markdown": "| Op-Type-06 | Testing and Certifications requirements for new equipment in the network (self-testing or third-party facility for testing) |  |\n| --- | --- | --- |\n| Op-Type-07 | SDN Controller being used or in plans, if known or if there is any preference of Open Source or others |  |\n| Op-Type-08 | Software Stack to be used with on top of OpenFlow enabled controller/nodes, if known or if there is any preference |  |\n| Op-Type-09 | Training and (ONF) certification requirements for the migration team |  |\n| Op-Type-10 | Any requirements to integrate with existing Security Framework and Infrastructure |  |",
+      "raw": [
+        [
+          "Op-Type-06",
+          "Testing and Certifications requirements for new equipment in\nthe network (self-testing or third-party facility for testing)",
+          ""
+        ],
+        [
+          "Op-Type-07",
+          "SDN Controller being used or in plans, if known or if there is any\npreference of Open Source or others",
+          ""
+        ],
+        [
+          "Op-Type-08",
+          "Software Stack to be used with on top of OpenFlow enabled\ncontroller/nodes, if known or if there is any preference",
+          ""
+        ],
+        [
+          "Op-Type-09",
+          "Training and (ONF) certification requirements for the migration\nteam",
+          ""
+        ],
+        [
+          "Op-Type-10",
+          "Any requirements to integrate with existing Security Framework\nand Infrastructure",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 1,
+      "rows": 4,
+      "cols": 5,
+      "markdown": "|  | Requirement |  | Requirement Description | Comments |\n| --- | --- | --- | --- | --- |\n|  | Number |  |  |  |\n| Req-Gen-01 |  |  | Continued Interoperability: Interoperability between the existing networking infrastructure and the new SND infrastructure guarantees seamless service experience |  |\n| Req-Gen-02 |  |  | Desired Level of Scalability: Initial deployment may need to be scaled for certain segments of the network; as the SDN capable elements are introduced throughout many segments of the network, the scalability of the control plane elements will be required, and both hierarchical and peered sub-controllers may need to be supported The scalability of the value-added networking/service functions and forwarding elements may need a combination of both virtual and physical devices |  |",
+      "raw": [
+        [
+          "",
+          "Requirement",
+          "",
+          "Requirement Description",
+          "Comments"
+        ],
+        [
+          null,
+          "Number",
+          null,
+          null,
+          null
+        ],
+        [
+          "Req-Gen-01",
+          null,
+          null,
+          "Continued Interoperability: Interoperability between the existing\nnetworking infrastructure and the new SND infrastructure\nguarantees seamless service experience",
+          ""
+        ],
+        [
+          "Req-Gen-02",
+          null,
+          null,
+          "Desired Level of Scalability: Initial deployment may need to be\nscaled for certain segments of the network; as the SDN capable\nelements are introduced throughout many segments of the\nnetwork, the scalability of the control plane elements will be\nrequired, and both hierarchical and peered sub-controllers may\nneed to be supported\nThe scalability of the value-added networking/service functions\nand forwarding elements may need a combination of both virtual\nand physical devices",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "table_index": 0,
+      "rows": 4,
+      "cols": 3,
+      "markdown": "| Req-Gen-03 | Desired Level of Security: Deployment of SDN elements must not impact the security policy of network operation; the principles and practices for securing SDN can be found in the ONF Security WG documents (https://www.opennetworking.org/technical- communities/areas/services) Different levels of authentication and authorization are likely to be needed for control, data, management, and operations planes Event Logging and monitoring will be needed for audits and verification |  |\n| --- | --- | --- |\n| Req-Gen04 | Desired Level of Resiliency and Fault Tolerance: In order to maintain a desired level of resilient and fault-tolerant operations, deployment of any or all components of SDN architecture must handle errors, transient conditions, and component/element failures gracefully Handling of Errors: The elements of SDN architecture must handle the error scenarios and conditions gracefully without impacting any other interface and network/service functions. Any propagation of error throughout other network functions /components must also be prevented or must be kept contained within a pre-specified (logical) boundary Handling of Transient Conditions: During any single- or multi- phase deployment of SDN architecture, both controller and forwarding elements must handle the transition phases gracefully. Some platforms may offer testing and verification of configuration of control and forwarding entities during the transition (from legacy to SDN) period before committing any service to SDN based operation Supporting High Availability: The SDN architecture is expected to offer a higher level of reliability and availability of services. This must be maintained by incorporating appropriate 1:1 or 1:N level of redundancy in the critical elements — be it in the control, data, or management plane |  |\n| Req-Gen-05 | Unified Management and Monitoring: During initial deployment of SDN components, many adjunct configuration, bootstrapping, and in-/out-band control of network/service functions may be needed in order to address the migration, repair and maintenance of network monitoring and operations management |  |\n|  |  |  |",
+      "raw": [
+        [
+          "Req-Gen-03",
+          "Desired Level of Security: Deployment of SDN elements must\nnot impact the security policy of network operation; the\nprinciples and practices for securing SDN can be found in the\nONF Security WG documents\n(https://www.opennetworking.org/technical-\ncommunities/areas/services)\nDifferent levels of authentication and authorization are likely to\nbe needed for control, data, management, and operations planes\nEvent Logging and monitoring will be needed for audits and\nverification",
+          ""
+        ],
+        [
+          "Req-Gen04",
+          "Desired Level of Resiliency and Fault Tolerance: In order to\nmaintain a desired level of resilient and fault-tolerant operations,\ndeployment of any or all components of SDN architecture must\nhandle errors, transient conditions, and component/element\nfailures gracefully\nHandling of Errors: The elements of SDN architecture must\nhandle the error scenarios and conditions gracefully without\nimpacting any other interface and network/service functions. Any\npropagation of error throughout other network functions\n/components must also be prevented or must be kept contained\nwithin a pre-specified (logical) boundary\nHandling of Transient Conditions: During any single- or multi-\nphase deployment of SDN architecture, both controller and\nforwarding elements must handle the transition phases gracefully.\nSome platforms may offer testing and verification of\nconfiguration of control and forwarding entities during the\ntransition (from legacy to SDN) period before committing any\nservice to SDN based operation\nSupporting High Availability: The SDN architecture is expected\nto offer a higher level of reliability and availability of services.\nThis must be maintained by incorporating appropriate 1:1 or 1:N\nlevel of redundancy in the critical elements — be it in the control,\ndata, or management plane",
+          ""
+        ],
+        [
+          "Req-Gen-05",
+          "Unified Management and Monitoring: During initial deployment\nof SDN components, many adjunct configuration, bootstrapping,\nand in-/out-band control of network/service functions may be\nneeded in order to address the migration, repair and maintenance\nof network monitoring and operations management",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 0,
+      "rows": 10,
+      "cols": 5,
+      "markdown": "|  | Requirement |  | Requirement Description | Comments |\n| --- | --- | --- | --- | --- |\n|  | Number |  |  |  |\n| Req-Soln-01 |  |  | SDN domain solution prototyping (e.g., proof-of-concept) requirements |  |\n| Req-Soln-02 |  |  | SDN domain solution roll-out (test, verify, commit, roll-/fall- back) requirements |  |\n| Req-Soln-03 |  |  | SDN domain solution scale in/out requirements |  |\n| Req-Soln-04 |  |  | Requirements to support SDN domain solution, service and device/function health monitoring |  |\n| Req-Soln-05 |  |  | Requirements to support SDN domain solution stability and its assessment |  |\n| Req-Soln-06 |  |  | Requirements to support SDN domain solution reliability/ survivability and its assessment |  |\n| Req-Soln-07 |  |  | Requirements to support SDN domain solution’s seamless interworking with legacy for delivering uniform quality of user experience |  |\n|  |  |  |  |  |",
+      "raw": [
+        [
+          "",
+          "Requirement",
+          "",
+          "Requirement Description",
+          "Comments"
+        ],
+        [
+          null,
+          "Number",
+          null,
+          null,
+          null
+        ],
+        [
+          "Req-Soln-01",
+          null,
+          null,
+          "SDN domain solution prototyping (e.g., proof-of-concept)\nrequirements",
+          ""
+        ],
+        [
+          "Req-Soln-02",
+          null,
+          null,
+          "SDN domain solution roll-out (test, verify, commit, roll-/fall-\nback) requirements",
+          ""
+        ],
+        [
+          "Req-Soln-03",
+          null,
+          null,
+          "SDN domain solution scale in/out requirements",
+          ""
+        ],
+        [
+          "Req-Soln-04",
+          null,
+          null,
+          "Requirements to support SDN domain solution, service and\ndevice/function health monitoring",
+          ""
+        ],
+        [
+          "Req-Soln-05",
+          null,
+          null,
+          "Requirements to support SDN domain solution stability and its\nassessment",
+          ""
+        ],
+        [
+          "Req-Soln-06",
+          null,
+          null,
+          "Requirements to support SDN domain solution reliability/\nsurvivability and its assessment",
+          ""
+        ],
+        [
+          "Req-Soln-07",
+          null,
+          null,
+          "Requirements to support SDN domain solution’s seamless\ninterworking with legacy for delivering uniform quality of user\nexperience",
+          ""
+        ],
+        [
+          "",
+          null,
+          null,
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 0,
+      "rows": 10,
+      "cols": 5,
+      "markdown": "|  | Requirement |  | Requirement Description | Comments |\n| --- | --- | --- | --- | --- |\n|  | Number |  |  |  |\n| Req-Cmn-01 |  |  | SDN Forwarding and switching plane device and function requirements including South-bound interface (SBI) requirements |  |\n| Req-Cmn-02 |  |  | SDN Controller functions and server (host) requirements including North-, South-, East- and West-bound interfaces requirements. East- and West-bound interfaces support interaction with management domain (see Fig.1b) and user domains, as depicted in Fig.1 (page 40) of the ZTE Communications Magazine (http://wwwen.zte.com.cn/endata/magazine/ztecommunications/ 2013/4/) |  |\n| Req-Cmn-03 |  |  | SDN application and service plane device and function requirements including South-bound interface (SBI) requirements |  |\n| Req-Cmn-04 |  |  | SDN device/function configuration control and management interface and host requirements |  |\n| Req-Cmn-05 |  |  | SDN device/function interworking (with legacy network device/function) interface and capability requirements |  |\n| Req-Cmn-06 |  |  | Trusted Boot and Attestation requirements |  |\n| Req-Cmn-07 |  |  | Trust boundary establishment requirements |  |\n| Req-Cmn-08 |  |  | Authentication and Authorization requirements |  |",
+      "raw": [
+        [
+          "",
+          "Requirement",
+          "",
+          "Requirement Description",
+          "Comments"
+        ],
+        [
+          null,
+          "Number",
+          null,
+          null,
+          null
+        ],
+        [
+          "Req-Cmn-01",
+          null,
+          null,
+          "SDN Forwarding and switching plane device and function\nrequirements including South-bound interface (SBI)\nrequirements",
+          ""
+        ],
+        [
+          "Req-Cmn-02",
+          null,
+          null,
+          "SDN Controller functions and server (host) requirements\nincluding North-, South-, East- and West-bound interfaces\nrequirements. East- and West-bound interfaces support\ninteraction with management domain (see Fig.1b) and user\ndomains, as depicted in Fig.1 (page 40) of the ZTE\nCommunications Magazine\n(http://wwwen.zte.com.cn/endata/magazine/ztecommunications/\n2013/4/)",
+          ""
+        ],
+        [
+          "Req-Cmn-03",
+          null,
+          null,
+          "SDN application and service plane device and function\nrequirements including South-bound interface (SBI)\nrequirements",
+          ""
+        ],
+        [
+          "Req-Cmn-04",
+          null,
+          null,
+          "SDN device/function configuration control and management\ninterface and host requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-05",
+          null,
+          null,
+          "SDN device/function interworking (with legacy network\ndevice/function) interface and capability requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-06",
+          null,
+          null,
+          "Trusted Boot and Attestation requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-07",
+          null,
+          null,
+          "Trust boundary establishment requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-08",
+          null,
+          null,
+          "Authentication and Authorization requirements",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 0,
+      "rows": 9,
+      "cols": 3,
+      "markdown": "| Req-Cmn-09 | Encryption requirements |  |\n| --- | --- | --- |\n| Req-Cmn-10 | Audits and verification requirements |  |\n| Req-Cmn-11 | General security requirements; the principles and practices for securing SDN can be found in the ONF Security WG documents (https://www.opennetworking.org/technical- communities/areas/services) |  |\n| Req-Cmn-12 | Network (layer-2 and layer-3) overlay, underlay and tunneling (over and across IP, MPLS, GMPLS, Optical, Ethernet) management requirements |  |\n| Req-Cmn-13 | SDN domain address management requirements |  |\n| Req-Cmn-14 | SDN domain resources management and migration requirements |  |\n| Req-Cmn-15 | Requirements to support SDN domain interworking with legacy control, forwarding and management devices and functions |  |\n| Req-Cmn-16 | Requirements to support SDN domain redundancy and fall-back (to legacy and/or other SDN domain) |  |\n|  |  |  |",
+      "raw": [
+        [
+          "Req-Cmn-09",
+          "Encryption requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-10",
+          "Audits and verification requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-11",
+          "General security requirements; the principles and practices for\nsecuring SDN can be found in the ONF Security WG documents\n(https://www.opennetworking.org/technical-\ncommunities/areas/services)",
+          ""
+        ],
+        [
+          "Req-Cmn-12",
+          "Network (layer-2 and layer-3) overlay, underlay and tunneling\n(over and across IP, MPLS, GMPLS, Optical, Ethernet)\nmanagement requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-13",
+          "SDN domain address management requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-14",
+          "SDN domain resources management and migration requirements",
+          ""
+        ],
+        [
+          "Req-Cmn-15",
+          "Requirements to support SDN domain interworking with legacy\ncontrol, forwarding and management devices and functions",
+          ""
+        ],
+        [
+          "Req-Cmn-16",
+          "Requirements to support SDN domain redundancy and fall-back\n(to legacy and/or other SDN domain)",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 0,
+      "rows": 4,
+      "cols": 5,
+      "markdown": "|  | Requirement |  | Requirement Description | Comments |\n| --- | --- | --- | --- | --- |\n|  | Number |  |  |  |\n| Req-Srvc-01 |  |  | SDN based Edge/Access and Aggregation Networking: a. Edge and aggregation switch for quality of service (QoS) aware routing b. VLAN support with bandwidth protection capability c. QnQ support d. Group Table support e. MPLS support f. IPv6 support g. Auxiliary control channel support h. Multiple Table and Tenancy support i. Line rate switching support j. Latency for new rules setup k. Max packet punt rate support l. Version(s) of OpenFlow specs. supported m. OpenSource controller and switch support (with test results) |  |\n| Req-Srvc-02 |  |  | SDN based Transport (One Admin) Networking: a. Network function instantiation, management, and control for wide area bandwidth and traffic management b. Multilevel provisioning by transport-type, e.g., IP, MPLS, MPLS-TP, GMPLS, wavelength, etc. |  |",
+      "raw": [
+        [
+          "",
+          "Requirement",
+          "",
+          "Requirement Description",
+          "Comments"
+        ],
+        [
+          null,
+          "Number",
+          null,
+          null,
+          null
+        ],
+        [
+          "Req-Srvc-01",
+          null,
+          null,
+          "SDN based Edge/Access and Aggregation Networking:\na. Edge and aggregation switch for quality of service (QoS)\naware routing\nb. VLAN support with bandwidth protection capability\nc. QnQ support\nd. Group Table support\ne. MPLS support\nf. IPv6 support\ng. Auxiliary control channel support\nh. Multiple Table and Tenancy support\ni. Line rate switching support\nj. Latency for new rules setup\nk. Max packet punt rate support\nl. Version(s) of OpenFlow specs. supported\nm. OpenSource controller and switch support (with test\nresults)",
+          ""
+        ],
+        [
+          "Req-Srvc-02",
+          null,
+          null,
+          "SDN based Transport (One Admin) Networking:\na. Network function instantiation, management, and control\nfor wide area bandwidth and traffic management\nb. Multilevel provisioning by transport-type, e.g., IP,\nMPLS, MPLS-TP, GMPLS, wavelength, etc.",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 3,
+      "markdown": "| Req-Srvc-03 | a. SDN based Transport (Multi-Admin) Networking: b. Network function instantiation, management, control, and orchestration for wide area bandwidth and traffic management over multiple admin domains c. Multilevel provisioning of bandwidth by transport type (IP, MPLS, MPLS-TP, GMPLS, optical) over multiple admin domains d. Provisioning and management of bandwidth and value- added advanced services (NAT, PAT, firewall, service chain, etc.) for retailing and wholesaling e. Operation and service management in federated or hierarchical modes over multiple admin domains |  |\n| --- | --- | --- |\n| Req-Srvc-04 | Intra-Data-Center-SDN: a. Automated provisioning and mobility management of virtual machines for seamless service management b. Seamless integration with virtual storage for on-demand file capacity management c. Client-specific security and tunnel management d. Service-specific security and tunnel management e. On-demand service acceleration management f. Virtual and physical domain compute, storage and networking resources lifecycle management g. Generic resources sanity and regulatory management |  |\n| Req-Srvc-05 | SDN for Data-Center-Interconnection: a. Automated provisioning and control of bandwidth for seamless traffic management services b. Seamless support of interconnection among multi- domain (private, public, hybrid) virtualized resources c. Multi-domain tunneling and centralized control |  |",
+      "raw": [
+        [
+          "Req-Srvc-03",
+          "a. SDN based Transport (Multi-Admin) Networking:\nb. Network function instantiation, management, control,\nand orchestration for wide area bandwidth and traffic\nmanagement over multiple admin domains\nc. Multilevel provisioning of bandwidth by transport type\n(IP, MPLS, MPLS-TP, GMPLS, optical) over multiple\nadmin domains\nd. Provisioning and management of bandwidth and value-\nadded advanced services (NAT, PAT, firewall, service\nchain, etc.) for retailing and wholesaling\ne. Operation and service management in federated or\nhierarchical modes over multiple admin domains",
+          ""
+        ],
+        [
+          "Req-Srvc-04",
+          "Intra-Data-Center-SDN:\na. Automated provisioning and mobility management of\nvirtual machines for seamless service management\nb. Seamless integration with virtual storage for on-demand\nfile capacity management\nc. Client-specific security and tunnel management\nd. Service-specific security and tunnel management\ne. On-demand service acceleration management\nf. Virtual and physical domain compute, storage and\nnetworking resources lifecycle management\ng. Generic resources sanity and regulatory management",
+          ""
+        ],
+        [
+          "Req-Srvc-05",
+          "SDN for Data-Center-Interconnection:\na. Automated provisioning and control of bandwidth for\nseamless traffic management services\nb. Seamless support of interconnection among multi-\ndomain (private, public, hybrid) virtualized resources\nc. Multi-domain tunneling and centralized control",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 3,
+      "markdown": "| Req-Srvc-06 | SDN based Enterprise/Campus: a. Automated provisioning and control of convergence services b. Policy based design and management (enforcement) of converged services c. Automated provisioning and management of network (bandwidth, quality-of-service, security, etc.) and service (DNS, DHCP, etc.) resources d. User and application/service profile based resource management |  |\n| --- | --- | --- |\n|  |  |  |",
+      "raw": [
+        [
+          "Req-Srvc-06",
+          "SDN based Enterprise/Campus:\na. Automated provisioning and control of convergence\nservices\nb. Policy based design and management (enforcement) of\nconverged services\nc. Automated provisioning and management of network\n(bandwidth, quality-of-service, security, etc.) and service\n(DNS, DHCP, etc.) resources\nd. User and application/service profile based resource\nmanagement",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 0,
+      "rows": 19,
+      "cols": 12,
+      "markdown": "|  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Date |  |  | Rev |  |  | Description |  |  | Editor |  |\n|  |  |  |  |  |  |  |  |  |  |  |  |\n| 08April-2015 |  |  | 0.1a |  |  | Initial release to the Migration Working Group |  |  | B. Khasnabish |  |  |\n| 14April-2015 |  |  | 0.1b |  |  | Added structure, split out Operator/Vendor requirements; common/service specific requirements. Added requirements |  |  | E. Salahuddin |  |  |\n| 06May-2015 |  |  | 0.1c |  |  | Added architecture diagrams and some more requirements |  |  | E. Salahauddin |  |  |\n| 13-May-2015 |  |  | 0.1d |  |  | Updates and revision |  |  | B. Khasnabish |  |  |\n| 19-May-2015 |  |  | 0.1e |  |  | Added template, architectures, and tables for different sections |  |  | B. Khasnabish |  |  |\n| 20-May-2015 |  |  | 0.1f |  |  | Updates and revision |  |  | E. Salahauddin |  |  |\n| 21-May-2015 |  |  | 0.1g |  |  | Edits, updates and revision |  |  | B. Khasnabish |  |  |\n| 02-June-2015 |  |  | 0.1h |  |  | Edits and updates |  |  | E. Salahuddin |  |  |\n| 03-June-2015 |  |  | 0.1i |  |  | Minor updates after review with the team |  |  | E. Salahuddin |  |  |\n| 03-June-2015 |  |  | 0.1j |  |  | Added contents to Appendix-A |  |  | G. Reffet and N. Kumar |  |  |\n| 13-July-2015 |  |  | 0.1k |  |  | Edits and updates |  |  | E. Ganon |  |  |\n| 15-July-2015 |  |  | 0.1l |  |  | Edits, updates and revision |  |  | B. Khasnabish |  |  |\n| 15-July-2015 |  |  | 0.1m |  |  | Updates during WG review |  |  | B. Khasnabish |  |  |\n| 05-Aug-2015 |  |  | 0.1n |  |  | Updates to address the comments from Dacheng |  |  | B. Khasnabish |  |  |\n| 12-Aug-2015 |  |  | 0.1o |  |  | Updates based on Beth’s comments |  |  | B. Khasnabish |  |  |\n| 15-Oct2015 |  |  | 0.1p |  |  | Edits and updates |  |  | B. Khasnabish |  |  |",
+      "raw": [
+        [
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "Date",
+          "",
+          "",
+          "Rev",
+          "",
+          "",
+          "Description",
+          "",
+          "",
+          "Editor",
+          ""
+        ],
+        [
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "08April-2015",
+          null,
+          null,
+          "0.1a",
+          null,
+          null,
+          "Initial release to the Migration Working Group",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "14April-2015",
+          null,
+          null,
+          "0.1b",
+          null,
+          null,
+          "Added structure, split out Operator/Vendor\nrequirements; common/service specific\nrequirements. Added requirements",
+          null,
+          null,
+          "E. Salahuddin",
+          null,
+          null
+        ],
+        [
+          "06May-2015",
+          null,
+          null,
+          "0.1c",
+          null,
+          null,
+          "Added architecture diagrams and some more\nrequirements",
+          null,
+          null,
+          "E. Salahauddin",
+          null,
+          null
+        ],
+        [
+          "13-May-2015",
+          null,
+          null,
+          "0.1d",
+          null,
+          null,
+          "Updates and revision",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "19-May-2015",
+          null,
+          null,
+          "0.1e",
+          null,
+          null,
+          "Added template, architectures, and tables for\ndifferent sections",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "20-May-2015",
+          null,
+          null,
+          "0.1f",
+          null,
+          null,
+          "Updates and revision",
+          null,
+          null,
+          "E. Salahauddin",
+          null,
+          null
+        ],
+        [
+          "21-May-2015",
+          null,
+          null,
+          "0.1g",
+          null,
+          null,
+          "Edits, updates and revision",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "02-June-2015",
+          null,
+          null,
+          "0.1h",
+          null,
+          null,
+          "Edits and updates",
+          null,
+          null,
+          "E. Salahuddin",
+          null,
+          null
+        ],
+        [
+          "03-June-2015",
+          null,
+          null,
+          "0.1i",
+          null,
+          null,
+          "Minor updates after review with the team",
+          null,
+          null,
+          "E. Salahuddin",
+          null,
+          null
+        ],
+        [
+          "03-June-2015",
+          null,
+          null,
+          "0.1j",
+          null,
+          null,
+          "Added contents to Appendix-A",
+          null,
+          null,
+          "G. Reffet and N.\nKumar",
+          null,
+          null
+        ],
+        [
+          "13-July-2015",
+          null,
+          null,
+          "0.1k",
+          null,
+          null,
+          "Edits and updates",
+          null,
+          null,
+          "E. Ganon",
+          null,
+          null
+        ],
+        [
+          "15-July-2015",
+          null,
+          null,
+          "0.1l",
+          null,
+          null,
+          "Edits, updates and revision",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "15-July-2015",
+          null,
+          null,
+          "0.1m",
+          null,
+          null,
+          "Updates during WG review",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "05-Aug-2015",
+          null,
+          null,
+          "0.1n",
+          null,
+          null,
+          "Updates to address the comments from Dacheng",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "12-Aug-2015",
+          null,
+          null,
+          "0.1o",
+          null,
+          null,
+          "Updates based on Beth’s comments",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ],
+        [
+          "15-Oct2015",
+          null,
+          null,
+          "0.1p",
+          null,
+          null,
+          "Edits and updates",
+          null,
+          null,
+          "B. Khasnabish",
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 24,
+    "title": "",
+    "author": "",
+    "subject": "",
+    "creator": "Acrobat Pro 15.8.20082"
+  },
+  "full_text": "Request for Information (RFI)\nTemplate for Migration to\nSoftware Defined Networking\n(SDN)\nVersion 1.0\nFebruary 9, 2016\nONF TR-524\n\nONF Document Type: Technical Recommendation \nONF Document Name: Request for Information (RFI) Template for Migration to Software Defined Networking (SDN) \nDisclaimer \nTHIS SPECIFICATION IS PROVIDED “AS IS” WITH NO WARRANTIES \nWHATSOEVER, INCLUDING ANY WARRANTY OF MERCHANTABILITY, \nNONINFRINGEMENT, FITNESS FOR ANY PARTICULAR PURPOSE, OR \nANY WARRANTY OTHERWISE ARISING OUT OF ANY PROPOSAL, \nSPECIFICATION OR SAMPLE. \nAny marks and brands contained herein are the property of their respective owners. \nOpen Networking Foundation \n2275 E. Bayshore Road, Suite 103, Palo Alto, CA 94303 \nwww.opennetworking.org \n©2016 Open Networking Foundation. All rights reserved. \nOpen Networking Foundation, the ONF symbol, and OpenFlow are registered trademarks of the \nOpen Networking Foundation, in the United States and/or in other countries. All other brands, \nproducts, or service names are or may be trademarks or service marks of, and are used to identify, \nproducts or services of their respective owners.\n\nTable of Contents \n1. Introduction ............................................................................................................................................ 4 \n1.1 RFI Template Development Objective ........................................................................................... 4 \n1.2 Intended Audience and Updates .................................................................................................... 4 \n1.3 Terminology ................................................................................................................................... 5 \n2. Architecture for SDN Migration ............................................................................................................ 7 \n3. Operator Type and Identity Information .............................................................................................. 9 \n4. Considerations for Gathering Information ........................................................................................ 11 \n4.1 General Migration Requirements ................................................................................................. 11 \n4.2 SDN Migration Solution Requirements ........................................................................................ 13 \n4.3 SDN Migration Device and Function Requirements ..................................................................... 13 \n4.3.1 Common Set of Requirements .......................................................................................... 13 \n4.3.2 Industry/Service Specific Requirements ............................................................................ 16 \n5. Conclusions ......................................................................................................................................... 18 \n6. Acknowledgements ............................................................................................................................. 19 \n7. Revision History ................................................................................................................................... 19 \n8. References ............................................................................................................................................ 20 \nAppendix A: SDN Migration Prototyping Results ................................................................................. 21 \nContributors ............................................................................................................................................. 24\n\n1 1. Introduction \n1.1 RFI Template Development Objective \nA request for information (RFI) is a standard business process whose purpose is to collect \nwritten information about the capabilities of various suppliers, vendors, or providers. Normally it \nfollows a format that can be used for comparative purposes, and is usually a preliminary activity \nin an acquisition or deployment process. The objective of this document is to offer a generic \nRequest for Information (RFI) template for the Operators and Service Providers who are at the \nearly stage of use case [1] based migration from a traditional network to a Software Defined \nNetwork (SDN [2, 3]). \nThis document also attempts to describe the challenges that the network operators must address \nfor migration from a traditional network to an SDN based architecture. The migrated network \nmay contain both traditional and SDN based networking elements in order to facilitate multi-\nphase migration to full SDN based system. \n1.2 Intended Audience and Updates \nThis RFI template is intended to serve as a guideline for network services operators who are \nconsidering gathering information on migrating to SDN based network architectures, in \nparticular when OpenFlow is used as the protocol for the interface between separated control and \ndata planes. \nSince SDN capabilities of interest may be different for various network segments and the \nrespective operators, the first section of this RFI allows the operators to describe their interest to \nthe vendors and provide information about their existing operations and architecture. \nThis allows the solution providers and vendors to be more precise in answering the questions \nrelated to their equipment capabilities. \nIt is expected this document will be updated frequently as the requirements and use cases evolve.\n\n1.3 Terminology \nThe terminology used in this document is based on those in the Architecture documents [3]. \nAPI: Application Programming Interface – an Interface that can be directly called by software. \nApplication-Controller Plane Interface (A-CPI) / North-Bound Interface (NBI): An Interface \nPermitting SDN Clients to interact with the network via SDN Controllers. \n(SDN) Controller Plane: The architectural plane (layer) performing logically centralized control \nand management of physical and virtual network elements/resources. \nData-Controller Plane Interface (D-CPI)/ South-Bound Interface (SBI): An Interface through \nwhich a real or virtual NE can be controlled / configured / managed (e.g. OF-Config / \nNetconf), monitored (e.g. SNMP or sFlow), or have its forwarding behavior influenced \nby an external entity (e.g. by an SDN Controller via OF-Switch). \nDomain: A set of Network resources that is controlled in some sense by a specific entity: an \nadministrative domain is administered by the entity, a business domain is owned by the \nentity, etc. (Although not the norm, multiple entities can in some cases jointly control a \ndomain.) \nInterface: A mechanism to permit software / hardware entities to interact, either within a \nprocessor / element (API) or between processors (RPC Interface / Protocol Interface). \nInter-SDN-Controller Interface: An interface permitting SDN Controllers to interact, either \nwithin the same administrative domain (intra-domain) or between administrative domains \n(inter-domain). \nIP / IPv4 / IPv6: Internet Protocol / IP version 4 / IP version 6. \nMPLS / MPLS-TP: Multi-Protocol Label Switching / MPLS Transport Profile. \nNetwork Element (NE): An instance of network resources that is managed as a unit. The \ninstance terminates/originates traffic and/or process traffic for forwarding the traffic \nflows. Examples include an OpenFlow switch, a web server, an L2 switch, an L3 router, a \nfirewall, a load balancer, etc. \nNetwork Function (NF) / Network Service (NS): A specific data plane traffic-processing \nfunction (or set of functions) performed by the network, e.g. load balancing, network \naccess control, content caching, etc. Some use the term Network Service for a set of \nassociated individual Network Functions. \nNFV: Network Functions Virtualization.1 \n1 ETSI/ISG NFV, http://www.etsi.org/technologies-clusters/technologies/nfv\n\nOF-Config Protocol: An ONF protocol that addresses the interface between an SDN Controller \nand a physical network element (physical switch). \nOF-Switch Protocol (formerly known as OpenFlow Protocol): An ONF protocol that addresses \nthe interface between an SDN Controller and a logical switch. Together with the OF-\nConfig Protocol, this represents an instance of a Data-Controller Plane Interface \n(Southbound Interface). \nOTN: Optical Transport Network. \nProtocol Interface (PI): An Interface implemented as a (network) protocol. \nSDN: Software Defined Networking. \nSDN Controlled: Controlled using SDN mechanisms (e.g. OF-Switch / OF-Config, with network \nresources being controlled by the logically centralized SDN Controller). \nSDN Controller: A software/hardware system performing logically centralized control and \nmanagement of network elements and offering network services to zero or more tenants \nor apps. The SDN controller may be physically implemented on a single platform, or it \nmay be physically distributed. \nSDO: Standards Development Organization. \nSNMP: Simple Network Management Protocol. \nTraditionally Controlled: Controlled using non-SDN mechanisms (typically using a distributed \ncontrol plane protocol like OSPF / STP, implemented on fully-distributed network \ncontrollers. \nTunnel: A tunnel transparently conveys client traffic (i.e., traffic using the tunnel) from an \norigination point to a termination point over an underlay network. \nVNF: Virtual Network Function.\n\n2 Architecture for SDN Migration \nA simple high-level SDN architecture is as shown in Figure 1a. \nFigure 1a: High-Level SDN Architecture \n(Source:https://www.opennetworking.org/images/stories/downloads/sdn-resources/white-\npapers/wp-sdn-newnorm.pdf ) \nAnother more generic, high-level SDN architecture is as shown in Figure 1b.\n\nFigure 1b: High-Level SDN Architecture with Management Plane \n(Source: https://www.opennetworking.org/images/stories/downloads/sdn-resources/technical-\nreports/TR_SDN-ARCH-Overview-1.1-11112014.02.pdf ) \nThe above diagram shows a more detailed SDN architecture where it is possible to support \nintegration with a traditional (legacy) network via the operations support system (OSS) and \nmanagement plane elements.\n\nTable-1 has high-level requirements for migration to SDN based network. The degree to which \nthese requirements need to be addressed may vary depending on the type of operator and the \nservices. \nTable-1: General Architecture Requirements for Migration to SDN \nRequirement \nNumber \nRequirement Description \nComments \nReq-Arch-01 \nSeparation of control and forwarding; apps and service may remain \na part of control domain initially \nReq-Arch-02 \nVirtualization, on if and as needed basis \nReq-Arch-03 \nLogical centralization of all of the controls; different controllers may \nmanage different network sections and domains including \ncontrolling the security of the physical and virtual devices \nReq-Arch-04 \nAutomation of provisioning and management \nReq-Arch-05 \nOrchestration and brokering of resources management. This may \nbe driven by application and service requirements \nReq-Arch-06 \nStability and survivability of the network and services \nReq-Arch-07 \nSupport of the SDN migration plan, seamlessly \nReg-Arch-08 \nSecurity Framework for Services and Controller Access \n3 Operator Type and Identity Information \nFlexibility of the SDN architecture allows any and all types of Operators and Service Providers \nto use, integrate with, and deploy both physical and virtual infrastructure based networked \nservices. It is very helpful for solution and equipment suppliers to know the type and identity of \nthe Operator in order to satisfactorily answer the requirements related queries. \nTable-2 focuses on operator type and identity related information (following page).\n\nTable-2: Operator Type and Identity Related Information \nOp Type \nIdentity No. \n Description \nComments \nOp-Type-01 \nOperator Type: \na.\nTraditional wireline or wireless or both types of operators\nb.\nData Center Operators to support content distribution,\nmobile audio/video/data services, analytics, storage and\nrecovery services, etc.\nc.\nEnterprise (both virtual and infrastructure based) Service\nProviders \nd.\nISPs, CSPs, and others (XSPs)\ne.\nVirtual operator (MVNO)\nf.\nCampus Networks (University, Hospital/Healthcare,\nFinance etc. networks)\ng.\nCloud Services Provider\nh.\nOthers (please be specific)\nOp-Type-02 \nExisting Network Architecture (migration candidate): \na.\nCPE devices\nb.\nAccess network\nc.\nEdge Network\nd.\nTransit Networks\ne.\nCore Network\nf.\nInterconnection networks\ng.\nSpecial Purpose Networks (e.g., GENI, I-2 regional\nnetworks, etc.)\nh.\nOthers (please be specific)\nOp-Type-03 \nIdentification of Migration Paradigms and Points \na.\nSoftware based Migration\nb.\nHardware up-date/-grade based Migration\nc.\nOther options, … … …\nOp-Type-04 \nUse of virtualization during/after Migration \na.\nTimeline for introducing virtualization\nb.\nRole of virtualization during/after Migration\nc.\nType of virtualization and orchestration infrastructure\nd.\nOthers …\nOp-Type-05 \nSite or PoP Requirements and Architecture, as/if applicable \na.\nInitial Phase\nb.\nTarget with timeline (3 year, 5 year, etc.)\nc.\nIntermediate Phases\n\nOp-Type-06 \nTesting and Certifications requirements for new equipment in \nthe network (self-testing or third-party facility for testing) \nOp-Type-07 \nSDN Controller being used or in plans, if known or if there is any \npreference of Open Source or others \nOp-Type-08 \nSoftware Stack to be used with on top of OpenFlow enabled \ncontroller/nodes, if known or if there is any preference \nOp-Type-09 \nTraining and (ONF) certification requirements for the migration \nteam \nOp-Type-10 \nAny requirements to integrate with existing Security Framework \nand Infrastructure \n4 Considerations for Gathering Information \nOnce an Operator selects a high-level SDN Architecture, both general and specific (to network \nand services) requirements must be satisfied before committing to any deployment phase. \n4.1 General Migration Requirements \nIn order to maintain the same level of service quality and user experience, the Operator may need \nto satisfy the following (Table-3) general migration requirements. \nTable-3: General Requirements for Migration to SDN \nRequirement \nNumber \nRequirement Description \nComments \nReq-Gen-01 \nContinued Interoperability: Interoperability between the existing \nnetworking infrastructure and the new SND infrastructure \nguarantees seamless service experience \nReq-Gen-02 \nDesired Level of Scalability: Initial deployment may need to be \nscaled for certain segments of the network; as the SDN capable \nelements are introduced throughout many segments of the \nnetwork, the scalability of the control plane elements will be \nrequired, and both hierarchical and peered sub-controllers may \nneed to be supported \nThe scalability of the value-added networking/service functions \nand forwarding elements may need a combination of both virtual \nand physical devices\n\nReq-Gen-03 \nDesired Level of Security: Deployment of SDN elements must \nnot impact the security policy of network operation; the \nprinciples and practices for securing SDN can be found in the \nONF Security WG documents \n(https://www.opennetworking.org/technical-\ncommunities/areas/services) \nDifferent levels of authentication and authorization are likely to \nbe needed for control, data, management, and operations planes \nEvent Logging and monitoring will be needed for audits and \nverification \nReq-Gen04 \nDesired Level of Resiliency and Fault Tolerance: In order to \nmaintain a desired level of resilient and fault-tolerant operations, \ndeployment of any or all components of SDN architecture must \nhandle errors, transient conditions, and component/element \nfailures gracefully \nHandling of Errors: The elements of SDN architecture must \nhandle the error scenarios and conditions gracefully without \nimpacting any other interface and network/service functions. Any \npropagation of error throughout other network functions \n/components must also be prevented or must be kept contained \nwithin a pre-specified (logical) boundary \nHandling of Transient Conditions: During any single- or multi-\nphase deployment of SDN architecture, both controller and \nforwarding elements must handle the transition phases gracefully. \nSome platforms may offer testing and verification of \nconfiguration of control and forwarding entities during the \ntransition (from legacy to SDN) period before committing any \nservice to SDN based operation \nSupporting High Availability: The SDN architecture is expected \nto offer a higher level of reliability and availability of services. \nThis must be maintained by incorporating appropriate 1:1 or 1:N \nlevel of redundancy in the critical elements — be it in the control, \ndata, or management plane \nReq-Gen-05 \nUnified Management and Monitoring: During initial deployment \nof SDN components, many adjunct configuration, bootstrapping, \nand in-/out-band control of network/service functions may be \nneeded in order to address the migration, repair and maintenance \nof network monitoring and operations management\n\n4.2 SDN Migration Solution Requirements \nTable-4 lists SDN migration requirements from a Solution perspective. \nTable-4: General SDN Migration Solution Requirements \nRequirement \nNumber \nRequirement Description \nComments \nReq-Soln-01 \nSDN domain solution prototyping (e.g., proof-of-concept) \nrequirements \nReq-Soln-02 \nSDN domain solution roll-out (test, verify, commit, roll-/fall-\nback) requirements \nReq-Soln-03 \nSDN domain solution scale in/out requirements \nReq-Soln-04 \nRequirements to support SDN domain solution, service and \ndevice/function health monitoring \nReq-Soln-05 \nRequirements to support SDN domain solution stability and its \nassessment \nReq-Soln-06 \nRequirements to support SDN domain solution reliability/ \nsurvivability and its assessment \nReq-Soln-07 \nRequirements to support SDN domain solution’s seamless \ninterworking with legacy for delivering uniform quality of user \nexperience \n4.3 4.3 SDN Migration Device and Function Requirements \n4.3.1 \n4.3.1 Common Set of Requirements \nThe common set of requirements for SDN migration includes the requirements for elements \n(devices and functions) in each of the horizontal (as shown in Fig.1) and vertical (management\n\nand orchestration, as shown in Fig.1b) planes of the architecture. These requirements are as \ndiscussed in Table-5 below. \nTable-5: SDN Migration Device and Function Common Requirements \nRequirement \nNumber \nRequirement Description \nComments \nReq-Cmn-01 \nSDN Forwarding and switching plane device and function \nrequirements including South-bound interface (SBI) \nrequirements \nReq-Cmn-02 \nSDN Controller functions and server (host) requirements \nincluding North-, South-, East- and West-bound interfaces \nrequirements. East- and West-bound interfaces support \ninteraction with management domain (see Fig.1b) and user \ndomains, as depicted in Fig.1 (page 40) of the ZTE \nCommunications Magazine \n(http://wwwen.zte.com.cn/endata/magazine/ztecommunications/\n2013/4/) \nReq-Cmn-03 \nSDN application and service plane device and function \nrequirements including South-bound interface (SBI) \nrequirements \nReq-Cmn-04 \nSDN device/function configuration control and management \ninterface and host requirements \nReq-Cmn-05 \nSDN device/function interworking (with legacy network \ndevice/function) interface and capability requirements \nReq-Cmn-06 \nTrusted Boot and Attestation requirements \nReq-Cmn-07 \nTrust boundary establishment requirements \nReq-Cmn-08 \nAuthentication and Authorization requirements\n\nReq-Cmn-09 \nEncryption requirements \n \n \nReq-Cmn-10 \nAudits and verification requirements \n \n \nReq-Cmn-11 \nGeneral security requirements; the principles and practices for \nsecuring SDN can be found in the ONF Security WG documents \n(https://www.opennetworking.org/technical-\ncommunities/areas/services) \n \nReq-Cmn-12 \nNetwork (layer-2 and layer-3) overlay, underlay and tunneling \n(over and across IP, MPLS, GMPLS, Optical, Ethernet) \nmanagement requirements \n \n \nReq-Cmn-13 \nSDN domain address management requirements \n \n \nReq-Cmn-14 \nSDN domain resources management and migration requirements \n \n \nReq-Cmn-15 \nRequirements to support SDN domain interworking with legacy \ncontrol, forwarding and management devices and functions \n \n \nReq-Cmn-16 \nRequirements to support SDN domain redundancy and fall-back \n(to legacy and/or other SDN domain)\n\n4.3.2 \nIndustry/Service Specific Requirements \nThe service specific set of requirements for SDN migration includes the requirements for \nsupporting networking and value-added services specific to certain sectors. \nThese sectors include SDN based access/edge, aggregation and transport (one and multi-admin \ndomains) networking, data center networking and enterprise/campus networking. \nThe requirements are as discussed in Table-6 below. \nTable-6: Service Specific SDN Migration Requirements \nRequirement \nNumber \nRequirement Description \nComments \nReq-Srvc-01 \nSDN based Edge/Access and Aggregation Networking: \na. Edge and aggregation switch for quality of service (QoS) \naware routing \nb. VLAN support with bandwidth protection capability \nc. QnQ support \nd. Group Table support \ne. MPLS support \nf. IPv6 support \ng. Auxiliary control channel support \nh. Multiple Table and Tenancy support \ni. Line rate switching support \nj. Latency for new rules setup \nk. Max packet punt rate support \nl. Version(s) of OpenFlow specs. supported \nm. OpenSource controller and switch support (with test \nresults) \n \n \nReq-Srvc-02 \nSDN based Transport (One Admin) Networking: \na. Network function instantiation, management, and control \nfor wide area bandwidth and traffic management \nb. Multilevel provisioning by transport-type, e.g., IP, \nMPLS, MPLS-TP, GMPLS, wavelength, etc.\n\nReq-Srvc-03 \na. SDN based Transport (Multi-Admin) Networking: \nb. Network function instantiation, management, control, \nand orchestration for wide area bandwidth and traffic \nmanagement over multiple admin domains \nc. Multilevel provisioning of bandwidth by transport type \n(IP, MPLS, MPLS-TP, GMPLS, optical) over multiple \nadmin domains \nd. Provisioning and management of bandwidth and value-\nadded advanced services (NAT, PAT, firewall, service \nchain, etc.) for retailing and wholesaling \ne. Operation and service management in federated or \nhierarchical modes over multiple admin domains \n \n \nReq-Srvc-04 \nIntra-Data-Center-SDN: \na. Automated provisioning and mobility management of \nvirtual machines for seamless service management \nb. Seamless integration with virtual storage for on-demand \nfile capacity management \nc. Client-specific security and tunnel management \nd. Service-specific security and tunnel management \ne. On-demand service acceleration management \nf. Virtual and physical domain compute, storage and \nnetworking resources lifecycle management \ng. Generic resources sanity and regulatory management \n \n \nReq-Srvc-05 \nSDN for Data-Center-Interconnection: \na. Automated provisioning and control of bandwidth for \nseamless traffic management services \nb. Seamless support of interconnection among multi-\ndomain (private, public, hybrid) virtualized resources \nc. Multi-domain tunneling and centralized control\n\nReq-Srvc-06 \nSDN based Enterprise/Campus: \na. Automated provisioning and control of convergence \nservices \nb. Policy based design and management (enforcement) of \nconverged services \nc. Automated provisioning and management of network \n(bandwidth, quality-of-service, security, etc.) and service \n(DNS, DHCP, etc.) resources \nd. User and application/service profile based resource \nmanagement \n \n \n \n \n \n \n5 Conclusions \nThe document presents a high-level RFI template for migration to SDN-based network \narchitecture. \nIt is expected to be equally helpful to both network and service providers who are considering \nmigration to SDN architecture using physical or virtual or hybrid (physical and virtual) network \nelements /functions. In many ways, an RFI process can be a signal to a group of vendors that the \nacquisition and deployment for new technologies like SDN will follow a proven and deliberative \npath. The solicitor of information will not be swayed by mass advertising or the claims of one \nparticular sales representative, but rather will be guided by a careful investigation of the \ncomprehensive data across an entire spectrum of providers. Rather than signal that the inquirer is \nnot educated about the technology, are well-crafted RFI signals that this particular customer will \nnot be swayed by either the first or last marketing campaign (s)he has heard. It further signals \nthat this organization is going to move with measure steps on a path of innovation, and wants \nassurance by potential providers—in writing—that vendor claims can be substantiated. This \nprocess will signal to all parties—internal and external to the deploying organization—that those \nwho direct the RFI are competent, deliberate, and careful with the resources of the company, and \nare on their way toward innovation that is borne of good decision-making. \nIn the case of a nascent technology like SDN, the hyperbole and claims made in the initial phases \nof product development and release can be difficult to separate from the realities about what \nimprovements can be reasonably expected from SDN. A well-crafted RFI can help separate the \nwheat from the chaff and give greater confidence to those making their first steps in an SDN \ndeployment.\n\n6 Acknowledgements \nWe gratefully acknowledge the contributions of reviewers of earlier versions of this document. \n7 Revision History \nDate \nRev \nDescription \nEditor \n08April-2015 \n0.1a \nInitial release to the Migration Working Group \nB. Khasnabish \n14April-2015 \n0.1b \nAdded structure, split out Operator/Vendor \nrequirements; common/service specific \nrequirements. Added requirements \nE. Salahuddin \n06May-2015 \n0.1c \nAdded architecture diagrams and some more \nrequirements \nE. Salahauddin \n13-May-2015 \n0.1d \nUpdates and revision \nB. Khasnabish \n19-May-2015 \n0.1e \nAdded template, architectures, and tables for \ndifferent sections \nB. Khasnabish \n20-May-2015 \n0.1f \nUpdates and revision \nE. Salahauddin \n21-May-2015 \n0.1g \nEdits, updates and revision \nB. Khasnabish \n02-June-2015 \n0.1h \nEdits and updates \nE. Salahuddin \n03-June-2015 \n0.1i \nMinor updates after review with the team \nE. Salahuddin \n03-June-2015 \n0.1j \nAdded contents to Appendix-A \nG. Reffet and N. \nKumar \n13-July-2015 \n0.1k \nEdits and updates \nE. Ganon \n15-July-2015 \n0.1l \nEdits, updates and revision \nB. Khasnabish \n15-July-2015 \n0.1m \nUpdates during WG review \nB. Khasnabish \n05-Aug-2015 \n0.1n \nUpdates to address the comments from Dacheng \nB. Khasnabish \n12-Aug-2015 \n0.1o \nUpdates based on Beth’s comments \nB. Khasnabish \n15-Oct2015 \n0.1p \nEdits and updates \nB. Khasnabish\n\n8 References \n1. ONF Migration Use Cases and Methods \nhttps://www.opennetworking.org/images/stories/downloads/sdn-resources/use-\ncases/Migration-WG-Use-Cases.pdf \n2. Software-Defined Networking (SDN) Definition \nhttps://www.opennetworking.org/sdn-resources/sdn-definition \n3. SDN Architecture Overview v1.1: \nhttps://www.opennetworking.org/images/stories/downloads/sdn-resources/technical-\nreports/TR_SDN-ARCH-Overview-1.1-11112014.02.pdf\n\n9 Appendix A: SDN Migration Prototyping Results \nBased on a deployment use case provided by NTT, the ONF Migration Working Group designed \nseveral methods to migrate from a legacy BGP based network edge to OpenFlow-based “SDN-\nized” network edge with seamless interworking. \nThe different methods are described in the following documents: SDN Migration Prototype & \nDemo Proposals (onf2014.308.12). \nA first prototype was created to demonstrate that it is possible to migrate easily to an SDNized \nnetwork. \nThe initial network is composed of two CE (CE1 – CE2) at each extremity of the network, two \nPE (PE1 – PE2) which are connected by a P Router and a Route Reflector, as shown below. \nIn term of connection, there is an eBGP link between the CE and the PE (CE1 to PE1 and CE2 to \nPE2). The PE1 is connected to the Route Reflector using a MP-BGP link and it is a similar \nconnection to connect PE2. \nIn this legacy topology, the control plane and data plane are duplicated in all network elements. \nThat means if CE2 pings CE1, the data goes to CE2 to PE2, forwarded to P Router, forwarded to \nPE1, forwarded to CE1. \nThe goal of this prototype is to migrate to a hybrid network using SDN. \nAccording to the schema below, the PE2 router will be replaced by an OpenVSwitch, and an \nSDN controller OpenDaylight and a Route Controller will be added on this SDN migration \ntopology.\n\nThanks to this topology, the data plane is on the OpenVSwitch but the control plane is now on \nthe SDN controller. With the same example, when CE2 pings CE1, the packet goes to CE2 to the \nOVS PE2 that has been programmed by OpenDayLight the packet is automatically forwarded to \nthe P router, forwarded to PE1, forwarded to CE1. The data plane is similar to the legacy \nnetwork, but the control plane of one element is now centralized in the SDN controller. \nBased on the SDN topology, the CE2 device’s interface is not yet configured, the CE1 is not able \nto ping CE2: \nThe network is now configured on CE2: \n \nThe application has now reflected that the network that has been added:\n\nOn the OpenVSwitch a new table has been added \n \nCE1 is now able to ping CE2 \n \nOn the same way, if the interface on CE2 is removed \n \nCE1 is no longer able to ping \n \nThe application detects this change\n\nAnd the OpenVSwitch is reconfigured, the flow is removed \n \n \n10 Contributors \nBhumip Khasnabish (ZTE) — Editor \nDacheng Zhang (Alibaba) \nEdna Ganon (MRV) \nEsa Salahuddin (Cisco) \nGuillaume Reffet (Ubiqube) \nHakki Cankaya(Fujitsu) \nMarty Ma (Tencent) \nNaresh Kumar (Criterion)",
+  "errors": [],
+  "removed_noise_lines": [
+    "Request for Information (RFI) Template for Migration to Software Defined Networking (SDN)",
+    "© 2016 Open Networking Foundation"
+  ]
+}

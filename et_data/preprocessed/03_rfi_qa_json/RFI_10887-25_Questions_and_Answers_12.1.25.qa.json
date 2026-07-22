@@ -1,0 +1,64 @@
+{
+  "source_file": "RFI_10887-25_Questions_and_Answers_12.1.25.txt",
+  "original_filename": "RFI 10887-25 Questions and Answers 12.1.25.pdf",
+  "original_source_path": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\04_Project_Communications\\RFIs\\RFI 10887-25 Questions and Answers 12.1.25.pdf",
+  "rfi_id": "10887-25",
+  "title": "RFI 10887-25",
+  "document_type": "RFI",
+  "document_subtype": "qa_document",
+  "category": "Project_Communications/RFIs",
+  "page_count": 3,
+  "char_count": 5105,
+  "qa_pair_count": 9,
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "Can companies from Outside USA apply for this? (from India or Canada)",
+      "answer": "There is no limitation, however we will expect any partner to comply with our Information, Privacy, and Security Agreement (IPSA) section 5.c: City, Consultant shall not (i) access, store, process, transmit, or create City Data at locations outside the fifty (50) United States of America; (ii) permit viewing access to City Data by Consultant or any of its agents (including any subconsultants) or any other person outside the fifty (50) United States of America through any screen sharing technology such as Remote Desktop Protocol or VMware Remote Console (“VMRC” ), or other current or future protocols designed to provide similar functionality; or (iii) provide City Data received from, created, or received by Vendor on behalf of City to any employee or agent, including a subconsultant, if such employee, agent, or subconsultant receives, processes, or otherwise has access to such City Data outside of the fifty (50) United States of America. The prohibitions set forth in this Section 5.c apply not only to Consultant’s data center locations and personnel primarily involved with providing the contracted Services, but equally to any and all data centers and personnel used for resilience or redundancy, backups, log storage, after-hours support, and any downstream partners that may access, store, process, transmit, or create City Data."
+    },
+    {
+      "id": 2,
+      "question": "Do we need to attend meetings in person, or can they be held remotely?",
+      "answer": "We don’t anticipate requiring on-site meetings"
+    },
+    {
+      "id": 3,
+      "question": "3. Can we perform the tasks (related to RFP) outside USA? (from India or Canada)",
+      "answer": "Please note this solicitation is not an RFP, this is RFI – Request for Information. This RFI is issued for information gathering purposes only. The City does not intend to award a contract at the end of this process. New RFP will be issued sometime in the feature when the City is ready to award. This is covered under the IPSA section 5.c: City, Consultant shall not (i) access, store, process, transmit, or create City Data at locations outside the fifty (50) United States of America; (ii) permit viewing access to City Data by Consultant or any of its agents (including any subconsultants) or any other person outside the fifty (50) United States of America through any screen sharing technology such as Remote Desktop Protocol or VMware Remote Console (“VMRC” ), or other current or future protocols designed to provide similar functionality; or (iii) provide City Data received from, created, or received by Vendor on behalf of City to any employee or agent, including a subconsultant, if such employee, agent, or subconsultant receives, processes, or otherwise has access to such City Data outside of the fifty (50) United States of America. The prohibitions set forth in this Section 5.c apply not only to Consultant’s data center locations and personnel primarily involved with providing the contracted Services, but equally to any and all data centers and personnel used for resilience or redundancy, backups, log storage, after-hours support, and any downstream partners that may access, store, process, transmit, or create City Data"
+    },
+    {
+      "id": 4,
+      "question": "Can we submit the proposals via email?",
+      "answer": "No. Please refer to submittal instructions on the solicitation page."
+    },
+    {
+      "id": 5,
+      "question": "From the responses the City receives from this RFI, does the City intend to issue a final RFP or is it the intent to work off these RFI responses to narrow down the vendors and then select one of the respondents?",
+      "answer": "Based on information received City will issue an RFP and invite all respondents of this RFI to submit proposals."
+    },
+    {
+      "id": 6,
+      "question": "Can the City share if they have been working with any vendors and their specific products/solutions to help determine the City’s needs for this solution?",
+      "answer": "This is the beginning of the effort to understand solution options and no specific products/vendors have been evaluated at this point. All discussions have been internal to the City."
+    },
+    {
+      "id": 7,
+      "question": "With the holidays and many people out on vacations this week and next, to provide our best response from our technical and bid teams, could the response due date be extended out 1 week?",
+      "answer": "Yes, we can extend the close date to December 17."
+    },
+    {
+      "id": 8,
+      "question": "For terms & conditions in this response, is it the City's intent to choose a vendor based on their response and then review and agree to the SLAs and legal terms & conditions?",
+      "answer": "Yes, our process to determine production SLA’s and agree to terms and conditions will happen during final selections and not as part of this RFI effort."
+    },
+    {
+      "id": 9,
+      "question": "Are you required to use GCC (Government Cloud) or can you use commercial?",
+      "answer": "We are in GCC so we want solutions that work in GCC. Long term we are considering moving to Commercial Cloud. But for now, we require GCC even though we know there are limitations."
+    }
+  ],
+  "section_count": 0,
+  "sections": [],
+  "structured_at": "2026-06-29T20:03:15.165618",
+  "extraction_method": "regex Q#/A# pattern matching + heading-based sectioning"
+}

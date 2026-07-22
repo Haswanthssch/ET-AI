@@ -1,0 +1,263 @@
+{
+  "source_file": "rfi_for_cloud_adoption.txt",
+  "original_filename": "rfi for cloud adoption.pdf",
+  "original_source_path": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\04_Project_Communications\\RFIs\\rfi for cloud adoption.pdf",
+  "rfi_id": "document",
+  "title": "Request for Information (RFI) for Public and Hybrid Cloud Adoption for",
+  "document_type": "RFI",
+  "document_subtype": "narrative_document",
+  "category": "Project_Communications/RFIs",
+  "page_count": 22,
+  "char_count": 43781,
+  "qa_pair_count": 0,
+  "qa_pairs": [],
+  "section_count": 61,
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "Request for Information (RFI) for Public and Hybrid Cloud Adoption for hosting applications on Infrastructure of Cloud Service Provider Union Bank of India, Department of Information Technology, Adi Shankaracharya Marg, Opp. Powai Lake, Powai, Andheri (E), Mumbai-400072 1 | 21"
+    },
+    {
+      "heading": "DISCLAIMER",
+      "body": "The information contained in this Request for Information (RFI) is provided to the Bidder(s) on the terms and conditions set out in this RFI document. The RFI document contains statements derived from information that is believed to be true and reliable at the date obtained but does not purport to provide all of the information that may be necessary or desirable to enable an intending contracting party to determine whether or not to enter into a contract or arrangement with Bank in relation to the provision of services. The RFI document is not a recommendation, offer or invitation to enter into a contract, agreement or any other arrangement, in respect of the services. The provision of the services is subject to observance of selection process and appropriate documentation being agreed between the Bank and any successful Bidder as identified by the Bank, after completion of the selection process as detailed in this document. No contractual obligation whatsoever shall arise from the RFI process unless and until a formal contract is signed and executed by duly authorized officers of Union Bank of India with the Bidder. The purpose of this RFI is to provide the Bidder(s) with information to assist the formulation of their proposals. This RFI does not claim to contain all the information each Bidder may require. Each Bidder should conduct their own investigations and analysis and should check the accuracy, reliability and completeness of the information in this RFI and where necessary obtain independent advice. Union Bank of India makes no representation or warranty and shall incur no liability under any law, statute, rules or regulations as to the accuracy, reliability or completeness of this RFI. Union Bank of India may in its absolute discretion, but without being under any obligation to do so, update, amend or supplement the information in this RFI. 2 | 21"
+    },
+    {
+      "heading": "GENERAL INSTRUCTIONS TO BIDDERS",
+      "body": "All bidders must note that this being E-tender, bids received only through online on E-tendering portal https://ubi.abcprocure.comshall be considered as an offer. Any bid submitted in physical form will not be received or opened and shall be summarily rejected. Procedure for submission of E-tender by bidder: Interested bidders who wish to participate should visit website https://ubi.abcprocure.com which is the ONLY website for bidding their offer. Further, the procedure is as follows:"
+    },
+    {
+      "heading": "1. Register your company in website https://ubi.abcprocure.com for obtaining a Login ID",
+      "body": "and Password."
+    },
+    {
+      "heading": "2. Using the login ID, password and digital signature, login in to the tender portal to",
+      "body": "download the tender document. It is mandatory for the Bidders to have a valid Digital Signature Certificate – Signing and Encryption (Class – II or Class – III) issued by any of the valid Certifying Authority approved by Govt. of India as per IT Act, 2000. DSC on Organization name is required, if bidder want to participate on behalf of his/her Company."
+    },
+    {
+      "heading": "3. Upload supporting documents by clicking “Mapped Documents”. Then submit the tender.",
+      "body": "Take a print screen of “Bid successfully submitted” message for reference."
+    },
+    {
+      "heading": "4. Primary",
+      "body": "Contact Numbers:-+91-9081000427,9904406300, email id: support@procuretiger.com"
+    },
+    {
+      "heading": "5. Alternate Contact Details.:-",
+      "body": "a) Nandan Valera email: nandan.v@eptl.in Mob: 9081000427 b) Fahad Khan email: fahad@eptl.in Mob: 9904406300 c) Shaikh Nasruddin email: shaikh@eptl.in Mob: 9510812960"
+    },
+    {
+      "heading": "6. System requirement for online bid submission:",
+      "body": "a. Computer / Laptop (Notebook) with internet connection of minimum 256 kbps speed. b. Operating system - Windows XP Service pack -3 / VISTA/ Windows 7 or above."
+    },
+    {
+      "heading": "7. Bidder must submit the offer before online closing date & time. The website will",
+      "body": "automatically stop accepting the offer after online closing date and time. E-tendering Helpline no: 079-61200566/567/579/580/569/566/591 Email ID: support@auctiontiger.net Please note that bids submitted through offline will not be accepted. Bids must be submitted only through online at the portal mentioned above. 3 | 21 Bid Details: RFI Ref. No. UBI/DIT/2022-23/31 Start Date & Time of issue of RFI/ Document Download 14.12.2022 at 11:00 Hours Last date and time for downloading of Bidding Document/RFI 28.12.2022 up to 15:00 Hours Last date and time for submission of Bidding Document 28.12.2022 up to 16:00 Hours Date and Time of Technical Bid Opening 28.12.2022 up to 16:15 Hours Cost of RFI & Cost of EMD Nil Address for Communication Union Bank of India, Department of Information Technology (Ground Floor), Technology Centre, Adi Shankaracharya Marg, Opp. Powai Lake, Powai, Mumbai. Address & Contact Numbers As above Tel:(022) 25710507/528/527 Contact details Interested Bidders are requested to send the email to in case of any query: Ashutosh Gaur - ashutoshgaur@unionbankofindia.bank, Rajesh Kumar - rajeshkr@unionbankofindia.bank & Kislay Sinha kislaysinha@unionbankofindia.com containing below mentioned information, so that in case of any clarification same may be issued: Name of company, contact person, Mailing address with Pin Code, Telephone No., Mobile No., email address etc. 4 | 21 Contents S No Particular Page No Introduction Definition Objectives of RFI Invitation to Bidders Eligibility Criteria Tentative Scope of Work for RFI General Term & Condition Technical Offer RFI Response Confidentiality Arbitration Dispute Resolution & Jurisdiction Submission of Bids Annexure A - MSP’s Profile Annexure B - Undertaking by Bidder Annexure C – Eligibility Criteria Annexure D – Confidentiality/Non Disclosure Agreement Annexure E – Presentation by Bidder Abbreviations The long form of some abbreviations commonly used in the document is given below: Abbreviations Description UBI Union Bank of India RFI Request for Information MSP Managed Service Partner CSP Cloud Service provider CMP Cloud Management Platform IaaS Infrastructure as a Service SI System Integrator PaaS Platform as a Service SaaS Software as a Service 5 | 21 Union Bank of India"
+    },
+    {
+      "heading": "1. Introduction",
+      "body": "Union Bank of India, a Public Sector Bank has its Head Office at 239, Vidhan Bhavan Marg, Union Bank Bhavan, Nariman Point, Mumbai – 400021, having Department of Information Technology at 1/1A, Adi Shankaracharya Marg, opp. Powai Lake, Powai, Andheri East, Mumbai-400072.The Bank has 9400+ branches, 18 Field General Manager’s offices and 125 regional offices spread across the country."
+    },
+    {
+      "heading": "2. Definition",
+      "body": "2.1. ‘Bank or UBI’ means unless excluded by and repugnant context or the meaning thereof, shall mean ‘Union Bank of India’, described in more detail in clause 1 above and which has invited bids under this Request for Information and shall be deemed to include it successors and permitted assigns. 2.2. ‘RFI’ means this Request for Information document prepared by Union Bank of India requesting bidders for providing scope of work, technical details, tentative cost i.e. Bill of Material and costing model for subscribing IaaS /PaaS/SaaS on VMware Cloud on any CSP Infrastructure for hosting Banking applications. 2.3. ‘Bidder’ means a vendor who is submitting the proposal in response to this RFI. 2.4. ‘Proposal’ means that Technical proposal including any documents submitted by the bidder as per asked in this RFI. 2.5. ‘Solution’ means providing services for complete scope of work, technical details, tentative cost and costing model for subscribing IaaS /PaaS/SaaS on VMware Cloud on any CSP Infrastructure for hosting Banking applications."
+    },
+    {
+      "heading": "3. Objectives of RFI",
+      "body": "Bank has hosted various Banking applications which are critical and non-critical in nature on Bank’s On-Private Cloud Infrastructure which is built on VMware Private Cloud Suite. Now Bank is in process of adoption of public cloud/Hybrid cloud infrastructure for hosting the applications as and when such requirement arises. Bank is inviting the technical proposal from the interested cloud service provider’s authorized partner though this RFI. The interested partner needs to submit the complete scope of work, deliverables, technical details, tentative cost and costing model and other relevant details and information for the CSPs infrastructure like security and network architecture, infrastructure details etc for hosting Banking applications. Bank will draft an RFP based on the technical details, scope of work and other details submitted by the managed service partner (MSP) for the CSP’s infrastructure. 6 | 21"
+    },
+    {
+      "heading": "4. Invitation to Bidders",
+      "body": "Bank invites proposal from the eligible entities to submit the complete scope of work, technical details, tentative cost and costing model and other relevant details and information for the CSPs infrastructure like security and network architecture, infrastructure details etc for subscribing Infrastructure as a Service (IaaS) on VMware Cloud on any CSP Infrastructure for hosting Banking applications. No contractual obligation on behalf of the Bank whatsoever shall arise from the RFI process unless and until a formal contract is signed & executed by duly authorized officers of the Bank and the successful bidder. Bidders are expected to examine all instructions, forms, terms, specifications, and other information in the RFI document. The procedure and terms & conditions for submission of bid are enumerated in this RFI. Proposed public/Hybrid cloud offerings should be complied with RBI & MEITY recommendations. The Document can be downloaded from Bank’s Website www.unionbankofindia.co.in or from Bank’s e-Procurement Portal https://ubi.abcprocure.com."
+    },
+    {
+      "heading": "5.1. Managed Service Provider must submit an authorization letter from the Cloud",
+      "body": "Service Provider authorizing to participate in this RFI. (Authorization letter must be on CSP’s letter head and duly signed by authorized signatory)"
+    },
+    {
+      "heading": "5.2. The companies or firms, bidding for the above tender, should have not been",
+      "body": "black listed by any of Government Authority or Public Sector Undertaking (PSUs). The bidder shall give an undertaking (on their letter head) that they have not been black listed by any of the Govt. Authority or PSUs. In case, in the past, the name of their Company was black listed by any of the Govt. Authority or PSUs, the same must have been removed from the black list as on date of submission of the tender, otherwise the bid will not be considered. Undertaking on Company’s letterhead as per Annexure B to be submitted by the bidder. Note: Bank Shall Follow Govt Guidelines/Notifications for Public Procurement. As per Policy Circular No.1(2)(1)/2016-MA dated 10.03.2016 issued by GOI and F.20/2/2014-PPD (Pt) dated 20.09.2016, bank may relax condition of prior turnover and prior experience with respect to Micro and Small Enterprises and Startups subject to meeting of quality and technical specifications."
+    },
+    {
+      "heading": "6. Tentative Scope of Work for RFI",
+      "body": "Bank is in process of adopting public cloud platform for hosting Banking applications. Bank has built On-Premise Private Cloud Infrastructure for hosting workloads on VMware Private Cloud Suite. Bank will adopt Hybrid Cloud model 7 | 21 initially for hosting Banking applications. During this adoption phase, Bank will leverage and understand the Public Cloud platform, costing model and its associated various technologies. In order to finalize the scope of work, Bank need to get detailed information in below mention area but not limited to the following: 6.1. Cloud readiness Assessments Interested partners should provide complete details regarding framework, methodologies, areas covered, deliverables associated and redesigning of client model for cloud readiness assessments."
+    },
+    {
+      "heading": "6.2. Workload Migration Planning",
+      "body": "Interested partners should describe about migration option (rehost, refactor, rewrite), migration planning, migration testing, tools used to analyze and plan migration etc."
+    },
+    {
+      "heading": "6.3. Provisioning, Orchestration and Automation",
+      "body": "Describe the overview of managed services for creation, deletion, modification and orchestration of cloud assets."
+    },
+    {
+      "heading": "6.4. Monitoring and Analytics",
+      "body": "Interested partners should specify the services to track and report about the availability, health and performance of deployed infrastructure. Leveraging monitoring and analytic capabilities to initiate self-healing & automation. Describe recent success with the last 1 year"
+    },
+    {
+      "heading": "6.5. Capacity Optimization",
+      "body": "Partners should describe the services to optimize the use of cloud capacity to support reliable and cost-efficient operations. Services should include aspects of capacity planning and demand management in addition to optimization of existing capacity. 6.6. Cost Monitoring Partners should describe compete costing model, how cloud service providers charges for the offered services, also about the existing capabilities for monitoring cloud cost, including availability of metering functionality. Also describe about customer live access to current and historical information and alerting functionality offered. Specify the measures to be taken by the bank for cost optimization. 6.7. Backup and Recovery Partner should describe about the backup services related to protecting data of the Bank, including the granularity of backup and availability of recovery options."
+    },
+    {
+      "heading": "6.8. Disaster Recovery",
+      "body": "Partner should describe the services offered for disaster recovery, self service capabilities and the RPO and RTO service levels associated with CSP’s. 8 | 21"
+    },
+    {
+      "heading": "6.9. Configuration Management",
+      "body": "Partners should describe about services to ensure and maintain configuration standard. Services should be capable to prevent, detect and remediate changes in the configuration of the cloud environment. Also include policy- based controls, actionable events, automated workflows and associated reporting."
+    },
+    {
+      "heading": "6.10. Securing the Cloud Environment",
+      "body": "Partners should provide the details of services to protect cloud environment from security threats. Partners should provide complete IT Security Services offered by the CSP’s and how Bank can avail those services to secure their environment. 6.11 Hybrid Management, and Customer Infrastructure Integration Services Partners should provide the extent to which management capabilities are provided to address customers hybrid requirements, identity and access management solutions, workloads and infrastructure in On-Premise and hosted solutions, customer wide area network etc. 6.12 Cloud Provider technical support Partners should describe about any implication that using your managed services has on customer’s ability to directly engaged with the CSP’s. Support agreement between MSP & CSP to ensure 2nd and 3rd tier incident and support resolution and any other agreements that you have. 6.13 Cloud Service Providers Platform Interested Cloud Service Provider’s partners should provide complete details of the CSP’s platform and various services offered by the CSP. 6.14 Cloud Management Platform Provide a high-level overview description of the cloud management platform and/or integrated tooling used to deliver services. Include narrative that helps explain which CMP components are provided by third parties. 6.15 Networking The interested partner should provide the complete network details and networking requirement (how data flow within the CSP, network connection between CSP and Bank Premises, network diagram etc.) for the Bank, for onboarding the applications on the CSP’s platform. 6.16 Log Analysis Partners should provide the process how various logs are stored, Secured and analyzed based on the Bank’s requirements. 6.17 Accreditations/Certification and Business Profile Partners should provide the details of Accreditations/Certifications of Cloud Server Provider. The complete business profile of the CSPs like how long in cloud service business, core strength of CSP in cloud services. 9 | 21 6.18 Landing Zone Interested partners should provide complete details and design for landing zone creation with estimated cost and time involved. 6.19 Approach of onboarding of new clients Describe the approach taken and complete customized process required to onboard a new client on Public/Hybrid Cloud as per Bank requirement. 6.20 Regulatory authorities guide lines Cloud Service Provider’s should ensure the compliance with the guidelines and relevant certifications issued by RBI, Ministry of Electronic and Information Technology (Meity), PCI-DSS, Cert-IN, ISO etc, and confirm that the Bank’ data will reside in Data Centers base in India. 6.21 Exit clause Partners should provide the detailed description of the exit clause including agreed process and turnaround time for exit, data completeness and portability, secure purge of Bank’s information, smooth transition of services, monitoring the ongoing design of application and service delivery technology stack the exit plans align with and details of how cloud hosted services and data will moved out from the cloud with minimal impact on continuity of the Bank’s business."
+    },
+    {
+      "heading": "7. General Term & Condition",
+      "body": "7.1. This document is neither an offer letter nor a legal contract. 7.2. Committee constituted by bank will scrutinize the detailed document submitted by the prospective service providers. 7.3. The service providers will be called for a presentation regarding their technical design & architecture submitted by them. 7.4. All incidental expenditure incurred in preparation/ submission or presentation of the RFI shall be borne by the participating managed service providers (MSPs). 7.5. Post finalization of Scope of work, Deliverables & estimated project cost, Bank may float open RFP for inviting proposals from prospective service providers to carry out this entire exercise as per the prevailing bank guidelines. 7.6. The selected service provider shall indicate the authorized signatories who can discuss and correspond with the Bank. The participant shall furnish proof of signature identification for above purposes as required by the Bank 7.7. Bank will communicate only with the prime respondent for all requirements and other related activities. 7.8. Bank makes no commitments, implied or otherwise, that this document of issuance, the respondent's preparation and submission of a response can result in a business transaction with the respondent or any other participant. 10 | 21 7.9. The Bank is not responsible for any assumptions or judgments made by the participant for proposing the deliverables."
+    },
+    {
+      "heading": "7.10. Physical document is to be submitted with a covering letter enclosing/",
+      "body": "documents/ information indicated above the declaration, signed by the authorized signatory with the seal of the company at the address mention in point no. -8. All pages are required to be signed."
+    },
+    {
+      "heading": "7.11. Interested Managed Service Provider must partner with leading Cloud",
+      "body": "Service Provider who must offer all the service models such as IaaS, PaaS and SaaS. 8. Technical Offer"
+    },
+    {
+      "heading": "8.1. The Technical Bid should contain all information asked for in this document. It",
+      "body": "should not contain any price information and should be submitted online at the e-procurement site https://ubi.abcprocure.com."
+    },
+    {
+      "heading": "8.1.5. Annexure E – Presentation by Bidder",
+      "body": "9. RFI Response All submissions will become the property of Bank. Recipients shall be deemed to license, and grant all rights to, Bank to reproduce the whole or any portion of their submission for the purpose of evaluation, to disclose the contents of the submission to other Recipients who have registered a submission and to disclose and/or use the contents of the submission as the basis for any resulting RFI process, notwithstanding any copyright or other intellectual property right that may subsist in the submission or Banking documents. Bid properly documented should be uploaded online at the e-procurement site https://ubi.abcprocure.com at stipulated date & time mentioned in the RFI."
+    },
+    {
+      "heading": "10. Confidentiality",
+      "body": "The bidder must undertake that they shall hold in trust any Information received by them, under the Contract/Agreement, and the strictest of confidence shall be maintained in respect of such Information. The bidder has also to agree:"
+    },
+    {
+      "heading": "10.1. To maintain and use the Information only for the purposes of the",
+      "body": "Contract/Agreement and only as permitted by the BANK;"
+    },
+    {
+      "heading": "10.2. To only make copies as specifically authorized by the prior written consent",
+      "body": "of the Bank and with the same confidential or proprietary notices as may be printed or displayed on the original; 11 | 21"
+    },
+    {
+      "heading": "10.3. To restrict access and disclosure of Information to such of their employees,",
+      "body": "agents, strictly on a \"need to know\" basis, to maintain confidentiality of the Information disclosed to them in accordance with this Clause and"
+    },
+    {
+      "heading": "11. Arbitration",
+      "body": "All disputes and differences of any kind whatsoever arising out of or in connection with the purchase order shall be referred to arbitration. The arbitrator may be appointed by both the parties or in case of disagreement each party may appoint an arbitrator and such arbitrators shall appoint an Umpire before entering on the reference. The decision of the Umpire shall be final. Such arbitration shall be governed by the provisions of Indian Arbitration and Conciliation Act 1996. All arbitration proceedings shall be at Mumbai, Maharashtra State, India only."
+    },
+    {
+      "heading": "12. Dispute Resolution & Jurisdiction",
+      "body": "Notwithstanding anything contained herein above, in case of any dispute, claim and legal action arising out of this RFI, the parties shall be subject to the jurisdiction of courts at Mumbai, Maharashtra State, India only. Law of India will be applicable for Dispute Resolution."
+    },
+    {
+      "heading": "13. Submission of Bids",
+      "body": "The bidders have to submit bid through Online at the e-procurement portal. Bidders are to upload documents on the site https://ubi.abcprocure.com. Bank may, at its discretion, extend this deadline for submission of bids by releasing corrigendum to this tender document. 12 | 21"
+    },
+    {
+      "heading": "14. Annexure A - MSP’s Profile",
+      "body": "# Parameters Response Name of the Firm/Company Year of Incorporation in India Names of the Partners/Directors Name and Address of the Principal Banker Addresses of Firm/Company a) Head Office b) Local Office in Mumbai Authorized Contact person a) Name and Designation b) Telephone number c) E-mail ID Name and Details of CSP for whom behalf bid is submitted Site details where the participant has experience in performing the similar exercise. Name of The Bank: Brief Detail of the Work Done: Details can be given as annexure. Yours faithfully, (Signature of Authorized Signatory) <NAME, TITLE AND ADDRESS> 13 | 21"
+    },
+    {
+      "heading": "15. Annexure B - Undertaking by Bidder",
+      "body": "Place: Date: To: The General Manager, Union Bank of India, 5th floor, Technology Centre, 1/1A, Adi Shankaracharya Marg, Opp. Powai Lake, Powai, Andheri (East), Mumbai‐400072. Undertaking (To be submitted by all Bidders’ on their letter head) We ________________________ (bidder name), hereby undertake that- • As on date of submission of tender, we are not blacklisted by the Central Government / any of the State Governments / PSUs in India or any Financial Institution in India. • We also undertake that, we are not involved in any legal case that may affect the solvency / existence of our firm or in any other way that may affect capability to provide / continue the services to bank. Yours faithfully, Authorized Signatories (Name, Designation and Seal of the Company) Date 14 | 21"
+    },
+    {
+      "heading": "16. Annexure C – Eligibility Criteria",
+      "body": "Sl.N o Pre Qualification Criteria Compliance (Yes/No) Detail of Proof Attached Managed Service Provider must submit an authorization letter from the Cloud Service Provider authorizing to participate in this RFI. (Authorization letter must be on CSP’s letter head and duly signed by authorized signatory) The companies or firms, bidding for the above tender, should have not been black listed by any of Government Authority or Public Sector Undertaking (PSUs). The bidder shall give an undertaking (on their letter head) that they have not been black listed by any of the Govt. Authority or PSUs. In case, in the past, the name of their Company was black listed by any of the Govt. Authority or PSUs, the same must have been removed from the black list as on date of submission of the tender, otherwise the bid will not be considered. Undertaking on Company’s letterhead as per Annexure B to be submitted by the bidder. Note: Bank Shall Follow Govt Guidelines/Notifications for Public Procurement. As per Policy Circular No.1(2)(1)/2016-MA dated 10.03.2016 issued by GOI and F.20/2/2014-PPD (Pt) dated 20.09.2016, bank may relax condition of prior turnover and prior experience with respect to Micro and Small Enterprises and Startups subject to meeting of quality and technical specifications. Yours faithfully, Authorized Signatories (Name, Designation and Seal of the Company) Date 15 | 21"
+    },
+    {
+      "heading": "17. Annexure D – Confidentiality / Non Disclosure Agreement",
+      "body": "This CONFIDENTIALITY AGREEMENT (the “Agreement”) entered into on this _ day of 2022, and shall be deemed to have become in full force and effect from (the “Effective Date”). BY and between M/s.__________________ a company incorporated under the provisions of the Companies Act, _________ in force in India, having its registered office at ______________________________________________ (hereinafter referred to as “--------” or “Vendor” which expression shall, unless it be repugnant or contrary to the context or meaning thereof, mean and include its, successors and permitted assigns) of the ONE PART AND Union Bank of India, a corresponding new bank constituted under section 3 of Banking Companies (Acquisition & Transfer of Undertakings) Act 1970 having its Head office at Union Bank Bhavan, Vidhan Bhavan Marg, Nariman Point, Mumbai – 400021 (hereinafter referred to as “Union Bank” or “Bank” which expression shall, unless it be repugnant to the context or meaning thereof, mean and include its successors and permitted assigns), of the OTHER PART: ---------- and the Bank shall hereinafter jointly be referred to as “Parties” and individually as a “Party”. In this Agreement, “Affiliate” means any entity which from time to time Controls, is Controlled by or is under common Control with the relevant party or entity, where “Control” means having the ability (including, without limitation, by means of a majority of voting rights or the right to appoint or remove a majority of the board of directors) to control the management and policies of an entity. WHEREAS:- i. Vendor inter-alia is engaged in the business of providing IT related solutions & services to various business entities in India & abroad. ii. Union Bank has agreed to disclose, transmit, receive, and/or exchange certain “confidential information” to cover the business transaction between parties for the provision of services related to ” (“the Purpose”) as more particularly described in Purchase Order no , issued by Union Bank in favor of M/s. ----------------------. NOW THIS AGREEMENT WITNESS:"
+    },
+    {
+      "heading": "1. Interpretation",
+      "body": "In this Agreement “Confidential Information” means all information belonging to a Party that is or has been disclosed to one Party (the “Receiving Party”) by the other Party (the “Disclosing Party”) in connection with the business transacted/ to be transacted between the Parties. Confidential information shall also include any copy, abstract, extract, sample, note or module thereof. The Receiving Party may use the Confidential Information solely for and in connection with the business transacted/ to be transacted between the Parties. 16 | 21 Notwithstanding the foregoing, “Confidential Information” shall not include any information which the Receiving Party can show: (a) is now or subsequently becomes or is in possession of the Receiving Party, legally and publicly available without breach of this Agreement by the Receiving Party, (b) was rightfully in the possession of the Receiving Party without any obligation of confidentiality prior to receiving it from the Disclosing Party, (c) was rightfully obtained by the Receiving Party from a source other than the Disclosing Party without any obligation of confidentiality, (d) was developed by or for the Receiving Party independently and without reference to any Confidential Information and such independent development can be shown by documentary evidence, or (e) is disclosed pursuant to an order of a court or governmental agency as so required by such order, provided that the Receiving Party shall, unless prohibited by law or regulation, promptly notify the Disclosing Party of such order and afford the Disclosing Party the opportunity to seek appropriate protective order relating to such disclosure."
+    },
+    {
+      "heading": "2. Confidentiality:",
+      "body": "2.1 Except to the extent as agreed herein, the Receiving Party agrees to regard, preserve and keep as secret and confidential all Confidential Information of the Disclosing Party or its clients or any member of their group disclosed under this Agreement. In maintaining confidentiality hereunder the Receiving Party agrees and accepts that it shall not, either on its own account or jointly with or for any other person, firm, company or any other entity, without obtaining the written consent of the disclosing party. I. disclose, transmit, reproduce or make available any such Confidential Information to any person firm, company or any other entity other than its directors, partners, advisers, agents or employees, who need to know the same for the purpose of evaluating, preparing, considering, negotiating, advising in relation to or in furtherance of the purpose aforesaid; or II. use the Confidential Information for any purpose other than evaluating, preparing, considering, negotiating, advising in relation to or in furtherance of the purpose for which it is disclosed; or III. disclose, announce or otherwise publicize the existence of its association with the Disclosing Party or the existence of the project with the Disclosing Party or any other arrangement (existing or possible) between the disclosing party, its clients or itself in connection with any project/assignment; or IV. use any such Confidential Information for its own benefit or the benefit of others or do anything prejudicial to the interests of the Disclosing Party or its clients or any member of their group or their projects. 2.2 The Receiving Party also agrees and accepts that it may endeavor: I. use at least the same degree of care in safeguarding such Confidential Information as it uses for its own Confidential information of like importance and such degree of care shall be at least that which is reasonably calculated to prevent such inadvertent disclosure; II. keep the Confidential Information and any copies thereof secure and in such a way so as to prevent unauthorized access by any third party; III. limit access to such Confidential Information to those of its (including its Affiliates‟) directors, partners, advisers, agents or employees who are directly involved in the 17 | 21 consideration/evaluation of the Confidential Information and bind each of its directors, partners, advisers, agents or employees so involved to protect the Confidential Information in the manner prescribed in this Agreement; and IV. upon discovery of any disclosure or suspected disclosure of Confidential Information, to take reasonable effort to as per the circumstances, to inform the Disclosing Party of such disclosure in writing and immediately return to the Disclosing Party all such Information, in whatsoever form, including any and all copies thereof."
+    },
+    {
+      "heading": "3. Return or destruction:",
+      "body": "The Receiving Party may, upon completion of the purpose mentioned aforesaid or at any time on receipt of a written demand from the disclosing party: i) immediately return all written Confidential Information and all copies thereof provided to, or produced by, it or its advisers, as the case may be, which is in such party’s possession or under its custody and control; ii) to the extent practicable, but without prejudice to the obligations of confidentiality herein, immediately destroy all analyses, compilations, notes, studies, memoranda or other documents prepared by it or its advisers to the extent that the same contain, reflect or derive from Confidential Information relating to the other party; iii) so far as it is practicable to do so (but, in any event, without prejudice to the obligations of confidentiality contained in this Agreement), immediately expunge any Confidential Information relating to the Disclosing Party or its clients or any member of their group or their projects from any computer, word processor or other device in its possession or under its custody and control."
+    },
+    {
+      "heading": "4. Permitted disclosure:",
+      "body": "The provisions of paragraph 2 shall not restrict any disclosure required by law or by any court of competent jurisdiction, the rules and regulations of any recognized stock exchange or any enquiry or investigation by any governmental, official or regulatory body which is lawfully entitled to require any such disclosure provided that, so far as it is lawful and practical to do so prior to such disclosure, the Receiving Party shall promptly notify the other party of such requirement with a view to providing the opportunity for the Provider to contest such disclosure or otherwise to agree the timing and content of such disclosure."
+    },
+    {
+      "heading": "5. Ownership of Information:",
+      "body": "Except to the extent as agreed herein, the Confidential Information and copies thereof, in whatsoever form shall at all times remain the property of the Disclosing Party or its clients and its disclosure shall not confer on the Receiving Party any rights (including any intellectual property rights) over the Confidential Information whatsoever beyond those contained in this Agreement."
+    },
+    {
+      "heading": "6. No Representation:",
+      "body": "Neither the disclosure, transmission receipt or exchange of Confidential Information nor anything else in this Agreement will constitute an offer by or on behalf of the Disclosing Party or be construed as soliciting any business or organization changes or any assurance of any business commitment or an inducement to incur / undertake any obligations not specified herein and neither party will be under any obligation to accept any offer or proposal which may be made by the other or on behalf of such other party. 18 | 21"
+    },
+    {
+      "heading": "7. Remedies and Relief:",
+      "body": "The parties hereto acknowledge that remedies at law may be inadequate to protect the Disclosing Party or its clients against any actual breach of this Agreement by the Receiving Party, and, without prejudice to any other right and remedies otherwise available to the Disclosing Party or its clients, the Receiving Party agrees that Disclosing Party has a right to seek injunctive relief in its favor upon proof of actual damage and upon establishment of the fact that such actual damage has taken place due to reasons directly attributable upon the Receiving Party. Such injunctive relief shall be in addition to any other remedies available hereunder, whether at law or equity. Disclosing Party shall be entitled to recover its cost and fees, including Advocate’s fees, incurred in obtaining any such relief. Further, in the event of litigation relating to this Agreement, the prevailing party shall be entitled to recover its cost and expenses including Advocate’s fees."
+    },
+    {
+      "heading": "8. No Assignment",
+      "body": "This Agreement shall not be assigned by the successful bidder, by operation of law or otherwise, without the prior written consent of Bank. This Agreement shall inure to the benefit of and will be binding upon the parties‟ respective successors and permitted assigns."
+    },
+    {
+      "heading": "9. Severability",
+      "body": "In the event that any of the provisions contained in this Agreement is found to be invalid, illegal or unenforceable in any respect by a Court of competent jurisdiction, the validity, legality, or enforceability of the remaining provisions contained in this agreement will not be in any way affected or impaired by such a finding."
+    },
+    {
+      "heading": "10. Delay or Waiver",
+      "body": "No delay or failure of either Party in exercising any right hereunder and no partial or single exercise thereof shall be deemed of itself to constitute a waiver or an expectation of non- enforcement of such right or any other rights hereunder. No waiver of any provision of this Agreement shall be valid unless the same is in writing and signed by the party against whom such waiver is sought to be enforced. A waiver or consent given by either party on any one occasion is effective only in that instance and will not be construed as a bar to or waiver of any right on any other occasion."
+    },
+    {
+      "heading": "11. Notices",
+      "body": "Notices as required by this Agreement shall be sent to the Parties at the addresses mentioned first herein above or such other addresses as the Parties may designate from time to time, and shall be sent by certified or registered mail with acknowledgement due on receipt."
+    },
+    {
+      "heading": "12. Term",
+      "body": "This Term shall commence from the Effective Date of bid submission and shall be valid for 6 months. Confidentiality obligations under this Agreement shall continue to be binding and applicable without limit in point in time except and until such information enters the public domain, without breach of the agreement. Either Party may terminate this Agreement for 19 | 21 breach, if the defaulting Party fails to rectify the breach within the one month notice period issued by the non-defaulting Party. Upon expiration or termination as contemplated herein the Receiving Party shall immediately cease any and all disclosures or uses of Confidential Information; and at the request of Disclosing Party, the Receiving Party shall promptly return or destroy all written, graphic or other tangible forms of the Confidential Information and all copies, abstracts, extracts, samples, notes or modules thereof."
+    },
+    {
+      "heading": "13. Governing Law",
+      "body": "The provisions of this Agreement shall be governed by the laws of India and shall be subject to the exclusive jurisdiction of courts in Mumbai."
+    },
+    {
+      "heading": "14. Indemnity",
+      "body": "The Receiving Party agree to indemnify and hold harmless the Disclosures against all costs, liability, losses and claims incurred by the Disclosing Party as a result of a breach of this Agreement."
+    },
+    {
+      "heading": "15. Modification",
+      "body": "Modification to any of the provisions of this Agreement shall be void unless it is writing and duly executed by Parties."
+    },
+    {
+      "heading": "16. Headings",
+      "body": "The headings given herein above are for ease of reference only and shall not attach or have any effect/ meaning whatsoever contrary to what is stated in the agreement."
+    },
+    {
+      "heading": "17. Review of Contract and performance",
+      "body": "Bank shall have the right of periodical /yearly review of the performance of the successful bidder with regard to upgradation of processors, memory and storage space and maintenance support under the contract which would be basis of continuation or termination of the same. Bank shall also have the right to review, either itself or through another agency as it may deem fit, the financial and operating performance of the bidder in order to assess the ability of the bidder to continue to meet its outsourcing/contractual obligations."
+    },
+    {
+      "heading": "18. Proprietary Rights:",
+      "body": "The entire work product mentioned in this RFI shall be the sole and exclusive property of the Bank. The successful bidder hereby-irrevocably grants, assigns, transfers to the Bank all rights, title and interest of any kind, in and to the work product produced under RFI contract. All information processed, stored, or transmitted by successful Bidder belongs to the Bank. The Bidder does not acquire implicit access rights to the information or rights to redistribute the information. The Bidder understands that civil, criminal, or administrative penalties may apply for failure to protect information appropriately. Any information considered sensitive by the bank must be protected by the successful Bidder from unauthorized disclosure, modification or access. The bank’s decision will be final. 20 | 21 The successful bidder will ensure strict compliance of all labour laws, insurance, minimum wages to the staff employed /deployed /engaged for the work assigned and the Bank will not be liable for any such persons/personnel of successful bidder and shall not be liable for any levies / penalties etc. that may be imposed by the authorities concerned for their action/inaction. There shall be no employer employee relationship whatsoever between the bank and the successful bidder /their employees and the bidder or his employees, staff, agents will not be entitled to any employment with Bank. In the event of any demand/fines/penalty made by any of the authorities on bank in respect of the conduct/actions taken by the bidder/their employees/labourers, the Bank will be entitled to recover the said amounts from the bills / amount payable or from the performance guarantee and also take appropriate action against said persons of bidder/bidder for their misconduct, if any."
+    },
+    {
+      "heading": "19. Counterparts",
+      "body": "This Agreement has been signed in duplicate, each of which shall be deemed to be an original. The exchange of a fully executed Agreement (in counterparts or otherwise) by fax shall be sufficient to bind the parties to the terms and conditions of this Agreement."
+    },
+    {
+      "heading": "IN WITNESS WHEREOF THE PARTIES HERETO HAVE CAUSED THIS AGREEMENT TO BE",
+      "body": "EXECUTED BY THEIR AUTHORIZED REPRESENTATIVES ON THIS ______ DAY OF ____ _____ Signed and delivered by Signed and delivered by M/s ________________________ Union Bank of India Signed by: Signed by: Name ……………….…….………. Name …………….……….…………… Title ……………………….………. Title ……………………….…………. in the presence of in the presence of 21 | 21"
+    },
+    {
+      "heading": "18. Annexure E – Presentation by Bidder",
+      "body": "Bidders are expected to give a Technical presentation to the bank It may include various features and functionalities available and its types including SaaS, PaaS and IaaS. Adherence to security, control measures, Cost comparison between each models, Scheme-wise benefits and Project timelines for implementation may be explained. Technical and functional requirement also may be covered. Brochures or write ups may be issued to bank as hard copy or soft copy. Sl. No. Name of Presenter Designation /Brief Profile Compliance to Coverage of Topics Suggested (Yes/No) Suggested Date of Presentation Note: Bidders are requested to suggest a date not later than 2 weeks from the date of bid submission Yours faithfully, Authorized Signatories (Name, Designation and Seal of the Company) Date"
+    }
+  ],
+  "structured_at": "2026-06-29T20:03:15.176491",
+  "extraction_method": "regex Q#/A# pattern matching + heading-based sectioning"
+}

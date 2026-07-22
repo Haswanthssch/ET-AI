@@ -1,0 +1,2799 @@
+IMPACT & CONTROL OF RFIs ON 
+CONSTRUCTION PROJECTS
+A Research Perspective Issued by the
+Navigant Construction Forum™
+Nigel Hughes 
+LEED AP 
+Associate Director
+ȱǯȱĴǰȱ 
+LEED AP BD+C 
+Associate Director
+April 2013
+Construction Forum
+ȱǰȱ 
+Director 
+ȱ ǯȱǰȱǯ 
+ǰȱǰȱǰȱǰȱ 
+Executive Director 
+Navigant Construction Forum™
+
+Notice
+This report was prepared by the Navigant 
+Construction Forum™ of Navigant 
+Consulting, Inc (“Navigant”). RFIs – 
+Requests for Information – are a common 
+form of communication in the construction 
+industry. The intent of an RFI is to provide 
+the contractor with a mechanism to pose a 
+question to an owner or their construction 
+manager and design professional(s) 
+concerning a requirement of the contract 
+documents that is not clear to the contractor. 
+Upon receipt of an RFI, the owner, most 
+often through their design professional 
+or construction manager, provides a 
+response to the question in writing. This 
+process is a routine and necessary form of 
+communication on virtually all construction 
+projects today. However, it is not a process 
+free of risk. This research perspective 
+discusses how the RFI process has morphed 
+from a form of communication to a basis for 
+claims of delay and productivity impacts. The 
+perspective goes on to identify ways through 
+which owners can control the RFI process 
+and diminish the abuse of the process 
+through careful contract drafting, the use 
+of technology and the employment of best 
+management practices. 
+The opinions and information provided 
+herein are provided with the understanding 
+that they are general in nature, do not 
+relate to any speciﬁc project or matter and 
+do not reﬂect the ofﬁcial policy or position 
+of Navigant or its practitioners. Because 
+each project and matter is unique and 
+professionals may differ in their opinions, 
+the information presented herein should not 
+be construed as being relevant or applicable 
+for any individual project or matter. 
+Navigant makes no representation or 
+warranty, expressed or implied, and is 
+not responsible for the reader’s use of, or 
+reliance upon, this research perspective 
+or for any decisions made based on this 
+publication. No part of this publication may 
+be reproduced or distributed in any form or 
+by any means without written permission 
+from Navigant. Requests for permission to 
+reproduce content should be directed to 
+jim.zack@navigant.com. 
+Purpose of Research Perspective
+The Navigant Construction Forum™ was 
+recently tasked with researching the impact 
+of RFIs on projects and what claims may 
+grow out of the RFI process. The Forum 
+decided to research and recommend 
+actions that can minimize the impacts of 
+RFIs taking into consideration contractual 
+approaches, new technology and best 
+management practices. As part of this 
+research the Forum conducted a survey and 
+reviewed papers and court cases related to 
+RFI impacts. The Forum also had discussions 
+with some Navigant senior consultants to 
+gather their experience with such impacts. 
+Further, the Navigant Construction Forum™ 
+worked with ACONEX, “…the world’s 
+most widely used online collaboration 
+platform for construction and engineering 
+projects…”1 who mined their databases for 
+information on RFIs related to the 1,362 
+projects for which they have data. 
+The purpose of this research perspective 
+is to summarize generally the impact of 
+RFIs on construction projects and offer 
+some observations on how to control the 
+number of RFIs on projects and the RFI 
+process in order to mitigate the impact of 
+RFIs on projects. Additionally, based upon 
+the literature survey and our in-house 
+interviews the Navigant Construction 
+Forum™ offers three recommendations 
+on how to reduce the number of RFIs on 
+projects which, in turn, should help reduce 
+potential impacts and games sometimes 
+played via RFIs.
+
+http://www.aconex.com/about
+
+Executive Summary
+This research perspective is organized in the 
+following way: The ﬁrst section, “The Impact 
+of RFIs on Construction Projects,” draws on 
+data provided by ACONEX to assess how 
+RFIs and the RFI processes impact large 
+scale construction projects. The “Abuse of RFI 
+Process” examines how contractors misuse 
+RFIs in order to increase proﬁts, a practice 
+that has become widely institutionalized 
+in the past decade. “RFIs in Action” applies 
+that framework in the context of a claim 
+case involving a laboratory building at 
+a wastewater treatment facility. “Legal 
+Decisions Concerning the Number of RFIs” 
+examines the legal argument for cumulative 
+impact as a result of a large quantity of RFIs. 
+Finally, “Owners are Part of the Problem” 
+explains how owners contribute to the abuse 
+of RFIs by failing to adopt practices that 
+contractually safeguard against the potential 
+negative impacts of the RFI process. 
+The next section discusses how to reduce 
+both the number and the impact of RFIs on 
+future projects. The Navigant Construction 
+Forum™ developed a framework that 
+consists of three principal recommendations: 
+First, the “Incorporation of Critical 
+Deﬁnitions” identiﬁes the speciﬁc deﬁnitions 
+that should be articulated in the contract 
+documents to prevent misunderstanding 
+between owners and contractors. Second, 
+“Electronic RFI Tracking and Monitoring” 
+outlines the software applications that 
+owners may wish to employ to optimize 
+project management and to increase 
+productivity. Third, “Best Management 
+Practices Related to RFIs” summarizes 
+the leading practices that owners and 
+contractors may wish to adopt and 
+implement for managing the RFI process. 
+The Genesis of RFIs
+Requests for Information (“RFIs”) are a 
+common project communication tool in 
+today’s construction industry but this certainly 
+was not always the case. It is unknown 
+exactly when RFIs came into the construction 
+industry. The following provides some 
+historical perspective on the development of 
+the RFI system we know today.
+In the days of the “master builder”, which 
+concept commenced around 2680 BC 
+when the Egyptians constructed the Great 
+Pyramids and was formalized in 1750 
+BC when the Code of Hammurabi gave 
+“master builders” absolute responsibility 
+for design and construction, there was 
+no need for such a process. Why? Simply 
+because the individuals who planned and 
+designed projects also were in charge of the 
+construction and, most likely, spent all their 
+days on the site. They clearly understood the 
+intent of the design and were in a position to 
+execute to that intent eliminating the need 
+to ask any questions.
+Subsequently the industry changed as follows.
+“In the mid-19th century, however, 
+as construction became increasingly 
+technical, the master builder was 
+gradually replaced by three people: the 
+architect who designs the building, the 
+engineer who ﬁgures out how to build it 
+safely and the ‘constructor’ who oversees 
+the construction…and each has worked 
+in increasing isolation from the others.”2
+As the master builder concept gave way to 
+the age of specialists in the construction 
+industry it is likely that the RFI process 
+was ﬁrst implemented. The need for 
+such a process apparently grew out of 
+the separation of functions. The designer 
+was no longer on the site every day and 
+
+David F. Salisbury, Experimental Course Trains A New Breed of Master Builders, Stanford News Service, October 15, 1997.
+
+the contractor was no longer involved in 
+all of the details of the project’s planning 
+and design. Thus, a mechanism for asking 
+questions of the designer - the RFI - was 
+created and became widespread. 
+A more recent analysis indicates that 
+the RFI process as we know it today 
+developed in the last half century as a 
+result of the growing legal need for “project 
+documentation”.
+“The architect’s documents in this 
+part of the world have always been 
+inherently conceptual. Additional 
+information has typically been required 
+by the contractor from the architect 
+during the construction phase. Up 
+until the 1970’s this information was 
+transferred informally during face to 
+face meetings or by telephone. Most 
+construction contracts were lump 
+sum and the concept of the contractor 
+delivering a ‘complete’ building was 
+alive and well. No documentation of the 
+discussions were needed or prepared. 
+The proliferation of lawyers and claims 
+in the 1950’s and 1960’s, coincidental 
+with the invention of professional 
+liability insurance, gave rise to the need 
+for increased documentation. The casual 
+questions, once asked and answered, 
+now apparently were determined to 
+need a method for documenting ‘what, 
+why, and when.’ Thus the Request for 
+Information was born.”3
+Over the past three decades project designs 
+have become considerably more complex. 
+Increased project complexity results in a 
+greater likelihood that errors, conﬂicts, 
+omissions and ambiguities may survive the 
+design quality control review process. As a 
+result, contractors need to review drawings, 
+speciﬁcations, addenda, amendments and 
+other contract documents very thoroughly, 
+more thoroughly now than in the past. Just 
+as design times have been compressed, so 
+too have bidding times. Perhaps because 
+of shortened bidding time or the emphasis 
+on reducing overhead costs it seems this 
+review is most often performed after 
+bidding, not before. 
+As mandated by the contract requirements, 
+if the contractor ﬁnds conﬂicts, errors or 
+omissions they are required to notify the 
+owner or the owner’s representative to 
+seek clariﬁcation or interpretation. Such 
+inquiries and their responses need to 
+be documented in the project records. 
+Typically, such requests for clariﬁcation or 
+interpretation are transmitted to the owner 
+in the form of an RFI. Thus, RFIs are a tool 
+of the construction industry created to 
+identify problems and seek information 
+and solutions. But, during the 1980’s and 
+1990’s a trend of a different sort developed 
+concerning RFIs. The purpose of this 
+research perspective is to identify current 
+issues associated with the RFI process 
+and offer three speciﬁc recommendations 
+intended to reduce both the number and 
+the impact of RFIs on future projects.
+
+Grant A. Simpson and Jim Atkins, “Shootout at the RFI Corral”, AIArchitect This Week, American Institute of Architects, September 25, 2009.
+
+The Impact of RFIs on 
+Construction Proects 
+Summar of   istin Research
+In order to better understand the use 
+of RFIs on construction projects the 
+Navigant Construction Forum™ reviewed 
+the RFI-related project data provided by 
+ACONEX. ACONEX is a global provider 
+of online document management for the 
+construction and engineering industry. 
+Construction projects that employ this 
+type of collaboration technology platform 
+channel all project information and 
+correspondence through a single online 
+portal. Correspondence is categorized 
+by type and additional metadata relating 
+to the date, origin and destination of the 
+correspondence is also captured.
+TABLE 1 - TOTAL NUMBER OF PROJECTS AND RFIs BY REGION
+REGION
+# OF PROJECTS
+# OF RFIs
+AVERAGE RFIs/PROJECT
+Americas
+
+25, 24
+  
+Australia  Ne  ealand
+1,0 0
+ 94,929
+
+Asia
+
+ 5, 91
+1,053
+ urope
+ 
+ 4,  4
+
+ iddle  ast
+
+125,  9
+1,220
+Total
+1,362
+1,083,807
+
+The ACONEX data set was derived from 
+1,362 projects from around the world that 
+were initiated during the period between 
+2001 and 2012. Each project in this data 
+set had a minimum of 100 RFIs issued.4 
+As detailed in Table 1 above, the majority 
+of the projects in this data set (some 79%) 
+are located in Australia and New Zealand. 
+ACONEX was originally an Australian-based 
+ﬁrm but emigrated to the United States in 
+the past few years. In total, approximately 1.1 
+million RFIs were submitted on these 1,362 
+projects for an average of 796 RFIs per project.
+From the data in Table 1 above it is noted 
+that three of the regions sampled showed 
+an average number of RFIs per project in 
+the range of -8% to +11% of the global 
+average; whereas two of the regions are 
+substantially outside of this range. The two 
+regions that are substantially above the 
+global average in this data set are Asia (32% 
+above the global average) and the Middle 
+East (53% higher).
+
+In order to keep the sample si e do n to a mana eable le el proects  ith less than 100 RFIs  ere e cluded from this data set.
+
+A closer review of the ACONEX data set 
+indicated that there were some outliers 
+in the data on projects with a value of 
+less than $5 million and those with a 
+value of more than $5 billion. After the 
+outliers in the data set were removed the 
+Navigant Construction Forum™ analyzed 
+the remaining data to determine the 
+average number of RFIs per $1 million of 
+construction cost. For the 826 remaining 
+projects within the ACONEX sample, the 
+number of RFIs can be compared to the total 
+construction cost. As would be expected, 
+Table 2 shows that larger projects with 
+bigger construction budgets tend to have a 
+higher number of RFIs. However, the ratio 
+of RFIs to construction cost is signiﬁcantly 
+higher for smaller projects. Projects between 
+$5M and $50M have an average of 17.2 RFIs 
+per $1 million of construction cost, whereas 
+projects between $1 billion and $5 billion 
+have an average of just 1.1 RFIs per $1 
+million of construction cost. For all projects 
+in the sample, the ratio is 9.9 RFIs per $1 
+million of construction cost.
+TABLE 2 - NUMBER OF RFIs PER $1 MILLION OF CONSTRUCTION COST 
+(PROJECTS WITH $5 MILLION - $5 BILLION CONSTRUCTION COST)
+CONSTRUCTION VALUE
+# OF PROJECTS
+# OF RFIs
+AVERAGE # OF RFIs/$1 MILLION
+ 5million   50 million
+
+
+1 .2
+ 50 million   100 million
+1 3
+
+ .3
+ 100 million   250 million
+
+
+5.0
+ 250 million   500 million
+
+
+2.3
+ 500 million   1 billion
+
+
+1.
+ 1 billion   5 billion
+
+
+1.1
+Grand Total
+
+
+9.9
+
+Total Number of Project RFIs Issued
+
+
+
+
+
+
+
+
+
+1,000
+1,100
+1.200
+1,300
+1,400
+1,500
+1, 00
+1, 00
+1, 00
+1,900
+2,000
+2,100
+2,200
+2,300
+2,400
+2,500
+ 2,500
+CHART 1 - DISTRIBUTION OF PROJECTS BY NUMBER OF RFIs
+1, 00
+1,400
+1,200
+1,000
+
+
+
+
+
+ 1  r
+12  rs
+23  rs
+34  rs
+45  rs
+ 5  rs
+Average Number of Project RFIs Issued
+CHART 2 - NUMBER OF RFIs ISSUED BY PROJECT DURATION
+Chart 1 is a histogram of projects by the total number of RFIs and shows a skewed 
+distribution, where approximately 50% of the projects in the sample had between 100 and 
+300 RFIs in total. However, there is a signiﬁcant minority of projects (approximately 21%) 
+where the number of RFIs runs into the thousands.
+Intuitively, the number of RFIs issued on any project is directly related to the size and the 
+duration of a project. Chart 2 demonstrates that projects with a duration of one year or less 
+issued an average of 270 RFIs whereas projects with a duration of ﬁve years or more issued 
+an average of slightly more than 1,400 RFIs.
+
+1  r
+12  rs
+23  rs
+34  rs
+45  rs
+ 5  rs
+Average Number of Days
+CHART 4 - NUMBER OF DAYS UNTIL MEDIAN REPLY TO RFI BY PROJECT DURATION
+
+
+
+
+
+
+
+
+
+ iddle  ast
+Americas
+Asia
+ urope
+Australia  
+Ne  ealand
+First Repl
+ edian Repl
+Total
+Average Number of Days
+CHART 3 - NUMBER OF DAYS FOR FIRST AND MEDIAN REPLY TO RFI BY REGION
+The speed and efﬁciency of the project team related to the processing of RFIs should be 
+monitored by an appropriate member of the project team (perhaps an RFI Coordinator) or, 
+in some cases, the owner’s project manager, design professional or construction manager. 
+One of the key metrics in this regard is the number of days that it takes to respond to an 
+RFI. As detailed in Chart 3, the average performance within the sample data is an average 
+ﬁrst reply time of 6.4 days and a median reply time of 9.7 days. Based upon the ACONEX 
+data, reply times across the sample are quickest in Australia and New Zealand and take the 
+longest in the Middle East.
+As detailed in Chart 4, the time it takes to reply to an RFI also depends upon the project 
+size and duration. Analysis of the ACONEX data indicates that projects of one year or less 
+achieve a median reply time of seven days, whereas projects with a duration of two years or 
+more typically see a median reply time approaching 10 days.
+
+Chart 6 illustrates that smaller projects with fewer RFIs tend to have a higher percentage 
+of RFIs with no replies. While the ACONEX data does not speak directly to this point, the 
+Navigant Construction Forum™ believes that this may result from a lack of concern with 
+or focus on the speciﬁcs of project documentation and/or a lack of formalized policies and 
+procedures common on smaller projects. 
+
+
+
+
+
+
+
+
+
+Americas
+Australia  
+Ne  ealand
+Asia
+ urope
+ iddle  ast
+Percent No Reply
+CHART 5 - PERCENT OF RFIs WITH NO RESPONSE BY REGION
+
+
+
+
+
+
+
+100200
+200300
+300400
+400500
+5001,000
+1,0002,000 2,0005,000
+ 5,000
+Percent No Reply
+CHART 6 - PERCENT OF RFIs WITH NO RESPONSE ON SMALLER PROJECTS
+Number of RFIs per Project
+Another metric typically tracked by project managers is the percentage of RFIs that receive 
+no replies. This statistic is a leading indicator of fundamental problems with the project, 
+such as an inefﬁcient RFI management response system or the absence of adequate 
+controls and procedures governing the processing of incoming RFIs and generation of 
+prompt responses. As Chart 5 shows, the highest rate of no replies is in Asia with an 
+average of 35 percent. By contrast, the Middle East has the lowest no reply rate at slightly 
+less than 19%.
+
+Based on the ACONEX data set the average project has approximately 800 RFIs although 
+some 21% of the projects in this sampling had more than 1,000 RFIs and a tranche had 
+between 2,000 and 5,000 RFIs per project. The data also indicates that the longer the 
+project duration the larger the population of RFIs, which is logical as longer projects tend to 
+be larger and more complex. 
+To try to illustrate the workload that the RFI process imposes on a larger project, the 
+Navigant Construction Forum™ reviewed the ACONEX RFI data related to a major 
+convention center in Australia. Chart 7 documents the number of RFIs submitted per week 
+on this project. The data indicates that the average number of RFI submittals per week was 
+approximately 50 but many weeks show 100 RFI submittals per week and some weeks 
+exceeded 150 submittals.
+200 1
+200 22
+200 2
+200 34
+200 40
+200 4
+200 1
+200 15
+200 20
+200 2
+200 31
+200 3
+200 42
+200 4
+
+200 13
+200 19
+200 24
+200 3
+200 35
+200 40
+200 4
+200 51
+200 9
+200914
+20092
+200925
+200930
+20093
+200941
+20094
+
+20104
+
+
+
+
+
+
+CHART 7 - RFI SUBMITTALS PER WEEK ON A MAJOR PROJECT
+The statistics discussed herein provide a high-level view of the number of RFIs and the 
+workload they impose on typical projects. Data such as this can be collected and utilized to 
+derive performance benchmarks for new, comparable projects.
+
+A more project-speciﬁc study of RFIs, and one that answers a different question, was 
+performed by Hanna, Tadt and Whited in 2012.5 This study examined nine highway projects 
+in southeast Wisconsin and provided the following data.
+TABLE 2 - WISCONSIN HIGHWAY PROJECTS - RFI ANALYSIS6
+CONTRACT
+AWARDED 
+CONTRACT 
+VALUE
+NO. OF 
+RFIs
+RFIs PER 
+MILLION 
+DOLLARS
+RESPONSE 
+TIME 
+(DAYS)
+ANSWERED 
+WITHIN 
+REQUEST 
+PERIOD
+REQUESTED 
+RESPONSE 
+TIME (DAYS)
+ oli ar A e
+ 3  ,5 
+
+2.
+0.0
+
+13.0
+ST 50 IC
+ 2, 29,0 4
+
+ .3
+12.4
+
+10.4
+ST 142 IC
+ 3,445,3 0
+
+0.3
+
+
+ .0
+CT G IC
+ 4,205, 93
+
+0.5
+4.0
+
+ .0
+ST  ainline
+ 4,552,255
+
+0.2
+13.0
+
+ .0
+CT G  rid esRamps
+ 5,5  ,133
+
+1.1
+1 .
+
+10.
+CT G  ainline
+ 9, 54,13
+
+0.3
+ .
+
+ .0
+Utilities
+ 11,032, 51
+
+1.0
+3.0
+
+ .1
+2 T St.  rid es
+ 11,30 ,9 9
+
+0.1
+
+
+ .0
+Colle e A e
+ 11, 14,  1
+
+4.
+1 .5
+
+ .
+CT C  ainlineRamps
+ 24,5 4,5 3
+ 
+3.2
+ .
+
+ .
+West Le
+ 30,555,  0
+
+4.0
+11.4
+
+ .3
+CT C RA PS
+ 31,0 4,5 1
+
+0.
+10.9
+
+ .
+South Le
+ 44, 2 ,419
+1 1
+4.0
+5.
+  
+ .1
+La ton A e
+  1,49 ,5 2
+
+2.3
+ .9
+
+ .0
+North Le
+ 102,  0,2 
+
+1.5
+5.2
+
+ .0
+ itchell IC
+ 1 2,4 5,4 1
+
+9.9
+10.0
+
+ .9
+Core
+ 314, 59,250
+
+2.0
+ .1
+
+ .0
+AVERAGE
+$47,627,259
+
+2.5
+7.7
+55%
+8.0
+Although this is a smaller data sample than ACONEX’s data this study does provide data 
+on RFIs speciﬁcally related to highway projects. 
+Some of the overall trends found in the ACONEX data set are not supported by the data 
+from this Wisconson Department of Transportation (“DOT”) case study. The ACONEX 
+data is based on a sampling of a much larger number and variety of projects than the 
+Wisconsin DOT study. The Navigant Construction Forum™ believes that this disparity may 
+indicate that conditions, even within a speciﬁc client or project type, need to be taken into 
+consideration when considering RFI issues.
+
+A ad S.  anna,  ric J. Tadt and Gar C. Whited, “Re uest for Information  enchmarks and  etrics for  aor  i h a Proects”, Journal of 
+Construction  n ineerin and  ana ement, 13 12, pp. 134 1352, American Societ of Ci il  n ineers, Ne  ork, 2012.
+ 
+ ric Tadt, A ad  anna and Gar Whited,  est Practices from Wis OT  e a and ARRA Proects  Re uest for Information  enchmarks and 
+ etrics, Uni ersit of Wisconsin   adison, Construction and  aterials Support Center,  arch 2012.
+
+Interestingly, the Wisconsin DOT examined the number of RFIs received per month on 
+various projects. They did so in order to estimate necessary stafﬁng levels to handle RFI 
+submittals at the Notice to Proceed (“NTP”), 25%, 50% and 75% project completion 
+milestones. The results of this analysis are set forth in Table 3 below.
+TABLE 3 - % OF RFI SUBMITTALS VS. % OF PROJECT COMPLETION
+NORTH 
+LEG
+WEST 
+LEG
+SOUTH 
+LEG
+CORE
+LAYTON 
+AVE
+COLLEGE 
+AVE
+UTILITIES
+CTH C
+NTP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At least for these highway projects, by 50% project completion, more than half of these 
+projects had issued up to 85% or more of the total number of RFIs for these projects. This 
+may result from the fact that these are highway projects where complex issues tend to 
+surface early in the project. On the other hand, process facilities (e.g., petrochemical, water 
+or wastewater projects) which involve more complex operating and control systems may 
+have an entirely different pattern.
+A smaller, more discrete study of RFIs was included in a ﬁnal thesis report comparing the 
+construction of two facilities.7 This thesis reported the following on two data centers.
+TABLE 4 - NUMBERS OF RFIs PER 1,000 SF & PER $1 MILLION IN CONSTRUCTION COST
+DATA CENTER (OHIO)
+DATA CENTER (SOUTH DAKOTA)
+ of RFIs  1,000 sf
+1. 1
+1. 
+ of RFIs   1 million
+3.1
+4.23
+ 
+A wider ranging study than those reported above was included in a Master’s Thesis at 
+the University of Washington.8 Although the purpose of this thesis was to examine the 
+effectiveness of project partnering9 on Naval Facilities Engineering Command (“NAVFAC”) 
+projects, one of the metrics identiﬁed to measure “success” of the process involved RFIs. 
+This thesis, which was based upon a survey of 61 NAVFAC projects, showed the following 
+with respect to RFIs.
+ 
+Philip J. Corrie, Final Thesis Report  Aloft   lement  otels at Arundel  ills, Construction  ana ement  epartment, Penns l ania State 
+Uni ersit, April 200 .
+ 
+Scott Lo e, An   amination of the  ffecti eness of Partnerin in Na  Construction Proects,  aster of Science in Ci il  n ineerin , 
+Uni ersit of Washin ton, 1994.
+
+³3DUWQHULQJ´LVJHQHUDOO\GH¿QHGDV³«DSURFHVVZKLFKDOORZVSHRSOHZRUNLQJWRJHWKHUWR¿QGDQGEXLOGRQWKHLUFRPPRQJURXQGDQGFRFUHDWH
+VROXWLRQVWRSUREOHPVVHHNLQJPXWXDOEHQH¿W%\EXLOGLQJDJRRGZRUNLQJUHODWLRQVKLSWKHSDUWQHULQJSURFHVVFDQKHOSFUHDWHDQDWPRVSKHUH
+ZKHUHWUXVWDQGFRPPXQLFDWLRQFDQÀRXULVK´6HH6XH'\HUPartner  our Proect, Pendulum Publishin , Li ermore, California, 199 .
+
+TABLE 5 - TOTAL NUMBER OF RFIs ON PARTNERED & NON-PARTNERED PROJECTS
+TYPE OF PROJECT
+AVERAGE # OF RFIs
+MAXIMUM # OF RFIs
+Partnered Proects
+192.
+
+NonPartnered Proects
+55.9
+
+All Proects
+131.1
+
+TABLE 6 - NUMBER OF RFIs PER $1 MILLION OF CONTRACT AWARD
+TYPE OF PROJECT
+AVERAGE # OF RFIs
+MAXIMUM # OF RFIs
+Partnered Proects
+1 .1
+
+NonPartnered Proects
+15.
+
+All Proects
+
+
+TABLE 7 - NUMBER OF RFIs PER $1 MILLION OF WORK IN PLACE
+TYPE OF PROJECT
+AVERAGE # OF RFIs
+MAXIMUM # OF RFIs
+Partnered Proects
+
+NonPartnered Proects
+14.2
+
+All Proects
+
+In addition to considering the quantity of RFIs, as the above-referenced studies did, it is 
+often the impact of RFIs on construction time as well as the cost of receiving, logging, 
+reviewing and responding to RFIs that is of more interest and concern to the professionals 
+responsible for doing so. This is typically true on the classic design-bid-build (“DBB”) 
+projects. Not often thought of or discussed in the literature, the same issue occurs between 
+the ﬁeld construction staff and the design staff on design/build (“D/B”) and engineer, 
+procure, construct (“EPC”) projects. 
+In discussing this issue with several design professionals, the Navigant Construction 
+Forum™ was advised that many RFIs can be reviewed and responded to in an hour, 
+while others may take several days of review, research and response. On the whole, these 
+design professionals suggested that the typical RFI probably consumes an average of 
+approximately eight hours to receive, log, review and respond. This time includes both the 
+administrative process of receiving, categorizing, logging in and out, etc., as well as the 
+technical review and response time. 
+When asked about average cost per hour for RFI reviews the responses received indicated a 
+wide range of costs – depending upon what discipline the RFI fell under, how complicated 
+the RFI was, etc. Based on this informal survey Navigant Construction Forum™ calculated 
+the following average cost per hour associated with RFIs in the 2012 – 2013 timeframe for 
+the purpose of this research perspective.10 
+ 7KH1DYLJDQW&RQVWUXFWLRQ)RUXPLQWHUYLHZHGVHQLRUVWDIIIURPWKUHHGHVLJQSURIHVVLRQDOFRQVWUXFWLRQPDQDJHPHQW¿UPVLQWKH8QLWHG
+6WDWHVDQGUHFHLYHGFRVWDQGVFKHGXOHLQIRUPDWLRQUHODWHGWR5),UHYLHZVRQDFRQ¿GHQWLDOEDVLV7KHLQIRUPDWLRQUHFHLYHGZDVDYHUDJHGDQG
+IRUPVWKHEDVLVRIWKHHVWLPDWHLQFOXGHGKHUHLQ7KHVHFRVWVDUHQRWVSHFL¿FWRDQ\SDUWLFXODUGHVLJQGLVFLSOLQHLQGXVWU\VHFWRURUJHRJUDSKLF
+DUHDEXWDUHHVWLPDWHGFRVWVVROHO\IRUWKHSXUSRVHVRIWKLVUHVHDUFKSHUVSHFWLYH$FWXDOFRVWVIRUDVSHFL¿FSURMHFWDQGRUJLYHQGHVLJQRU
+FRQVWUXFWLRQPDQDJHPHQW¿UPPD\YDU\ZLGHO\
+
+ADMINISTRATIVE COST/HOUR
+ 25.00hour  ith 2.5 multiplier    3hour 
+ 40.00hour  ith 2.5 multiplier   100hour 
+Median Administrative Cost/Hour = $82/hour
+TECHNICAL REVIEW COST / HOUR
+  0.00hour  ith 2.5 multiplier   150hour 
+ 90.00hour  ith 2.5 multiplier   225hour 
+Median Technical Review Cost/Hour = $188/hour
+AVERAGE TOTAL COST PER RFI REVIEW 
+& RESPONSE
+Administrati e time  4 hours    2hour   32
+Technical Re ie time  4 hours   1  hour    52
+Average Total Cost per RFI Review and Response = $1,080
+Based upon the ACONEX data presented earlier plus the time and cost estimates set forth 
+above the Navigant Construction Forum™ estimated the total cost of RFI reviews for the 
+average project in this data set. The total cost of RFI reviews on the average project from the 
+ACONEX data set is estimated as follows –
+Average Number of RFIs per Project = 796 RFIs
+Average Time per RFI Review & Response = 8 hours
+Average Cost per RFI Review & Response = $1,080
+Estimated Hours Expended on RFI Reviews/Responses per Project = 6,368 hours
+Estimated Total Cost of RFI Reviews/Responses per Project = $859,680
+Based on this estimated cost the Navigant Construction Forum™ believes there is a strong 
+economic need and rationale for better control of the RFI process. This remainder of this 
+research perspective discusses –
+ »
+How the RFI process may be abused; 
+ »
+How the RFI process might be controlled by better contract drafting; 
+ »
+How technology could be employed to help control the process; and 
+ »
+What are the best management practices related to RFIs?
+
+Abuse of RFI Process
+Contractors looking for ways to increase 
+proﬁts on projects through claims have 
+discovered a new use for RFIs. Rather 
+than using RFIs only to seek information, 
+contractors pursuing what amounts to 
+a future claims strategy may use the RFI 
+process for all project communications – 
+not just contract document information 
+requests. RFIs are routinely used in place 
+of submittals, for substitution requests, to 
+respond to notices of non-conformance, to 
+transmit safety plans, to provide schedule 
+submittals, and as a substitute for both 
+daily project correspondence and telephone 
+calls in an effort to build a paper trail to 
+document impact and delay claims later on. 
+A paper that delved into this issue stated:
+“In the last several years, contractors 
+have developed a number of practices in 
+an effort to increase their bottom line. 
+It is now common to see contractors 
+submitting an exceptional number of 
+RFI’s and then presenting unapproved 
+change orders which they claim are 
+the result of the design professional’s 
+response to RFIs.
+…
+Articles, books and seminars for 
+contractors provide a template for 
+the presentation of claims for extras 
+and delay damages. The RFI process 
+provides a methodology for the 
+contractor to document a deﬁciency 
+in the contract documents and at the 
+same time establishes a basis for an 
+increase in the contract amount and/
+or time.”11 
+This article went on to highlight ﬁve
+“…RFI approaches which are designed 
+to create issues where none exist ... 
+including:
+ »
+Including clearly identiﬁable 
+ambiguities in the contract documents 
+which should have been addressed in 
+the pre-bid process;
+ »
+Submitting a signiﬁcant number 
+of RFIs with the purpose of 
+establishing a paper trail to support 
+their subsequent claim for damages 
+related to a faulty design or poor 
+construction documents;
+ »
+Overwhelming the design 
+professional with RFI’s in the hope 
+that the design professional fails to 
+timely respond and thus establish a 
+claim for delay damages;
+ »
+Attempting to obtain approval for 
+alternative construction methods 
+or substitute items which are less 
+costly than those speciﬁed; and
+ »
+Performing work identiﬁed in 
+the response to the RFI and then 
+belatedly seeking a change order 
+after the work has been done.”
+11  re F. Seaman and Thomas F. Wa  oner, “ efendin Claims b O ners  Contractors for  ama es Arisin from RFIs and Appro ed and 
+Unappro ed Chan e Orders”, Proceedin s of the 40th Annual  eetin of In ited Attorne s.  ictor O. Schinnerer  Compan, Inc., 2002.
+
+Another study of RFIs identiﬁed 14 categories of RFIs as follows.12
+TABLE 8 – CATEGORIES OF RFIs
+ADDED SCOPE
+ADDITION OF ITEMS TO ORIGINAL PROJECT SCOPE.
+Construction coordination
+Or ani in and coordinatin constructionrelated procedures, schedules and safet items.
+Constructabilit issues
+'LI¿FXOW\LQFRQVWUXFWLQJDQLWHPDVGHWDLOHGRUGHVLJQHG
+Chan e of sta in phasin
+Se uence of construction pre iousl determined inade uate or in need of reor ani in 
+due to resource limitations and manpo er or ani ation.
+ esi n chan e
+Re uest to modif a desi n to simplif efforts b construction team or to correct an 
+error in construction.
+'HVLJQFODUL¿FDWLRQ
+Additional information re uested to further understand and clarif components of the 
+desi n and its related constituents.
+ ifferent method
+Chan e in installation techni ue or construction process.
+ esi n coordination
+Or ani in and coordinatin the desi n and related documents bet een entities.
+ eleted scope
+Scope or line items to be remo ed from the proect.
+Incomplete plansspecs
+(UURURURPLVVLRQLQWKHSODQVVSHFL¿FDWLRQV
+ aterial chan e
+'LIIHUHQWPDWHULDOUHTXHVWHGRWKHUWKDQZKDWLVVSHFL¿HGGXHWRKDYLQJH[FHVV
+material readil a ailable or e perience demonstrates another material has an 
+impro ed performance.
+ ifferin site conditions
+Impediments disco ered at the site that  ere pre iousl unkno n or  ere not in the 
+condition as described in the contract.
+8WLOLW\FRQÀLFW
+Utilit pipes, lines or bo es pre ent the construction strate  from proceedin as planned.
+ alue en ineerin
+Cost reduction and construction impro ement techni ues.
+Other
+$Q\5),VXEPLWWHGWKDWGRHVQRW¿WLQWRRQHRIWKHRWKHUFDWHJRULHVLQFOXGLQJEXW
+QRWOLPLWHGWRSD\PHQWPHWKRGVFHUWL¿FDWLRQUHTXLUHPHQWVSHQDOWLHVZDUUDQWLHVDQG
+nondesi n related documents.
+ 
+Based on industry experience, the Navigant Construction Forum™ would add the 
+following to the description of the “Other” category.
+ »
+Shop drawings, samples and other submittals;
+ »
+Routine communications (i.e., conﬁrmation of meeting dates, transmittal of meeting 
+minutes, conﬁrmation of telephone or face to face discussions, etc.);
+ »
+Schedules and schedule update submittals;
+ »
+Submittals of safety plans and reports; and,
+ »
+Responses to owner issued non-conformance reports.
+This article also went on to add two qualiﬁers to the discussion of RFIs as follows:
+“Lastly, the RFI was judged as justifiable or not justifiable. An RFI is justiﬁable 
+if a question, concern or observation cannot be explained or answered in the contract 
+documents. An RFI is unjustiﬁable if it questions means or methods, requests a design 
+change that is not considered by the design team, or asks a question whose answer is 
+provided in the contract documents.” 
+12  anna, Tadt and Whited, “Re uest for Information  enchmarks and  etrics for  aor  i h a Proects”.
+
+This particular study concluded that some 
+13.2% of the total RFIs submitted fell into 
+the “not justiﬁable” category. Based on the 
+average number of RFIs per project, the 
+average time expended per RFI, and the 
+average cost per RFI previously presented, 
+the unjustiﬁable category represents –
+ »
+105 RFIs (based on the ACONEX data of 
+an average 796 RFIs per project)
+ »
+840 hours of administrative and 
+technical review time involved, and
+ »
+$113,400 expended for the time to 
+review and respond to unjustiﬁable RFIs. 
+So, what is the advantage to a contractor of 
+accumulating unjustiﬁable RFIs? 
+By employing RFIs this way a contractor 
+may be able to assert an expanded claim, 
+arguing that the project was not fully 
+designed at the time of bidding. Thus, “soft 
+cost” claims based on increased project 
+stafﬁng, delay, impact and decreased labor 
+productivity may be alleged. If the claimant 
+can show a judge, jury, or arbitration panel 
+that “…there were more than 4,000 RFIs 
+on this project…” the trier of fact, without 
+the beneﬁt of a detailed analysis of the 
+RFIs, may be more sympathetic and may be 
+inclined to award such damages. 
+Typically, when a contractor asserts a claim 
+of negligent design, the courtroom becomes 
+a battleﬁeld between opposing expert 
+witnesses. This type of dispute is expensive 
+and its outcome uncertain. The statistical 
+approach attempting to demonstrate the 
+impact of “inadequate or incomplete design” 
+has been more successful than claims of 
+design negligence. This results from the 
+fact that cumulative impact claims require 
+no expert witnesses to testify on design 
+negligence, are much less technically based, 
+and appeal more easily to a trier of fact’s 
+sense of “fairness”. 
+The construction industry often uses terms 
+like “hard dollar contract”, “fully designed 
+projects”, “lump sum contract”, etc. The 
+public (which term includes many jurists, 
+almost all jurors and unsophisticated 
+arbitrators and mediators) has the faulty 
+impression that every design detail of a 
+construction project has been thoroughly 
+planned, thought out and fully designed 
+before the project is bid. This is never the 
+actual case.
+As engineering and architectural design 
+has become more of a commodity over 
+the years, the design and construction 
+process has been increasingly equated 
+with the manufacture of a new car. And, 
+like a new car, the construction project is 
+assumed to be 100% complete and 100% 
+functional. Under that premise, when it is 
+later revealed that there were thousands 
+of RFIs on the project it is logical to 
+assume that many required details were 
+overlooked during the design. This is an 
+inaccurate analogy as construction projects 
+are not a manufactured product but are, 
+instead, a complicated, custom assembly 
+of components and systems and subject 
+to many changes during the construction 
+process. Yet, the tendency is to side with a 
+contractor who claims –
+ »
+“I bid on a fully designed project.”
+ »
+“The additional ﬁeld ofﬁce stafﬁng cost, 
+the project delay and the decreased labor 
+productivity suffered on the project were 
+all a result of an incomplete design.”
+ »
+“Since the owner is responsible for the 
+design, the owner owes me.”
+
+The argument is simple, logical and all too 
+easily accepted on its face by those who do 
+not understand the design and construction 
+process. However, the argument is overly 
+simplistic as illustrated below. 
+RFIs in Action A Case Stud
+The Navigant Construction Forum™ 
+examined an actual claim based on this 
+approach in order to illustrate how a claim 
+based solely on the total number of RFIs 
+may misrepresent the reality of a project.
+The claim involved a laboratory building at 
+a wastewater treatment facility. The claim 
+alleged delay and cumulative impact based 
+on approximately 4,000 RFIs submitted 
+during the course of the project. Upon 
+closer analysis and examination of each the 
+4,000 alleged RFIs, it turned out that –
+ »
+Nearly 500 RFIs were actually submittals 
+or shop drawings required by the contract; 
+ »
+Approximately 1,700 RFIs were routine 
+project correspondence (i.e., transmittal 
+of meeting minutes, safety reports, 
+schedule submittals, conﬁrmation 
+of ﬁeld discussions or telephone 
+conversations, etc.); 
+ »
+Some 150 RFIs were requests for 
+substitution of materials and/or products 
+to the convenience of the contractor; 
+ »
+About 200 RFIs turned out to be 
+responses to owner-issued notices of 
+non-conformance by the contractor; 
+ »
+800 or so RFIs turned out to be the same 
+RFI, previously asked and responded to, 
+but resubmitted with slightly different 
+wording and a different RFI number 
+(the analysts labeled these RFIs “ﬁshing 
+expeditions”); and, 
+ »
+Approximately 300 RFIs were answered 
+the day they were received with a one 
+line response directing the contractor to 
+look at a particular speciﬁcation section, 
+drawing or detail.
+Of the remaining 350 RFIs all but 30 or so 
+were responded to within one week. Of the 
+group of RFIs responded to within one week 
+there was no discernible schedule delay or 
+resequencing of activities. Of the 30 or so 
+RFIs that required more than one week for 
+a response, several had already resulted in 
+owner issued and settled change orders 
+leaving an even smaller number of RFIs that 
+could have, and should have, been analyzed 
+for potential cost and schedule impact.
+Given this set of facts it is doubtful that 
+most would conclude that this job was 
+“not fully designed” at the time of bidding. 
+However, this is what construction claims 
+analysts commonly encounter when faced 
+with claims that all of a contractor’s loss of 
+productivity and all project delay resulted 
+from a large number of RFIs.
+Le al  ecisions Concernin 
+the Number of RFIs as Proof 
+of  ela and Impact
+The contractor’s argument that the excessive 
+number of RFIs on a project demonstrates 
+that the owner is liable for additional time 
+and cost has often proven to be successful 
+without further or detailed analysis by either 
+party. So successful, in fact, that some claim 
+seminars include sessions on how to proﬁt 
+through the use of RFIs. Some examples of 
+court cases based on large numbers of RFIs 
+include the following.
+
+In Caddell Construction Co., Inc. v. The United 
+States13 the Court noted that –
+“Even before receiving the Notice to 
+Proceed, SSC and E.E.E. Detailing 
+(“EEE”), SSC’s steel detailing 
+subcontractor, began working on 
+the project. EEE, however, was 
+allegedly unable to proceed because it 
+encountered missing and conﬂicting 
+information on the structural steel 
+drawings provided by the VA. 
+EEE began generating Requests 
+for Information (“RFI”) almost 
+immediately in an attempt to clarify 
+the plans and resolve any conﬂicts 
+in the plans so that it could proceed 
+with detailing. EEE forwarded the 
+RFIs to SSC, who sent them on to 
+Caddell, who then sent them to the 
+VA. In the ﬁrst month of the project, 
+between March 19, 1996 and April 
+19, 1996, SSC/EEE sent approximately 
+180 RFIs to Caddell. By the end of 
+the project, SSC/EEE had made in the 
+neighborhood of 300 RFIs.”
+SSC claimed that the VA did not respond 
+to over half its RFIs for more than 30 days 
+and that many of the responses were 
+insufﬁcient such that the detailer could not 
+proceed. SSC contended that the alterations 
+provided by the VA in response to their RFIs 
+were made “…because the overall plans were 
+defective and because the VA did not fulﬁll 
+its contractual responsibility to adequately 
+respond to RFIs.” 
+During the litigation… 
+“The majority of the plaintiff’s 
+witnesses’ testimony at trial focused 
+on the effect of the RFI process on 
+the fabrication of steel. Essentially, 
+plaintiff’s witnesses tried to show 
+that the number of RFIs and the short 
+time period during which they were 
+generated indicated that the plans 
+were faulty.”
+The Court noted that 
+“…plaintiff’s witnesses pointed to 
+the number and nature of the RFIs 
+generated on the project as a basis for the 
+conclusion that the plans were defective.” 
+In the end, however, the Court concluded 
+that –
+ »
+“…a large number of RFIs is not 
+an indication that the plans were 
+defective…” and
+ »
+“…in order for the RFIs to be 
+evidence that the plans were 
+defective, they must cumulatively 
+demonstrate a serious deﬁciency in 
+the plans.” (Underscoring provided.)
+In Dugan & Meyers Construction Co., Inc. v. 
+Ohio Department of Administrative Services et 
+al.14 “…Dugan & Meyers had issued in excess 
+of 700 requests for information, many of which 
+produced no timely response…” The Court 
+also found that the 
+“…state offered no expert or lay 
+testimony to rebut (Dugan & Meyers’s) 
+evidence that the design documents 
+were incomplete and inaccurate and 
+constituted the underlying cause of the 
+delay in achieving project completion.” 
+13   Fed. Cl. 40  200 U.S. Claims L  IS 2 5, September  , 200 .
+14 113 Ohio St. 3d 22  200 Ohio 1      4 N. .2d    200 Ohio L  IS 9  , April 25, 200 .
+
+At the end of the litigation Dugan & 
+Meyers did not prevail but only because –
+ »
+Ohio Courts have rejected cumulative 
+impact arguments, and
+ »
+The contract contained an enforceable 
+No Damages for Delay clause.
+One commentator on Dugan & Meyers 
+noted also that –
+“...a new case teaches that proof of 
+numerous contractor requests for 
+information might be insufﬁcient to 
+support a contractor’s recovery of delay 
+damages where the contractor fails to 
+provide an identiﬁable design defect or 
+set of design defects.”15 (Underscoring 
+provided.)
+In Metric Construction Co., Inc. v. The United 
+States16 the U.S. Court of Federal Claims, 
+however, determined that the Corps of 
+Engineers’ response to a Metric ﬁled RFI 
+and Metric’s reasonable reliance on “…
+this material misrepresentation to its 
+detriment…” constituted a constructive 
+change, compensable under the Changes 
+clause in the contract. Although the decision 
+centered on the response to a single RFI 
+(and not the large number of RFIs submitted 
+on the project) the Court concluded that the 
+Corps’ unclear response caused the damages 
+claimed and awarded $1.3 million in direct 
+damages plus interest costs from March 30, 
+2004 to January 7, 2008.
+In a 2007 paper by Stephen P. Warhoe,17 the 
+author cited three older cases that address 
+cumulative impact arising in part from 
+a large number of RFIs. The cases cited 
+include the following –
+ »
+Appeal of Bechtel National, Inc.18, 
+ »
+Appeal of Triple “A” South19, and
+ »
+Appeal of Pittman Construction.20
+The author went on to note that –
+“The contractor will need to 
+demonstrate that the large number 
+of changes/RFIs did affect their 
+work and was unforeseeable. The 
+contractor should avoid attempting 
+to demonstrate causation by simply 
+stating the impacts are justiﬁed as the 
+result of the large quantity of changes 
+or RFIs.”
+In a 2008 presentation made by the Claims 
+Avoidance and Resolution Committee of 
+the American Society of Civil Engineers’ 
+Construction Institute the following 
+comments were offered.21 
+“The government has a duty not to act 
+in a way that will hinder or delay the 
+contractor’s performance (‘refrain from 
+willfully or negligently interfering with 
+a contractor’s performance’).”22 
+ -RKQ60URZHLF³0DQ\5),V&RXOGEH,QVXI¿FLHQWWR5HFRYHU'HOD\'DPDJHV´ id est Construction, The  cGra  ill Companies, Inc., 
+Februar 1, 200 .
+1  0 Fed. Cl. 1  , 200 U.S. Claims L  IS 5, Januar  , 200 .
+1 “Is the Theor of Cumulati e Impact a Pro able Realit  ”, Cost  n ineerin , AAC International,  or anto n, W , Jul 200 .
+1 NASA  oard of Contract Appeals No. 11   ,  ecember 22, 19 9.
+19 AS CA No. 4    , September 1 , 1994.
+20 GS CA No. 4923, No. 4 9   11  CA p. 14 4 .  ecember 24, 19 0.
+21 Stephen A.  ess, La rence  Lenahan, William Scott and John Ciccarelli,  est Practices on Construction Proects Proect  ana ement 
+Procedures  Re uest for Information, American Societ of Ci il  n ineers Construction Institute, Claims A oidance and Resolution 
+Committee, Januar 29, 200 .
+22 Malone v. United States,  49 F.2d 1441, 1445 Fed. Cir. 19  , PRGL¿HG 5 F.2d    19   S S  ata Prods. Group, Inc. v. United States, 
+1 Cl. Ct. 1,  19 9.
+
+“For the government to be found liable 
+for delay a plaintiff must demonstrate 
+that the government caused the 
+plaintiff a compensable injury. The 
+government, therefore, is not liable 
+for breach of contract, or causes of 
+action that rely upon ‘severe defects’ 
+in contract drawings, or government 
+hindrance of performance, unless SCBI 
+proves that the alleged defects, changes, 
+or hindrances negatively impacted costs 
+and performance of the contract.” 23
+The Navigant Construction Forum™ 
+submits that the technique of claiming 
+cumulative impact resulting from a “large 
+number of RFIs” to justify delay and lost 
+productivity damages will not be something 
+contractors will avoid as previously 
+recommended but, instead, will continue 
+to utilize in even greater volume unless 
+positive action is taken to end the abuse of 
+the RFI process. 
+O ners Are Part of the Problem
+Few owners take the time and make 
+the effort to adopt early measures that 
+contractually safeguard against the 
+potential negative impacts of the RFI 
+process or establish an RFI processing 
+and response system and implement that 
+system in the ﬁeld. Owners should examine 
+their internal project processes to determine 
+that they are fair and prompt. They should 
+document and describe these processes in 
+the contract documents. By identifying and 
+documenting these processes contractors 
+can more clearly understand what systems 
+are in place and how the owner operates. 
+The Navigant Construction Forum™ 
+proposes a comprehensive framework 
+that speciﬁcally outlines these contractual 
+safeguards in the next section.
+ iscussion
+The discussion that follows provides a 
+framework of initiatives that safeguard 
+owners against potential abuse, maximize 
+control of the RFI process and mitigate the 
+potential for negative impacts arising from 
+the number of RFIs on a project. It is divided 
+into three sections. The ﬁrst section focuses 
+on contract language intended to control the 
+process. The second section examines the 
+use of software to track and control the RFI 
+process on projects. Finally, the third section 
+contains a list of best practices concerning 
+RFIs and the RFI process.
+Recommendation  1 
+Incorporation of Contract 
+Lan ua e 
+The Navigant Construction Forum™ 
+postulates that owners should incorporate 
+critical deﬁnitions that pertain to RFIs and 
+the RFI processing system in the General 
+Conditions of their contract documents. 
+Articulating deﬁnitions can help mitigate 
+the potential for misunderstanding between 
+owners and contractors on the site over 
+project procedures. For example, there 
+are numerous terms and procedures that 
+exist in any owner organization and are 
+commonly used among owners and their 
+representatives. However, they are not 
+reﬂected in the contract documents. Thus, 
+while the owner and their representatives 
+are cognizant of the terms and the processes, 
+contractors are not. Despite this lack of 
+knowledge, owners frequently contend: 
+“The contractor should know how the 
+Department operates. After all, the 
+Department has been doing it this way 
+for more than twenty years.” 
+23 Servidone Constr. Corp. v. United States, 931 F.2d   0,   1 1991 Boyajian v. United States, 191 Ct. Cl. 233, 2394 , 423 F.2d 1231, 1235 
+19 0 Southern Comfort Builders, Inc. v. United States, No. 00542C, U.S. Court of Federal Claims,   Fed. Cl. 124 2005 U.S. Claims L  IS 
+225 Jul 29, 2005.
+
+This statement may well be true (but it is 
+an unrealistic and risky expectation). In 
+reality, however, contractors are required to 
+adhere only to the standards set forth in the 
+contract documents, not what is known to 
+the owner but unrevealed to the contractor 
+at the time of bidding.
+To prevent misunderstanding concerning 
+the RFI process, it is recommended that 
+the owner, after consultation with legal 
+counsel, include the following deﬁnitions 
+in the General Conditions of the contract 
+documents. The incorporation of these 
+deﬁnitions in the contract documents 
+may help decrease the abuse of the RFI 
+process. Further, owners are able to draft 
+a speciﬁcation dealing directly with RFIs 
+– when an RFI is to be used, how RFIs are 
+to be used, the owner’s response time, etc. 
+This speciﬁcation should provide the owner 
+with the authority to reject documents 
+labeled as RFIs but that do not comply with 
+the deﬁnition of the term. This speciﬁcation 
+is addressed in more detail herein below.
+Definitions
+The minimum deﬁnitions to be included are 
+the following.
+Drawing Clarification/Plan 
+Clarification: An answer from the 
+owner, in response to a written 
+inquiry from the contractor, intended 
+to make some requirement(s) 
+of the drawings or plans clearly 
+understood. Drawing clarifications/
+plan clarifications may be sketches, 
+drawings or be in narrative form and 
+will not change any requirements 
+of the contract drawings or 
+specifications. Responses to 
+contractor inquiries shall be as 
+outlined in the Article, “Requests 
+for Information”, of these General 
+Conditions.
+The “Drawing Clariﬁcation/Plan 
+Clariﬁcation” deﬁnition describes the intent 
+of a drawing or plan clariﬁcation system 
+that actually exists on most project sites but 
+is rarely described in contract documents. 
+It sets forth what speciﬁcally comprises a 
+drawing/plan clariﬁcation and establishes 
+that it is used to make a point better 
+understood. The deﬁnition also establishes 
+that clariﬁcations are not directed changes. 
+However, if an owner does issue a 
+clariﬁcation that directs the contractor to do 
+more work than required in the contract, 
+and the contractor gives appropriate 
+notice of change, then the contractor may 
+still assert a constructive change claim. 
+Finally, by reference to the “Requests for 
+Information” article the deﬁnition provides 
+the owner’s response time in order to 
+forestall delay claims due to any clariﬁcation 
+response time. 
+Response to Non-Conformance 
+Notice: A Non-Conformance 
+Notice will be issued by the owner 
+identifying work that has not been 
+performed in accordance with 
+the requirements of the contract 
+documents. Payment will not be 
+made on any portion of the work for 
+which a Non-Conformance Notice 
+has been issued and the work not 
+corrected to the satisfaction of the 
+owner. Upon receipt of a Non-
+Conformance Notice the contractor 
+shall provide a written Response to 
+Non-Conformance Notice within 
+five (5) working days after receipt of 
+the Notice. The contractor’s response 
+shall detail either (a) why they 
+believe that the work was performed 
+in accordance with the contract 
+documents or (b) what corrective 
+action they intend to take, at their 
+sole expense, to correct the non-
+conforming work and when such 
+corrective action will be performed.
+
+If the contractor disputes issuance 
+of the Notice the owner has five (5) 
+working days in which to respond by 
+either (a) withdrawing the Notice of 
+Non-Conformance or (b) directing the 
+contractor to correct the work. Such 
+determination by the owner shall be 
+final and conclusive of the matter. 
+If directed to correct the work, the 
+contractor shall do so within five (5) 
+working days after receipt of such 
+direction from the owner, or such 
+other time as may be agreed upon by 
+the owner and the contractor.
+The “Response to Non-Conformance 
+Notice” deﬁnition establishes a system 
+for notifying the contractor when the 
+owner determines that some portion of 
+the work does not conform to contract 
+requirements. The contractor is required 
+to provide a speciﬁc Response to Non-
+Conformance Notice (which by deﬁnition 
+is not an RFI) to such notices within a 
+speciﬁc timeframe. Payment will not be 
+made for work the owner believes does 
+not meet the requirements of the contract. 
+If the contractor believes they performed 
+the work correctly, this system provides 
+an appeal concerning the Notice of Non-
+Conformance. The owner has a speciﬁc 
+timeframe to either withdraw the notice 
+or order the work to be corrected within 
+a speciﬁc timeframe. The contractor may, 
+of course, make a claim concerning such 
+direction but under this system the work 
+will have to be corrected thus mitigating 
+potential project delay and impact.
+Project Communications: Routine 
+written communications between the 
+contractor and the owner shall be by 
+letter, field memo, meeting minutes, 
+FAX or e-mail. Such communications 
+shall not be identified as Requests for 
+Information nor shall they substitute 
+for any other written requirement 
+pursuant to the provisions of these 
+contract documents.
+The intent of the “Project Communications” 
+deﬁnition is to distinguish between routine 
+e-mail, project memos, meeting minutes 
+and letters on the one hand and RFIs, 
+submittals, substitution requests, etc. on 
+the other. As discussed later, the deﬁnition 
+allows the owner to reject routine project 
+communications misclassiﬁed as RFIs.
+Requests for Information: A written 
+request from the contractor to the 
+owner seeking an interpretation or 
+a clarification of some requirement 
+of the contract documents. The 
+contractor shall clearly and concisely 
+set forth the issue for which they 
+seek clarification or interpretation 
+and why a response is needed from 
+the owner. The contractor shall, in 
+the Request for Information, set forth 
+their interpretation or understanding 
+of the requirement including 
+reasons why they have reached 
+such an understanding. Responses 
+from the owner will not change 
+any requirement of the contract 
+documents unless so noted in the 
+Request for Information Response by 
+the owner. Responses to contractor 
+inquiries shall be as outlined in the 
+Article, “Requests for Information”, 
+of these General Conditions.
+The purpose of the “Requests for Information” 
+deﬁnition is to establish that an RFI can be 
+used only to seek interpretation of an issue 
+from the owner. It requires the contractor 
+to outline what issue needs clariﬁcation 
+and why. This deﬁnition also places an 
+afﬁrmative duty on the contractor to set 
+forth their understanding of the contract 
+requirements so the owner can take that into 
+consideration when providing a response. For 
+example, if the owner reads the contractor’s 
+interpretation and agrees it presents an 
+understanding of the minimum needs of the 
+project, then the owner can respond to the 
+contractor “You have a correct understanding 
+of the requirements of the work. Proceed.” 
+The result is that no claim can reasonably 
+arise due to such an owner response.
+
+Requests for Substitution/Or Equal 
+Submittals: A request from the 
+contractor to substitute a material, 
+article, device, product, fixture, 
+form, type of construction or process 
+called for in the contract documents 
+with another item that shall be 
+substantially equal in all respects 
+to that so indicated or supplied. 
+Requests for Substitution shall be 
+made as required in the Article, 
+“Requests for Substitution”, of these 
+General Conditions.
+This deﬁnition simply attempts to draws 
+a clear distinction between an RFI and a 
+Request for Substitution. The deﬁnition 
+must be followed up in the contract 
+documents with a description of the 
+substitution/or equal process that identiﬁes 
+- when the contractor may submit such 
+a request; what the contractor is required 
+to submit; what sort of review will be 
+undertaken; and probably a liability transfer 
+clause in the event that a substitution/or 
+equal request is accepted by the owner.
+Submittals/Shop Drawings: 
+When required by any technical 
+specification included in these 
+contract documents, the contractor 
+shall transmit to the owner technical 
+submittals, shop drawings or 
+samples, including supporting 
+catalogue cuts, manufacturer’s 
+literature, sketches or drawings, 
+calculations, and other pertinent 
+data, in sufficient detail to enable the 
+owner to review the information and 
+determine that the contractor clearly 
+understands the requirements of the 
+contract documents.
+The intent of this deﬁnition is to draw a 
+distinction between submittals and shop 
+drawings on the one hand and RFIs on 
+the other. The contract documents should 
+set forth details of the submittal system 
+including how many copies are to be 
+submitted; what is the owner review time; 
+what categories of responses might the 
+owner issue, etc.
+Schedule Submittals: The contractor 
+shall formally submit all required 
+schedules, schedule updates, schedule 
+revisions, time impact analyses, etc. for 
+review and acceptance in accordance 
+with the General Requirement, 
+“Construction Schedules”. 
+This deﬁnition also draws a distinction 
+between scheduling related submittals 
+and RFIs.
+Value Engineering Change Proposal: 
+A Value Engineering Change 
+Proposal (“VECP”) may be submitted 
+in writing by the contractor in 
+accordance with the Article, “Value 
+Engineering Change Proposals”, of 
+these General Conditions. A VECP 
+shall contain all information required 
+in the VECP Article and shall not be 
+submitted as an RFI.
+Likewise, this deﬁnition distinguishes 
+between VECPs and RFIs. The contract 
+document must include a VECP clause that 
+outlines in some detail the procedure for 
+such proposals. 
+The Navigant Construction Forum™ 
+submits that one reason contractors are 
+able to play games with the RFI process 
+is that owners often have no mechanism 
+to reject or reclassify documents that are 
+not truly RFIs and keep unjustiﬁed RFIs 
+out of the RFI Log. Conversely, a contract 
+that clearly deﬁnes and distinguishes 
+Schedule Submittals, Substitutions/Or 
+Equal Submittals, Project Communications 
+and RFIs safeguards owners from foul 
+play with RFIs. By reducing the number 
+of RFIs on a project the contractor’s ability 
+to lay the groundwork for a delay damage 
+and disruption claim due to incomplete 
+design and the need for so many RFIs is 
+substantially reduced.
+
+The RFI Clause
+As noted above, deﬁnitions alone will not 
+eliminate this tactic absent further contract 
+language. A clause can be incorporated 
+into the General Conditions to formally 
+establish the RFI process and the timing 
+concerning RFI reviews and responses. 
+The Navigant Construction Forum™ 
+proposes incorporating language such as 
+the following, after consultation with legal 
+counsel, as a way to defend against this 
+type of claim.
+Request for Information
+A. In the event the contractor determines 
+that some provision or requirement 
+of the drawings, specifications or 
+other contract documents requires 
+clarification or interpretation, the 
+contractor shall submit a Request 
+for Information in writing to the 
+owner. Requests for Information may 
+only be submitted by the contractor 
+and shall only be submitted on 
+the Request for Information form 
+provided by the owner. Each Request 
+for Information shall be limited to a 
+single subject of inquiry.
+B. The contractor shall clearly and 
+concisely set forth the issue for which 
+clarification or interpretation is sought 
+and why a response is needed and 
+when it is needed. In the Request 
+for Information the contractor shall 
+set forth their own interpretation or 
+understanding of the requirement 
+along with reasons why they have 
+reached such an understanding. 
+C. The owner will review all Requests for 
+Information to determine whether they 
+are Requests for Information within the 
+contractual definition of this term. If the 
+owner determines that the document 
+is not a Request for Information 
+the documents will be returned to 
+the contractor without review, for 
+resubmittal on the proper form and in 
+the proper manner in accordance with 
+the terms of the contract.
+D. Responses to Requests for 
+Information shall be issued within 
+ten (10) working days of receipt of the 
+request from the contractor unless the 
+owner determines that a longer period 
+of time is necessary to provide an 
+adequate response. If a longer period 
+of time is determined necessary by the 
+owner, the owner will, within ten (10) 
+working days of receipt of the request, 
+notify the contractor of the anticipated 
+response time. 
+1. The ten (10) working days referred 
+to herein will start on the date 
+stamped received “In from 
+Contractor” by the owner and 
+ends on the date stamped “Out to 
+Contractor” by the owner. 
+2. If the contractor submits a Request 
+for Information on a schedule 
+activity with ten (10) working 
+days or less of float on the current 
+project schedule, the contractor 
+shall not be entitled to any time 
+extension due to the time it takes 
+the owner to respond to the 
+request provided that the owner 
+responds within the ten (10) 
+working days set forth above. 
+E. Responses from the owner will not 
+change any requirement of the contract 
+documents unless so noted by the 
+owner in the response to the Request 
+for Information. In the event the 
+contractor believes that a response to 
+a Request for Information will cause 
+a change to the requirements of the 
+contract document the contractor shall 
+provide written notice to the owner, 
+in accordance with the requirements 
+of the Changes article, stating that 
+the contractor considers the response 
+to be a change to the requirements 
+of the contract. Failure to provide 
+such written notice shall waive the 
+contractor’s right to seek additional 
+time or cost under the Changes article 
+of these General Conditions.
+
+A brief discussion of the intent and purpose 
+of this General Conditions clause follows. 
+Item A of the RFI clause states that only the 
+prime contractor may submit an RFI. RFIs 
+will not be accepted from subcontractors, 
+suppliers or materialmen. It requires all 
+RFIs be submitted in writing on the RFI 
+form provided by the owner. (The owner’s 
+standard form template should also be 
+included as part of the General Conditions.) 
+This allows the owner to create their own 
+RFI form which includes all the information 
+pertaining to the RFI that the owner wants to 
+collect. (More detailed information on what 
+information should be required is set forth 
+below.) The subsection also mandates that 
+each RFI shall only deal with one subject. 
+Item B requires the contractor to clearly 
+articulate the issue and how it can be 
+resolved, in the contractor’s opinion 
+along with the underlying contractual 
+basis for their interpretation. If the owner 
+agrees with how the contractor interprets 
+the needs of the project and advises 
+the contractor to proceed with their 
+interpretation no claim for change should 
+arise from the response.
+Item C establishes the owner’s right to 
+review all RFIs to determine whether each 
+request adheres to the deﬁnition of RFI 
+in accordance with the deﬁnition in the 
+contract documents. If they do not, the 
+owner is contractually entitled to return the 
+unjustiﬁed RFI to the contractor without 
+review. This provision should help prevent 
+large numbers of unjustiﬁable RFIs from 
+entering the RFI log. 
+Item D establishes the owner’s review time 
+– in this sample speciﬁcation ten work days 
+(“wds”) from receipt of the RFI.24 (This 
+timeframe, of course, may be modiﬁed 
+by an owner using this speciﬁcation.) 
+The section also stipulates that if the 
+owner determines it will take longer than 
+the speciﬁed review time to provide the 
+requested information, then the owner is 
+obligated to respond within ten wds, to 
+advise the contractor when they can expect 
+to receive a response. The section further 
+states that, since the ten working day rule 
+is in effect, if the contractor submits an 
+RFI concerning a schedule activity that 
+has ten wds or less ﬂoat on the schedule, 
+then the contractor is not entitled to a time 
+extension due to the time it takes the owner 
+to respond. This language differs from the 
+traditional No Damages for Delay clause as 
+it documents that the cause of any resulting 
+delay is the contractor’s late submittal of an 
+RFI. This provision should cause contractors 
+to review the contract documents and 
+submit justiﬁed RFIs in a timely manner so 
+as not to cause any delay to the project due 
+to late submittal of RFIs.
+Item E establishes that RFIs provide 
+interpretations or clariﬁcations and should 
+not give rise to change orders. The section 
+allows the owner to initiate a change to 
+the contract requirements by noting in the 
+RFI response that a change order will be 
+issued. Such a response should include the 
+owner’s request for a formal change order 
+request from the contractor and, assuming 
+agreement can be reached, a change order 
+will be issued by the owner. Moreover, if an 
+RFI response is considered by the contractor 
+to be a change, then the contractor must 
+notify the owner in writing as soon as 
+possible and in accordance with the 
+applicable notice provisions in the contract 
+documents. This language gives the owner 
+the opportunity to reconsider the response 
+and avoid claims of constructive change. 
+Finally, the section stipulates that the failure 
+to provide written notice of change forfeits 
+the right of the contractor to make a claim 
+arising from the RFI response.
+24 It should be noted that the o ner must specif that the re ie and response time is in “ ork da s” rather than “da s” a term t picall used to 
+prescribe calendar da s as most contracts are “calendar da ” contracts.
+
+The RFI Form
+An owner employing this deﬁned and 
+controlled RFI system should create an 
+RFI form and mandate its use in the 
+contract. Any alleged RFI submitted on a 
+form other than the contractually required 
+form should be immediately rejected upon 
+receipt and returned to the contractor 
+with the instructions to resubmit on the 
+contractually required form. It is proposed 
+that the RFI form contain, at a minimum 
+the following information –
+ »
+Project name
+ »
+Project number
+ »
+Date of submittal
+ »
+Chronological number of RFI
+ »
+Name of submitter
+ »
+Company
+ »
+Telephone and fax information
+ »
+Speciﬁcation, drawing and/or detail 
+number reference
+ »
+Discipline and trades affected
+ »
+Schedule activity number(s) RFI 
+may impact
+ »
+Priority (1 - 5 with 1 being the highest)
+ »
+Subject name or RFI title
+ »
+Information requested and why
+ »
+Contractor proposed response
+ »
+Potential cost impact – “Yes” or “No” and 
+potential estimate, if any
+ »
+Potential time impact – “Yes” or “No” and 
+potential days, if any
+ »
+Change order required – “Yes” or “No”
+ »
+Date response is required consistent 
+with the contract requirements (“ASAP” 
+shall not be used)
+ »
+Name of responder
+ »
+Response by
+ »
+Date of Response
+ »
+Copied to
+The RFI Review System
+To complete the defense against abuse of the 
+RFI process, the owner must also establish 
+a formal in-house RFI review processing 
+system. The Navigant Construction Forum™ 
+recommends that the owner or their 
+representative assign a single, knowledgeable 
+individual from the project team to be 
+in charge of the RFI review process – 
+possibly titled the RFI Coordinator. The RFI 
+Coordinator should receive all documents 
+labeled “RFI” on the day they are received to 
+determine if the document is actually an RFI 
+as deﬁned in the contract. If the document is a 
+justiﬁed RFI, it should be logged into the RFI 
+Log and processed and routed appropriately 
+for a response. The RFI Coordinator should 
+track all RFIs in process to determine that 
+timely and accurate responses are made. (A 
+more thorough discussion of electronic RFI 
+management follows this section.)
+The RFI Coordinator should establish and 
+implement a system to classify RFIs upon 
+receipt. Possible classiﬁcations include:
+ »
+A/E issue 
+ »
+Answered by reference to speciﬁcation 
+or drawing
+ »
+Change in means and methods
+ »
+Change in staging, sequence, planning
+ »
+Change of material, product or equipment
+ »
+Constructability issue
+ »
+Construction coordination issue
+ »
+Deleted scope
+ »
+Design change – change order to be 
+issued by owner 
+ »
+Design coordination
+ »
+Different method
+ »
+Differing site condition
+ »
+Incomplete plans and speciﬁcations
+ »
+Previously asked and responded to 
+ »
+Response to Non-Conformance Notice
+
+»
+RFI submitted with 10 wds or less 
+schedule ﬂoat
+ »
+Scope issue
+ »
+Utility conﬂict
+ »
+Value engineering
+The Navigant Construction Forum™ 
+proposes that, at a minimum, these 
+categorizations must be included in the 
+electronic RFI Log. Such a system of 
+categorizing RFIs provides a documented 
+defense if a claim of “too many RFIs” is later 
+asserted. This is especially true with respect 
+to RFIs with responses clearly set forth in the 
+documents or RFIs asked more than once.
+If, on the other hand, it is determined that 
+the document submitted is not a justiﬁable 
+RFI under the contractual deﬁnition, then 
+the document should be returned the same 
+day it is received. A standard form cover 
+letter should be developed to ease the 
+paperwork involved with such responses. 
+The essence of the cover letter is that 
+“This document is not an RFI 
+within the definition of the Contract 
+Documents and therefore is being 
+returned to you without a response. 
+This document has not been entered 
+into the project’s RFI Log. It is a 
+_______________. Please resubmit 
+the document on the proper form for 
+timely processing.”
+Recommendation  2 
+ lectronic RFI Trackin and 
+ onitorin
+The second recommendation is related to 
+the use of an electronic RFI tracking and 
+monitoring system to manage the RFI 
+process. While electronic RFI processing, 
+tracking and monitoring is becoming 
+more commonplace, many owners, design 
+professionals, and contractors still rely on 
+basic tools such as e-mail, spreadsheet 
+logs and manually completed hard-
+copy forms to document increasingly 
+complicated and document-intensive 
+projects. This is inefﬁcient and misses out 
+on a signiﬁcant number of beneﬁts that can 
+come from centralizing and standardizing 
+the electronic RFI, and other project 
+management processes. 
+There are numerous software solutions 
+available today that can be modiﬁed and 
+scaled to manage cost and commitment. 
+By using appropriate software and 
+knowledgeable, design or construction-
+trained professionals to operate it, the 
+parties responsible for the potentially 
+negative impacts associated with RFIs can 
+be empowered to address critical project 
+issues as they arise. If nothing else, an 
+electronic RFI tracking system enables 
+project participants to understand how 
+construction phase questions and their 
+responses may be affecting their own 
+performance on the project.
+System Compatibility
+Unless it is otherwise dictated by the client 
+or by contract, project participants usually 
+have the option of using their existing 
+software programs for the communications 
+and drawing markups associated with 
+the exchange of RFIs. As long as standard 
+electronic RFI forms are utilized, information 
+can be logged and linked centrally once it 
+has been received via e-mail. In this way, 
+older and otherwise seemingly incompatible 
+programs can work together in concert with 
+the RFI tracking software.
+
+Benefits of an RFI Software System
+The beneﬁts of employing and utilizing 
+an electronic RFI tracking and monitoring 
+system are set forth below.
+ »
+Centralization and Access
+The programs used for RFI tracking 
+can either reside on a project server 
+or, more commonly these days, on a 
+service provider’s server. A remote or 
+cloud-hosted solution allows connected 
+mobile devices to access and add 
+project information from anywhere an 
+internet connection is available. RFIs 
+can be initiated from the job trailer or 
+during a site walk and can be reviewed, 
+forwarded and responded to with similar 
+ﬂexibility. Project information can be 
+controlled and protected by limiting 
+access to speciﬁc project participants. 
+Since software licenses are usually priced 
+based on the number of people/devices 
+that need to access the information, the 
+cost associated with implementing them 
+is similarly scaled. 
+ »
+Standard Forms with Required Fields
+A common feature of most RFI tracking 
+systems is the use of standard electronic 
+forms and templates. These forms can be 
+modeled on existing forms preferred by 
+the owner or they can be new improved 
+versions, better organized and more 
+simpliﬁed for ease of completion and 
+processing through the use of pull-down 
+or drop-down menus. Additionally, this 
+allows the owner to require completion 
+of selected ﬁelds in order for the RFI to be 
+initiated and submitted.
+Required ﬁelds typically address the 
+portion of the project that is in question, 
+the parties to which the RFI is directed, 
+the required duration for response, 
+time and/or cost impact, and other 
+challenges. The electronic forms also 
+allow for contract documents, such 
+as drawings and speciﬁcations, to be 
+attached and marked up to illustrate 
+the areas of ambiguities or conﬂict. If 
+the project design is tied to a Building 
+Information Model (“BIM”) then the RFI 
+can also be linked to the model.
+ »
+Consistent Distribution and Notification
+The control and distribution of RFIs can 
+also be streamlined by use of software. 
+Once the RFI form ﬁelds have been 
+completed, the request can be submitted 
+to the system and vetted by the RFI 
+Coordinator. If the document is truly 
+an RFI under the terms of the contract, 
+the RFI Coordinator will transfer it to 
+the RFI Log and distribute it directly to 
+all appropriate parties on the project 
+team based on the content of the RFI. 
+Communication regarding the RFI may 
+be through the same program or it may 
+employ an existing e-mail program to 
+handle messaging. The RFI form and 
+other attachments that support the 
+RFI are automatically attached to any 
+related e-mails and linked back to the 
+RFI tracking system. Distribution lists 
+and workﬂow models based on subject 
+matter expertise, contract responsibility 
+and other criteria can be established 
+in advance of a request to ensure that 
+appropriate individuals receive the RFI 
+and are aware of it almost as quickly as it 
+is generated.
+
+Unlike traditional e-mailing of RFIs 
+where various exchanges are held as 
+groupings of individual messages with 
+attachments, RFI tracking programs 
+group all RFI related messages as they 
+accumulate in back and forth exchanges. 
+Similarly any documents, sketches, 
+markups, or model modiﬁcations that 
+are related to an identiﬁed issue will 
+be grouped and linked to a speciﬁc RFI 
+number. This same communication 
+network can be used to monitor 
+progress in responding to RFIs. If an 
+RFI response time is too slow, either 
+relative to the time allowed by contract 
+or a speciﬁc time-sensitive project issue, 
+automatic alerts or reminders can be set 
+to manage the process’ schedule.
+ »
+Improved Monitoring of RFI Activity, 
+Response Timing and Possible Impacts
+In these electronic monitoring systems 
+RFIs are typically routed and tracked 
+through a centralized software system, 
+database and/or server so all activity 
+associated with each RFI can be 
+monitored. The current status of any RFI 
+is available to the RFI Coordinator to 
+alert them to bottlenecks and assist in 
+determining how to address problems 
+proactively. Common reasons for an RFI 
+response delay include:
+ ›
+Additional information is still 
+required even though a response has 
+been submitted;
+ ›
+The designer is awaiting a reply from 
+another technical consultant 
+or manufacturer;
+ ›
+The RFI is untouched by the key 
+respondent because they are 
+addressing other issues;
+ ›
+A speciﬁc issue has gone back and 
+forth several times without resolution;
+If any of these factors are at play, they 
+will be immediately apparent within the 
+system without ever having to send an 
+e-mail inquiry or make a call.
+Most RFI software solutions utilize two 
+different mechanisms for monitoring 
+RFI activity-dashboards and reports. 
+A dashboard is a regularly updated 
+display of pre-selected project data and 
+status items. (A sample dashboard is 
+shown below.) If any RFI is not being 
+responded to in a timely manner, an 
+alert will appear on the dashboard 
+to focus the attention of the RFI 
+Coordinator on that speciﬁc RFI holdup. 
+By displaying other key information on 
+the dashboard at the same time, RFI 
+activity may be monitored along with 
+other important project metrics such as 
+cost and schedule. 
+Source: D.R. McNatty & Associates, Mission Viejo, CA
+
+Reports are either displayed or printed 
+summaries of key data pulled from 
+contemporaneous project data records. 
+Helpful reports relative to RFI activity 
+summarize response times, distribution 
+by trade, systems or locations, as well 
+as the response category (e.g., found in 
+contract documents, drawing coordination 
+issues, etc.). These metrics may be viewed 
+and analyzed as frequently as project 
+stakeholders feel is appropriate to help 
+identify problem areas or uncover problems 
+with the reviewing professionals themselves 
+while there is still an opportunity to make 
+corrections and to mitigate risk. 
+Additionally, using data provided by such 
+electronic monitoring systems will allow the 
+RFI Coordinator to calculate the Forward 
+Thinking Index™ (“FTI™”) for the project.25 
+In essence, the FTI™ is a measurement of 
+how well the contractor is doing with respect 
+to thinking ahead on a project. Additionally, 
+this index calculation can be performed 
+routinely during the project to see if the 
+contractor is improving his score or not. As 
+stated in this paper on FTI™ –
+“As in many areas of life, timing is 
+everything when it comes to RFIs. An 
+RFI sent when the issue is at hand 
+almost certainly results in a delay and 
+can often lead to cost increases, while 
+an RFI submitted well in advance has 
+a greater likelihood of being resolved 
+before an issue becomes critical 
+lessening the chances for slowdowns or 
+cost increases.
+Through empirical data from 
+completed projects, the authors 
+determined that RFIs submitted 
+at least 10 days in advance of a 
+construction activity typically provide 
+the time necessary to resolve issues. 
+Using the empirical data generated 
+from historic projects, the authors 
+developed a formula to measure 
+success in forward thinking.
+The Forward Thinking Index™ is 
+arrived at by calculating the total 
+number of RFIs (x) minus the number 
+of RFIs that create schedule delay (y). 
+That difference (z) divided by the total 
+number of RFIs (x) results in the FTI:
+x – y = z and z ÷ x = FTI
+Example:
+200 total RFIs – minus 50 RFIs that 
+result in delay = 150 and
+150 divided by the total number of 
+RFIs = 0.750 FTI
+Similar to baseball players’ batting 
+averages, the FTI shows the percentage 
+of ‘hits’ that helped the team avert 
+delays. And as with batting averages, 
+higher FTI scores are more desirable.”
+ »
+Grouping Related RFIs into Issues
+One common and useful feature often 
+associated with electronic RFI programs 
+is the ability to create “issue” groups or 
+RFI “topic” categories. As RFIs are issued, 
+they may fall into certain categories 
+that individual project participants are 
+interested in tracking. As soon as those 
+categories are identiﬁed, the associated 
+RFIs can be tagged with those labels. 
+Grouping RFIs contemporaneously with 
+the project will:
+ ›
+Assist in quick identiﬁcation of 
+redundant inquiries on the same 
+issue and, ultimately, the rejection of 
+those unwarranted RFIs; queries can 
+be performed to see how many and 
+what types of RFIs on a given topic 
+have been issued.
+ ›
+Help identify problematic areas in 
+design or construction so they can 
+be proactively addressed; if a large 
+number of RFIs relate to a particular 
+recurring design element, future 
+incidents can/should be handled in 
+advance of the issuance of an RFI.
+24  a id  i  ins, Jr., Shannon Fr er, Rob Stratton,  a e Simpson and Justin Re inato, Usin the For ard Thinkin Inde  To Reduce  ela s 
+Related to Re uests for Information Process, Proceedin s of the 20th Annual Conference of the International Group for Lean Construction, 
+San  ie o, CA, Jul 2012.
+
+›
+Allow the creation of user-preferred 
+groupings that transcend the systems 
+or disciplines that form the typical 
+categories (e.g., structural RFIs can 
+now be broken down into Structural 
+Steel, Wood Framing, Rebar, etc.).
+ ›
+Facilitate the collection of materials 
+that may be used for the analysis 
+of change order requests or delay, 
+impact and damage claims. 
+ »
+Early Identification of Potential 
+Schedule Impacts
+Within many electronic RFI processing 
+systems there exists the potential to 
+create links between submitted RFIs and 
+the construction schedule. This can be 
+helpful in quickly identifying what, if 
+any, impact a speciﬁc RFI may have on 
+the progress of the work. For example, 
+if an RFI identiﬁes a conﬂict between a 
+typical mechanical air supply duct and 
+a speciﬁed ceiling ﬁnish height across 
+an entire ﬂoor and that ceiling must be 
+completed before any other work on 
+that ﬂoor can proceed, the system will 
+ﬂag that RFI as “urgent” so that it can 
+be prioritized over other less critical 
+reviews. In projects where dozens of 
+RFIs are issued in a given week, the 
+ability to have priorities automatically 
+set by schedule can be a key factor in 
+avoiding project delay.
+Overall patterns related to the timing 
+of RFI issuances and responses relative 
+to the project schedule can also be 
+identiﬁed when the RFIs are linked to the 
+construction schedule. If there is a pattern 
+of late issuance of time-critical RFIs by 
+the construction team or, alternatively, 
+a pattern of non-responsiveness by the 
+design team to time-sensitive RFIs, these 
+trends can be easily identiﬁed. (Refer 
+back to the earlier discussion of the 
+FTI™.) They may be used to facilitate 
+time-related negotiations or in resolveing 
+disputes related to the performance of 
+various parties. 
+ »
+Early Identification of Potential 
+Cost Impacts
+Links may also be established between 
+RFIs and the value of the work. This 
+is another way of establishing the 
+importance of an RFI issue as well as its 
+relationship to the overall value of the 
+project. In other words, it is another risk 
+metric. For example, if an RFI proposes 
+an alternate, code-approved method of 
+attaching plumbing lines to the building 
+and that attachment will save the 
+subcontractor signiﬁcant labor, time and 
+material costs, the system will identify 
+that savings, possibly opening up the 
+discussion with the subcontractor for a 
+credit. Alternatively, if the change will 
+impact other portions of construction 
+where additional cost may need to be 
+incurred (e.g., if plumbing chases need 
+to be enlarged because of the new 
+attachment method) then that too will be 
+identiﬁed. By linking RFI subject matter 
+to project cost data it becomes possible 
+to anticipate previously unnoticed cost 
+impacts before they occur.
+ »
+Creating Links between RFIs and BIM
+In addition to the schedule and cost 
+linking discussed above, if the project 
+employs BIM for the overall design, RFIs 
+may be linked directly to the model. 
+While traditional RFIs may include 
+marked-up drawings or attached 
+sketches to identify design issues and 
+proposed solutions, a BIM-linked RFI 
+will highlight the unclear or problematic 
+areas within the model itself so that the 
+location and extent of the issue may 
+be observed directly within the virtual 
+building. For example, an RFI may be 
+connected to a previously unresolved 
+building-wide system clash within the 
+model, such as a duct that was in conﬂict 
+with an existing ﬂoor truss. In that case 
+the BIM-linked RFI would show project 
+personnel where the truss was located 
+and where the conﬂict was occurring. 
+The direct connection between the 
+question being asked and the building 
+model may help to streamline the 
+process of resolving the conﬂict.
+
+Recommendation  3  est 
+ ana ement Practices 
+Related to RFIs
+The Navigant Construction Forum™ 
+has assembled a list of best practices 
+for managing the RFI process. These 
+recommendations are based largely on a 
+review of four studies on this topic. The 
+studies are listed below.
+ »
+Best Practices from WisDOT Mega 
+and ARRA Projects – Request for 
+Information: Benchmark and Metrics26;
+ »
+Best Practices on Construction Projects 
+– Project Management Procedures: 
+Request for Information27;
+ »
+AIA Best Practices: The RFIs Role in the 
+Construction Process28; and
+ »
+AISC Code of Standard Practice 
+Committee’s Recommended Standard 
+of Practice for “Requests for Information” 
+(RFIs)29.
+The recommendations outlined in these 
+studies align with the experience of the 
+Navigant Construction Forum™. The 
+Forum has found that adhering to the 
+following best practices serves to limit the 
+number of RFIs received and process those 
+RFIs more efﬁciently.
+Suggested Best Practices for Owners
+ »
+Use one system of numbering RFIs 
+consistently throughout the project.
+ »
+Incorporate a required response time for 
+RFIs in the contract documents.
+ »
+Be prompt with RFI responses or thoroughly 
+document the reason for the delay.
+ »
+Monitor and manage RFIs through use 
+of an electronic RFI log. 
+ »
+Require that all RFIs be accompanied by 
+a lowest-cost suggested solution from 
+the contractor.
+ »
+Use e-mail to distribute RFIs and their 
+attachments to all members of the 
+project team at the same time so review 
+and comment can occur concurrently.
+ »
+Typical response time for an RFI 
+probably should be 10 working days, 
+depending upon the urgency and 
+complexity of the issue and the amount 
+of work needed to provide a response. 
+ »
+The owner should return all RFI 
+responses with a written RFI Response 
+Transmittal that documents the 
+reviewers understanding of the RFI, the 
+response, appropriate dates, etc.
+ »
+Responses should be speciﬁc and 
+include attachments and exact 
+references as required. (Avoid responses 
+such as “See architectural drawings”.) 
+ »
+Responses to RFIs ought to include 
+references to design drawing numbers 
+and speciﬁcation sections and, when 
+needed, a graphic depiction of the 
+resolution.
+ »
+Where RFI responses require new details 
+or detail revisions, hand-drawn sketches 
+may sufﬁce and may expedite the RFI 
+response time.
+ »
+Incorporate all RFI responses into the 
+design drawings concurrent with the 
+processing of the RFI. The owner then 
+has the beneﬁt of having complete, up-
+to-date information on their drawings.
+ »
+Responses to RFIs that require revisions 
+to drawings and speciﬁcations should 
+be incorporated into the contract 
+documents by change order.
+ »
+Do not let RFI paperwork languish!
+2  ric Tadt, A ad  anna and Gar Whited, Wis OT Polic Research Pro ram Proect, Proect I  00921020, Construction and  aterials 
+Support Center, Uni ersit of Wisconsin   adison,  arch 2012.
+2 Claims A oidance and Resolution Committee, Construction Institute, American Societ of Ci il  n ineers, Januar 200 .
+2  ela are A CAIA Partnerin Committee,  P 11.04.05,  arch 200 .
+29 William Andre s,  ASS  esi n Inc., The Proceedin s of the North American Steel Construction Conference,  ontreal, Canada, 2005.
+
+Suggested Best Practices for Contractors
+ »
+Generate RFIs as soon as the contractor 
+recognizes the need for the information 
+requested.
+ »
+Submit all RFIs as soon as an issue arises 
+and at least 10 days before the response 
+is required to minimize potential project 
+disruption or delay.
+ »
+Each RFI should be limited to a single 
+subject of inquiry.
+ »
+Each RFI should have an assigned priority.
+ »
+Avoid “batching” RFIs for submittal to 
+the owner.
+ »
+All RFIs should have speciﬁc references to 
+design drawings or speciﬁcation sections.
+ »
+Where alternative resolutions to the RFI 
+inquiry are apparent to the contractor, 
+the inquiry should include a suggested 
+resolution.
+ »
+When it appears that resolution of the 
+RFI may adversely impact the project’s 
+cost or schedule, this belief must be 
+included in the RFI.
+ »
+When the receipt of a response to an RFI 
+is time-dependent or schedule-critical, 
+the RFI must be coded as such indicate a 
+speciﬁc date by which the response must 
+be received.
+ »
+When necessary for the owner to return 
+an RFI to the contractor for additional 
+information, the RFI should be re-issued 
+with a revision number and revision date.
+ »
+Unless otherwise noted on the RFI 
+response (such as “Pending Approval of 
+the Building Department”), the contractor 
+should assume that the RFI response 
+constitutes a release for construction. 
+Means of Preventing RFIs
+The AIA Best Practices document30 included 
+six points a project team (including the 
+contractor) can implement to prevent the 
+inconsistencies that lead to the development 
+and submission of RFIs in the ﬁrst place:
+ »
+Provide a discrete coordination phase to 
+tighten up the design documents.
+ »
+Initiate a peer review to solicit an 
+independent evaluation of the 
+contract documents.
+ »
+Before setting the construction budget, 
+have the construction manager perform 
+a constructability review to see that the 
+design can be implemented.
+ »
+Develop speciﬁc scopes of work before 
+ﬁnal subcontractor awards and hold 
+detailed scope review meetings.
+ »
+Try to resolve questions before the ﬁnal bid.
+ »
+Make better use of pre-bid meetings. Hold 
+a second pre-bid meeting approximately 
+10 – 14 days before bid. Require that 
+all pre-bid meetings be attended by 
+principals and/or chief estimators.
+Final Notes
+As has been shown, RFIs impact projects 
+in numerous ways – the time required 
+to review and respond to RFIs; the cost 
+of RFI reviews; and the use of the RFI 
+process to create claims. The RFI originated 
+as a project communication tool, but 
+has been turned into a basis of alleging 
+impact damages by some contractors. This 
+approach can be very effective against 
+owners who do not take the time to include 
+appropriate deﬁnitions of terms or the RFI 
+process in its contract documents or fail to 
+establish an aggressive internal RFI review 
+system to proactively manage and control 
+the process to minimize the risks of actual 
+or alleged impacts.
+As illustrated in this research perspective, 
+it is possible to incorporate language into 
+the contract documents and establish a 
+good internal system that may substantially 
+reduce such games and, more importantly, 
+improve the project management process. 
+There are electronic monitoring and 
+tracking systems readily available to assist 
+owners in managing the RFI process to 
+reduce the impact of RFIs on projects. 
+Finally, there are industry-recognized
+
+best management practices related to 
+the RFI process that can be implemented 
+on projects and thus reduce the adverse 
+impacts of RFIs.
+Na i ant Construction 
+Forum
+Navigant (NYSE: NCI) established the 
+Navigant Construction Forum™ in 
+September 2010. The mission of the 
+Navigant Construction Forum™ is to 
+be the industry’s resource for thought 
+leadership and best practices on avoidance 
+and resolution of construction project 
+disputes globally. Building on lessons 
+learned in global construction dispute 
+avoidance and resolution, the Navigant 
+Construction Forum™ issues papers 
+and research perspectives, publishes a 
+quarterly e-journal (Insight from Hindsight), 
+makes presentations and offers in-house 
+seminars on the most critical issues related 
+to avoidance, mitigation and resolution of 
+construction disputes. 
+Navigant is a specialized, global expert 
+services ﬁrm dedicated to assisting clients 
+in creating and protecting value in the face 
+of critical business risks and opportunities. 
+Through senior level engagement with 
+clients, Navigant professionals combine 
+technical expertise in Disputes and 
+Investigations, Economics, Financial 
+Advisory and Management Consulting, 
+with business pragmatism in the highly 
+regulated Construction, Energy, Financial 
+Services and Healthcare industries to 
+support clients in addressing their most 
+critical business needs. 
+Navigant is the leading provider of 
+expert services in the construction and 
+engineering industries. Navigant’s senior 
+professionals have testiﬁed in U.S. 
+Federal and State courts, more than a 
+dozen international arbitration forums 
+including the AAA, DIAC, ICC, SIAC, 
+ICISD, CENAPI, LCIA and PCA, as well 
+as ad hoc tribunals operating under 
+UNCITRAL rules. Through lessons learned 
+from Navigant’s forensic cost/quantum 
+and programme/schedule analysis of 
+more than 5,000 projects located in 95 
+countries around the world, Navigant’s 
+construction experts work with owners, 
+contractors, design professionals, providers 
+of capital and legal counsel to proactively 
+manage large capital investments through 
+advisory services and to manage the risks 
+associated with the resolution of claims 
+or disputes on those projects, with an 
+emphasis on the infrastructure, healthcare 
+and energy industries.
+Future  fforts of the Na i ant 
+Construction Forum
+Further research will continue to be 
+performed and published by the Navigant 
+Construction Forum™ as we move forward. 
+If any readers of this research perspective 
+have ideas on further construction dispute-
+related research that would be helpful 
+to the industry, you are invited to e-mail 
+suggestions to jim.zack@navigant.com.
+ 1DYLJDQW &RQVXOWLQJ ,QF $OO ULJKWV UHVHUYHG 1DYLJDQW &RQVXOWLQJ LV QRW D FHUWL¿HG SXEOLF DFFRXQWLQJ ¿UP DQG GRHV QRW SURYLGH DXGLW DWWHVW RU SXEOLF DFFRXQWLQJ VHUYLFHV
+See na i ant.comlicensin for a complete listin of pri ate in esti ator licenses.

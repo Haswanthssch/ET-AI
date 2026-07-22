@@ -1,0 +1,294 @@
+[
+  {
+    "file": "02_Equipment_Specifications\\Generator\\LEBW4993-04_Generator_systems.pdf",
+    "pages": 60,
+    "chars": 122645,
+    "tables": 15,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "02_Equipment_Specifications\\Generator\\Specifying Standby Generator Set Requirements for Data Centers 2022-08-10.pdf",
+    "pages": 42,
+    "chars": 17198,
+    "tables": 4,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "02_Equipment_Specifications\\Switchgear\\Automatic Transfer Switches Brochure.pdf",
+    "pages": 16,
+    "chars": 26305,
+    "tables": 9,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "02_Equipment_Specifications\\Switchgear\\Technical_Note_178_AutomaticTransferSwitch_Technology_Drives.pdf",
+    "pages": 9,
+    "chars": 22752,
+    "tables": 3,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "02_Equipment_Specifications\\UPS\\ABB_UPS_ISG_MGF_SUL_1M0_1M6_1US_REV-B.pdf",
+    "pages": 54,
+    "chars": 97497,
+    "tables": 0,
+    "status": "partial",
+    "errors": [
+      "Table extraction skipped (size 18.1 MB > 5 MB)"
+    ]
+  },
+  {
+    "file": "02_Equipment_Specifications\\UPS\\eaton-93e-ups-15-80-kva-installation-and-operation-manual-614-01975-00-en.pdf",
+    "pages": 133,
+    "chars": 158059,
+    "tables": 130,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "02_Equipment_Specifications\\UPS\\UPSBikaner_1b362a61-e126-4f9c-96871714483017301_buycon165.cb.rj.pdf",
+    "pages": 8,
+    "chars": 21819,
+    "tables": 5,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "03_Commissioning\\UPS\\eaton-93t-ups-commissioning-instructions-en-us.pdf",
+    "pages": 46,
+    "chars": 2709,
+    "tables": 37,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "03_Commissioning\\UPS\\uninterruptible-power-supply-battery-acceptance-capacity-test-procedure.pdf",
+    "pages": 9,
+    "chars": 23456,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\Data Center RFI Response - Geothermal Rising.pdf",
+    "pages": 7,
+    "chars": 16337,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\Grid-Action-Data-Center-RFI-Response-05-07-25.pdf",
+    "pages": 3,
+    "chars": 7112,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\Impact & Control of RFIs on Construction Projects.pdf",
+    "pages": 35,
+    "chars": 95408,
+    "tables": 15,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\Questions and Answers_3.pdf",
+    "pages": 5,
+    "chars": 9743,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\RFI 10887-25 Questions and Answers 12.1.25.pdf",
+    "pages": 3,
+    "chars": 5105,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\RFI 10887-25 Questions and Answers 12.8.25.pdf",
+    "pages": 11,
+    "chars": 17783,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\rfi for cloud adoption.pdf",
+    "pages": 22,
+    "chars": 43781,
+    "tables": 6,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\RFI to Inform Public Bids to Construct AI Infrastructure (website copy).pdf",
+    "pages": 42,
+    "chars": 57488,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\RFI-Template-for-PCI-3.0.pdf",
+    "pages": 16,
+    "chars": 32306,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\RFI_.pdf",
+    "pages": 4,
+    "chars": 11554,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\rfi_quick_reference_guide.pdf",
+    "pages": 11,
+    "chars": 7656,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\SIIA-RFI-Response-–-Accelerating-Speed-to-Power.pdf",
+    "pages": 7,
+    "chars": 19638,
+    "tables": 0,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "04_Project_Communications\\RFIs\\TR-524_RFI_Template_for_Migration_to__SDN.pdf",
+    "pages": 24,
+    "chars": 29812,
+    "tables": 12,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "12_Research_Papers\\ASCO-load-bank-utilization-in-data-centers-wp-en-na_144401_0.pdf",
+    "pages": 7,
+    "chars": 14903,
+    "tables": 4,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "12_Research_Papers\\ComRent-White-Paper.pdf",
+    "pages": 7,
+    "chars": 9497,
+    "tables": 3,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "12_Research_Papers\\DataCenter-WhitePaper.pdf",
+    "pages": 7,
+    "chars": 18062,
+    "tables": 1,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "12_Research_Papers\\Load-Bank-Use-in-Data-Centers-2022-r2.pdf",
+    "pages": 8,
+    "chars": 14696,
+    "tables": 2,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "12_Research_Papers\\MarkSiira.pdf",
+    "pages": 42,
+    "chars": 13663,
+    "tables": 2,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "12_Research_Papers\\Rentaload-White-Paper-March-2019.pdf",
+    "pages": 10,
+    "chars": 15381,
+    "tables": 12,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "12_Research_Papers\\SERBCA-Tech-Summit-2019.pdf",
+    "pages": 48,
+    "chars": 27590,
+    "tables": 48,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "14_Unclassified\\1643004902.pdf",
+    "pages": 16,
+    "chars": 24325,
+    "tables": 10,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "14_Unclassified\\1709616080.pdf",
+    "pages": 5,
+    "chars": 4971,
+    "tables": 5,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "14_Unclassified\\53390-le15465aa-rev03-en.pdf",
+    "pages": 38,
+    "chars": 51252,
+    "tables": 20,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "14_Unclassified\\87b400bd21c09c89710be2c5f7ca37f7.pdf",
+    "pages": 65,
+    "chars": 65255,
+    "tables": 111,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "14_Unclassified\\e193content.pdf",
+    "pages": 35,
+    "chars": 74657,
+    "tables": 2,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "14_Unclassified\\e210.pdf",
+    "pages": 23,
+    "chars": 31838,
+    "tables": 20,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "file": "14_Unclassified\\ml11229a127.pdf",
+    "pages": 28,
+    "chars": 42065,
+    "tables": 0,
+    "status": "partial",
+    "errors": [
+      "Table extraction skipped (size 9.6 MB > 5 MB)"
+    ]
+  }
+]

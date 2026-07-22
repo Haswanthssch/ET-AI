@@ -1,0 +1,2126 @@
+Application & 
+Installation Guide
+Generator Systems
+LEBW4993-04
+
+Foreword
+This section of the Application and Installation Guide generally describes generator systems for Cat® engines listed 
+on the cover of this section. Additional engine systems, components, and dynamics are addressed in other sections 
+of this Application and Installation Guide.
+Engine-specific information and data is available from a variety of sources. Refer to the Introduction section of this 
+guide for additional references.
+Systems and components described in this guide may not be available or applicable for every engine.
+
+G E N E R A T O R S Y S T E M S
+
+Table of Contents
+1.0 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+2.0 Generation System Basics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+ 
+2.1 Main Generator Components . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 
+ 
+2.2 Magnetic Field and Voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 
+ 
+2.3 Phase and Voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+ 
+2.4 Generator Neutral Ground . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+3.0 Generator Design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+ 
+3.1 Rotor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+ 
+ 
+3.1.1 Amortisseur Windings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+ 
+ 
+3.1.2 Salient Pole Rotor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+ 
+ 
+3.1.3 Non-salient Pole Rotor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+ 
+ 
+3.1.4 Permanent Magnet Rotor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+ 
+3.2 Stator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+ 
+ 
+3.2.1 Windings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+ 
+3.3 Insulation Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+ 
+ 
+3.3.1 Rotor Insulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+ 
+ 
+3.3.2 Stator Insulation Combinations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+ 
+ 
+3.3.3 Insulation Life . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+ 
+3.4 Coil Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+ 
+3.5 Generator Features and Attachments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+ 
+ 
+3.5.1 Bearings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+ 
+ 
+3.5.2 Space Heaters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+ 
+ 
+3.5.3 Ingress Protection (IP) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+ 
+3.6 Physical Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Table of Contents
+ 
+ 
+3.6.1 Nameplate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+ 
+3.7 NEMA & IEC Design Considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+ 
+ 
+3.7.1 Temperature Rise . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+ 
+ 
+3.7.2 Maximum Momentary Overloads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+ 
+ 
+3.7.3 Maximum Deviation Factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+ 
+ 
+3.7.4 Telephone Influence Factor (TIF) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+ 
+ 
+3.7.5 Single Frequency Weighting Short . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+ 
+ 
+3.7.6 Overspeed . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.0 Generator Performance Characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+ 
+4.1 Rated and Per Unit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+ 
+ 
+4.1.1 Efficiency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+ 
+4.2 Fault Current/Short Circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+ 
+ 
+4.2.1 Reactance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+ 
+ 
+4.2.2 Transient Reactance (X’d) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+ 
+ 
+4.2.3 Sub-Transient Reactance (X”d) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+ 
+ 
+4.2.4 Synchronous Reactance (Xd) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+ 
+ 
+4.2.5 Negative Sequence Reactance (X2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43 
+ 
+ 
+4.2.6 Zero Sequence Reactance (Xo) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+5.0 Harmonics and Distortion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+ 
+6.0 Miscellaneous Terms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+ 
+6.1 Overspeed Capability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+ 
+6.2 Heat Dissipation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+ 
+6.3 Derating . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+
+G E N E R A T O R S Y S T E M S
+
+Table of Contents
+7.0 Generator Limits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+8.0 Exciter & Regulator Characteristics and Performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+ 
+8.1 Excitation System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+ 
+ 
+8.1.1 Self-Excitation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+ 
+ 
+8.1.2 Permanent Magnet Excitation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+ 
+8.2 Voltage Regulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+ 
+ 
+8.2.1 Performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+ 
+ 
+8.2.2 Generator Voltage Specifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+ 
+ 
+8.2.3 Frequency Sensing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+ 
+ 
+8.2.4 Type . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Introduction
+1.0 Introduction
+Electricity is a useful source of energy because it is versatile; much more versatile than mechanical energy. It can 
+be used for a variety of tasks, such as lighting, heating, and rotating electrical machinery and it can be used in a 
+variety of locations, such as offshore oil rigs, natural gas fields, remote areas, and urban confines.
+Cat generators convert the mechanical energy of an engine, or prime mover, to electricity. The well-proven, 
+innovative designs of Cat generators have lead to several highly reliable lines of generators used in electric power 
+generation applications worldwide. All Cat electric sets use AC generators. The AC generator, also called an 
+alternator, converts mechanical energy to electrical energy and acts as a voltage source for the load.
+This module describes basic concepts involved in the various Cat generator designs. It addresses basic electrical 
+generation concepts, generator design and performance, as well as voltage regulation.
+It is important to note that the information in this section applies, primarily, to synchronous generators. The term 
+synchronous describes the relationship between the engine rpm and the generator output frequency; they are 
+exactly proportional.
+
+G E N E R A T O R S Y S T E M S
+
+Generation System Basics
+2.0 Generation System Basics
+There are three basic requirements for the generation of voltage. They are magnetism, motion and conductors.
+When a coil moves relative to a magnetic field, a voltage is produced; generation systems are based on this 
+concept. When a conductor cuts through a magnetic field, a current is produced in that conductor. These two 
+concepts are very closely connected. Keep in mind that it makes no difference if the magnetic field is stationary 
+and the conductor moves or whether the conductor is stationary and the magnetic field moves. The important 
+aspect is that there is relative motion.
+The simplest generator consists of a loop of wire rotating between two permanent magnet poles. 
+Note: In any generator set installation, the frame of the generator must be positively connected to an earth ground 
+or to the hull of the vessel.
+2.1 Main Generator Components
+An AC synchronous generator is significantly more complex than the simple generator of a wire loop rotating 
+between two permanent magnets. An AC synchronous generator consists of four main components and/or 
+systems:
+• Field (rotor)
+• Armature (stator)
+• Exciter
+• Automatic Voltage Regulator
+Essentially the process of generating voltage goes in the following order. The exciter provides DC current to the 
+rotor windings. DC current through these wires creates magnetic flux. Magnetic flux generates an AC voltage in 
+the nearby stator windings when there is relative motion between the two. The regulator then senses this output 
+and controls the exciter current.
+In Cat generators, the rotor (the source of the magnetic field) rotates inside a stationary armature called a stator. 
+One reason for using a stationary armature and a rotating magnetic field is the difficulty of taking 3-phase current 
+from a rotating armature. The rotor is rotated by a prime mover. In the case of Cat generator sets, the prime mover 
+is usually an engine.
+The rotor contains magnetic poles with windings wrapped around them to form coils. These coils are called 
+field coils or field windings because they create a magnetic field when excited with a DC current. Typically, the 
+generator field windings contain many turns.
+A magnetic field radiates out from the rotor as lines of magnetic flux. As the rotor rotates, so does the magnetic 
+field. When this moving magnetic field comes across a stator winding, an AC voltage is produced. The magnetic 
+field is strongest at the center of the north and south poles where the lines of magnetic flux are concentrated. 
+Therefore, the closer a pole is to a stator winding, the higher the voltage produced in that stator winding. It is 
+important to note voltage is a function of flux change per time, not only the proximity to the field.
+The symmetrical design of the generator ensures that the rotor poles extend over equal arcs and that the magnetic 
+flux density distribution is similar across all stator windings.
+Magnetic poles refer to the magnetic north and south and are the points where the magnetic field is strongest on 
+the rotor.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generation System Basics
+Figure 2.1
+A pole relates to the number of magnetic poles developed in the rotating field. Magnetic poles in a four-pole 
+generator are arranged north-south-north-south around the circumference of the rotor, as shown in Figure 2.1. 
+The number of poles (north-south-north-south) and the desired frequency (cycles per second or hertz) determine 
+the synchronous or no-load speed in revolutions per minute (rpm).
+rpm = 120 x f
+ Number of poles
+If 50 Hz is desired from a four-pole generator, the generator must be driven at 1500 rpm. A six-pole generator is 
+driven at 1000 rpm.
+The generated frequency of 50 Hz is entirely a function of the driven speed.
+rpm = 120 x f
+
+f = 50
+The relationship between the number of poles and the synchronous speed is shown in Table 2.1. These 
+calculations are figured by taking the fundamental frequency of 50 or 60 Hz and dividing it by the number of pole 
+pairs. It is then multiplied by 2 to get the synchronous speed into rad/s, that is then converted into rpm.
+Synchronous Speeds
+60 Hz
+50 Hz
+Poles
+rpm
+Poles
+rpm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table 2.1
+Regardless of the number of pole pairs, the rotor moves 360 mechanical degrees in one revolution. In electrical 
+degrees, however, each pole pair rotates 360 mechanical degrees. In other words, electrical degrees are the 
+mechanical degrees times the number of pole pairs:
+Mechanical Degrees x Number of Pole Pairs
+
+G E N E R A T O R S Y S T E M S
+
+Generation System Basics
+In a four-pole generator (two pole pairs), each pole pair moves 360 mechanical degrees, so the total electrical 
+degrees moved is:
+360 x 2 = 720
+The following illustrates electrical degrees in terms of number of poles:
+• 2-pole = 360° electrical 
+• 6-pole = 1080° electrical
+• 4-pole = 720° electrical 
+• 8-pole = 1440° electrical
+The main armature, or the stator, remains stationary. The stator consists of the stator core, and its own windings 
+called stator windings, or armature windings. The stator may also include exciter field coils when used with a self-
+excited field arrangement. The stator windings are placed in slots along the inside of the stator. The stator usually 
+contains a large number of slots. The rotor magnetic field cuts across the stator windings as it rotates inside the 
+stator. As a result, voltage is produced in these windings.
+The stator voltage is the generator output that is supplied to the load. 
+2.2 Magnetic Field and Voltage
+The magnetic field is induced in the main generator by a DC current from the exciter through low voltage field or 
+rotor windings. These windings are low voltage compared to the stator windings. DC voltage as high as 250V is 
+often used in larger generators, while smaller and medium-sized generators seldom use voltages higher than 125V.
+Because it is so difficult to extract high voltage from a rotating armature, the magnetic field of the main generator 
+is rotated rather than the armature. A rotating armature generator will be used as an exciter in Cat generators.
+Generator output voltage depends on the following:
+• Speed of relative motion between magnetic field and stator conductors
+• Strength of magnetic field
+• Number of series turns in the stator windings
+The strength of the magnetic field is proportional to the current flowing through the field coils. As the current rises, 
+the magnetic field grows stronger.
+The speed of relative motion between the magnetic field and the stator windings depends on the rotational speed 
+of the rotor (engine rpm). As the rpm rises, so does the speed (V) of relative motion. The higher the speed of 
+relative motion, the greater the generators output capabilities.
+Voltage can be adjusted by arranging the stator windings in coils and varying the number of turns, or times the 
+windings are wound around the stator. More voltage can be induced by increasing the number of turns and less 
+voltage is induced by using fewer turns. Consequently, stator windings can be arranged with the optimum number 
+of coil turns to produce the required output voltage.
+2.3 Phase and Voltage
+Phase, voltage, and the stator core are all interdependent. The calculated design of the stator core and winding 
+distribution enables a generator to provide the appropriate output voltage.
+The phase voltage of a generator is directly linked to the voltage output of that generator. The type of voltage 
+induced is partially dependent on the number of phases in a generator.
+A single-phase generator will generate a voltage sine wave when the rotor completes one cycle (one 360° 
+revolution). Refer to Figure 2.2.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generation System Basics
+Figure 2.2
+A three-phase generator consists of three coils equally spaced around the stator and connected in a wye (Y) or 
+Delta (D) configuration. Therefore, three voltages can be produced consecutively with a 120° phase difference. 
+Refer to Figure 2.3.
+Figure 2.3
+In three-phase generation, three phases of voltage are produced 120° apart. However, to make the connection 
+a symmetrical 3-phase connection, a phase coil must have an equal and opposite winding 180° away. Figure 2.4 
+illustrates this relationship; Phase coil B has an equal and opposite winding at phase coil –B. The result is that the 
+three phases and their opposing windings are actually 60° apart.
+Figure 2.4
+2.4 Generator Neutral Ground
+Grounding the neutral is frequently mandated by national codes and local codes. Equipment grounding is also 
+recommended in cases when grounding the neutral is not required. 
+The method that is used to ground a generator neutral is required to be chosen as part of the overall design of the 
+system. Medium voltage generator neutrals and high voltage generator neutrals are typically grounded through 
+a resistance or inductance providing added protection for the generator windings by limiting the fault current 
+during line-to-ground faults and reduce the magnitude of the transient overvoltages. The neutral on low voltage 
+generators is typically connected to ground. Refer to the IEEE Std 142 for more information on neutral grounding
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+3.0 Generator Design
+Generators are constructed in various ways to satisfy different load and customer requirements.
+The rating is expressed in kilowatts (kW) at 0.8 power factor. A common ratio, kW divided by 0.8 permits 
+calculation of kilovolt-amperes (kVA) on all generators.
+3.1 Rotor
+The rotor is defined as any rotating winding or element of a generator. It can be described as an assembly of thin 
+magnetic steel laminations, tightly compressed and then riveted, bolted or welded together to form a magnetic 
+path. It is around this core that the field windings, or coils of conducting material, are wound around or inserted.
+3.1.1 Amortisseur Windings
+Amortisseur windings, also known as damper windings, are special conducting bars laid into a squirrel cage 
+configuration. They are set in the notches in the rotor and then are shorted on the end by either a shorting ring 
+or shorting laminations. They are used to increase machine stability. This is due to the windings and rotors 
+relationship to the synchronous speed. If the rotor is at synchronous speed, there is no induced voltage through 
+the amortisseur bars, hence there is no interaction. Conversely, if there is a differential between the rotor and 
+synchronous speed, a voltage will be induced in the windings. This voltage produces a current flow and in turn 
+creates a magnetic field. The interaction of the two magnetic fields in turn cause a torque that will correct this 
+speed difference resulting in speed and torque stability.
+3.1.2 Salient Pole Rotor
+A rotor configured with the individual rotor poles protruding from the center of the rotor is known as a salient 
+pole rotor.
+The rotating salient pole field arrangement is affected by reluctance torque and is used for engine-driven 
+generators on most machines in the 20 kVA (16 kW) and larger sizes.
+3.1.3 Non-salient Pole Rotor
+A non-salient pole rotor, or cylindrical rotor, is typically made from solid cylindrical material and usually has 
+grooves cut into the pole faces to place the windings. 
+A rotating non-salient pole field, or cylindrical rotor, isn’t affected by reluctance torque and it is mainly used for 
+large, steam turbine-driven generators. The non-salient configuration usually has grooves cut into the pole faces 
+to place the windings. 
+3.1.4 Permanent Magnet Rotor
+A permanent magnet (PM) field eliminates the need for an exciter and therefore is very cost effective in smaller 
+size generators. The disadvantage to this is that its flux density (field strength) is constant and voltage regulation 
+is poor. However, if it is to be used in an application with a steady load and minor fluctuations, a PM field can be 
+very effective.
+A rotating armature, stationary field generator is used mainly in small, low-voltage machines. A common use for 
+this generator is as an exciter for brushless generators. For additional discussion of PM used in larger generator 
+excitation systems, refer to Exciter & Regulator Characteristics and Performance-Permanent Magnet.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+3.2 Stator
+The stator is defined as any stationary winding or element of a generator. The stator core is where the usable 
+electricity is generated. The windings carrying the usable electricity are placed in the stator core slots.
+The stator core is made up of hundreds of steel stampings/laminations stacked together. Stacking machines use 
+automatic welding to assure correct stator skew, stack pressure, and slot alignment. Stator stampings are usually 
+stamped from special silicone steel.
+The stator core is subjected to an alternating magnetic flux which induces currents, called “eddy currents,” in 
+the core that create losses. Creating the core from stacked stampings rather than from one solid piece of steel 
+inhibits eddy currents, reducing losses. The silicone added to the steel stampings and an oxide coating help to 
+inhibit eddy currents.
+In addition to eddy current losses in the stator core, there are hysteresis losses. One definition of hysteresis is the 
+failure of a property that has been altered by an external agent to return to its original value when the cause of 
+the alteration is removed. Figure 3.1 illustrates hysteresis.
+The B-H curve in Figure 3.1 shows that unmagnetized iron starts at zero and proceeds to saturation as the 
+magnetomotive force (MMF) increases. In simpler terms, the unmagnetized iron becomes magnetized. As MMF 
+is reduced to zero again (or as the iron loses its magnetism), a residual B’ results. The residual B’ means that 
+the iron does not entirely lose its magnetism when MMF returns to zero. The same curve loops around as MMF 
+becomes negative then positive again from an AC exciting current.
+Since the hysteresis loop results in internal domain realignment, energy is expended. Losses are proportional 
+to the area of the loop created due to the work expended in following through the cycle of magnetization and 
+demagnetization. 
+Figure 3.1
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+Figure 3.2 illustrates the core loss curve for M-43, 24 gauge, hot rolled steel shows how core loss increases with 
+increasing induction at 50 Hz and 60 Hz. The core losses measured in this curve include both eddy currents and 
+hysteresis.
+Figure 3.2
+The output capability of a generator is measured by a number of attributes, one of which is the physical size of the 
+stator core. The inside diameter (called the air gap diameter) and the inside core length are among a number of 
+attributes related to the kVA output.
+The inside stator diameter and core length are used to calculate the Dˆ2L value (which determines the kVA output 
+of the generator).
+The air gap is the space between the pole face and stator lamination teeth. The air gap area is the ID of the stator 
+minus the OD over the pole face divided by 2 multiply by the length of the stator. The flux density of the air gap (Bg) 
+is then the total flux (ft) divided by the inside core area.
+The magnetic flux in the air gap is created by the field windings on the rotor. The rotor laminations are not 
+necessarily made of the same material as stator laminations because the flux in rotor laminations is unidirectional, 
+always flowing out of the north and into the south magnetic poles.
+Different loads require different types of voltage. Generators are designed with various combinations of slot, 
+conductor, and winding types to provide the specific kind of voltage required by the generators’ loads.
+Stator stampings contain one of two kinds of winding slots. The semi-closed slot accepts only a random winding, 
+meaning one wire at a time is fed into the slot. The open slot accepts a random winding or a form-wound winding. 
+The entire coil is placed into the slot, rather than being inserted wire by wire. Double-layer winding consists of two 
+coil sides per slot, resulting in the same number of coils as slots. Shown in Figure 3.3 are both a random wound, 
+semi-closed slot cross-section and a random wound, open slot cross-section.
+Figure 3.3
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+3.2.1 Windings
+Stator winding processes can be divided into two categories; the routing of the coils and the type of winding. The 
+routing of the coils refers to the pattern in which the windings are applied to the coil. The type of winding refers to 
+the shape of the winding material.
+Routing Styles
+There are three coil routing styles. They are lap, wave, and concentric. The most common styles are lap and 
+concentric.
+Lap routed windings are loops routed across one another and wound into a double diamond shape. An entire coil 
+group can be wound at one time, so connections are made only at the coil group, not at each coil. An insulation 
+material called a phase sheet, which increases the creepage distance, separates each coil group.
+Figure 3.4
+Lap winding is a double-layer winding. There are two coil sides per slot, resulting in the same number of coils as 
+slots. Surge rope and tape are added to end turns to hold the end turns stationary during surges, motor starting, 
+and transients. The surge rope, which is made with a strong fiberglass and epoxy, also reduces deformation of the 
+end turns when they are stressed. The tape additionally serves to protect the coil end turns from abrasion between 
+coils. Figure 3.4 shows a schematic of a lap wound coil.
+Concentric windings are wound into loops within larger loops. This results in the simplest mechanical assembly 
+and the least amount of copper. This configuration however, experiences slightly higher levels of harmonics. This 
+winding style is the most economical and allows an entire coil group to be wound at once and machine inserted. 
+Like lap winding, connections are made at the coil groups, not at each coil.
+Concentric winding is a single-layer winding. There is one coil side per slot, resulting in twice as many slots as 
+coils. Phase sheets are placed between the phases to provide extra insulation between coil groups. Figure 3.5 
+shows a schematic of a concentric wound coil.
+Figure 3.5
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+Coil Pitch
+When a coil is wound 180 electrical degrees, the voltages on the conductors on either side are equal in 
+magnitude and opposite in direction and are said to be a full pitch coil. Sometimes a coil is wound less than 180° 
+and is said to be a fractional pitch coil. The reason for this is to reduce certain harmonic factors that will be 
+discussed later in this guide.
+Winding Types
+Winding types can be random or formed. Random windings use coils of round wire. Material costs are lower, 
+but this method leaves spaces between the individual wires. Formed windings use square or rectangular wires 
+which can be placed very close to one another, resulting in the maximum amount of copper, least amount of 
+spaces, and, therefore, superior efficiency and durability. While concentric windings and lap windings may be 
+either random or form wound, form windings are usually impractical for lower power rated generators because of 
+inadequate spacing.
+The two winding types are shown in Figure 3.6 and Figure 3.7.
+Figure 3.6
+Random wound coils are wound with round copper magnet wire that is insulated with a moisture resistant heavy 
+polyester film and amide-imide overcoat. Containing multiple conductors per turn, the coils consist of one or many 
+turns each and are wound in a double diamond shape.
+Figure 3.7
+Form wound coils are pre-formed with rectangular copper magnet wire and taped with multiple layers of fused 
+double daglass over heavy film polyester with an amide-imide overcoat. Daglass is a polyester and glass insulation 
+material. The coils are taped to add mechanical strength. The number of tape layers varies depending on the 
+voltage applied to the coil and the dielectric strength (ground insulation) needed. Additional protection can 
+be added if required because of environmental factors. Mica tape is used for ground insulation because of its 
+insulating properties, such as: high dielectric strength, high breakdown voltage, high insulation resistance, and 
+excellent protection against moisture, chemicals, and other environmental factors.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+Open stator slots allow the coils to be placed in the slots without separation of the wires within the coils. Coils 
+are connected either by groups or by individual coils with both crimp connections and soldering. Connections are 
+taped and sleeved to assure a good seal against environmental factors.
+Because coils are preformed, air space exists between each coil in the coil head, allowing better cooling. Each 
+coil head is also braced with double surge ropes and other blocking between coils to prevent coil movement 
+during surges and other transients such as sudden load changes and switching.
+Manufacturing costs for concentric/random windings are lowest, but the more expensive lapped/formed windings 
+provide increased durability and electricity quality.
+3.3 Insulation Systems
+The insulation system is a complex combination of insulation materials that are carefully selected by the generator 
+designer to prevent undesirable electrical flow.
+Generators consist of three types of material; copper wire, iron, and insulation. To function properly, the individual 
+copper conductors in stator windings must be completely insulated from neighboring conductors in the same coil 
+and from the surrounding iron (referred to as ground).
+Insulation must prevent electrical breakdown between components, but it must also be used as sparingly as 
+possible. Less insulation means more space available for copper and better heat dissipation. More copper and 
+better heat dissipation improves maximum output from the generator. Due to the added stress put on the material in 
+higher voltage machines, higher quality insulation or more insulation must be used.
+3.3.1 Rotor Insulation
+Each Cat rotor is precision layer wet wound. This means the conductors are hand-placed precisely in rows, 
+layering one row on top of the other. Each layer of conductors is brushed with high bond strength epoxy before the 
+next layer is added to assure a good seal between conductors.
+Since the field coils employ a low voltage, field coil insulation problems are mostly mechanical. As the rotor rotates, 
+centrifugal force is applied to the field coils causing the coils to bow out. When centrifugal force is broken down 
+into its components, there is a vertical force (FV) and a side force (FS). The side force causes the coils to bow out.
+To prevent field coils from bowing out due to centrifugal force, wedges are placed in-between the poles with their 
+two sides holding the coils tightly against the poles. Extra wedges and bracing are sometimes added for extra 
+assurance that rotor materials do not move.
+The purpose of the Amortisseur or damper windings (discussed earlier) is to prevent rotational oscillations in 
+the rotor. These windings provide a motoring effect and produce a torque in the rotor working against such 
+oscillations, thereby providing superior voltage stability. This is particularly important during parallel operation 
+where generators carrying uneven loads can result in voltage and operational instability which translates to 
+added stress on the insulation. Damper windings will minimize these oscillations. Damper windings also dampen 
+oscillations occurring from short-circuit and engine pulses.
+Tests are performed on the rotor to assure that there is no material movement in the rotor. A prototype spin test 
+runs at 125% rated speed for two hours at 170°C (338°F).
+3.3.2 Stator Insulation Combinations
+Stator insulation is categorized into classes based on their ability to withstand heat for a specified period of time. 
+Class H is temperature rated at 180°C (356°F) and Class F at 155°C (311°F).
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+Windings are coated with various layers of insulation. Insulation materials can be used individually or in 
+combinations and may be comprised of acrylics, asphalts, epoxies, melamines, phenolics, polyamides, polyimides, 
+polyesters, polyethylenes and silicones. Possible insulation systems include:
+• Magnet wire with a polyester and amide-imide overcoat.
+• Nomex™-mylar™-nomex™ ground insulation. (Mylar is a DuPont polyester film.)
+Depending on the manufacturing strategy, insulation coating is applied to stator windings for random wound 
+generators by either a double dip and bake process or a vacuum pressure impregnation (VPI) process, while form 
+wound generators utilize the VPI process, exclusively.
+Random Wound Stators that are treated using the dip and bake process are initially submerged into a polyester 
+resin. Polyester resin is used for it’s superior heat dissipation, flexibility, voltage breakdown strength, and 
+moisture resistance. The resin penetrates the spaces between the conductors and leaves a uniform resin build. 
+The resin is then cured by a bake cycle. By holding the conductors together, the resin prevents vibration and 
+premature failure. Once the polyester resin is cured, the stator is dipped and baked using an epoxy resin. The 
+epoxy adds extra protection against moisture, chemicals, and other environmental factors. If requested and/or 
+necessary, additional dips and bakes maximize resin buildup and environmental protection. As many as 2 to 4 dips 
+and bakes are possible. To further protect against abrasion and moisture, asphalt epoxy is also applied to the lead 
+end. Also, end windings are sprayed with red sealer to help retard voltage tracking and to seal all parts from rust 
+and corrosion. Tracking is caused by contaminants like salt water, which can get trapped on the coil end turns. 
+Surface currents then develop and carbonize or “track” the resin surface.
+Random Wound and Form Wound stators that are treated using the Vacuum Pressure Impregnated (VPI) process 
+are placed in a sealed tank in which all air is drawn out and then filled with polyester or epoxy resin. This process 
+maximizes the ability for the resin to penetrate and adhere to the windings. To further protect against abrasion 
+and moisture, asphalt epoxy is also applied to the lead end.
+Adding coastal insulation protection, an optional epoxy based coating, can further strengthen the insulation coating. 
+This optional coating is required to prevent premature standard insulation deterioration in harsh environments that 
+contain high levels of abrasive (sand, salt or dust) or corrosive (salt or other chemicals) air borne contaminants.
+Note: The integrity of all types of generator winding insulation systems is distinctly improved when moisture is 
+restrained from collecting on winding insulation. During generator nonuse periods, it is highly recommended 
+to use space heaters to prevent moisture collection.
+Table 3.1 shows examples of system voltages that may be encountered. However, the list is by no means 
+complete. In the U.S., system voltages are based on 120V with multiples of that voltage.
+Nominal System Voltages*
+Identical System Voltage
+
+110, 115, 125
+120/240
+110/220, 115/230
+208Y/120, 240
+199Y/115, 220, 230
+400, 480
+440, 460
+
+550, 575
+
+2200, 2300, 2500
+4160Y/2400
+3810, 4000
+Table 3.1
+Cat system voltages are divided into three classes to differentiate between types of generators. The classes are 
+Low Voltage, Medium Voltage, and High Voltage.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+• Low Voltage — A class of nominal system voltages of 600V or less
+• Medium Voltage — A class of nominal system voltages greater than 600V, but less than 5 kV
+• High Voltage — A class of nominal system voltages equal to or greater than 5 kV and equal to or less than 
+15 kV
+Caterpillar may supply generators up to 15 kV in some applications. Applications above 15 kV are used for 
+transmission voltages and are used in vary large power plant generators or they are specifically developed for 
+step up transformers.
+Generator armature windings must withstand a test voltage of 1000 volts plus two times the rated voltage of the 
+machine. The field windings must withstand 1500 volts rms.
+A Megger test is used to measure insulation resistance with respect to ground. A measurement of 100 meg-
+ohms is common at the time of manufacture. Megger readings of one meg-ohm per 1000 volts of generator rating 
+minimum acceptable insulation level.
+Larger generators are sometimes required to pass tests associated with insulation coordination for lightening 
+and voltage surges. This requirement falls under Basic Impulse Insulation Levels (BIL) and the generator must be 
+tested under surge conditions.
+Figure 3.8 shows a typical damage curve. Any generator operation with currents above this curve should be 
+avoided. Although a generator may not suddenly fail when currents exceed the damage curve (like a fuse), 
+currents above the damage curve will cause insulation to become brittle, carbonized, and cracked. Another threat 
+is the differential expansion of materials. Copper expands significantly and iron expands, relatively, little with 
+high current. These materials, expanding at different rates, cause stress and stress cracking in the insulation. 
+Conductors may also lose strength, fracture, and/or melt. However, insulation can safely exceed its rated 
+temperature by 30° to 50°C (86° to 122°F) if the overheating does not last too long.
+Figure 3.8
+3.3.3 Insulation Life
+The more current the stator windings can accommodate, the greater the generator output. “Q” represents ampere 
+conductors per inch of armature circumference. There are, however, limitations to ampere conductors per inch of 
+armature circumference, temperature rise being the most important.
+Temperature rise is the limitation of the insulation to withstand the heat produced when current runs through the 
+stator windings. The thermal expansion of the wires from this heat plays a part in this limitation.
+Since the late 1950s, plastics have been used as the primary insulation for generators. As late as 1960, British 
+standards specifications referred to insulation classes by material. Since the 1960s, however, insulation classes 
+have been referred to by the maximum temperature limit of the materials in each class. Refer to Table 3.2.
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+Class
+Maximum Operating Temperature
+Material
+A
+105°C (221°F)
+Cotton, Silk, Paper 
+Suitably impregnated
+B
+130°C (266°F)
+Glass, Asbestos, Mica 
+Suitably bonded
+F
+155°C (311°F)
+Glass, Asbestos, Mica
+Suitably bonded with materials that permit 
+155°C operation.
+H
+180°C (356°F)
+Silicone Elastomer, Mica, Glass, Asbestos 
+Bonded with silicone resins.
+Table 3.2
+Table 3.2
+Figure 3.9
+Note: 
+1. Class A Insulation temperature limits found in NEMA MG 1 have not been included above due to lack of use.
+2. Maximum Observed Temperature °C is the maximum allowable temperature of the winding being observed. 
+This value is derived by adding 40°C ambient to the maximum allowable temperature rise for the Class of 
+Insulation and the Method of Measurement. Should this value be exceeded, the load on the generator should 
+be reduced until the observed temperature is reduced to a level equal to, or less than the maximum allowable 
+limits for the Class of Insulation and duty cycle.
+3. NEMA allows an increase of up to 25°C in temperature for Standby duty.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+The charts in Figure 3.9 show insulation class temperature limits measured by resistance or thermometer and by 
+embedded detector.
+Ambient temperature and method of measurement further subdivide the maximum temperature limits shown 
+in the table. Ambient temperature is usually considered 40°C (104°F), although marine and some others prefer 
+between 45°C (113°F) and 50°C (122°F).
+When measuring stator windings by resistance, a hot-spot allowance is added. The hot-spot is the location in 
+stator windings with the highest temperature. A hot-spot is located approximately in the center of each stator slot 
+and approximately in the center of each field winding.
+An embedded detector measures the temperature limit of the stator windings. Because the embedded detector is 
+located at the hot spot, the measured temperature already includes the hot spot. Note that an embedded detector 
+can measure the temperature limit of the stator windings and is usually a standard factory test. Because the rotor 
+is rotated, however, an embedded detector cannot test the field windings; they must be tested by resistance.
+There are two basic types of embedded detectors; Resistive Temperature Devices (RTD) and thermocouples.
+An RTD is an electronic sensing device that varies resistance with a change in temperature. This change in 
+resistance is then measured and converted into a temperature reading. The RTD delivers more of an average 
+reading than the thermocouple.
+The thermocouple is another type of temperature sensing device. It is typically used in random wound machines 
+due to its sturdier design. The thermocouple delivers a reading at a precise point, usually the hotspot. Both 
+devices can be placed in windings and the machine’s bearings. They can show increases in winding insulation 
+temperature and prevent excess bearing heat effects.
+Thermal endurance is the ability of the insulation to withstand heat. Figure 3.10 shows typical thermal endurance 
+curve bands for the different insulation classes. The curve bands predict insulation life in hours versus the 
+temperature of the windings. There are many test points outside these bands; the points shown are merely 
+representative. Note that this type of graph is used to compare insulation systems. These curve bands do not 
+predict actual design life of a machine. For example, one CANNOT assume that the design life of a machine is any 
+given number of hours because the insulation life is a given number of hours. The curve bands only COMPARE 
+insulation systems.
+Note: For every 10°C (18°F) increase in temperature, insulation life is halved.
+Figure 3.10
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+There are several indications that thermal deterioration is occurring in winding insulation.
+• Loss in weight and thickness
+• Increase in stiffness or brittleness
+• Increase in density
+• Non-uniform shrinkage with cracks penetrating from the surface
+• Reduced tensile strength
+• Less resistance to moisture penetration
+• Reduced dielectric strength
+• Serious decrease in resistance
+Insulation tends to breakdown at higher voltages due to the added electromagnetic field force. Silicon Controlled 
+Rectifier (SCR) loads that of high harmonic content can also seriously affect insulation.
+Heat is not the only cause of winding insulation deterioration. Damage to insulation can occur during winding due 
+to improper handling, careless winding, insufficient resin coverage, or insufficient cure time. Therefore, tests are 
+conducted after every winding process is completed.
+Additional causes of insulation failure include the following.
+• Conducting contaminants; like dirt and chemicals
+• Mechanical damage from shock, vibration, foreign objects and stress
+• Surge voltages generated in the load or in the line 
+• Operation at abnormal voltage, current or power factor
+• Loosened coils and wedges
+• Moisture on creepage surfaces
+• Blocked ventilation passages
+• Abrasives in the cooling air
+3.4 Coil Connections
+The design of the coil connections in a generator and the way a load is connected to a generator determine the 
+level and type of output voltage from that generator.
+Figure 3.11 shows different types of connections for one phase of a 4-pole, three-phase winding. The phase 
+consists of four pole-phase groups; one for each pole in the phase. Each coil could have any number of turns, 
+limited only by the space within the slot. The pole-phase groups can be connected in series, 4-parallel, or 
+2-series, 2-parallel.
+Figure 3.11
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+Different types of connections induce different voltages. Therefore, the type of connections used in a generator 
+depends on the voltage required by the load. Series connections produce high voltage and parallel connections 
+produce low voltage. The series and series-parallel connections are often combined into the same generator so 
+the generator can be connected to produce high or low voltage. This dual voltage capability is usually identified; 
+for example, a generator labeled “120/240-277/480V” can be connected for either 120/240V or 277/480V. 120V and 
+277V are line-to-neutral voltages (single-phase), while 240V and 480V are line-to-line voltages (single-phase or 
+three-phase).
+Cat generators have 4, 6, 10, or 12 line leads or outputs. These can be connected into a low voltage wye 
+configuration (coils parallel) or into a high voltage wye configuration (coils in series). Generators with 12 leads 
+can be connected in delta configuration. Larger generators use more than one wire per line lead. This feature 
+eases the problem of forming very heavy conductors inside a limited space for terminal connections.
+All leads are identified. If more than one wire is used per line lead, a line lead number identifies each of these 
+wires. Thus, on smaller generators, there would be only one wire marked T1. However, on larger generators, 
+there will be two or more wires marked T1. These are to be connected together to form one lead.
+The first voltage listed in a rating like 220/440 volts is the line-to-line voltage at the specified frequency when the 
+generator leads are connected for the low voltage. The second voltage listed is the line-to-line voltage at the 
+specified frequency when the re-connectable line leads are series connected for high voltage.
+Some applications demand a wye connection rather than a delta connection and vice-versa. For example, the 
+delta connection is sometimes used to obtain single-phase 120-240 volts, 3-wire, along with three-phase, 3-wire 
+on the same generator. Figure 3.12 shows an example of a wye and a delta connection.
+Figure 3.12
+In a wye connection, the terminal voltage is 1.73 times the terminal-to-neutral voltage (represented by the letter 
+“V” in Figure 3.12). In the same generator, a delta connection would have the same terminal-to neutral voltage as 
+the wye connection for its terminal voltage. However, the delta line current (I) would now be 1.73 times the wye 
+line current (I).
+A wye connection can be structured in the two ways shown in Figure 3.13; a fixed neutral connection or a broken 
+neutral connection. The broken neutral allows you to reconfigure from a wye to delta and vice-versa. It also 
+provides differential protection by allowing the machine to monitor the currents into and out of individual phases.
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+Figure 3.13
+The zigzag connection is sometimes used to get an alternative voltage from a generator. For example, the 
+connection shown in Figure 3.14 can provide 120-208V from a generator wound for 120-240V.
+Figure 3.14
+Several single-phase connections are possible for 2-wire or 3-wire loads. These connections are normally 
+used only on smaller generators at or below 250 kW. An open delta, as shown in Figure 3.15 is reconfigured 
+from an original delta from three-phase to single-phase use; this type of connection, however, will only provide 
+approximately 57% of the original three.
+Figure 3.15
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+The lead terminal numbering system follows the pattern shown in Figure 3.16. This system is used for both three-
+phase generators and motors.
+Figure 3.16
+3.5 Generator Features and Attachments
+Several attachments and features can also be configured to assist in meeting generator requirements. These 
+include bearings, environmental protection devices and space heaters.
+3.5.1 Bearings
+Bearings are devices that permit smooth movement between surfaces. In a generator, they are used to hold the 
+rotor in place and allow that smooth rotation.
+A single bearing system is used in the smaller generators with lighter weight rotors. It is necessary to have a two 
+bearing system when the weight of the rotor exceeds the limits of the engine rear main bearing. In a traditional 
+two bearing system, the generator is not attached directly to the engine’s flywheel housing. This brings about 
+alignment difficulty due to the separation of the two machines. A close-coupled two bearing system alleviates 
+these original alignment problems by attaching the generator to the flywheel housing.
+3.5.2 Space Heaters
+Space heaters are electrical resistance heaters that are often used to help prevent condensation collection and 
+moisture absorption on generator windings during nonuse periods. The integrity of all types of generator winding 
+insulation systems is distinctly improved when moisture is restrained from collecting on winding insulation.
+3.5.3 Ingress Protection (IP)
+Ingress Protection (IP) refers to the degree of protection an enclosure provides for a machine. This is protection 
+both for persons in contact with moving parts and for the protection of machines against the harmful effects due 
+to the collection of water and dust. An IP designation is typically two digits, where the first digit is the level of 
+protection from solid objects and the second digit is the level of protection from water. Table 3.3 lists the levels of 
+protection for solid objects coming in contact with the machine. Table 3.4 lists the levels of protection from water. 
+These tables only offer brief descriptions; each level of each category has specific definitions and qualifications. 
+A standard Cat generator is rated for IP23. The first digit, 2, indicates the machine is protected against solid 
+objects greater than 12 mm. The second digit, 3, indicates protection from spraying water.
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+Solid Object Ingress Protection (first digit of IP designation)
+First Digit
+Description
+
+Non-Protected Machine
+
+Machine protected against solid objects greater than 50 mm 
+(approximately the size of a hand)
+
+Machine protected against solid objects greater than 12 mm 
+(approximately the size of a finger)
+
+Machine protected against solid objects greater than 2.5 mm 
+(approximately the size of a hand tool)
+
+Machine protected against solid objects greater than 1 mm 
+(approximately the size of wires)
+
+Machine protected against dust
+Table 3.3
+Water Ingress Protection (second digit of IP designation)
+Second Digit
+Description
+
+Non-Protected Machine
+
+Machine protected against dripping water
+
+Machine protected against dripping water when machine is tilted up to 15°
+
+Machine protected against spraying water
+
+Machine protected against splashing water
+
+Machine protected against water jets
+
+Machine protected against heavy seas
+
+Machine protected against effects of immersion
+Table 3.4
+Two types of IP protection are totally enclosed water cooled (TEWAC) and totally enclosed air cooled (TEAC).
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+3.6 Physical Data
+Rotor Weight
+Rotor weight indicates the total weight of the generator rotor. When used with the formula for inertia, the 
+flywheel effect of the generator can be found. Engineers may use these figures when generator loads are sudden 
+or cyclic.
+Stator Weight
+Stator weight is given in kilograms and pounds and gives an indication of the capacity of a generator. 
+Engineers generally assume that a heavier stator contains more working copper and iron and therefore has 
+greater capabilities.
+Inertia
+Inertia data is essential to studies of transient response, such as the effect of a larger generator with more rotor 
+weight and greater mass moment of inertia. When the information is given to an engineer, it must be correctly 
+identified.
+These figures list the mass moment of inertia in System International (SI) units and English units. Other symbols 
+used to designate inertia of rotating machinery are WK2, WR2, and GD2. The standard inertia presentation below 
+is globally recognized and can be readily converted to other inertia designations.
+Force x Distance x Time2
+N•m sec2 = Newton x meter x Second2
+lb•in. sec2 = lb x in. x Second2
+To convert to moment of inertia (WK2) in SI units:
+• Multiply N•m sec2 by 9.803 m/sec2
+• Multiply lb•in. sec2 by 2.683 to get inertia (WK2) in lb•ft2, the common English unit designation
+Center of Gravity
+Center of gravity is information that gives the location of the generator center of weight in three planes. With the 
+total generator weight, the information can be used to determine the center of gravity of an assembly consisting 
+of engine, generator, radiator, and base.
+Combined calculations require reducing all values to moments (lb•in. or kg•mm). These are summed algebraically 
+in each plane of reference.
+3.6.1 Nameplate
+The nameplate is an engraved metal plate or printed film on the side of a motor/generator. The plate contains the 
+minimum required information needed to identify its functionality.
+National Electrical Manufacturers Association (NEMA) Requirement 
+The following is required nameplate information as set by NEMA.
+• Manufacturer’s type and frame designation
+• Kilovolt-ampere output
+• Power factor
+• Time rating
+• Temperature rise*
+• Rated speed in rpm
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+• Voltage
+• Rated current in amperes per terminal
+• Number of phases
+• Frequency
+• Rated field current**
+• Rated excitation voltage
+Additional information may be included such as:
+• Enclosure or IP code
+• Manufacturers name, mark, or logo
+• Manufacturer’s plant location
+• Serial number or date of manufacture.
+*As an alternate marking, Temperature Rise can be replaced by the following information.
+• Maximum ambient temperature for which the generator is designed
+• Insulation system designation (if the armature and field use different classes of insulation systems, both shall be 
+given, that for the armature being given first)
+**Applies to the exciter in the case of a brush-less machine.
+International Standards Organization (ISO) 8528 Requirement
+Generating sets shall bear the following rating plates as set by ISO 8528. The nameplate for the set must provide 
+the following information.
+• The words “Generating set ISO 8528”
+• The manufacturer’s name or mark
+• The serial number of the set
+• The year of manufacture of the set
+• The rated power, in kilowatts, with the prefixes COP, PRP or LTP, in accordance with ISO 8528-1:1993, clause 13
+• The performance class in accordance with ISO 8528-1:1993, clause 7g
+• The rated power factor
+• The maximum site altitude above sea-level, in meters
+• The maximum ambient temperature, in degrees Celsius
+• The rated frequency, in hertz
+• The rated voltage, in volts
+• The rated current, in amperes
+• The mass, in kilograms.
+The rating and class of output of the generator shall be combined as follows.
+• Where a continuous rating based on duty type S1 is stated, the rated output shall be followed by the marking 
+“BR” (basic continuous rating), e.g. Si=22 kVA BR
+• Where a rating with discrete constant loads based on duty type S10 is stated, the basic continuous rating 
+based on S1 shall be marked as mentioned immediately above. In addition the peak rated output shall be shown 
+followed by the marking “PR” (peak continuous rating), the maximum running time of 500 h per year and the 
+factor TL, e.g. Si=24 kVA PR 500 h per year, TL=0,9.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+3.7 NEMA & IEC Design Considerations
+The following are design considerations as set in the NEMA code book.
+3.7.1 Temperature Rise
+The observable temperature rise under rated load conditions of each of the various parts of the synchronous 
+generator, above the temperature of the cooling air, shall not exceed the values in the table below.
+The temperature of the cooling air is the temperature of the external air as it enters the ventilating openings of the 
+machine, and the temperature rises given in the Table 3.5 are based on a maximum temperature of 40°C (104°F) 
+for this external air.
+Note: The following only applies to NEMA ratings.
+Temperature Rise
+Item
+Machine Part
+Method of
+Temperature
+Determination
+Temperature Rise, Degrees C°
+Class of Insulation System
+A
+B
+F
+H
+a.
+Armature Windings
+ 1. All kVA ratings
+ 2. 1563 kVA and less
+ 3. Over 1563 kVA
+ a) 7000 volts and less
+ b) Over 7000 volts
+Resistance
+Embedded detector**
+Embedded detector**
+Embedded detector**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b.
+Field Winding
+Resistance
+
+
+
+
+c.
+The temperature attained by cores, amortisseur windings, collector rings, and miscellaneous parts (such 
+as brushholders, brushes, pole tips, etc.) shall not injure the insulation or the machine in any respect.
+*For machines which operate under prevailing barometric pressure and which are designed not to exceed the 
+specified temperature rise at altitudes from 3300 feet (1000 meters) to 13000 feet (4000 meters), the temperature 
+rises, as checked by tests at low altitudes, shall be less than those listed in the foregoing table by 1 percent of 
+the specified temperature rise for each 330 feet (100 meters) of altitude in excess of 3300 feet (1000 meters).
+**Embedded detectors are located within the slot of the machine and can be either resistance elements or 
+thermocouples. For machines equipped with embedded detectors, this method shall be used to demonstrate 
+conformity with the standard (see 20.63).
+Notes
+1. Temperature rises in the above table are based upon generators rated on a continuous duty basis. 
+Synchronous generators may be rated on a stand-by duty basis (see 22.85). In such cases, it is recommended 
+that temperature rises not exceed those in the foregoing table by more than 25°C under continuous operation at 
+a stand-by rating.
+2. Diesel engine specifications often call for machines which are suitable for 10-percent overload for 2 hours 
+out of any 24 consecutive hours of operation. Generators having a corresponding overload capability are 
+sometimes required. In such cases, it is recommended that the generators and their excitation systems be 
+designed to deliver 110 percent of kVA at rated power factor, frequency, and voltage with temperature rises 
+under rated load conditions not exceeding those given in the above table.
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+3. Temperature rises in the foregoing table are based upon a reference ambient temperature of 40°C. However, 
+it is recognized that synchronous generators may be required to operate at an ambient temperature higher 
+than 40°C. The temperature rises of the generators given in the foregoing table shall be reduced by the number 
+of degrees that the ambient temperature exceeds 40°C. (Exception — for totally enclosed water-air-cooled 
+machines, the temperature of the cooling air is the temperature of the air leaving the coolers. Totally enclosed 
+water-air-cooled machines are normally designed for the maximum cooling water temperature encountered at 
+the location where each machine is to be installed. With a cooling water temperature not exceeding that for 
+which the machine is designed.
+ a. On machines designed for cooling water temperatures from 5°C to 30°C — the temperature of the air leaving 
+the coolers shall not exceed 40°C.
+ b. On machines designed for higher cooling water temperatures — the temperature of the air leaving the 
+coolers shall be permitted to exceed 40°C provided the temperature rises of the machine parts are then 
+limited to values less than those given in the table by the number of degrees that the temperature of the air 
+leaving the coolers exceeds 40°C.)
+Table 3.5
+3.7.2 Maximum Momentary Overloads
+Synchronous Generators shall be capable of carrying a 1-minute overload with the field set for normal rated load 
+excitation in accordance with Table 3.6.
+Synchronous Speed rpm
+Armature Current, % of Normal Rated Current
+1801 and Over
+
+1800 and Below
+
+Table 3.6
+It is recognized that the voltage and power factor will differ from the rated load values when generators are 
+subjected to this overload condition. Also, since the heating affect in machine winding varies approximately 
+as the product of the square of the current and the time for which this current is being carried, the overload 
+condition will result in increased temperatures and a reduction in insulation life. The generator shall therefore not 
+be subjected to this extreme condition for more than a few times in its life. It is assumed that this excess capacity 
+is required only to coordinate the generator with the control and protective devices.
+3.7.3 Maximum Deviation Factor
+The deviation factor of the open circuit line-to-line terminal voltage of synchronous generators shall not exceed 
+0.1.
+3.7.4 Telephone Influence Factor (TIF)
+Telephone Influence Factor (TIF) shall be measured at the generator terminals on open circuit at rated voltage 
+and frequency. When specified, the balance TIF is based on the weighting factors in Table 3.7.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Design
+Frequency
+TIF
+Frequency
+TIF
+
+0.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table 3.7
+Shall not exceed the values in Table 3.6. Table 3.8 only applies to NEMA ratings.
+kVA Rating of Generator
+TIF
+125 to 4999
+
+5000 to 19999
+
+2000 and Above
+
+Table 3.8
+When specified, the residual component TIF based on the weighting factors given shall not exceed the values in 
+Table 3.9. These residual components apply to those voltage ratings 2000 volts or higher. Table 3.9 only applies to 
+NEMA ratings.
+kVA Rating of Generator
+TIF (residual)
+125 to 4999
+
+5000 to 19999
+
+2000 and Above
+
+Table 3.9
+
+G E N E R A T O R S Y S T E M S
+
+Generator Design
+3.7.5 Single Frequency Weighting Short
+Circuit Requirements A synchronous generator shall be capable of withstanding, without damage, a 30-second, 
+three-phase short circuit when operating at rated kVA and power factor, at five percent over voltage, with fixed 
+excitation. The generator shall also be capable of withstanding, without damage, any other short circuit at its 
+terminals of 30 seconds or less provided:
+• The machine phase currents under fault conditions are such that the negative phase sequence current (I2), 
+expressed in per unit of stator current at rated kVA, and the duration of the fault in seconds (t) are limited to 
+values which give an integrated product, equal or less than 40 for salient pole machines and 30 for air cooled 
+cylindrical rotor machines.
+• The maximum phase current is limited by external means to a value which does not exceed the maximum phase 
+current obtained from the three-phase fault.
+3.7.6 Overspeed
+Synchronous generator shall be so constructed that, in an emergency not to exceed two minutes, they will 
+withstand without mechanical injury overspeeds above synchronous speed in accordance with the values in 
+Table 3.10.
+Synchronous Speed rpm
+Overspeed, Percent of Synchronous Speed
+1801 and Over
+
+1800 and Below
+
+Table 3.10
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Performance Characteristics
+4.0 Generator Performance Characteristics
+4.1 Rated and Per Unit
+“Per unit” values are expressed as a decimal fraction of some whole value. Twenty percent, 20% or 0.20 indicates 
+part of some whole value. Per unit is a pure number. It has no label such as volts, amperes or ohms. Per unit is 
+often abbreviated as P.U. or p.u.
+The per unit system eliminates the use of cube roots that are inherent to three-phase calculations. The per 
+unit basis also provides a comparable value system for all generators, transmission lines, motors and related 
+measures so they look, more or less, alike.
+kVA, volts, amps, power factor, resistance and reactance are all figures converted to per-unit values. Per-unit 
+calculations are defined as the actual value of the figure divided by the base value. It is customary to select 
+voltage and apparent power base values; once these are done, all other base values can be calculated. Refer to 
+“Reactance” for more per unit calculations.
+To convert a circuit quantity to a per unit value, divide by the base value, which is usually the rated value. For 
+example, the following equations show the per unit values for a 240/120-V, 120 kVA generator that is operated at 
+100 kVA with 220 volts.
+Vpu = 220 = 0.917
+
+Spu = 100 = 0.833
+
+And from these base numbers you can calculate current and impedance bases.
+lbase = Sbase = (240 V)2 = 50A Zbase =
+ Vbase (240 V) 
+Vbase = Vbase = (240 V)2 = 4.8 12kVa 
+ Ibase Sbase 
+4.1.1 Efficiency
+Efficiency is the percentage of engine flywheel horsepower that is converted into electrical output, or in other 
+words, power out of the generator divided by power in. 100% efficiency is a theoretical level that assumes no 
+losses in heat, windage or friction.
+Efficiency = output power
+ input power
+Efficiency = output
+ output + losses
+Efficiency = input - losses
+ input
+
+G E N E R A T O R S Y S T E M S
+
+Generator Performance Characteristics
+Generator efficiencies are published at 100% of rated. Percent generator efficiency is shown in the following 
+formula.
+ 
+ % Gen. = 
+kVA x PF x 100
+ 
+ Efficiency 
+(kVA x PF) + gen. losses + exciter losses 
+In discussion of generator efficiency, generator losses must be considered. These include the following.
+• Armature Winding — The loss based upon phase currents and phase resistances.
+• Field — The loss due to field current and field resistance.
+• Core Loss — Iron losses, hysteresis, and eddy currents due to the flux variation in the armature core.
+• Stray Load Losses — Iron losses and eddy current losses in the copper due to fluxes varying with load and 
+saturation.
+• Friction and Windage Loss — Loss of the power used to overcome bearing friction and windage. There is a 
+power used against the friction between the bearings and the rotor that creates a friction loss. The power 
+necessary to move the rotor poles through the air and to drive cooling air through the generator creates 
+windage loss.
+• Exciter Loss — All losses similar to those experienced by the main generator. These include field, core, stray 
+load, friction and windage losses.
+4.2 Fault Current/Short Circuits
+Short circuits generally occur when electric current is diverted from its intended path to ground or another line of 
+the generator. When short circuits occur, it is necessary for a generator to provide adequate fault current to the 
+short in order to give a protective device, such as breakers and fuses, enough time to react. Permanent Magnet 
+(PM) generators are able to sustain fault current due to their excitation characteristics while self excited (SE) 
+generator may have trouble providing this current for enough cycles. Refer to the section entitled “NEMA Design 
+Considerations” for official standards on short circuits.
+Cat IE system (Independent Excitation) also has short circuit current capabilities. It is designed such that the 
+short circuit current capabilities can be disabled during parallel operation with the utility and fully implemented 
+during stand alone operation for maximum performance. The IE excitation system relies on residual magnetism for 
+voltage buildup. The immunity to non linear loads, excellent motor starting, and the short circuit capabilities, are 
+standard IE features not available on Self Excited generators.
+When a generator experiences a sudden load increase, such as a starting a motor, output voltage and speed of the 
+genset dip for a short time. This is called a transient dip and is illustrated in Figure 4.1. When the load is thrown off, 
+an overshoot occurs. Without proper generator design, this overshoot could potentially cause a short-circuit. 
+Figure 4.1
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Performance Characteristics
+Each phase of a generator has the following impedances:
+• Equivalent Armature Reactance
+• Armature Leakage Reactance
+• Armature Resistance
+• Synchronous Reactance
+• Synchronous Impedance
+• Voltage Proportional to Excitation Requirements
+• Line Current
+• Phase Voltage
+The vectors shown in Figure 4.2 demonstrate that to maintain constant voltage at the terminals, the excitation 
+requirements will vary according to the power factor. Therefore, excitation requirements are greatest at lagging 
+power factors and less at leading power factors.
+There may also be a direct current component to short circuits. In most short circuits, the ratio of reactance 
+to resistance is high. If a fault occurs at zero voltage on the sine wave in such a circuit, the current will not be 
+symmetrical. It will contain a DC component that will offset the short circuit current for a very short time. 
+Figure 4.2
+A three-phase fault is a short between all three phases of the output. A line-to-line fault is a short between two 
+of the three phases, and the same concept goes for line-to-neutral and line-to-ground faults. A more detailed 
+explanation of faults is covered under “Power Systems.” 
+Figure 4.3 illustrates a short circuit; Variable definitions can be found on Page 38 of this section.
+Figure 4.3
+
+G E N E R A T O R S Y S T E M S
+
+Generator Performance Characteristics
+Stator Resistance
+Stator resistance refers to the internal resistance of the generator that is developed by the stator copper and 
+winding configuration.
+Assume each coil in Figure 4.4 and Figure 4.5 represents an equal resistance value in ohms. The numbers shown 
+represent the line and neutral in the stator windings. The figures show the points at which the listed resistance 
+value or a multiple of it applies.
+In Figure 4.4, the generator coils are connected in parallel for low voltage.
+Figure 4.4
+• For resistance of 1-2, 2-3, or 3-1 (line-to-line), single coil resistance value applies.
+• For resistance of 1-0, 2-0, or 3-0 (line-to-neutral), divide the coil resistance by 2.
+In Figure 4.5, the generator coils are connected in series for high voltage.
+Figure 4.5
+• For resistance of 1-2, 2-3, 3-1 (line-to-line), multiply the coil resistance by 4.
+• For resistance of 1-4, 2-5, 3-6, 7-0, 8-0, 9-0 (individual coil resistance), single coil resistance applies.
+• For resistance of 1-0, 2-0, and 3-0, multiply the coil resistance by 2.
+Resistance measurements will be valid only if made with instruments capable of measuring very low resistance. 
+Do not attempt to use an Ohmmeter. The inaccuracy is too great to have any value.
+Resistance values vary with temperature. Given resistance values apply only at 25°C (77°F) Correction must be 
+applied at other temperatures. For temperatures other than 25°C, multiply the listed value by 0.00393 and then by 
+the total temperature difference between 25°C and the existing temperature. Add the result to the listed value if 
+the temperature is higher. Subtract the result if the temperature is lower.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Performance Characteristics
+A reverse process can find internal temperature of generator coils. The generator stator resistance must be 
+accurately measured.
+Open Circuit Time Constant
+The open circuit time constant is determined from a test performed as follows:
+• The generator is operating at normal rated voltage with no load.
+• The main rotating field is supplied from a separate source, usually a battery.
+• The rotating field input is short-circuited and the voltage across the generator output terminals will reduce.
+• Time, in seconds, for the generator terminal voltage to reach 36.8% of its original value is recorded as the open 
+circuit time constant.
+The open circuit time constant figure is primarily used in the design of voltage regulators. Some engineers use the 
+open circuit time constant along with another factor called generator time constant, which can be supplied upon 
+request. Individually and together, these two time constants provide switchgear and distribution designers with 
+information needed to study the possible voltage changes resulting from severe load changes.
+Generator Time Constant
+The generator time constant is a measure of the magnetic inertia in a generator and gives an indication of 
+machine performance under short circuit conditions. The factor is determined by actual running tests where 
+the generator output is short-circuited and the reaction is recorded. The time elapsed between short circuit 
+application and voltage decline to 36.8% of normal is the generator time constant. The symbol is T’D and it has a 
+value in seconds approximately equal to 10% of the open circuit time constant.
+Short Circuit Ratio
+The short circuit ratio gives an indication of generator response to a suddenly applied load. It is the ratio of the 
+field current required for the rated voltage at open circuit to the field current required for the rated armature 
+current at short circuit. It can also be found as the reciprocal of the synchronous reactance. This number is 
+usually on the order of 0.3-0.6. Refer to Figure 4.6.
+Figure 4.6
+4.2.1 Reactance
+The impedance, or combined reactance and resistance, control the flow of current in an alternating current 
+circuit. In generator sets, the generator reactance is such a large part of the total impedance that the resistance 
+can be disregarded. The amount of current that will flow as a result of a ground or short circuit is therefore 
+determined by the various generator reactances (assuming a constant field current). The five major reactances 
+are shown in Table 4.1.
+
+G E N E R A T O R S Y S T E M S
+
+Generator Performance Characteristics
+Table of Generator Reactances
+Name
+Symbol
+Range
+Importance
+Approx. Time 
+Effective
+Sub-transient
+Reactance
+X”d
+.08 to .26
+Determines max. inst.
+current
+1 to 6 cycles
+Transient
+Reactance
+X’d
+.16 to .45
+Determines current 
+when breaker opens
+6 cycles to 5 sec.
+Synchronous
+Reactance
+Xd
+2.0 to 3.9
+Determines steady 
+state current
+Continuous after 
+5 sec.
+Zero Sequence
+Reactance
+Xo
+.02 to .25
+To determine fault 
+current in grounded 
+neutral machines
+Negative Phase
+Sequence Reactance
+X2
+.1 to .4
+To determine current 
+in line-to- line faults
+Table 4.1
+Synchronous reactance determines steady-state current. However, when a sudden change from steady state 
+occurs, such as short circuit, other reactances come into play. This happens because the flux in the machine 
+cannot change immediately.
+• Sub-transient reactance determines maximum instantaneous current. It lasts up to about 6 cycles.
+• Transient reactance is a longer lasting reactance determining current up to as much as 5 seconds.
+Other reactances not subject to time limitations:
+• Zero sequence reactance determines neutral currents in grounding studies. It is also a factor in determining 
+neutral currents when third harmonics are encountered.
+• Negative phase sequence reactance is used in calculating line-to-line faults.
+The factors involved in a short circuit are defined in the list below:
+X’ 
+= Transient Reactance
+X”d 
+= Sub-Transient Reactance
+i’d 
+= Transient Current
+I”d 
+= Sub-Transient Current
+erated 
+= Generator Rated Voltage
+T” d2 
+= Short Circuit Sub-Transient Time Constant
+T’d 
+= Short Circuit Transient Time Constant
+T” d2 
+= Open Circuit Time Constant; Field Inductance
+ 
+ 
+ Field Resistance in Seconds
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Performance Characteristics
+4.2.2 Transient Reactance (X’d)
+The term transient reactance is usually expressed by the symbol X’d. It is one of the five reactance figures 
+frequently used by engineers when comparing generator capability with load requirement, or when comparing 
+one generator with another. Reactance figures are always used with the following:
+• Related kVA rating, called Base kVA
+• The refuted ampere rating, called Base Amperes
+• Related voltage, called Base Voltage
+The listed figures are per unit values. Reactance are also expressed in percent (100% x per unit).
+Transient Reactance Note: This expression will be used to explain reactance values in general and to show some 
+of the related arithmetic and uses of the five listed reactance values in Table 4.1.
+The transient reactance is similar to sub-transient reactance, except that transient reactance determines the 
+amount of current for approximately six cycles to five seconds.
+The five listed reactance per unit values describe the line-to-neutral value at the kVA and ampere condition, or 
+volt condition, listed in the same price list reference number and rating. These line-to-neutral reactance per unit 
+values can be directly converted to a line-to-neutral ohmic value by use of Ohm’s law and the per unit value. First, 
+divide the line-to-neutral rated voltage by the rated line amperes. The result will be Ohms. Next, multiply the result 
+by the per unit value. The result is Ohms reactance. 
+Example:
+Transient reactance = 0.2490 per unit. The base voltage is 480, base ampere is 263. Generator voltage listed is 
+line-to-line. This must be converted to line-to-neutral voltage. Divide 480 by the square root of 3.
+
+= 
+
+√3
+277 is the base voltage.
+ Transient
+ = 
+
+ Reactance, 
+
+x 0.2490
+ 
+ohms 
+ 
+ 
+ 
+ 
+ = 0.262 Ohms
+Most engineers prefer a presentation in the following order. 
+• Line-to-line voltage
+• Prime power kVA
+• Line amperes (at the listed line-to-line voltage)
+• Line-to-neutral reactance in the per unit value
+Various ratings on a specific generator do not change the reactance. However, the per unit value reactance do 
+change directly with the rating.
+
+G E N E R A T O R S Y S T E M S
+
+Generator Performance Characteristics
+Example:
+Determine the per unit value of transient reactance of a generator at a 180 base kVA at 480 volts. At 219 kVA, 
+480 volts, the reactance is 0.2490 P.U. Per unit values change directly with the base kVA.
+
+x 0.2490 = 0.2046 P.U.
+
+The reactance in ohms has not changed because at 180 kVA, the line ampere rating would be 216 amperes. 
+The calculation shows:
+ 
+277 volts 
+x 0.2046 = 0.262 Ohms
+ 216 amperes
+Per unit reactance changes inversely (volts down, reactance up) with the square of the voltage ratio if the kVA 
+rating remains the same.
+Example:
+At 480 volts, the listed transient reactance is 0.2490. The base voltage is to be decreased from 480 volts to 
+416 volts. The kVA is to remain the same. The per unit transient reactance at the lower voltage is:
+(480/416)2 x 0.2490 = 0.3310 per unit
+The ohmic line-to-neutral transient reactance has not changed. Line-to-neutral voltage is now:
+
+= 
+240 volts
+ 
+√3
+Since the kVA rating is to remain at 219 kVA, the line ampere rating is:
+ 
+219 kVA x 1000 = 
+
+√3 x 416
+Transient reactance in ohms is:
+ 
+240 volts x 0.3310 = 0.262 Ohms
+ 
+303 amperes
+Two other terms are used relating to reactance; they are direct and saturated.
+• Direct — All of the figures quoted in the Caterpillar TMI system are “direct axis” reactance per unit values. 
+This data can also be shown in quadrature axis figures.
+• Saturated — Where applicable, figures are calculated at magnetic saturation. Occasionally an unsaturated 
+value of a reactance may be required.
+Transient reactance (per unit) figures are used to approximate the current at the time a circuit breaker opens 
+under three-phase, short-circuit conditions. A circuit breaker will probably open at 7 cycles (0.13 seconds at 
+60 Hz), which is within the time transient reactance values apply (about 6 cycles to 5 seconds). The calculation 
+requires two values; base amperes and the transient reactance. For a generator at 60 Hz, 480 volts, divide the 
+base amperes by the transient reactance per unit value.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Performance Characteristics
+Example:
+Generator base amps = 263
+Transient reactance = 0.2490
+ 
+263 amperes 
+= 1056 amperes
+ 
+0.2490
+4.2.3 Sub-Transient Reactance (X”d)
+If a generator is operating at normal voltage and a short circuit occurs, a large amount of current will flow. The 
+initial value (for approximately the first six cycles), in terms of full load current, is expressed by voltage divided by 
+sub-transient reactance.
+This term is usually expressed as X”d and for Cat generators has a per unit value of 0.1 to 0.3. Engineers 
+frequently request the percent sub-transient reactance. Per unit values are directly convertible to percent; 0.1 
+becomes 10% and 0.3 becomes 30%. Engineers also request the sub-transient impedance. This implies the Ohmic 
+line-to-neutral reactance since the stator resistance is less than 2% of the line-to-neutral impedance. Calculate 
+the sub-transient line-to-neutral reactance as:
+ 
+Volts, line neutral x X”d
+ 
+Base amperes
+For a generator at 60 Hz, 219 kVA, with X”d equal to 0.120 and base amperes of 263:
+ 480 volts = 277 volts, line neutral
+ 
+√3
+
+x 0.1201 = 0.1265 Ohm
+ 263 amperes
+The sub-transient reactance applies to a time period ranging from one to six cycles. The per unit value is often 
+used to determine the maximum current in event of a short circuit.
+Note: Root-Mean-Square (RMS) is used by ammeters, voltmeters and the more common measuring devices to 
+indicate current. 
+The RMS symmetrical current will be the rated amperes divided by the sub-transient reactance per unit value. 
+Under three-phase short circuit, this generator can produce:
+
+= 2190 amperes RMS
+ 
+0.1201
+Symmetrical and Asymmetrical
+Symmetrical refers to a current that is symmetric to a fixed reference axis as shown in Figure 4.7.
+Figure 4.7
+
+G E N E R A T O R S Y S T E M S
+
+Generator Performance Characteristics
+Asymmetrical, or offset, refers to a current that is not centered to a fixed reference axis as shown in Figure 4.8. 
+Asymmetrical current is also known as the Direct Current (DC) component.
+Figure 4.8
+The point in time at which the short circuit occurs determines if the resultant current is initially symmetrical or 
+asymmetrical or a combination of each. If the fault occurred the instant the voltage is crossing the zero line, 
+the current will be asymmetrical. The resulting value is known as maximum asymmetrical current. If the fault 
+occurred when the voltage is at a positive or negative peak, the resultant current will be symmetrical. A fault 
+occurring at any point in time between zero crossing, and the positive or negative peak will produce a lesser 
+value of asymmetrical current.
+In time, within one to five cycles, the asymmetrical current declines to a very low value. From that time forward, 
+the symmetrical current is the only significant current.
+The maximum asymmetrical short circuit RMS current can be found by multiplying the RMS symmetrical value by 
+square root of 3. In the above example, the generator will produce 2190 x √3 = 3793 RMS amperes, asymmetrical. 
+Calculations involving circuit breakers normally require peak currents. Symmetrical and asymmetrical currents 
+from a Cat generator can be converted to peak values by multiplying either value by the square root of 2. In the 
+above example, the generator will produce: 2190 x √2 = 3096 peak symmetrical amperes or 3793 x √2 = 5363 peak 
+asymmetrical amperes.
+Note that a smaller sub-transient reactance per unit value results in higher available short-circuit current.
+Available short-circuit current is sometimes expressed as a multiplier (called available current ratio), which is the 
+reciprocal of the per unit subtransient reactance. For this generator:
+
+= 
+8.326
+ 
+0.1201
+Rated current times that multiplier equals RMS symmetrical current:
+ 263 Amperes x 8.326 = 2190
+Per unit sub-transient reactance values of Cat generators are about one-half the transient reactance per 
+unit value.
+Some engineers also use subtransient reactance to determine the approximate voltage dip on a generator when 
+starting large motors.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Generator Performance Characteristics
+4.2.4 Synchronous Reactance (Xd)
+After transient conditions have occurred, current flow is determined by the synchronous reactance. This is a 
+steady state value and is effective after approximately five seconds.
+Figure 4.9
+Synchronous reactance is identified by the symbol Xd and has a per unit value of 2.0 to 4 in Cat generators. This 
+factor is used to determine the steady-state fault current capability of a separately excited generator. This is the 
+short circuit current which would be produced after five seconds. Self-excited generators lose excitation before 
+five seconds. Therefore, the synchronous reactance factor cannot be used to determine the actual steady-state 
+fault current. The factor does, however, give a comparison with other generators by considering the probable 
+performance if excited from a separate source.
+The diagram in Figure 4.9 indicates the current available at various periods of time.
+4.2.5 Negative Sequence Reactance (X2)
+The negative sequence reactance is an important factor in determining the fault current on a line-to-line short 
+circuit in a three-phase unit.
+This factor has a symbol X2 and a per unit value that approximates the value of the sub-transient per unit 
+reactance value. Engineers use this figure when calculating probable fault currents in event of a line-to-line short 
+circuit from a particular generator.
+Calculation is very similar to that used for sub-transient short circuits. For a generator at 60 Hz, 219 kVA, 
+263 amperes, and X2 of 0.1543:
+ 
+amperes, RMSSC 
+= 
+Rated amperes x √3
+ 
+ 
+ 
+X”d + X2
+ 
+236 x √3
+ 
+= 
+263 x √3
+ 
+0.1201 + 0.1543 
+ 
+0.2744
+ 
+ 
+ = 1660 amperes. RMS, symmetrical
+1660 amperes is the RMS effective symmetrical current. The peak symmetrical value is found by multiplying the 
+RMS value by √2:
+1660 x 1.414 = 2347 amperes
+RMS asymmetrical value is determined from:
+RMS x √3 = 1660 x 1.732 = 2875
+
+G E N E R A T O R S Y S T E M S
+
+Generator Performance Characteristics
+The peak asymmetrical value is the RMS asymmetrical value multiplied by √2:
+2875 x 1.414 = 4065 amperes
+4.2.6 Zero Sequence Reactance (Xo)
+The zero sequence reactance is the major factor determining the ground current in case of a grounded neutral 
+unit having a phase-to-ground fault.
+This reactance factor has the symbol X0 and a per unit value of 0.03 to 0.13 or approximately one-third the value 
+of the sub-transient per unit reactance figure. The factor is used to determine probable value of line-to-neutral, 
+short-circuit currents and possible line-to-ground currents in the event the neutral is grounded and a line-to-
+ground fault occurs. Fault current calculation is similar to those of line-to-line calculation:
+ 
+amperes, RMS 
+= 
+rated amperes x 3
+ 
+ 
+ 
+X”d + X2 + X0
+For a generator at 60 Hz, 219 kVA, 263 amperes and X0 of 0.0450:
+ 
+236 x 3
+ 
+= 
+263 x 3
+ 
+0.1201 + 0.1543 + 0.0450 
+ 
+0.3194
+ = 2470 amperes. RMS, symmetrical
+2470 is the RMS effective symmetrical current. The peak symmetrical value can be found by multiplying the 
+RMS value by √2:
+2470 x 1.414 = 3493 amperes
+RMS asymmetrical value can be found by multiplying the RMS symmetrical value by √3. 
+Note: Available currents resulting from different type of faults are different. The line-to-neutral short circuit is 
+often the highest value and the most likely to occur.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Harmonics and Distortion
+5.0 Harmonics and Distortion
+Quality of electrical performance is a measure of how close the electrical output of the generator is to a true sine 
+wave. The ideal voltage waveform is a sine wave pattern in which a voltage cycle starts at zero, increases to a 
+positive peak, returns to zero, increases to a negative peak, and finally returns to zero, completing the cycle.
+The actual voltage waveform from rotating machinery is never perfect. Internal generator and external load 
+characteristics cause distortions in the wave. These factors impair the consistency of the generator output, and 
+can result in voltage regulator sensing errors and incorrect instrument readings.
+In brief, harmonics are energy levels existing at multiples of the fundamental wave’s frequency. Harmonics may 
+produce undesirable effects in the generator and motor performance may suffer from excessive harmonics. The 
+remainder of this discussion will be limited to harmonics of lower orders, those with significant magnitudes, are 
+the 3rd, 5th, and 7th. Generators are symmetrical machines that have even numbers of north and south poles, 
+resulting in cancellation of all even number harmonics. Only odd number harmonics remain. In a 60 Hz set, the 3rd 
+harmonic occurs at 180 Hz, the 5th at 300 Hz, 7th at 420 Hz, and so on. The effects of 3rd and 5th harmonics on the 
+composite waveform are illustrated in Figure 5.1.
+Figure 5.1
+The waveform distortion discussed above can cause problems in voltage regulation, generator and load 
+overheating, and inaccurate instrument readings. Both voltage and current may have harmonic components. The 
+current components produce heat and are therefore derating factors for the generator as well as system motors.
+When selecting a generator set, the pitch of the generator may also come into play. Depending on the nature of 
+the harmonics in the system, different pitch machines may be selected in order to minimize its added contribution.
+One very important factor to remember is that most harmonics are produced by the load itself. Examples are 
+large battery chargers for uninterruptible power supply (UPS) systems, fluorescent lamps and variable speed 
+motor drives.
+Each of these harmonic voltages generated are in the windings, but a 3rd harmonic current will not flow in a 
+three-phase, wye connected winding unless the neutral is connected. The 3rd harmonic current will flow in a 
+delta connected generator winding as shown in Table 5.1. Both 5th and 7th harmonics will flow in either winding 
+since they are line harmonics.
+The major difficulty caused by harmonic currents is heat generated in the winding, core, and rotor. Since 
+generator ratings are limited by allowable temperature rise, harmonics act as derating factors. In derating, the 
+magnitude of the current is of obvious importance, because losses are proportional to the square of the current. 
+Increased frequency causes increased core losses and increased copper loss from skin effect. 5th and 7th 
+harmonics are the offenders here because they are in the 600 Hz range.
+
+G E N E R A T O R S Y S T E M S
+
+Harmonics and Distortion
+Another difficulty caused by harmonics is waveform distortion. The more harmonic content in a generated wave, 
+the more distortion from a sine wave occurs. If the distortion is severe, it can cause voltage regulator sensing 
+problems and inaccurate instrument readings.
+This section explains the various methods of minimizing harmonics. The following methods are used to minimize 
+harmonics:
+• Pitch Factor
+• Skew Factor
+• Waveform Shaping
+Most generators are fractional pitch. In other words, the stator windings are less than a pole pitch from one coil 
+side to the other (less than 180 electrical degrees apart). Placing the two sides of a coil less than 180 electrical 
+degrees apart reduces the voltage induced by the coil. However, it helps control harmonics, shortens end turns, 
+and simplifies the physical construction of the generator.
+Table 5.1 shows the percent reduction of 3rd, 5th, and 7th harmonics at various pitch factors.
+Pitch
+Fund
+3rd
+5th
+7th
+2/3
+0.866
+
+0.866
+0.866
+4/5
+0.951
+0.588
+
+0.588
+5/6
+0.966
+0.707
+0.259
+0.259
+6/7
+0.975
+0.782
+0.434
+
+Table 5.1
+Another common method of reducing slot harmonics is to skew or angle the stator slots. Occasionally, the poles 
+are skewed instead. In either case, the voltage is somewhat reduced, but so are the harmonics.
+Adjustments are made in the pole flux waveform and the stator windings to achieve an adequate waveform in the 
+output voltage. The factor “K” accounts for both types of adjustments.
+The voltage output waveform can also contain harmonics. It can contain odd harmonics, such as 3rd, 5th and 7th, 
+but never even harmonics. A quality output voltage waveform must be shaped as sinusoidal as possible to reduce 
+these harmonics. To create an output voltage waveform that is as sinusoidal as possible, the shape of the pole 
+heads is adjusted.
+A square pole head generates a square flux wave; a square flux wave generates many odd harmonics in the 
+stator windings.
+To make the flux wave more sinusoidal, the pole tips can be beveled. This increases the air-gap length at the pole 
+tips, increasing the reluctance, or resistance, of the flux path.
+However, to achieve the best flux waveform possible, the pole face is rounded at a radius with a different center 
+than the stator core.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Harmonics and Distortion
+All generators have harmonic waveform distortion and non sinusoidal rotor flux density. Following is a list of 
+generator design factors for distortion reduction.
+• Stator Slots — more stator slots give better winding distribution
+• Winding Style — symmetrical lap winding produces the best waveform
+• Skew — one slot pitch skew eliminates ripple harmonics
+• Slot Opening — wider the slot openings increase harmonics
+• Pole Head Width — wider pole heads increase flux distribution
+• Tapered Pole Heads — tapered pole heads distribute more nearly sinusoidal flux
+• Stator Winding Pitch — reduces or eliminates certain or eliminates certain harmonics, but not all harmonics
+Telephone Influence Factor (TIF) and Telephone Harmonic Factor (THF) measure the possible effect of harmonics 
+in a generator wave shape on telephone circuits. TIF and THF are measured at the generator terminals on open 
+circuit at rated voltage and frequency. TIF is used in the U.S., while THF is used in the rest of the world. 
+Figure 5.2
+Figure 5.2 shows a comparison of TIF and THF weighting curves. Weight refers to the sound wave/harmonic 
+with the most emphasis on it. The higher the weight, the more emphasis placed. The calculating procedures are 
+different for TIF and THF, but similar frequencies give almost equal weights.
+Limits for generator harmonics are based on these curves. The most annoying frequencies in telephone 
+interference are usually 2500 to 3000 Hz, and therefore have the highest weighting.
+TIF is the summation of RMS values of each harmonic in a waveform multiplied by a weighting factor; like those in 
+a weighting curve. The product is squared and added together. TIF is then the ratio of the square root of this sum 
+to the RMS of the entire wave.
+Balanced TIF is measured at frequencies other than triples. Triples are harmonics divisible by 3; 3rd, 9th, 15th, etc. 
+Generators of higher voltage (above 2000V) are often required to have residual TIF values below 100. Residual TIF 
+measures triple frequencies only.
+Total Harmonic Distortion (THD) is the ratio of the sum of the interference from all harmonics to the fundamental 
+signal.
+
+G E N E R A T O R S Y S T E M S
+
+Harmonics and Distortion
+Waveform deviation factor, or wave-shape deviation factor, is an indication of the degree that a generated 
+voltage differs from a perfect sine wave. It is common practice that these factors not exceed 10% of the line-to-
+line generated voltage at no load. Although most generator manufacturers meet 5% deviation, percentages of 
+10% and below are generally acceptable in the industry. Cat generators do not exceed 5% waveform deviation. 
+Deviation from a perfect sine wave, as shown in Figure 5.3, is primarily the result of harmonics, generated as a 
+field pole passes a conductor. There are many design techniques available to make the deviation factor very low. 
+These techniques may or may not have importance when the generator is under normal load.
+Figure 5.3
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Miscellaneous Terms
+6.0 Miscellaneous Terms
+6.1 Overspeed Capability
+Overspeed capability is the ability of the generator to handle the sudden increase over rated rpm due to the 
+removal of a large load. This is usually on the order of 125 to 150% of rated rpm.
+6.2 Heat Dissipation
+Heat dissipation occurs when a device is heated due to current flow. Some electrical energy is then lost from the 
+energy used in the heating of this device.
+6.3 Derating
+Generator de-rating refers to the need to lower a generator’s rated operating capabilities due to an environmental 
+reason or a load affect. This situation requires the use of a larger generator than would be necessary under 
+normal conditions. Several examples of these conditions are as follows:
+Altitude
+For application over 3300 ft elevation, derating of the generator may be necessary. Refer to the altitude/
+temperature derating chart in TMI or consult your Cat dealer.
+Where the temperature of the ventilating air to the generator exceeds 40°C (104°F), derating of the generator may 
+be necessary. See Figure 6.1 for general capabilities.
+Non-Linear and Unbalanced Loads
+Non-linear loads and unbalanced loads generate harmonic currents that cause waveform distortion of the 
+generator. In this situation, excess heat can be created and a larger generator may be needed.
+Crest Factor
+Crest factor is the peak voltage divided by the RMS voltage.
+Distortion Factor
+Distortion factor is the sum of the harmonics divided by the RMS voltage.
+Figure 6.1
+
+G E N E R A T O R S Y S T E M S
+
+Generator Limits
+7.0 Generator Limits
+Rating limits are occasionally illustrated as shown in Figure 7.1; kVA and kW versus power factor.
+The fluctuations in the kVA line represent the generator operating limits. It is important to note that every 
+generator’s limit characteristics are different and cannot be classified by size or type. For example, the limits for 
+a standby generator are less limiting than for an equivalent prime-continuous generator. In another example, field 
+heating limits may be the limiting factor at 0.8 PF, or they may not limit the generator at all.
+The engine is many times the limiting factor in a genset as shown by the engine kW limit line.
+If the generator operates in the leading power factor quadrant, it operates on a capacitive load. In this condition, 
+the rotor is subject to heat generation and may reach thermal limits. Unfortunately, it is typically not possible to 
+monitor the temperature directly because this is, normally, a rotating device. In this right quadrant, the generator 
+output is only limited by the generator’s tendency to become self-excited with a high leading power factor.
+While operating in the leading power factor condition, there is a tendency for an overvoltage condition. An 
+overvoltage condition may affect the successful operation of the automatic voltage regulator.
+If the generator operates in the left quadrant of Figure 7.1, it has a lagging power factor. It is limited here by both 
+the rotor (field) and stator (armature) heating. Many times, the field temperature limit is lower than the armature 
+limit, especially at low power factor values.
+Figure 7.1
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Exciter & Regulator Characteristics and Performance
+8.0 Exciter & Regulator Characteristics and Performance
+8.1 Excitation System
+Generator voltage is controlled entirely by the exciter-regulator system. The function of the excitation system is 
+to supply DC current to the main generator field windings, enabling them to produce a magnetic field. In turn, this 
+magnetic field enables the stator windings to produce output voltage.
+The main generator output voltage should be kept at a constant value for whatever load conditions it may be 
+supporting. Note that there is a drop in voltage at the load terminals due to the impedance of the armature 
+windings and to the reduction of the magnetic field flux. The magnetic field flux is reduced because of the 
+opposing amp-turns of the load current in the armature, known as armature reaction.
+Until the 1960’s, most engine-driven exciters were DC generators with rotating armatures, stationary fields, 
+commutators and brushes. The excitation current was fed to the shaft-mounted main field through slip rings and 
+brushes. Control of the exciter voltage was accomplished with a variable resistance in the exciter field.
+DC exciters are seldom used today. Adjusting these exciters for close control of saturation, operating point on 
+the curve, and brush and commutator setting is too difficult. Additionally, the short brush life and commutator 
+maintenance of this exciter system is unacceptable by today’s standards.
+In the shunt excitation system, both voltage output sensing and AC power output are taken from three-phase AC 
+generator output lines; this is represented in one line in Figure 8.1. The static exciter converts the AC power to DC 
+power (originally by magnetic amplifiers, but presently by SCR’s) and feeds the DC power to the main generator 
+field windings.
+Figure 8.1
+In a self-regulating system, the voltage and current are taken from the AC generator output lines. The voltage 
+and current are added together so at a power factor of 1.0, they are 90° apart. When the power factor lags, the 
+angle changes to give an increased resultant. The varying resultant is fed through the rectifier to the field. The 
+function of rectifiers is to convert the AC current from the exciter to a DC current that can be supplied to the field 
+windings. The rectifier circuits most commonly used are the 3-phase bridge and the 3-phase star.
+
+G E N E R A T O R S Y S T E M S
+
+Exciter & Regulator Characteristics and Performance
+8.1.1 Self-Excitation
+The generator can be deemed Self-Excited (SE) as well. An SE generator uses the output from the main generator 
+to supply its own exciter current. When assembled, a brushless generator contains the functional parts shown in 
+Figure 8.2. The engine drives the exciter armature, rectifier, and main field, while the main armature, automatic 
+voltage regulation, and exciter field are stationary.
+Figure 8.2
+8.1.2 Permanent Magnet Excitation
+The permanent magnet or pilot exciter furnishes power to the main exciter, thus, eliminating the main exciter’s 
+dependence on generator output voltage. It is in essence a very small generator attached at the end of the same 
+shaft as the main generator. The permanent magnet eliminates the exciters dependence on output from the main 
+generator making it a more stable device in load transients.
+The IE excitation system consists of two special sets of coils that are wound to fit in carefully selected slots of 
+the main stator. The special wire selected for the IE coils provide total separation and isolation from the stator 
+main winding. The coils can only be fitted to the main stator while it is being wound. The two auxiliary windings 
+are designed to provide power to the voltage regulator. The two coils are connected in series to the three phase 
+power input of the voltage regulator. One auxiliary winding produces a voltage proportional to the output voltage 
+of the unit. The other acts like a current transformer and produces a voltage proportional to the output current of 
+the unit. The two windings combined to provide a voltage regulator with a constant voltage source.
+The main generator output voltage should be kept at a constant value for whatever load conditions it may be 
+supporting. A voltage regulator controls this function by controlling the output of the exciter.
+8.2 Voltage Regulation
+Voltage regulation is achieved through the excitation control system. The term “voltage regulation” originates 
+from the inherent regulation of a synchronous generator without an Automatic Voltage Regulator (AVR). A better 
+term than voltage regulation might be voltage accuracy, meaning a voltage that does not deviate from a given 
+value for any reason other than transient load changes. This is considered ideal voltage regulation.
+The purpose of the voltage regulator is to control generator output in order to maintain voltage within prescribed 
+limits with changes in loads. There is a misconception in the marketplace that voltage regulation must be ±0.5%. 
+While Cat regulators meet this specification, it is important to note that normal utility voltage fluctuates by ±5% or 
+more; this equates to at least 10 times as much.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Exciter & Regulator Characteristics and Performance
+Voltage regulation is affected mainly by loading and transients. Other factors that affect voltage regulation 
+include cold-to-hot drift, frequency effect, generator heating effect, and ambient temperature change. Voltage 
+regulation encompasses all variables that must be controlled to keep generator voltage within a given percentage 
+of a specified value.
+The AVR senses the voltage level at the generator terminals by comparing it to the reference. The reference in 
+older mechanical AVR was often a spring or saturating reactor. Today, the AVR reference is often a zener diode; 
+a very stable voltage device. The desired voltage level is set by the voltage adjust rheostat. This voltage level is 
+compared to the terminal voltage. The reference in the error detector is fed through the amplifier to the power 
+section (usually triggering an SCR) to feed the exciter field. The power section provides the exciter field with more 
+or less current depending on the error signal requirement. For example, the AVR may call for increased excitation 
+because of falling terminal voltage. The increased excitation brings the voltage back up, but by the time the AVR 
+senses and responds to the need to drop the excitation once more, the voltage may tend to overshoot. As a result, 
+oscillations occur. Therefore, the stability circuit anticipates restoration of voltage, so over-correction is avoided.
+The excitation control system in a synchronous generator is usually a feedback control system consisting of the 
+exciter and the AVR. Open loop systems are seldom used.
+The system components involved in meeting performance specifications are the synchronous generator, the 
+AVR, and the exciter. These three components and their interaction are responsible for the following performance 
+characteristics.
+• Synchronous Generator — Total harmonic content, maximum single harmonic, crest factor, form factor, 
+deviation factor, and phase voltage balance.
+• AVR — Stable recovery voltage, maximum voltage modulation, frequency of modulation, voltage drift with 
+ambient temperature, voltage drift with time, cold-to-hot drift, and voltage regulation. Maintaining voltage 
+regulation means keeping the generator within the specified load range, power factor range, and ambient 
+temperature range.
+• Generator And Exciter — Maximum voltage dip, maximum voltage overshoot, and recovery time. 
+The steady-state voltage variation is the percentage fluctuation allowed by the voltage regulator under constant 
+load, temperature, and engine speed. Generator sets generally provide much less variation than the normal 
+utility; but in some applications, especially paralleling, close regulation may be a sales advantage. Cat generators 
+have a steady state regulation of ±0.5% from nominal voltage (constant load, constant temperature and constant 
+frequency).
+No Load (N.L.) to Full Load (F.L.) voltage regulation is the measure of a generator set’s ability to return to rated 
+voltage after the application of a load. Low variation is desirable because voltage drop causes increased current 
+flow and heating in electric motors which can reduce their life. Low voltage can also cause breakers to trip 
+unnecessarily. All Cat generators have 1% N.L. to F.L. regulation.
+Caterpillar has led the industry in regulators with three-phase voltage sensing. Most Cat generators are equipped 
+to sense three-phase voltage. Three-phase sensing averages all three-voltage phases, resulting in better 
+regulation; especially when the load is unbalanced. The most significant benefit is the ability to handle the three-
+phase silicone controlled rectifier (SCR) drives used in systems such as uninterruptible power supplies (UPS).
+
+G E N E R A T O R S Y S T E M S
+
+Exciter & Regulator Characteristics and Performance
+A key requirement of a generator set is its ability to recover from load transients. With a constant voltage 
+regulator, it is possible to overload an engine during load applications to the point that it cannot recover speed. 
+Most modern generators, therefore, utilize a regulator which permits a brief voltage droop proportional to 
+speed droop (volts/Hz) upon application of a load. With this volts-per-hertz relationship, the regulator reduces 
+the voltage in proportion to speed when a large block of load is applied causing a drop in engine speed. This 
+reduction in voltage reduces the kW load allowing the engine to recover to rated speed and frequency. Figure 
+8.3 and Figure 8.4 shows a comparison between the response of a constant voltage regulator system and a volts-
+per-hertz type. Volts-per-hertz regulators are standard on Cat generators and available as an option on some 
+competitive generators.
+Figure 8.3
+Figure 8.4
+A two-volts-per-hertz system regulates in the same fashion but the regulation is twice as aggressive. One 
+significant characteristic of the V/Hz curve is a double knee frequency. This refers to the allowed variation in 
+frequency (usually around 2-3 hertz) from the rated frequency before regulation occurs. This difference allows for 
+minor variations in frequency without changing the voltage unnecessarily.
+8.2.1 Performance
+Figure 8.5 illustrates the relationship between the AVR and load application. It demonstrates that a transient 
+condition without an AVR (therefore, with constant excitation) causes the terminal voltage of the generator 
+to decrease to a lower voltage until it reaches a steady state. This lower voltage depends upon the generator 
+regulation, sometimes called inherent regulation. For most applications, this inherent regulation is unsatisfactory.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Exciter & Regulator Characteristics and Performance
+Figure 8.5
+With an AVR producing a high excitation, the terminal voltage will recover its initial value or a value within the 
+steady-state tolerance. With a solid-state AVR, the recovery is quite rapid.
+Note: Steady-state tolerance is the acceptable recovery range for terminal voltage.
+Figure 8.6 shows the results of faster and slower response times of excitation and regulation systems to a 
+transient load. The voltage dip is greater for the slow response system than for the fast response system. The 
+voltage also continues to follow the inherent regulation characteristic and consequently drops to a lower value 
+than the faster system voltage.
+Figure 8.6
+An inductive coil, such as a field winding, will not allow current to build up immediately. The rate of buildup is 
+determined by what is called a time constant. The coil time constant is measured in seconds and is inductance 
+(Henrys) divided by resistance (ohms). Thus, a coil with an inductance of 2.0 Henrys and a resistance of 2 ohms 
+would have a time constant of 2.0 divided by 2.0 equals 1.0 seconds. So, 1.0 second is required to reach 63% of 
+the final current value of voltage divided by resistance. The current will reach 100% value in five time constants. 
+To continue the example, 100% current will be reached in 5 x 1.0, or 5.0 seconds.
+Since the excitation system and the generator have several inductive coils within them, their associated time 
+constants will have an effect on how fast the magnetic fields respond to a change in voltage. Even though the 
+AVR may react to a change in output voltage almost instantaneously, the exciter field, the exciter armature, the 
+main field and the main generator time constants will prevent a corresponding instantaneous change in generator 
+terminal voltage. These time constants must be taken into account with any transient response time.
+The excitation voltage for the exciter field of a brushless generator is provided by the generator output. For 
+steady-state loads and most transient loads, this power is sufficient. However, generator output voltage drops 
+under transient loading. Voltage to the AVR drops, as well. If the voltage drop is severe, the reduction in voltage 
+to the exciter field will cause the main generator voltage to collapse or “fold-up.” To avoid this, a booster
+
+G E N E R A T O R S Y S T E M S
+
+Exciter & Regulator Characteristics and Performance
+arrangement, also called a series-boost, is used for generators that might be subjected to extreme loading (e.g. 
+short circuits). The series-boost employs a current transformer, which supplies voltage to the exciter field during 
+high current loading transients. Also, the permanent magnet pilot exciter supplies current to the exciter field 
+independent of the generator output voltage. Therefore, the pilot exciter sustains high current transient loading, 
+as well.
+Controlling excitation with the reactive load is one way of sharing the reactive load between paralleled generators.
+A broad manual voltage adjustment range is required for some applications, particularly when operating the same 
+generator at 120/208 volts or 240/480 volts. Broad voltage adjustment can go as high as 20%.
+Protective features that can be added to a generator excitation system are:
+• Over/Under Voltage
+• Sensing Loss
+• Over-Excitation
+• Over-Frequency
+• Loss of Excitation
+Some of the features listed are redundant. A generator will never need all these features in a single application. A 
+small generator will use very few of these features.
+8.2.2 Generator Voltage Specifications
+Note: The numbers represented by “n” in the specifications below will vary depending on the generator set and 
+application.
+Voltage regulation specifications are met when the following occur:
+1. Generator voltage accuracy must be within plus or minus “n” percent with a frequency change of no more than 
+plus or minus “n” percent when the load varies between no load and rated load.
+2. With constant load, generator voltage must remain within “n” percent at an ambient temperature range of “n” 
+degrees Celsius to “n” degrees Celsius.
+3. A constant load and ambient temperature generator voltage drift must not exceed “n” percent for an “n” hour 
+period.
+4. When the generator is started cold, voltage must not vary more than plus or minus “n” percent for the first “n” 
+minutes at constant load and ambient temperature.
+5. Transient Performance — Upon application or rejection of “n” load, generator voltage must not vary more than 
+“n” percent from the initial voltage and must recover to and stay within “n” percent of the initial voltage within 
+“n” seconds.
+Response time is the time required for the AVR to respond to a specific change in sensed voltage. An AVR uses 
+the following voltage sensing functions.
+• Single-Phase: If the load is unbalanced and the loaded phase is sensed, the unloaded phase voltages will be 
+high. If the unloaded phase is sensed, the loaded phase voltage will be low.
+• Three-Phase: The voltage spread between loaded and unloaded phases is equal and is averaged around the 
+true voltage.
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Exciter & Regulator Characteristics and Performance
+• True RMS: For 1-phase and 3-phase sensing, true RMS sensing is not affected by irregular waveforms. 
+Waveform tolerance is the amount of non-sinusoidal waveform that can be handled by AVR sensing without 
+loss of accuracy. Radio frequency interference suppression may be added to aid waveform tolerance.
+8.2.3 Frequency Sensing
+Soft Regulation
+Voltage and frequency dip determines the generator set’s ability to pick up large block loads. As the frequency 
+decreases, reducing the voltage reduces the kW load by the square of the voltage (or P = V2/R), enabling the 
+engine speed to recover faster. Reducing voltage with frequency also allows the machine to operate at a 
+reduced speed without damage to the exciter or generator field. Voltage reduction can be programmed on some 
+regulators to reduce voltage faster or slower.
+Hard Regulation
+When using constant volts-per-hertz, the engine is loaded more and will require more time to recover. Induction 
+motor flux density remains constant. It is, therefore, possible to control motor speed through engine speed 
+control, with certain limitations.
+8.2.4 Type
+The automatic voltage regulator, VR3, is the analog version. It is standard in many small to medium sized 
+generator sets and is the more cost effective of the two types. It can sense in three-phase and in single-phase 
+in a self-excited set-up. It can be configured in a volts-per-hertz regulating configuration that provides superior 
+engine speed control and stability. In a VR3F or flat-top design, the volts-per-hertz slope is twice as steep 
+allowing for added stability and control of overshoot.
+The Digital Voltage Regulator (DVR) is the digital version of the Cat voltage regulator. RMS sensing is standard on 
+this package and gives it better capabilities. It is typically used in medium to larger sized generator sets. It can 
+provide superior volts-per-hertz regulation because it can be programmed to a specific application.
+The Cat Digital Voltage Regulator (Cat DVR) is a microprocessor based voltage digital voltage regulator is to 
+regulate the output voltage of a generator that is used with an engine generator set. Control power for the Digital 
+Voltage Regulator is supplied from an external 24 DCV source. The power stage of the Digital Voltage Regulator 
+can be supplied from a multi-pole, high frequency, permanent magnet generator (PMG), from the generator output 
+(shunt excitation), or from auxiliary windings that are included on some generators. Connections to the Digital 
+Voltage Regulator are made through three multi-pin, plug type connectors. The communication between the 
+Digital Voltage Regulator and a service tool is accomplished using a CANBUS protocol.
+Caterpillar has also introduced the IVR (Integrated Voltage Regulator) onto some of its gensets. Its functionality is 
+similar to that of the Cat DVR in that it functions to regulate the output of the generator paired with an engine in a 
+generator set. The incorporation of the IVR removes duplication of voltage and current sensing when compared 
+to the Cat DVR. It also removes the duplication of setpoints. Its functionality and accuracy matches the Cat DVR 
+specifications and transient performance as with Cat DVR with fewer setpoints and less wiring.
+
+G E N E R A T O R S Y S T E M S
+
+Notes
+
+A P P L I C A T I O N & I N S T A L L A T I O N G U I D E
+
+Notes
+
+www.cat.com/power-systems
+LEBW4993-04 (4-18)
+©2018 Caterpillar. All rights reserved. CAT, CATERPILLAR, BUILT FOR IT, their respective logos, ACERT, “Caterpillar Yellow”, the “Power Edge” 
+trade dress as well as corporate and product identity used herein, are trademarks of Caterpillar and may not be used without permission.

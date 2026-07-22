@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TIA-942-7.3.4",
+    "source": "TIA-942-B",
+    "content": "Section 7.3.4 - Generator Systems: Standby generator systems shall be rated for continuous duty operation at site altitude and ambient temperature. Fuel storage shall support a minimum of 24 hours at full load for Tier III and 96 hours for Tier IV. Generator output voltage tolerance shall not exceed +/-5% of nominal. Transfer time from loss of utility to full generator output shall not exceed 10 seconds.",
+    "metadata": {
+      "section": "7.3.4",
+      "tier": "III-IV",
+      "topic": "generators"
+    }
+  },
+  {
+    "id": "TIA-942-7.2.1",
+    "source": "TIA-942-B",
+    "content": "Section 7.2.1 - UPS Systems: Uninterruptible Power Supply systems shall provide a minimum of 10 minutes runtime at full design load. Double-conversion topology is required for Tier III and above. Input voltage range shall accept 480V +/-10% three-phase. UPS output harmonic distortion (THDv) shall not exceed 5% at full linear load.",
+    "metadata": {
+      "section": "7.2.1",
+      "tier": "III-IV",
+      "topic": "ups"
+    }
+  },
+  {
+    "id": "TIA-942-6.5.1",
+    "source": "TIA-942-B",
+    "content": "Section 6.5.1 - Cable Pathways: All cable pathways shall be rated for the intended load. Minimum cable tray width shall be 300mm for power distribution. Separation between power and data cables shall be maintained at a minimum 300mm horizontal distance or 150mm with metal barrier. Cable fill shall not exceed 40% of tray cross-sectional area.",
+    "metadata": {
+      "section": "6.5.1",
+      "tier": "I-IV",
+      "topic": "cabling"
+    }
+  },
+  {
+    "id": "TIA-942-5.3.2",
+    "source": "TIA-942-B",
+    "content": "Section 5.3.2 - Cooling Systems: The design cooling capacity shall accommodate 110% of the IT load. CRAC unit redundancy shall comply with N+1 for Tier III. Supply air temperature at equipment inlet shall be maintained between 18degC and 27degC (ASHRAE A1 class). Humidity shall be controlled between 40% and 60% RH non-condensing.",
+    "metadata": {
+      "section": "5.3.2",
+      "tier": "III",
+      "topic": "cooling"
+    }
+  },
+  {
+    "id": "ASHRAE-90.4-5.1",
+    "source": "ASHRAE 90.4-2019",
+    "content": "Section 5.1 - Mechanical Load Component (MLC): The MLC shall not exceed 0.20 for all climate zones. Airside economizer shall be utilized where the climate allows free cooling for more than 1,200 hours per year. Power Usage Effectiveness (PUE) target for new construction shall be <=1.4 for Tier III equivalent facilities.",
+    "metadata": {
+      "section": "5.1",
+      "standard": "ASHRAE 90.4-2019",
+      "topic": "energy_efficiency"
+    }
+  },
+  {
+    "id": "UPTIME-TIER3-4.1.2",
+    "source": "Uptime Institute Tier Standard",
+    "content": "Tier III Concurrently Maintainable - Section 4.1.2: All capacity and distribution components must be concurrently maintainable. Site infrastructure must be capable of undergoing planned maintenance activities while supporting the critical environment. Redundant distribution paths N+1 are required. Annual site downtime shall not exceed 1.6 hours (99.982% availability).",
+    "metadata": {
+      "tier": "III",
+      "standard": "Uptime Institute",
+      "topic": "availability"
+    }
+  },
+  {
+    "id": "TIA-942-7.4.3",
+    "source": "TIA-942-B",
+    "content": "Section 7.4.3 - Grounding and Bonding: All data center equipment shall be bonded to a single point ground (SPG) reference. The grounding electrode system shall achieve a resistance of <=1 ohm to earth. Signal Reference Grid (SRG) shall be installed in raised floor installations. Equipotential bonding conductors shall be minimum 6 AWG copper.",
+    "metadata": {
+      "section": "7.4.3",
+      "tier": "I-IV",
+      "topic": "grounding"
+    }
+  },
+  {
+    "id": "NFPA-75-6.2",
+    "source": "NFPA 75",
+    "content": "Section 6.2 - Fire Suppression: Computer rooms housing IT equipment shall be protected by an automatic sprinkler system or a clean agent suppression system. Clean agent systems shall comply with NFPA 2001. Pre-action sprinkler systems are permitted as an alternative. Detection systems shall include both smoke and heat detection with cross-zoning.",
+    "metadata": {
+      "section": "6.2",
+      "standard": "NFPA 75",
+      "topic": "fire_suppression"
+    }
+  }
+]

@@ -1,0 +1,242 @@
+Appendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 1/3 
+ 
+ACCEPTANCE TEST PROCEDURE FOR 10 KVA ONLINE UPS 
+1. Supply, Installation and Commissioning of 10 KVA online UPS at ADRDE will be done by 
+vendor /Supplier. 
+2. After installation & commissioning, visual and technical inspection including load test will be 
+carried out as specified below by rep ADRDE 
+S.No 
+ATP Method 
+1. 
+Load test 
+2. 
+By Function test 
+3. 
+Data sheet 
+4. 
+AC 3-phase 300V- 450V, sine 
+wave, 50hz 
+By Function test/Data sheet 
+5. 
+AC Single phase 230+/- 1%, sine 
+wave, 50 hz 
+By Function test/Data sheet 
+6. 
+By certificate 
+7. 
+Batteries provided with 
+UPS 
+Shall be provided along with 
+Battery 
+By visual inspection 
+8. 
+SMF VRLA Conforming to 
+JISC:8702, stationary lead acid 
+Batteries conforming to IS 
+:13369:1992 latest 
+9. 
+By function test 
+10. 
+By function test/data sheet 
+11. 
+By physical inspection 
+12. 
+By certificate 
+13. 
+Inbuilt isolation 
+transformer 
+By visual inspection 
+14. 
+>=90% with inbuilt isolation 
+transformer 
+By data sheet 
+15. 
+Power Factor load 
+supported 
+By data sheet 
+16. 
+20% overload for minimum 10 
+minute 
+By function test/data sheet 
+17. 
+Total harmonic distortion 
+THD 
+By data sheet 
+18. 
+Crest factor on fill non liner load is 
+not less than 3:1 
+transit repose time < 20 
+milliseconds , 
+By data sheet/certificates
+
+Appendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 2/3 
+ 
+UPS input power factor better than 
+0.95 
+19. 
+cabling 6 meter(3 meter input and 
+output up to 3 meter ) 
+By visual/Physical inspection 
+20. 
+-Under voltage/Over voltage at 
+battery terminal, 
+- Short circuit & overload at UPS 
+output terminal, - Over temperature 
+protection 
+By Function test/visual/ 
+Physical inspection 
+21. 
+Input voltage, output voltage, input 
+current, 
+output 
+current, 
+input 
+frequency, output frequency, input 
+power factor, battery voltage and 
+current. 
+By 
+Function 
+test/visual/ 
+Physical inspection 
+22. 
+Indicator for main presence, 
+battery charging, low battery with 
+audible alarm, output overload with 
+By Function test/visual/ 
+Physical inspection 
+23. 
+Type of design / 
+construction 
+By visual/ Physical inspection 
+24. 
+minimum 1.2 mm thickness of MS 
+sheet duty power coated 
+By visual/ Physical inspection 
+25. 
+Degree of protection of 
+UPS 
+26. 
+By Function test/visual/ 
+Physical inspection 
+27. 
+Other constructional 
+features 
+Main ON/OFF MCB, battery 
+ON/OFF MCB , Battery fuse, 
+inverter reset push button, static by 
+pass, manual by pass, expandable 
+rack facility, 
+By Function test/visual/ 
+Physical inspection 
+28. 
+29. 
+30. 
+31. 
+Type test report as per govt lab/ 
+NABL accredited lab
+
+Appendix ‘C' to Demand No - 24041008 Dated: 02 FEB 2024, Page: 3/3 
+ 
+32. 
+33. 
+Vendor 
+shall 
+provide 
+environmental test report from 
+NABL accredited lab for UPS and 
+all certificates mentioned in these 
+specifications 
+By physical verification 
+34. 
+Yes 
+By certificate/Data sheet 
+35. 
+By certificate/Data sheet 
+3. Battery test report and BIS, CRS/ ROHS certificate will be verified by ADRDE Rep.
+
+TECHNICAL SPECIFICATION FOR 10 KVA ONLINE UPS 
+ 
+S. No 
+1. 
+2. 
+3. 
+4. 
+AC 3-phase 300V- 450V, sine wave, 50hz 
+5. 
+AC Single phase 230+/- 1%, sine wave, 50 hz 
+6. 
+7. 
+Battery provided with UPS 
+Shall be provided along with Battery 
+8. 
+SMF VRLA Conforming to JISC:8702, stationary 
+lead acid Batteries conforming to IS :13369:1992 
+latest 
+9. 
+10. 
+11. 
+12. 
+13. 
+Installation and commissioning 
+Shall be done by vendor at ADRDE 
+14. 
+Preventive maintenance & services 
+Shall be provided Quarterly and as & when 
+required during warranty period 
+15. 
+Inbuilt isolation transformer 
+16. 
+>=90% with inbuilt isolation transformer 
+17. 
+Power Factor load supported 
+18. 
+20% overload for minimum 10 minute 
+19. 
+Total harmonic distortion THD 
+20. 
+Crest factor on fill non liner load is not less than 
+3:1 
+transit repose time < 20 milliseconds , 
+UPS input power factor better than 0.95 
+21. 
+cabling 6 meter(3 meter input and output up to 3 
+meter ) 
+22. 
+- Under voltage/Over voltage at battery terminal,
+
+- Short circuit & overload at UPS output terminal, 
+- Over temperature protection 
+23. 
+Input voltage, output voltage, input current, 
+output current, input frequency, output frequency, 
+input power factor, battery voltage and current. 
+24. 
+Indicator for main presence, battery charging, low 
+battery with audible alarm, output overload with 
+25. 
+Type of design / construction 
+26. 
+minimum 1.2 mm thickness of MS sheet duty 
+power coated 
+27. 
+Degree of protection of UPS 
+28. 
+29. 
+Other constructional features 
+Main ON/OFF MCB, battery ON/OFF MCB , 
+Battery fuse, inverter reset push button, static by 
+pass, manual by pass, expandable rack facility, 
+30. 
+31. 
+32. 
+33. 
+Type test report as per govt lab/ NABL 
+accredited lab 
+34. 
+35. 
+Vendor shall provide environmental test report 
+from NABL accredited lab for UPS and all 
+certificates mentioned in these specifications 
+36. 
+Yes 
+37.

@@ -1,0 +1,137 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\12_Research_Papers\\ComRent-White-Paper.pdf",
+  "filename": "ComRent-White-Paper.pdf",
+  "category": "12_Research_Papers",
+  "parent_category": "12_Research_Papers",
+  "extracted_at": "2026-06-29T19:57:49.700332",
+  "pages": [
+    {
+      "page": 1,
+      "text": "LOAD BANK SOLUTIONS\nIN DATA CENTER\nCOMMISSIONING:\nHow to minimize life-cycle cost while\nmaintaining a competitive edge\nA white paper by\nMILLDAM PUBLIC AFFAIRS\n4/16/2012",
+      "char_count": 168
+    },
+    {
+      "page": 2,
+      "text": "This paper explores how data center operators\nwho execute thorough commissioning and use\nproper load bank testing equipment can\nreduce overall data center life-cycle cost. This\npaper is intended as a cautionary explanation\nof the dangers of a penny-wise and pound-\nfoolish approach.\nUsing load testing to reduce life-\ncycle cost :\nThe competitive advantages of getting the data\ncenter commissioning process right the first\ntime are obvious. Early in the design phase, it\nis vital to assess how new technology can\naccelerate schedules and reduce labor costs.\nThis paper addresses the benefits of employing\nsophisticated load bank testing and partnering\nwith a top-notch equipment/services provider\nto ensure full operational availability of a new\ndata center upon deployment.\nIdentifying and correcting problems early is of\ncourse preferable to costly late-stage project\ndelays or operational downtime. A proactive,\nstructured approach to load bank testing\nduring the design phase of a data center\nprovides precise validation of infrastructure\npower and cooling requirements prior to\ndeployment. \nRoom \ndesign, \nequipment\nplacement, and cooling-system effectiveness\ncan either be validated or referred back to\nengineers and facility designers for redesign\nwhile keeping a data center project within\nschedule and on budget.\nState-of-the-art load bank testing systems offer\nprecise simulation of future thermal and\nelectrical loads in a specific physical setting,\nthus ensuring that all test specifications are\nplanned for and met. Early validation of data\ncenter \ndesign \nspecifications \ncontributes\nsignificantly to keeping the construction project\non schedule and within budget. With typical\ncosts of $60K for load bank rental and $300K\nfor commissioning, any costs related to\npartnering with a premium load bank provider\nare easily offset by the avoidance of expensive\nproblems post-deployment. According to\nhistorical \ndata \nprovided \nby \nComRent,\nenterprises can save at least 10% in labor costs\nduring the typical five- to ten-year life span by\nusing appropriate levels of load testing during\ncommissioning. \nBenefits of structured data center\ncommissioning\nBeyond the obvious advantage of ensuring\noperational success of a newly constructed\ndata center via validation of system design\nand performance, load bank testing is also\ncritical to success in the following activities:",
+      "char_count": 2381
+    },
+    {
+      "page": 3,
+      "text": "•\nMinimizing data center configuration\nchanges during commissioning \nprocess\n•\nEnsures project on time and within\nbudget\n•\nValidates adequacy of configuration for\nimmediate post-deployment operations\n•\nDocumenting thermal and electrical\nload requirements\n•\nReassures clients of uninterrupted\nservice by confirming that equipment \nmeets all test specifications\n•\nReduces technical and financial risk of\nfuture data center upgrade or \nexpansion\n•\nUses baseline test data to evaluate\nperformance\n•\nEnsuring accuracy of budgetary data\n•\nValidates capital expenditure (CAPEX)\nbudget by confirming that equipment\nmeets all test specifications\n•\nConfirms power and cooling\nrequirements for incorporation into \noperating expense (OPEX) budget\n•\nSupporting the client through various\nbureaucratic procedures\n•\nProvides integrated commissioning plan\nto fulfill requirements of contact \naward/negotiation process\n•\nEnsures compliance with local, state and\nfederal environmental regulations – vital\nto construction permits\n•\nAssists client in attaining Leadership in\nEnergy and Environmental Design (LEED)\ncertification",
+      "char_count": 1107
+    },
+    {
+      "page": 4,
+      "text": "Incorporating load testing into data\ncenter planning and design\nEven a simplified project management\ntimeline for a data center should include\nintegrated testing and commissioning plans\nearly in the design phase. This will ensure\nthat all power consumption and cooling\nspecifications are addressed long before\nproduction systems are installed. Sometimes\nmanagers question the extra effort and\nexpense of load bank testing, not realizing its\ntremendous value to successful data center\ncommissioning, deployment, operation and\nfuture upgrades or expansions.\nEffective data center planning involves two\nphases of testing/commissioning:\nPhase 1 - Integrated Testing Plan\nAn integrated testing plan is developed in\nthe first phase of planning for commissioning\nof the data center. This enables the business\nenterprise to integrate the commissioning\nplan as early as possible into the design\nphase. The integrated testing plan supports\na thorough risk assessment that focuses on:\n• Reducing or eliminating financial and \ntechnical risks of re-engineering\n• Verifying system performance prior to \nproduction using a simulated operating\nenvironment\n• Identifying path toward LEED \ncertification\nPhase 2 - Integrated Commissioning Plan\nAfter the integrated testing plan is complete,\na more detailed integrated commissioning\nplan is developed. The commissioning plan\nenables a timely focus on the practicalities of\ndata center infrastructure requirements.\nCommissioning plans provide a template for\nthe following:\n• Validation of production systems before\ndesign is locked in place\n• Development of power consumption \nand cooling specifications\n• Collection of data to support future \nexpansions/upgrades",
+      "char_count": 1694
+    },
+    {
+      "page": 5,
+      "text": "Planning\nTesting\nCommissioning\nSchedule\nFinancial\nBegan coordination with load\nbank provider one year before\nstart of commissioning\nIntegrated testing plan with\nsimulation of thermal & electrical\nloads\nIntegrated commissioning plan\nto validate design specs &\noperational performance\nHighly reliable data center\ncompleted on time\nCost-efficient data center\ndelivered within budget\n*Actual examples as summarized by ComRent \nTABLE ! - Planning for data center commissioning – 2 case studies *\nFactors impacting choice of one global provider vs. specialized providers\nISSU\nAPPROACH\nCustomer A\nCustomer B\nJust in Time\nProactive Planning\nAssumed any deficiencies would\nbe corrected during\ncommissioning process\nBegan coordination with load\nbank provider one year before\nstart of commissioning\nNo formal testing plan\nNo formal commissioning plan\nConstruction project in jeopardy,\nrequired last minute rescue by\nComRent\nIncurred great financial risk due\nto delays and technical problems",
+      "char_count": 979
+    },
+    {
+      "page": 6,
+      "text": "“Just in time” planning vs. proactive\napproach to data center \nconstruction\nAs summarized in Table 1, Customer A\nwaited until it became clear that its data\ncenter construction project was in jeopardy\nto call in ComRent to the rescue. Load bank\nsystems had been delivered during the\ndeployment phase from another source, with\nminimal testing/planning. Project engineers\nhad apparently assumed that they could\naddress any unforeseen deficiencies during\nthe actual commissioning process. As a\nresult, there were numerous costly data\ncenter configuration changes and delays in\ndeployment leading to threatened client\ndefections. \nComRent \ndeveloped \ncomprehensive\nsolutions to problems involving electrical and\nthermal \nload \nspecifications, \nlack \nof\ncoordination between the commissioning\nagent \nand \nvarious \ncontractors/\nsubcontractors, reconfiguration of cable\nruns, and placement of equipment.\nCustomer B started planning one year before\nthe start of data center construction. This\ncustomer involved its load bank contractor\n(ComRent) in the development of integrated\ntesting and commissioning plans - including\nexact heat and power simulation of servers\nand \ncommunication \nequipment. \nThis\nproactive approach enabled Business B to\nvalidate design specifications and operational\nperformance before deployment. Simulation\nof data center thermal and electrical loads\nrevealed several thermal and electrical load\nissues that were promptly corrected while\nstaying within existing schedule and budget. \nExpanding use of technology to\nbuild and maintain a state-of-the-art\ndata center\n“ComRent is proud of our pioneering role in\nusing Wi-Fi enabled communications on\nlaptops and Android devices to remotely\nmanage load testing systems. Over the past\nfourteen years we have conducted over\n30,000 \nload \ntests \nwith \nincreasingly\nsophisticated \nequipment, \nachieving \na\n99.99% on-site performance record. Our\ntechnicians work with customers every step\nof the way to ensure that the right power-\ngeneration and cooling equipment are\nalways integrated into a proven design.”\nAdvance planning helps identify data center\ninfrastructure requirements upfront, rather\nthan \nby \nretroactive \nimplementation.\nSkimping on testing of power generation\nand cooling systems is best described as\npenny wise and pound foolish. Project\nmanagers realize the usefulness of an\nintegrated testing plan as a blueprint for\nsimulating actual data center operating",
+      "char_count": 2434
+    },
+    {
+      "page": 7,
+      "text": "conditions prior to equipment installation.\nThey know that test data can pinpoint\nproblems and aid in the development of\nsolutions that ensure that infrastructure,\nupon deployment, is able to perform to its\ndesign capacity. Unfortunately, there can\nsometimes be a temptation to skimp on\ntesting plans in order to move more quickly\ninto construction. This is not effective project\nmanagement from either a cost or schedule\nperspective! Correcting deficiencies that arise\nduring commissioning is expensive and leads\nto unforeseen consequences. \nTo \nlearn \nmore \nabout \nhow\nComRent can help you build\nreliability into your data center\ninfrastructure (new or upgraded),\nplease visit www.comrent.com or\ncall us at 888-881-7118.",
+      "char_count": 722
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "table_index": 0,
+      "rows": 5,
+      "cols": 2,
+      "markdown": "|  |  |\n| --- | --- |\n|  |  |\n|  |  |\n|  |  |\n|  |  |",
+      "raw": [
+        [
+          "",
+          null
+        ],
+        [
+          "",
+          null
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 5,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 2,
+      "markdown": "| Customer A Just in Time | Customer B Proactive Planning |\n| --- | --- |\n| Assumed any deficiencies would be corrected during commissioning process Began coordination with load bank provider one year before start of commissioning |  |\n| No formal testing plan |  |\n| No formal commissioning plan |  |\n| Construction project in jeopardy, required last minute rescue by ComRent |  |\n| Incurred great financial risk due to delays and technical problems |  |",
+      "raw": [
+        [
+          "Customer A\nJust in Time",
+          "Customer B\nProactive Planning"
+        ],
+        [
+          "Assumed any deficiencies would\nbe corrected during\ncommissioning process\nBegan coordination with load\nbank provider one year before\nstart of commissioning",
+          null
+        ],
+        [
+          "No formal testing plan",
+          null
+        ],
+        [
+          "No formal commissioning plan",
+          null
+        ],
+        [
+          "Construction project in jeopardy,\nrequired last minute rescue by\nComRent",
+          null
+        ],
+        [
+          "Incurred great financial risk due\nto delays and technical problems",
+          null
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 0,
+      "rows": 2,
+      "cols": 2,
+      "markdown": "|  |  |\n| --- | --- |\n|  | To learn more about how ComRent can help you build reliability into your data center infrastructure (new or upgraded), please visit www.comrent.com or call us at 888-881-7118. |",
+      "raw": [
+        [
+          "",
+          null
+        ],
+        [
+          null,
+          "To learn more about how\nComRent can help you build\nreliability into your data center\ninfrastructure (new or upgraded),\nplease visit www.comrent.com or\ncall us at 888-881-7118."
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 7,
+    "title": "Layout 1",
+    "author": "",
+    "subject": "",
+    "creator": "QuarkXPress(R) 9.21"
+  },
+  "full_text": "LOAD BANK SOLUTIONS\nIN DATA CENTER\nCOMMISSIONING:\nHow to minimize life-cycle cost while\nmaintaining a competitive edge\nA white paper by\nMILLDAM PUBLIC AFFAIRS\n4/16/2012\n\nThis paper explores how data center operators\nwho execute thorough commissioning and use\nproper load bank testing equipment can\nreduce overall data center life-cycle cost. This\npaper is intended as a cautionary explanation\nof the dangers of a penny-wise and pound-\nfoolish approach.\nUsing load testing to reduce life-\ncycle cost :\nThe competitive advantages of getting the data\ncenter commissioning process right the first\ntime are obvious. Early in the design phase, it\nis vital to assess how new technology can\naccelerate schedules and reduce labor costs.\nThis paper addresses the benefits of employing\nsophisticated load bank testing and partnering\nwith a top-notch equipment/services provider\nto ensure full operational availability of a new\ndata center upon deployment.\nIdentifying and correcting problems early is of\ncourse preferable to costly late-stage project\ndelays or operational downtime. A proactive,\nstructured approach to load bank testing\nduring the design phase of a data center\nprovides precise validation of infrastructure\npower and cooling requirements prior to\ndeployment. \nRoom \ndesign, \nequipment\nplacement, and cooling-system effectiveness\ncan either be validated or referred back to\nengineers and facility designers for redesign\nwhile keeping a data center project within\nschedule and on budget.\nState-of-the-art load bank testing systems offer\nprecise simulation of future thermal and\nelectrical loads in a specific physical setting,\nthus ensuring that all test specifications are\nplanned for and met. Early validation of data\ncenter \ndesign \nspecifications \ncontributes\nsignificantly to keeping the construction project\non schedule and within budget. With typical\ncosts of $60K for load bank rental and $300K\nfor commissioning, any costs related to\npartnering with a premium load bank provider\nare easily offset by the avoidance of expensive\nproblems post-deployment. According to\nhistorical \ndata \nprovided \nby \nComRent,\nenterprises can save at least 10% in labor costs\nduring the typical five- to ten-year life span by\nusing appropriate levels of load testing during\ncommissioning. \nBenefits of structured data center\ncommissioning\nBeyond the obvious advantage of ensuring\noperational success of a newly constructed\ndata center via validation of system design\nand performance, load bank testing is also\ncritical to success in the following activities:\n\n•\nMinimizing data center configuration\nchanges during commissioning \nprocess\n•\nEnsures project on time and within\nbudget\n•\nValidates adequacy of configuration for\nimmediate post-deployment operations\n•\nDocumenting thermal and electrical\nload requirements\n•\nReassures clients of uninterrupted\nservice by confirming that equipment \nmeets all test specifications\n•\nReduces technical and financial risk of\nfuture data center upgrade or \nexpansion\n•\nUses baseline test data to evaluate\nperformance\n•\nEnsuring accuracy of budgetary data\n•\nValidates capital expenditure (CAPEX)\nbudget by confirming that equipment\nmeets all test specifications\n•\nConfirms power and cooling\nrequirements for incorporation into \noperating expense (OPEX) budget\n•\nSupporting the client through various\nbureaucratic procedures\n•\nProvides integrated commissioning plan\nto fulfill requirements of contact \naward/negotiation process\n•\nEnsures compliance with local, state and\nfederal environmental regulations – vital\nto construction permits\n•\nAssists client in attaining Leadership in\nEnergy and Environmental Design (LEED)\ncertification\n\nIncorporating load testing into data\ncenter planning and design\nEven a simplified project management\ntimeline for a data center should include\nintegrated testing and commissioning plans\nearly in the design phase. This will ensure\nthat all power consumption and cooling\nspecifications are addressed long before\nproduction systems are installed. Sometimes\nmanagers question the extra effort and\nexpense of load bank testing, not realizing its\ntremendous value to successful data center\ncommissioning, deployment, operation and\nfuture upgrades or expansions.\nEffective data center planning involves two\nphases of testing/commissioning:\nPhase 1 - Integrated Testing Plan\nAn integrated testing plan is developed in\nthe first phase of planning for commissioning\nof the data center. This enables the business\nenterprise to integrate the commissioning\nplan as early as possible into the design\nphase. The integrated testing plan supports\na thorough risk assessment that focuses on:\n• Reducing or eliminating financial and \ntechnical risks of re-engineering\n• Verifying system performance prior to \nproduction using a simulated operating\nenvironment\n• Identifying path toward LEED \ncertification\nPhase 2 - Integrated Commissioning Plan\nAfter the integrated testing plan is complete,\na more detailed integrated commissioning\nplan is developed. The commissioning plan\nenables a timely focus on the practicalities of\ndata center infrastructure requirements.\nCommissioning plans provide a template for\nthe following:\n• Validation of production systems before\ndesign is locked in place\n• Development of power consumption \nand cooling specifications\n• Collection of data to support future \nexpansions/upgrades\n\nPlanning\nTesting\nCommissioning\nSchedule\nFinancial\nBegan coordination with load\nbank provider one year before\nstart of commissioning\nIntegrated testing plan with\nsimulation of thermal & electrical\nloads\nIntegrated commissioning plan\nto validate design specs &\noperational performance\nHighly reliable data center\ncompleted on time\nCost-efficient data center\ndelivered within budget\n*Actual examples as summarized by ComRent \nTABLE ! - Planning for data center commissioning – 2 case studies *\nFactors impacting choice of one global provider vs. specialized providers\nISSU\nAPPROACH\nCustomer A\nCustomer B\nJust in Time\nProactive Planning\nAssumed any deficiencies would\nbe corrected during\ncommissioning process\nBegan coordination with load\nbank provider one year before\nstart of commissioning\nNo formal testing plan\nNo formal commissioning plan\nConstruction project in jeopardy,\nrequired last minute rescue by\nComRent\nIncurred great financial risk due\nto delays and technical problems\n\n“Just in time” planning vs. proactive\napproach to data center \nconstruction\nAs summarized in Table 1, Customer A\nwaited until it became clear that its data\ncenter construction project was in jeopardy\nto call in ComRent to the rescue. Load bank\nsystems had been delivered during the\ndeployment phase from another source, with\nminimal testing/planning. Project engineers\nhad apparently assumed that they could\naddress any unforeseen deficiencies during\nthe actual commissioning process. As a\nresult, there were numerous costly data\ncenter configuration changes and delays in\ndeployment leading to threatened client\ndefections. \nComRent \ndeveloped \ncomprehensive\nsolutions to problems involving electrical and\nthermal \nload \nspecifications, \nlack \nof\ncoordination between the commissioning\nagent \nand \nvarious \ncontractors/\nsubcontractors, reconfiguration of cable\nruns, and placement of equipment.\nCustomer B started planning one year before\nthe start of data center construction. This\ncustomer involved its load bank contractor\n(ComRent) in the development of integrated\ntesting and commissioning plans - including\nexact heat and power simulation of servers\nand \ncommunication \nequipment. \nThis\nproactive approach enabled Business B to\nvalidate design specifications and operational\nperformance before deployment. Simulation\nof data center thermal and electrical loads\nrevealed several thermal and electrical load\nissues that were promptly corrected while\nstaying within existing schedule and budget. \nExpanding use of technology to\nbuild and maintain a state-of-the-art\ndata center\n“ComRent is proud of our pioneering role in\nusing Wi-Fi enabled communications on\nlaptops and Android devices to remotely\nmanage load testing systems. Over the past\nfourteen years we have conducted over\n30,000 \nload \ntests \nwith \nincreasingly\nsophisticated \nequipment, \nachieving \na\n99.99% on-site performance record. Our\ntechnicians work with customers every step\nof the way to ensure that the right power-\ngeneration and cooling equipment are\nalways integrated into a proven design.”\nAdvance planning helps identify data center\ninfrastructure requirements upfront, rather\nthan \nby \nretroactive \nimplementation.\nSkimping on testing of power generation\nand cooling systems is best described as\npenny wise and pound foolish. Project\nmanagers realize the usefulness of an\nintegrated testing plan as a blueprint for\nsimulating actual data center operating\n\nconditions prior to equipment installation.\nThey know that test data can pinpoint\nproblems and aid in the development of\nsolutions that ensure that infrastructure,\nupon deployment, is able to perform to its\ndesign capacity. Unfortunately, there can\nsometimes be a temptation to skimp on\ntesting plans in order to move more quickly\ninto construction. This is not effective project\nmanagement from either a cost or schedule\nperspective! Correcting deficiencies that arise\nduring commissioning is expensive and leads\nto unforeseen consequences. \nTo \nlearn \nmore \nabout \nhow\nComRent can help you build\nreliability into your data center\ninfrastructure (new or upgraded),\nplease visit www.comrent.com or\ncall us at 888-881-7118.",
+  "errors": [],
+  "removed_noise_lines": [
+    "LOAD BANK SOLUTIONS IN DATA CENTER COMMISSIONING"
+  ]
+}

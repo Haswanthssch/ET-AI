@@ -1,0 +1,501 @@
+task_id,task_name,phase,duration_days,equipment_tag,predecessors,float_days,is_critical
+T-0001,Site Survey & Geotechnical Assessment #1,CIVIL,23,FOUND-01,,0,1
+T-0002,Earthworks & Excavation #2,CIVIL,3,DRAIN-02,T-0001,0,1
+T-0003,Pile Foundation Installation #3,CIVIL,11,FOUND-03,T-0002,0,1
+T-0004,Concrete Slab Pour (Zone 4),CIVIL,10,FOUND-04,T-0003,0,1
+T-0005,Underground Utility Routing #5,CIVIL,6,DRAIN-05,T-0004,0,1
+T-0006,Site Drainage System #6,CIVIL,20,FOUND-06,T-0005,0,1
+T-0007,Perimeter Security Fencing #7,CIVIL,21,GRND-07,T-0006,0,1
+T-0008,Access Road Construction #8,CIVIL,4,FOUND-08,T-0007,0,1
+T-0009,Retaining Wall Installation #9,CIVIL,5,FOUND-09,T-0008,0,1
+T-0010,Site Survey & Geotechnical Assessment #10,CIVIL,10,DRAIN-10,T-0009,0,1
+T-0011,Earthworks & Excavation #11,CIVIL,22,FOUND-11,T-0010,0,1
+T-0012,Pile Foundation Installation #12,CIVIL,20,FOUND-12,T-0011,0,1
+T-0013,Concrete Slab Pour (Zone 13),CIVIL,25,DRAIN-13,T-0012,0,1
+T-0014,Underground Utility Routing #14,CIVIL,25,DRAIN-14,T-0013,0,1
+T-0015,Site Drainage System #15,CIVIL,16,FOUND-15,T-0014,0,1
+T-0016,Perimeter Security Fencing #16,CIVIL,17,DRAIN-16,T-0015,0,1
+T-0017,Access Road Construction #17,CIVIL,11,FOUND-17,T-0016,0,1
+T-0018,Retaining Wall Installation #18,CIVIL,8,DRAIN-18,T-0017,0,1
+T-0019,Site Survey & Geotechnical Assessment #19,CIVIL,16,GRND-19,T-0018,0,1
+T-0020,Earthworks & Excavation #20,CIVIL,11,FOUND-20,T-0019,0,1
+T-0021,Pile Foundation Installation #21,CIVIL,9,GRND-21,T-0020,0,1
+T-0022,Concrete Slab Pour (Zone 22),CIVIL,6,FOUND-22,T-0021,0,1
+T-0023,Underground Utility Routing #23,CIVIL,15,FOUND-23,T-0022,0,1
+T-0024,Site Drainage System #24,CIVIL,14,GRND-24,T-0023,0,1
+T-0025,Perimeter Security Fencing #25,CIVIL,22,GRND-25,T-0024,0,1
+T-0026,Access Road Construction #26,CIVIL,4,DRAIN-26,T-0025,0,1
+T-0027,Retaining Wall Installation #27,CIVIL,17,DRAIN-27,T-0026,0,1
+T-0028,Site Survey & Geotechnical Assessment #28,CIVIL,6,GRND-28,T-0027,0,1
+T-0029,Earthworks & Excavation #29,CIVIL,5,DRAIN-29,T-0028,0,1
+T-0030,Pile Foundation Installation #30,CIVIL,12,DRAIN-30,T-0029,0,1
+T-0031,Concrete Slab Pour (Zone 31),CIVIL,22,GRND-31,,372,0
+T-0032,Underground Utility Routing #32,CIVIL,21,FOUND-32,,373,0
+T-0033,Site Drainage System #33,CIVIL,25,FOUND-33,,369,0
+T-0034,Perimeter Security Fencing #34,CIVIL,4,DRAIN-34,,390,0
+T-0035,Access Road Construction #35,CIVIL,10,GRND-35,,384,0
+T-0036,Retaining Wall Installation #36,CIVIL,5,FOUND-36,,389,0
+T-0037,Site Survey & Geotechnical Assessment #37,CIVIL,6,GRND-37,,388,0
+T-0038,Earthworks & Excavation #38,CIVIL,11,GRND-38,,383,0
+T-0039,Pile Foundation Installation #39,CIVIL,23,GRND-39,,371,0
+T-0040,Concrete Slab Pour (Zone 40),CIVIL,8,GRND-40,,386,0
+T-0041,Underground Utility Routing #41,CIVIL,14,FOUND-41,,380,0
+T-0042,Site Drainage System #42,CIVIL,24,GRND-42,,370,0
+T-0043,Perimeter Security Fencing #43,CIVIL,25,DRAIN-43,,369,0
+T-0044,Access Road Construction #44,CIVIL,23,FOUND-44,,371,0
+T-0045,Retaining Wall Installation #45,CIVIL,22,DRAIN-45,,372,0
+T-0046,Site Survey & Geotechnical Assessment #46,CIVIL,8,DRAIN-46,,386,0
+T-0047,Earthworks & Excavation #47,CIVIL,10,FOUND-47,,384,0
+T-0048,Pile Foundation Installation #48,CIVIL,17,GRND-48,,377,0
+T-0049,Concrete Slab Pour (Zone 49),CIVIL,11,DRAIN-49,,383,0
+T-0050,Underground Utility Routing #50,CIVIL,25,DRAIN-50,,369,0
+T-0051,Site Drainage System #51,CIVIL,10,DRAIN-51,,384,0
+T-0052,Perimeter Security Fencing #52,CIVIL,13,FOUND-52,,381,0
+T-0053,Access Road Construction #53,CIVIL,10,FOUND-53,,384,0
+T-0054,Retaining Wall Installation #54,CIVIL,13,GRND-54,,381,0
+T-0055,Site Survey & Geotechnical Assessment #55,CIVIL,11,FOUND-55,,383,0
+T-0056,Earthworks & Excavation #56,CIVIL,9,DRAIN-56,,385,0
+T-0057,Pile Foundation Installation #57,CIVIL,25,GRND-57,,369,0
+T-0058,Concrete Slab Pour (Zone 58),CIVIL,9,DRAIN-58,,385,0
+T-0059,Underground Utility Routing #59,CIVIL,18,GRND-59,,376,0
+T-0060,Site Drainage System #60,CIVIL,23,GRND-60,,371,0
+T-0061,Perimeter Security Fencing #61,CIVIL,7,GRND-61,,387,0
+T-0062,Access Road Construction #62,CIVIL,7,FOUND-62,,387,0
+T-0063,Retaining Wall Installation #63,CIVIL,20,DRAIN-63,,374,0
+T-0064,Site Survey & Geotechnical Assessment #64,CIVIL,11,DRAIN-64,,383,0
+T-0065,Earthworks & Excavation #65,CIVIL,21,GRND-65,,373,0
+T-0066,Pile Foundation Installation #66,CIVIL,21,GRND-66,,373,0
+T-0067,Concrete Slab Pour (Zone 67),CIVIL,14,FOUND-67,,380,0
+T-0068,Underground Utility Routing #68,CIVIL,7,DRAIN-68,,387,0
+T-0069,Site Drainage System #69,CIVIL,18,FOUND-69,,376,0
+T-0070,Perimeter Security Fencing #70,CIVIL,4,FOUND-70,,390,0
+T-0071,Access Road Construction #71,CIVIL,7,DRAIN-71,,387,0
+T-0072,Retaining Wall Installation #72,CIVIL,8,DRAIN-72,,386,0
+T-0073,Site Survey & Geotechnical Assessment #73,CIVIL,16,DRAIN-73,,378,0
+T-0074,Earthworks & Excavation #74,CIVIL,5,GRND-74,,389,0
+T-0075,Pile Foundation Installation #75,CIVIL,15,DRAIN-75,,379,0
+T-0076,Concrete Slab Pour (Zone 76),CIVIL,17,DRAIN-76,,377,0
+T-0077,Underground Utility Routing #77,CIVIL,11,DRAIN-77,,383,0
+T-0078,Site Drainage System #78,CIVIL,3,DRAIN-78,,391,0
+T-0079,Perimeter Security Fencing #79,CIVIL,6,DRAIN-79,,388,0
+T-0080,Access Road Construction #80,CIVIL,20,GRND-80,,374,0
+T-0081,Retaining Wall Installation #81,CIVIL,23,GRND-81,,371,0
+T-0082,Site Survey & Geotechnical Assessment #82,CIVIL,6,GRND-82,,388,0
+T-0083,Earthworks & Excavation #83,CIVIL,16,FOUND-83,,378,0
+T-0084,Pile Foundation Installation #84,CIVIL,17,FOUND-84,,377,0
+T-0085,Concrete Slab Pour (Zone 85),CIVIL,11,DRAIN-85,,383,0
+T-0086,Underground Utility Routing #86,CIVIL,8,DRAIN-86,,386,0
+T-0087,Site Drainage System #87,CIVIL,6,DRAIN-87,,388,0
+T-0088,Perimeter Security Fencing #88,CIVIL,12,DRAIN-88,,382,0
+T-0089,Access Road Construction #89,CIVIL,19,DRAIN-89,,375,0
+T-0090,Retaining Wall Installation #90,CIVIL,9,FOUND-90,,171,0
+T-0091,Steel Frame Erection (Block 1),STRUCTURAL,14,STEEL-01,T-0090,171,0
+T-0092,Precast Panel Installation #2,STRUCTURAL,20,STEEL-02,T-0091,171,0
+T-0093,Metal Deck Installation #3,STRUCTURAL,22,CONC-03,T-0092,171,0
+T-0094,Concrete Column Pour #4,STRUCTURAL,18,STEEL-04,T-0093,171,0
+T-0095,Secondary Steel Installation #5,STRUCTURAL,6,CONC-05,T-0094,171,0
+T-0096,Roof Structure Assembly #6,STRUCTURAL,12,STEEL-06,T-0095,171,0
+T-0097,Steel Frame Erection (Block 7),STRUCTURAL,4,STEEL-07,T-0096,171,0
+T-0098,Precast Panel Installation #8,STRUCTURAL,21,STEEL-08,T-0097,171,0
+T-0099,Metal Deck Installation #9,STRUCTURAL,5,CONC-09,T-0098,171,0
+T-0100,Concrete Column Pour #10,STRUCTURAL,5,STEEL-10,T-0099,171,0
+T-0101,Secondary Steel Installation #11,STRUCTURAL,7,CONC-11,T-0100,171,0
+T-0102,Roof Structure Assembly #12,STRUCTURAL,20,STEEL-12,T-0101,171,0
+T-0103,Steel Frame Erection (Block 13),STRUCTURAL,11,CONC-13,T-0102,171,0
+T-0104,Precast Panel Installation #14,STRUCTURAL,9,STEEL-14,T-0103,171,0
+T-0105,Metal Deck Installation #15,STRUCTURAL,25,CONC-15,T-0104,171,0
+T-0106,Concrete Column Pour #16,STRUCTURAL,15,CONC-16,T-0105,171,0
+T-0107,Secondary Steel Installation #17,STRUCTURAL,17,CONC-17,,377,0
+T-0108,Roof Structure Assembly #18,STRUCTURAL,6,STEEL-18,,388,0
+T-0109,Steel Frame Erection (Block 19),STRUCTURAL,10,STEEL-19,,384,0
+T-0110,Precast Panel Installation #20,STRUCTURAL,13,STEEL-20,,381,0
+T-0111,Metal Deck Installation #21,STRUCTURAL,21,STEEL-21,,373,0
+T-0112,Concrete Column Pour #22,STRUCTURAL,21,STEEL-22,,373,0
+T-0113,Secondary Steel Installation #23,STRUCTURAL,3,STEEL-23,,391,0
+T-0114,Roof Structure Assembly #24,STRUCTURAL,25,STEEL-24,,369,0
+T-0115,Steel Frame Erection (Block 25),STRUCTURAL,10,STEEL-25,,384,0
+T-0116,Precast Panel Installation #26,STRUCTURAL,4,CONC-26,,390,0
+T-0117,Metal Deck Installation #27,STRUCTURAL,5,STEEL-27,,389,0
+T-0118,Concrete Column Pour #28,STRUCTURAL,11,CONC-28,,383,0
+T-0119,Secondary Steel Installation #29,STRUCTURAL,9,STEEL-29,,385,0
+T-0120,Roof Structure Assembly #30,STRUCTURAL,21,CONC-30,,373,0
+T-0121,Steel Frame Erection (Block 31),STRUCTURAL,10,CONC-31,,384,0
+T-0122,Precast Panel Installation #32,STRUCTURAL,16,STEEL-32,,378,0
+T-0123,Metal Deck Installation #33,STRUCTURAL,6,STEEL-33,,388,0
+T-0124,Concrete Column Pour #34,STRUCTURAL,24,CONC-34,,370,0
+T-0125,Secondary Steel Installation #35,STRUCTURAL,14,CONC-35,,380,0
+T-0126,Roof Structure Assembly #36,STRUCTURAL,16,CONC-36,,378,0
+T-0127,Steel Frame Erection (Block 37),STRUCTURAL,4,STEEL-37,,390,0
+T-0128,Precast Panel Installation #38,STRUCTURAL,4,CONC-38,,390,0
+T-0129,Metal Deck Installation #39,STRUCTURAL,13,STEEL-39,,381,0
+T-0130,Concrete Column Pour #40,STRUCTURAL,10,STEEL-40,,384,0
+T-0131,Secondary Steel Installation #41,STRUCTURAL,9,CONC-41,,385,0
+T-0132,Roof Structure Assembly #42,STRUCTURAL,7,CONC-42,,387,0
+T-0133,Steel Frame Erection (Block 43),STRUCTURAL,8,CONC-43,,386,0
+T-0134,Precast Panel Installation #44,STRUCTURAL,17,STEEL-44,,377,0
+T-0135,Metal Deck Installation #45,STRUCTURAL,5,CONC-45,,389,0
+T-0136,Concrete Column Pour #46,STRUCTURAL,20,STEEL-46,,374,0
+T-0137,Secondary Steel Installation #47,STRUCTURAL,4,STEEL-47,,390,0
+T-0138,Roof Structure Assembly #48,STRUCTURAL,5,STEEL-48,,389,0
+T-0139,Steel Frame Erection (Block 49),STRUCTURAL,8,CONC-49,,386,0
+T-0140,Precast Panel Installation #50,STRUCTURAL,18,CONC-50,,28,0
+T-0141,Air Handling Unit Installation (Room 1),MECHANICAL,9,PUMP-01,T-0140,28,0
+T-0142,CRAC Unit Placement #2,MECHANICAL,4,CRAC-02,T-0141,28,0
+T-0143,Chiller Plant Installation #3,MECHANICAL,15,AHU-03,T-0142,28,0
+T-0144,Cooling Tower Installation #4,MECHANICAL,15,CHILLER-04,T-0143,28,0
+T-0145,Pump Skid Assembly #5,MECHANICAL,17,CHILLER-05,T-0144,28,0
+T-0146,Piping Insulation #6,MECHANICAL,16,PUMP-06,T-0145,28,0
+T-0147,Ductwork Fabrication #7,MECHANICAL,7,CRAC-07,T-0146,28,0
+T-0148,Mechanical Penetrations Sealing #8,MECHANICAL,12,CRAC-08,T-0147,28,0
+T-0149,Air Handling Unit Installation (Room 9),MECHANICAL,4,AHU-09,T-0148,28,0
+T-0150,CRAC Unit Placement #10,MECHANICAL,13,AHU-10,T-0149,28,0
+T-0151,Chiller Plant Installation #11,MECHANICAL,4,PUMP-11,T-0150,28,0
+T-0152,Cooling Tower Installation #12,MECHANICAL,19,CRAC-12,T-0151,28,0
+T-0153,Pump Skid Assembly #13,MECHANICAL,4,AHU-13,T-0152,28,0
+T-0154,Piping Insulation #14,MECHANICAL,8,AHU-14,T-0153,28,0
+T-0155,Ductwork Fabrication #15,MECHANICAL,22,AHU-15,T-0154,28,0
+T-0156,Mechanical Penetrations Sealing #16,MECHANICAL,24,CRAC-16,T-0155,28,0
+T-0157,Air Handling Unit Installation (Room 17),MECHANICAL,15,AHU-17,T-0156,28,0
+T-0158,CRAC Unit Placement #18,MECHANICAL,21,CRAC-18,T-0157,28,0
+T-0159,Chiller Plant Installation #19,MECHANICAL,21,AHU-19,T-0158,28,0
+T-0160,Cooling Tower Installation #20,MECHANICAL,22,AHU-20,T-0159,28,0
+T-0161,Pump Skid Assembly #21,MECHANICAL,16,CHILLER-21,T-0160,28,0
+T-0162,Piping Insulation #22,MECHANICAL,11,CRAC-22,T-0161,28,0
+T-0163,Ductwork Fabrication #23,MECHANICAL,24,CHILLER-23,T-0162,28,0
+T-0164,Mechanical Penetrations Sealing #24,MECHANICAL,10,CHILLER-24,T-0163,28,0
+T-0165,Air Handling Unit Installation (Room 25),MECHANICAL,15,CRAC-25,T-0164,28,0
+T-0166,CRAC Unit Placement #26,MECHANICAL,24,CHILLER-26,,370,0
+T-0167,Chiller Plant Installation #27,MECHANICAL,17,CHILLER-27,,377,0
+T-0168,Cooling Tower Installation #28,MECHANICAL,5,AHU-28,,389,0
+T-0169,Pump Skid Assembly #29,MECHANICAL,17,AHU-29,,377,0
+T-0170,Piping Insulation #30,MECHANICAL,5,CRAC-30,,389,0
+T-0171,Ductwork Fabrication #31,MECHANICAL,19,CHILLER-31,,375,0
+T-0172,Mechanical Penetrations Sealing #32,MECHANICAL,7,CHILLER-32,,387,0
+T-0173,Air Handling Unit Installation (Room 33),MECHANICAL,5,CRAC-33,,389,0
+T-0174,CRAC Unit Placement #34,MECHANICAL,14,CHILLER-34,,380,0
+T-0175,Chiller Plant Installation #35,MECHANICAL,8,PUMP-35,,386,0
+T-0176,Cooling Tower Installation #36,MECHANICAL,20,CHILLER-36,,374,0
+T-0177,Pump Skid Assembly #37,MECHANICAL,22,AHU-37,,372,0
+T-0178,Piping Insulation #38,MECHANICAL,24,CHILLER-38,,370,0
+T-0179,Ductwork Fabrication #39,MECHANICAL,24,AHU-39,,370,0
+T-0180,Mechanical Penetrations Sealing #40,MECHANICAL,7,CHILLER-40,,387,0
+T-0181,Air Handling Unit Installation (Room 41),MECHANICAL,6,AHU-41,,388,0
+T-0182,CRAC Unit Placement #42,MECHANICAL,20,CRAC-42,,374,0
+T-0183,Chiller Plant Installation #43,MECHANICAL,11,CHILLER-43,,383,0
+T-0184,Cooling Tower Installation #44,MECHANICAL,22,CRAC-44,,372,0
+T-0185,Pump Skid Assembly #45,MECHANICAL,25,CHILLER-45,,369,0
+T-0186,Piping Insulation #46,MECHANICAL,9,CHILLER-46,,385,0
+T-0187,Ductwork Fabrication #47,MECHANICAL,19,PUMP-47,,375,0
+T-0188,Mechanical Penetrations Sealing #48,MECHANICAL,11,AHU-48,,383,0
+T-0189,Air Handling Unit Installation (Room 49),MECHANICAL,5,PUMP-49,,389,0
+T-0190,CRAC Unit Placement #50,MECHANICAL,11,AHU-50,,383,0
+T-0191,Chiller Plant Installation #51,MECHANICAL,3,CHILLER-51,,391,0
+T-0192,Cooling Tower Installation #52,MECHANICAL,7,CHILLER-52,,387,0
+T-0193,Pump Skid Assembly #53,MECHANICAL,8,PUMP-53,,386,0
+T-0194,Piping Insulation #54,MECHANICAL,20,PUMP-54,,374,0
+T-0195,Ductwork Fabrication #55,MECHANICAL,20,AHU-55,,374,0
+T-0196,Mechanical Penetrations Sealing #56,MECHANICAL,6,AHU-56,,388,0
+T-0197,Air Handling Unit Installation (Room 57),MECHANICAL,25,CRAC-57,,369,0
+T-0198,CRAC Unit Placement #58,MECHANICAL,20,AHU-58,,374,0
+T-0199,Chiller Plant Installation #59,MECHANICAL,14,CRAC-59,,380,0
+T-0200,Cooling Tower Installation #60,MECHANICAL,16,CRAC-60,,378,0
+T-0201,Pump Skid Assembly #61,MECHANICAL,4,CHILLER-61,,390,0
+T-0202,Piping Insulation #62,MECHANICAL,14,AHU-62,,380,0
+T-0203,Ductwork Fabrication #63,MECHANICAL,14,CRAC-63,,380,0
+T-0204,Mechanical Penetrations Sealing #64,MECHANICAL,24,CRAC-64,,370,0
+T-0205,Air Handling Unit Installation (Room 65),MECHANICAL,24,AHU-65,,370,0
+T-0206,CRAC Unit Placement #66,MECHANICAL,14,PUMP-66,,380,0
+T-0207,Chiller Plant Installation #67,MECHANICAL,22,CRAC-67,,372,0
+T-0208,Cooling Tower Installation #68,MECHANICAL,10,CRAC-68,,384,0
+T-0209,Pump Skid Assembly #69,MECHANICAL,8,PUMP-69,,386,0
+T-0210,Piping Insulation #70,MECHANICAL,3,CRAC-70,,391,0
+T-0211,Ductwork Fabrication #71,MECHANICAL,13,PUMP-71,,381,0
+T-0212,Mechanical Penetrations Sealing #72,MECHANICAL,24,CRAC-72,,370,0
+T-0213,Air Handling Unit Installation (Room 73),MECHANICAL,11,CRAC-73,,383,0
+T-0214,CRAC Unit Placement #74,MECHANICAL,25,AHU-74,,369,0
+T-0215,Chiller Plant Installation #75,MECHANICAL,15,AHU-75,,31,0
+T-0216,Medium Voltage Switchgear Installation (Zone 1),ELECTRICAL,18,SWGR-01,T-0215,31,0
+T-0217,Transformer Energization #2,ELECTRICAL,9,PDU-02,T-0216,31,0
+T-0218,UPS System Installation (Row 3),ELECTRICAL,14,UPS-03,T-0217,31,0
+T-0219,PDU Distribution Installation #4,ELECTRICAL,10,SWGR-04,T-0218,31,0
+T-0220,Generator Set Installation #5,ELECTRICAL,3,SWGR-05,T-0219,31,0
+T-0221,Emergency Power Transfer Testing #6,ELECTRICAL,15,UPS-06,T-0220,31,0
+T-0222,Cable Tray Installation #7,ELECTRICAL,11,XFMR-07,T-0221,31,0
+T-0223,Grounding Grid Installation #8,ELECTRICAL,11,UPS-08,T-0222,31,0
+T-0224,Busway Distribution (Zone 9),ELECTRICAL,23,PDU-09,T-0223,31,0
+T-0225,PLC / SCADA Panel Installation #10,ELECTRICAL,24,UPS-10,T-0224,31,0
+T-0226,Medium Voltage Switchgear Installation (Zone 11),ELECTRICAL,3,XFMR-11,T-0225,31,0
+T-0227,Transformer Energization #12,ELECTRICAL,11,SWGR-12,T-0226,31,0
+T-0228,UPS System Installation (Row 13),ELECTRICAL,21,UPS-13,T-0227,31,0
+T-0229,PDU Distribution Installation #14,ELECTRICAL,4,XFMR-14,T-0228,31,0
+T-0230,Generator Set Installation #15,ELECTRICAL,22,PDU-15,T-0229,31,0
+T-0231,Emergency Power Transfer Testing #16,ELECTRICAL,14,UPS-16,T-0230,31,0
+T-0232,Cable Tray Installation #17,ELECTRICAL,16,XFMR-17,T-0231,31,0
+T-0233,Grounding Grid Installation #18,ELECTRICAL,15,SWGR-18,T-0232,31,0
+T-0234,Busway Distribution (Zone 19),ELECTRICAL,11,XFMR-19,T-0233,31,0
+T-0235,PLC / SCADA Panel Installation #20,ELECTRICAL,25,PDU-20,T-0234,31,0
+T-0236,Medium Voltage Switchgear Installation (Zone 21),ELECTRICAL,3,SWGR-21,T-0235,31,0
+T-0237,Transformer Energization #22,ELECTRICAL,14,PDU-22,T-0236,31,0
+T-0238,UPS System Installation (Row 23),ELECTRICAL,5,UPS-23,T-0237,31,0
+T-0239,PDU Distribution Installation #24,ELECTRICAL,22,UPS-24,T-0238,31,0
+T-0240,Generator Set Installation #25,ELECTRICAL,24,XFMR-25,T-0239,31,0
+T-0241,Emergency Power Transfer Testing #26,ELECTRICAL,12,UPS-26,,382,0
+T-0242,Cable Tray Installation #27,ELECTRICAL,24,PDU-27,,370,0
+T-0243,Grounding Grid Installation #28,ELECTRICAL,13,PDU-28,,381,0
+T-0244,Busway Distribution (Zone 29),ELECTRICAL,25,UPS-29,,369,0
+T-0245,PLC / SCADA Panel Installation #30,ELECTRICAL,20,SWGR-30,,374,0
+T-0246,Medium Voltage Switchgear Installation (Zone 31),ELECTRICAL,9,PDU-31,,385,0
+T-0247,Transformer Energization #32,ELECTRICAL,24,PDU-32,,370,0
+T-0248,UPS System Installation (Row 33),ELECTRICAL,24,SWGR-33,,370,0
+T-0249,PDU Distribution Installation #34,ELECTRICAL,22,UPS-34,,372,0
+T-0250,Generator Set Installation #35,ELECTRICAL,15,XFMR-35,,379,0
+T-0251,Emergency Power Transfer Testing #36,ELECTRICAL,12,UPS-36,,382,0
+T-0252,Cable Tray Installation #37,ELECTRICAL,9,PDU-37,,385,0
+T-0253,Grounding Grid Installation #38,ELECTRICAL,21,UPS-38,,373,0
+T-0254,Busway Distribution (Zone 39),ELECTRICAL,17,PDU-39,,377,0
+T-0255,PLC / SCADA Panel Installation #40,ELECTRICAL,17,SWGR-40,,377,0
+T-0256,Medium Voltage Switchgear Installation (Zone 41),ELECTRICAL,19,PDU-41,,375,0
+T-0257,Transformer Energization #42,ELECTRICAL,8,XFMR-42,,386,0
+T-0258,UPS System Installation (Row 43),ELECTRICAL,12,UPS-43,,382,0
+T-0259,PDU Distribution Installation #44,ELECTRICAL,5,SWGR-44,,389,0
+T-0260,Generator Set Installation #45,ELECTRICAL,24,UPS-45,,370,0
+T-0261,Emergency Power Transfer Testing #46,ELECTRICAL,10,SWGR-46,,384,0
+T-0262,Cable Tray Installation #47,ELECTRICAL,7,XFMR-47,,387,0
+T-0263,Grounding Grid Installation #48,ELECTRICAL,4,SWGR-48,,390,0
+T-0264,Busway Distribution (Zone 49),ELECTRICAL,18,XFMR-49,,376,0
+T-0265,PLC / SCADA Panel Installation #50,ELECTRICAL,17,PDU-50,,377,0
+T-0266,Medium Voltage Switchgear Installation (Zone 51),ELECTRICAL,23,SWGR-51,,371,0
+T-0267,Transformer Energization #52,ELECTRICAL,25,PDU-52,,369,0
+T-0268,UPS System Installation (Row 53),ELECTRICAL,18,PDU-53,,376,0
+T-0269,PDU Distribution Installation #54,ELECTRICAL,10,SWGR-54,,384,0
+T-0270,Generator Set Installation #55,ELECTRICAL,23,XFMR-55,,371,0
+T-0271,Emergency Power Transfer Testing #56,ELECTRICAL,6,PDU-56,,388,0
+T-0272,Cable Tray Installation #57,ELECTRICAL,10,SWGR-57,,384,0
+T-0273,Grounding Grid Installation #58,ELECTRICAL,25,PDU-58,,369,0
+T-0274,Busway Distribution (Zone 59),ELECTRICAL,4,SWGR-59,,390,0
+T-0275,PLC / SCADA Panel Installation #60,ELECTRICAL,6,PDU-60,,388,0
+T-0276,Medium Voltage Switchgear Installation (Zone 61),ELECTRICAL,7,PDU-61,,387,0
+T-0277,Transformer Energization #62,ELECTRICAL,24,UPS-62,,370,0
+T-0278,UPS System Installation (Row 63),ELECTRICAL,17,PDU-63,,377,0
+T-0279,PDU Distribution Installation #64,ELECTRICAL,20,PDU-64,,374,0
+T-0280,Generator Set Installation #65,ELECTRICAL,8,PDU-65,,386,0
+T-0281,Emergency Power Transfer Testing #66,ELECTRICAL,17,UPS-66,,377,0
+T-0282,Cable Tray Installation #67,ELECTRICAL,10,UPS-67,,384,0
+T-0283,Grounding Grid Installation #68,ELECTRICAL,19,PDU-68,,375,0
+T-0284,Busway Distribution (Zone 69),ELECTRICAL,23,SWGR-69,,371,0
+T-0285,PLC / SCADA Panel Installation #70,ELECTRICAL,11,PDU-70,,383,0
+T-0286,Medium Voltage Switchgear Installation (Zone 71),ELECTRICAL,5,UPS-71,,389,0
+T-0287,Transformer Energization #72,ELECTRICAL,10,UPS-72,,384,0
+T-0288,UPS System Installation (Row 73),ELECTRICAL,13,UPS-73,,381,0
+T-0289,PDU Distribution Installation #74,ELECTRICAL,20,XFMR-74,,374,0
+T-0290,Generator Set Installation #75,ELECTRICAL,7,SWGR-75,,178,0
+T-0291,Domestic Water Main Installation #1,PLUMBING,10,VLVE-01,T-0290,178,0
+T-0292,Fire Suppression Piping (Zone 2),PLUMBING,25,PIPE-02,T-0291,178,0
+T-0293,Cooling Water Distribution Piping #3,PLUMBING,25,PIPE-03,T-0292,178,0
+T-0294,Condensate Drain System #4,PLUMBING,5,VLVE-04,T-0293,178,0
+T-0295,FM200 Clean Agent System #5,PLUMBING,16,VLVE-05,T-0294,178,0
+T-0296,Domestic Water Main Installation #6,PLUMBING,20,VLVE-06,T-0295,178,0
+T-0297,Fire Suppression Piping (Zone 7),PLUMBING,16,PIPE-07,T-0296,178,0
+T-0298,Cooling Water Distribution Piping #8,PLUMBING,9,VLVE-08,T-0297,178,0
+T-0299,Condensate Drain System #9,PLUMBING,15,PIPE-09,T-0298,178,0
+T-0300,FM200 Clean Agent System #10,PLUMBING,21,VLVE-10,T-0299,178,0
+T-0301,Domestic Water Main Installation #11,PLUMBING,18,PIPE-11,T-0300,178,0
+T-0302,Fire Suppression Piping (Zone 12),PLUMBING,14,VLVE-12,T-0301,178,0
+T-0303,Cooling Water Distribution Piping #13,PLUMBING,15,VLVE-13,T-0302,178,0
+T-0304,Condensate Drain System #14,PLUMBING,20,PIPE-14,,374,0
+T-0305,FM200 Clean Agent System #15,PLUMBING,18,PIPE-15,,376,0
+T-0306,Domestic Water Main Installation #16,PLUMBING,11,VLVE-16,,383,0
+T-0307,Fire Suppression Piping (Zone 17),PLUMBING,18,PIPE-17,,376,0
+T-0308,Cooling Water Distribution Piping #18,PLUMBING,15,VLVE-18,,379,0
+T-0309,Condensate Drain System #19,PLUMBING,24,VLVE-19,,370,0
+T-0310,FM200 Clean Agent System #20,PLUMBING,8,VLVE-20,,386,0
+T-0311,Domestic Water Main Installation #21,PLUMBING,7,PIPE-21,,387,0
+T-0312,Fire Suppression Piping (Zone 22),PLUMBING,15,PIPE-22,,379,0
+T-0313,Cooling Water Distribution Piping #23,PLUMBING,5,VLVE-23,,389,0
+T-0314,Condensate Drain System #24,PLUMBING,7,VLVE-24,,387,0
+T-0315,FM200 Clean Agent System #25,PLUMBING,8,PIPE-25,,386,0
+T-0316,Domestic Water Main Installation #26,PLUMBING,11,VLVE-26,,383,0
+T-0317,Fire Suppression Piping (Zone 27),PLUMBING,13,PIPE-27,,381,0
+T-0318,Cooling Water Distribution Piping #28,PLUMBING,17,VLVE-28,,377,0
+T-0319,Condensate Drain System #29,PLUMBING,13,VLVE-29,,381,0
+T-0320,FM200 Clean Agent System #30,PLUMBING,11,VLVE-30,,383,0
+T-0321,Domestic Water Main Installation #31,PLUMBING,11,PIPE-31,,383,0
+T-0322,Fire Suppression Piping (Zone 32),PLUMBING,18,PIPE-32,,376,0
+T-0323,Cooling Water Distribution Piping #33,PLUMBING,20,PIPE-33,,374,0
+T-0324,Condensate Drain System #34,PLUMBING,14,PIPE-34,,380,0
+T-0325,FM200 Clean Agent System #35,PLUMBING,23,PIPE-35,,371,0
+T-0326,Domestic Water Main Installation #36,PLUMBING,23,PIPE-36,,371,0
+T-0327,Fire Suppression Piping (Zone 37),PLUMBING,3,PIPE-37,,391,0
+T-0328,Cooling Water Distribution Piping #38,PLUMBING,9,PIPE-38,,385,0
+T-0329,Condensate Drain System #39,PLUMBING,22,PIPE-39,,372,0
+T-0330,FM200 Clean Agent System #40,PLUMBING,10,PIPE-40,,187,0
+T-0331,Fiber Optic Backbone Installation #1,LOW_VOLTAGE,18,PATCH-01,T-0330,187,0
+T-0332,Structured Cabling (Floor 2),LOW_VOLTAGE,6,PATCH-02,T-0331,187,0
+T-0333,Security Camera System #3,LOW_VOLTAGE,9,RACK-03,T-0332,187,0
+T-0334,Access Control Panel Installation #4,LOW_VOLTAGE,25,RACK-04,T-0333,187,0
+T-0335,BMS Sensor Installation (Zone 5),LOW_VOLTAGE,14,FIBER-05,T-0334,187,0
+T-0336,Network Cabinet Assembly (Row 6),LOW_VOLTAGE,22,PATCH-06,T-0335,187,0
+T-0337,Fiber Optic Backbone Installation #7,LOW_VOLTAGE,25,FIBER-07,T-0336,187,0
+T-0338,Structured Cabling (Floor 8),LOW_VOLTAGE,8,RACK-08,T-0337,187,0
+T-0339,Security Camera System #9,LOW_VOLTAGE,6,PATCH-09,T-0338,187,0
+T-0340,Access Control Panel Installation #10,LOW_VOLTAGE,3,RACK-10,T-0339,187,0
+T-0341,BMS Sensor Installation (Zone 11),LOW_VOLTAGE,21,PATCH-11,T-0340,187,0
+T-0342,Network Cabinet Assembly (Row 12),LOW_VOLTAGE,15,RACK-12,T-0341,187,0
+T-0343,Fiber Optic Backbone Installation #13,LOW_VOLTAGE,25,FIBER-13,T-0342,187,0
+T-0344,Structured Cabling (Floor 14),LOW_VOLTAGE,5,PATCH-14,,389,0
+T-0345,Security Camera System #15,LOW_VOLTAGE,25,PATCH-15,,369,0
+T-0346,Access Control Panel Installation #16,LOW_VOLTAGE,10,FIBER-16,,384,0
+T-0347,BMS Sensor Installation (Zone 17),LOW_VOLTAGE,25,RACK-17,,369,0
+T-0348,Network Cabinet Assembly (Row 18),LOW_VOLTAGE,24,PATCH-18,,370,0
+T-0349,Fiber Optic Backbone Installation #19,LOW_VOLTAGE,6,PATCH-19,,388,0
+T-0350,Structured Cabling (Floor 20),LOW_VOLTAGE,4,RACK-20,,390,0
+T-0351,Security Camera System #21,LOW_VOLTAGE,20,RACK-21,,374,0
+T-0352,Access Control Panel Installation #22,LOW_VOLTAGE,24,RACK-22,,370,0
+T-0353,BMS Sensor Installation (Zone 23),LOW_VOLTAGE,5,PATCH-23,,389,0
+T-0354,Network Cabinet Assembly (Row 24),LOW_VOLTAGE,23,RACK-24,,371,0
+T-0355,Fiber Optic Backbone Installation #25,LOW_VOLTAGE,3,RACK-25,,391,0
+T-0356,Structured Cabling (Floor 26),LOW_VOLTAGE,18,FIBER-26,,376,0
+T-0357,Security Camera System #27,LOW_VOLTAGE,16,RACK-27,,378,0
+T-0358,Access Control Panel Installation #28,LOW_VOLTAGE,23,RACK-28,,371,0
+T-0359,BMS Sensor Installation (Zone 29),LOW_VOLTAGE,25,FIBER-29,,369,0
+T-0360,Network Cabinet Assembly (Row 30),LOW_VOLTAGE,16,FIBER-30,,378,0
+T-0361,Fiber Optic Backbone Installation #31,LOW_VOLTAGE,19,PATCH-31,,375,0
+T-0362,Structured Cabling (Floor 32),LOW_VOLTAGE,11,PATCH-32,,383,0
+T-0363,Security Camera System #33,LOW_VOLTAGE,20,RACK-33,,374,0
+T-0364,Access Control Panel Installation #34,LOW_VOLTAGE,17,RACK-34,,377,0
+T-0365,BMS Sensor Installation (Zone 35),LOW_VOLTAGE,21,RACK-35,,373,0
+T-0366,Network Cabinet Assembly (Row 36),LOW_VOLTAGE,13,FIBER-36,,381,0
+T-0367,Fiber Optic Backbone Installation #37,LOW_VOLTAGE,5,RACK-37,,389,0
+T-0368,Structured Cabling (Floor 38),LOW_VOLTAGE,17,FIBER-38,,377,0
+T-0369,Security Camera System #39,LOW_VOLTAGE,17,PATCH-39,,377,0
+T-0370,Access Control Panel Installation #40,LOW_VOLTAGE,22,PATCH-40,,139,0
+T-0371,CW Loop Flush & Chemical Treatment #1,COOLING,15,CRAC-C-01,T-0370,139,0
+T-0372,CDU Installation & Commissioning #2,COOLING,3,CRAC-C-02,T-0371,139,0
+T-0373,Precision Cooling Unit Integration #3,COOLING,13,CDU-03,T-0372,139,0
+T-0374,Adiabatic Cooling System #4,COOLING,18,CDU-04,T-0373,139,0
+T-0375,Thermal Storage Tank Installation #5,COOLING,14,CRAC-C-05,T-0374,139,0
+T-0376,CW Loop Flush & Chemical Treatment #6,COOLING,13,CRAC-C-06,T-0375,139,0
+T-0377,CDU Installation & Commissioning #7,COOLING,22,CTW-07,T-0376,139,0
+T-0378,Precision Cooling Unit Integration #8,COOLING,11,CTW-08,T-0377,139,0
+T-0379,Adiabatic Cooling System #9,COOLING,3,CTW-09,T-0378,139,0
+T-0380,Thermal Storage Tank Installation #10,COOLING,9,CDU-10,T-0379,139,0
+T-0381,CW Loop Flush & Chemical Treatment #11,COOLING,10,CTW-11,T-0380,139,0
+T-0382,CDU Installation & Commissioning #12,COOLING,16,CRAC-C-12,T-0381,139,0
+T-0383,Precision Cooling Unit Integration #13,COOLING,20,CDU-13,T-0382,139,0
+T-0384,Adiabatic Cooling System #14,COOLING,25,CRAC-C-14,T-0383,139,0
+T-0385,Thermal Storage Tank Installation #15,COOLING,23,CTW-15,T-0384,139,0
+T-0386,CW Loop Flush & Chemical Treatment #16,COOLING,18,CRAC-C-16,T-0385,139,0
+T-0387,CDU Installation & Commissioning #17,COOLING,3,CDU-17,,391,0
+T-0388,Precision Cooling Unit Integration #18,COOLING,12,CDU-18,,382,0
+T-0389,Adiabatic Cooling System #19,COOLING,15,CTW-19,,379,0
+T-0390,Thermal Storage Tank Installation #20,COOLING,10,CRAC-C-20,,384,0
+T-0391,CW Loop Flush & Chemical Treatment #21,COOLING,24,CTW-21,,370,0
+T-0392,CDU Installation & Commissioning #22,COOLING,14,CRAC-C-22,,380,0
+T-0393,Precision Cooling Unit Integration #23,COOLING,20,CTW-23,,374,0
+T-0394,Adiabatic Cooling System #24,COOLING,14,CRAC-C-24,,380,0
+T-0395,Thermal Storage Tank Installation #25,COOLING,20,CRAC-C-25,,374,0
+T-0396,CW Loop Flush & Chemical Treatment #26,COOLING,14,CTW-26,,380,0
+T-0397,CDU Installation & Commissioning #27,COOLING,17,CRAC-C-27,,377,0
+T-0398,Precision Cooling Unit Integration #28,COOLING,12,CRAC-C-28,,382,0
+T-0399,Adiabatic Cooling System #29,COOLING,10,CDU-29,,384,0
+T-0400,Thermal Storage Tank Installation #30,COOLING,9,CRAC-C-30,,385,0
+T-0401,CW Loop Flush & Chemical Treatment #31,COOLING,6,CTW-31,,388,0
+T-0402,CDU Installation & Commissioning #32,COOLING,20,CTW-32,,374,0
+T-0403,Precision Cooling Unit Integration #33,COOLING,8,CDU-33,,386,0
+T-0404,Adiabatic Cooling System #34,COOLING,9,CTW-34,,385,0
+T-0405,Thermal Storage Tank Installation #35,COOLING,18,CRAC-C-35,,376,0
+T-0406,CW Loop Flush & Chemical Treatment #36,COOLING,21,CTW-36,,373,0
+T-0407,CDU Installation & Commissioning #37,COOLING,22,CRAC-C-37,,372,0
+T-0408,Precision Cooling Unit Integration #38,COOLING,6,CDU-38,,388,0
+T-0409,Adiabatic Cooling System #39,COOLING,12,CDU-39,,382,0
+T-0410,Thermal Storage Tank Installation #40,COOLING,14,CDU-40,,380,0
+T-0411,CW Loop Flush & Chemical Treatment #41,COOLING,12,CDU-41,,382,0
+T-0412,CDU Installation & Commissioning #42,COOLING,25,CTW-42,,369,0
+T-0413,Precision Cooling Unit Integration #43,COOLING,7,CRAC-C-43,,387,0
+T-0414,Adiabatic Cooling System #44,COOLING,4,CDU-44,,390,0
+T-0415,Thermal Storage Tank Installation #45,COOLING,20,CRAC-C-45,,374,0
+T-0416,CW Loop Flush & Chemical Treatment #46,COOLING,25,CDU-46,,369,0
+T-0417,CDU Installation & Commissioning #47,COOLING,23,CRAC-C-47,,371,0
+T-0418,Precision Cooling Unit Integration #48,COOLING,6,CDU-48,,388,0
+T-0419,Adiabatic Cooling System #49,COOLING,21,CRAC-C-49,,373,0
+T-0420,Thermal Storage Tank Installation #50,COOLING,18,CRAC-C-50,,171,0
+T-0421,Factory Acceptance Testing (FAT) - UPS #1,COMMISSIONING,17,ISCX-01,T-0420,171,0
+T-0422,Site Acceptance Testing (SAT) - Cooling #2,COMMISSIONING,8,CX-02,T-0421,171,0
+T-0423,Integrated Systems Test (IST) - Power #3,COMMISSIONING,11,ISCX-03,T-0422,171,0
+T-0424,Tier III Uptime Institute Verification #4,COMMISSIONING,6,CX-04,T-0423,171,0
+T-0425,ASHRAE 90.4 Energy Baseline Check #5,COMMISSIONING,15,ISCX-05,T-0424,171,0
+T-0426,Generator Load Bank Testing #6,COMMISSIONING,5,CX-06,T-0425,171,0
+T-0427,Hot/Cold Aisle Containment Verification #7,COMMISSIONING,7,CX-07,T-0426,171,0
+T-0428,Network Latency Baseline #8,COMMISSIONING,21,ISCX-08,T-0427,171,0
+T-0429,Factory Acceptance Testing (FAT) - UPS #9,COMMISSIONING,5,CX-09,T-0428,171,0
+T-0430,Site Acceptance Testing (SAT) - Cooling #10,COMMISSIONING,6,ISCX-10,T-0429,171,0
+T-0431,Integrated Systems Test (IST) - Power #11,COMMISSIONING,22,CX-11,T-0430,171,0
+T-0432,Tier III Uptime Institute Verification #12,COMMISSIONING,19,ISCX-12,T-0431,171,0
+T-0433,ASHRAE 90.4 Energy Baseline Check #13,COMMISSIONING,17,ISCX-13,T-0432,171,0
+T-0434,Generator Load Bank Testing #14,COMMISSIONING,12,ISCX-14,T-0433,171,0
+T-0435,Hot/Cold Aisle Containment Verification #15,COMMISSIONING,12,CX-15,T-0434,171,0
+T-0436,Network Latency Baseline #16,COMMISSIONING,22,CX-16,T-0435,171,0
+T-0437,Factory Acceptance Testing (FAT) - UPS #17,COMMISSIONING,9,CX-17,,385,0
+T-0438,Site Acceptance Testing (SAT) - Cooling #18,COMMISSIONING,11,CX-18,,383,0
+T-0439,Integrated Systems Test (IST) - Power #19,COMMISSIONING,8,CX-19,,386,0
+T-0440,Tier III Uptime Institute Verification #20,COMMISSIONING,8,CX-20,,386,0
+T-0441,ASHRAE 90.4 Energy Baseline Check #21,COMMISSIONING,8,CX-21,,386,0
+T-0442,Generator Load Bank Testing #22,COMMISSIONING,16,ISCX-22,,378,0
+T-0443,Hot/Cold Aisle Containment Verification #23,COMMISSIONING,25,ISCX-23,,369,0
+T-0444,Network Latency Baseline #24,COMMISSIONING,12,CX-24,,382,0
+T-0445,Factory Acceptance Testing (FAT) - UPS #25,COMMISSIONING,10,ISCX-25,,384,0
+T-0446,Site Acceptance Testing (SAT) - Cooling #26,COMMISSIONING,25,ISCX-26,,369,0
+T-0447,Integrated Systems Test (IST) - Power #27,COMMISSIONING,25,ISCX-27,,369,0
+T-0448,Tier III Uptime Institute Verification #28,COMMISSIONING,5,CX-28,,389,0
+T-0449,ASHRAE 90.4 Energy Baseline Check #29,COMMISSIONING,11,CX-29,,383,0
+T-0450,Generator Load Bank Testing #30,COMMISSIONING,16,CX-30,,378,0
+T-0451,Hot/Cold Aisle Containment Verification #31,COMMISSIONING,20,CX-31,,374,0
+T-0452,Network Latency Baseline #32,COMMISSIONING,23,CX-32,,371,0
+T-0453,Factory Acceptance Testing (FAT) - UPS #33,COMMISSIONING,11,CX-33,,383,0
+T-0454,Site Acceptance Testing (SAT) - Cooling #34,COMMISSIONING,5,CX-34,,389,0
+T-0455,Integrated Systems Test (IST) - Power #35,COMMISSIONING,8,ISCX-35,,386,0
+T-0456,Tier III Uptime Institute Verification #36,COMMISSIONING,22,ISCX-36,,372,0
+T-0457,ASHRAE 90.4 Energy Baseline Check #37,COMMISSIONING,17,CX-37,,377,0
+T-0458,Generator Load Bank Testing #38,COMMISSIONING,17,ISCX-38,,377,0
+T-0459,Hot/Cold Aisle Containment Verification #39,COMMISSIONING,25,ISCX-39,,369,0
+T-0460,Network Latency Baseline #40,COMMISSIONING,11,ISCX-40,,383,0
+T-0461,Factory Acceptance Testing (FAT) - UPS #41,COMMISSIONING,17,CX-41,,377,0
+T-0462,Site Acceptance Testing (SAT) - Cooling #42,COMMISSIONING,22,CX-42,,372,0
+T-0463,Integrated Systems Test (IST) - Power #43,COMMISSIONING,16,ISCX-43,,378,0
+T-0464,Tier III Uptime Institute Verification #44,COMMISSIONING,22,ISCX-44,,372,0
+T-0465,ASHRAE 90.4 Energy Baseline Check #45,COMMISSIONING,3,CX-45,,391,0
+T-0466,Generator Load Bank Testing #46,COMMISSIONING,10,CX-46,,384,0
+T-0467,Hot/Cold Aisle Containment Verification #47,COMMISSIONING,24,ISCX-47,,370,0
+T-0468,Network Latency Baseline #48,COMMISSIONING,21,CX-48,,373,0
+T-0469,Factory Acceptance Testing (FAT) - UPS #49,COMMISSIONING,8,ISCX-49,,386,0
+T-0470,Site Acceptance Testing (SAT) - Cooling #50,COMMISSIONING,19,ISCX-50,,228,0
+T-0471,As-Built Drawing Compilation #1,CLOSEOUT,11,DOC-01,T-0470,228,0
+T-0472,O&M Manual Handover #2,CLOSEOUT,21,AS-BUILT-02,T-0471,228,0
+T-0473,Final Punch List Closeout #3,CLOSEOUT,23,AS-BUILT-03,T-0472,228,0
+T-0474,Client Witness Testing #4,CLOSEOUT,5,AS-BUILT-04,T-0473,228,0
+T-0475,Certificate of Occupancy #5,CLOSEOUT,14,AS-BUILT-05,T-0474,228,0
+T-0476,As-Built Drawing Compilation #6,CLOSEOUT,13,AS-BUILT-06,T-0475,228,0
+T-0477,O&M Manual Handover #7,CLOSEOUT,24,DOC-07,T-0476,228,0
+T-0478,Final Punch List Closeout #8,CLOSEOUT,8,AS-BUILT-08,T-0477,228,0
+T-0479,Client Witness Testing #9,CLOSEOUT,16,AS-BUILT-09,T-0478,228,0
+T-0480,Certificate of Occupancy #10,CLOSEOUT,12,AS-BUILT-10,T-0479,228,0
+T-0481,As-Built Drawing Compilation #11,CLOSEOUT,20,DOC-11,,374,0
+T-0482,O&M Manual Handover #12,CLOSEOUT,17,DOC-12,,377,0
+T-0483,Final Punch List Closeout #13,CLOSEOUT,13,AS-BUILT-13,,381,0
+T-0484,Client Witness Testing #14,CLOSEOUT,13,DOC-14,,381,0
+T-0485,Certificate of Occupancy #15,CLOSEOUT,15,DOC-15,,379,0
+T-0486,As-Built Drawing Compilation #16,CLOSEOUT,24,AS-BUILT-16,,370,0
+T-0487,O&M Manual Handover #17,CLOSEOUT,16,DOC-17,,378,0
+T-0488,Final Punch List Closeout #18,CLOSEOUT,9,AS-BUILT-18,,385,0
+T-0489,Client Witness Testing #19,CLOSEOUT,22,AS-BUILT-19,,372,0
+T-0490,Certificate of Occupancy #20,CLOSEOUT,23,AS-BUILT-20,,371,0
+T-0491,As-Built Drawing Compilation #21,CLOSEOUT,4,DOC-21,,390,0
+T-0492,O&M Manual Handover #22,CLOSEOUT,11,DOC-22,,383,0
+T-0493,Final Punch List Closeout #23,CLOSEOUT,12,AS-BUILT-23,,382,0
+T-0494,Client Witness Testing #24,CLOSEOUT,25,AS-BUILT-24,,369,0
+T-0495,Certificate of Occupancy #25,CLOSEOUT,6,DOC-25,,388,0
+T-0496,As-Built Drawing Compilation #26,CLOSEOUT,23,DOC-26,,371,0
+T-0497,O&M Manual Handover #27,CLOSEOUT,25,DOC-27,,369,0
+T-0498,Final Punch List Closeout #28,CLOSEOUT,12,DOC-28,,382,0
+T-0499,Client Witness Testing #29,CLOSEOUT,20,AS-BUILT-29,,374,0
+T-0500,Certificate of Occupancy #30,CLOSEOUT,5,DOC-30,,389,0

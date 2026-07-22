@@ -1,0 +1,23 @@
+{
+  "total_documents": 2,
+  "documents": [
+    {
+      "file": "eaton-93t-ups-commissioning-instructions-en-us.txt",
+      "title": "93T 15-80kW",
+      "pages": 46,
+      "sections": 3,
+      "steps": 0,
+      "pass_fail_gates": 0,
+      "tables": 5
+    },
+    {
+      "file": "uninterruptible-power-supply-battery-acceptance-capacity-test-procedure.txt",
+      "title": "UNINTERRUPTIBLE",
+      "pages": 9,
+      "sections": 2,
+      "steps": 26,
+      "pass_fail_gates": 9,
+      "tables": 0
+    }
+  ]
+}

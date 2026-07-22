@@ -1,0 +1,954 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\02_Equipment_Specifications\\Switchgear\\Automatic Transfer Switches Brochure.pdf",
+  "filename": "Automatic Transfer Switches Brochure.pdf",
+  "category": "Switchgear",
+  "parent_category": "02_Equipment_Specifications",
+  "extracted_at": "2026-06-29T19:56:58.445656",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Global\nAutomatic Transfer Switches",
+      "char_count": 34
+    },
+    {
+      "page": 2,
+      "text": "The Power of One™\nUsed for switching power between the primary (utility) \nand secondary (backup or supplemental) power \nsources, Cummins automatic transfer switches \nfeature PowerCommand control technology for easy \noperation, and a robust, high-contact-force design to \nwithstand thousands of switching cycles. A full line of \nstandard switches is available from 40 to 4,000 amps \nfor the entire range of power systems with common \nbus communication language. Key features include: \n> Open, closed or programmed transition transfers\n> Bypass isolation configurations\n> Withstand and closing ratings up to 200 kA\n> Service entrance configurations to 1,000 amps\n> Global agency approvals, including: UL1008, IEC, \nCSA, NFPA, IEEE, IBC and NEMA ICS 10\nTogether as a system, \nPowerCommand® transfer switches, \ndigital paralleling systems, generator \nsets and digital master controls \nprovide you with peace of mind \nunmatched by others in the industry.\nCummins Power Generation offers a wide range of \nautomatic transfer switches for seamless transfer of \npower between the power sources in your application. \nIncluded as part of a completely integrated power \nsystem, PowerCommand transfer switches rely on \nproven technology to deliver fail-safe performance in \ncritical applications. \nAt Cummins Power Generation, we engineer our transfer \nswitches with flexibility and ease-of-operation in mind. \nPaired with a PowerCommand generator set, the result \nis a robust power system capable of ensuring reliable \nperformance while maximizing cost effectiveness.\n> Custom-engineered switches are available to fit \nunique project requirements\n> Installed in more than 100,000 applications globally\n> Convenient front-panel display to easily review power \nand load conditions, make adjustments, review \nevents and check network status\nPowerCommand® system integration\nNetwork / SCADA wires \nControl wires",
+      "char_count": 1895
+    },
+    {
+      "page": 3,
+      "text": "LOAD\nReliable, flexible, easy to use\nLOAD\nUtility-to-generator\nFor facilities with a standby power system and a \nsingle utility feed. The transfer switch senses when \nutility power has been lost, sends a start signal to the \nstandby generator and transfers the load.\nLOAD\nGenerator-to-generator\nFor facilities with a prime power system using multiple \non-site generators. If the primary generator fails, the \ntransfer switch sends a start signal to the second \ngenerator and then transfers the load.\nUtility-to-utility\nFor use in facilities with redundant utility feeds but no \nstandby generator. If one utility feed fails, the transfer \nswitch automatically connects the load to the second \nutility feed.\nThree-source system\nFor facilities with a standby power system and two \nutility feeds. The utility transfer switch controls the \nfeeds from the two utilities based on a pre-established \npriority. If both utility feeds fail, the generator transfer \nswitch sends a start signal to the standby generator \nand transfers the load. \nAnother three source system uses a standby generator \nin place of the second utility (dual standby). If the utility \nfails, the first transfer switch sends a start signal to the \nprimary standby generator and transfers the load. If \nthe primary standby generator fails, the transfer switch \nsends a start signal to the second generator set and \ntransfers the load.\nLOAD\nPowerCommand® transfer switches \nprovide safe, dependable power \ntransfer between sources.",
+      "char_count": 1493
+    },
+    {
+      "page": 4,
+      "text": "Open, closed or programmed-transition transfer\nGTEC \n> Open or programmed transition\n> 40-2000 amps\n> 2-, 3- and 4-pole\n> IEC and CE-labeled\nOTEC \n> Open (in-phase) or programmed transition\n> 40-1000 amps\n> 3- and 4-pole\n> UL-listed\nOTPC \n> Open, closed or programmed transition\n> 40-4000 amps\n> 3- and 4-pole\n> UL-listed\nCHPC \n> Closed transition\n> 125-800 amps\n> 2-, 3- and 4-pole\n> UL-listed\nOHPC \n> Open or programmed transition\n> 125-800 amps\n> 2-, 3- and 4-pole\n> UL-listed\nBypass isolation load transfer\nBTPC \n> Open, closed or programmed transition\n> 150-4000 amps\n> 3- and 4-pole\n> UL-listed\nDependable power transfer\n......................................................................................................................................................................... 6\n....................................................................................................................................................................... 10\n....................................................................................................................................................................... 10\n....................................................................................................................................................................... 11\n....................................................................................................................................................................... 12\n......................................................................................................................................................................... 8",
+      "char_count": 1654
+    },
+    {
+      "page": 5,
+      "text": "PowerCommand® transfer switches \noptimize system reliability and \nperformance, reduce maintenance \ncosts and enhance your entire \nsystem with unique capabilities.\nOpen-transition transfer\nBreak-before-make switching action: The most basic \ntype of transfer; the connection to one source is \nopened before the connection to the second source is \nclosed. The sync-check feature included in the open-\ntransition transfer control monitors both sources and \ninitiates the transfer—avoiding out-of-phase closing.\nApplications: Emergency, code-required and optional \nstandby systems; resistive loads; small motor loads\nProgrammed-transition transfer\nSimilar to open-transition transfer. The switch opens \nthe connection to one source, pauses for an adjustable \ndelay time, then closes the connection to the second \nsource. The adjustable time between sources allows \nthe decay of residual voltage before connecting to the \nsecond source.\n \nApplications: Inductive (motor) loads; recommended \nby some manufacturers of UPS and VFD equipment\nClosed-transition transfer \nMake-before-break switching action for uninterrupted \npower transfer. The transfer switch provides a \nseamless transfer of the load from one source to \nanother by momentarily paralleling both sources \n(<100 milliseconds) during the transfer period. \nApplications: Critical power requirements, including \nhospitals and data centers \nBypass isolation transfer\nAllows maintenance to the main ATS without \ndisconnecting the load. By having two transfer switches \nconnected in parallel, the bypass transfer switch adds \nredundancy to the system. \nApplications: Critical power and maintenance \nrequirements, including healthcare and data center\nBreak-before-make switching action opens \nthe connection to one source before closing the \nconnection to the second source. Shown: open \ntransition with sync check.\nMake-before-break switching action provides \nuninterrupted power transfer. The switch closes the \nconnection to the second source before opening the \nconnection to the first source.\n}\n Utility and \ngenerator \nsynchronized \nvoltage\n}\n Load \nvoltage\n}\n Utility and \ngenerator \nsynchronized \nvoltage\n}\n Load \nvoltage\nChoice of transfer modes",
+      "char_count": 2202
+    },
+    {
+      "page": 6,
+      "text": "> PowerCommand control \n Microprocessor-based controls are developed \nspecifically for automatic transfer switch operation\n> Robust control system design \n Optically-isolated logic inputs and high-isolation transformers \nfor AC power inputs provide high-voltage surge protection\n> Communications capability \n Transfer switch communicates via a SCADA network \nor LonWorks\n> Easy service/access \n Plug connections, door-mounted controls, ample access space, \ncompatible terminal markings simplify access\n> Advanced transfer switch mechanism \n Bi-directional linear motor actuator provides virtually friction-\nfree, constant-force, straight-line transfer switch action with no \ncomplex gears or linkages\n> Break-before-make action \n Independent break-before-make action is used for both 3-pole \nand 4-pole/switched neutral switches\n> Main contacts \n Heavy-duty silver alloy contacts with separate arcing surfaces \nand multi-leaf arc chutes are rated for total system transfer \nincluding overload interruption\n> Mechanical interlock \n Prevents simultaneous closing of normal and emergency contacts\n> Service entrance option available\nOTPC 40-4000 amp series \nPowerCommand automatic transfer switches\nPremium-featured OTPC PowerCommand transfer \nswitches are ideal for emergency, code-required \nand optional standby power applications. The OTPC \ntransfer switch is available in several different control \nconfigurations to meet the requirements of your load \ntransfer application.\nPowerCommand® automatic \ntransfer switches feature \nmicroprocessor-based control \ntechnology for easy operation and \nrobust, high-contact-force design.\nOTPC \nautomatic transfer switches\n\nICS10",
+      "char_count": 1668
+    },
+    {
+      "page": 7,
+      "text": "Closed-transition \ntransfer switch \nmechanism\n> Manual operating \nhandle\n> Blow-on contactor \n Provides for high \nsurvivability in short circuit \nconditions\n> Front access \nterminals \n Allow for ease of \ninstallation\n> Stored-energy actuator\n Provides consistent high-\nspeed transfers\n> Manual \noperating handle\n> Mechanical lugs or \noptional compression lugs \n Offers flexible terminal connections\n> Easy access \nterminal block \n> Barriers over all live parts \n Provides safety shield for operations\n> Spring-loaded overcenter \nmechanism \n Provides automatic, fast and \nconsistent manual operation \nand reliable speed of transfer \n(40-1000 amps)\n> Linear motor operator \n Provides simple direct motion, \nconstant force and smooth \nprogram transition without \ngears or links (40-1000 amps)\n> Permanently attached \nmanual operator handles \n Allows for manual operation and \neasy servicing (40-100 amps)\nOpen-transition \ntransfer switch \nmechanism\nFeatures:\n> LED bar graph \n Displays color-coded and \neasy-to-read load status including \n3-phase AC voltage, current, \nfrequency, kW and power factor\n> Sync command \n Works with PowerCommand generator \nset for highly reliable closed-transition \n and in-phase transfers\n> Long-life, high-visibility \nLED indicators \n Designed to last the life of the control; \ninclude “not in auto” and “test/exercise \nactive” monitoring\n> Momentary push buttons \n Allow for quick, one-touch testing \nand retransfer of power\n> Digital vacuum fluorescent displays\n Feature 2-line-by-20-character for easy \nreading at a distance; superior to LCD-type \ndisplays at extreme operating temperatures\nAutomatic transfer switch \nstandard and optional features\n> Lamp test button\n> Front panel security lock \n Safeguards against unauthorized \nadjustments or operation\n> Override button \n Bypasses time delays\n> PowerCommand \nnetworking capability \n Monitors the entire Cummins \n Power Generation power system",
+      "char_count": 1927
+    },
+    {
+      "page": 8,
+      "text": "PowerCommand® bypass-\nisolation transfer switches are \nideal for critical-need applications \nwhere any disruption of \nsupply power, even for routine \nmaintenance, is unacceptable. \nBTPC series transfer switches combine the features of \nour advanced automatic transfer switch with a closed- \ndoor drawout isolation mechanism, a two-source \nbypass switch and exclusive microprocessor-based \ncontrols. The switch allows maintenance, service \nand testing of the automatic transfer switch without \ndisrupting power to critical loads. The resulting power \ntransfer redundancy helps ensure constant, reliable \npower for critical applications.\nBTPC 150-4000 amp series PowerCommand \nbypass-isolation transfer switch\nThese switches feature non-load break bypass operation \nthat maintains service to critical loads when the automatic \ntransfer switch is drawn out of service.\nExternal manual \noperation capability for \nthe automatic transfer \nswitch provides safe, \nreliable operation while \nlead source interlocks \nprevent the operator \nfrom connecting loads \nto a failed utility or \ngenerator source. The \nfull mechanical interlock \nsystem prevents \naccidental interconnection \nof the power sources.\nBTPC \nbypass-isolation transfer switches\nSOURCE 1\n(Preferred)\nSOURCE 1\n(Alternate)\nBypass switch\n(Dual source)\nTransfer switch\nIsolating means\nLOAD\nElectrical\nmechanical\ninterlocks",
+      "char_count": 1372
+    },
+    {
+      "page": 9,
+      "text": "Features:\n> Bypass to any viable \nsource at any time \n Allows for normal or \nemergency power, \nwhichever is required\n> Mechanical flags\n Indicate bypass position\n> Easy manual operation\n Allows manual transfer to any \navailable source at any time\nBypass isolation transfer switches \nstandard and optional features\n> PowerCommand control\n> Permanently mounted \ninstructions\n> Drawout positions \n Are connected, tested and isolated \nwith door closed for safety\n> Heavy-duty 3-point latches\n Insures door will stay closed without \nthe need for screw-in fasteners\n> Cabinet space for “all top” or \n“all bottom” cable connections\n> Touch barrier over \nfield connections\n> Drawout automatic \ntransfer switch\n> Dead source electrical interlock\n Prohibits closing to a dead source\n> Clear Lexan® barriers\n Allow viewing of contact position\n> Control disconnect plugs for \nfaster and safer service\nBypass-isolation\nswitch mechanism\n> Convenient drawout rails\n Allow automatic transfer switch \nto be quickly rolled out and \nreplaced\n> Lexan shutter\n Covers drawout stabs for \ntouch protection\n> Stationary bypass switch\n> Automatic safety shutters\n Drop into place as the bypass is \nengaged, covering the primary \ndisconnects as the transfer \nswitch is withdrawn",
+      "char_count": 1252
+    },
+    {
+      "page": 10,
+      "text": "CHPC/OHPC \nautomatic transfer switches\nCHPC closed-transition 125-800 amp series \nPowerCommand automatic transfer switches\nDesigned specifically for uninterrupted, closed-transition \noperation, the revolutionary design incorporates \nproven PowerCommand micro-processor control with \nan innovative High-Endurance Mechanism (HEM) for \nuncompromising reliability.\nOHPC open-transition 125-800 amp series \nPowerCommand automatic transfer switches\nFor open-transition operation, OHPC transfer switches \nalso incorporate PowerCommand microprocessor \ncontrol and a reliable High-Endurance Mechanism. \nThe OHPC is ideal for utility-to-utility, utility-to-genset \nand genset-to-genset applications.\n\nICS10\n> UL-listed 30-cycle ratings\n OHPC is listed for short-time ratings of 25,000 amps at \n10 cycles for 125-260 amps, 30,000 amps at 30 cycles for \n300-600 amps, and 42,000 amps at 30 cycles for 800 amps.\n> PowerCommand microprocessor control\n Fully-featured, field-programmable microprocessor control; \neasy setup and accuracy\n> Surge protection\n Optically-isolated logic inputs and high isolation transformers \nfor AC power inputs provide high-voltage surge protection\n> Selectable transfer method (OHPC)\n The switch automatically transfers the load back either by \nusing the fast transfer or delayed-transition mode of operation\n> Manual operation \n Manual operating handles and stored-energy transfer \nmechanism allow effective manual operation\n> Easy service/access\n Plug connections, door-mounted controls, ample access \nspace and compatible terminal markings simplify access\n> Main contacts\n Heavy-duty silver alloy contacts and multi-leaf arc chutes are \nrated for total system transfer\n> Stored-energy mechanism \n Allows the mechanism to be switched between sources even \nwhen no source is available",
+      "char_count": 1802
+    },
+    {
+      "page": 11,
+      "text": "OTEC \nautomatic transfer switches\nOTEC 40-1000 amp series \nautomatic transfer switches\nThe OTEC series transfer switch provides the basic \nfeatures you need for primary source and generator \nset monitoring, generator set starting and load transfer \nfunctions for emergency standby power applications.\nCummins Power Generation \nswitches are built to withstand \nthousands of switching cycles, \nensuring reliable operation. \n\nICS10\n> Easy service/access \n Plug connections, door-mounted controls, ample access \nspace, compatible terminal markings simplify access\n> Advanced transfer switch mechanism \n Bi-directional linear motor actuator provides virtually friction- \nfree, constant-force, straight-line transfer switch action with \nno complex gears or linkages\n> Break-before-make action \n Independent break-before-make action is used for both 3-pole \nand 4-ppole/switched neutral switches\n> Main contacts \n Heavy-duty silver alloy contacts with separate arcing surfaces \nand multi-leaf arc chutes are rated for total system transfer \nincluding overload interruption\n> Main contacts \n Heavy-duty silver alloy contacts with separate arcing surfaces \nand multi-leaf arc chutes are rated for total system transfer \nincluding overload interruption\n> Mechanical interlock \n Prevents simultaneous closing of normal and emergency contacts\n> Positive interlocking\n Mechanical and electrical interlocking prevent source-to-source \nconnection through the power or control wiring\n> Manual operation\n Manual operating handles, shielded termination and over-center \ntype contact mechanisms allow effective, manual operation \nunder de-energized conditions\n> Microprocessor control\n Fully-featured microprocessor control is standard, with all \nfeatures, settings and adjustments software-enabled for ease \nof setup and accuracy\n> Service entrance option available",
+      "char_count": 1847
+    },
+    {
+      "page": 12,
+      "text": "GTEC \nautomatic transfer switches\nGTEC 40-2000 amp series \nautomatic transfer switch\nThe GTEC automatic transfer switch combines reliability \nand flexibility in a small, economical package for normal \nand generator set source monitoring, generator set \nstarting and load transfer functions. GTEC automatic \ntransfer switches are ideal for IEC emergency, standby \nand optional standby applications. \nNot available in North America.\n> Microprocessor control \n Fully-featured microprocessor control is standard with all \nsettings and adjustments designed for easy operator use via \nthe front display panel\n> Operating modes\n Open transition with programmed transition (adjustable \n0-10 seconds); open transition with sync-check monitor and \nprogrammed-transition backup; exercise mode; and test mode\n> Manual operation handle (standard) \n Allows manual operation of the switch after proper disconnection \nof power sources\n> Easy service/access \n Door-mounted controls, ample access space and compatible \nterminal markings allow for easy access\n> Positive interlocking \n Mechanical interlocking prevents source-to-source connection \nthrough the power contacts\n> Solenoid \n A powerful and economical solenoid power GTEC transfer \nswitches\n> Advanced transfer switch mechanism \n True transfer switch mechanism with break-before-make action\n> Continuously rated\n Can be used in applications up to their nameplate rating\n> Main contacts \n Long-life, high-pressure silver alloy contacts withstand \nthousands of switching cycles without burning, pitting or \nwelding and provide 100% continuous current ratings",
+      "char_count": 1599
+    },
+    {
+      "page": 13,
+      "text": "PowerCommand® remote \nmonitoring devices let you easily \nmanage on-site and off-site power \nsystems from one location.\nWhether you’re using a desktop computer, a laptop \nor a cell phone, PowerCommand remote monitoring \nsystems help you reduce power setup time, operation \nand maintenance.\nPowerCommand accesories for reliable \nweb-based monitoring \nPowerCommand remote monitoring systems let you \nmonitor generator set and transfer switch functions via \nthe Internet. You can:\n> Monitor remotely via wireless connection using \ncellular or satellite communications \n> Communicate via an Ethernet connection, \nphone line or available wireless configuration\n> Connect via an Internet browser on a remote PC\n> Send alarms to cell phones, pagers or e-mail \naddresses\n> Display voltage and frequency of each source\n> Monitor one or two generator sets and up to \nfour transfer switches\nTCP/IP\nModbus\nRemote Monitoring\nPower Suite™ 5.0 with Transfer Products Selector Tool\nPower Suite is Cummins Power Generation’s web-based application for sizing and applying on-site power systems. \nPower Suite is available online at powersuite.cummins.com at no charge; only a brief registration is required.\nPower Suite consists of three components: GenSize™, the Transfer Products Selector tool, and the Power Suite Library. \nAfter the user enters the project parameters and use Power Suite’s intuitive tools to “build” a system, the Transfer \nProducts Selector tool recommends the Cummins Power Generation transfer switches meeting the project needs.\nTransfer switch specification sheets, drawings, wiring diagrams and other technical information are available in the \nPower Suite Library.",
+      "char_count": 1671
+    },
+    {
+      "page": 14,
+      "text": "Level-1 \n(OTPC/OHPC \ncontrol)\nLevel-2 \n(OTPC/OHPC/\nCHPC/BTPC \ncontrol)\nGTEC/OTEC \ncontrol\nMicroprocessor controls\nSensing\n3-Phase voltage-sensing utility\n\n\n\n3-Phase voltage-sensing generator\n— single phase\n— single phase\n\nElectrical isolation from AC mains\n high impedance\n transformer\n transformer\nVoltage-sensing accuracy\n+/-2%\n+/-1%\n+/-1%\nO/U voltage-sensing utility\nU/V only\n\n\nO/U voltage-sensing generator\nU/V only\n\n\nO/U frequency-sensing utility\n—\n\n\nO/U frequency-sensing generator\nU/F only\n\n\nVoltage imbalance\n—\n—\n\nPhase rotation\n—\n—\n\nLoss of phase\n\n\n\nGeneral features/serviceability\nDoor-mounted\n\n\n\nControls isolated from switch during service\n\n\n\nSingle control package for sensing/timing\n\n\n\nVoltage surge immunity\n\n\n\nOptically isolated customer I/O\n—\n\n\nMethod(s) for sensor/timer adjustments\nLED configuration\nfront panel, service software front panel, service software\nNumber of time/date-stamped events\n—\n\n\nReal-time clock (RTC)\n—\n\n\nOn-board diagnostics/fault detection\n\n\n\nField-upgradeable software, PC diagnostics\n—\n\n\nFully adjustable timers, sensors and control parameters\nadjustable in steps\n\n\nMode control keyswitch interface with control\n—\n\n\nSupported voltages\n120V; 200-240V; 380-480V or ( 220-277V L-N); 600V\n\n\n\nTransition modes\nProgrammed transition\n\n\n\nOpen transition with sync-check sensor\n—\n\n\nIn-phase monitor\n\n—\n—\nClosed transition (momentary)\n—\n—\n\nClosed transition (soft loading/paralleling)\n—\n—\n—\nDisplay/metering/user interface\nDisplay offered/type\n—\n VFD\n VFD\nFront-panel LED status lamps\n6-fixed (8 for config.)\n6 fixed\n6 fixed\nFront-panel test\n\n\n\nFront-panel TD override\n\n\n\nFront-panel lamp test/fault reset\n—\n\n\nFront-panel set exerciser\n\nw/display\nw/display\nColor-coded bar graph meters for voltage, current, \nfrequency, kW & power factor\n—\n—\n\nEngine-exerciser clock\nCalendar-based exerciser with real-time clock\n—\n\n\nOnce/week exerciser\n\n—\n—\nExerciser via external clock module\n\n—\n—\nNumber of exercise programs\n\n\n\nPower output for external timer\n—\n—\n—\nExercise exceptions\n—\n 1\n 8\n Standard Features  Optional Features — Not Available",
+      "char_count": 2140
+    },
+    {
+      "page": 15,
+      "text": "PowerCommand controls optimize the reliability \nand performance of the power generation system \nwhile keeping costs competitive and providing \nunique capabilities for the entire system.\nTime delays\nDisplays timer delay countdown\n—\n\n\nField-adjustable time delays\n\n\n\nTime-delay engine start\n\n\n\nTime-delay transfer (normal to emerg)\n\n\n\nTime-delay retransfer (emerg to norm)\n\n\n\nTime-delay engine cooldown\n\n\n\nTime-delay elevator pre-transfer\n\n\n\nTime-delay programmed transition (delayed neutral)\n\n\n\nTime-delay override/bypass feature\n\n\n\nAutomatic generator-generator changeover timer\n—\n—\n\nCustomer inputs/outputs\nRemote test with load/transfer to generator\n\n\n\nRemote engine start\n\n\n\nTransfer inhibit\n\n\n\nRe-transfer inhibit\n\n\n\nGenerator (source-2) common alarm\n—\n\n\nUtility (source-1) common alarm\n—\n\n\nPanel security lock\n—\n\n\nLoad shed input\n—\n\n\nGenerator battery charger status input\n—\n\n\nRemote time delay override/bypass\n\n—\n—\nRemote lamp test/fault reset\n—\n—\n—\nSynchronizer enable\n—\n\n\nBypass switch position contacts\n—\n—\n\nGenerator interface\nGenerator (1) start contact (relay)\n\n\n\nGenerator (2) start contact\n—\n—\n\n3-wire generator start compatible (use LT for this feature)\n—\n—\n—\nRelay outputs\nSource-1 connected\n\n\n\nSource-2 connected\n\n\n\nSource-1 available\n—\n\n\nSource-2 available\n—\n\n\nATS not in auto\n—\n\n\nTest/exercise active\n—\n\n\nPre-transfer/load disconnect\n relay drives\n\n\nLoad shed active\n—\n\n\nFailure to disconnect\n—\n—\n\nFailure to close/open\n—\n\n\nFailure to sync\n—\n\n\nRemote communications\nRemote communications module\n—\n\n\nRemote communications description\n—\nLonWorks, NCM\nLonWorks, NCM\nRemote fault dial-out/paging\n—\n\n\nRemote dial-in access\n—\n\n\nEvent login\n—\n\n\nATS load sequencing control\n—\n\n\nPeer-peer system status data\n—\n\n\nInternet-accessible sites\n—\n—\n—\nCurrent / load monitoring\n—\n—\n\nAgency approvals, code/standards GTEC OTEC OTPC/OHPC OTPC/OHPC/CHPC/BTPC\nUL1008\n—\n\n\n\nIEC\n\n—\n—\n—\nCSA, NFPA, IEEE\n—\n\n\n\nIBC\n—\n\n\n\nNEMA ICS 10\n—\n\n\n\nLevel-1 \n(OTPC/OHPC \ncontrol)\nLevel-2 \n(OTPC/OHPC/\nCHPC/BTPC \ncontrol)\nGTEC/OTEC\ncontrol",
+      "char_count": 2121
+    },
+    {
+      "page": 16,
+      "text": "Asia Pacific\n10 Toh Guan Road #07-01\nSingapore 608838\nPhone 65 6417 2388\nFax 65 6417 2399\nBrazil\nRua Jati, 310, Cumbica\nGuarulhos, SP 07180-900\nBrazil\nPhone 55 11 2186 4195\nFax 55 11 2186 4729\nChina\nNo. 2 Rongchang East Street \nBeijing Economic and Technological \nDevelopment Area \nBeijing 100176 \nP.R. China \nPhone 86 10 5902 3000 \nFax 86 10 5902 3199 \nEurope, CIS, Middle East and Africa\nManston Park Columbus Ave.\nManston Ramsgate, Kent CT 12 5BF \u0003\nUnited Kingdom\nPhone 44 1843 255000\nFax 44 1843 255902\nIndia\n35A/1/2, Erandaqana\nPune 411 038\nIndia\nPhone 91 020 6602 7525\nFax 91 020 6602 8090\nLatin America\n3350 Southwest 148th Ave.\nSuite 205, Miramar, FL 33027\nUSA\nPhone 954 431 5511\nFax 954 433 5797\nMexico\nEje 122 No. 200 Zona Industrial\nSan Luis Potosí, S.L.P. 78395\nMexico\nPhone 52 444 870 6700\nFax 52 444 824 0082\nNorth America\n1400 73rd Ave. NE\nMinneapolis, MN 55432 \nUSA\nPhone 763 574 5000\nUSA Toll-free 877 769 7669\nFax 763 574 5298\n© 2013 Cummins Power Generation Inc. \nAll rights reserved. \nCummins Power Generation and Cummins \nare registered trademarks of Cummins Inc. \n“Our energy working for you.” and Power Suite \nare trademarks of Cummins Power Generation. \nOther company, product, or service names \nmay be trademarks or service marks of others. \nSpecifications subject to change without notice. \nF-1443c (9/13) A4 \nFor more information contact your \nlocal Cummins distributor. \nTo find the one nearest you visit \nOur global operations:\n44,000 employees in 190 countries \n88 manufacturing facilities \n6,500 sales & service centers \n600 distributor locations\nwww.cumminspower.com",
+      "char_count": 1598
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "table_index": 1,
+      "rows": 3,
+      "cols": 1,
+      "markdown": "|  |\n| --- |\n|  |\n|  |",
+      "raw": [
+        [
+          ""
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "table_index": 2,
+      "rows": 4,
+      "cols": 1,
+      "markdown": "|  |\n| --- |\n|  |\n|  |\n|  |",
+      "raw": [
+        [
+          ""
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 1,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "|  |\n| --- |\n|  |",
+      "raw": [
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "table_index": 1,
+      "rows": 3,
+      "cols": 5,
+      "markdown": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n|  |  |  |  |  |\n|  |  |  |  |  |",
+      "raw": [
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          null
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "table_index": 2,
+      "rows": 3,
+      "cols": 5,
+      "markdown": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n|  |  |  |  |  |\n|  |  |  |  |  |",
+      "raw": [
+        [
+          "",
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          null
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 1,
+      "rows": 2,
+      "cols": 1,
+      "markdown": "|  |\n| --- |\n|  |",
+      "raw": [
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 1,
+      "rows": 2,
+      "cols": 2,
+      "markdown": "|  |  |\n| --- | --- |\n|  |  |",
+      "raw": [
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 1,
+      "rows": 48,
+      "cols": 4,
+      "markdown": "| Sensing |  |  |  |\n| --- | --- | --- | --- |\n| 3-Phase voltage-sensing utility |  |  |  |\n| 3-Phase voltage-sensing generator | — single phase | — single phase |  |\n| Electrical isolation from AC mains |  high impedance |  transformer |  transformer |\n| Voltage-sensing accuracy | +/-2% | +/-1% | +/-1% |\n| O/U voltage-sensing utility | U/V only |  |  |\n| O/U voltage-sensing generator | U/V only |  |  |\n| O/U frequency-sensing utility | — |  |  |\n| O/U frequency-sensing generator | U/F only |  |  |\n| Voltage imbalance | — | — |  |\n| Phase rotation | — | — |  |\n| Loss of phase |  |  |  |\n| General features/serviceability |  |  |  |\n| Door-mounted |  |  |  |\n| Controls isolated from switch during service |  |  |  |\n| Single control package for sensing/timing |  |  |  |\n| Voltage surge immunity |  |  |  |\n| Optically isolated customer I/O | — |  |  |\n| Method(s) for sensor/timer adjustments | LED configuration | front panel, service software | front panel, service software |\n| Number of time/date-stamped events | — | 50 | 50 |\n| Real-time clock (RTC) | — |  |  |\n| On-board diagnostics/fault detection |  |  |  |\n| Field-upgradeable software, PC diagnostics | — |  |  |\n| Fully adjustable timers, sensors and control parameters | adjustable in steps |  |  |\n| Mode control keyswitch interface with control | — |  |  |\n| Supported voltages |  |  |  |\n| 120V; 200-240V; 380-480V or ( 220-277V L-N); 600V |  |  |  |\n| Transition modes |  |  |  |\n| Programmed transition |  |  |  |\n| Open transition with sync-check sensor | — |  |  |\n| In-phase monitor |  | — | — |\n| Closed transition (momentary) | — | — |  |\n| Closed transition (soft loading/paralleling) | — | — | — |\n| Display/metering/user interface |  |  |  |\n| Display offered/type | — |  VFD |  VFD |\n| Front-panel LED status lamps | 6-fixed (8 for config.) | 6 fixed | 6 fixed |\n| Front-panel test |  |  |  |\n| Front-panel TD override |  |  |  |\n| Front-panel lamp test/fault reset | — |  |  |\n| Front-panel set exerciser |  | w/display | w/display |\n| Color-coded bar graph meters for voltage, current, frequency, kW & power factor | — | — |  |\n| Engine-exerciser clock |  |  |  |\n| Calendar-based exerciser with real-time clock | — |  |  |\n| Once/week exerciser |  | — | — |\n| Exerciser via external clock module |  | — | — |\n| Number of exercise programs | 1 | 1 | 8 |\n| Power output for external timer | — | — | — |\n| Exercise exceptions | — |  1 |  8 |",
+      "raw": [
+        [
+          "Sensing",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3-Phase voltage-sensing utility",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3-Phase voltage-sensing generator",
+          "— single phase",
+          "— single phase",
+          ""
+        ],
+        [
+          "Electrical isolation from AC mains",
+          " high impedance",
+          " transformer",
+          " transformer"
+        ],
+        [
+          "Voltage-sensing accuracy",
+          "+/-2%",
+          "+/-1%",
+          "+/-1%"
+        ],
+        [
+          "O/U voltage-sensing utility",
+          "U/V only",
+          "",
+          ""
+        ],
+        [
+          "O/U voltage-sensing generator",
+          "U/V only",
+          "",
+          ""
+        ],
+        [
+          "O/U frequency-sensing utility",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "O/U frequency-sensing generator",
+          "U/F only",
+          "",
+          ""
+        ],
+        [
+          "Voltage imbalance",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Phase rotation",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Loss of phase",
+          "",
+          "",
+          ""
+        ],
+        [
+          "General features/serviceability",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Door-mounted",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Controls isolated from switch during service",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Single control package for sensing/timing",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Voltage surge immunity",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Optically isolated customer I/O",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Method(s) for sensor/timer adjustments",
+          "LED configuration",
+          "front panel, service software",
+          "front panel, service software"
+        ],
+        [
+          "Number of time/date-stamped events",
+          "—",
+          "50",
+          "50"
+        ],
+        [
+          "Real-time clock (RTC)",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "On-board diagnostics/fault detection",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Field-upgradeable software, PC diagnostics",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Fully adjustable timers, sensors and control parameters",
+          "adjustable in steps",
+          "",
+          ""
+        ],
+        [
+          "Mode control keyswitch interface with control",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Supported voltages",
+          "",
+          "",
+          ""
+        ],
+        [
+          "120V; 200-240V; 380-480V or ( 220-277V L-N); 600V",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Transition modes",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Programmed transition",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Open transition with sync-check sensor",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "In-phase monitor",
+          "",
+          "—",
+          "—"
+        ],
+        [
+          "Closed transition (momentary)",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Closed transition (soft loading/paralleling)",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Display/metering/user interface",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Display offered/type",
+          "—",
+          " VFD",
+          " VFD"
+        ],
+        [
+          "Front-panel LED status lamps",
+          "6-fixed (8 for config.)",
+          "6 fixed",
+          "6 fixed"
+        ],
+        [
+          "Front-panel test",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Front-panel TD override",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Front-panel lamp test/fault reset",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Front-panel set exerciser",
+          "",
+          "w/display",
+          "w/display"
+        ],
+        [
+          "Color-coded bar graph meters for voltage, current,\nfrequency, kW & power factor",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Engine-exerciser clock",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Calendar-based exerciser with real-time clock",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Once/week exerciser",
+          "",
+          "—",
+          "—"
+        ],
+        [
+          "Exerciser via external clock module",
+          "",
+          "—",
+          "—"
+        ],
+        [
+          "Number of exercise programs",
+          "1",
+          "1",
+          "8"
+        ],
+        [
+          "Power output for external timer",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Exercise exceptions",
+          "—",
+          " 1",
+          " 8"
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 1,
+      "rows": 57,
+      "cols": 5,
+      "markdown": "| Time delays |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| Displays timer delay countdown | — |  |  |  |\n| Field-adjustable time delays |  |  |  |  |\n| Time-delay engine start |  |  |  |  |\n| Time-delay transfer (normal to emerg) |  |  |  |  |\n| Time-delay retransfer (emerg to norm) |  |  |  |  |\n| Time-delay engine cooldown |  |  |  |  |\n| Time-delay elevator pre-transfer |  |  |  |  |\n| Time-delay programmed transition (delayed neutral) |  |  |  |  |\n| Time-delay override/bypass feature |  |  |  |  |\n| Automatic generator-generator changeover timer | — |  | — |  |\n| Customer inputs/outputs |  |  |  |  |\n| Remote test with load/transfer to generator |  |  |  |  |\n| Remote engine start |  |  |  |  |\n| Transfer inhibit |  |  |  |  |\n| Re-transfer inhibit |  |  |  |  |\n| Generator (source-2) common alarm | — |  |  |  |\n| Utility (source-1) common alarm | — |  |  |  |\n| Panel security lock | — |  |  |  |\n| Load shed input | — |  |  |  |\n| Generator battery charger status input | — |  |  |  |\n| Remote time delay override/bypass |  |  | — | — |\n| Remote lamp test/fault reset | — |  | — | — |\n| Synchronizer enable | — |  |  |  |\n| Bypass switch position contacts | — |  | — |  |\n| Generator interface |  |  |  |  |\n| Generator (1) start contact (relay) |  |  |  |  |\n| Generator (2) start contact | — |  | — |  |\n| 3-wire generator start compatible (use LT for this feature) | — |  | — | — |\n| Relay outputs |  |  |  |  |\n| Source-1 connected |  |  |  |  |\n| Source-2 connected |  |  |  |  |\n| Source-1 available | — |  |  |  |\n| Source-2 available | — |  |  |  |\n| ATS not in auto | — |  |  |  |\n| Test/exercise active | — |  |  |  |\n| Pre-transfer/load disconnect |  relay drives |  |  |  |\n| Load shed active | — |  |  |  |\n| Failure to disconnect | — |  | — |  |\n| Failure to close/open | — |  |  |  |\n| Failure to sync | — |  |  |  |\n| Remote communications |  |  |  |  |\n| Remote communications module | — |  |  |  |\n| Remote communications description | — |  | LonWorks, NCM | LonWorks, NCM |\n| Remote fault dial-out/paging | — |  |  |  |\n| Remote dial-in access | — |  |  |  |\n| Event login | — |  | 50 | 50 |\n| ATS load sequencing control | — |  |  |  |\n| Peer-peer system status data | — |  |  |  |\n| Internet-accessible sites | — |  | — | — |\n| Current / load monitoring | — |  | — |  |\n| Agency approvals, code/standards GTEC OTEC OTPC/OHPC OTPC/OHPC/CHPC/BTPC |  |  |  |  |\n| UL1008 | — |  |  |  |\n| IEC |  | — | — | — |\n| CSA, NFPA, IEEE | — |  |  |  |\n| IBC | — |  |  |  |\n| NEMA ICS 10 | — |  |  |  |",
+      "raw": [
+        [
+          "Time delays",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Displays timer delay countdown",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Field-adjustable time delays",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Time-delay engine start",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Time-delay transfer (normal to emerg)",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Time-delay retransfer (emerg to norm)",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Time-delay engine cooldown",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Time-delay elevator pre-transfer",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Time-delay programmed transition (delayed neutral)",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Time-delay override/bypass feature",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Automatic generator-generator changeover timer",
+          "—",
+          null,
+          "—",
+          ""
+        ],
+        [
+          "Customer inputs/outputs",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Remote test with load/transfer to generator",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Remote engine start",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Transfer inhibit",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Re-transfer inhibit",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Generator (source-2) common alarm",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Utility (source-1) common alarm",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Panel security lock",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Load shed input",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Generator battery charger status input",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Remote time delay override/bypass",
+          "",
+          null,
+          "—",
+          "—"
+        ],
+        [
+          "Remote lamp test/fault reset",
+          "—",
+          null,
+          "—",
+          "—"
+        ],
+        [
+          "Synchronizer enable",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Bypass switch position contacts",
+          "—",
+          null,
+          "—",
+          ""
+        ],
+        [
+          "Generator interface",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Generator (1) start contact (relay)",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Generator (2) start contact",
+          "—",
+          null,
+          "—",
+          ""
+        ],
+        [
+          "3-wire generator start compatible (use LT for this feature)",
+          "—",
+          null,
+          "—",
+          "—"
+        ],
+        [
+          "Relay outputs",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Source-1 connected",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Source-2 connected",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Source-1 available",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Source-2 available",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "ATS not in auto",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Test/exercise active",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Pre-transfer/load disconnect",
+          " relay drives",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Load shed active",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Failure to disconnect",
+          "—",
+          null,
+          "—",
+          ""
+        ],
+        [
+          "Failure to close/open",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Failure to sync",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Remote communications",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Remote communications module",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Remote communications description",
+          "—",
+          null,
+          "LonWorks, NCM",
+          "LonWorks, NCM"
+        ],
+        [
+          "Remote fault dial-out/paging",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Remote dial-in access",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Event login",
+          "—",
+          null,
+          "50",
+          "50"
+        ],
+        [
+          "ATS load sequencing control",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Peer-peer system status data",
+          "—",
+          null,
+          "",
+          ""
+        ],
+        [
+          "Internet-accessible sites",
+          "—",
+          null,
+          "—",
+          "—"
+        ],
+        [
+          "Current / load monitoring",
+          "—",
+          null,
+          "—",
+          ""
+        ],
+        [
+          "Agency approvals, code/standards GTEC OTEC OTPC/OHPC OTPC/OHPC/CHPC/BTPC",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "UL1008",
+          "—",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IEC",
+          "",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "CSA, NFPA, IEEE",
+          "—",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IBC",
+          "—",
+          "",
+          "",
+          ""
+        ],
+        [
+          "NEMA ICS 10",
+          "—",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 16,
+    "title": "34887 F1443c ATS Brochure_A4_2013.indd",
+    "author": "",
+    "subject": "",
+    "creator": "Adobe InDesign CC (Macintosh)"
+  },
+  "full_text": "Global\nAutomatic Transfer Switches\n\nThe Power of One™\nUsed for switching power between the primary (utility) \nand secondary (backup or supplemental) power \nsources, Cummins automatic transfer switches \nfeature PowerCommand control technology for easy \noperation, and a robust, high-contact-force design to \nwithstand thousands of switching cycles. A full line of \nstandard switches is available from 40 to 4,000 amps \nfor the entire range of power systems with common \nbus communication language. Key features include: \n> Open, closed or programmed transition transfers\n> Bypass isolation configurations\n> Withstand and closing ratings up to 200 kA\n> Service entrance configurations to 1,000 amps\n> Global agency approvals, including: UL1008, IEC, \nCSA, NFPA, IEEE, IBC and NEMA ICS 10\nTogether as a system, \nPowerCommand® transfer switches, \ndigital paralleling systems, generator \nsets and digital master controls \nprovide you with peace of mind \nunmatched by others in the industry.\nCummins Power Generation offers a wide range of \nautomatic transfer switches for seamless transfer of \npower between the power sources in your application. \nIncluded as part of a completely integrated power \nsystem, PowerCommand transfer switches rely on \nproven technology to deliver fail-safe performance in \ncritical applications. \nAt Cummins Power Generation, we engineer our transfer \nswitches with flexibility and ease-of-operation in mind. \nPaired with a PowerCommand generator set, the result \nis a robust power system capable of ensuring reliable \nperformance while maximizing cost effectiveness.\n> Custom-engineered switches are available to fit \nunique project requirements\n> Installed in more than 100,000 applications globally\n> Convenient front-panel display to easily review power \nand load conditions, make adjustments, review \nevents and check network status\nPowerCommand® system integration\nNetwork / SCADA wires \nControl wires\n\nLOAD\nReliable, flexible, easy to use\nLOAD\nUtility-to-generator\nFor facilities with a standby power system and a \nsingle utility feed. The transfer switch senses when \nutility power has been lost, sends a start signal to the \nstandby generator and transfers the load.\nLOAD\nGenerator-to-generator\nFor facilities with a prime power system using multiple \non-site generators. If the primary generator fails, the \ntransfer switch sends a start signal to the second \ngenerator and then transfers the load.\nUtility-to-utility\nFor use in facilities with redundant utility feeds but no \nstandby generator. If one utility feed fails, the transfer \nswitch automatically connects the load to the second \nutility feed.\nThree-source system\nFor facilities with a standby power system and two \nutility feeds. The utility transfer switch controls the \nfeeds from the two utilities based on a pre-established \npriority. If both utility feeds fail, the generator transfer \nswitch sends a start signal to the standby generator \nand transfers the load. \nAnother three source system uses a standby generator \nin place of the second utility (dual standby). If the utility \nfails, the first transfer switch sends a start signal to the \nprimary standby generator and transfers the load. If \nthe primary standby generator fails, the transfer switch \nsends a start signal to the second generator set and \ntransfers the load.\nLOAD\nPowerCommand® transfer switches \nprovide safe, dependable power \ntransfer between sources.\n\nOpen, closed or programmed-transition transfer\nGTEC \n> Open or programmed transition\n> 40-2000 amps\n> 2-, 3- and 4-pole\n> IEC and CE-labeled\nOTEC \n> Open (in-phase) or programmed transition\n> 40-1000 amps\n> 3- and 4-pole\n> UL-listed\nOTPC \n> Open, closed or programmed transition\n> 40-4000 amps\n> 3- and 4-pole\n> UL-listed\nCHPC \n> Closed transition\n> 125-800 amps\n> 2-, 3- and 4-pole\n> UL-listed\nOHPC \n> Open or programmed transition\n> 125-800 amps\n> 2-, 3- and 4-pole\n> UL-listed\nBypass isolation load transfer\nBTPC \n> Open, closed or programmed transition\n> 150-4000 amps\n> 3- and 4-pole\n> UL-listed\nDependable power transfer\n......................................................................................................................................................................... 6\n....................................................................................................................................................................... 10\n....................................................................................................................................................................... 10\n....................................................................................................................................................................... 11\n....................................................................................................................................................................... 12\n......................................................................................................................................................................... 8\n\nPowerCommand® transfer switches \noptimize system reliability and \nperformance, reduce maintenance \ncosts and enhance your entire \nsystem with unique capabilities.\nOpen-transition transfer\nBreak-before-make switching action: The most basic \ntype of transfer; the connection to one source is \nopened before the connection to the second source is \nclosed. The sync-check feature included in the open-\ntransition transfer control monitors both sources and \ninitiates the transfer—avoiding out-of-phase closing.\nApplications: Emergency, code-required and optional \nstandby systems; resistive loads; small motor loads\nProgrammed-transition transfer\nSimilar to open-transition transfer. The switch opens \nthe connection to one source, pauses for an adjustable \ndelay time, then closes the connection to the second \nsource. The adjustable time between sources allows \nthe decay of residual voltage before connecting to the \nsecond source.\n \nApplications: Inductive (motor) loads; recommended \nby some manufacturers of UPS and VFD equipment\nClosed-transition transfer \nMake-before-break switching action for uninterrupted \npower transfer. The transfer switch provides a \nseamless transfer of the load from one source to \nanother by momentarily paralleling both sources \n(<100 milliseconds) during the transfer period. \nApplications: Critical power requirements, including \nhospitals and data centers \nBypass isolation transfer\nAllows maintenance to the main ATS without \ndisconnecting the load. By having two transfer switches \nconnected in parallel, the bypass transfer switch adds \nredundancy to the system. \nApplications: Critical power and maintenance \nrequirements, including healthcare and data center\nBreak-before-make switching action opens \nthe connection to one source before closing the \nconnection to the second source. Shown: open \ntransition with sync check.\nMake-before-break switching action provides \nuninterrupted power transfer. The switch closes the \nconnection to the second source before opening the \nconnection to the first source.\n}\n Utility and \ngenerator \nsynchronized \nvoltage\n}\n Load \nvoltage\n}\n Utility and \ngenerator \nsynchronized \nvoltage\n}\n Load \nvoltage\nChoice of transfer modes\n\n> PowerCommand control \n Microprocessor-based controls are developed \nspecifically for automatic transfer switch operation\n> Robust control system design \n Optically-isolated logic inputs and high-isolation transformers \nfor AC power inputs provide high-voltage surge protection\n> Communications capability \n Transfer switch communicates via a SCADA network \nor LonWorks\n> Easy service/access \n Plug connections, door-mounted controls, ample access space, \ncompatible terminal markings simplify access\n> Advanced transfer switch mechanism \n Bi-directional linear motor actuator provides virtually friction-\nfree, constant-force, straight-line transfer switch action with no \ncomplex gears or linkages\n> Break-before-make action \n Independent break-before-make action is used for both 3-pole \nand 4-pole/switched neutral switches\n> Main contacts \n Heavy-duty silver alloy contacts with separate arcing surfaces \nand multi-leaf arc chutes are rated for total system transfer \nincluding overload interruption\n> Mechanical interlock \n Prevents simultaneous closing of normal and emergency contacts\n> Service entrance option available\nOTPC 40-4000 amp series \nPowerCommand automatic transfer switches\nPremium-featured OTPC PowerCommand transfer \nswitches are ideal for emergency, code-required \nand optional standby power applications. The OTPC \ntransfer switch is available in several different control \nconfigurations to meet the requirements of your load \ntransfer application.\nPowerCommand® automatic \ntransfer switches feature \nmicroprocessor-based control \ntechnology for easy operation and \nrobust, high-contact-force design.\nOTPC \nautomatic transfer switches\n\nICS10\n\nClosed-transition \ntransfer switch \nmechanism\n> Manual operating \nhandle\n> Blow-on contactor \n Provides for high \nsurvivability in short circuit \nconditions\n> Front access \nterminals \n Allow for ease of \ninstallation\n> Stored-energy actuator\n Provides consistent high-\nspeed transfers\n> Manual \noperating handle\n> Mechanical lugs or \noptional compression lugs \n Offers flexible terminal connections\n> Easy access \nterminal block \n> Barriers over all live parts \n Provides safety shield for operations\n> Spring-loaded overcenter \nmechanism \n Provides automatic, fast and \nconsistent manual operation \nand reliable speed of transfer \n(40-1000 amps)\n> Linear motor operator \n Provides simple direct motion, \nconstant force and smooth \nprogram transition without \ngears or links (40-1000 amps)\n> Permanently attached \nmanual operator handles \n Allows for manual operation and \neasy servicing (40-100 amps)\nOpen-transition \ntransfer switch \nmechanism\nFeatures:\n> LED bar graph \n Displays color-coded and \neasy-to-read load status including \n3-phase AC voltage, current, \nfrequency, kW and power factor\n> Sync command \n Works with PowerCommand generator \nset for highly reliable closed-transition \n and in-phase transfers\n> Long-life, high-visibility \nLED indicators \n Designed to last the life of the control; \ninclude “not in auto” and “test/exercise \nactive” monitoring\n> Momentary push buttons \n Allow for quick, one-touch testing \nand retransfer of power\n> Digital vacuum fluorescent displays\n Feature 2-line-by-20-character for easy \nreading at a distance; superior to LCD-type \ndisplays at extreme operating temperatures\nAutomatic transfer switch \nstandard and optional features\n> Lamp test button\n> Front panel security lock \n Safeguards against unauthorized \nadjustments or operation\n> Override button \n Bypasses time delays\n> PowerCommand \nnetworking capability \n Monitors the entire Cummins \n Power Generation power system\n\nPowerCommand® bypass-\nisolation transfer switches are \nideal for critical-need applications \nwhere any disruption of \nsupply power, even for routine \nmaintenance, is unacceptable. \nBTPC series transfer switches combine the features of \nour advanced automatic transfer switch with a closed- \ndoor drawout isolation mechanism, a two-source \nbypass switch and exclusive microprocessor-based \ncontrols. The switch allows maintenance, service \nand testing of the automatic transfer switch without \ndisrupting power to critical loads. The resulting power \ntransfer redundancy helps ensure constant, reliable \npower for critical applications.\nBTPC 150-4000 amp series PowerCommand \nbypass-isolation transfer switch\nThese switches feature non-load break bypass operation \nthat maintains service to critical loads when the automatic \ntransfer switch is drawn out of service.\nExternal manual \noperation capability for \nthe automatic transfer \nswitch provides safe, \nreliable operation while \nlead source interlocks \nprevent the operator \nfrom connecting loads \nto a failed utility or \ngenerator source. The \nfull mechanical interlock \nsystem prevents \naccidental interconnection \nof the power sources.\nBTPC \nbypass-isolation transfer switches\nSOURCE 1\n(Preferred)\nSOURCE 1\n(Alternate)\nBypass switch\n(Dual source)\nTransfer switch\nIsolating means\nLOAD\nElectrical\nmechanical\ninterlocks\n\nFeatures:\n> Bypass to any viable \nsource at any time \n Allows for normal or \nemergency power, \nwhichever is required\n> Mechanical flags\n Indicate bypass position\n> Easy manual operation\n Allows manual transfer to any \navailable source at any time\nBypass isolation transfer switches \nstandard and optional features\n> PowerCommand control\n> Permanently mounted \ninstructions\n> Drawout positions \n Are connected, tested and isolated \nwith door closed for safety\n> Heavy-duty 3-point latches\n Insures door will stay closed without \nthe need for screw-in fasteners\n> Cabinet space for “all top” or \n“all bottom” cable connections\n> Touch barrier over \nfield connections\n> Drawout automatic \ntransfer switch\n> Dead source electrical interlock\n Prohibits closing to a dead source\n> Clear Lexan® barriers\n Allow viewing of contact position\n> Control disconnect plugs for \nfaster and safer service\nBypass-isolation\nswitch mechanism\n> Convenient drawout rails\n Allow automatic transfer switch \nto be quickly rolled out and \nreplaced\n> Lexan shutter\n Covers drawout stabs for \ntouch protection\n> Stationary bypass switch\n> Automatic safety shutters\n Drop into place as the bypass is \nengaged, covering the primary \ndisconnects as the transfer \nswitch is withdrawn\n\nCHPC/OHPC \nautomatic transfer switches\nCHPC closed-transition 125-800 amp series \nPowerCommand automatic transfer switches\nDesigned specifically for uninterrupted, closed-transition \noperation, the revolutionary design incorporates \nproven PowerCommand micro-processor control with \nan innovative High-Endurance Mechanism (HEM) for \nuncompromising reliability.\nOHPC open-transition 125-800 amp series \nPowerCommand automatic transfer switches\nFor open-transition operation, OHPC transfer switches \nalso incorporate PowerCommand microprocessor \ncontrol and a reliable High-Endurance Mechanism. \nThe OHPC is ideal for utility-to-utility, utility-to-genset \nand genset-to-genset applications.\n\nICS10\n> UL-listed 30-cycle ratings\n OHPC is listed for short-time ratings of 25,000 amps at \n10 cycles for 125-260 amps, 30,000 amps at 30 cycles for \n300-600 amps, and 42,000 amps at 30 cycles for 800 amps.\n> PowerCommand microprocessor control\n Fully-featured, field-programmable microprocessor control; \neasy setup and accuracy\n> Surge protection\n Optically-isolated logic inputs and high isolation transformers \nfor AC power inputs provide high-voltage surge protection\n> Selectable transfer method (OHPC)\n The switch automatically transfers the load back either by \nusing the fast transfer or delayed-transition mode of operation\n> Manual operation \n Manual operating handles and stored-energy transfer \nmechanism allow effective manual operation\n> Easy service/access\n Plug connections, door-mounted controls, ample access \nspace and compatible terminal markings simplify access\n> Main contacts\n Heavy-duty silver alloy contacts and multi-leaf arc chutes are \nrated for total system transfer\n> Stored-energy mechanism \n Allows the mechanism to be switched between sources even \nwhen no source is available\n\nOTEC \nautomatic transfer switches\nOTEC 40-1000 amp series \nautomatic transfer switches\nThe OTEC series transfer switch provides the basic \nfeatures you need for primary source and generator \nset monitoring, generator set starting and load transfer \nfunctions for emergency standby power applications.\nCummins Power Generation \nswitches are built to withstand \nthousands of switching cycles, \nensuring reliable operation. \n\nICS10\n> Easy service/access \n Plug connections, door-mounted controls, ample access \nspace, compatible terminal markings simplify access\n> Advanced transfer switch mechanism \n Bi-directional linear motor actuator provides virtually friction- \nfree, constant-force, straight-line transfer switch action with \nno complex gears or linkages\n> Break-before-make action \n Independent break-before-make action is used for both 3-pole \nand 4-ppole/switched neutral switches\n> Main contacts \n Heavy-duty silver alloy contacts with separate arcing surfaces \nand multi-leaf arc chutes are rated for total system transfer \nincluding overload interruption\n> Main contacts \n Heavy-duty silver alloy contacts with separate arcing surfaces \nand multi-leaf arc chutes are rated for total system transfer \nincluding overload interruption\n> Mechanical interlock \n Prevents simultaneous closing of normal and emergency contacts\n> Positive interlocking\n Mechanical and electrical interlocking prevent source-to-source \nconnection through the power or control wiring\n> Manual operation\n Manual operating handles, shielded termination and over-center \ntype contact mechanisms allow effective, manual operation \nunder de-energized conditions\n> Microprocessor control\n Fully-featured microprocessor control is standard, with all \nfeatures, settings and adjustments software-enabled for ease \nof setup and accuracy\n> Service entrance option available\n\nGTEC \nautomatic transfer switches\nGTEC 40-2000 amp series \nautomatic transfer switch\nThe GTEC automatic transfer switch combines reliability \nand flexibility in a small, economical package for normal \nand generator set source monitoring, generator set \nstarting and load transfer functions. GTEC automatic \ntransfer switches are ideal for IEC emergency, standby \nand optional standby applications. \nNot available in North America.\n> Microprocessor control \n Fully-featured microprocessor control is standard with all \nsettings and adjustments designed for easy operator use via \nthe front display panel\n> Operating modes\n Open transition with programmed transition (adjustable \n0-10 seconds); open transition with sync-check monitor and \nprogrammed-transition backup; exercise mode; and test mode\n> Manual operation handle (standard) \n Allows manual operation of the switch after proper disconnection \nof power sources\n> Easy service/access \n Door-mounted controls, ample access space and compatible \nterminal markings allow for easy access\n> Positive interlocking \n Mechanical interlocking prevents source-to-source connection \nthrough the power contacts\n> Solenoid \n A powerful and economical solenoid power GTEC transfer \nswitches\n> Advanced transfer switch mechanism \n True transfer switch mechanism with break-before-make action\n> Continuously rated\n Can be used in applications up to their nameplate rating\n> Main contacts \n Long-life, high-pressure silver alloy contacts withstand \nthousands of switching cycles without burning, pitting or \nwelding and provide 100% continuous current ratings\n\nPowerCommand® remote \nmonitoring devices let you easily \nmanage on-site and off-site power \nsystems from one location.\nWhether you’re using a desktop computer, a laptop \nor a cell phone, PowerCommand remote monitoring \nsystems help you reduce power setup time, operation \nand maintenance.\nPowerCommand accesories for reliable \nweb-based monitoring \nPowerCommand remote monitoring systems let you \nmonitor generator set and transfer switch functions via \nthe Internet. You can:\n> Monitor remotely via wireless connection using \ncellular or satellite communications \n> Communicate via an Ethernet connection, \nphone line or available wireless configuration\n> Connect via an Internet browser on a remote PC\n> Send alarms to cell phones, pagers or e-mail \naddresses\n> Display voltage and frequency of each source\n> Monitor one or two generator sets and up to \nfour transfer switches\nTCP/IP\nModbus\nRemote Monitoring\nPower Suite™ 5.0 with Transfer Products Selector Tool\nPower Suite is Cummins Power Generation’s web-based application for sizing and applying on-site power systems. \nPower Suite is available online at powersuite.cummins.com at no charge; only a brief registration is required.\nPower Suite consists of three components: GenSize™, the Transfer Products Selector tool, and the Power Suite Library. \nAfter the user enters the project parameters and use Power Suite’s intuitive tools to “build” a system, the Transfer \nProducts Selector tool recommends the Cummins Power Generation transfer switches meeting the project needs.\nTransfer switch specification sheets, drawings, wiring diagrams and other technical information are available in the \nPower Suite Library.\n\nLevel-1 \n(OTPC/OHPC \ncontrol)\nLevel-2 \n(OTPC/OHPC/\nCHPC/BTPC \ncontrol)\nGTEC/OTEC \ncontrol\nMicroprocessor controls\nSensing\n3-Phase voltage-sensing utility\n\n\n\n3-Phase voltage-sensing generator\n— single phase\n— single phase\n\nElectrical isolation from AC mains\n high impedance\n transformer\n transformer\nVoltage-sensing accuracy\n+/-2%\n+/-1%\n+/-1%\nO/U voltage-sensing utility\nU/V only\n\n\nO/U voltage-sensing generator\nU/V only\n\n\nO/U frequency-sensing utility\n—\n\n\nO/U frequency-sensing generator\nU/F only\n\n\nVoltage imbalance\n—\n—\n\nPhase rotation\n—\n—\n\nLoss of phase\n\n\n\nGeneral features/serviceability\nDoor-mounted\n\n\n\nControls isolated from switch during service\n\n\n\nSingle control package for sensing/timing\n\n\n\nVoltage surge immunity\n\n\n\nOptically isolated customer I/O\n—\n\n\nMethod(s) for sensor/timer adjustments\nLED configuration\nfront panel, service software front panel, service software\nNumber of time/date-stamped events\n—\n\n\nReal-time clock (RTC)\n—\n\n\nOn-board diagnostics/fault detection\n\n\n\nField-upgradeable software, PC diagnostics\n—\n\n\nFully adjustable timers, sensors and control parameters\nadjustable in steps\n\n\nMode control keyswitch interface with control\n—\n\n\nSupported voltages\n120V; 200-240V; 380-480V or ( 220-277V L-N); 600V\n\n\n\nTransition modes\nProgrammed transition\n\n\n\nOpen transition with sync-check sensor\n—\n\n\nIn-phase monitor\n\n—\n—\nClosed transition (momentary)\n—\n—\n\nClosed transition (soft loading/paralleling)\n—\n—\n—\nDisplay/metering/user interface\nDisplay offered/type\n—\n VFD\n VFD\nFront-panel LED status lamps\n6-fixed (8 for config.)\n6 fixed\n6 fixed\nFront-panel test\n\n\n\nFront-panel TD override\n\n\n\nFront-panel lamp test/fault reset\n—\n\n\nFront-panel set exerciser\n\nw/display\nw/display\nColor-coded bar graph meters for voltage, current, \nfrequency, kW & power factor\n—\n—\n\nEngine-exerciser clock\nCalendar-based exerciser with real-time clock\n—\n\n\nOnce/week exerciser\n\n—\n—\nExerciser via external clock module\n\n—\n—\nNumber of exercise programs\n\n\n\nPower output for external timer\n—\n—\n—\nExercise exceptions\n—\n 1\n 8\n Standard Features  Optional Features — Not Available\n\nPowerCommand controls optimize the reliability \nand performance of the power generation system \nwhile keeping costs competitive and providing \nunique capabilities for the entire system.\nTime delays\nDisplays timer delay countdown\n—\n\n\nField-adjustable time delays\n\n\n\nTime-delay engine start\n\n\n\nTime-delay transfer (normal to emerg)\n\n\n\nTime-delay retransfer (emerg to norm)\n\n\n\nTime-delay engine cooldown\n\n\n\nTime-delay elevator pre-transfer\n\n\n\nTime-delay programmed transition (delayed neutral)\n\n\n\nTime-delay override/bypass feature\n\n\n\nAutomatic generator-generator changeover timer\n—\n—\n\nCustomer inputs/outputs\nRemote test with load/transfer to generator\n\n\n\nRemote engine start\n\n\n\nTransfer inhibit\n\n\n\nRe-transfer inhibit\n\n\n\nGenerator (source-2) common alarm\n—\n\n\nUtility (source-1) common alarm\n—\n\n\nPanel security lock\n—\n\n\nLoad shed input\n—\n\n\nGenerator battery charger status input\n—\n\n\nRemote time delay override/bypass\n\n—\n—\nRemote lamp test/fault reset\n—\n—\n—\nSynchronizer enable\n—\n\n\nBypass switch position contacts\n—\n—\n\nGenerator interface\nGenerator (1) start contact (relay)\n\n\n\nGenerator (2) start contact\n—\n—\n\n3-wire generator start compatible (use LT for this feature)\n—\n—\n—\nRelay outputs\nSource-1 connected\n\n\n\nSource-2 connected\n\n\n\nSource-1 available\n—\n\n\nSource-2 available\n—\n\n\nATS not in auto\n—\n\n\nTest/exercise active\n—\n\n\nPre-transfer/load disconnect\n relay drives\n\n\nLoad shed active\n—\n\n\nFailure to disconnect\n—\n—\n\nFailure to close/open\n—\n\n\nFailure to sync\n—\n\n\nRemote communications\nRemote communications module\n—\n\n\nRemote communications description\n—\nLonWorks, NCM\nLonWorks, NCM\nRemote fault dial-out/paging\n—\n\n\nRemote dial-in access\n—\n\n\nEvent login\n—\n\n\nATS load sequencing control\n—\n\n\nPeer-peer system status data\n—\n\n\nInternet-accessible sites\n—\n—\n—\nCurrent / load monitoring\n—\n—\n\nAgency approvals, code/standards GTEC OTEC OTPC/OHPC OTPC/OHPC/CHPC/BTPC\nUL1008\n—\n\n\n\nIEC\n\n—\n—\n—\nCSA, NFPA, IEEE\n—\n\n\n\nIBC\n—\n\n\n\nNEMA ICS 10\n—\n\n\n\nLevel-1 \n(OTPC/OHPC \ncontrol)\nLevel-2 \n(OTPC/OHPC/\nCHPC/BTPC \ncontrol)\nGTEC/OTEC\ncontrol\n\nAsia Pacific\n10 Toh Guan Road #07-01\nSingapore 608838\nPhone 65 6417 2388\nFax 65 6417 2399\nBrazil\nRua Jati, 310, Cumbica\nGuarulhos, SP 07180-900\nBrazil\nPhone 55 11 2186 4195\nFax 55 11 2186 4729\nChina\nNo. 2 Rongchang East Street \nBeijing Economic and Technological \nDevelopment Area \nBeijing 100176 \nP.R. China \nPhone 86 10 5902 3000 \nFax 86 10 5902 3199 \nEurope, CIS, Middle East and Africa\nManston Park Columbus Ave.\nManston Ramsgate, Kent CT 12 5BF \u0003\nUnited Kingdom\nPhone 44 1843 255000\nFax 44 1843 255902\nIndia\n35A/1/2, Erandaqana\nPune 411 038\nIndia\nPhone 91 020 6602 7525\nFax 91 020 6602 8090\nLatin America\n3350 Southwest 148th Ave.\nSuite 205, Miramar, FL 33027\nUSA\nPhone 954 431 5511\nFax 954 433 5797\nMexico\nEje 122 No. 200 Zona Industrial\nSan Luis Potosí, S.L.P. 78395\nMexico\nPhone 52 444 870 6700\nFax 52 444 824 0082\nNorth America\n1400 73rd Ave. NE\nMinneapolis, MN 55432 \nUSA\nPhone 763 574 5000\nUSA Toll-free 877 769 7669\nFax 763 574 5298\n© 2013 Cummins Power Generation Inc. \nAll rights reserved. \nCummins Power Generation and Cummins \nare registered trademarks of Cummins Inc. \n“Our energy working for you.” and Power Suite \nare trademarks of Cummins Power Generation. \nOther company, product, or service names \nmay be trademarks or service marks of others. \nSpecifications subject to change without notice. \nF-1443c (9/13) A4 \nFor more information contact your \nlocal Cummins distributor. \nTo find the one nearest you visit \nOur global operations:\n44,000 employees in 190 countries \n88 manufacturing facilities \n6,500 sales & service centers \n600 distributor locations\nwww.cumminspower.com",
+  "errors": [],
+  "removed_noise_lines": [
+    "power.cummins.com"
+  ]
+}

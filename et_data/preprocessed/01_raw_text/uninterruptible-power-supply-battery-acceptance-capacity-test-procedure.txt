@@ -1,0 +1,434 @@
+UNINTERRUPTIBLE
+POWER
+SUPPLY
+BATTERY
+ACCEPTANCE/CAPACITY
+TEST PROCEDURE
+Developed for BA TTCON97
+by Michael P. O'Brien
+of Nolan Battery
+Company
+This procedure
+supplements existing industry standards and is intended to provide the user with the minimum recommended
+acceptance/capacity test procedures for Uninterruptible Power Supply (UPS) batteries.
+Additionally, this procedure describes two
+different methods ofioading a UPS battery during an acceptance/capacity
+test. Both methods are technically correct and will be
+discussed later in this procedure. It is the user's responsibility to determine which test method is the most technically correct for their
+respective UPS installation.
+Acceptance
+Test.
+A constant load capacity test conducted on a new battery installation to determine that the battery meets
+specifications or manufacturer's ratings.
+Valve Regulated
+Lead-Acid
+Cell.
+A lead-acid cell that is normally sealed via a pressure relieflregulating valve. The gaseous
+products of electrolysis are normally contained within the cell and recombine to form water.
+Flooded CeO. A lead-acid cell in which the gaseous products of electrolysis and evaporation are allowed to escape to the atmosphere
+as they are generated.
+[I]
+ANSI/lEEE 450-1995, IEEE Recommended Practice for Maintenance, Testing, and Replacement of Large lead Storage
+Batteries for Generating Stations and Substations.
+[2]
+ANSI/IEEE
+484-1996,
+IEEE Recommended
+Practice for Installation Design and Installation of Large Lead Storage
+Batteries for Generating Stations and Substations.
+Note:
+While the IEEE Standards
+listed above were written primarily for generating
+stations and substations,
+the
+information and practices contained in these Standards are applicable to UPS lead-acid battery installations.
+As new
+standards
+are developed and published, portions
+of this procedure
+may need to be revised to comply with the new
+standards.
+
+Capacity testing is a very important part of a comprehensive battery maintenance program.
+Regularly scheduled capacity testing is
+a key part ofIEEE/ANSI
+Standard 450-1995, which specifies minimum acceptable standards for maintenance of large lead acid
+storage batteries.
+Capacity testing serves three main purposes.
+First, capacity testing determines the actual capacity of the battery. Second, capacity
+testing determines if the battery can support the connected load for the specified time. Third, capacity testing will reveal internal
+conduction path problems that cannot be detected by other means.
+5.1
+General: A capacity test is basically a constant load discharge of the battery to a specified end voltage. The time required
+for the battery voltage to drop to the specified end voltage is then compared with the battery manufacturer's discharge curve
+to determine the capacity of the battery. The following paragraphs detail items of paramount importance when conducting
+capacity tests.
+5.2
+Continuous Monitoring: All battery parameters require continuous monitoring.
+Continuous monitoring of individual cell
+voltages and overall battery voltage is required to detect problems such as high conduction path resistance, low cell voltage
+or cell reversal and alarming or terminating the test, as appropriate, on out-of-tolerance conditions.
+5.3
+Load Control: Maintaining a constant discharge load throughout the test despite changes in battery voltage. This requires
+an intelligent or "smart" load unit that can automatically parallel additional load elements to maintain a constant load as the
+battery voltage drops during the discharge.
+5.4
+Data Logging: Automatic data logging should record any change in each monitored parameter providing a complete record
+of events and irrefutable data.
+5.5
+Automatic Test Execution:
+This removes the largest and most uncontrollable testing variable, the human element, thus
+insuring test repeatability and accurate results.
+6.1
+General: Personnel safety is of supreme importance!
+Batteries are inherently dangerous devices presenting risks of injury
+and/or death from electrocution, explosion, fire, and chemical bums.
+All flooded cells contain explosive concentrations of
+hydrogen and oxygen gas. Individual cells of relatively small size can produce high short circuit currents, (in the area of
+1000 to 5000 amps). Larger cells can produce short circuit currents in excess of 10,000 amps. Cell short circuits caused
+by maintenance personnel can result in severe injury and/or death from fire, explosion, and chemical bums.
+The electrolyte
+in lead-acid cells is dilute sulfuric acid. Skin exposure to lead-acid battery electrolyte will generally cause only minor burns
+if not promptly treated, however, exposure to the eyes, and/or mucous membranes will cause severe debilitating burns
+without immediate first aid.
+
+(4)
+All hand tools must be electrically insulated. Tools may be insulated with electrical tape and/or insulating shrink
+wrap tubing. When insulating tools, insulate every possible surface that can be insulated while still allowing proper
+use of the tool. NOTE:
+Don't be stingy with the electrical tape.
+Your safety depends on it!
+(6)
+Batteries
+used in some UPS systems are intentionally grounded.
+In grounded DC systems all cell posts are
+electrically live with respect to earth ground. High voltage UPS battery systems pose a significant electrocution
+hazard. Personnel should always be isolated from earth ground when working on grounded DC systems.
+7.1
+General. The following initial conditions must be met prior to commencing an acceptance test. Failure to meet these initial
+conditions will result in invalid test results and the possibility of the battery failing the acceptance test.
+NOTE:
+If the test to be performed
+is a capacity test conducted with the battery in the "asfound" condition, proceed to
+step (9).
+(3)
+Insure that all intercell connection resistances are under the battery manufacture's ceiling value and that there are
+no resistances more than 10% or five microhms, whichever is greater, above the average intercell connection
+resistance.
+(4)
+Insure that all battery cabling is properly supported.
+Cable connections
+should not strain the cell posts!
+Improperly supported cables can cause premature post seal failure, high resistance connections and bent or broken
+cell posts.
+(5)
+Insure that all inter-tier/row
+cable resistances are under the battery manufacture's
+ceiling value.
+Like cable
+connection resistances should be no more than 10% or five microhms, whichever is greater, above the average
+cable connection resistance for similar connections.
+(6)
+Insure the battery has received a freshening charge.in accordance with the battery manufacturer's instructions and
+IEEE/ AN SI Std. 484-1996.
+(7)
+Review the initial specific gravity and cell voltage readings, taken 72 hours after the termination of the freshening
+charge, and insure that all voltage and gravity readings are within the battery manufacturer's specified limits.
+(8)
+If more than thirty days has elapsed between the termination of the freshening charge and initiation of the
+acceptance test, an equalization charge is required.
+If required, the equalization charge should be accomplished
+in accordance with the battery manufacturer's instructions.
+After termination of the equalization charge, allow the
+cell voltages and specific gravities to stabilize on float charge for at least 72 hours, but not more than thirty days
+before proceeding with the acceptance test.
+(9)
+Measure and record all cell voltages and specific gravities.
+Correct all specific gravity readings for temperature
+and level and record the corrected values. NOTE: A temperature compensating
+digital hydrometer is strongly
+recommended for specific gravity measurements.
+
+(10)
+Measure and record the electrolyte temperature of at least 10% of all cells and calculate the average electrolyte
+temperature.
+Note: On Valve Regulated cells, measure the temperature of the negative posts. During oxygen
+recombination the negative plates and post will be slightly warmer then the positives.
+8.1
+General. There are two industry accepted methods of applying load to a UPS battery during an acceptance/capacity
+test.
+Each method has its particular advantages; however, both methods, when properly executed, will accurately measure battery
+capacity. Regardless of the loading method used, the following battery parameters MUST be monitored during the discharge
+test:
+(1)
+Individual cell voltages. This measurement must include the voltage drop across each cell's associated intercell
+connector.
+8.2
+D.C. Load Bank(s). In this method, computer controlled load bank(s) are used to directly load the battery independent of
+the UPS. This requires that the battery be removed from service. The UPS, depending upon its design, may be able to
+remain in service as a power conditioner.
+This type of test is generally the most repeatable and controllable method of
+loading a battery; however, it can be expensive in terms of equipment cost. A major consideration and possible limiting
+factor when using computer controlled D.C. load banks are locating them near the battery and dissipating the heat from the
+load banks.
+8.2.1
+Discharge Rate. The discharge rate should be equal to the battery's design reserve time to an end voltage equal to the UPS
+"D.C. Under Voltage Shutdown Level."
+This information is then compared with the battery manufacturer's
+discharge
+tables/curves to determine the correct load to place on the battery at 77°F. initial average electrolyte temperature.
+8.2.2
+Temperature
+Compensation.
+Batteries produce electrical energy by means of an electrochemical reaction and the speed
+of that reaction directly affects battery performance.
+The speed of the electrochemical
+reaction is directly affected by
+electrolyte temperature;
+therefore, battery performance
+must be corrected to a standard temperature.
+The standard
+temperature for batteries ofU .S. manufacture is 77°F.
+Battery performance data published for cells of U.S. manufacture is only valid when the electrolyte temperature is 77°F.
+If the electrolyte temperature is other than 77°F. the discharge load is normally adjusted, up or down, for temperature prior
+to starting a discharge test. A temperature correction factor table may be found in IEEE Std. 450-1995.
+The temperature
+correction factors published in IEEE 450-1995 are only valid for nominal 1.215 specific gravity cells. Additionally, these
+temperature correction factors are only valid at the eight-hour discharge rate. Since UPS battery discharge rates are normally
+in the ten to thirty minute ranges and many UPS batteries have nominal specific gravities higher that 1.215, the battery
+manufacturer should be consulted to obtain the correct temperature correction factor.
+8.3
+Inverter
+Loading.
+In this method, an A.C. load is placed on the output of the UPS and then input power to the UPS is
+removed causing the battery to discharge into the UPS inverter. This type of test requires that the UPS be removed from
+service and isolated from the critical load. The major advantages of this type test are that it is an excellent functional test
+
+of the UPS, since it simulates worst case operating conditions, and the comparatively lower cost of the load equipment.
+Standard A.C. load banks can be used in lieu of computer controlled D.C. load banks.
+8.3.1
+Discharge Rate.
+When loading a battery through the inverter section of a UPS, it is not normally possible to accurately
+set or specifYthe discharge load on the battery. This is because of variances in individual inverter efficiencies.
+Therefore,
+the inverter should be loaded to its maximum rated output current via an A.C. load bank(s).
+The actual load placed on the
+battery will not be known until the test starts. Since the load placed on the battery in this type of test cannot normally be
+accurately set or specified prior to starting the test, temperature compensation of the discharge load is not possible.
+When
+the initialaverage electrolyte temperature is other than 77°F, the test results must be corrected for temperature.
+This will
+be explained later in the section on calculating capacity.
+8.3.2
+Emergency Test Termination.
+The user must determine how to remove the load from the battery safely and quickly if
+an unsafe condition occurs during the test, (over heated connection, cell polarity reversal, etc.).
+CAUTION:
+Care should be exercised in the positioning of air cooled load units as the heat dissipated during the test
+may trigger the building fire alarm system.
+If the facility
+is equipped with an automatic fire suppression
+system,
+consideration should be given to inhibiting the automatic activation of thefire suppression system during the discharge
+test.
+(4)
+Using the average initialelectrolyte temperature, from step 7.2.10, select the proper temperature correction factor
+and temperature compensate the discharge load.
+(5)
+Apply the load to the battery. The load must be maintained at the specified level throughout the test until the
+battery terminal voltage drops below the specified end voltage.
+NOTE:
+Capacity tests are not stopped after reaching a specified discharge time. Capacity tests are only terminated
+when the battery terminal voltage drops below the specified end voltage.
+Example:
+End voltage per cell times the
+number of cells in series equals the battery terminal end voltage, 1.67 (per cell end voltage) x 180 (cells in series) = 300.6
+(battery terminal end voltage). The capacity test would terminate when the battery terminal voltage dropped below 300.6
+VDC.
+(6)
+Check for over heated connections during the test. Ifthe temperature rise across any connection becomes
+unacceptable, terminate the test.
+NOTE:
+High resistance connections appear as low voltage cells during the test. This is because the cell voltage
+measurements include the voltage drop across the cell's associated intercell connector.
+Normally, (but not always),
+a cell showing low voltage during the first thirty to sixty seconds of a capacity test is not truly a low voltage cell but
+rather a high resistance connection.
+
+CAUTION:
+Cells should not be allowed to go into polarity reversal as this causes irreparable damage to the cell
+and can pose a safety hazard.
+(8)
+At the conclusion of the test, record the elapsed test time, disconnect all test equipment, and return the battery
+to service.
+CAUTION: Care should be exercised when returning the battery to service. If this battery serves a static UPS that
+is still supplying power to the critical load, closing the battery breaker may cause a momentary
+under voltage
+condition on the output of the UPS. This may adversely affect the critical load and/or cause the UPS to transfer to
+the "Bypass" or alternate power source.
+CAUTION: UPS systems that are lightly loaded and have no "Battery Charge Current Limit" may supply recharge
+currents high enough to cause a significant increase in battery temperature.
+This may cause the battery to enter a
+"Thermal Runaway" condition that can destroy the battery and pose afire safety hazard.
+Valve Regulated Lead-Acid
+cells are more prone to thermal runaway than flooded cells. The electrolyte temperature of flooded cells should not
+exceed I IfJ'F and, the electrolyte temperature of ValveRegulated Lead-Acid cells should not exceed 95°F to prevent
+thermal runaway during battery recharge.
+CAUTION:
+Care should be exercised in the positioning
+of air cooled load units as the heat dissipated during the
+test may trigger the buildingfire alarm system. If thefacility is equipped with an automatic fire suppression system,
+consideration
+should be given to inhibiting the automatic activation of the fire suppression
+system during the
+discharge test.
+NOTE:
+It is imperative that battery discharge current be monitored and recorded during the test. The preferred
+method for monitoring discharge current is via a D.C. shunt.
+A properly sized D.C. shunt is normally far more
+accurate than clamp-on D.C. ammeters.
+Many UPS systems have an internal D.C. shunt for monitoring battery
+charge/discharge
+current.
+(5)
+Open the A.C. input feeder breaker to the UPS simulating an input power failure. This will cause the battery
+to discharge into the inverter. Continue the discharge until UPS trips for "D.C. Under Voltage" or the battery
+terminal voltage drops below the specified end voltage. The UPS may trip for "D.C. Under Voltage" at a
+battery terminal
+voltage that is different from the specified battery terminal end voltage.
+It is the user's
+responsibility
+to insure the battery is not over discharged because of a faulty "D.C. Under Voltage Trip"
+circuit.
+NOTE: Capacity tests are not stopped after reaching a specified discharge time. Capacity tests are only terminated
+when the battery terminal voltage drops below the specified end voltage.
+Example:
+End voltage per cell times the
+number of cells in series equals the battery terminal end voltage, 1.67 (per cell end voltage) x 180 (cells in series)
+= 300.6 (battery terminal end voltage). The capacity test would terminate when the battery terminal voltage dropped
+below 300.6 VDC.
+
+(6)
+Check for over heated connections during the test. If the temperature rise across any connection becomes
+unacceptable, terminate the test.
+NOTE: High resistance connections will show as low voltage cells during the test. This is because the cell voltage
+measurements include the voltage drop across the cell's associated intercell connector.
+Normally, (but not always),
+a cell showing low voltage during thefirst thirty to sixty seconds of a capacity test is not truly a low voltage cell but
+rather a high resistance connection.
+CAUTION:
+Cells should not be allowed to go into polarity reversal as this causes irreparable damage to the cell
+and can pose a safety hazard.
+(8)
+At the conclusion of the test, record the elapsed test time, disconnect all test equipment, and return the battery
+to service.
+CAUTION:
+UPS systems that are lightly loaded and have no "Battery Charge Current Limit" may supply recharge
+currents high enough to cause a significant increase in battery temperature.
+This may cause the battery to enter a
+"Thermal Runaway" condition that can destroy the battery and pose a significant fire safety hazard.
+Valve Regulated
+Lead-Acid cells are more prone to thermal runaway than flooded cells. The electrolyte temperature offlooded
+cells
+should not exceed ]]fJ'F. and, the electrolyte temperature of Valve Regulated Lead-Acid cells should not exceed 95°F.
+to prevent thermal runaway during battery recharge.
+10.1
+D.C. Load Bank(s).
+The capacity calculation for this test method is very simple. Divide the actual test time, (how
+long the test actually ran), by the specified test time, (how long should the battery have lasted), and then multiply the
+product by one hundred. The equation is shown below:
+% capacity at 7rF = L!x 100
+Ts
+where:
+Ta = actual test time
+Ts = specified test time
+10.2
+Inverter Loading.
+Capacity calculations for this test method are generally more complex because the actual discharge
+load is not known nor can the load be temperature corrected to 77°F prior to test initiation.
+(1)
+Determine the kilowatt loading of the battery by multiplying the current readings by the voltage readings.
+All
+the kilowatt calculations should be approximately the same.
+(2)
+If the initial average electrolyte temperature
+is other than 77°F the calculation must be corrected for
+temperature. To correct the calculation for temperature, multiply the total battery kilowatt loading, (from the
+previous step), by the appropriate temperature correction factor, (see 8.2.2).
+(3)
+Determine the kilowatts per cell by dividing the total temperature corrected battery kilowatt loading, (from
+the previous step), by the number of cells in the battery.
+
+(4)
+Determine the average per cell end voltage by dividing the actual battery terminal end voltage by the number
+of cells in series.
+(5)
+Compare the temperature corrected kilowatts per cell, (from step (3) above), and the average per cell end
+voltage, (from step (4) above), to the battery manufacturer's per cell kilowatt chart to determine the specified
+test time, (how long the battery should have lasted).
+(6)
+Calculate the battery capacity by dividing the actual test time, (how long the test actually ran), by the specified
+test time, (from step 5 above), and then multiply the product by one hundred. The equation is shown below:
+% capacity at 77°F =il x 100
+Ts
+where:
+Ta = actual test time
+Ts = specified test time
+Temperature
+correction factor from IEEE 450-1995
+and confirmed by the battery manufacturer,
+(see
+paragraph 8.2.2):
+1.064
+617KW = 3.427 KW per cell
+
+300.6 = 1.67 Volts per cell
+
+Capacity calculation:
+12.5 x 100 = 96.2% capacity
+
+10.3
+Weak Cells. Analyze the test data to determine ifthere are any weak cells in the battery. A weak cell is any cell with
+a capacity 10% or more below the battery capacity. Individual cell capacity can be determined by substituting the time
+that the cell voltage fell below the specified end voltage for liTa" in the capacity formula.
+10.4
+Defective Cells.
+Analyze the test data to determine if there are any defective cells in the battery. A defective cell is
+any cell with a capacity of80% or less. Individual cell capacity can be determined by substituting the time that the cell
+voltage fell below the specified end voltage for liTa" in the capacity formula.
+
+The industry accepted replacement criteria for rectangular pasted plate cells, (most stationary batteries), is to replace the battery
+when the measured capacity drops to 80% of the manufacture's rated capacity. This replacement criterion is valid for batteries
+sized in accordance with IEEE 485. Unfortunately, most UPS batteries are not sized in accordance with the spirit or intent of
+IEEE 485 and therefore may require replacement at higher capacities.
+When most UPS batteries are sized, no aging factor,
+temperature correction factor, or cable loss corrections are used. This means the battery will only support full rated UPS load
+when electrolyte temperature is 77°F or greater and the battery has more than 100% of rated capacity. In these instances, the
+UPS user must determine how much battery reserve time is required for their respective installation. This would then be used
+as the battery replacement criteria as long as the battery capacity was greater than 80%. All rectangular pasted plate lead-acid
+cells should be replaced when the measured capacity drops to 80% of the manufacturer's rated capacity regardless of connected
+load.
+12.1
+Short Duration
+Flooded
+Lead-Acid
+Cells: Batteries comprised of flooded cells with a design discharge time of one-
+hour or less should receive annual capacity tests.
+12.2
+Long Duration
+Flooded Lead-Acid
+Cells: Batteries comprised of flooded cells with a design discharge time greater
+than one-hour should be tested according to the following schedule:
+(2)
+Conduct a Capacity Test after the battery has been in service for two years and every three years thereafter
+until the battery reaches 85% of its design life or shows signs of degradation.
+(3)
+Conduct annual Capacity Tests on batteries that exceed 85% of their rated design life or show signs of
+degradation. Signs of degradation are a drop of capacity of 10% or more from the previous capacity test or
+when the capacity is less than 90% of the manufacturer's rated capacity.
+12.2
+Valve Regulated
+Lead-Acid
+Cells:
+Batteries comprised of Valve Regulated Lead-Acid Cells should receive annual
+capacity tests.

@@ -1,0 +1,1485 @@
+Installation and Maintenance Manual 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LE15465AA (rev. 03 – 08/25)
+
+Table of Contents 
+ 
+1. Introduction ............................................................................................................. 4 
+1.1 General remarks .......................................................................................... 4 
+1.2 Manufacturer's liability and guarantee ......................................................... 5 
+1.2.1 
+Guarantee terms ................................................................................. 5 
+1.2.2 
+Extension of the guarantee and maintenance contracts ..................... 6 
+1.3 Copyright ..................................................................................................... 6 
+2. Regulatory and safety requirements ....................................................................... 7 
+2.1 Definitions of “Skilled Technician” and “Operator” ....................................... 7 
+2.1.1 
+Skilled Technician ............................................................................... 7 
+2.1.2 
+Operator .............................................................................................. 8 
+2.2 Personal Protective Equipment ................................................................... 8 
+2.3 Hazard signs in the workplace ..................................................................... 9 
+2.4 Signs on the equipment ............................................................................... 9 
+2.5 Batteries .................................................................................................... 10 
+2.6 Installation and maintenance ..................................................................... 10 
+2.7 Cybersecurity............................................................................................. 12 
+3. Equipment check and transportation .................................................................... 13 
+3.1 Visual check .............................................................................................. 13 
+3.2 Equipment check ....................................................................................... 13 
+3.3 Transportation ........................................................................................... 14 
+3.4 Positioning constraints ............................................................................... 14 
+4. Installation ............................................................................................................ 15 
+4.1 Views ......................................................................................................... 16 
+4.1.1 
+Rear Panel ........................................................................................ 16 
+4.1.2 
+Operation Panel ................................................................................ 17 
+4.2 Mechanical Installation .............................................................................. 19 
+4.2.1 
+Tower installation .............................................................................. 19 
+4.2.2 
+Rack mount installation ..................................................................... 19 
+4.3 Electrical connection .................................................................................. 20 
+4.3.1 
+Protection from overloads and short-circuits ..................................... 20 
+4.4 Communication.......................................................................................... 21 
+4.4.1 
+RS232 ............................................................................................... 21 
+4.4.2 
+USB ................................................................................................... 21 
+4.4.3 
+EPO and input dry contacts .............................................................. 22 
+5. Configuration and starting-up ............................................................................... 23 
+5.1 Pre-start-up checks ................................................................................... 23 
+5.2 Start-up procedure .................................................................................... 23 
+5.3 UPS Default Data and Special Function Execution ................................... 23 
+6. Maintenance ......................................................................................................... 24
+
+6.1 Preventive maintenance ............................................................................ 24 
+6.2 Periodical checks....................................................................................... 24 
+6.3 Ordinary and extraordinary maintenance .................................................. 24 
+6.4 Troubleshooting ......................................................................................... 25 
+6.4.1 
+Common faults .................................................................................. 25 
+6.4.2 
+Error codes ....................................................................................... 26 
+6.4.3 
+Beep codes ....................................................................................... 27 
+7. Warehousing ........................................................................................................ 28 
+7.1 UPS .......................................................................................................... 28 
+7.2 Batteries .................................................................................................... 28 
+8. Dismantling ........................................................................................................... 29 
+8.1 Battery disposal ......................................................................................... 29 
+8.2 UPS dismantling ........................................................................................ 29 
+8.3 Electronic component dismantling ............................................................. 29 
+9. Technical characteristics ...................................................................................... 30 
+10. 
+Technical data ........................................................................................... 36
+
+1. Introduction 
+ The instructions in this manual are intended for a SKILLED TECHNICIAN (paragraph 2.2.1) 
+to provide information on how to install and maintain the UPS. 
+ 
+ You can download the full manual from the UPservice App. 
+ 
+ 
+ 
+1.1 General remarks 
+The purpose of this manual is to provide to the skilled technician: 
+• instructions to safely install the Keor DK R/T UPS 1-2-3 kVA (also called only “UPS” or “equipment” 
+in the rest of the manual). 
+• information to carry out ordinary maintenance procedures. Extraordinary maintenance operations are 
+not dealt with because they are the sole preserve of the LEGRAND Technical Support Service. 
+The manual refers to laws, directives, and standards that the skilled technician is required to be aware 
+of and consult. It does not substitute the skill of technical personnel who must have received adequate 
+preliminary training. 
+ 
+The intended use and configurations envisaged for the equipment as shown in this manual are the only 
+ones allowed by LEGRAND (also called "Manufacturer" in the rest of the manual). 
+Any other use or configuration must be previously agreed with the Manufacturer in writing and the written 
+agreement will become part of the installation and user manuals. 
+This manual is not a specification; therefore, LEGRAND reserves the right to make any changes to data 
+without prior notice. It also complies with the directives and standards in force at the time of its release. 
+The version of the manual updated to its latest release is available at ups.legrand.com. 
+The original text of this publication, drafted in English, is the only reference for the resolution of disputes 
+of interpretation linked to translations into other languages. 
+ 
+Some operations are shown in graphic symbols that draw the attention of the reader to the danger or 
+the importance they imply: 
+ 
+ 
+This symbol indicates a danger entailing a high degree of risk that, if not avoided, will lead to 
+death or severe injury or considerable damage to the equipment, people, and things around it. 
+ 
+ This symbol indicates a danger entailing a level of risk that, if not avoided, could lead to minor or 
+moderate injury or material damage to the equipment, people, and things around it.
+
+This symbol indicates essential information which should be read carefully. 
+The manual must be kept in a safe, dry place and must always be available for its entire lifetime. It is 
+recommended to make a copy of it and file it away. In case of need (for example in case of damage that 
+even partially compromises its consultation) the skilled technician is required to get a new copy from the 
+Manufacturer. 
+If information is exchanged with the Manufacturer or the authorized assistance personnel, it is essential 
+to refer to the equipment’s rating plate data and serial number. 
+1.2 Manufacturer's liability and guarantee 
+The skilled technician and the operator shall scrupulously comply with the precautions and installation 
+instructions indicated in the manuals. They must: 
+- always work within the operating limits of the equipment. 
+- always carry out constant and careful maintenance through a skilled technician who complies with all 
+the procedures indicated in the installation and maintenance manual. 
+The Manufacturer declines all indirect or direct responsibility arising from: 
+- assembly and cabling made by personnel not fully qualified according to national standards to work on 
+equipment presenting electrical hazards. 
+- assembly and cabling made without using safety equipment and tools required by national safety 
+standards. 
+- failure to observe the installation and maintenance instructions and use of the equipment which differs 
+from the specifications in the manuals. 
+- use by personnel who have not read and thoroughly understood the content of the user manual. 
+- use that does not comply with the specific standards used in the country where the equipment is 
+installed. 
+- modifications made to the equipment, software, functioning logic unless they have been authorized by 
+the Manufacturer in writing. 
+- repairs that have not been authorized by the LEGRAND Technical Support Service. 
+- damage caused intentionally, through negligence, by acts of God, natural phenomena, fire or liquid 
+infiltration. 
+- damage caused using batteries and protections not specified in the manual. 
+- accidents caused by a wrong assembly of the safety protections or due to the lack of application of the 
+safety labels. 
+The transfer of the equipment to others also requires handing over all the manuals. Failure to do it will 
+automatically nullify any right of the buyer, including the terms of the guarantee where applicable. 
+If the equipment is sold to a third party in a country where a different language is spoken, the original 
+owner shall be responsible for providing a faithful translation of this manual in the language of the country 
+where the equipment will be used. 
+1.2.1 Guarantee terms 
+The guarantee terms may vary depending on the country where the UPS is sold. Check the validity and 
+duration with LEGRAND's local sale representative. 
+If there should be a fault in the product, contact the LEGRAND Technical Support Service which will 
+provide all the instructions on what to do. 
+Do not send anything back without LEGRAND's prior authorization. 
+ 
+The guarantee becomes void if the UPS has not been brought into service by a properly trained skilled 
+technician (see paragraph 2.2.1).
+
+If during the guarantee period the UPS does not conform to the characteristics and performance laid 
+down in this manual, LEGRAND at its discretion will repair or replace the UPS and relative parts. 
+All the repaired or replaced parts will remain LEGRAND's property. 
+LEGRAND is not responsible for costs such as: 
+- losses of profits or earnings. 
+- losses of equipment, data or software. 
+- claims by third parties. 
+- any damage to persons or things due to improper use, unauthorized technical alterations or 
+modifications. 
+- any damage to persons or things due to installations where the full compliance with the standard 
+regulating the specific usage applications have not been guaranteed. 
+1.2.2 Extension of the guarantee and maintenance contracts 
+The standard guarantee can be consolidated in a single extension contract (maintenance contract). 
+Once the guarantee period has passed, LEGRAND is available for giving a technical assistance service 
+able to meet all requirements, maintenance agreements, 24/7 availability and monitoring. 
+Please, contact the LEGRAND Technical Support Service for further information. 
+1.3 Copyright 
+The information contained in this manual cannot be disclosed to any third party. Any partial or total 
+duplication of the manual by photocopying or other systems, including electronic scanning, which is not 
+authorized in writing by LEGRAND, violates copyright conditions and may lead to prosecution.
+
+2. Regulatory and safety requirements 
+ Before carrying out any operation on the equipment, it is necessary to read the entire manual 
+carefully, especially this chapter. 
+Look after this manual carefully and consult it repeatedly during installation and maintenance by 
+a skilled technician. 
+ 
+ Keor DK RT 1-2-3 kVA is a category C2 UPS according to the standard EN IEC 62040-2. 
+The UPS is a product for commercial and industrial application in the second environment – installation 
+restrictions or additional measures may be needed to prevent disturbances. 
+ 
+ The equipment has been made for the applications given in the manual. It may not be used for 
+purposes other than those for which it has been designed or differently from those specified in this 
+manual. The various operations must be carried out according to the criteria and the chronology 
+described in this manual. 
+ 
+ 
+Do not disable any safety, notification or warning device and do not ignore any alarm, warning 
+message or notice, no matter whether they are generated automatically or represented by signs fixed to 
+the equipment. 
+ 
+ In case of emergency, follow the regulations in force in the country where the equipment is 
+installed. 
+ 
+2.1 Definitions of “Skilled Technician” and “Operator” 
+2.1.1 Skilled Technician 
+The professional that will carry out the installation, start up and ordinary maintenance is called “Skilled 
+Technician”. 
+This definition refers to people who have the specific technical qualification and are aware of the method 
+of installing, assembling, repairing, bringing online and using the equipment safely. 
+In addition to the requirements listed in the paragraph below for a general operator, the Skilled 
+Technician is qualified according to national safety standards to work under dangerous electrical voltage 
+and uses the personal protective equipment required by national safety standards for all the operations 
+indicated in this manual (see the examples listed in paragraph 2.3). 
+ 
+ The safety manager is responsible for protection and company risks prevention according to what 
+is indicated in European directives 2007/30/EC and 89/391/EEC regarding safety in the workplace. 
+The safety manager must ensure that all the people working on the equipment have received all the 
+instructions concerning them in the manual, especially those contained in this chapter.
+
+2.1.2 Operator 
+The professional assigned to the equipment for normal use is called "Operator". 
+This definition refers to people who know how to operate the equipment defined in the user manual and 
+have the following requisites: 
+1. technical education, which enables them to operate according to safety standards in relation to the 
+dangers linked to the presence of electric current. 
+2. training on the use of personal protective equipment and basic first aid interventions. 
+When choosing an operator, the company safety manager must consider 
+- the person’s work fitness according to the laws in force. 
+- the physical aspect (not disabled in any way). 
+- the psychological aspect (mental stability, sense of responsibility). 
+- the educational background, training and experience. 
+- the knowledge of the standards, regulations and measures for accident prevention. 
+He shall also provide training in such a way as to provide thorough knowledge of the equipment and its 
+component parts. 
+ 
+Some typical activities the operator is expected to carry out are: 
+- the use of the equipment in its normal functioning state and the restore of the functioning after it shuts 
+down. 
+- the adoption of the necessary provisions for maintaining the quality performance of the UPS. 
+- the cleaning the equipment. 
+- cooperation with personnel responsible for ordinary maintenance activities (Skilled Technicians). 
+ 
+2.2 Personal Protective Equipment 
+ 
+The UPS poses a considerable risk of electric shocks and a high short circuit current. During 
+installation, use and maintenance operations, the equipment mentioned in this section must be used. 
+ 
+ 
+People responsible for operating this equipment and/or passing close to it must not wear 
+garments with flowing sleeves, nor may laces, belts, bracelets or other metal pieces that might cause a 
+danger. 
+The following list sum up the minimum Personal Protective Equipment to wear always. Additional 
+requirements may be needed according to national safety standards.
+
+Anti-accident and non-sparking shoes with rubber sole and reinforced toe 
+Protective gloves for handling operations 
+Isolated rubber gloves for operations of connection and work under hazardous voltage 
+Protective garments for electrical work 
+Protective face and head shield 
+ 
+ 
+ 
+Isolated tools 
+ 
+ 
+The skilled technician must work on electrical insulated carpet, and he must not wear any kind of 
+metal objects like watches, bracelets, etc. 
+2.3 Hazard signs in the workplace 
+The following signs must be exhibited at all points of access to the room where the equipment is installed: 
+ 
+Electric current 
+This sign indicates electrical live parts. 
+ 
+ 
+How to proceed in an emergency 
+Do not use water to quench fires but only extinguishers designed for putting out fires in 
+electrical equipment. 
+ 
+ 
+No smoking 
+This sign indicates that smoking is not allowed. 
+ 
+ 
+2.4 Signs on the equipment 
+Safety signs are displayed on the UPS to communicate warning message about potential dangers. 
+Strictly comply with those instructions. Removing these signs and/or working by ignoring those warnings 
+is prohibited. 
+Contact the Manufacturer if a sign deteriorates and/or it is no longer legible, even if only partially. 
+ 
+ 
+Potential risks can be drastically reduced by wearing the Personal Protective Equipment listed in 
+this chapter, which are indispensable. Always operate with due care around dangerous areas marked 
+by the appropriate warning notices on the equipment.
+
+2.5 Batteries 
+ 
+The UPS is powered by its own DC energy source (batteries). The output terminals may have a 
+dangerous voltage even if the UPS is not connected to the AC power network. 
+Disconnect all external battery cabinets before performing any installation and/or maintenance operation. 
+ 
+ 
+A battery can present a risk of electrical shock and burns by high short-circuit circuit current. 
+Failed batteries can reach temperatures that exceed the burn thresholds for touchable surfaces. The 
+following precautions should be observed when working on batteries: 
+a) remove watches, rings or other metal objects. 
+b) use tools with insulated handles. 
+c) wear rubber gloves and boots. 
+d) do not lay tools or metal parts on top of batteries. 
+e) disconnect the charging source prior to connecting or disconnecting battery terminals. 
+f) determine if battery is inadvertently grounded. If inadvertently grounded, remove source from ground. 
+Contact with any part of a grounded battery can result in electrical shock. The likelihood of such shock 
+can be reduced if such grounds are removed during installation and maintenance (applicable to 
+equipment and remote battery supplies not having a grounded supply circuit). 
+g) never leave live cable terminals without an insulated protection. 
+h) When replacing batteries, replace with the same type and number of batteries or battery packs. There 
+is the risk of explosion if batteries are replaced by an incorrect type. 
+ 
+Do not dispose of batteries in a fire. The batteries may explode. 
+Do not open or mutilate batteries. Released electrolyte is harmful to the skin and eyes. It may be toxic. 
+The batteries installed inside the cabinet must be disposed of correctly. For the disposal requirements 
+refer to local laws and relevant standards. 
+ 
+ 
+The UPS must not be turned on if liquid is leaking from the batteries. 
+ 
+ Do not open any battery breaker while the UPS is powering the loads in stored energy mode. 
+ 
+2.6 Installation and maintenance 
+ 
+Any installation or maintenance operation must be done only after the equipment has been 
+disconnected from any source of power. Check there is no live voltage. 
+All remote switch disconnectors must be locked with an appropriate padlock to make sure no one will 
+turn them on. 
+ 
+ 
+The UPS has a high leakage current. The earthing of the UPS is mandatory. Check that the 
+earthing has been carried out in compliance with IEC (International Electrotechnical Commission) 
+standards or local regulations.
+
+The UPS functions with TN and TT systems. The output neutral status is the same as the input 
+neutral status. 
+When the output load needs a different neutral status, it is necessary to place downstream of the UPS 
+a suitably scaled isolation transformer that must be protected in compliance with the standards in force. 
+ 
+ 
+To reduce the risk of fire or electric shock, the UPS must work in closed, clean environments with 
+controlled temperature and humidity. It must be kept away from water and any inflammable liquids and 
+corrosive substances. The room temperature must not be above +40°C (+104°F) and the relative 
+humidity must be a maximum of 95% not condensing. 
+ 
+ 
+Do not run the equipment with fixed protections not installed (panels etc.). In case of breaking, 
+buckling or malfunctioning of the equipment or parts of it, repair or replace immediately. 
+ 
+ 
+The equipment and workplace must be kept completely clean. Do not use oils or chemical 
+products for cleaning because they could scratch, corrode or damage certain parts of the equipment. 
+Upon completion of the installation/maintenance operations, before connecting the power supply, 
+carefully check that no tools and/or material of any kind have been left next to the equipment. Depositing 
+flammable material near the equipment is forbidden. 
+ 
+ Do not plug non-computer-related items such as medical, life-support and house electric 
+equipment. 
+ 
+ Ensure that the cables connecting the loads to the UPS are not longer than 10 meters. Use the 
+output cables provided by the manufacturer. 
+ 
+ Do not place the UPS near equipment that generate strong electromagnetic fields and/or near 
+equipment that are sensible to electromagnetic fields. 
+ 
+ While maintenance operations are being carried out, “Maintenance work in progress” signs must 
+be affixed in the department in such a way that they can be easily seen from any access area. 
+ 
+ The skilled technician must not leave at the disposal of the operator the installation and 
+maintenance manual and the keys for opening the rack cabinet where the UPS is installed. 
+ 
+ The mains socket outlet that supplies the UPS shall be installed near the UPS and shall be easily 
+accessible to the UPS output. 
+ 
+ Do not plug laser printers to the UPS output because they have a high start-up current. 
+ 
+ 
+Do not plug the UPS input into its own output.
+
+Do not attach a power strip or surge suppressor to the UPS to avoid potential overloads. 
+ 
+ 
+In case of a mains power supply failure, do not unplug the power supply cable. Earth continuity 
+must be ensured to the connected loads. 
+2.7 Cybersecurity 
+ Physical security is essential to ensure the security of assets supplied by the UPS. The UPS 
+must be installed in a restricted access area with access control and surveillance. 
+ 
+ Only limited authorized personnel should be given access to the area where the UPS is installed. 
+ 
+ The UPS is designed to be connected and share data via a network interface through the optional 
+SNMP card, which should be connected to a secure network. It is the customer sole responsibility to 
+provide and continuously ensure a secure connection between the equipment and any network and to 
+establish and maintain appropriate measures to protect the UPS, the network and the whole system 
+against any kind of security breaches, unauthorized access, interference, intrusion, leakage or theft of 
+data. 
+ 
+ LEGRAND is not liable for damages or losses related to security breaches, unauthorized access, 
+interference, intrusion, leakage or theft of data. 
+The customer is responsible to have periodical checks to ensure the system functionality and the security 
+measures implemented have not been compromised.
+
+3. Equipment check and transportation 
+3.1 Visual check 
+Carefully inspect the packaging and the equipment for any damage that might have occurred during 
+transport. 
+If there is possible or ascertained damage, immediately inform: 
+- the transporter and the shipping company. 
+- the LEGRAND Technical Support Service. 
+Check that the equipment corresponds with the items indicated in the delivery documentation. 
+If the UPS must be stored, follow the instructions of chapter 7. 
+ 
+ Mechanical damage to the electrical components constitutes a danger to persons and property. 
+In case of doubt regarding the non-integrity of the package or of the product contained therein, contact 
+the manufacturer before carrying out the installation and/or the start-up. 
+ 
+3.2 Equipment check 
+The equipment and the relative supplied accessories must be in perfect conditions. 
+Check that: 
+- the shipping data (address of the recipient, no. of packages, order no, etc.) correspond to what is 
+contained in the delivery documentation. 
+- the technical rating plate data on the label applied to the UPS correspond with the material described 
+in the delivery documentation. 
+- the documentation accompanying the equipment includes the installation manual. 
+In case of discrepancy, immediately inform the LEGRAND Technical Support Service before 
+commissioning the equipment. 
+ 
+The content of the supply is subject to thorough checking before the shipment. Nonetheless it is always 
+advisable to check that it is complete and in order on receiving the material. 
+The following list is general: 
+- UPS. 
+- installation and maintenance manual. 
+- IEC output and input cable. 
+- USB cable. 
+- accessory kit: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ In case of defects and/or missing items, immediately inform the LEGRAND Technical Support 
+Service before commissioning the equipment.
+
+3.3 Transportation 
+ Avoid turnover during the transport of the UPS. Cabinets must always be handled in upright 
+position. During loading and unloading operations, always respect the indications marked on the 
+package. 
+ 
+ Avoid bending or deforming the components and altering the insulation distances while 
+transporting and handling the product. 
+ 
+ 
+Do not ship the equipment along with any inflammable, explosive, corrosive item. Do not expose 
+the package to rain or other adverse climatic conditions. 
+ 
+ The equipment must always be handled by trained and instructed personnel. Comply with the safety 
+regulations in force in your country relative to the usage of lifting equipment and/or accessories. 
+ 
+3.4 Positioning constraints 
+Keep good ventilation around the UPS. The clearance between any adjacent devices or wall should be 
+at least 200 mm. Poor ventilation can reduce the service life of inner components and affect the life span 
+of the UPS. Ensure that the air vents on UPS are not blocked. 
+Since the UPS is heavy, it must be installed in a location that can support its weight.
+
+4. Installation 
+ All UPS installation operations must be carried out exclusively by a SKILLED TECHNICIAN 
+(paragraph 2.2.1). 
+ 
+ 
+Check that the electrical system has been fitted with the necessary differential and thermal- 
+magnetic protections upstream of the UPS. 
+ 
+ 
+Check that the mains input voltage and frequency correspond with the values indicated in the 
+technical data on the UPS rating plate. 
+ The energy quality of the electrical network should comply with the individual voltage harmonics 
+compatibility levels defined by IEC 61000-2-2. For more severe conditions, a power quality audit is 
+required during the UPS commissioning by the LEGRAND Technical Support Service to check the 
+compatibility. 
+ The UPS is equipped with an auto-restart system. In case of return of the input mains after the 
+end of battery operation, the UPS turns on to normal operation by supplying the output loads. 
+ The UPS is equipped with an automatic backfeed protection system.
+
+4.1 Views 
+4.1.1 Rear Panel 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Emergency Power Off (EPO) / Remote ON/OFF 
+(ROO) signal inputs 
+2. USB port 
+3. RS-232 port 
+4. Fan 
+5. External battery connector 
+6. Slot for optional communication cards 
+7. AC input power plug or inlet socket 
+8. Utility input circuit breaker 
+9. Temperature compensation terminal 
+10. AC outlets (programmable) 
+11. Dry contact 
+12. AC outlet
+
+4.1.2 Operation Panel 
+ 
+Touch Panel Button 
+Symbol 
+Behavior 
+Description 
+ 
+ 
+ 
+ 
+ 
+ 
+Long 
+Press 
+UPS ON when UPS in 
+AC standby mode 
+UPS OFF when UPS in 
+running mode 
+Long 
+Press 
+Twice 
+UPS ON when UPS in 
+DC standby mode 
+Short 
+Press 
+Alarm Silence 
+ 
+Touch Panel Display 
+Sign 
+Description 
+ 
+ 
+Home Page-UPS Flow Chart 
+ 
+Measurement Page-UPS 
+Measurement Parameter 
+ 
+Setting Page-UPS Setting 
+Parameter 
+ 
+Control Page-UPS Command 
+Function 
+ 
+Miscellaneous Page-UPS 
+Information 
+ 
+(Left Side) 
+Utility Power Status 
+ 
+Rectifier/Booster Operating Status 
+ 
+Battery Charging Status
+
+Battery Discharging Status 
+ 
+Inverter Switch Operating Status 
+ 
+(Upper right Side) 
+Bypass Power Status 
+ 
+Bypass Switch Operating Status 
+ 
+UPS Fault or Abnormal Warning 
+ 
+Buzzer Silent 
+ 
+Account Login Status 
+ 
+Date & Time (HH:MM:SS DD/MM/YYYY) 
+ 
+UPS Model Name 
+ 
+ 
+Ambient Temperature 
+ 
+ 
+Battery Capacity Level & Remaining runtime 
+ 
+ 
+Load level
+
+4.2 Mechanical Installation 
+4.2.1 Tower installation 
+ 
+4.2.2 Rack mount installation 
+ 
+ The UPS must be installed always at the top of other equipment like battery cabinets. 
+ Do not transport the UPS or the battery cabinet by handles. 
+ The battery cabinet is heavy, so it must be installed from bottom to top of the rack cabinet and 
+located below the UPS.
+
+4.3 Electrical connection 
+The electrical connection is part of the work that is not performed by LEGRAND, and it is the sole 
+responsibility of the Skilled Technician. It is recommended that the electrical installation is carried out in 
+compliance with local and national standards. 
+ 
+Use the input and output plugs provided with the UPS. 
+To connect additional battery cabinets, check the installation manual provided with the cabinets. 
+ 
+ Check chapter 9 and 10 for all the technical data. 
+ 
+4.3.1 Protection from overloads and short-circuits 
+Short-circuit currents (very high currents with a short duration) and overload currents (relatively high 
+currents with a long duration) are among the main causes of cable damage. The protection systems 
+normally used to protect the cables are thermal magnetic circuit breakers or fuses. 
+Protection circuit breakers must be selected according to the maximum short-circuit current (max Isc) 
+that is needed to determine the breaking power of automatic circuit breakers, and to the minimum current 
+(min Isc) that is needed to determine the maximum length of the line protected. The protection against 
+short-circuit must operate on the line before any thermal and electrothermal effects of the overcurrent 
+may damage the cable and relevant connections. 
+ 
+ 
+This product can cause a d.c. current in the PE conductor. Where a residual current-operated 
+protective device (RCD) is used for protection against electrical shock, only an RCD of Type A is allowed 
+on the supply side of the UPS.
+
+4.4 Communication 
+The UPS is equipped with a RS-232 and USB communication port for remote monitoring of the UPS 
+status using a PC. 
+It is possible to use optional interfaces cards for R2E (RS-232), RSE (RS-485), USE (second USB) and 
+SNMP. However, the R2E card, RSE card and USE card must not be used simultaneously. 
+When the optional interface cards are used together with the onboard USB port, the EPO signals will get 
+highest priority, then the SNMP/WEB card, then the shutdown command at the DCE, R2E, RSE, and 
+USE cards, and then finally the onboard USB port gets the lowest priority. 
+4.4.1 RS232 
+ 
+Pin 3: RS-232 Rx 
+Pin 2: RS-232 Tx 
+Pin 5: Ground 
+ 
+ 
+Baud Rate 
+9600 bps 
+Data Length 
+8 bits 
+Stop Bit 
+
+Parity 
+None 
+ 
+4.4.2 USB 
+The USB communication protocol complies with USB version 1.0, 1.5 Mbps and USB HID version 1.0. 
+ 
+ 
+1 → VCC (+5V) 
+2 → D－ 
+3 → D＋ 
+4 → Ground
+
+4.4.3 EPO and input dry contacts 
+ 
+The functions can be set through setting tool SW. 
+ 
+Item 
+Function 
+Description 
+
+Dry Contact 1 NO 
+(default) 
+Active during UPS fault 
+event 
+Dry Contact 1 NC 
+
+Dry Contact 2 NO 
+(default) 
+Active during battery low 
+event 
+Dry Contact 2 NC 
+
+Dry Contact 3 NO 
+(default) 
+Active when UPS turns to 
+stored energy mode 
+Dry Contact 3 NC 
+TEMP. 
+COMP. 
+Temperature 
+Compensation 
+Auto-sensing external 
+temperature of battery 
+bank to adjust charger 
+voltage 
+EPO/ 
+ROO 
+EPO NO (default) 
+Shutdown UPS 
+EPO NC 
+ROO NO 
+Start-up UPS 
+ROO NC
+
+5. Configuration and starting-up 
+ 
+All configurations and start-up operations must be carried out exclusively by a SKILLED 
+TECHNICIAN (paragraph 2.2.1). 
+ 
+5.1 Pre-start-up checks 
+Before powering the equipment, carry out the following checks: 
+1. Check that all wiring has been done and that all connections have been tightened up properly. 
+2. Check that the parameters (voltage and frequency) of the mains input are compatible with those shown 
+on the UPS rating plate. 
+3. Check if the voltage between the neutral wire and grounding wire is less than 5Vac. 
+4. Check that there is no short-circuit in the output of the UPS and the load capacity is not beyond the 
+rated capacity of the UPS. 
+5. Check that the EPO port is properly configured and connected. 
+6. Check that the load is properly connected. 
+5.2 Start-up procedure 
+1. Connect the external battery cabinets (if present). 
+2. Connect the supply cable to the mains and turn on the battery disconnectors of the external battery 
+cabinets (if present). 
+ It is also possible to turn on the UPS in battery mode (cold start) if the mains is not available. 
+ 
+3. The UPS will enter in standby mode after the initializing procedure is finished. The display turns on. 
+4. Tap the Login icon on the top 
+ 
+5. The default installer username and password is “instal” and “222222”. The default user username 
+and password is “user” and “1111111”. 
+The skilled technician must change the default password for the installer 
+ 
+6. If you want to change any setting, see paragraph 5.3 
+7. Press 
+ key and hold it until a twice beep is heard. Then, release the button. The UPS begins the 
+starting procedures, and the buzzer will beep intermittently. 
+ 
+8. The UPS is now supplying power to the load. 
+ 
+ The UPS is equipped with an auto-restart system. In case of return of the input mains after the end 
+of battery operation, the UPS turns on to normal operation by supplying the output loads. 
+ 
+5.3 UPS Default Data and Special Function Execution 
+1. After the UPS completely wake up (standby mode), press 
+ on screen of the touch panel. 
+2. Press 
+or 
+ to change the other setting page 
+3. Press 
+to change setting value. 
+4. Press 
+to save settings. 
+5. Press 
+to quit setting mode.
+
+6. Maintenance 
+ 
+INSTALLATION and ORDINARY MAINTENANCE operations must be carried out only by 
+SKILLED TECHNICIANS (paragraph 2.2.1). 
+EXTRAORDINARY MAINTENANCE operations must be carried out only by LEGRAND 
+TECHNICAL SUPPORT SERVICE. 
+LEGRAND declines all liability for any injury or damage caused by activities carried out differently from 
+the instructions written in this manual. 
+ 
+ Keep a register in which to enter the date, time, type and any other useful information about any 
+routine and extraordinary maintenance operation. 
+ 
+6.1 Preventive maintenance 
+The UPS does not contain parts for preventative maintenance by the operator. 
+The operator must regularly perform: 
+- a general external cleaning. 
+- a check to verify there is no alarm indication on the display. 
+- a check to verify the correct functioning of the ventilating fans. 
+6.2 Periodical checks 
+The correct functioning of the UPS must be guaranteed by periodical maintenance inspections. These 
+are essential to safeguard the reliability of the equipment. 
+These inspections should also be made to determine if components, wiring, and connections exhibit 
+evidence of overheating. 
+ 
+During a maintenance inspection, the skilled technician must carry out the following checks: 
+- no alarm presence. 
+- list of the memorised events. 
+- correct function of the static and maintenance bypass. 
+- integrity of the electrical installation. 
+- flow of cold air. 
+- battery status. 
+- characteristics of the applied load. 
+- conditions of the installation location. 
+Contact the LEGRAND Technical Support Service in case of problems. 
+ 
+ 
+The periodical checks involve operations inside the UPS in presence of dangerous voltages. 
+Only maintenance personnel trained by LEGRAND are authorized to intervene. 
+ 
+6.3 Ordinary and extraordinary maintenance 
+Contact the LEGRAND Technical Support Service if there are failures that require the access to internal 
+parts of the UPS.
+
+6.4 Troubleshooting 
+If UPS is in abnormal condition, a common alarm sign 
+ will light up with and audible alarm. 
+6.4.1 Common faults 
+ 
+Fault 
+Error Code 
+Possible reason 
+Red Fault LED/Alarm 
+Icon 
+Er05, Er39 
+Check for proper battery connection and ensure the 
+batteries are charged and healthy. If necessary, 
+recharge the batteries for 8 hours to see whether the 
+UPS provides backup power normally. 
+Er06, Er10, 
+Er12, Er28 and 
+overload icon 
+1. Remove some uncritical load from the UPS 
+output. 
+2. Check if there is any short circuit between cables 
+due to broken cable insulation. Replace the cables if 
+necessary. 
+EPO 
+The Emergency Power Off was activated 
+Er11 
+Remove any objects blocking the ventilation holes. 
+Check that the cooling fans on the rear panel are 
+working normally. 
+Contact the LEGRAND Technical Support Service if 
+the fans must be replaced. 
+Er14 
+Check that the cooling fans on the rear panel are 
+working normally. 
+Make sure the UPS is operated normally. If it is in 
+CVCF mode, you must turn off and turn on the UPS 
+again. 
+Contact the LEGRAND Technical Support Service if 
+the fans must be replaced. 
+Other error code 
+Contact the LEGRAND Technical Support Service 
+UPS fails to offer battery 
+backup, or its backup 
+power time is shorter 
+than the one expected 
+If the backup power time is still too short after 8 
+hours of charging, contact the LEGRAND Technical 
+Support Service 
+UPS is working 
+normally, but the load is 
+no powered 
+Check that all power cords are properly connected. If 
+the problem persists, contact the LEGRAND 
+Technical Support Service. 
+The UPS switches into 
+battery mode and then 
+back into normal mode 
+when a connected 
+device is turned on, or 
+the UPS switches back 
+and forth between 
+battery and normal 
+mode. 
+1 Check if a power strip is connected to the UPS. Do 
+not use it as it makes it easy to overload the UPS. 
+2. Check if there is any damage to the utility wall 
+receptacle or if the cord plug is faulty. If so, replace it 
+or repair it. 
+o
+
+Fault 
+Error Code 
+Possible reason 
+UPS locks itself and 
+cannot be turned off 
+1) press 
+ icon to show the Error event. Check 
+and record the error code. 
+2) Check the manual to understand the possible 
+cause and solve the problem. If it is not clear, 
+contact the LEGRAND Technical Support Service. 
+3) Press 
+ key and hold it for 5 seconds until a 
+twice beep is heard. 
+4) Turn OFF the mains disconnector 
+5) After the UPS is completely shut off, the UPS is 
+unlocked. 
+Strange noise or smell 
+Shutdown the UPS immediately. Disconnect the 
+mains from the UPS and contact the LEGRAND 
+Technical Support Service. 
+ 
+6.4.2 Error codes 
+ 
+Code 
+Meaning 
+EPO 
+Emergency Power Off 
+Er05 
+Battery weak or faulty 
+Er06 
+Output Short Circuit 
+Er11 
+UPS overtemperature 
+Er12 
+Inverter Overload 
+Er14 
+Fan Error 
+Er28 
+Bypass Overload 
+Er39 
+During the UPS start-up, the output is less than 110V and there is no battery 
+connection 
+Er** 
+Other Error code 
+ 
+**The specified modes include Normal mode, ECO mode, CVCF mode, etc.
+
+6.4.3 Beep codes 
+ 
+UPS Status 
+Beep code 
+UPS faulty, Inverter shutdown. All 
+functions inhibited. 
+Long continuous beep 
+Control keypad error 
+Long continuous beep 
+UPS faulty, loads continue to be supplied 
+via Inverter or Bypass. 
+Single beep every two seconds 
+In battery mode 
+Three short beeps every ten seconds 
+Battery low 
+Quick and short successive beeps 
+Confirm RS-232 or USB port receiving 
+Two quick and short beeps 
+Service mode ok 
+One quick and short beep
+
+7. Warehousing 
+ 
+All storage operations must be carried out only by a SKILLED TECHNICIAN (paragraph 2.2.1) 
+ 
+ 
+A SKILLED TECHNICIAN must check that there is no voltage present before disconnecting 
+the cables. 
+7.1 UPS 
+The UPS must be stored in an environment with a room temperature between -20°C (-4°F) and +50°C 
+(+122°F) and humidity less than 90% (not condensing). 
+The package box must be raised off the ground by at least 200 mm and kept at a distance of at least 
+500 mm from wall, heat source, cold source, window or air inlets. 
+In the warehouse, any inflammable, explosive, corrosive object or harmful gas is not allowed. The 
+environment must also be free from strong mechanical shakes, impacts or magnetic fields. 
+7.2 Batteries 
+It is possible to store batteries without recharging them in the following conditions: 
+- up to 6 months if the temperature is between +20°C (+68°F) and +30°C (+86°F). 
+- up to 3 months if the temperature is between +30°C (+86°F) and +40°C (+104°F). 
+- up to 2 months if the temperature is over +40°C (+104°F). 
+ 
+Batteries must never be stored if partially or totally discharged. 
+LEGRAND is not liable for any damage or bad functioning caused to the UPS by wrong warehousing of 
+the batteries.
+
+8. Dismantling 
+ 
+Dismantling and disposal operations must be carried out only by a SKILLED TECHNICIAN 
+(paragraph 2.2.1). 
+The instructions in this chapter are to be considered indicative: in every country there are 
+different regulations regarding the disposal of electronic or hazardous waste such as batteries. 
+It is necessary to strictly adhere to the regulations in force in the country where the equipment 
+is used. 
+Do not throw any component of the equipment in the ordinary rubbish. 
+ 
+8.1 Battery disposal 
+Batteries must be disposed of in a site intended for the recovery of toxic waste. Disposal in the traditional 
+rubbish is not allowed. Apply to the competent agencies in your countries for the proper procedure. 
+ 
+ 
+A battery may constitute a risk of electric shock and high short-circuit current. 
+When working on batteries, the prescriptions indicated in chapter 2 must be adhered to. 
+ 
+8.2 UPS dismantling 
+The dismantling of the UPS must occur after the dismantling of the various parts it consists of. 
+For the dismantling operations, it is necessary to wear the Personal Protective Equipment mentioned in 
+paragraph 2.3. 
+Sub-divide the components separating the metal from the plastic, from the copper and so on according 
+to the type of selective waste disposal in the country where the equipment is dismantled. 
+If the dismantled components must be stored before their disposal, be careful to keep them in a safe 
+place protected from atmospheric agents to avoid soil and groundwater contamination. 
+ 
+8.3 Electronic component dismantling 
+For the disposal of electronic waste, it is necessary to refer to the relevant standards. 
+This symbol indicates that in order to prevent any negative effects on the environment and 
+on people, this product should be disposed of separately from other household waste, by 
+taking it to authorised collection centres, in accordance with the EU countries local waste 
+disposal legislations. Disposing of the product without following local regulations may be 
+punished by law. It is recommended to check that this equipment subject to WEEE 
+legislations in the country where it is used.
+
+9. Technical characteristics 
+MAIN FEATURES 
+1 kVA 
+ 
+3 113 34 
+3 113 37 
+3 113 40 
+3 113 45 
+2 kVA 
+3 113 35 
+3 113 38 
+3 113 41 
+3 113 43 
+3 113 46 
+3 kVA 
+3 113 42 
+3 113 44 
+3 113 47 
+Nominal Power 
+(VA) 
+
+
+
+Active Power 
+(W) 
+
+
+
+Output Power 
+Factor 
+
+Technology 
+Online, double conversion 
+VFI-SS-11 (EN IEC 62040-3) 
+IN/OUT 
+configuration 
+One-phase / One-phase 
+Functions available 
+Frequency converter 
+ECO mode for energy saving 
+Neutral system 
+Neutral passing through 
+Bypass 
+Automatic (static) 
+External Manual (optional) 
+Overvoltage 
+category 
+OVC II 
+Protection class 
+(EN/IEC 61140) 
+I 
+AC power 
+distribution system 
+compatibility 
+TN, TT 
+Inlet 
+IEC320 C14 x 1 
+IEC320 C20 x 1 
+Outlet 
+IEC320 C13: (3) x 2 
+Programmable Outlet 
+IEC320 C13: (3) x 2 
+Programmable Outlet 
++ 
+IEC320 C19 x 1
+
+INPUT ELECTRICAL CHARACTERISTICS 
+1 kVA 
+ 
+3 113 34 
+3 113 37 
+3 113 40 
+3 113 45 
+2 kVA 
+3 113 35 
+3 113 38 
+3 113 41 
+3 113 43 
+3 113 46 
+3 kVA 
+3 113 42 
+3 113 44 
+3 113 47 
+Input current 
+(A) 
+6.2 
+12.2 
+17.8 
+Nominal input 
+voltage 
+(V) 
+
+Input voltage range 
+(V) 
+110 to 280 
+Input frequency 
+(Hz) 
+50/60 (with autosensing) 
+Input frequency 
+range 
+± 5 Hz (on-line mode) 
+40 – 70 (CVCF mode) 
+Input Power Factor 
+≥ 0.99 (at full linear mode) 
+Total harmonic 
+distortion of the 
+input current 
+THDi ≤ 5% (Nominal voltage with THDv <1% for full linear load) 
+Icp 
+Prospective short- 
+circuit 
+current (kA)
+
+OUTPUT ELECTRICAL CHARACTERISTICS 
+1 kVA 
+ 
+3 113 34 
+3 113 37 
+3 113 40 
+3 113 45 
+2 kVA 
+3 113 35 
+3 113 38 
+3 113 41 
+3 113 43 
+3 113 46 
+3 kVA 
+3 113 42 
+3 113 44 
+3 113 47 
+Output current 
+(A) 
+4.6 
+9.1 
+13.7 
+Output voltage 
+(V) 
+200/208/220/230/240 (default 230) 
+(200/208 with derating 80%) 
+Output voltage 
+range 
+± 1% (until low-battery warning) 
+Output frequency 
+(Hz) 
+50 / 60 
+(selectable by the user, default 50) 
+Output frequency 
+range 
+(Hz) 
+if not synchronized (free run): ± 0.1 
+Crest factor 
+admitted on the 
+output current 
+3:1 
+Total harmonic 
+distortion of the 
+output voltage 
+THDv ≤ 3% (full linear load) 
+THDv ≤ 5% (full non-linear load PF 0.9) 
+Efficiency in 
+Normal Mode 
+(%) 
+up to 92 
+up to 92.5 
+up to 93 
+Efficiency in Eco 
+Mode 
+(%) 
+up to 98.3 
+Overload capacity 
+On-line mode 
+≤105% continuous 
+106-110% for 10 min, then transfer to Bypass 
+111-130% for 1 min, then transfer to Bypass 
+131-150% for 10 sec, then transfer to Bypass 
+151-250% for 0.2 sec, then transfer to Bypass 
+> 250% 0.1 sec, then transfer to Bypass 
+Stored energy mode 
+≤105% continuous 
+106-110% for 30 sec, then shutdown 
+111-130% for 10 sec, then shutdown 
+131-150% for 1 sec, then shutdown 
+151-180% for 0.16 sec, then shutdown 
+> 180% 0.08 sec, then shutdown 
+ECO mode 
+≤105% continuous 
+106-110% for 10 min, then shutdown 
+111-130% for 2 min, then shutdown 
+131-150% for 10 sec, then shutdown 
+151-250% for 0.32 sec, then shutdown 
+> 250% 0.16 sec then shutdown
+
+BATTERIES AND BATTERY CHARGER CHARACTERISTICS 
+ 
+1 kVA 
+3 113 40 
+2 kVA 
+3 113 41 
+3 kVA 
+3 113 42 
+Nominal battery 
+voltage 
+(Vdc) 
+
+
+Maximum battery 
+current 
+(A) 
+
+
+
+Battery type 
+Maintenance-free Lead-acid, VRLA 12V/7Ah 
+Maintenance-free Lead- 
+acid, VRLA 12V/9Ah 
+Battery string 
+3 batteries 
+6 batteries 
+Charging current 
+(A) 
+up to 2 
+(adjustable to 1 or 2 - default 1A) 
+Recharge time 
+5 h to 90% charge (2A charging current for internal battery) 
+Charging voltage 
+(V) 
+40.95 ± 1% 
+81.9 ± 1% 
+ 
+ 
+MECHANICAL CHARACTERISTICS 
+1 kVA 
+3 113 40 
+2 kVA 
+3 113 41 
+3 kVA 
+3 113 42 
+Net weight 
+(kg) 
+14.8 
+24.4 
+27.0 
+Dimensions 
+H x W x D 
+(mm) 
+88 (2U) x 440 x 454 
+88 (2U) x 440 x 640
+
+OTHER FEATURES 
+1 kVA 
+ 
+3 113 34 
+3 113 37 
+3 113 40 
+3 113 45 
+2 kVA 
+3 113 35 
+3 113 38 
+3 113 41 
+3 113 43 
+3 113 46 
+3 kVA 
+3 113 42 
+3 113 44 
+3 113 47 
+Display 
+4.3’’ LCD color touchscreen with led bar 
+Communication 
+ports 
+RS232 
+3 input dry contacts 
+USB 
+Slot for cards (SNMP, relay, RS485) 
+Protections 
+Emergency Power Off (EPO and ROO) 
+Electronic against overtemperature, overloads, short-circuit and excessive battery 
+discharge 
+Temperature compensation 
+Block of functions due to the end of autonomy 
+In-rush limiter on start up 
+Fan speed control according to the load percentage and temperature 
+Internal Backfeed protection 
+Remote 
+management 
+available 
+ 
+ 
+ENVIRONMENTAL CONDITIONS 
+1 kVA 
+ 
+3 113 34 
+3 113 37 
+3 113 40 
+3 113 45 
+2 kVA 
+3 113 35 
+3 113 38 
+3 113 41 
+3 113 43 
+3 113 46 
+3 kVA 
+3 113 42 
+3 113 44 
+3 113 47 
+Operating 
+temperature 
+(°C) 
+0 to +40 
+(The battery life will reduce with a temperature >25 ºC) 
+Relative humidity 
+during operation 
+(%) 
+0 to 95 (non-condensing) 
+Storage 
+temperature 
+(°C) 
+-10 to +50 
+(The battery life will reduce with a temperature >25 ºC) 
+Noise level at 1 
+meter 
+(dBA) 
+≤ 50 
+45dB on Bypass and Online Mode with ≤70% load 
+Ingress Protection 
+Marking 
+IP 20 
+Pollution degree 
+PD2 
+Climatic class 
+(EN IEC 60721-3-3) 
+3K22 
+Special climatic 
+class 
+(EN IEC 60721-3-3) 
+3Z2 
+Biological class 
+(EN IEC 60721-3-3) 
+3B2
+
+Mechanical class 
+(EN IEC 60721-3-3) 
+3M11 
+Mechanically 
+active 
+substances class 
+(EN IEC 60721-3-3) 
+3S5 
+Operating height 
+up to 2000 meters above sea level without derating 
+ 
+ 
+REFERENCE DIRECTIVES AND STANDARDS 
+ 
+Marks 
+CE, CMIM, UKCA 
+Safety 
+2014/35/EU Directive 
+EN IEC 62040-1 
+EMC 
+2014/30/EU Directive 
+EN IEC 62040-2 
+Performance and test 
+requirements 
+EN IEC 62040-3
+
+10. Technical data 
+ LEGRAND is not responsible for the correct sizing of the breakers which are specific of each 
+electrical installation. 
+ 
+TABLE 1 
+Thermal magnetic circuit breaker recommended for input line 
+POWER 
+IN THERMAL MAGNETIC CIRCUIT BREAKER 
+(A) 
+1 kVA 
+
+2 kVA 
+
+3 kVA 
+
+TABLE 2 
+Residual current breaker recommended for input line 
+ 
+POWER 
+RESIDUAL CURRENT BREAKER 
+(IΔn) 
+1 kVA 
+30 mA type A 
+2 kVA 
+3 kVA
+
+LEGRAND 
+Pro and Consumer Service 
+BP 30076 - 87002 
+LIMOGES CEDEX FRANCE 
+www.legrand.com 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Installer stamp 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Legrand reserves at any time the right to modify the contents of this booklet and to communicate, 
+in any form and modality, the changes brought to the same.

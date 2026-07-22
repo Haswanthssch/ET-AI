@@ -1,0 +1,1494 @@
+7-1 of 28 
+7.0 DIESEL ENGINE STARTING 
+SYSTEMS 
+ 
+This chapter presents the requirements for 
+starting a diesel engine for an EDG in a 
+nuclear plant and the equipment and 
+systems required to accomplish it. 
+ 
+Learning Objectives 
+ 
+As a result of this lesson, you will be able to: 
+ 
+1. Describe the requirements for starting 
+an Emergency Diesel Generator in a 
+nuclear plant application. 
+ 
+2. Identify the components and describe 
+the operation of a direct air injection, 
+com-pressed air diesel engine starting 
+system. 
+ 
+3. Identify the components and describe 
+the operation of an air motor type, com-
+pressed air diesel engine starting 
+system. 
+ 
+4. Identify the components and describe 
+the operation of a typical starting air 
+supply system used in a nuclear plant 
+application. 
+ 
+5. Identify the components and describe 
+the operation of an electric diesel 
+engine starting system for a nuclear 
+application diesel engine. 
+ 
+7.1 Technical 
+Specification 
+Starting 
+Requirements 
+ 
+In 
+accordance 
+with 
+the 
+applicable 
+regulatory requirements, emergency diesel 
+generators specified for use as emergency 
+onsite 
+power 
+supplies 
+at 
+commercial 
+nuclear facilities must be capable of 
+achieving 
+a 
+minimum 
+voltage 
+and 
+frequency upon initiation of a "start" signal. 
+Both conditions must be achieved within an 
+acceptable time frame that meets the 
+plant’s Technical Specifications. 
+ 
+Typical specifications involve the engine 
+starting from keepwarm conditions and 
+accelerating to a minimum, self-sustaining 
+rotational speed (RPM). Simultaneously, 
+the generator must establish the required 
+voltage and frequency all within the time 
+limits specified. An example of a set of 
+typical EDG specifications is given below: 
+ 
+• 60 Hz + 1.2 Hz 
+ 
+• Rated Voltage (4000 + 320 volts) 
+ 
+• < 10 seconds 
+ 
+7.2 Starting Characteristics 
+ 
+By reviewing the operational characteristics 
+of the diesel engine, we can gain a better 
+understanding of what is required of the 
+starting system. 
+ 
+7.2.1 Admission of Air 
+ 
+A fresh charge of air must enter the 
+cylinder during the intake event to provide 
+the oxygen required to support combustion 
+of the fuel. This is accomplished by either 
+of two ways. For a 4-stroke cycle engine, 
+this is accomplished by the downward 
+motion of the piston during the intake 
+stroke. For a 2-stroke cycle engine, the 
+pumping action of the engine-driven blower 
+(positive 
+displacement 
+or 
+centrifugal) 
+delivers the air charge to the cylinders.
+
+7-2 of 28 
+7.2.2 Compression of Air Charge 
+ 
+Once the cylinder has been charged with 
+fresh air, the rapid upward or inward 
+movement of the piston compresses the air 
+charge, increasing its temperature to a 
+point higher than that required to ignite the 
+fuel. 
+ 
+7.2.3 Injection of Fuel 
+ 
+With the piston near to top or inner most 
+point of its stroke, fuel is injected into the 
+heated air charge where combustion 
+occurs and power is delivered to the 
+crankshaft. As the cylinders begin to fire, 
+the 
+engine 
+achieves 
+self-sustained 
+operation. 
+ 
+For the three activities listed to occur, the 
+engine crankshaft must be rotated by an 
+external source of power. The engine 
+starting system stores energy either as 
+compressed 
+air 
+in 
+the 
+system’s 
+air 
+receivers or as chemical energy in the 
+designated 
+storage 
+batteries. 
+ 
+Upon 
+initiation of a start signal, the stored energy 
+is converted into the mechanical energy 
+needed to rotate the engine components. 
+ 
+7.2.4 Compression Characteristics 
+ 
+Charging the cylinder with air and injecting 
+the fuel at the proper time are basic 
+functions of crankshaft rotation. Crankshaft 
+rotation also causes the air charge to be 
+compressed; however, the rotation alone 
+does not ensure the air charge will reach 
+the temperature needed to ignite the fuel 
+injected into the cylinder. 
+ 
+The actual temperature achieved is a 
+function of the compression pressure minus 
+any pressure lost past the piston rings and 
+valves and any heat lost to the incoming air 
+charge 
+or 
+relatively 
+cool 
+internal 
+components of the engine. Assuming the 
+engine 
+is 
+mechanically 
+sound, 
+the 
+compression, 
+and 
+therefore 
+ignition 
+temperature, becomes a function of the 
+engine compression ratio, valve or port 
+timing, and cranking speed. 
+ 
+The single most important element in 
+attaining the compression pressure, and 
+therefore 
+the 
+air 
+charge 
+temperature 
+required for ignition of the fuel, is the 
+cranking or rotational speed of the engine 
+during the starting sequence. Figure 7-1 
+depicts a typical relationship between the 
+cranking 
+speed 
+(RPM) 
+and 
+the 
+compression pressure (PSIG) achieved for 
+a high speed diesel engine. Several 
+factors contribute to this relationship: 
+ 
+• The more rapid the rate of compression 
+is, 
+the 
+higher 
+the 
+pressure 
+and 
+temperature of the air charge. 
+ 
+• Rapid compression allows less time for 
+pressure to be lost past the piston rings 
+and valves. 
+ 
+• At higher cranking speeds, less time is 
+available for the heat of compression to 
+be lost from the engine cylinders. 
+ 
+7.3 Starting System Capability 
+ 
+In addition to the engine start criteria listed 
+in section 7.2, the EDG starting system 
+must have a capacity and redundancy 
+commensurate with the safety function of 
+the unit. 
+ 
+7.3.1 System Capacity
+
+7-3 of 28 
+Each starting system must have an energy 
+storage capacity sufficient to support a 
+specific number of start attempts prior to 
+reaching a low energy level (e.g. low air 
+pressure, low battery voltage). For 
+example, a starting air system may be 
+required to perform two consecutive start 
+attempts before reaching a specified low 
+pressure of 150 psig. 
+ 
+The generic nuclear application starting air 
+system also provides control air for diesel 
+engine controls and instrumentation during 
+standby and during operation. The control 
+air portion of the Starting Air System will be 
+discussed in Chapter 10, "Emergency 
+Diesel Generator Control and Monitoring." 
+ 
+7.3.2 System Redundancy 
+ 
+To preclude a single failure, which could 
+prevent the engine from starting, each unit 
+is required to be equipped with two parallel, 
+non-connected redundant starting systems. 
+Each system must be capable of starting 
+the EDG in the event of a failure in the 
+other system. 
+ 
+In some specifications, the requirement 
+was to attempt to start the engine on one 
+system and then go to the second 
+(redundant) system if the engine failed to 
+start. This philosophy wastes time and 
+probably results in a failed start in that the 
+unit would not be up to rated speed in the 
+required time. 
+ 
+All of the systems furnished to date use 
+both systems simultaneously (in tandem) 
+such that if one system failed, the other 
+system would automatically start the unit 
+with only an extended time probable, but 
+not a failure to start. 
+7.3.3 Energy Storage System 
+ 
+The energy required for starting the EDG is 
+stored as compressed air in designated air 
+receivers or as chemical energy stored in a 
+battery bank. In either system, a minimum 
+energy level must be maintained at all 
+times for the unit to be considered 
+operable. 
+ 
+With the compressed air systems, the 
+receivers must be kept above a minimum 
+pressure. This is accomplished by air 
+compressors which automatically recharge 
+the system when the low pressure limit is 
+reached. For electric powered systems, 
+the batteries are maintained at a voltage 
+above the minimum electrical storage 
+capacity by the battery charging systems. 
+The electric system will be discussed in 
+greater detail later in this chapter. 
+ 
+7.4 Starting Air Systems 
+ 
+There are two types of compressed air 
+starting systems used in nuclear plant 
+applications: the direct air injection system 
+shown in Figure 7-2A and the air motor 
+system shown in Figure 7-2B. In both 
+systems, air is stored under pressure in air 
+receiver tanks. Quick opening solenoid-
+operated air admission valves prevent air 
+from reaching the engine until actuated by 
+an engine start signal. 
+ 
+7.4.1 Direct Air Injection Systems 
+ 
+This system is also often referred to as the 
+'air over piston' or the 'cylinder air start' 
+system. 
+ 
+With the direct air injection system (Figure 
+7-2A), air under pressure is applied to the
+
+7-4 of 28 
+inlet of the Starting Air Admission Valve 
+and to the Starting Air Solenoid Valve. 
+With no start signal present, both valves 
+remain closed. Upon receiving a "start" 
+signal, the Solenoid Valve opens, directing 
+air to the Air Admission Valve pilot section, 
+causing the main valve to open. 
+ 
+Downstream of the Air Admission Valve, 
+the air flow is split. The major portion of the 
+air is passed to the Starting Air Header. A 
+small portion of the air is also directed to 
+the Starting Air Distributor. Air from the 
+Starting Air Header enters each of the 
+Starting Air Check Valves. Starting Air 
+Check Valves, where used, are mounted in 
+each of the engine cylinder heads. For the 
+Fairbanks-Morse Opposed Piston engine, 
+the starting air check valves mount through 
+the wall of the cylinder liner. The design of 
+these valves is such that they will remain 
+closed until acted upon by a pilot signal 
+from the Starting Air Distributor. 
+ 
+The Starting Air Distributor, driven by the 
+engines camshaft or accessory drive gear 
+train, provides a pilot air signal in proper 
+sequence to each of the Starting Air Check 
+Valves. At the appropriate time, usually a 
+few degrees past Top Dead Center (TDC), 
+the pilot air signal is applied to each 
+Starting Air Check Valve, causing it to 
+open. Starting air, under pressure, is 
+admitted directly into the engine cylinder. 
+This air pressure rapidly pushes each 
+piston downward in succession. As each 
+piston is later moving upward, the air 
+charge is compressed in preparation for 
+injection of the fuel. 
+ 
+As the engine achieves self-sustained 
+operational speed, a signal from the control 
+system shuts off the starting air supply. 
+This is usually controlled by a speed 
+sensing device monitoring the engine 
+speed (RPM). The Solenoid Valve then 
+closes, allowing the Air Admission Valve to 
+close. Air then vents from the Starting Air 
+Distributor and Starting Air Header. This 
+allows the spring-loaded Starting Air Check 
+Valves to close and returns the engine 
+starting air system to the standby mode. 
+ 
+7.4.1.1 Starting Air Admission Valves 
+ 
+Figure 7-3 shows a typical pilot-operated, 
+poppet type Starting Admission Valve. The 
+Solenoid Valve is generally mounded 
+directly to the Admission Valve. In other 
+applications, the Solenoid Valve may be 
+mounted remotely to the Admission Valve 
+and connected by pipe or tubing. 
+ 
+In the standby mode, the spring-loaded 
+valve poppet is held in the closed position 
+by the force of the spring. Air from the air 
+receiver enters the valve as shown. The 
+design of the valve poppet is such that the 
+air pressure acting against the poppet is 
+balanced by the equal areas of the valve 
+poppet. The force of the spring is sufficient 
+to keep the valve closed. A portion of the 
+air entering the valve (pilot air) is directed 
+to the inlet of the Solenoid Valve. In 
+standby, the Solenoid Valve is also closed 
+(not energized). 
+ 
+When a "start" signal is generated, it is 
+applied to the Solenoid Valve. This signal 
+energizes the solenoid coil. The magnetic 
+field created lifts the valve plunger, opening 
+the valve. Pilot air is then directed through 
+the signal port (orifice) to the top of the pilot 
+piston (part of the valve poppet). The force 
+of the air pressure applied to the pilot 
+piston exceeds the force of the spring
+
+7-5 of 28 
+holding the poppet in the closed position. 
+This differential force causes the valve 
+poppet to move downward, opening the 
+valve. Air from the air receiver passes 
+freely through the valve and on to the 
+Starting Air Header and Starting Air 
+Distributor. 
+ 
+Loss of a "start" signal closes the Solenoid 
+Valve, which vents air from the pilot piston. 
+Spring force causes the valve poppet to 
+close returning to a standby mode. 
+ 
+7.4.1.2 Starting Air Distributor 
+ 
+Since the Starting Air Check Valves must 
+open at a specific time relative to the 
+position of the piston in the cylinder, a 
+Starting Air Distributor is needed and 
+provided. The Starting Air Distributor, 
+which is timed from the engine camshaft(s) 
+or other portion of the engine gear train, 
+directs a pilot signal to each Start Air Check 
+Valve, when the piston is slightly after top 
+dead center and maintains that signal until 
+the movement of the piston reaches 
+approximately 120o after top dead center. 
+A typical Start Air Distributor is shown in 
+Figure 7-4. 
+ 
+The Starting Air Distributor consists of a 
+series of spool valve assemblies, one for 
+each Starting Air Check Valve. One 
+assembly for each cylinder is mounted in a 
+common housing. The timing cam, timed 
+to the engine, causes each spool valve to 
+direct pilot air pressure to or vent the 
+pressure from each of the Starting Air 
+Check Valves. Operation of the spool 
+valve assemblies is shown in Figures 7-5 
+through 7-7. 
+ 
+With the starting air admission valve 
+closed, no air is applied to the Starting Air 
+Distributor. With no air pressure present, 
+the distributor spool valves are held in the 
+off cam or vent position by the force of the 
+spring as shown in Figure 7-5. This 
+prevents the spool valve from contacting 
+the timing cam during normal engine 
+operation or standby. 
+ 
+When a 'start' signal is generated, the air 
+admission valve opens supplying high 
+pressure 
+starting 
+air 
+to 
+the 
+internal 
+passages of the distributor housing. This 
+air pressure forces the spool valves 
+downward into contact with the timing cam 
+as shown in Figure 7-6. In the high cam 
+position, the spool valve is held in the vent 
+position, and no pilot air signal is applies to 
+the associated Starting Air Check Valve. 
+ 
+Rotation of the timing cam will eventually 
+align the low portion of the cam with the 
+spool valve as shown in Figure 7-7. The 
+pressure of the starting air from the internal 
+passages of the distributor housing will 
+keep the spool valve in contact with the 
+timing cam. The spool valve moves 
+downward blocking the vent port and 
+connecting the Starting Air Check Valve 
+port. Starting air pressure is then applied 
+to the pilot piston of the associated Start Air 
+Check Valve, opening the valve and 
+allowing starting air to enter the engine 
+cylinder. When the timing cam has moved 
+beyond a spool valve position, the spool 
+valve is returned to the vent position and 
+the air signal is removed from the Starting 
+Air Check Valve. 
+ 
+With cessation of the 'start' signal, the Air 
+Admission Valve closes allowing the air to 
+vent from the Starting Air Distributor 
+internal passages. This loss of air pressure
+
+7-6 of 28 
+allows the force of the spring to lift the 
+spool valves off the timing cam. All of the 
+spool valves will be returned to the off/vent 
+position, and the starting process will be 
+terminated. 
+ 
+7.4.1.3 Starting Air Check Valves 
+ 
+In the start mode, air from the Starting Air 
+Header is delivered to each of the Starting 
+Air Check Valves mounted in the engine 
+cylinder heads. In the Fairbanks-Morse 
+Opposed Piston engine, the Starting Air 
+Check Valves mount through the wall of the 
+cylinder liner adjacent to the fuel injection 
+nozzle. A typical Starting Air Check Valve 
+is shown in Figures 7-8 and 7-9. 
+ 
+The air start check valve assembly includes 
+a poppet type valve which is located in a 
+precision bore cast body or housing. A 
+spring applied to the upper end of the valve 
+keeps the valve in the closed position. The 
+design of the valve including the balance 
+piston is such that the starting air entering 
+the valve body is balanced. Starting air 
+pressure acting against the valve is 
+balanced by the air pressure acting against 
+the equal area of the balance piston. The 
+force of the spring is sufficient to hold the 
+valve in the closed position. A pilot inside 
+the piston cap rests against the tip of the 
+valve. 
+ 
+Initiation of a ‘start’ signal opens the Air 
+Admission Valve allowing air to enter the 
+housing as shown. The balanced design of 
+the valve maintains it in the closed position 
+until a pilot air signal is applied to the pilot 
+piston. 
+ 
+As mentioned previously, air from the 
+Starting Air Admission Valve is directed to 
+the Starting Air Distributor as well as the 
+Starting Air Header. The Starting Air 
+Distributor is timed to direct a pilot signal to 
+the Starting Air Check Valve, when the 
+piston for the cylinder involved is just past 
+top dead center. The force supplied by the 
+pilot air signal, which is applied to the pilot 
+piston, overcomes the spring force holding 
+the valve closed. This opens the Starting 
+Air Check Valve allowing starting air to 
+enter the engine cylinder. 
+ 
+The pressure of the starting air entering the 
+engine cylinder is applied to the top of the 
+engine’s 
+piston 
+forcing 
+the 
+piston 
+downward and causing rotation of the 
+crankshaft. This rotation subsequently 
+causes upward motion of other engine 
+pistons. As each engine piston moves 
+upward on the compression stroke, the air 
+in that cylinder is compressed to achieve 
+the temperature required for ignition. 
+Rotation of the crankshaft also causes 
+rotation of the timing cam for the Starting 
+Air Distributor (see Figure 7-4). As the 
+engine’s piston nears the bottom of its 
+stroke, the Starting Air Distributor closes 
+the associated valve port and vents the 
+pilot air signal from the Starting Air Check 
+Valve. This allows the spring to return the 
+valve to the closed position. As this occurs, 
+other Starting Air Check Valves are 
+receiving the pilot signal which results in a 
+continuous rotation of the engine until 
+engine start is achieved or the start signal 
+ceases. 
+ 
+The Starting Air Check Valves have to 
+remain 
+closed 
+during 
+normal 
+engine 
+operation. If a Starting Air Check Valve 
+should not close or should leak, the 
+combustion gases from the cylinder will 
+leak out of the Starting Air Check Valve,
+
+7-7 of 28 
+and it will become extremely hot and may 
+further seize. It is important to occasionally 
+check the Starting Air Check Valves and 
+the associated Starting Air Supply Header 
+to determine that none of the valves are 
+leaking. 
+ 
+7.4.2 Starting Air Motor System 
+ 
+In the air motor system, shown in Figure 7-
+2B, engine rotation is accomplished by a 
+rotary vane or piston type air motor which 
+engages with a ring gear mounted to the 
+periphery of the engine flywheel. During a 
+start sequence, the drive mechanism of the 
+starting air motor engages with the flywheel 
+ring gear. Air entering the starting air motor 
+then 
+causes 
+rotation 
+of 
+the 
+engine 
+crankshaft. Upon completion of the start 
+sequence, the air is shut off and vented 
+allowing the starting air motor to disengage 
+from the flywheel gear. 
+ 
+7.4.2.1 Starting Air Admission Valve 
+ 
+The Starting Air Admission Valve used with 
+the air motor system is similar to that used 
+in the direct injection system. Notice in 
+Figure 7-2B that the solenoid valve is not 
+connected directly to the Air Admission 
+Valve but feeds the pilot signal through the 
+drive mechanism of the Starting Air Motor. 
+With this configuration, the Starting Air 
+Motor drive fully engages with the flywheel 
+ring gear prior to achieving rotation of the 
+Starting Air Motor. 
+ 
+7.4.2.2 Vane Type Air Motors 
+ 
+A typical vane type Starting Air Motor is 
+shown in Figure 7-10. It consists of a rotor 
+mounted off center within a cylindrical 
+housing. A set of sliding vanes radiate 
+outward from the rotor to make contact with 
+the bore of the housing. As air enters the 
+inlet of the housing, the pressure is applied 
+to the sliding vanes as shown, causing the 
+rotor to rotate. Air continues to enter as the 
+volume between the rotor and housing 
+increases. 
+ 
+The pressure differential between the air 
+inlet 
+and 
+the 
+exhaust 
+(atmospheric 
+pressure) creates the torque necessary for 
+the rotor to rotate. As the starting air 
+reaches the exhaust port, it is exhausted to 
+the 
+atmosphere 
+as 
+pressurized 
+air 
+continues to enter the inlet. 
+ 
+The power and rotary motion of the rotor is 
+transmitted through shafts and in some 
+applications, through gears to the starter 
+drive gear which is engaged with the 
+flywheel ring gear. The subsequent 
+rotation 
+of 
+the 
+engine 
+flywheel 
+and 
+crankshaft is used to generate the engine 
+start. 
+ 
+7.4.2.3 Start Drive Gear - Bendix 
+ 
+As the starting air motor in required only 
+intermittently, 
+a 
+drive 
+mechanism 
+is 
+provided which will engage and disengage 
+the starter from the flywheel ring gear as 
+needed. A starter drive gear, often referred 
+to as a Bendix, is shown in Figure 7-11. 
+ 
+The starter drive mechanism that is shown 
+mounts either directly to the rotor shaft or to 
+an output shaft via a set of reduction gears. 
+Where used, the reduction gears allow the 
+rotor to rotate at a high RPM while 
+increasing the overall output torque. A 
+drive gear is provided which will mesh with 
+the teeth of the ring gear on the flywheel. 
+When the starting motor is not required to
+
+7-8 of 28 
+rotate the crankshaft, the drive gear 
+assembly 
+is 
+spring 
+loaded 
+in 
+the 
+disengaged position. A drive piston is 
+provided to engage the drive gear with the 
+flywheel 
+ring 
+gear 
+during 
+the 
+‘start’ 
+sequence. 
+ 
+To prevent over-speeding of the starting air 
+motor as the engine begins to fire, an 
+overrunning clutch is incorporated between 
+the drive gear and the rotor shaft. This 
+clutch mechanism engages the rotor shaft 
+with the drive gear when the starting motor 
+is driving the engine flywheel. As the 
+engine RPM increases, the speed of the 
+drive gear is greater than that of the rotor 
+shaft. At this point, the clutch mechanism 
+releases the drive gear from the rotor shaft. 
+The drive gear can continue to rotate with 
+the engine flywheel without transmitting 
+that high speed to the starting motor rotor 
+assembly. 
+ 
+7.4.2.4 Starting Motor Operation 
+ 
+When a ‘start’ signal is received, the 
+solenoid valve opens (see Figure 7-2B) 
+directing air pressure to the drive piston 
+port in the starter housing as shown in 
+Figure 7-11. This air pressure moves the 
+drive piston causing the starter drive gear 
+to engage with the engine flywheel ring 
+gear. This piston movement also opens an 
+outlet port which directs pilot air pressure to 
+the pilot port of the starting air admission 
+valve causing it to open. 
+ 
+With the air admission valve open, full 
+starting air pressure is directed to the inlet 
+of the starting air motor causing it to rotate, 
+driving the flywheel ring gear and rotating 
+the engine crankshaft. When the ‘start’ 
+signal is turned off by the control system, 
+the solenoid valve closes blocking air flow 
+to 
+the 
+starter 
+drive 
+piston, 
+which 
+disengages the drive gear and blocks the 
+air flow to the air admission valve. Loss of 
+the pilot signal to the pilot piston of the air 
+admission valve allows the valve to close, 
+returning the start system to the standby 
+mode. 
+ 
+7.4.3 Supplemental Components 
+ 
+In 
+order 
+to 
+meet 
+the 
+"fast 
+start" 
+requirements of diesel engines in nuclear 
+applications, it is necessary to move the 
+fuel racks to the full fuel position as soon as 
+possible. The following two devices are 
+employed to work with the starting air 
+system to bypass the governor and give the 
+cylinders full fuel during the start sequence. 
+ 
+7.4.3.1 Governor Boost Cylinder 
+ 
+A governor boost cylinder, as shown in 
+Figure 7-12, is mounted to the side and 
+below the level of the governor housing. It 
+is hydraulically connected to both the 
+governor oil sump and to the governor 
+power piston housing. 
+ 
+The boost cylinder is simply a pneumatic-
+hydraulic cylinder with a spring loaded 
+piston. As the force of the spring moves 
+the piston down, oil is drawn from the 
+governor oil sump through the inlet check 
+valve to fill the volume above the piston. 
+The volume below the piston is connected 
+to the starting air header. 
+ 
+When a ‘start’ signal is generated, air under 
+pressure from the starting air header or 
+supply pipe to the air start motor enters 
+below the piston forcing it upward sharply. 
+This discharges the oil above the piston
+
+7-9 of 28 
+past the outlet check valve to the governor 
+power piston. This increased oil pressure 
+quickly moves the fuel control linkage to the 
+full fuel position ensuring a rapid engine 
+start and acceleration. 
+ 
+The oil supplied by the boost cylinder 
+bleeds off through the internal passages of 
+the governor as the governor takes over 
+operation of the fuel control linkage. The 
+outlet check valve prevents governor oil 
+pressure from entering the boost cylinder. 
+Closure of the starting air admission valve 
+drops air pressure from the boost cylinder 
+and the spring again moves the piston 
+downward, refilling the space above the 
+piston with oil from the governor oil sump. 
+ 
+On the actuators used with the electronic 
+governing systems (to be discussed in 
+Chapter 8), the boost oil does not actually 
+lift the power piston but charges portions of 
+the hydraulic circuit with oil which allows 
+the governor to take control earlier than 
+would be the case without the boost oil. 
+ 
+7.4.3.2 Shuttle Valve 
+ 
+When only one boost cylinder is used, a 
+shuttle valve is installed to maintain the 
+redundancy and separation required by 
+nuclear specifications. 
+ 
+Under normal conditions, the shuttle valve 
+takes a center position directing air from 
+both headers to the underside of the boost 
+cylinder piston. However, should a failure 
+of one of the redundant systems occur, the 
+air pressure from the operational side 
+causes the shuttle valve to shift blocking off 
+the failed side and directing air from the 
+operational side to the boost cylinder. 
+ 
+7.4.3.3 Other Fuel Rack Boost Systems 
+ 
+Some engines such as the Colt Pielstick 
+engine line include fuel rack boost cylinders 
+and shuttle valves that are part of the 
+engine fuel rack control system. These 
+units do not use the governor boost 
+cylinder system as described above. 
+ 
+7.4.4 Starting Air Supply System 
+ 
+Regardless of the type of starting air 
+system used, sufficient air pressure and 
+volume must be available at all times to 
+ensure engine start capability. The air to 
+support engine starting is automatically 
+maintained in ASME Class 3 air receivers 
+located near the engine. It is the starting 
+air supply system which maintains the air 
+pressure and volume in these receivers. A 
+typical starting air supply system is shown 
+in Figure 7-13. Starting air piping is ASME 
+Class 3 and designed for seismic loading. 
+ 
+7.4.4.1 Air Receivers 
+ 
+Compressed air receivers are cylindrical 
+pressure 
+vessels 
+whose 
+design 
+and 
+construction 
+is 
+governed 
+by 
+the 
+requirements of the ASME Boiler and 
+Pressure Vessel Code, Construction of 
+Unfired Pressure Vessels. The generic 
+plant air receivers are designed to conform 
+to the requirements of ASME Code, 
+Section III for Class 3 components. 
+ 
+Their specific size (volume) is a function of 
+the size of the engine they are required to 
+start and the number and duration of start 
+attempts specified by the FSAR. The 
+generic FSAR requirement is to have air 
+storage capability to provide two (2) 
+consecutive diesel engine starts. The two
+
+7-10 of 28 
+(2) start capability is required to assure that 
+the 
+engine 
+can 
+help 
+mitigate 
+the 
+consequences of design basis events (e.g. 
+LOCA). A number of the later plants 
+specified capacity for five (5) start attempts, 
+a starting attempt generally taking more air 
+than a successful start. NOTE: If either 
+starting air receiver is inoperable on one 
+diesel, then the diesel is inoperable. 
+ 
+7.4.4.2 Air Compressors 
+ 
+Starting air compressors are normally of 
+the reciprocating (piston) type. They are 
+usually multiple-stage, multi-cylinder types 
+with cylinders configured in a “V” or “W”. 
+They may be either air cooled or water 
+cooled. 
+ 
+Compressor capacity is based upon the 
+amount of time required to recharge the 
+receiver from a specified (cut-in) pressure 
+to 
+the 
+desired 
+operational 
+pressure. 
+Compressor capacity may be determined 
+using the following formula: 
+ 
+ܦൌሺܸ
+כܲ
+ଶሻെሺܸ
+כܲ
+ଵ ሻ
+15 כܶ
+ 
+ 
+Where: 
+ 
+D = Compressor capacity, cubic feet of 
+free air per minute 
+ 
+V = Volume of the Receiver, cubic feet 
+ 
+P1 = Cut-in Pressure, absolute (PSIA) 
+ 
+P2 = Desired operating pressure, 
+absolute (PSIA) 
+ 
+T = Recharging time, in minutes 
+The generic starting air compressors are 
+designed to deliver 40 SCFM at 250 psig. 
+They require Class 1E power and are 
+indirectly tested by diesel start tests. 
+ 
+If two compressors are inoperable on one 
+diesel, then the diesel is inoperable. 
+ 
+In some specifications, the air compressors 
+were sized such that the tanks had to be 
+charged from atmospheric pressure to high 
+cut-out pressure within 30 minutes. 
+ 
+7.4.4.3 Pressure Switches 
+ 
+Operation of the compressor is controlled 
+by a pressure switch located on the air 
+receiver. Set at a specified "cut-in" 
+pressure, the switch starts the compressor 
+when the pressure becomes lower than the 
+set pressure and allows the compressor to 
+run until the receiver is at or slightly above 
+the desire operating pressure. As the air 
+pressure reaches the operating pressure, 
+the pressure switch opens the circuit, 
+stopping (unloading) the compressor. 
+ 
+7.4.4.4. Pressure Relief Valves 
+ 
+To 
+protect 
+the 
+system 
+from 
+over-
+pressurization, pressure relief valves are 
+installed 
+near 
+the 
+discharge 
+of 
+the 
+compressor and on the starting air receiver. 
+The safety valve near the compressor 
+discharge is normally set at 115% of the 
+rated operating pressure. The safety valve 
+installed on the air receiver is normally set 
+at 110% of rated pressure. 
+ 
+7.4.4.5 Aftercoolers 
+ 
+As air is compressed, its temperature 
+increases substantially. This reduces the
+
+7-11 of 28 
+density of the air being discharged from the 
+compressor. To compensate for this 
+condition, 
+aftercoolers 
+are 
+installed 
+downstream of the compressors. Either air 
+cooled or water cooled, these aftercoolers 
+cool the air to100oF prior to its entering the 
+air dryer. Air-cooled units often use force 
+draft fans to increase their cooling capacity. 
+ 
+7.4.4.6 Air Dryers 
+ 
+Air taken from the atmosphere contains a 
+certain amount of moisture (humidity). Air- 
+operated equipment including starting air 
+motors and various valves may become 
+damaged or degraded if exposed to excess 
+moisture in the compressed air. Moisture 
+may be carried by the air into the air 
+receivers. This moisture may condense 
+and collect in the receiver causing localized 
+corrosion. This corrosion could lead to 
+weakening of the receiver and failure of the 
+components. Moisture carried by the air 
+past the receiver into the system can 
+damage 
+the 
+starting 
+air 
+system 
+components and/or restrict air flow through 
+small orifices and passages. 
+ 
+Air dryers usually use a combination of 
+desiccant 
+and 
+temperature 
+reduction 
+(refrigerants) to remove unwanted moisture 
+from the compressed air. As the air passes 
+through the desiccant tower, the pellets of 
+desiccant absorb and hold the moisture. 
+Periodically, 
+heated 
+air 
+is 
+passed 
+backwards through the desiccant tower to 
+dry out the desiccant pellets preparing 
+them for further use. 
+ 
+The combination of these two methods 
+removes most of the moisture from the 
+compressed air prior to its reaching the 
+receiver. This protects both the receivers 
+and the air-operated components of the 
+system. 
+ 
+7.4.5 Control Air 
+ 
+Control air, supplied from the engine 
+starting air system, utilizes an air filter 
+pressure- reducing valve and volume 
+control tank. In a generic system, control 
+air aligns a pilot valve to pressurize engine 
+run/shutdown cylinders and position engine 
+fuel racks during starting. Control air 
+continues to pressurize the run/shutdown 
+cylinders 
+to 
+support 
+EDG 
+operation. 
+Solenoid valves control the air flow during 
+start and run sequences. The solenoids 
+are powered from a Class 1E DC power 
+supply. If the control air solenoid valves 
+are inoperable, then the EDG is inoperable. 
+ 
+7.5 Electric Starting Systems 
+ 
+Electric starting systems utilize direct 
+current (DC) motors which engage with a 
+ring gear on the engine flywheel as with the 
+starting air motor system. A set of batteries 
+are installed to provide the necessary 
+electric energy needed to operate the 
+motors. 
+ 
+7.5.1 Electric Starting Motor 
+ 
+A typical electric starting motor is shown in 
+Figure 
+7-14. 
+ 
+The 
+main 
+structural 
+components of the assembly are the field 
+frame, lever housing, and nose housing. 
+Field windings, anchored to the field frame, 
+produce a strong magnetic field when 
+energized. 
+ 
+The 
+armature 
+with 
+its 
+commutator forms the rotary component of 
+the motor. The starter drive mechanism or 
+Bendix including an overrunning clutch 
+similar to the one used on the vane type air
+
+7-12 of 28 
+motor is mounted to the armature shaft and 
+is enclosed by the nose housing. 
+ 
+A solenoid switch, mounted to the field 
+frame, serves two functions. First, it 
+provides a means for positive engagement 
+of the drive gear with the flywheel ring gear. 
+Secondly, it acts as a switch to make the 
+connection between the batteries and the 
+field windings and motor brush assembly. 
+ 
+Initiation of a ‘start’ signal electrically 
+connects the solenoid switch to the 
+batteries. Energizing the windings of the 
+solenoid switch creates a magnetic field 
+which pulls the plunge into the core of the 
+switch. That causes the shift lever to pivot 
+forcing the drive gear to mesh with the 
+flywheel ring gear. As the plunger makes 
+contact with the switch rod, the contact 
+plate is forced against the motor contacts. 
+This then makes the electrical connection 
+between 
+the 
+batteries 
+and 
+the 
+field 
+windings and armature. Once the field 
+windings are energized, the motor begins 
+to rotate the engine crankshaft starting the 
+engine. 
+ 
+Loss of the ‘start’ signal de-energizes the 
+solenoid switch allowing the spring force to 
+disengage the drive gear from the flywheel 
+ring gear. The solenoid switch also breaks 
+the circuit between the batteries and field 
+windings and armature. At this point, the 
+motor is disengaged and de-energized. 
+ 
+7.5.2 Batteries 
+ 
+Starting system batteries are of the lead 
+acid type. Each cell of the battery 
+produces about two volts. In series, 
+starting system batteries produce 24 or 
+more volts depending on the design 
+specifications of the licensee. 
+ 
+Battery chargers constantly monitor and 
+maintain the batteries in a fully charged 
+condition. Periodic inspection and testing 
+of the batteries is required to ensure that 
+the batteries are kept fully charged and that 
+they have the capacity (rate of chemical 
+energy conversion) to provide the power 
+necessary for an engine start. 
+ 
+It is recommended that a separate set of 
+batteries be supplied for engine starting. 
+The station battery (typically 125VDC) 
+should not be used for engine starting, as 
+running down that set of batteries would 
+preclude the engine running.
+
+7-13 of 28 
+ 
+ 
+ 
+ 
+ 
+ 
+ Figure 7-1 Cranking Speed vs Compression Pressure
+
+7-14 of 28 
+ 
+ 
+ 
+ 
+ 
+ Figure 7-2 Starting Air System
+
+7-15 of 28 
+ 
+ 
+ 
+ Figure 7-3 Starting Air Valve (Solenoid Activated)
+
+7-16 of 28 
+ 
+ 
+ 
+ 
+ Figure 7-4 Starting Air Distributor (FM OP Engine)
+
+7-17 of 28 
+ 
+ 
+ 
+ 
+7-7 Spool Valve Low Cam 
+7-6 Spool Valve High Cam 
+Figure 7-5 Spool Valve Off Cam
+
+7-18 of 28 
+ 
+ 
+ 
+Figure 7-8 Starting Air Check Valve - Open 
+Figure 7-9 Starting Air Check Valve - Closed
+
+7-19 of 28 
+ 
+ 
+ 
+ 
+ 
+ Figure 7-10 Vane Type Starting Air Motor
+
+7-20 of 28 
+ 
+ 
+ 
+ 
+ Figure 7-11 Bendix Drive Assembly
+
+7-21 of 28 
+ 
+ 
+ 
+ 
+ 
+ Figure 7-12 Governor Boost Cylinder (Woodward Governor Co.)
+
+7-22 of 28 
+ 
+ 
+ 
+ 
+ 
+ Figure 7-13 Starting Air Supple System
+
+7-23 of 28 
+ 
+ 
+ 
+ 
+ 
+Figure 7-14 Typical Components Direct Air-Over-Piston Starting System
+
+7-24 of 28 
+ 
+ 
+ 
+ 
+ 
+ Figure 7-15 Typical Direct Air-Over-Piston Starting System
+
+7-25 of 28 
+ 
+ 
+ 
+ Figure 7-16 Electric Starting Motor System (with Bendix)
+
+7-26 of 28 
+ 
+ 
+ 
+ 
+ 
+ Figure 7-17 Air Start Check Valve
+
+7-27 of 28 
+HANDS-ON SESSION 9 
+ 
+9.0 DIRECT AIR INJECTION SYSTEM 
+ 
+Purpose 
+ 
+The 
+purpose 
+of 
+this 
+session 
+is 
+to 
+complement Chapters 3 and 7. 
+ 
+Learning Objectives 
+ 
+Upon completion of this lesson you will be 
+able to understand: 
+ 
+• How the direct air-over-piston starting 
+system 
+operates 
+including 
+its 
+components and their location on the 
+engine. 
+ 
+9.1 Air Start System and Its Components 
+ 
+Utilizing the cutaway OP and ALCO 
+engines, the instructor will conduct a 
+hands-on 
+walkaround 
+presentation 
+to 
+identify the location of the air starting 
+system and its components. Starting air 
+will be traced from its input to the air admits 
+in valve and to all of its output locations 
+including: 
+ 
+• The main starting air header and its flow 
+to each air cylinder start cheek 
+• The starting air distributor with its lines 
+to the pilot valve on each cylinder’s air 
+start check valve 
+• The line to governor boost cylinder 
+ 
+The instructor will discuss each application 
+of starting air to these components and 
+show cutaways of the components. 
+ 
+• Multi-port air admission valve 
+• Air-start check valve 
+• Starting distributor 
+• Governor boost cylinder 
+ 
+ 
+9.1.1 Air Start Distributor 
+ 
+The air start distributor consists of a 
+number of valve assemblies, usually one 
+for each cylinder of the engine. There is a 
+cam, driven by the engine at engine speed. 
+This cam has a flat which is located such 
+that for a particular cylinder, the flat allows 
+the valve for that cylinder to open at a point 
+just past top dead center (or inner dead 
+center) for that cylinder on its power stroke. 
+ 
+When the valve in the air start distributor 
+opens, its causes the air start check valve 
+on that cylinder to also open, thus allowing 
+starting air to enter the engine cylinder at a 
+considerable pressure. The air between 
+the pistons forces the pistons apart. This 
+force drives the connecting rods power the 
+crankshafts, which causes them to rotate. 
+Reference Figures 7-4 through 7-7. 
+ 
+In the air start distributor on the Opposed 
+Piston engine, air is admitted to the 
+distributor when the engine start signal 
+causes the air start solenoid valve to open. 
+The air pressure inside the air start 
+distributor causes the individual cylinder 
+valves to push in against the cam surface. 
+When there is no air pressure present, 
+springs in each valve cause the valves to 
+be forced outward, away from the cam. 
+Thus, when there is no air pressure, there 
+is no contact between the valves and the 
+cam and no wear on the parts. 
+ 
+When the cam rotates to the point that the 
+flat is located at an individual valve, the 
+valve moves further toward the cam. Ports
+
+7-28 of 28 
+in the housing are opened to allow pilot air 
+pressure to be transmitted to the air start 
+check valves in the associated cylinder. 
+The pilot air opens air start check valve 
+which admits air from the starting air 
+manifold header into the cylinder. When 
+the cam continues to turn, the flat passes 
+that valve and the valve is rammed to the 
+closed position venting the air signal from 
+the cylinder air check valve and shutting off 
+the air into that cylinder. This happens to 
+each cylinder in the firing order sequence 
+of the engine until the engine is started. 
+When the engine reaches a self-sustaining 
+speed of about 125 to 150 rpm, a speed 
+sensing mechanism shuts off starting air to 
+the distributor and header. 
+ 
+The 
+instructor 
+will 
+demonstrate 
+the 
+operation of the air start distributor by 
+applying air pressure to the inlet fitting and 
+then will demonstrate the operation of the 
+individual cylinder valves by turning the 
+cam. 
+ 
+The air start distributor on some early 
+models of engines was mounted on the 
+front of the upper crankshaft as shown on 
+Figure 2-37. The display model has this 
+configuration. On all 12-cylinder and later 
+model engines, the air start distributor is 
+mounted on the opposite control side of the 
+engine (opposite the governor) on the front 
+end or the engine. 
+ 
+One air start check valve for each cylinder 
+is mounted at the center of the cylinder 
+liner on the opposite control side (OCS). 
+See Figure 7-17. There is an air header 
+that connects to each air start check valve 
+and supplies starting air pressure, usually 
+at about 250 psig, to the valves. As each 
+air start distributor valve is opened by the 
+air start distributor, air pressure from the 
+distributor causes the individual air start 
+check valve to open in sequence. 
+ 
+When the air start pressure/supply is on, 
+indicating the engine is to be started, 
+pressure enters the air start check valve 
+from the starting air header. The valve is of 
+the balanced pressure design, and this 
+header pressure will not cause the valve to 
+open on its own. The spring ensures that 
+the valve will not open from the header 
+pressure. A pilot piston is operated by the 
+air start distributor air pressure, which 
+causes the pilot piston to overcome the 
+spring pressure and allow the air start 
+check valve to open. 
+ 
+The instructor will show a sectioned air 
+start check valve and will also demonstrate 
+the operation of the air start check valve by 
+applying pressure to the pilot piston. 
+ 
+It is very important that the air start check 
+valve seal tightly when it is closed because 
+the valve is subject to the pressure and 
+temperature existent in the cylinder during 
+normal operation. If the air start check 
+valve were to leak, it would allow pressure 
+and heat to build up in the air start header, 
+which is not made to operate at such 
+conditions. During normal operation of the 
+engine, it is a good idea to occasionally feel 
+the air start check valves. If they are hot, 
+then they may be leaking and they should 
+be removed from the engine and replaced 
+or rebuilt.

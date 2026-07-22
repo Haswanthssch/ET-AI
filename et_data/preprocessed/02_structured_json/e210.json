@@ -1,0 +1,2099 @@
+{
+  "source_file": "c:\\Users\\haswa.HASWANTH\\Downloads\\et_data\\datasets\\14_Unclassified\\e210.pdf",
+  "filename": "e210.pdf",
+  "category": "14_Unclassified",
+  "parent_category": "14_Unclassified",
+  "extracted_at": "2026-06-29T19:58:31.245855",
+  "pages": [
+    {
+      "page": 1,
+      "text": "TESTING AND COMMISSIONING PROCEDURE \n \n \nFOR \n \n \nEMERGENCY GENERATOR INSTALLATION \n \n \nIN \n \n \nGOVERNMENT BUILDINGS \n \n \nOF \n \n \nTHE HONG KONG SPECIAL ADMINISTRATIVE REGION \n \n \n2012 EDITION \n \n \n \n \n \n \n \n \n \n \nARCHITECTURAL SERVICES DEPARTMENT \nTHE GOVERNMENT OF THE HONG KONG SPECIAL ADMINISTRATIVE REGION",
+      "char_count": 309
+    },
+    {
+      "page": 2,
+      "text": "PREFACE \n \n \n \nThis Testing and Commissioning (T&C) Procedure aims to lay down the minimum \ntesting and commissioning requirements to be carried out on Emergency Generator \nInstallation in Government Buildings of the Hong Kong Special Administrative Region \n(HKSAR). Such requirements are applicable to both new installations upon completion and \nexisting ones after major alteration. \n \n The present edition was developed based on its 2007 edition by the Mechanical \nInstallation Specialist Support Group that was established under the Building Services \nBranch Technical Information and Research & Development Committee of the \nArchitectural Services Department (ArchSD). This T&C Procedure had incorporated the \nlatest changes in corrigendum no. GSEE01-2012 for the 2012 edition of the General \nSpecification for Electrical Installation. \n \n \nWith the benefit of information technology, electronic version of this new edition is \nto be viewed on and free for download from the ArchSD Internet homepage. As part of the \nGovernment’s efforts to limit paper consumption, hard copies of this T&C Procedure will \nnot be put up for sale. \n \n \nThe ArchSD welcomes comments on content of this T&C Procedure at any time \nsince the updating of this T&C Procedure is a continuous process to tie in with technological \nadvances.",
+      "char_count": 1319
+    },
+    {
+      "page": 3,
+      "text": "DISCLAIMER \n \n \n \nThis T&C Procedure is solely compiled for use on Emergency Generator Installation \ncarried out for or on behalf of the ArchSD in Government buildings of the HKSAR. \n \n \nThere are no representations, either expressed or implied, as to the suitability of this \nT&C Procedure for purposes other than that stated above. The material contained in this \nT&C Procedure may not be pertinent or fully cover the extent of the installation in \nnon-government buildings. Users who choose to adopt this T&C Procedure for their works \nare responsible for making their own assessments and judgement of all information \ncontained herein. The ArchSD does not accept any liability and responsibility for any special \nindirect or consequential loss or damage whatsoever arising out of or in connection with the \nuse of this T&C Procedure or reliance placed on it.",
+      "char_count": 862
+    },
+    {
+      "page": 4,
+      "text": "Table of Contents \n\nGE_TCP \n2012 Edition \n \n \n \nTABLE OF CONTENTS \n \n \n \nPage \n \n \n \n1. \nIntroduction \n\n2. \nObjectives of the T&C works \n\n3. \nScope of the T&C Works \n2 - 3 \n \n \n \n \n3.1 \nTests and Inspections during Construction \n \n \n3.2 \nFunctional Performance Tests \n \n \n3.3 \nCommissioning and Statutory Inspections \n \n \n3.4 \nDocumentation and Deliverables \n \n \n \n \n \n4. \nT&C Procedures \n4 - 5 \n \n \n \n \n \n4.1 \nTests and Inspections during Construction \n \n \n \n4.1.1 \nEmergency Generator \n \n \n \n4.1.2 \nControl Cubicle \n \n \n \n4.1.3 \nUnderground/ Daily Service Fuel Tank \n \n \n \n \n \n \n \n4.2 \nFunctional Performance Tests \n \n \n \n4.2.1 \nEmergency Generator \n \n \n \n4.2.2 \nControl Cubicle \n \n \n \n4.2.3 \nUnderground/ Daily Service Fuel Tank \n \n \n \n \n \n \n \n4.3 \nCommissioning and Statutory Inspections \n \n \n \n4.3.1 \nEmergency Generator \n \n \n \n \n \n \n \n \n \n \n \nAnnex \n \n \n \n \n \n \nAnnex I \nTesting and Commissioning Progress Chart for \nEmergency Generator Installation \n \n \n \n \nTesting \nand \nCommissioning \nCertificate \nfor \nEmergency Generator Installation \n \n \n \n \nAnnex III \nList of Calibrated Instrument Necessary for the T&C \nWorks",
+      "char_count": 1123
+    },
+    {
+      "page": 5,
+      "text": "GE_TCP \n2012 Edition \n \nTesting and Commissioning Procedure for \nEmergency Generator Installation \n \n1. \nIntroduction \n \n \n \nThe procedures stated in this T&C Procedure cover the activities in preliminary tests \nand inspections, functional performance tests and the commissioning of newly \ncompleted Installations and existing ones after major alteration. They are so \ncompiled to facilitate the work of Project Building Services Engineer (PBSE) / \nProject Electrical and Mechanical Engineer (PEME) and Project Building Services \nInspector (PBSI) / Project Electrical and Mechanical Inspector (PEMI), who are \nappointed as the Architect’s Representatives, in the following aspects with respect to \ntesting and commissioning (T&C):- \n \n \n \n(i) \nto vet and approve the T&C procedures proposed and submitted by the \ncontractor for the Emergency Generator Installation (GE Contractor); \n \n \n(ii) \nto witness those T&C procedures as specified; and \n \n \n(iii) \nto accept the T&C certificates and other supporting data. \n \n \n \n \n \n \nThe GE Contractor shall carry out the T&C works as detailed in this document. \nSupplementary T&C plans may be proposed by the GE Contractor as appropriate and \nagreed by PBSE/PEME, e.g. for special equipment supplied and/or installed by the \nGE Contractor. \n \nThe administrative requirements for T&C works are in general as specified in the \nGeneral Specification for Electrical Installation 2012 Edition and all current \ncorrigenda/amendments thereto published before the date of first tender invitation for \nthe Contract issued by the ArchSD (the General Specification) issued by the \nArchitectural Services Department. \n \nAll words and expressions shall have the meaning as assigned to them under the \nGeneral Specification unless otherwise specified herein. \n \n \n \n \n \n \n2. Objectives of the T&C works \n \n \n \nThe objectives of the T&C works are:- \n \n \n \n(i) \nto verify proper functioning of the equipment/system after installation; \n \n \n(ii) \nto verify that the performance of the installed equipment/systems meet \nwith the specified design intent through a series of tests and adjustments; \nand \n \n \n(iii) \nto capture and record performance data of the whole Installation as the \nbaseline for future operation and maintenance. \n \n \n \n \n \n \nFor the avoidance of doubt, depending on the specific demands of individual \nInstallation, the PBSE/PEME may require additional or substitute T&C works in \nregard to any elements in the Installation other than those indicated in this T&C \nProcedure.",
+      "char_count": 2520
+    },
+    {
+      "page": 6,
+      "text": "GE_TCP \n2012 Edition \n \n \n3. \nScope of the T&C Works \n \n \n \n3.1 Tests and Inspections during Construction \n \n \n \n \n \n \nThe purpose of these tests is to ensure that all components and systems are in a \nsatisfactory and safe condition before start up. Preliminary adjustment and setting of \nequipment at this stage shall also be carried out at the same time to pave way for the \ncoming functional performance tests. \n \nBefore carrying out any test, the GE Contractor shall ensure that the Emergency \nGenerator Installation (Installations) complies with all relevant statutory \nrequirements and regulations. The T&C works shall also comply with all site safety \nregulatory requirements currently in force. In particular, the GE Contractor shall note \nthe following:- \n \n \n \n \n \n \n(i) \nElectricity Ordinance (Cap. 406), and its subsidiary legislation; \n \n \n(ii) \nCode of Practice for the Electricity (Wiring) Regulations published by the \nEMSD; \n \n \n(iii) \nIEC 60364 “Electrical Installations of Building”; \n \n \n(iv) \nOccupational Safety and Health Ordinance (Cap. 509), and other \nsubsidiary legislation made under the Ordinance; \n \n \n(v) \nFactories and Industrial Undertakings Ordinance (Cap. 59), and other \nsubsidiary legislation made under the Ordinance, including but not limited \nto Construction Site (Safety) Regulations; \n \n \n(vi) \nElectricity supply rules of the relevant power supply companies; \n \n \n(vii) \nFire Services Ordinance(Cap. 95), and its subsidiary legislation; \n \n \n(viii) \nGas Safety Ordinance (Cap. 51), and its subsidiary legislation; and \n \n \n(ix) \nAir Pollution Control Ordinance (Cap. 311), and its subsidiary legislation. \n \n \n \n \n \n \n \n \n3.2 Functional Performance Tests \n \n \n \n \n \n \nThe purpose of functional performance tests is to demonstrate that the installations \ncan meet the functional and performance requirements as specified in the General \nSpecification and/or Particular Specification. Functional performance tests should \nproceed from the testing of individual components to the testing of different systems \nin the Installations. \n \nThe GE Contractor may have to make temporary modifications as the tests proceed. \nThe specific tests required and the order of tests will vary depending on the type and \nsize of systems, number of systems, sequence of construction, interface with other \ninstallations, relationship with the building elements and other specific requirements \nas indicated in the General Specification and/or Particular Specification. The testing \nof systems may have to be carried out in stages depending on the progress of work or \nas proposed by the GE Contractor. \n \nPart of the tests may be required to be carried out in suppliers’ premises in accordance \nwith the provisions in the General Specification and/or Particular Specification. \n \nAny performance deficiencies revealed during the functional performance tests must \nbe evaluated to determine the cause. After completion of the necessary corrective",
+      "char_count": 2968
+    },
+    {
+      "page": 7,
+      "text": "GE_TCP \n2012 Edition \n \nmeasures, the GE Contractor shall repeat the tests. \n \nIf any test cannot be completed because of circumstances that are beyond the control \nof the GE Contractor, it shall be properly documented and reported to the \nPBSE/PEME, who shall then liaise with the relevant parties to resolve the situation. \nThe GE Contractor shall resume his testing work immediately upon the attainment of \na suitable testing environment. \n \n \n \n \n \n \n \n \n3.3 Commissioning and Statutory Inspections \n \n \n \n \n \n \nCommissioning is the advancement of the Installations from the stage of static \ncompletion to full working conditions and to meet the performance requirements as \nspecified in the General/Particular Specification. This will include setting into \noperation and regulation of the Installations. Fine-tuning of the commissioned system \nshall be done by the GE Contractor to match system performance to the actual needs \nof the building occupier more closely. \n \nWhere necessary, after the proper testing and commissioning of the Installations, the \nGE Contractor shall notify the appropriate authority as specified in General \nSpecification and/or Particular Specification, through the PBSE/PEME of the \ncompletion of the Installations and its readiness for final inspection. \n \n \n \n \n \n \n \n \n \n3.4 Documentation and Deliverables \n \n \n \n \n \n \nThe GE Contractor shall submit his proposed T&C procedures together with the \nTesting and Commissioning Progress Chart shown in Annex I to PBSE/PEME for \napproval. \n \nAll inspection and T&C results shall be recorded in the data record forms shown in \nPart 3 and 4 of Annex II. \n \nData recorded in other formats may also acceptable subject to prior approval of the \nPBSE/PEME. Upon completion of all the required T&C works, the GE Contractor’s \nproject engineer shall complete and sign a testing and commissioning certificate as \nshown in Part 1 and 2 of Annex II to the effect that the agreed T&C works have been \nduly carried out. \n \nA functional performance test report covering all measured data, data sheets, and a \ncomprehensive summary describing the operation of the system at the time of the \nfunctional performance tests shall be prepared and submitted to the PBSE/PEME. \nDeviations in performance from the General Specification and/or Particular \nSpecification or the design intent should be recorded, with a description and analysis \nincluded. \n \nWhere required in the General Specification and/or Particular Specification, the GE \nContractor shall conduct a final evaluation of the performance of the Installations, the \nresults of which shall be included in the commissioning report.",
+      "char_count": 2652
+    },
+    {
+      "page": 8,
+      "text": "GE_TCP \n2012 Edition \n \n \n4. \nT&C Procedures \n \n \n \n \n \n4.1 Tests and Inspections during Construction \n \n \n \n \n \n \nCertain tests will be carried out on different systems of the Installation during \nconstruction to ensure their suitability for operating at the design conditions. \nCertificates of such tests have to be issued together with certificates of any work tests. \n \n(N.B. The following tests should be conducted in accordance with the procedures as \nspecified by the manufacturers. The testing procedures, instruments and records \nshould be submitted by the GE Contractor for approval of PBSE/PEME.) \n \n \n \n \n \nRelevant Clauses \nIn Annex II \n \n4.1.1 \nEmergency Generator \n \n \n \n \n \n \n \n(a) \nVisual inspection on engine, alternator, radiator, \nand various systems of the generating set \nN.A. \n \n \n(b) \nFull operating test \n \n \n \n(c) \nControl function test \n \n \n \n(d) \nCircuit & engine protection tests \n \n \n \n(e) \nFuel consumption test \n \n \n \n(f) \nStep load acceptance test \n \n \n \n \n \n \n \n4.1.2 \nControl Cubicle \n \n \n \n \n \n \n \n \n(a) \nVisual inspection on control panel \nN.A. \n \n \n(b) \nPerformance tests on individual components \n \n \n \n(c) \nElectrical resistance test (Ductor test) \n \n \n \n(d) \nTemperature rise test \n \n \n \n \n \n \n \n4.1.3 \nUnderground/ Daily Services Fuel Tank \n \n \n \n \n \n \n \n \n(a) \nVisual inspection on welding surfaces and \nprimer coating \nClause 3.1 \n \n \n(b) \nHydraulic test \n \n \n \n \n \n \n \n \n \n \n \n4.2 Functional Performance Tests \n \n \n \n \n \n \n4.2.1 \nEmergency Generator \n \n \n \n \n \n \n(N.B. \nThe tests marked with “*” below should be performed \neither under section 4.2.1 or 4.3.1 subject to the approval \nof PBSE/PEME) \n \n \n \n \n \n \n \n(a) \nPre-commissioning \ninspection \non \nvarious \ncomponents / systems \nClause 3.3, \n3.4.1,3.4.2, \n4.1.4 & 4.1.5 \n \n \n(b) \nControl function test* \n \n \n(c) \nDummy load test* \n \n \n \n(d) \nBattery charger output test* \n \n \n \n(e) \nStep load acceptance test*",
+      "char_count": 1909
+    },
+    {
+      "page": 9,
+      "text": "GE_TCP \n2012 Edition \n \n \n \n \n \n \n \n \n \n \n \n4.2.2 \nControl Cubicle \n \n \n \n \n \n \n \n(a) \nPre-commissioning \ninspection \non \nvarious \ncomponents / systems \nClause 3.4.3 \n \n \n(b) \nPerformance tests of individual components \nsuch as voltmeter, ammeter, frequency meter, \nwattmeter, indicating lamps, buttons and \nswitches \n \n \n \n(c) \nCircuit protection & load transfer tests \n \n \n \n \n \n \n \n4.2.3 \nUnderground/Daily Services Fuel Tank \n \n \n \n \n \n \n \n(a) \nPre-commissioning \ninspection \non \nthe \nconstruction, welding, painting and components \nof tank & pipework \nClause 3.2 \n \n \n(b) \nHydraulic test \n \n \n \n \n \n \n \n \n \n4.3 Commissioning and Statutory Inspections \n \n \n \n \n \n \n(N.B. \nThe tests marked with “*” below should be performed \neither under section 4.2.1 or 4.3.1 subject to the approval \nof PBSE/PEME) \n \n \n \n \n \n \n4.3.1 \nEmergency Generator \n \n \n \n \n \n \n \n(a) \nInsulation test \nClause 3.5, \n \n \n(b) \nControl function test* \n4.1.3 to 4.1.7 \n \n \n(c) \nDummy load test* \n \n \n \n(d) \nEarthing protection test \n \n \n \n(e) \nBattery charger output test* \n \n \n \n(f) \nStep-load acceptance test* \n \n \n \n(g) \nNoise level measurement",
+      "char_count": 1121
+    },
+    {
+      "page": 10,
+      "text": "Annex I \n\nPBS/SR.031(2012) \n \n \nAnnex I \nTesting and Commissioning Progress Chart \n“Emergency Generator Installation” \n \nContract No.: ____________________________________________________________________ \n \nContract Title: ___________________________________________________________________ \n \nName of Contractor/Sub-contractor: _________________________________________________ \n \nContract Period: / /20 to / /20 * Revised/Actual Completion Date : / /20 \n \n \n \nTesting and Commissioning Progress Chart for Emergency Generator Installation (Rev. \n)(1) \n \nDates (2) \n \n \n \n \n \n \n \n \nRemark \n \nActivities \nReference S A S A S A S A S A S A S A S A \n \n \nto \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n1. Visual Inspections \n3.1, \n3.2&3.3 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nU/G Fuel Oil Tank \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nServices Tank \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPipeworks \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nGenerator Set \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nBattery \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCooling System \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nExhaust System \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n2. \nPre-commissioning \nInspection \n3.4 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n3. \nInsulation \nResistance Test \n3.5 & \n4.1.3 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n4. \nControl Functional \nTest \n3.5 & \n4.1.4 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test",
+      "char_count": 1637
+    },
+    {
+      "page": 11,
+      "text": "Annex I \n\nPBS/SR.031(2012) \n \n \nTesting and Commissioning Progress Chart \n“Emergency Generator Installation” \n \n \n \nTesting and Commissioning Progress Chart for Emergency Generator Installation (Rev. \n)(1) \n \nDates (2) \n \n \n \n \n \n \n \n \nRemark \nActivities \nReference S A S A S A S A S A S A S A S A \n \nto \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n5. Dummy Load Test \n3.5 & \n4.1.5 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n6. Earth Protection \nTest \n3.5 & \n4.1.6 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n7. \nSubmission of T&C \nCertificate \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nNotes : \n* Delete if not applicable \n(1) Insert revision no. \n(2) Insert additional columns as necessary \nS - schedule % completion \nA - actual % completion",
+      "char_count": 928
+    },
+    {
+      "page": 12,
+      "text": "Issue Date:- 8 August 2012 \n\nRevision Date: - \n \n \nTesting and Commissioning Certificate \non \nEmergency Generator Installation \n \nPart 1 : Details of Project \n1.1 Project title (with location) : \n \n1.2 \n* P.W.P. / Project No. : \n \n1.3 \n*Contract/Sub-contract/Quotation No. : \n \n1.4 \n* Contractor/Sub-contractor : \n \n1.5 \n* PBSE/PEME : \n \n1.6 \n* PBSI/PEMI : \n \n \nPart 2: Declaration \n2.1 \nI certify that the Emergency Generator Installation as specified in the \nContract/Sub-contract/Quotation at the above location has been inspected, tested \nand commissioned in accordance with this T&C Procedure and/or any other \nprocedures as agreed between the PBSE/PEME and the Emergency Generator (GE) \nContractor. The results are satisfactory in the aspects as mentioned in Part 3 and/or \nas recorded in Part 4 of this Certificate, except as indicated in the COMMENTS \nitems. \n \n2.2 I also certify that site tests have been performed in accordance with the \nrequirements set out in Parts 3 & 4 of this T&C Procedure and that the results are \nsatisfactory. A record of the tests has been prepared and submitted to the \nPBSE/PEME. \n \nName of GE Contractor’s Representative: \n \n____________________________________________ \n \nSignature: \n \n__________________________________________ \nDesignation / Post of GE Contractor’s Representative: \n \n____________________________________________ \n \nDate signed: \n \n__________________________________________ \nName and Stamp of GE Contractor: \n \n____________________________________________ \n \nTelephone No.: \n \n__________________________________________ \nNotes: \n1. “T&C Procedure” refers to the Testing &Commissioning Procedure for Emergency Generator Installation. \n2. The GE Contractor’s Representative signing this Certificate must be a person or representative authorized by the \nGE Contractor. \n* Delete if not applicable",
+      "char_count": 1855
+    },
+    {
+      "page": 13,
+      "text": "Part 3: Items Inspected and Tested \n \n \nItem tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n \n \n \n \n3.1 \nUnderground tank \n \n \n \n3.1.1 \nThe welding has been examined and the effectiveness of the welding and \nstandard of workmanship is satisfactory. \n \n*Yes/No \n*Yes/No \n3.1.2 \nThe metal surface has been properly prepared in accordance with the \nspecification. \n \n*Yes/No \n*Yes/No \n3.1.3 \nThe manufacturer’s application procedure for the primer has been followed and \nthe type of primer, the number of coatings are in accordance with the \nspecification. \n \n*Yes/No \n*Yes/No \n \n3.1.4 \nThe underground tank has been subjected to hydraulic test to a pressure as \nspecified and the results are satisfactory. \n \n*Yes/No \n*Yes/No \n \n \n \n \n3.2 \nDaily service fuel tank \n \n \n \n3.2.1 \nThe daily service fuel tank has been fabricated and welded in accordance with the \nspecifications and drawings. \n \n*Yes/No \n*Yes/No \n3.2.2 \nThe pipework & socket connections (for filling, overflow, drainage, return and \nvent) have been properly installed at the fuel tank in accordance with the \nspecifications and drawings. \n \n*Yes/No \n*Yes/No \n3.2.3 \nOne quick closing valve has been installed properly with all necessary linkage for \noperation from outside the building. \n \n*Yes/No \n*Yes/No \n3.2.4 \nThe fuel tank has been fitted with an approved content gauge unit and level \nsensing equipment. \n \n*Yes/No \n*Yes/No \n3.2.5 \nThe fuel tank has been subjected to hydraulic test to a pressure as specified and \nthe results are satisfactory. \n \n*Yes/No \n*Yes/No",
+      "char_count": 1566
+    },
+    {
+      "page": 14,
+      "text": "Item tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.3 \nVisual inspection \n \n \n \n3.3.1 \nThe Generating Set has been properly fixed on a common steel section base \nframe. \n \n*Yes/No \n*Yes/No \n3.3.2 \nProtection screen has been provided on all moving parts. \n \n*Yes/No \n*Yes/No \n3.3.3 \nProtection guard has been provided on hot exhaust. \n \n*Yes/No \n*Yes/No \n3.3.4 \nThe fresh-water-cooled radiator has been properly fixed and there is no water \nleakage. \n \n*Yes/No \n*Yes/No \n3.3.5 \nThe radiator cooling fins and water tank are in good condition and properly fixed. \n \n*Yes/No \n*Yes/No \n3.3.6 \nThe water circulation pump with thermostatically controlled temperature \nregulator has been properly fixed. \n \n*Yes/No \n*Yes/No \n3.3.7 \nThe engine mounted instrument panel has been fixed properly and c/w \nlubrication oil temp. and cooling temp. gauges, tachometer and hour meter. \n \n*Yes/No \n*Yes/No \n3.3.8 \nThe lubrication oil system with replaceable element types filter has been properly \nfixed. \n \n*Yes/No \n*Yes/No \n3.3.9 \nThe fuel oil system c/w filter, fuel transfer pumps has been properly installed. \n \n*Yes/No \n*Yes/No \n3.3.10 \nThe fuel control solenoid c/w emergency shut off valve has been provided and \nproperly installed. \n \n*Yes/No \n*Yes/No \n3.3.11 \nThe tubular exhaust silencer has been properly installed. \n \n*Yes/No \n*Yes/No \n3.3.12 \nFor remote radiator, if applicable, c/w break tank booster pump, heat exchanger \netc. has been properly installed. \n \n*Yes/No \n*Yes/No \n3.3.13 \nThe enclosure to the alternator satisfy IP21 or as specified. \n \n*Yes/No \n*Yes/No \n3.3.14 \nAnti-condensate heater for the alternator has been provided and proper fixed. \n \n*Yes/No \n*Yes/No \n3.3.15 \nWhere specified, facilities for generation at 380/220V have been provided. \n \n*Yes/No \n*Yes/No \n3.3.16 \nStarting batteries have been provided and properly installed. \n \n*Yes/No \n*Yes/No",
+      "char_count": 1900
+    },
+    {
+      "page": 15,
+      "text": "Item tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.4 \nPre-commissioning inspection \n \n \n \n3.4.1 \nDiesel engine \n \n \n \n3.4.1.1 \nRadiator water is at right level. \n \n*Yes/No \n*Yes/No \n3.4.1.2 \nLubrication oil is at right level and with replaceable filter. \n \n*Yes/No \n*Yes/No \n3.4.1.3 \nThe engine exhaust has been properly fixed and covered with asbestos-fee \ninsulation. \n \n*Yes/No \n*Yes/No \n3.4.1.4 \nThe engine anti-vibration mounting is effective. \n \n*Yes/No \n*Yes/No \n3.4.1.5 \nProper replaceable air filter has been installed. \n \n*Yes/No \n*Yes/No \n3.4.1.6 \nEffective and adequate earth bonding have been provided for the engine and \nalternator. \n \n*Yes/No \n*Yes/No \n3.4.2 \nAlternator \n \n \n \n3.4.2.1 \nBatteries electrolyte is at right level. \n \n*Yes/No \n*Yes/No \n3.4.2.2 \nBatteries output voltage is as specified. \n \n*Yes/No \n*Yes/No \n3.4.2.3 \nThe alternator output terminal is at correct phase sequence. \n \n*Yes/No \n*Yes/No",
+      "char_count": 960
+    },
+    {
+      "page": 16,
+      "text": "Item tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.4.3 \nControl cubicle \n \n \n \n3.4.3.1 \nPermanent Chinese/English labels have been provided for all accessories. \n \n*Yes/No \n*Yes/No \n3.4.3.2 \nAll control wirings are fitted with ferrules. \n \n*Yes/No \n*Yes/No \n3.4.3.3 \nThe following devices are provided in the control cubicle: \n \n \n \n a) Voltmeter & selector switch \n \n*Yes/No \n*Yes/No \n b) Ammeter & selector switch \n \n*Yes/No \n*Yes/No \n c) Frequency meter \n \n*Yes/No \n*Yes/No \n d) Wattmeter \n \n*Yes/No \n*Yes/No \n e) Auto/off/manual selector switch \n \n*Yes/No \n*Yes/No \n f) Start/stop push button \n \n*Yes/No \n*Yes/No \n g) “Simulate main failure” key switch \n \n*Yes/No \n*Yes/No \n h) “On-off” switch for generator anti-condensation element \n \n*Yes/No \n*Yes/No \n i) \nAutomatic 2 rate battery charging equipment c/w charging rate ammeter \n \n*Yes/No \n*Yes/No \n3.4.3.4 \nIndicating lamp & reset button for: \n \n \n \n a) Engine fault \n \n*Yes/No \n*Yes/No \n b) Failure to start \n \n*Yes/No \n*Yes/No \n c) Generator supply available \n \n*Yes/No \n*Yes/No",
+      "char_count": 1072
+    },
+    {
+      "page": 17,
+      "text": "Item tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.4.3.5 \nIndication lamp for: \n \n \n \n a) Mains available \n \n*Yes/No \n*Yes/No \n b) Generator on load \n \n*Yes/No \n*Yes/No \n c) Load supplied from mains \n \n*Yes/No \n*Yes/No \n d) 7.5-hour fuel capacity \n \n*Yes/No \n*Yes/No \n e) 6.5-hour fuel capacity \n \n*Yes/No \n*Yes/No \n f) Low battery voltage \n \n*Yes/No \n*Yes/No \n3.4.3.6 \nGenerator output under voltage & over voltage protection devices \n \n*Yes/No \n*Yes/No \n3.4.3.7 \nApproved type 4-pole withdraw-able air circuit breaker or 4 pole MCCB c/w \noverload & short cot. Protection \n \n*Yes/No \n*Yes/No \n \n \n \n \n3.4.3.8 \nMechanically & electrically interlocked 4-pole contactor for automatic load \ntransfer & 4-pole manual by-pass \n \n*Yes/No \n*Yes/No \n3.5 \nA full testing has been carried out and the results of the following tests have been \nrecorded and submitted to ArchSD. \n \n \n \n a) Insulation test \n \n*Yes/No \n*Yes/No \n b) Control functions test \n \n*Yes/No \n*Yes/No \n c) Dummy load test \n \n*Yes/No \n*Yes/No \n d) Earthing protection test \n \n*Yes/No \n*Yes/No \n e) Battery charger output test \n \n*Yes/No \n*Yes/No \n f) Step-load acceptance test \n \n*Yes/No \n*Yes/No \n \n \n \n3.6 \nComment \n \n*Yes/No \n*Yes/No",
+      "char_count": 1231
+    },
+    {
+      "page": 18,
+      "text": "Part 4: Test Record attached to the Test Certificate \n \n4.1 \nEmergency Generator Installation \n \n4.1.1 \nEquipment Details \n \n \n \n(i) Generating Set \n \n \n1. \nManufacturer \n \n2. \nModel \n \n3. \nNet prime rating (MCR) (kW) \n \n \n \n(ii) Diesel Engine \n \n \n \n1. \nMake \n \n \n2. \nModel \n \n \n3. \nSerial No. \n \n \n4. \nRated power (kW) \n \n \n5. \nSpeed (rpm) \n \n \n6. \nGovernor \n \n \n7. \nTurbocharger (type/model) \n \n \n \n(iii) Alternator \n \n \n \n1. Make \n \n \n2. Model \n \n \n3. Serial No. \n \n \n4. Rated kVA \n \n \n5. Voltage (V) / Full load current (A) \n \n \n6. Phase / Rated p.f. \n \n \n7. Insulation class \n \n \n(iv) Starting Battery \n \n \n \n1. Manufacturer \n \n \n2. Make/Model No. \n \n \n3. No. of battery / Voltage (V) \n \n \n4. Ampere hour \n \n \n5. Starting time (sec) \n \n \n(v) Lifting Hoist \n \n \n \n1. Manufacturer \n \n \n2. Make / Model No. \n \n \n3. Safe working load (kg) \n \n \n4. Lifting height (m) \n \n \n5. Test Certificate *Yes/No",
+      "char_count": 900
+    },
+    {
+      "page": 19,
+      "text": "(vi) Other Accessories \n \n \n \n 1. Name plate of manual bypass switch \n2. Name plate of auto-changeover switch \n \n4.1.2 \nType of Control \n \n \nStarting \n \n \n*Automatic/Manual \n \n \nLoading Transfer to Generating Set \n*Automatic/Manual \n \n \nStopping \n \n \n*Automatic/Manual \n \n \nLoad Transfer to Mains \n*Automatic/Manual \n \n4.1.3 \nInsulation Resistance Test (Temporarily open alternator star point) \n \n \n1. \nBrown phase (L1) to earth \nMegaohm \n \n \n \n \n2. \nBlack phase (L2) to earth \nMegaohm \n \n \n \n \n3. \nGrey phase (L3) to earth \nMegaohm \n \n \n \n \n4. \nBrown phase (L1) to Black phase (L2) \nMegaohm \n \n \n \n \n5. \nBlack phase (L2) to Grey phase (L3) \nMegaohm \n \n \n \n \n6. \nGrey phase (L3) to Brown phase (L1) \nMegaohm",
+      "char_count": 707
+    },
+    {
+      "page": 20,
+      "text": "4.1.4 \nControl Function Test \nFunction Test \nSetting \nRemarks \n1. Starting \nManual \n \n \n \n \nSimulate Mains \nFailure \nTest 1* \n \n \n \n \nTest 2** \n \n \n \n \nDelay Start Timer \n \n \n \n \nDelay Repeat Start \n \n \n \n \n \n \n \n \n2. Stopping \nManual \n \n \n \n \nResumption of Mains *** \n \n \n \n \nDelay Stop Timer **** \n \n \n \n3. Engine \nProtection \nOverload Trip (MCCB) \n \n \n \nEngine \nOverspeed \nHL \n \n \n \nLL \n \n \n \nLow Lub-oil \nHL \n \n \n \nPressure (kPa) \nLL \n \n \n \nHigh \nWater \nTemp. (oC) \nHL \n \n \n \nLL \n \n \n \nUnder Voltage Trip \n \n \n \nOvervoltage Trip \n \n \n \nUnder Frequency (Hz) \n \n \n \n4. Others \nResponse Time from Mains \nFailure to Changeover (Sec) \n \n \n \nBattery 3 Attempt Start \n \n \n \nQuick closing Mechanism \n \n \n \nGovernor Function \n \n \n \nVoltage Regulator (346V - \n380V) \n \n \n \nAuto-starting of Vent. Fan \n \n \n \nManual Override Facilities \n \n \n \nPhase Sequence of Alternator \nOutput \n \n \n \nFrequency Setting \n \n \n \nStep-load Acceptance Test \n \n \n \nNotes : * \nRefer to function test on capability to start and transfer load to Generating Set automatically. \n \n \n** \nRefer to function test on capability to start but without load transfer if mains resume \n \n \n \nduring engine starting. \n \n \n*** \nRefer to function test on capability to automatic transfer load back to mains automatically \n \n \n \nafter a preset time delay and immediately back to generator if mains fails within the above \n \n \n \ntime delay period. \n \n \n**** Refer to function test on capability to cool engine for a preset period after load is transferred to mains.",
+      "char_count": 1517
+    },
+    {
+      "page": 21,
+      "text": "4.1.5 Dummy Load Test \n(Parameters to be recorded at 15 min interval during the whole dummy load test period) \n \n \n \n4.1.6 Earthing Protection Test \n \n \n \nMeasured Earthing Resistance \n \n \nEarthing Relay \n \nCurrent Setting \n \n \n \nMake \n \n __________________ \n \nTime Setting \n \n \nModel \n __________________ \n \nFunction Test \n \nSerial No. \n \n __________________ \n \n \nRated Current \n __________________ \n \n \n \nTime from start \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDuration (HR) \n(minimum) \n1/2 \n1/2 \n\n\n\n1/2 \nDuration (HR) (actual) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFrequency (Hz) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCurrent \nL1 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nAmp) \nL2 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nL3 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nVoltage \nL1-L2/ \nL1-N \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n(Volt) \nL2-L3/ \nL2-N \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nL3-L1/ \nL3-N \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDummy \nkW \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nLoad \n% Full \nLoad \n0% \n25% \n50% \n75% \n100% \n110% \nEngine Speed (RPM) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCooling Water Temp. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nEngine Oil Temp. (oC) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nEngine Oil Pressure (kPa) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFuel Consumption (L) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nEngine Room Temp. (OC)",
+      "char_count": 1335
+    },
+    {
+      "page": 22,
+      "text": "4.1.7 Noise Level Measurement \n \nLocation \nMean Sound Level (dBA) \nBackground \n \n \nInside Generator Room \n(1m from Generator Set) \n \nOutside Generator Room \n(1m from Radiator Exhaust) \n \nOutside Generator Room \n(1m from Door) \n \nOutside Generator Room \n(1m from Louvre) \n \nOutside Generator Room \n(1m from flue discharge if possible) \n \nOutside Generator Room \n(at the nearest Noise Sensitive Receiver) \n \n \n \n4.1.8 Comment",
+      "char_count": 423
+    },
+    {
+      "page": 23,
+      "text": "Annex III \nIssue Date:- 8 August 2012 \n\nAnnex III \nList of Calibrated Instrument Necessary \nfor the T&C Works \n \n \n \nPerformance Specification \n \n \nAccuracy \n \nMaximum period \n \nbetween calibrations \nTachometer 30-5000 rpm \n \n+1% \n \n1 year \nMulti-tester (AVO) \n 0-1000V \n 0-10A \n 0-W \n \n+1% \n \n1 year \nClamp on ammeter 0-1000A \n \n+1% \n \n1 year \nInsulation tester 500V-1000V \n \n+1% \n \n1 year \nPressure Gauge 0-100kPa \n0-1000kPa \n+2% \n1 year \nSound meter 0-120 dbA \n \n+2% \n \n1 year \nOther necessary testing equipment \n \n+2% \n \n1 year \n \n \nNotes: Apart from the testing equipment above, the GE Contractor shall provide additional calibrated equipment \nin accordance to the recommendations by the manufacturers to facilitate the inspection, testing and \ncommissioning of Emergency Generator. All equipment shall be calibrated by laboratories accredited by the \nHong Kong Laboratory Accreditation Scheme (HOKLAS) or other laboratory accreditation schemes as approved \nby the PBSE/PEME.",
+      "char_count": 980
+    }
+  ],
+  "tables": [
+    {
+      "page": 10,
+      "table_index": 0,
+      "rows": 18,
+      "cols": 20,
+      "markdown": "|  | Testing and Commissioning Progress Chart for Emergency Generator Installation (Rev. )(1) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Dates (2) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Remark |\n|  | Activities | Reference to Annex II | S | A | S | A | S | A | S | A | S | A | S | A | S | A | S | A |  |\n| 1. | Visual Inspections | 3.1, 3.2&3.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | U/G Fuel Oil Tank |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Services Tank |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Pipeworks |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Generator Set |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Battery |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Cooling System |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Exhaust System |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Submission of Record of Test |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 2. | Pre-commissioning Inspection | 3.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Submission of Record of Test |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 3. | Insulation Resistance Test | 3.5 & 4.1.3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Submission of Record of Test |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 4. | Control Functional Test | 3.5 & 4.1.4 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Submission of Record of Test |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
+      "raw": [
+        [
+          "",
+          "Testing and Commissioning Progress Chart for Emergency Generator Installation (Rev. )(1)",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "Dates (2)",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "Remark"
+        ],
+        [
+          null,
+          "Activities",
+          "Reference\nto\nAnnex II",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          ""
+        ],
+        [
+          "1.",
+          "Visual Inspections",
+          "3.1,\n3.2&3.3",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U/G Fuel Oil Tank",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Services Tank",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Pipeworks",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Generator Set",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Battery",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Cooling System",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Exhaust System",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Submission of\nRecord of Test",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2.",
+          "Pre-commissioning\nInspection",
+          "3.4",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Submission of\nRecord of Test",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3.",
+          "Insulation\nResistance Test",
+          "3.5 &\n4.1.3",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Submission of\nRecord of Test",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4.",
+          "Control Functional\nTest",
+          "3.5 &\n4.1.4",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Submission of\nRecord of Test",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "table_index": 1,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 0,
+      "rows": 9,
+      "cols": 20,
+      "markdown": "|  | Testing and Commissioning Progress Chart for Emergency Generator Installation (Rev. )(1) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Dates (2) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Remark |\n|  | Activities | Reference to Annex II | S | A | S | A | S | A | S | A | S | A | S | A | S | A | S | A |  |\n|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 5. | Dummy Load Test | 3.5 & 4.1.5 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Submission of Record of Test |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 6. | Earth Protection Test | 3.5 & 4.1.6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Submission of Record of Test |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 7. | Submission of T&C Certificate |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
+      "raw": [
+        [
+          "",
+          "Testing and Commissioning Progress Chart for Emergency Generator Installation (Rev. )(1)",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "Dates (2)",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "Remark"
+        ],
+        [
+          null,
+          "Activities",
+          "Reference\nto\nAnnex II",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          "S",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5.",
+          "Dummy Load Test",
+          "3.5 &\n4.1.5",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Submission of\nRecord of Test",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6.",
+          "Earth Protection\nTest",
+          "3.5 &\n4.1.6",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Submission of\nRecord of Test",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7.",
+          "Submission of T&C\nCertificate",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 1,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "table_index": 0,
+      "rows": 3,
+      "cols": 2,
+      "markdown": "| Name of GE Contractor’s Representative: ____________________________________________ | Signature: __________________________________________ |\n| --- | --- |\n| Designation / Post of GE Contractor’s Representative: ____________________________________________ | Date signed: __________________________________________ |\n| Name and Stamp of GE Contractor: ____________________________________________ | Telephone No.: __________________________________________ |",
+      "raw": [
+        [
+          "Name of GE Contractor’s Representative:\n____________________________________________",
+          "Signature:\n__________________________________________"
+        ],
+        [
+          "Designation / Post of GE Contractor’s Representative:\n____________________________________________",
+          "Date signed:\n__________________________________________"
+        ],
+        [
+          "Name and Stamp of GE Contractor:\n____________________________________________",
+          "Telephone No.:\n__________________________________________"
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 0,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "table_index": 0,
+      "rows": 30,
+      "cols": 6,
+      "markdown": "| Control Function Test |  |  | Function Test | Setting | Remarks |\n| --- | --- | --- | --- | --- | --- |\n| 1. Starting | Manual |  |  |  |  |\n|  | Simulate Mains Failure | Test 1* |  |  |  |\n|  |  | Test 2** |  |  |  |\n|  | Delay Start Timer |  |  |  |  |\n|  | Delay Repeat Start |  |  |  |  |\n|  |  |  |  |  |  |\n| 2. Stopping | Manual |  |  |  |  |\n|  | Resumption of Mains *** |  |  |  |  |\n|  | Delay Stop Timer **** |  |  |  |  |\n| 3. Engine Protection | Overload Trip (MCCB) |  |  |  |  |\n|  | Engine Overspeed | HL |  |  |  |\n|  |  | LL |  |  |  |\n|  | Low Lub-oil Pressure (kPa) | HL |  |  |  |\n|  |  | LL |  |  |  |\n|  | High Water Temp. (oC) | HL |  |  |  |\n|  |  | LL |  |  |  |\n|  | Under Voltage Trip |  |  |  |  |\n|  | Overvoltage Trip |  |  |  |  |\n|  | Under Frequency (Hz) |  |  |  |  |\n| 4. Others | Response Time from Mains Failure to Changeover (Sec) |  |  |  |  |\n|  | Battery 3 Attempt Start |  |  |  |  |\n|  | Quick closing Mechanism |  |  |  |  |\n|  | Governor Function |  |  |  |  |\n|  | Voltage Regulator (346V - 380V) |  |  |  |  |\n|  | Auto-starting of Vent. Fan |  |  |  |  |\n|  | Manual Override Facilities |  |  |  |  |\n|  | Phase Sequence of Alternator Output |  |  |  |  |\n|  | Frequency Setting |  |  |  |  |\n|  | Step-load Acceptance Test |  |  |  |  |",
+      "raw": [
+        [
+          "Control Function Test",
+          null,
+          null,
+          "Function Test",
+          "Setting",
+          "Remarks"
+        ],
+        [
+          "1. Starting",
+          "Manual",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Simulate Mains\nFailure",
+          "Test 1*",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Test 2**",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Delay Start Timer",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Delay Repeat Start",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          "2. Stopping",
+          "Manual",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Resumption of Mains ***",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Delay Stop Timer ****",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          "3. Engine\nProtection",
+          "Overload Trip (MCCB)",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Engine\nOverspeed",
+          "HL",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "LL",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Low Lub-oil\nPressure (kPa)",
+          "HL",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "LL",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "High Water\nTemp. (oC)",
+          "HL",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "LL",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Under Voltage Trip",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Overvoltage Trip",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Under Frequency (Hz)",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          "4. Others",
+          "Response Time from Mains\nFailure to Changeover (Sec)",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Battery 3 Attempt Start",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Quick closing Mechanism",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Governor Function",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Voltage Regulator (346V -\n380V)",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Auto-starting of Vent. Fan",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Manual Override Facilities",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Phase Sequence of Alternator\nOutput",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Frequency Setting",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "Step-load Acceptance Test",
+          null,
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "table_index": 1,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "table_index": 0,
+      "rows": 18,
+      "cols": 20,
+      "markdown": "| Time from start |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Duration (HR) (minimum) |  | 1/2 |  | 1/2 |  | 1 |  |  |  | 1 |  |  |  | 1 |  |  |  | 1/2 |  |\n| Duration (HR) (actual) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Frequency (Hz) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Current Amp) | L1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | L2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | L3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Voltage (Volt) | L1-L2/ L1-N |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | L2-L3/ L2-N |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | L3-L1/ L3-N |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Dummy Load | kW |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | % Full Load | 0% |  | 25% |  | 50% |  |  |  | 75% |  |  |  | 100% |  |  |  | 110% |  |\n| Engine Speed (RPM) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Cooling Water Temp. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Engine Oil Temp. (oC) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Engine Oil Pressure (kPa) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Fuel Consumption (L) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Engine Room Temp. (OC) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
+      "raw": [
+        [
+          "Time from start",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Duration (HR)\n(minimum)",
+          null,
+          "1/2",
+          null,
+          "1/2",
+          null,
+          "1",
+          null,
+          null,
+          null,
+          "1",
+          null,
+          null,
+          null,
+          "1",
+          null,
+          null,
+          null,
+          "1/2",
+          null
+        ],
+        [
+          "Duration (HR) (actual)",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Frequency (Hz)",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Current\nAmp)",
+          "L1",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "L2",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "L3",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Voltage\n(Volt)",
+          "L1-L2/\nL1-N",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "L2-L3/\nL2-N",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "L3-L1/\nL3-N",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Dummy\nLoad",
+          "kW",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "% Full\nLoad",
+          "0%",
+          null,
+          "25%",
+          null,
+          "50%",
+          null,
+          null,
+          null,
+          "75%",
+          null,
+          null,
+          null,
+          "100%",
+          null,
+          null,
+          null,
+          "110%",
+          null
+        ],
+        [
+          "Engine Speed (RPM)",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cooling Water Temp.",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Engine Oil Temp. (oC)",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Engine Oil Pressure (kPa)",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Fuel Consumption (L)",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Engine Room Temp. (OC)",
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "table_index": 1,
+      "rows": 4,
+      "cols": 3,
+      "markdown": "| Measured Earthing Resistance |  |  |\n| --- | --- | --- |\n| Earthing Relay Make __________________ Model __________________ Serial No. __________________ Rated Current __________________ | Current Setting |  |\n|  | Time Setting |  |\n|  | Function Test |  |",
+      "raw": [
+        [
+          "Measured Earthing Resistance",
+          null,
+          ""
+        ],
+        [
+          "Earthing Relay\nMake __________________\nModel __________________\nSerial No. __________________\nRated Current __________________",
+          "Current Setting",
+          ""
+        ],
+        [
+          null,
+          "Time Setting",
+          ""
+        ],
+        [
+          null,
+          "Function Test",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "table_index": 2,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 22,
+      "table_index": 0,
+      "rows": 8,
+      "cols": 2,
+      "markdown": "| Location | Mean Sound Level (dBA) |\n| --- | --- |\n| Background |  |\n| Inside Generator Room (1m from Generator Set) |  |\n| Outside Generator Room (1m from Radiator Exhaust) |  |\n| Outside Generator Room (1m from Door) |  |\n| Outside Generator Room (1m from Louvre) |  |\n| Outside Generator Room (1m from flue discharge if possible) |  |\n| Outside Generator Room (at the nearest Noise Sensitive Receiver) |  |",
+      "raw": [
+        [
+          "Location",
+          "Mean Sound Level (dBA)"
+        ],
+        [
+          "Background",
+          ""
+        ],
+        [
+          "Inside Generator Room\n(1m from Generator Set)",
+          ""
+        ],
+        [
+          "Outside Generator Room\n(1m from Radiator Exhaust)",
+          ""
+        ],
+        [
+          "Outside Generator Room\n(1m from Door)",
+          ""
+        ],
+        [
+          "Outside Generator Room\n(1m from Louvre)",
+          ""
+        ],
+        [
+          "Outside Generator Room\n(1m from flue discharge if possible)",
+          ""
+        ],
+        [
+          "Outside Generator Room\n(at the nearest Noise Sensitive Receiver)",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 22,
+      "table_index": 1,
+      "rows": 6,
+      "cols": 4,
+      "markdown": "| Tested / Checked by : (Name of GE Contractor’s Representative) | Signature - ( ) | Post : |  |\n| --- | --- | --- | --- |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |\n| Witnessed by : (Name(s) of *PBSE/PEME/PBSI/PEMI) | Signature - ( ) | Post : |  |\n|  |  | Tel. No. : |  |\n|  |  | Date : |  |",
+      "raw": [
+        [
+          "Tested / Checked by :\n(Name of GE Contractor’s Representative)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ],
+        [
+          "Witnessed by :\n(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+          "Signature -\n( )",
+          "Post :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Tel. No. :",
+          ""
+        ],
+        [
+          null,
+          null,
+          "Date :",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 23,
+      "table_index": 0,
+      "rows": 8,
+      "cols": 3,
+      "markdown": "| Performance Specification | Accuracy | Maximum period between calibrations |\n| --- | --- | --- |\n| Tachometer 30-5000 rpm | +1% | 1 year |\n| Multi-tester (AVO) 0-1000V 0-10A 0-W | +1% | 1 year |\n| Clamp on ammeter 0-1000A | +1% | 1 year |\n| Insulation tester 500V-1000V | +1% | 1 year |\n| Pressure Gauge 0-100kPa 0-1000kPa | +2% | 1 year |\n| Sound meter 0-120 dbA | +2% | 1 year |\n| Other necessary testing equipment | +2% | 1 year |",
+      "raw": [
+        [
+          "Performance Specification",
+          "Accuracy",
+          "Maximum period\nbetween calibrations"
+        ],
+        [
+          "Tachometer 30-5000 rpm",
+          "+1%",
+          "1 year"
+        ],
+        [
+          "Multi-tester (AVO)\n0-1000V\n0-10A\n0-W",
+          "+1%",
+          "1 year"
+        ],
+        [
+          "Clamp on ammeter 0-1000A",
+          "+1%",
+          "1 year"
+        ],
+        [
+          "Insulation tester 500V-1000V",
+          "+1%",
+          "1 year"
+        ],
+        [
+          "Pressure Gauge 0-100kPa\n0-1000kPa",
+          "+2%",
+          "1 year"
+        ],
+        [
+          "Sound meter 0-120 dbA",
+          "+2%",
+          "1 year"
+        ],
+        [
+          "Other necessary testing equipment",
+          "+2%",
+          "1 year"
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "page_count": 23,
+    "title": "CONTENTS",
+    "author": "hokf",
+    "subject": "",
+    "creator": "Microsoft® Office Word 2007"
+  },
+  "full_text": "TESTING AND COMMISSIONING PROCEDURE \n \n \nFOR \n \n \nEMERGENCY GENERATOR INSTALLATION \n \n \nIN \n \n \nGOVERNMENT BUILDINGS \n \n \nOF \n \n \nTHE HONG KONG SPECIAL ADMINISTRATIVE REGION \n \n \n2012 EDITION \n \n \n \n \n \n \n \n \n \n \nARCHITECTURAL SERVICES DEPARTMENT \nTHE GOVERNMENT OF THE HONG KONG SPECIAL ADMINISTRATIVE REGION\n\nPREFACE \n \n \n \nThis Testing and Commissioning (T&C) Procedure aims to lay down the minimum \ntesting and commissioning requirements to be carried out on Emergency Generator \nInstallation in Government Buildings of the Hong Kong Special Administrative Region \n(HKSAR). Such requirements are applicable to both new installations upon completion and \nexisting ones after major alteration. \n \n The present edition was developed based on its 2007 edition by the Mechanical \nInstallation Specialist Support Group that was established under the Building Services \nBranch Technical Information and Research & Development Committee of the \nArchitectural Services Department (ArchSD). This T&C Procedure had incorporated the \nlatest changes in corrigendum no. GSEE01-2012 for the 2012 edition of the General \nSpecification for Electrical Installation. \n \n \nWith the benefit of information technology, electronic version of this new edition is \nto be viewed on and free for download from the ArchSD Internet homepage. As part of the \nGovernment’s efforts to limit paper consumption, hard copies of this T&C Procedure will \nnot be put up for sale. \n \n \nThe ArchSD welcomes comments on content of this T&C Procedure at any time \nsince the updating of this T&C Procedure is a continuous process to tie in with technological \nadvances.\n\nDISCLAIMER \n \n \n \nThis T&C Procedure is solely compiled for use on Emergency Generator Installation \ncarried out for or on behalf of the ArchSD in Government buildings of the HKSAR. \n \n \nThere are no representations, either expressed or implied, as to the suitability of this \nT&C Procedure for purposes other than that stated above. The material contained in this \nT&C Procedure may not be pertinent or fully cover the extent of the installation in \nnon-government buildings. Users who choose to adopt this T&C Procedure for their works \nare responsible for making their own assessments and judgement of all information \ncontained herein. The ArchSD does not accept any liability and responsibility for any special \nindirect or consequential loss or damage whatsoever arising out of or in connection with the \nuse of this T&C Procedure or reliance placed on it.\n\nTable of Contents \n\nGE_TCP \n2012 Edition \n \n \n \nTABLE OF CONTENTS \n \n \n \nPage \n \n \n \n1. \nIntroduction \n\n2. \nObjectives of the T&C works \n\n3. \nScope of the T&C Works \n2 - 3 \n \n \n \n \n3.1 \nTests and Inspections during Construction \n \n \n3.2 \nFunctional Performance Tests \n \n \n3.3 \nCommissioning and Statutory Inspections \n \n \n3.4 \nDocumentation and Deliverables \n \n \n \n \n \n4. \nT&C Procedures \n4 - 5 \n \n \n \n \n \n4.1 \nTests and Inspections during Construction \n \n \n \n4.1.1 \nEmergency Generator \n \n \n \n4.1.2 \nControl Cubicle \n \n \n \n4.1.3 \nUnderground/ Daily Service Fuel Tank \n \n \n \n \n \n \n \n4.2 \nFunctional Performance Tests \n \n \n \n4.2.1 \nEmergency Generator \n \n \n \n4.2.2 \nControl Cubicle \n \n \n \n4.2.3 \nUnderground/ Daily Service Fuel Tank \n \n \n \n \n \n \n \n4.3 \nCommissioning and Statutory Inspections \n \n \n \n4.3.1 \nEmergency Generator \n \n \n \n \n \n \n \n \n \n \n \nAnnex \n \n \n \n \n \n \nAnnex I \nTesting and Commissioning Progress Chart for \nEmergency Generator Installation \n \n \n \n \nTesting \nand \nCommissioning \nCertificate \nfor \nEmergency Generator Installation \n \n \n \n \nAnnex III \nList of Calibrated Instrument Necessary for the T&C \nWorks\n\nGE_TCP \n2012 Edition \n \nTesting and Commissioning Procedure for \nEmergency Generator Installation \n \n1. \nIntroduction \n \n \n \nThe procedures stated in this T&C Procedure cover the activities in preliminary tests \nand inspections, functional performance tests and the commissioning of newly \ncompleted Installations and existing ones after major alteration. They are so \ncompiled to facilitate the work of Project Building Services Engineer (PBSE) / \nProject Electrical and Mechanical Engineer (PEME) and Project Building Services \nInspector (PBSI) / Project Electrical and Mechanical Inspector (PEMI), who are \nappointed as the Architect’s Representatives, in the following aspects with respect to \ntesting and commissioning (T&C):- \n \n \n \n(i) \nto vet and approve the T&C procedures proposed and submitted by the \ncontractor for the Emergency Generator Installation (GE Contractor); \n \n \n(ii) \nto witness those T&C procedures as specified; and \n \n \n(iii) \nto accept the T&C certificates and other supporting data. \n \n \n \n \n \n \nThe GE Contractor shall carry out the T&C works as detailed in this document. \nSupplementary T&C plans may be proposed by the GE Contractor as appropriate and \nagreed by PBSE/PEME, e.g. for special equipment supplied and/or installed by the \nGE Contractor. \n \nThe administrative requirements for T&C works are in general as specified in the \nGeneral Specification for Electrical Installation 2012 Edition and all current \ncorrigenda/amendments thereto published before the date of first tender invitation for \nthe Contract issued by the ArchSD (the General Specification) issued by the \nArchitectural Services Department. \n \nAll words and expressions shall have the meaning as assigned to them under the \nGeneral Specification unless otherwise specified herein. \n \n \n \n \n \n \n2. Objectives of the T&C works \n \n \n \nThe objectives of the T&C works are:- \n \n \n \n(i) \nto verify proper functioning of the equipment/system after installation; \n \n \n(ii) \nto verify that the performance of the installed equipment/systems meet \nwith the specified design intent through a series of tests and adjustments; \nand \n \n \n(iii) \nto capture and record performance data of the whole Installation as the \nbaseline for future operation and maintenance. \n \n \n \n \n \n \nFor the avoidance of doubt, depending on the specific demands of individual \nInstallation, the PBSE/PEME may require additional or substitute T&C works in \nregard to any elements in the Installation other than those indicated in this T&C \nProcedure.\n\nGE_TCP \n2012 Edition \n \n \n3. \nScope of the T&C Works \n \n \n \n3.1 Tests and Inspections during Construction \n \n \n \n \n \n \nThe purpose of these tests is to ensure that all components and systems are in a \nsatisfactory and safe condition before start up. Preliminary adjustment and setting of \nequipment at this stage shall also be carried out at the same time to pave way for the \ncoming functional performance tests. \n \nBefore carrying out any test, the GE Contractor shall ensure that the Emergency \nGenerator Installation (Installations) complies with all relevant statutory \nrequirements and regulations. The T&C works shall also comply with all site safety \nregulatory requirements currently in force. In particular, the GE Contractor shall note \nthe following:- \n \n \n \n \n \n \n(i) \nElectricity Ordinance (Cap. 406), and its subsidiary legislation; \n \n \n(ii) \nCode of Practice for the Electricity (Wiring) Regulations published by the \nEMSD; \n \n \n(iii) \nIEC 60364 “Electrical Installations of Building”; \n \n \n(iv) \nOccupational Safety and Health Ordinance (Cap. 509), and other \nsubsidiary legislation made under the Ordinance; \n \n \n(v) \nFactories and Industrial Undertakings Ordinance (Cap. 59), and other \nsubsidiary legislation made under the Ordinance, including but not limited \nto Construction Site (Safety) Regulations; \n \n \n(vi) \nElectricity supply rules of the relevant power supply companies; \n \n \n(vii) \nFire Services Ordinance(Cap. 95), and its subsidiary legislation; \n \n \n(viii) \nGas Safety Ordinance (Cap. 51), and its subsidiary legislation; and \n \n \n(ix) \nAir Pollution Control Ordinance (Cap. 311), and its subsidiary legislation. \n \n \n \n \n \n \n \n \n3.2 Functional Performance Tests \n \n \n \n \n \n \nThe purpose of functional performance tests is to demonstrate that the installations \ncan meet the functional and performance requirements as specified in the General \nSpecification and/or Particular Specification. Functional performance tests should \nproceed from the testing of individual components to the testing of different systems \nin the Installations. \n \nThe GE Contractor may have to make temporary modifications as the tests proceed. \nThe specific tests required and the order of tests will vary depending on the type and \nsize of systems, number of systems, sequence of construction, interface with other \ninstallations, relationship with the building elements and other specific requirements \nas indicated in the General Specification and/or Particular Specification. The testing \nof systems may have to be carried out in stages depending on the progress of work or \nas proposed by the GE Contractor. \n \nPart of the tests may be required to be carried out in suppliers’ premises in accordance \nwith the provisions in the General Specification and/or Particular Specification. \n \nAny performance deficiencies revealed during the functional performance tests must \nbe evaluated to determine the cause. After completion of the necessary corrective\n\nGE_TCP \n2012 Edition \n \nmeasures, the GE Contractor shall repeat the tests. \n \nIf any test cannot be completed because of circumstances that are beyond the control \nof the GE Contractor, it shall be properly documented and reported to the \nPBSE/PEME, who shall then liaise with the relevant parties to resolve the situation. \nThe GE Contractor shall resume his testing work immediately upon the attainment of \na suitable testing environment. \n \n \n \n \n \n \n \n \n3.3 Commissioning and Statutory Inspections \n \n \n \n \n \n \nCommissioning is the advancement of the Installations from the stage of static \ncompletion to full working conditions and to meet the performance requirements as \nspecified in the General/Particular Specification. This will include setting into \noperation and regulation of the Installations. Fine-tuning of the commissioned system \nshall be done by the GE Contractor to match system performance to the actual needs \nof the building occupier more closely. \n \nWhere necessary, after the proper testing and commissioning of the Installations, the \nGE Contractor shall notify the appropriate authority as specified in General \nSpecification and/or Particular Specification, through the PBSE/PEME of the \ncompletion of the Installations and its readiness for final inspection. \n \n \n \n \n \n \n \n \n \n3.4 Documentation and Deliverables \n \n \n \n \n \n \nThe GE Contractor shall submit his proposed T&C procedures together with the \nTesting and Commissioning Progress Chart shown in Annex I to PBSE/PEME for \napproval. \n \nAll inspection and T&C results shall be recorded in the data record forms shown in \nPart 3 and 4 of Annex II. \n \nData recorded in other formats may also acceptable subject to prior approval of the \nPBSE/PEME. Upon completion of all the required T&C works, the GE Contractor’s \nproject engineer shall complete and sign a testing and commissioning certificate as \nshown in Part 1 and 2 of Annex II to the effect that the agreed T&C works have been \nduly carried out. \n \nA functional performance test report covering all measured data, data sheets, and a \ncomprehensive summary describing the operation of the system at the time of the \nfunctional performance tests shall be prepared and submitted to the PBSE/PEME. \nDeviations in performance from the General Specification and/or Particular \nSpecification or the design intent should be recorded, with a description and analysis \nincluded. \n \nWhere required in the General Specification and/or Particular Specification, the GE \nContractor shall conduct a final evaluation of the performance of the Installations, the \nresults of which shall be included in the commissioning report.\n\nGE_TCP \n2012 Edition \n \n \n4. \nT&C Procedures \n \n \n \n \n \n4.1 Tests and Inspections during Construction \n \n \n \n \n \n \nCertain tests will be carried out on different systems of the Installation during \nconstruction to ensure their suitability for operating at the design conditions. \nCertificates of such tests have to be issued together with certificates of any work tests. \n \n(N.B. The following tests should be conducted in accordance with the procedures as \nspecified by the manufacturers. The testing procedures, instruments and records \nshould be submitted by the GE Contractor for approval of PBSE/PEME.) \n \n \n \n \n \nRelevant Clauses \nIn Annex II \n \n4.1.1 \nEmergency Generator \n \n \n \n \n \n \n \n(a) \nVisual inspection on engine, alternator, radiator, \nand various systems of the generating set \nN.A. \n \n \n(b) \nFull operating test \n \n \n \n(c) \nControl function test \n \n \n \n(d) \nCircuit & engine protection tests \n \n \n \n(e) \nFuel consumption test \n \n \n \n(f) \nStep load acceptance test \n \n \n \n \n \n \n \n4.1.2 \nControl Cubicle \n \n \n \n \n \n \n \n \n(a) \nVisual inspection on control panel \nN.A. \n \n \n(b) \nPerformance tests on individual components \n \n \n \n(c) \nElectrical resistance test (Ductor test) \n \n \n \n(d) \nTemperature rise test \n \n \n \n \n \n \n \n4.1.3 \nUnderground/ Daily Services Fuel Tank \n \n \n \n \n \n \n \n \n(a) \nVisual inspection on welding surfaces and \nprimer coating \nClause 3.1 \n \n \n(b) \nHydraulic test \n \n \n \n \n \n \n \n \n \n \n \n4.2 Functional Performance Tests \n \n \n \n \n \n \n4.2.1 \nEmergency Generator \n \n \n \n \n \n \n(N.B. \nThe tests marked with “*” below should be performed \neither under section 4.2.1 or 4.3.1 subject to the approval \nof PBSE/PEME) \n \n \n \n \n \n \n \n(a) \nPre-commissioning \ninspection \non \nvarious \ncomponents / systems \nClause 3.3, \n3.4.1,3.4.2, \n4.1.4 & 4.1.5 \n \n \n(b) \nControl function test* \n \n \n(c) \nDummy load test* \n \n \n \n(d) \nBattery charger output test* \n \n \n \n(e) \nStep load acceptance test*\n\nGE_TCP \n2012 Edition \n \n \n \n \n \n \n \n \n \n \n \n4.2.2 \nControl Cubicle \n \n \n \n \n \n \n \n(a) \nPre-commissioning \ninspection \non \nvarious \ncomponents / systems \nClause 3.4.3 \n \n \n(b) \nPerformance tests of individual components \nsuch as voltmeter, ammeter, frequency meter, \nwattmeter, indicating lamps, buttons and \nswitches \n \n \n \n(c) \nCircuit protection & load transfer tests \n \n \n \n \n \n \n \n4.2.3 \nUnderground/Daily Services Fuel Tank \n \n \n \n \n \n \n \n(a) \nPre-commissioning \ninspection \non \nthe \nconstruction, welding, painting and components \nof tank & pipework \nClause 3.2 \n \n \n(b) \nHydraulic test \n \n \n \n \n \n \n \n \n \n4.3 Commissioning and Statutory Inspections \n \n \n \n \n \n \n(N.B. \nThe tests marked with “*” below should be performed \neither under section 4.2.1 or 4.3.1 subject to the approval \nof PBSE/PEME) \n \n \n \n \n \n \n4.3.1 \nEmergency Generator \n \n \n \n \n \n \n \n(a) \nInsulation test \nClause 3.5, \n \n \n(b) \nControl function test* \n4.1.3 to 4.1.7 \n \n \n(c) \nDummy load test* \n \n \n \n(d) \nEarthing protection test \n \n \n \n(e) \nBattery charger output test* \n \n \n \n(f) \nStep-load acceptance test* \n \n \n \n(g) \nNoise level measurement\n\nAnnex I \n\nPBS/SR.031(2012) \n \n \nAnnex I \nTesting and Commissioning Progress Chart \n“Emergency Generator Installation” \n \nContract No.: ____________________________________________________________________ \n \nContract Title: ___________________________________________________________________ \n \nName of Contractor/Sub-contractor: _________________________________________________ \n \nContract Period: / /20 to / /20 * Revised/Actual Completion Date : / /20 \n \n \n \nTesting and Commissioning Progress Chart for Emergency Generator Installation (Rev. \n)(1) \n \nDates (2) \n \n \n \n \n \n \n \n \nRemark \n \nActivities \nReference S A S A S A S A S A S A S A S A \n \n \nto \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n1. Visual Inspections \n3.1, \n3.2&3.3 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nU/G Fuel Oil Tank \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nServices Tank \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPipeworks \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nGenerator Set \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nBattery \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCooling System \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nExhaust System \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n2. \nPre-commissioning \nInspection \n3.4 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n3. \nInsulation \nResistance Test \n3.5 & \n4.1.3 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n4. \nControl Functional \nTest \n3.5 & \n4.1.4 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test\n\nAnnex I \n\nPBS/SR.031(2012) \n \n \nTesting and Commissioning Progress Chart \n“Emergency Generator Installation” \n \n \n \nTesting and Commissioning Progress Chart for Emergency Generator Installation (Rev. \n)(1) \n \nDates (2) \n \n \n \n \n \n \n \n \nRemark \nActivities \nReference S A S A S A S A S A S A S A S A \n \nto \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n5. Dummy Load Test \n3.5 & \n4.1.5 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n6. Earth Protection \nTest \n3.5 & \n4.1.6 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSubmission of \nRecord of Test \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n7. \nSubmission of T&C \nCertificate \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nNotes : \n* Delete if not applicable \n(1) Insert revision no. \n(2) Insert additional columns as necessary \nS - schedule % completion \nA - actual % completion\n\nIssue Date:- 8 August 2012 \n\nRevision Date: - \n \n \nTesting and Commissioning Certificate \non \nEmergency Generator Installation \n \nPart 1 : Details of Project \n1.1 Project title (with location) : \n \n1.2 \n* P.W.P. / Project No. : \n \n1.3 \n*Contract/Sub-contract/Quotation No. : \n \n1.4 \n* Contractor/Sub-contractor : \n \n1.5 \n* PBSE/PEME : \n \n1.6 \n* PBSI/PEMI : \n \n \nPart 2: Declaration \n2.1 \nI certify that the Emergency Generator Installation as specified in the \nContract/Sub-contract/Quotation at the above location has been inspected, tested \nand commissioned in accordance with this T&C Procedure and/or any other \nprocedures as agreed between the PBSE/PEME and the Emergency Generator (GE) \nContractor. The results are satisfactory in the aspects as mentioned in Part 3 and/or \nas recorded in Part 4 of this Certificate, except as indicated in the COMMENTS \nitems. \n \n2.2 I also certify that site tests have been performed in accordance with the \nrequirements set out in Parts 3 & 4 of this T&C Procedure and that the results are \nsatisfactory. A record of the tests has been prepared and submitted to the \nPBSE/PEME. \n \nName of GE Contractor’s Representative: \n \n____________________________________________ \n \nSignature: \n \n__________________________________________ \nDesignation / Post of GE Contractor’s Representative: \n \n____________________________________________ \n \nDate signed: \n \n__________________________________________ \nName and Stamp of GE Contractor: \n \n____________________________________________ \n \nTelephone No.: \n \n__________________________________________ \nNotes: \n1. “T&C Procedure” refers to the Testing &Commissioning Procedure for Emergency Generator Installation. \n2. The GE Contractor’s Representative signing this Certificate must be a person or representative authorized by the \nGE Contractor. \n* Delete if not applicable\n\nPart 3: Items Inspected and Tested \n \n \nItem tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n \n \n \n \n3.1 \nUnderground tank \n \n \n \n3.1.1 \nThe welding has been examined and the effectiveness of the welding and \nstandard of workmanship is satisfactory. \n \n*Yes/No \n*Yes/No \n3.1.2 \nThe metal surface has been properly prepared in accordance with the \nspecification. \n \n*Yes/No \n*Yes/No \n3.1.3 \nThe manufacturer’s application procedure for the primer has been followed and \nthe type of primer, the number of coatings are in accordance with the \nspecification. \n \n*Yes/No \n*Yes/No \n \n3.1.4 \nThe underground tank has been subjected to hydraulic test to a pressure as \nspecified and the results are satisfactory. \n \n*Yes/No \n*Yes/No \n \n \n \n \n3.2 \nDaily service fuel tank \n \n \n \n3.2.1 \nThe daily service fuel tank has been fabricated and welded in accordance with the \nspecifications and drawings. \n \n*Yes/No \n*Yes/No \n3.2.2 \nThe pipework & socket connections (for filling, overflow, drainage, return and \nvent) have been properly installed at the fuel tank in accordance with the \nspecifications and drawings. \n \n*Yes/No \n*Yes/No \n3.2.3 \nOne quick closing valve has been installed properly with all necessary linkage for \noperation from outside the building. \n \n*Yes/No \n*Yes/No \n3.2.4 \nThe fuel tank has been fitted with an approved content gauge unit and level \nsensing equipment. \n \n*Yes/No \n*Yes/No \n3.2.5 \nThe fuel tank has been subjected to hydraulic test to a pressure as specified and \nthe results are satisfactory. \n \n*Yes/No \n*Yes/No\n\nItem tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.3 \nVisual inspection \n \n \n \n3.3.1 \nThe Generating Set has been properly fixed on a common steel section base \nframe. \n \n*Yes/No \n*Yes/No \n3.3.2 \nProtection screen has been provided on all moving parts. \n \n*Yes/No \n*Yes/No \n3.3.3 \nProtection guard has been provided on hot exhaust. \n \n*Yes/No \n*Yes/No \n3.3.4 \nThe fresh-water-cooled radiator has been properly fixed and there is no water \nleakage. \n \n*Yes/No \n*Yes/No \n3.3.5 \nThe radiator cooling fins and water tank are in good condition and properly fixed. \n \n*Yes/No \n*Yes/No \n3.3.6 \nThe water circulation pump with thermostatically controlled temperature \nregulator has been properly fixed. \n \n*Yes/No \n*Yes/No \n3.3.7 \nThe engine mounted instrument panel has been fixed properly and c/w \nlubrication oil temp. and cooling temp. gauges, tachometer and hour meter. \n \n*Yes/No \n*Yes/No \n3.3.8 \nThe lubrication oil system with replaceable element types filter has been properly \nfixed. \n \n*Yes/No \n*Yes/No \n3.3.9 \nThe fuel oil system c/w filter, fuel transfer pumps has been properly installed. \n \n*Yes/No \n*Yes/No \n3.3.10 \nThe fuel control solenoid c/w emergency shut off valve has been provided and \nproperly installed. \n \n*Yes/No \n*Yes/No \n3.3.11 \nThe tubular exhaust silencer has been properly installed. \n \n*Yes/No \n*Yes/No \n3.3.12 \nFor remote radiator, if applicable, c/w break tank booster pump, heat exchanger \netc. has been properly installed. \n \n*Yes/No \n*Yes/No \n3.3.13 \nThe enclosure to the alternator satisfy IP21 or as specified. \n \n*Yes/No \n*Yes/No \n3.3.14 \nAnti-condensate heater for the alternator has been provided and proper fixed. \n \n*Yes/No \n*Yes/No \n3.3.15 \nWhere specified, facilities for generation at 380/220V have been provided. \n \n*Yes/No \n*Yes/No \n3.3.16 \nStarting batteries have been provided and properly installed. \n \n*Yes/No \n*Yes/No\n\nItem tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.4 \nPre-commissioning inspection \n \n \n \n3.4.1 \nDiesel engine \n \n \n \n3.4.1.1 \nRadiator water is at right level. \n \n*Yes/No \n*Yes/No \n3.4.1.2 \nLubrication oil is at right level and with replaceable filter. \n \n*Yes/No \n*Yes/No \n3.4.1.3 \nThe engine exhaust has been properly fixed and covered with asbestos-fee \ninsulation. \n \n*Yes/No \n*Yes/No \n3.4.1.4 \nThe engine anti-vibration mounting is effective. \n \n*Yes/No \n*Yes/No \n3.4.1.5 \nProper replaceable air filter has been installed. \n \n*Yes/No \n*Yes/No \n3.4.1.6 \nEffective and adequate earth bonding have been provided for the engine and \nalternator. \n \n*Yes/No \n*Yes/No \n3.4.2 \nAlternator \n \n \n \n3.4.2.1 \nBatteries electrolyte is at right level. \n \n*Yes/No \n*Yes/No \n3.4.2.2 \nBatteries output voltage is as specified. \n \n*Yes/No \n*Yes/No \n3.4.2.3 \nThe alternator output terminal is at correct phase sequence. \n \n*Yes/No \n*Yes/No\n\nItem tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.4.3 \nControl cubicle \n \n \n \n3.4.3.1 \nPermanent Chinese/English labels have been provided for all accessories. \n \n*Yes/No \n*Yes/No \n3.4.3.2 \nAll control wirings are fitted with ferrules. \n \n*Yes/No \n*Yes/No \n3.4.3.3 \nThe following devices are provided in the control cubicle: \n \n \n \n a) Voltmeter & selector switch \n \n*Yes/No \n*Yes/No \n b) Ammeter & selector switch \n \n*Yes/No \n*Yes/No \n c) Frequency meter \n \n*Yes/No \n*Yes/No \n d) Wattmeter \n \n*Yes/No \n*Yes/No \n e) Auto/off/manual selector switch \n \n*Yes/No \n*Yes/No \n f) Start/stop push button \n \n*Yes/No \n*Yes/No \n g) “Simulate main failure” key switch \n \n*Yes/No \n*Yes/No \n h) “On-off” switch for generator anti-condensation element \n \n*Yes/No \n*Yes/No \n i) \nAutomatic 2 rate battery charging equipment c/w charging rate ammeter \n \n*Yes/No \n*Yes/No \n3.4.3.4 \nIndicating lamp & reset button for: \n \n \n \n a) Engine fault \n \n*Yes/No \n*Yes/No \n b) Failure to start \n \n*Yes/No \n*Yes/No \n c) Generator supply available \n \n*Yes/No \n*Yes/No\n\nItem tested/ \nchecked by \nGE Contractor \nItems witnessed by \nPBSE/PEME/ \nPBSI/PEMI \n3.4.3.5 \nIndication lamp for: \n \n \n \n a) Mains available \n \n*Yes/No \n*Yes/No \n b) Generator on load \n \n*Yes/No \n*Yes/No \n c) Load supplied from mains \n \n*Yes/No \n*Yes/No \n d) 7.5-hour fuel capacity \n \n*Yes/No \n*Yes/No \n e) 6.5-hour fuel capacity \n \n*Yes/No \n*Yes/No \n f) Low battery voltage \n \n*Yes/No \n*Yes/No \n3.4.3.6 \nGenerator output under voltage & over voltage protection devices \n \n*Yes/No \n*Yes/No \n3.4.3.7 \nApproved type 4-pole withdraw-able air circuit breaker or 4 pole MCCB c/w \noverload & short cot. Protection \n \n*Yes/No \n*Yes/No \n \n \n \n \n3.4.3.8 \nMechanically & electrically interlocked 4-pole contactor for automatic load \ntransfer & 4-pole manual by-pass \n \n*Yes/No \n*Yes/No \n3.5 \nA full testing has been carried out and the results of the following tests have been \nrecorded and submitted to ArchSD. \n \n \n \n a) Insulation test \n \n*Yes/No \n*Yes/No \n b) Control functions test \n \n*Yes/No \n*Yes/No \n c) Dummy load test \n \n*Yes/No \n*Yes/No \n d) Earthing protection test \n \n*Yes/No \n*Yes/No \n e) Battery charger output test \n \n*Yes/No \n*Yes/No \n f) Step-load acceptance test \n \n*Yes/No \n*Yes/No \n \n \n \n3.6 \nComment \n \n*Yes/No \n*Yes/No\n\nPart 4: Test Record attached to the Test Certificate \n \n4.1 \nEmergency Generator Installation \n \n4.1.1 \nEquipment Details \n \n \n \n(i) Generating Set \n \n \n1. \nManufacturer \n \n2. \nModel \n \n3. \nNet prime rating (MCR) (kW) \n \n \n \n(ii) Diesel Engine \n \n \n \n1. \nMake \n \n \n2. \nModel \n \n \n3. \nSerial No. \n \n \n4. \nRated power (kW) \n \n \n5. \nSpeed (rpm) \n \n \n6. \nGovernor \n \n \n7. \nTurbocharger (type/model) \n \n \n \n(iii) Alternator \n \n \n \n1. Make \n \n \n2. Model \n \n \n3. Serial No. \n \n \n4. Rated kVA \n \n \n5. Voltage (V) / Full load current (A) \n \n \n6. Phase / Rated p.f. \n \n \n7. Insulation class \n \n \n(iv) Starting Battery \n \n \n \n1. Manufacturer \n \n \n2. Make/Model No. \n \n \n3. No. of battery / Voltage (V) \n \n \n4. Ampere hour \n \n \n5. Starting time (sec) \n \n \n(v) Lifting Hoist \n \n \n \n1. Manufacturer \n \n \n2. Make / Model No. \n \n \n3. Safe working load (kg) \n \n \n4. Lifting height (m) \n \n \n5. Test Certificate *Yes/No\n\n(vi) Other Accessories \n \n \n \n 1. Name plate of manual bypass switch \n2. Name plate of auto-changeover switch \n \n4.1.2 \nType of Control \n \n \nStarting \n \n \n*Automatic/Manual \n \n \nLoading Transfer to Generating Set \n*Automatic/Manual \n \n \nStopping \n \n \n*Automatic/Manual \n \n \nLoad Transfer to Mains \n*Automatic/Manual \n \n4.1.3 \nInsulation Resistance Test (Temporarily open alternator star point) \n \n \n1. \nBrown phase (L1) to earth \nMegaohm \n \n \n \n \n2. \nBlack phase (L2) to earth \nMegaohm \n \n \n \n \n3. \nGrey phase (L3) to earth \nMegaohm \n \n \n \n \n4. \nBrown phase (L1) to Black phase (L2) \nMegaohm \n \n \n \n \n5. \nBlack phase (L2) to Grey phase (L3) \nMegaohm \n \n \n \n \n6. \nGrey phase (L3) to Brown phase (L1) \nMegaohm\n\n4.1.4 \nControl Function Test \nFunction Test \nSetting \nRemarks \n1. Starting \nManual \n \n \n \n \nSimulate Mains \nFailure \nTest 1* \n \n \n \n \nTest 2** \n \n \n \n \nDelay Start Timer \n \n \n \n \nDelay Repeat Start \n \n \n \n \n \n \n \n \n2. Stopping \nManual \n \n \n \n \nResumption of Mains *** \n \n \n \n \nDelay Stop Timer **** \n \n \n \n3. Engine \nProtection \nOverload Trip (MCCB) \n \n \n \nEngine \nOverspeed \nHL \n \n \n \nLL \n \n \n \nLow Lub-oil \nHL \n \n \n \nPressure (kPa) \nLL \n \n \n \nHigh \nWater \nTemp. (oC) \nHL \n \n \n \nLL \n \n \n \nUnder Voltage Trip \n \n \n \nOvervoltage Trip \n \n \n \nUnder Frequency (Hz) \n \n \n \n4. Others \nResponse Time from Mains \nFailure to Changeover (Sec) \n \n \n \nBattery 3 Attempt Start \n \n \n \nQuick closing Mechanism \n \n \n \nGovernor Function \n \n \n \nVoltage Regulator (346V - \n380V) \n \n \n \nAuto-starting of Vent. Fan \n \n \n \nManual Override Facilities \n \n \n \nPhase Sequence of Alternator \nOutput \n \n \n \nFrequency Setting \n \n \n \nStep-load Acceptance Test \n \n \n \nNotes : * \nRefer to function test on capability to start and transfer load to Generating Set automatically. \n \n \n** \nRefer to function test on capability to start but without load transfer if mains resume \n \n \n \nduring engine starting. \n \n \n*** \nRefer to function test on capability to automatic transfer load back to mains automatically \n \n \n \nafter a preset time delay and immediately back to generator if mains fails within the above \n \n \n \ntime delay period. \n \n \n**** Refer to function test on capability to cool engine for a preset period after load is transferred to mains.\n\n4.1.5 Dummy Load Test \n(Parameters to be recorded at 15 min interval during the whole dummy load test period) \n \n \n \n4.1.6 Earthing Protection Test \n \n \n \nMeasured Earthing Resistance \n \n \nEarthing Relay \n \nCurrent Setting \n \n \n \nMake \n \n __________________ \n \nTime Setting \n \n \nModel \n __________________ \n \nFunction Test \n \nSerial No. \n \n __________________ \n \n \nRated Current \n __________________ \n \n \n \nTime from start \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDuration (HR) \n(minimum) \n1/2 \n1/2 \n\n\n\n1/2 \nDuration (HR) (actual) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFrequency (Hz) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCurrent \nL1 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nAmp) \nL2 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nL3 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nVoltage \nL1-L2/ \nL1-N \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n(Volt) \nL2-L3/ \nL2-N \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nL3-L1/ \nL3-N \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDummy \nkW \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nLoad \n% Full \nLoad \n0% \n25% \n50% \n75% \n100% \n110% \nEngine Speed (RPM) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCooling Water Temp. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nEngine Oil Temp. (oC) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nEngine Oil Pressure (kPa) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFuel Consumption (L) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nEngine Room Temp. (OC)\n\n4.1.7 Noise Level Measurement \n \nLocation \nMean Sound Level (dBA) \nBackground \n \n \nInside Generator Room \n(1m from Generator Set) \n \nOutside Generator Room \n(1m from Radiator Exhaust) \n \nOutside Generator Room \n(1m from Door) \n \nOutside Generator Room \n(1m from Louvre) \n \nOutside Generator Room \n(1m from flue discharge if possible) \n \nOutside Generator Room \n(at the nearest Noise Sensitive Receiver) \n \n \n \n4.1.8 Comment\n\nAnnex III \nIssue Date:- 8 August 2012 \n\nAnnex III \nList of Calibrated Instrument Necessary \nfor the T&C Works \n \n \n \nPerformance Specification \n \n \nAccuracy \n \nMaximum period \n \nbetween calibrations \nTachometer 30-5000 rpm \n \n+1% \n \n1 year \nMulti-tester (AVO) \n 0-1000V \n 0-10A \n 0-W \n \n+1% \n \n1 year \nClamp on ammeter 0-1000A \n \n+1% \n \n1 year \nInsulation tester 500V-1000V \n \n+1% \n \n1 year \nPressure Gauge 0-100kPa \n0-1000kPa \n+2% \n1 year \nSound meter 0-120 dbA \n \n+2% \n \n1 year \nOther necessary testing equipment \n \n+2% \n \n1 year \n \n \nNotes: Apart from the testing equipment above, the GE Contractor shall provide additional calibrated equipment \nin accordance to the recommendations by the manufacturers to facilitate the inspection, testing and \ncommissioning of Emergency Generator. All equipment shall be calibrated by laboratories accredited by the \nHong Kong Laboratory Accreditation Scheme (HOKLAS) or other laboratory accreditation schemes as approved \nby the PBSE/PEME.",
+  "errors": [],
+  "removed_noise_lines": [
+    "(                                            )",
+    "(Name of GE Contractor’s  Representative)",
+    "(Name(s) of *PBSE/PEME/PBSI/PEMI)",
+    "Annex II",
+    "Architectural Services Department",
+    "BSB– Standard Form No.",
+    "Date  :",
+    "GE_TCP 2012 Edition",
+    "Issue Date:- 8 August 2012",
+    "PBS/SR.071(2012)",
+    "Post :",
+    "Revision Date:-",
+    "Signature -",
+    "Tel. No. :",
+    "Tested / Checked by :",
+    "Witnessed by :"
+  ]
+}

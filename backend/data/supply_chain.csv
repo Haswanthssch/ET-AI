@@ -1,0 +1,46 @@
+equipment_tag,description,vendor,origin_country,lead_time_days,delay_days,status,linked_task,unit_cost_usd,quantity,port_of_entry
+GEN-CAT-01,GEN Equipment - GEN-CAT-01,Caterpillar Inc.,Japan,120,18,Customs Hold,T-0001,502688,3,Seattle
+GEN-CAT-02,GEN Equipment - GEN-CAT-02,Caterpillar Inc.,China,179,0,On Track,,1752692,8,Seattle
+GEN-CUM-01,GEN Equipment - GEN-CUM-01,Caterpillar Inc.,Japan,91,0,Confirmed,,809477,3,Los Angeles
+UPS-EAT-01,UPS Equipment - UPS-EAT-01,Eaton Corporation,South Korea,95,0,Confirmed,T-0404,1130603,1,Houston
+UPS-EAT-02,UPS Equipment - UPS-EAT-02,Eaton Corporation,South Korea,152,0,On Track,,2063700,3,Seattle
+UPS-SCH-01,UPS Equipment - UPS-SCH-01,Eaton Corporation,South Korea,128,0,Confirmed,T-0283,1592133,8,Houston
+UPS-SCH-02,UPS Equipment - UPS-SCH-02,Eaton Corporation,South Korea,171,6,At Risk,,1616296,4,Seattle
+XFMR-ABB-01,XFMR Equipment - XFMR-ABB-01,ABB Ltd.,India,65,0,On Track,,1608999,7,Newark
+XFMR-ABB-02,XFMR Equipment - XFMR-ABB-02,ABB Ltd.,South Korea,123,0,On Track,T-0495,1402486,2,Seattle
+XFMR-GE-01,XFMR Equipment - XFMR-GE-01,ABB Ltd.,India,72,3,At Risk,,614631,7,Newark
+SWGR-SEA-01,SWGR Equipment - SWGR-SEA-01,Schneider Electric,China,69,0,Confirmed,,1430028,7,Los Angeles
+SWGR-SEA-02,SWGR Equipment - SWGR-SEA-02,Schneider Electric,South Korea,169,0,On Track,,1603874,6,Seattle
+SWGR-ABB-01,SWGR Equipment - SWGR-ABB-01,Schneider Electric,India,171,6,At Risk,T-0036,1215354,4,Los Angeles
+CRAC-VRT-01,CRAC Equipment - CRAC-VRT-01,Vertiv Group,India,115,0,On Track,,431557,8,Newark
+CRAC-VRT-02,CRAC Equipment - CRAC-VRT-02,Vertiv Group,USA,148,0,On Track,,1370525,1,Houston
+CRAC-STO-01,CRAC Equipment - CRAC-STO-01,Vertiv Group,Germany,105,0,On Track,,2237873,7,Chicago
+CHI-TRN-01,CHI Equipment - CHI-TRN-01,Trane Technologies,South Korea,147,0,On Track,T-0041,1614507,4,Seattle
+CHI-TRN-02,CHI Equipment - CHI-TRN-02,Trane Technologies,India,176,0,On Track,T-0237,1075258,8,Houston
+CHI-CAR-01,CHI Equipment - CHI-CAR-01,Trane Technologies,Japan,145,0,On Track,,1216414,3,Los Angeles
+CTW-BAL-01,CTW Equipment - CTW-BAL-01,Baltimore Aircoil,China,116,0,On Track,,1789680,5,Seattle
+CTW-BAL-02,CTW Equipment - CTW-BAL-02,Baltimore Aircoil,Japan,168,0,On Track,T-0197,457336,4,Seattle
+PDU-VER-01,PDU Equipment - PDU-VER-01,Vertiv Group,India,133,0,On Track,,1248287,1,Seattle
+PDU-VER-02,PDU Equipment - PDU-VER-02,Vertiv Group,India,95,0,On Track,,215706,8,Houston
+PDU-VER-03,PDU Equipment - PDU-VER-03,Vertiv Group,Germany,159,8,At Risk,,807471,5,Newark
+PDU-VER-04,PDU Equipment - PDU-VER-04,Vertiv Group,India,140,0,On Track,,175350,5,Seattle
+BUS-SIE-01,BUS Equipment - BUS-SIE-01,Siemens AG,USA,64,0,On Track,T-0068,1247782,6,Seattle
+BUS-SIE-02,BUS Equipment - BUS-SIE-02,Siemens AG,South Korea,82,8,At Risk,T-0277,2114679,5,Newark
+BUS-EAT-01,BUS Equipment - BUS-EAT-01,Siemens AG,China,92,0,Confirmed,,1430674,2,Seattle
+FS-CIS-01,FS Equipment - FS-CIS-01,Cisco Systems,Germany,69,0,On Track,,1676864,6,Los Angeles
+FS-CIS-02,FS Equipment - FS-CIS-02,Cisco Systems,USA,161,0,Confirmed,T-0275,1917510,6,Houston
+FS-JUN-01,FS Equipment - FS-JUN-01,Cisco Systems,China,134,0,Confirmed,,464436,4,Seattle
+FP-HON-01,FP Equipment - FP-HON-01,Honeywell,South Korea,63,0,On Track,,1385758,4,Los Angeles
+FP-HON-02,FP Equipment - FP-HON-02,Honeywell,China,141,0,Confirmed,,1722516,2,Newark
+AFL-TRU-01,AFL Equipment - AFL-TRU-01,Tate Access Floors,USA,65,0,On Track,T-0253,417652,4,Chicago
+AFL-TRU-02,AFL Equipment - AFL-TRU-02,Tate Access Floors,India,77,0,Confirmed,,2275731,7,Chicago
+AFL-TRU-03,AFL Equipment - AFL-TRU-03,Tate Access Floors,India,155,0,On Track,,425326,8,Chicago
+CONT-VRT-01,CONT Equipment - CONT-VRT-01,Panduit Corp,Germany,112,0,On Track,T-0190,1869683,8,Newark
+CONT-PAN-01,CONT Equipment - CONT-PAN-01,Panduit Corp,China,169,0,On Track,T-0352,2293655,6,Los Angeles
+CONT-PAN-02,CONT Equipment - CONT-PAN-02,Panduit Corp,Japan,110,0,On Track,T-0063,394506,4,Chicago
+CT-USM-01,CT Equipment - CT-USM-01,Unistrut,Germany,62,0,On Track,,538163,4,Los Angeles
+CT-USM-02,CT Equipment - CT-USM-02,Unistrut,China,166,6,At Risk,T-0111,628887,1,Houston
+CT-USM-03,CT Equipment - CT-USM-03,Unistrut,South Korea,169,0,On Track,,1061319,3,Los Angeles
+BMS-HON-01,BMS Equipment - BMS-HON-01,Honeywell,Germany,144,0,On Track,T-0184,2479828,6,Los Angeles
+BMS-HON-02,BMS Equipment - BMS-HON-02,Honeywell,Japan,82,0,On Track,T-0380,2216562,2,Los Angeles
+BMS-SIE-01,BMS Equipment - BMS-SIE-01,Honeywell,South Korea,120,0,Confirmed,,467405,8,Chicago

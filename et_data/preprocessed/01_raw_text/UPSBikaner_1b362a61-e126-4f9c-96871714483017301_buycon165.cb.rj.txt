@@ -1,0 +1,552 @@
+SCHEDULE - I " 
+ 
+TECHNICAL SPECIFICATIONS FOR DESIGN, MANUFACTURE, TESTING AT SHOP AND SUPPLY, 
+INSTALLATION & COMMISSIONING OF UPS SYSTEM, ITS ACCESSORIES AND ALLIED WORKS AT SITE: 
+ 
+The UPS being the own design of the UPS vendor, it shall be suitably designed manufactured, tested at 
+shop and supplied. The design standards, materials or components used manufacturing process shall all 
+conform to the respective BIS Code and any other standards mentioned elsewhere in this tender as 
+applicable. However, the following specifications, technical parameters, etc, are furnished by way of 
+basic or minimum requirement for the end result. The tenderer shall be solely responsible for the 
+entire design/ specification, safety aspects of the entire UPS system and related works as detailed in 
+the tender notwithstanding the specifications furnished hereunder. 
+ 
+A. SCOPE OF SUPPLY: 
+ 
+1. The Main System: ON-LINE Un-interrupted Power Supply (UPS) System comprising of 1 set of 5 + 5 
+KVA UPS with hot standby configuration as per the details indicated in the price bid, battery source, 
+related software for interface compatible with lan / unix system shall be designed by the 
+manufacturers own technology and standards but it shall also meet the required parameters detailed 
+below apart from the standard design parameters of the manufacturers. They shall be manufactured, 
+tested at factory for its quality and performance. Such units shall be supplied, installed and 
+commissioned at site and undertaking allied works like interlinking UPS system with battery, input 
+power supply to the UPS system, output etc. 
+ 
+2. Hot standby Operation: 
+ 
+In nutshell, the whole system comprising of one set 5 + 5 KVA UPS systems should be configured in 
+hot standby mode with common battery bank with iron stand. WITH Supply, Install, 
+Commission & Testing UPS COMPATIBLE WITH EXISTING ( 
+ALREADY PRESENT ) 16 Nos 100 Ah SMF Batteries . 
+For Hot standby operation of one set 5 + 5 KVA UPS systems, where load is taken up by first UPS, in 
+case of failure of first UPS the load should be fully taken over the other, without interruption. 
+ 
+If both the UPS fails, the loads should be transferred to bypass without interruption in power 
+supply. 
+ 
+The design of the UPS should be such that where shall not be any common parts in the circuit, 
+which will lead to single point failure. 
+ 
+It should be possible to isolate the failed UPS for repairs without the power output of other UPS. 
+ 
+3. System Maintenance: 
+ 
+Each UPS system will be serviceable independently and at the same time at-least one UPS system 
+should be available to serve load. Any scheduled maintenance actively will be carried out without 
+disrupting load at any point of time. 
+ 
+4. ACCESSORIES: 
+ 
+ Copper cable of 90% and above purity of appropriate size and current carrying capacity between 
+battery source and UPS system should be used. The cable size, the current carrying capacity should be 
+highlighted. The type of copper cable should be mentioned. Any other unspecified but related to 
+installation of UPS system, materials required for fixing the UPS system. 
+ 
+5. INSTALLATION & COMMISSIONING:
+
+Moving, unloading & Positioning of UPS system alongwith necessay electrical, batteries and 
+interconnections etc. Cabling between batteries to UPS system and between UPS system to the input 
+power source and output power point. Necessary pre-commissioning, testing and load testings for 24 
+hours upon installation should be conducted by the successful vendor. 
+ 
+6. Drawings & Manuals : Being a self designed electrical equipment, preparation and 
+submission of drawings, submission of users manual, operation and preventive measures to be 
+taken etc., shall be furnished in duplicate and all other details that are essential for its operations. 
+ 
+7. Site Conditions: The various aspects and the condition of the site and layout needs to be well 
+understood in executing the specified work. The input power to the UPS system could be either by 
+way of Electricity Board Power or by means of DG Power. The UPS system shall be capable of receiving 
+either source of power at fluctuating voltage and frequency and deliver the design output conditions as 
+specified in para B of this schedule. The location will be within the specified City limits and with 
+its inherent conditions. 
+ 
+ 
+8. Bank's Scope of Work : The Bank shall arrange for input power supply with necessary input 
+supply. Necessary input and output cabling up to the designated point of UPS location, and output 
+distribution cabling and control system will be undertaken by the bank. However the necessary 
+assistance & guidance shall be under the scope of the supplier. Existing earthing arrangement shall be 
+extended to the system. 
+ 
+9. The below mentioned specifications furnished are broad guidelines for the UPS system base` on the 
+tenderer's own design and manufactures standard system. Wherever the specifications are not 
+furnished or specific, the specification shall be as per their respective IS standards / ISO standards or 
+as per best engineering practice and they shall not be diluted. 
+ 
+ (B) TECHNICAL SPECIFICATIONS FOR 5 + 5 KVA DIGITAL SIGNAL PROCESSING(DSP) 
+ CONTROLLED ON LINE IGBT UPS SYSTEM: 
+ 
+Specifications
+Bank’s Requirement
+Technology
+a. UPS systems with DSP controlled IGBT 
+based rectifier technology in True on line 
+configuration with double conversion using 
+IGBTS in the inverter and converter. 
+b. Provision for configuring 2 UPS systems in 
+parallel load sharing mode. 
+c. 
+UPS 
+should 
+consist 
+of 
+converter/ 
+Rectifier, Battery Charger, Static Inverter 
+with static switches, Static bypass switch 
+and isolation transformer 
+d. Input Active power factor correction 
+Rating (output power max.)
+5 + 5 KVA UPS System with common battery 
+bank 
+Power Consumption
+Full Load – 8.0 KW & 35 Amps
+75% Load – 7.5 KW & 32 Amps 
+Model Name 
+Model No. 
+Manufactured by 
+INPUT
+Phase 
+Nominal Input Voltage 
+Nominal Input Voltage Range 
+Frequency 
+Nominal frequency Range 
+Single Phase 
+230 Volts AC 
++ or - 25% AC (on full load) 
+50 HZ 
+45 Hz to 65 HZ
+
+Input Power Factor with auto input P.F 
+correction system 
+DG Compatibility 
+Input over voltage protection 
+Input under voltage protection 
+Rectifier 
+Input Current THD 
+Better than 0.96
+ 
+Should be provided 
+Should be provided 
+Should be provided 
+IGBT 
+Less than or equal to 4% 
+OUTPUT
+Phase 
+Output Voltage 
+Output Voltage Range 
+Frequency 
+DG Compatibility 
+Rectifier 
+Input Current THD 
+ 
+Single Phase 
+230 Volts AC 
++ or – 1 % V AC (on full load) 
+50 HZ 
+Should be provided 
+IGBT 
+Less than or equal to 5% 
+Isolation Transformer
+ 
+UPS output is isolated from mains input and 
+battery (Galvanic Isolation Transformer) 
+Audible Alarm for
+a) Battery Low 
+b) Mains Failure 
+c) UPS Failures 
+ 
+Battery re-charge time from fully discharged 
+to 100% charged condition 
+ 
+Cold start 
+Required 
+Required 
+Required 
+ 
+Should not exceed 12 hours 
+ 
+ 
+The facility to start the UPS even if main 
+power is not there at the time of starting. 
+The system should draw current from the 
+batteries and start. This should be 
+demonstrated at the time of installation. 
+Charger Type
+ 
+ 
+ 
+ 
+ 
+Voltage Regulation 
+ 
+Ripple(Without Batteries ) 
+ 
+Battery Recharge Time from fully discharged 
+condition to 100% charged condition. 
+Constant Voltage, Constant Current (The 
+charger should be designed for atleast 15% 
+of total battery current). The charger should 
+be preferably temperature compensated 
+with automatic battery test. 
+ 
++/ - 1% 
+ 
+< 1% 
+ 
+Should not exceed 12 hours 
+Transient Response 
+ 
+Response Time 
++/- 5% (100 % load step)
+ 
+Less than 60 mili seconds 
+Automatic Static by-pass switch facility to 
+mains in case of UPS failure 
+Should be provided & should take care of 
+100% uninterrupted transfer of load from 
+UPS (synchronous bi-directional static switch 
+with zero transfer time). 
+Manual By-Pass Switch
+Built-in Manual By-Pass should be provided
+Overall Efficiency( AC to AC )
+Greater than 92 % in online mode
+Display Panel
+Built in LCD/LED Display
+Input Voltage 
+Output Voltage
+
+Heat Sink Temperature 
+Battery Voltage 
+Output Current (%) 
+Output Frequency etc 
+Indications
+AC Mains line 
+Battery on 
+Mains abnormal/ out of range 
+Load on UPS 
+Load on battery 
+Inverter mode 
+Load on Auxiliary/ bypass 
+Inverter trip 
+Protection for(Audible alarms should be 
+provided for important protections) 
+Input MCB 
+Input single phasing/ reversing 
+Rectifier Over/ under Voltage Battery MCB 
+Battery Low 
+Battery Charging Current Limit Output under 
+Voltage 
+Output Over voltage, 
+Inverter over Temperature 
+Output Overload 
+Output Short circuit etc, overheat 
+Surge Protection 
+Interface facility 
+The UPS system should have necessary 
+hardware and software 
+a) RS 232 to work on existing operating 
+systems 
+b) Remote Management. 
+ 
+There should be a facility to monitor and 
+broadcast to all workstations, whenever 
+necessary, conditions such as 
+1. Power failure: UPS working on 
+batteries 
+preferably 
+to 
+indicate 
+present load in percentage, time up 
+to which batteries can support with 
+present load & warning well in 
+advance of shutdown of the system. 
+2. The Software should be capable of 
+automatically closing files so that 
+data on our computers is not 
+lost/corrupted. 
+Environmental
+Operating Temperature 
+Storage Temperature 
+Humidity 
+Audibkle Noise Level 
+ 
+Cooling 
+Enclosure Protection 
+0 - 45 Deg C ( Continuous ) 
+0 - 55 Deg C 
+10-90% ( Non Condensing ) 
+< 52 dB at full load upto distance 
+ of 1 mtr forced air 
+IP 20 
+Warranty
+UPS should have 2 year warranty from the 
+date of supply 
+External Testing Certificate
+Must
+
+SPECIAL CONDITIONS AND DETAILS OF TESTING TO BE UNDERTAKEN FOR THE WORK OF SUPPLY, 
+INSTALLATION, & COMMISSIONING OF 5 + 5 KVA UPS SYSTEM : 
+ 
+1.0. Time is The Essence of Contract : The tenderer are requested to note that the UPS system is to 
+be provided for Bank's sensitive equipments and if for any reasons the work of supply & commissioning 
+is delayed the Bank's reputation and commitments will be affected and penalty stipulated as per 
+liquidated damages will be levied with-out any requirement on the part of the Bank to establish the 
+actual loss in monetary terms. This aspect shall be the terms of this tender and will be binding on the 
+tenderers. 
+ 
+2.0. Power Consumption: Being a techno-economic project, the power consumption, overall efficiency 
+of the UPS system, AMC charges and annual recurring expenditure shall be assessed and these aspects 
+shall be one of the criteria in evaluating the cost economics besides the initial capital cost. Therefore 
+the tenderer shall furnish the required particulars to establish the economics. The rated performance 
+shall be subject to testing and any shortfall shall be liable for penalization. 
+ 
+The details of power consumption of the entire UPS system at input level, including the battery 
+charging power shall be furnished for at full load conditions AND at 75 % load conditions Further, its 
+corresponding Invertor efficiency and overall efficiency shall also be furnished. 
+ 
+3.0. The tenders shall quote for a TWO YEAR WARRANTY for all the equipment quoted by them. 
+ 
+4.0. MAINTAINANCE OF UPS EQUIPMENT 
+ 
+A) MAINTAINCE DURING DEFECT LIABILITY PERIOD OR WARRANTY PERIOD 
+ 
+The tenderer shall maintain the UPS Equipment free of cost and ensure that it works as per tender 
+parameters. All spares required for normal operation as per tendered parameters shall be replaced at 
+no extra cost. The number of visits shall be same as stipulated in Comprehensive Annual Maintenance. 
+ 
+B) COMPREHENSIVE ANNUAL MAINTAINANCE. (CAM) (after the defect liability period) 
+ 
+The tenderer shall maintain the UPS equipment for a period of Five years after the expiry of defect 
+liability period and ensure that it works as per the tendered parameters. The rate of annual 
+maintenance charges shall be furnished for a period of 5 years after the expiry of warranty/defect 
+liability period and the rates quoted shall be binding on the tenderer. 
+ 
+5.0 The testing & performance parameters : 
+ 
+ The following pre-delivery test shall be conducted at factory /manufacturing place and necessary test 
+certificates shall be furnished before dispatch for all the technical parameters including the full load 
+test as specified. 
+ 
+ 1>. Line Regulation Test & No- load regulation test 
+ 2>. Load Regulation Test at full, & 75% load. 
+ ( on both resistive & reactive load @ 0.8 pf) 
+ 3>. Overloading Conditions 
+ 4>. Invertor Efficiency at full load. 
+ 5>. Overall Efficiency at full load. 
+ 6>. Transient Response 
+ 7>. Response (Recovery) Time 
+ 8>. Testing of Protection; Short Circuit, Under / Over 
+ Voltage conditions. 
+ 9>. Total harmonic distortions. 
+ 10>. Load Crest Factor. 
+ 11> Wave form test on resistive and inductive load
+
+12> Noise level test 
+ 13> Battery backup time cutoff and alarms test at site. 
+ 
+After, physical installation, the UPS shall be tested and commissioned at site by the manufacturers 
+engineers such as voltage, frequency, input current, harmonic distortion, output voltage harmonic 
+distortion, input power factor, efficiency, noise level, overload capacity as specified herein. 
+ 
+The power consumption shall be established at site by using standard power analyzers using 
+external load brought by the tenderer for a continuous period of 24 hours. Load test shall also be 
+established at site by using an external load to be brought at specified time as decided by the bank. 
+All the activities under this clause shall be completed within the stipulated time schedule. 
+ 
+6. EXTERNAL TESTING: Testing of UPS should be carried out from reputed testing centers like 
+Electronics Test and Development Centre, (ETDC) Dept. of Electronics, Govt. of India, or CPRI 
+Bangalore or other reputed testing centre approved by the Government of India. The tenderer shall 
+be liable to subject the UPS system to such testing. 
+ 
+The cost of such testing and transportation shall be borne by the UPS VENDORS ONLY. Also the cost of 
+damages during transportation to the testing centre up & down, rectifications of the system or any 
+of its components resulting out of such testings etc. shall be on the part of the tenderer and the 
+employer shall not be responsible for any cost or loss incurred by the tenderer while 
+undertaking the testings. 
+ 
+7.0. Penalty Clause Against Deviation From Committed Parameters : The tenderer are requested to 
+furnish the technical parameters like overall efficiency, power consumption, capacity of the UPS 
+system and other technical parameters after careful study. In case the actual parameters obtained 
+at site and test results differs from those stipulated in the offers, the tenderer will have to be 
+prepared for penalty for the shortfall in the capacity as well as higher power consumption. The 
+following methodology shall be adopted for computing the quantum of penalty. A tolerance of 5% of 
+the committed parameter in case of power consumption may be condoned by the accepting authority 
+at his discretion. 
+ 
+In case of other parameters, as the UPS system is critical in nature, if the shortfall is likely to result in 
+un-reliable operating conditions on " ON LINE " concept, the entire UPS may be rejected and the 
+contractor is liable for repayment of entire amount paid by the employer and the Initial Security 
+Deposit is liable for forfeiture. This is without any prejudice to initiate any legal action by the Bank 
+and damages eligible for. The Bank has the option to revoke the Bank Guarantee. 
+ 
+7.1. Capacity of the Equipment: In case of any shortcomings, the difference between the committed 
+capacity and the actual capacity measured at site or external testing centre shall be guiding factor to 
+determine the quantum of penalty. The pro-rata cost reduction shall be effected by the following 
+formula: 
+ 
+Quantum of penalty = Cost of UPS system X Difference X Penalty 
+ ( Note-1) in capacity Factor(*N2) 
+ ----------------------------------------------------------------------------------------- 
+ Committed Capacity of UPS system 
+ 
+Note : 1). Cost of UPS system excludes battery cost & software cost. 
+ 2). Penalty factor will be 1.5 times. 
+ 
+7.2. Power Consumption: In case of short comings in power consumption, the difference between 
+committed value and actual value will be converted into Units per hour (KWH). Excess power 
+consumed over a period of 6 years at 8 hours per day on full load condition for 300 days an year 
+shall be assessed and 20% of such assessed quantum will be liable for recovery. The actual 
+consumption of power will be subject to assessment made by the consultant / Bank Engineer in 
+the similar manner while undertaking the assessment made while evaluating the project. The 
+accepting authority may at his discretion may evaluate in comparision with other offers and extend 
+any or some relief which shall be binding.
+
+9.0 Departure From 
+Specification : Schedule of departure from the specification if any, shall be furnished by the 
+tenderer in technical and commercial bid along with implication on the system and cost. 
+SCHEDULE III 
+ 
+SCOPE OF COMPREHENSIVE ANNUAL MAINTAINANCE CONTRACT 
+ 
+The tenderer shall offer the following at no extra cost to the bank. The rate quoted for CAMC should 
+include the following. 
+ 
+1. The tenderer shall maintain the UPS System and ensure that it works as per the tendered 
+parameters. 
+ 
+2. All the repairs and replacements of spares shall be carried out which are necessitated due to usage 
+of system as per tender stipulations. However the repairs and replacements necessitated by loss or 
+damage due to misuse or accident, fire or natural calamities shall be out of the scope of CAMC. 
+ 
+3. The tenderer shall inspect the equipment at least once in a month as a part of preventive 
+Maintenance. This is apart from any breakdown visits that may be required which may emanate in 
+between the two preventive maintenance inspections. 
+ 
+4. The maximum breakdown time shall be one hour from the time of receiving the complaint over 
+phone. If the tenderer is not in a position to set right the defect or repair and put back the UPS to 
+working condition within one hour, a standby unit of to suit the tender parameters should be 
+provided immediately. 
+ 
+5. During the Preventive Maintenance the tenderer shall inspect/ check the equipment and record the 
+following in log book, which shall be verified and confirmed by the bank's representative. 
+ 
+a. UPS System : Any malfunctioning of the components. 
+ 
+b. Any other remarks regarding the Electrical System: 
+ 
+c. Any steps to be taken by bank for working of UPS system. 
+ 
+6. During the preventive Maintenance inspection tenderer shall carryout the following apart from the 
+other requirements for functioning of system as per tender parameters and same shall be recorded in a 
+log book which shall be verified and confirmed by bank's representative. 
+ 
+ UPS System : i. General cleaning. ii. Loose contact. 
+ 
+7. During the break down calls, the nature of repair carried out, parts replaced etc shall be 
+recorded in the log book. 
+ 
+ 
+OTHER TERMS WITH REGARD TO CAMC: 
+ 
+ The rate of annual maintenance charges shall be furnished for a period of 4 years after the 
+warranty/Defect Liability Period and rates quoted shall be binding on the tenderer. The scope and 
+terms of Annual Maintenance Contract like number of monthly visits, items covering under Annual 
+Maintenance Contract, replacement of spares exclusions if any, down time for break down and 
+service calls shall be as per as per the bank terms. The Bank reserves the right of discontinuing the 
+Annual Maintenance Contract from the contractor during the tenancy of Annual Maintenance 
+Contract. The cost of Annual Maintenance Charges shall also be one of the criteria in evaluation of cost 
+economics of the tender. 
+ 
+The Annual Maintenance Charges shall be paid once in six months in advance subject to 
+satisfactory maintenance for the period of previous six months and on production of bank guarantee 
+equal to the amount paid in advance. 
+ 
+ 
+Sl.
+no. 
+Item description
+Qty & unit
+
+The UPS vendor has to maintain the equipment supplied for at-least 10 years after the expiry of 
+warranty period. At the same time, the vendor is expected to make available the spare parts for the 
+systems for atleast 10 years after the expiry of warranty period. Thereafter, vendor will give 12 months 
+notice prior to discontinuation of services. AMC amount for the five year after warranty period will be 
+calculated to decide Lowest Vendor. 
+ 
+UPS SYSTEM WITH BATTERIES SHOULD BE SUPPLIED AT FOLLOWING PLACES: 
+ 
+S.NO 
+LOCATION 
+NEAR BY CITY 
+
+Churu ( 3824) 
+Churu 
+
+Hanumanagarh Town ( 5438) 
+Hanumanagarh Town 
+
+SadulShahar ( 5437) 
+
+Suratgarh ( 5574) 
+Suratgarh 
+
+Karanpur ( 4234) 
+Churu 
+
+Sikar Ind Area ( 5575) 
+Sikar 
+
+Sriganganagar Main ( 2142) 
+Sriganganagar 
+
+Laxamangarh ( 4238) 
+Churu 
+
+Ladnu (3562) 
+Ladnu 
+
+Pilibanga (5439) 
+Pilibanga 
+
+Bikaner Kriti Samtabh ( 5298) 
+Bikaner 
+
+Srimadhopur ( 5440) 
+Srimadhopur 
+ 
+ 
+1. 
+Design, manufacture, testing at factory, supply, 
+installation, commissioning and testing of state of the 
+art 5 + 5 KVA capacity Single Phase input Single phase 
+output Digital Signal Processing controlled, IGBT 
+Rectifier Technology based online 
+UPS system 
+complying all technical specifications / features/ 
+international standards as described in the tender 
+document. With SNMPS interface facility. 
+1 set (5+ 5 
+KVA) 
+
+Supply, Install, Commission & Testing 16 Nos SMF 100 Ah 
+Batteries 
+16 Nos of 
+100 Ah 
+3. 
+Comprehensive annual maintenance charges for the 
+above set consisting of entire 5+ 5 KVA UPS AFTER 
+DEFECT LIABILITY PERIOD OF 2 YEARS. 
+1ST YEAR 
+2ND YEAR 
+3RD YEAR 
+4TH YEAR 
+5th YEAR

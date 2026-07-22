@@ -1,0 +1,99 @@
+{
+  "total_rfis": 13,
+  "total_qa_pairs": 137,
+  "qa_documents": 4,
+  "narrative_documents": 9,
+  "rfis": [
+    {
+      "file": "Data_Center_RFI_Response_-_Geothermal_Rising.txt",
+      "rfi_id": "Data_Center_RFI_Response_-_Geothermal_Rising",
+      "subtype": "qa_document",
+      "qa_pairs": 7,
+      "sections": 0
+    },
+    {
+      "file": "Grid-Action-Data-Center-RFI-Response-05-07-25.txt",
+      "rfi_id": "Response",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 1
+    },
+    {
+      "file": "Impact_Control_of_RFIs_on_Construction_Projects.txt",
+      "rfi_id": "Impact_Control_of_RFIs_on_Construction_Projects",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 27
+    },
+    {
+      "file": "Questions_and_Answers_3.txt",
+      "rfi_id": "10650-19",
+      "subtype": "qa_document",
+      "qa_pairs": 40,
+      "sections": 0
+    },
+    {
+      "file": "RFI_10887-25_Questions_and_Answers_12.1.25.txt",
+      "rfi_id": "10887-25",
+      "subtype": "qa_document",
+      "qa_pairs": 9,
+      "sections": 0
+    },
+    {
+      "file": "RFI_10887-25_Questions_and_Answers_12.8.25.txt",
+      "rfi_id": "10887-25",
+      "subtype": "qa_document",
+      "qa_pairs": 81,
+      "sections": 0
+    },
+    {
+      "file": "rfi_for_cloud_adoption.txt",
+      "rfi_id": "document",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 61
+    },
+    {
+      "file": "RFI_to_Inform_Public_Bids_to_Construct_AI_Infrastructure_website_copy_.txt",
+      "rfi_id": "RFI_to_Inform_Public_Bids_to_Construct_AI_Infrastructure_website_copy_",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 53
+    },
+    {
+      "file": "RFI-Template-for-PCI-3.0.txt",
+      "rfi_id": "RFI-Template-for-PCI-3.0",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 5
+    },
+    {
+      "file": "RFI_.txt",
+      "rfi_id": "RFI_",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 8
+    },
+    {
+      "file": "rfi_quick_reference_guide.txt",
+      "rfi_id": "activity",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 27
+    },
+    {
+      "file": "SIIA-RFI-Response-_-Accelerating-Speed-to-Power.txt",
+      "rfi_id": "SIIA-RFI-Response-_-Accelerating-Speed-to-Power",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 1
+    },
+    {
+      "file": "TR-524_RFI_Template_for_Migration_to__SDN.txt",
+      "rfi_id": "TR-524_RFI_Template_for_Migration_to__SDN",
+      "subtype": "narrative_document",
+      "qa_pairs": 0,
+      "sections": 6
+    }
+  ]
+}
