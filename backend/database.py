@@ -3,23 +3,60 @@ from backend.models import UserInDB
 
 # In-memory "database" for users
 # In a real application, this would be a connection to a real database (e.g., PostgreSQL, MySQL)
-# The password for 'admin' is 'adminpass', for 'dev' is 'devpass'
+#
+# Demo credentials (all use password: etai123)
+#   admin@etai.com  -> all persona dashboards + admin
+#   exec@etai.com   -> executive
+#   procure@etai.com-> procurement
+#   engineer@etai.com-> engineer
+#   qa@etai.com     -> qa_qc
+#
+# The four persona roles map 1:1 to the frontend dashboards:
+#   executive | procurement | engineer | qa_qc
+
+# bcrypt hash of "etai123"
+_ETAI123 = "$2b$12$PYS6j/cvYILxvaT5DCBgXuXiQq8vN05S1ehCzf9yC3sjM6z4dtv.6"
+
 FAKE_USER_DB: Dict[str, Dict] = {
-    "admin@example.com": {
-        "username": "admin@example.com",
-        "full_name": "Admin User",
-        "email": "admin@example.com",
-        "hashed_password": "$2b$12$EixZaBfW3G9yS9hTjC0X/u3jZpLd3bJ5/IZmC.9y2T2/fBE5zJg/q",
+    "admin@etai.com": {
+        "username": "admin@etai.com",
+        "full_name": "Platform Admin",
+        "email": "admin@etai.com",
+        "hashed_password": _ETAI123,
         "disabled": False,
-        "available_roles": ["admin", "developer", "viewer"],
+        "available_roles": ["executive", "procurement", "engineer", "qa_qc", "admin"],
     },
-    "dev@example.com": {
-        "username": "dev@example.com",
-        "full_name": "Dev User",
-        "email": "dev@example.com",
-        "hashed_password": "$2b$12$zT.xN.cWJ2yVfLSAbpLwUuFw0i/g/aR4b.9aB.xG3f2aH4zS5f3e.",
+    "exec@etai.com": {
+        "username": "exec@etai.com",
+        "full_name": "Executive User",
+        "email": "exec@etai.com",
+        "hashed_password": _ETAI123,
         "disabled": False,
-        "available_roles": ["developer", "viewer"],
+        "available_roles": ["executive"],
+    },
+    "procure@etai.com": {
+        "username": "procure@etai.com",
+        "full_name": "Procurement Lead",
+        "email": "procure@etai.com",
+        "hashed_password": _ETAI123,
+        "disabled": False,
+        "available_roles": ["procurement"],
+    },
+    "engineer@etai.com": {
+        "username": "engineer@etai.com",
+        "full_name": "Site Engineer",
+        "email": "engineer@etai.com",
+        "hashed_password": _ETAI123,
+        "disabled": False,
+        "available_roles": ["engineer"],
+    },
+    "qa@etai.com": {
+        "username": "qa@etai.com",
+        "full_name": "QA/QC Engineer",
+        "email": "qa@etai.com",
+        "hashed_password": _ETAI123,
+        "disabled": False,
+        "available_roles": ["qa_qc"],
     },
 }
 

@@ -229,3 +229,123 @@ Date: 2024-03-15""",
             "critical_failures": 0
         }
     }
+
+
+class ComplianceRequest(BaseModel):
+    submittal_text: str
+    equipment_tag: Optional[str] = None
+
+
+@router.post("/compliance")
+async def compliance_check(req: ComplianceRequest):
+    """Spec & vendor compliance check - DEMO MODE returns fake data"""
+    return {
+        "equipment_tag": (req.equipment_tag or "SUBMITTAL").upper(),
+        "verdict": "NON-COMPLIANT",
+        "summary": "Vendor submittal reviewed against TIA-942-B and ASHRAE 90.4. "
+                   "1 critical and 1 major deviation detected; requires resubmission.",
+        "findings": [
+            {
+                "type": "non-conformance",
+                "severity": "Critical",
+                "description": "Voltage tolerance \u00b18% exceeds TIA-942-B \u00a77.3.4 limit of \u00b15%",
+                "spec_ref": "TIA-942-B \u00a77.3.4",
+            },
+            {
+                "type": "non-conformance",
+                "severity": "Major",
+                "description": "UPS battery room ventilation rate below 15-minute exhaust requirement",
+                "spec_ref": "ASHRAE-90.4",
+            },
+            {
+                "type": "observation",
+                "severity": "Minor",
+                "description": "Nameplate efficiency curve not provided for 25% load point",
+                "spec_ref": "ASHRAE-90.4 \u00a76.5",
+            },
+        ],
+        "conformances": [
+            {"description": "Ingress protection rating IP54 meets specification", "spec_ref": "TIA-942-B \u00a77.2.1"},
+            {"description": "Seismic anchorage certified to IBC 2021 Zone 4", "spec_ref": "IBC-2021 \u00a713.3"},
+        ],
+        "self_healing_triggered": True,
+    }
+
+
+@router.get("/supply-chain")
+async def supply_chain():
+    """Supply chain visibility - DEMO MODE returns fake data"""
+    items = [
+        {"tag": "GEN-CAT-01", "description": "Caterpillar 2500kVA Generator", "vendor": "Caterpillar",
+         "status": "Customs Hold", "lead_time_days": 210, "delay_days": 18, "risk": "CRITICAL",
+         "critical_path": True, "eta": "2024-05-02"},
+        {"tag": "UPS-B1", "description": "800kVA Modular UPS", "vendor": "Vertiv",
+         "status": "In Transit", "lead_time_days": 120, "delay_days": 4, "risk": "MEDIUM",
+         "critical_path": True, "eta": "2024-04-18"},
+        {"tag": "CRAC-07", "description": "Precision Cooling Unit", "vendor": "Stulz",
+         "status": "Manufacturing", "lead_time_days": 90, "delay_days": 0, "risk": "LOW",
+         "critical_path": False, "eta": "2024-04-25"},
+        {"tag": "SWGR-M1", "description": "Main LV Switchgear", "vendor": "Schneider",
+         "status": "Delivered", "lead_time_days": 150, "delay_days": 0, "risk": "LOW",
+         "critical_path": True, "eta": "2024-03-01"},
+        {"tag": "CT-04", "description": "Cooling Tower Cell", "vendor": "BAC",
+         "status": "In Transit", "lead_time_days": 100, "delay_days": 7, "risk": "HIGH",
+         "critical_path": False, "eta": "2024-04-30"},
+    ]
+    summary = {
+        "total_items": len(items),
+        "at_risk": sum(1 for i in items if i["risk"] in ("HIGH", "CRITICAL")),
+        "on_critical_path": sum(1 for i in items if i["critical_path"]),
+        "customs_holds": sum(1 for i in items if i["status"] == "Customs Hold"),
+    }
+    return {"summary": summary, "items": items}
+
+
+@router.get("/executive-summary")
+async def executive_summary():
+    """Executive dashboard KPIs + live alerts - DEMO MODE returns fake data"""
+    return {
+        "project": "Hyperscale Data Centre \u2014 Phase 1 (24 MW)",
+        "kpis": {
+            "schedule_health_pct": 82,
+            "project_slip_days": 18,
+            "open_rfis": 12,
+            "critical_ncrs": 3,
+            "supply_items_at_risk": 2,
+            "commissioning_progress_pct": 64,
+            "budget_utilization_pct": 71,
+        },
+        "sla": {"rfi_response_hours_avg": 6.4, "rfi_sla_hours": 24, "on_time_pct": 91},
+        "alerts": [
+            {
+                "severity": "Critical",
+                "title": "GEN-CAT-01 on Customs Hold",
+                "detail": "18-day delay cascades to critical path \u2014 projected 18-day project slip. "
+                          "3 mitigation options generated.",
+                "source": "Risk Engine",
+                "equipment_tag": "GEN-CAT-01",
+            },
+            {
+                "severity": "Major",
+                "title": "Voltage tolerance non-conformance",
+                "detail": "Generator submittal \u00b18% exceeds TIA-942-B \u00a77.3.4 \u00b15% limit.",
+                "source": "Compliance Agent",
+                "equipment_tag": "GEN-CAT-01",
+            },
+            {
+                "severity": "Info",
+                "title": "Tier III commissioning on track",
+                "detail": "Data Hall A commissioning 64% complete; no critical failures.",
+                "source": "Commissioning QA",
+                "equipment_tag": None,
+            },
+        ],
+        "risk_trend": [62, 65, 71, 68, 74, 79, 82],
+        "phase_progress": [
+            {"phase": "Civil", "pct": 100},
+            {"phase": "Structural", "pct": 96},
+            {"phase": "MEP", "pct": 74},
+            {"phase": "Electrical", "pct": 58},
+            {"phase": "Commissioning", "pct": 22},
+        ],
+    }
